@@ -3,12 +3,24 @@ import {
   Box, Container, Heading, Text, Tabs, TabList, TabPanels, Tab, TabPanel,
   Table, Thead, Tbody, Tr, Th, Td, Badge, HStack, VStack, Link as ChakraLink,
   SimpleGrid, Card, CardBody, Divider, Icon, Breadcrumb, BreadcrumbItem, BreadcrumbLink,
-  Alert, AlertIcon, AlertTitle, AlertDescription, Button
+  Alert, AlertIcon, AlertTitle, AlertDescription, Button, Center, Spinner
 } from '@chakra-ui/react';
 import { FaExternalLinkAlt, FaBuilding, FaChevronRight, FaMapMarkerAlt, FaIndustry } from 'react-icons/fa';
+import dynamic from 'next/dynamic';
 import { getCompanyData, getAllCompanyIds } from '../../../../lib/gcs-api-server';
+import { getCoordinateAccuracy } from '../../../../lib/coordinate-precision';
 import Layout from '../../../../components/Layout';
 import Link from 'next/link';
+
+// Leaflet 直接碰 window，靜態匯出時不能參與 SSR，只能在瀏覽器端載入
+const FacilityMap = dynamic(() => import('../../../../components/FacilityMap'), {
+  ssr: false,
+  loading: () => (
+    <Center h="100%" bg="gray.50">
+      <Spinner size="md" color="green.500" thickness="3px" />
+    </Center>
+  ),
+});
 
 const FacilityDetail = ({ companyData, facility }) => {
   if (!companyData || !facility) {
@@ -68,6 +80,14 @@ const FacilityDetail = ({ companyData, facility }) => {
     scheduleDate: v.scheduleDate,
     actualDate: v.actualDate
   })) || [];
+
+  // 地圖只在座標可解析時才畫；EPA 原始資料有部分廠區沒有經緯度
+  const mapLat = parseFloat(facilityInfo.latitude);
+  const mapLng = parseFloat(facilityInfo.longitude);
+  const hasCoordinates =
+    Number.isFinite(mapLat) && Number.isFinite(mapLng) && !(mapLat === 0 && mapLng === 0);
+  // 各廠區的座標精度差很大（小數 2 位到 7 位都有），說明文字照實寫
+  const coordinateAccuracy = hasCoordinates ? getCoordinateAccuracy(mapLat, mapLng) : null;
 
   const getProgramBadges = () => {
     const programs = [];
@@ -214,14 +234,52 @@ const FacilityDetail = ({ companyData, facility }) => {
                 <VStack align="start" spacing={4}>
                   <Heading size="md" color="green.600" mb={2}><Icon as={FaMapMarkerAlt} mr={2} />地理位置</Heading>
                   <Divider />
-                  <HStack width="100%" justifyContent="space-between">
-                    <Text fontWeight="bold" color="gray.600">緯度:</Text>
-                    <Text color="gray.800">{facilityInfo.latitude || 'N/A'}</Text>
-                  </HStack>
-                  <HStack width="100%" justifyContent="space-between">
-                    <Text fontWeight="bold" color="gray.600">經度:</Text>
-                    <Text color="gray.800">{facilityInfo.longitude || 'N/A'}</Text>
-                  </HStack>
+
+                  {hasCoordinates && (
+                    <Box
+                      w="100%"
+                      h={{ base: '260px', md: '340px' }}
+                      borderRadius="md"
+                      overflow="hidden"
+                      borderWidth="1px"
+                      borderColor="gray.200"
+                    >
+                      <FacilityMap
+                        lat={mapLat}
+                        lng={mapLng}
+                        name={facilityInfo.name}
+                        violationCount={facilityViolations.length}
+                        city={facilityInfo.city}
+                        state={facilityInfo.state}
+                      />
+                    </Box>
+                  )}
+
+                  <SimpleGrid columns={{ base: 1, sm: 2 }} spacing={4} width="100%">
+                    <HStack justifyContent="space-between">
+                      <Text fontWeight="bold" color="gray.600">緯度:</Text>
+                      <Text color="gray.800">{facilityInfo.latitude || 'N/A'}</Text>
+                    </HStack>
+                    <HStack justifyContent="space-between">
+                      <Text fontWeight="bold" color="gray.600">經度:</Text>
+                      <Text color="gray.800">{facilityInfo.longitude || 'N/A'}</Text>
+                    </HStack>
+                  </SimpleGrid>
+
+                  {hasCoordinates && (
+                    <>
+                      <Text fontSize="xs" color="gray.500">
+                        {coordinateAccuracy.showCircle
+                          ? `虛線圈為原始座標精度推估的誤差範圍（${coordinateAccuracy.label}）；圓點顏色對應違規筆數。`
+                          : `原始座標精度${coordinateAccuracy.label}；圓點顏色對應違規筆數。`}
+                      </Text>
+                      <Link href="/map" legacyBehavior>
+                        <Button as="a" size="sm" variant="outline" colorScheme="green">
+                          在全站污染地圖檢視
+                        </Button>
+                      </Link>
+                    </>
+                  )}
                 </VStack>
               </CardBody>
             </Card>

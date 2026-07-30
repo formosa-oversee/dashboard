@@ -11,6 +11,8 @@ const nextConfig = {
   assetPrefix: '',
   // 禁用字體優化以避免內嵌 CSS
   optimizeFonts: false,
+  // react-leaflet 4 / @react-leaflet/core 2 只發佈 ESM，交給 Next 轉譯
+  transpilePackages: ['react-leaflet', '@react-leaflet/core'],
 };
 
 module.exports = nextConfig; 

@@ -15,6 +15,9 @@ const Navbar = () => {
             </Flex>
           </Link>
           <HStack spacing={6}>
+            <Link href="/map" legacyBehavior>
+              <Button as="a" variant="ghost" colorScheme="green">污染地圖</Button>
+            </Link>
             <Link href="/companies" legacyBehavior>
               <Button as="a" variant="ghost" colorScheme="green">企業列表</Button>
             </Link>

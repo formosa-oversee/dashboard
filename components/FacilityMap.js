@@ -4,6 +4,7 @@ import 'leaflet/dist/leaflet.css';
 import MapResizeHandler from './MapResizeHandler';
 import { getPollutionLevel } from '../lib/pollution-scale';
 import { getCoordinateAccuracy } from '../lib/coordinate-precision';
+import { BASEMAP_URL, BASEMAP_ATTRIBUTION } from '../lib/basemap';
 
 /**
  * 單一廠區地圖：只畫這座廠區，供廠區詳情頁使用。
@@ -27,10 +28,7 @@ const FacilityMap = ({ lat, lng, name, violationCount = 0, city, state }) => {
       scrollWheelZoom={false}
       style={{ height: '100%', width: '100%' }}
     >
-      <TileLayer
-        url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
-      />
+      <TileLayer url={BASEMAP_URL} attribution={BASEMAP_ATTRIBUTION} />
 
       <MapResizeHandler />
 

@@ -5,6 +5,7 @@ import Link from 'next/link';
 import 'leaflet/dist/leaflet.css';
 import MapResizeHandler from './MapResizeHandler';
 import { getPollutionLevel, getMarkerRadius } from '../lib/pollution-scale';
+import { BASEMAP_URL, BASEMAP_ATTRIBUTION } from '../lib/basemap';
 
 // 美國本土預設視角。阿拉斯加、夏威夷、美屬薩摩亞也有廠區，
 // 但把它們一起 fitBounds 會把本土縮成一小塊，所以預設對準本土讓使用者自行平移。
@@ -108,11 +109,7 @@ const PollutionMap = ({ facilities = [], flyToTarget = null }) => {
       scrollWheelZoom
       style={{ height: '100%', width: '100%' }}
     >
-      {/* CARTO Positron：淡色底圖，讓紅黃色的違規圓點跳出來（免 API key） */}
-      <TileLayer
-        url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
-      />
+      <TileLayer url={BASEMAP_URL} attribution={BASEMAP_ATTRIBUTION} />
 
       <MapResizeHandler />
       <FlyToController target={flyToTarget} />

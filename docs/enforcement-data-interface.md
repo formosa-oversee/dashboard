@@ -244,7 +244,7 @@ MOPS 檔案放在 sibling repo `formosa-oversee/scripts/mops_company`，可用 `
 | 檢查 | 結果 |
 |---|---|
 | VT 紀錄有資金鏈歸屬 | 629 / 629 |
-| ECHO 設施有 `ownership` | 169 / 169 |
+| ECHO 設施有 `ownership` | 196 / 196（含補充的 27 個許可證） |
 | 持股比例超過 100%、未知公司代號、curated 節點找不到 | 0 |
 | `CURATED` 規則從未命中 | 0 / 47 |
 | production（formosaoversee.com）頁面資料含 `ownership` | 已確認 |
@@ -283,4 +283,37 @@ ECHO 的查詢 API 會限流（HTTP 429），逐一查 700 個名稱不可行，
 
 同名誤配、不是缺漏：Barrette Outdoor Living（對新麗 9944 的 American Outdoor Living）、Mira Mobile Home Community（對泰金 6629 的 Mira Home）。
 
-這些工廠要不要納入網站，需要另外匯入它們的 ICIS-NPDES 違規紀錄，目前沒有加進 `facilities.csv`。
+#### 已補進網站（2026-09-30）
+
+確認屬台灣母公司的許可證，由 `scripts/build-echo-supplement.py` 從 EPA ICIS-NPDES 全量檔（`npdes_downloads.zip`、放流水超標 `npdes_eff_downloads.zip`）取出設施與違規，寫入 `data/facilities-supplement.csv`、`data/violations-supplement.csv`（進 git），建置時合併。GCS 的原始 CSV 不動。
+
+```bash
+npm run supplement -- --npdes=/tmp/npdes_downloads.zip --eff=/tmp/npdes_eff_downloads.zip
+npm run attribution
+```
+
+| 台灣母公司 | 補進的工廠 | 許可證 | 補進違規 |
+|---|---|---|---|
+| 台塑集團關係企業（1301 代表） | FPC Texas Point Comfort 主廠、鐵路調車場 | TX0085570、TXR15285Z、TXR05GN80、TXR1575HM | 626（1987–2025） |
+| 台塑化 6505（新公司頁） | FG LA，St. James Sunshine Project | LAR10N958、LAR10N960 | 0 |
+| 國際中橡 2104 | Continental Carbon Sunray、Phenix City | TXR05EU88、ALD000238、ALU011379 | 0 |
+| 台光電 2383（新公司頁） | Arlon EMD，Rancho Cucamonga | CAZ469513 | 1 |
+| 特力 2908（新公司頁） | Test Rite，Ontario CA、Oakwood GA | CAZ494423、GAR1544B7 | 2 |
+| 台積電 2330 | TSMC Arizona 工地與辦公區 | AZC112312、AZC112964、AZC113138、AZC113140、AZC113891 | 0 |
+| 大成不銹鋼 2027 | TCI Texarkana、Primus Pipe and Tube | TX0097055、TXR1533GK、FLR10SJ36 | 2 |
+| 其他既有公司 | 保瑞 Upsher-Smith、力山 Power Tool Specialists、美食-KY 85°C、長榮 Everport、大成 Amy Food、鴻海 Sharp Memphis | 各 1–2 張 | 3 |
+
+合計補進 27 個許可證、634 筆違規；網站由 92 家公司、169 個設施、5,862 筆違規，變成 95 家、196 個設施、6,496 筆。補完後重跑稽核：完整涵蓋由 31 個升到 50 個，部分涵蓋由 16 個降到 4 個。
+
+控制時點：TCI Texarkana 是 2018-10 向 Arconic 買下，TX0097055 在 2000–2010 年的 556 筆違規屬前業主（Alcoa／Arconic），不納入；夏普美國以 2016 年為起點。
+
+刻意不納入：
+
+| 候選 | 原因 |
+|---|---|
+| SCR000483 南亞南卡 | 已在 GCS 原始資料，許可證號被轉成「SCR 483.00」所以稽核沒認出 |
+| WAG030060「MORRIS & CO DBA OCEAN ALEXANDER」 | 同品牌經銷商，與東哥的持股關係未能確認 |
+| TXR05M678「ALUMAX MILL PRODUCTS」 | 前業主名下的許可證 |
+| LAR10O047 Bo-Mac Contractors | FG LA 工程承包商的許可證，不是工廠本身 |
+| Continental Carbon Ponca City OK、Tulex Pharmaceuticals NJ | 沒有 NPDES 許可證，違規屬空污／其他法規，網站目前只收水污違規 |
+| Barrette Outdoor Living、Mira Mobile Home Community、Chroma Corp（IL） | 同名誤配 |

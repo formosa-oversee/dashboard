@@ -8,6 +8,7 @@ Next.js 14 靜態匯出的企業違規監測 dashboard。資料在 build 時由 
 - `npm run download-epa` → 用 gcloud 下載到 `data/facilities.csv`、`data/violations.csv`。
 - `npm run fetch-data` → `scripts/fetch-gcs-data.js` 轉成 `data/epa-data.json`。
 - `npm run build` 會先跑 `fetch-data`。
+- **補充資料**：`data/facilities-supplement.csv`、`data/violations-supplement.csv`（進 git，不在 GCS）由 `scripts/build-echo-supplement.py` 從 EPA ICIS-NPDES 全量檔產生，收 ECHO 覆蓋率稽核確認屬台灣母公司、但 GCS 原始 CSV 沒有的許可證；`fetch-gcs-data.js` 建置時合併。重新下載 GCS 資料不會蓋掉它們。新增工廠時改腳本內 `CONFIRMED`，每筆寫依據。
 - 公司主鍵是台灣上市公司代號（`companyCode`，如 1210），以投審會境外投資名稱模糊匹配到 EPA facility。
 - `lib/api.js` 內仍有大量 mock data，`violations` / `enforcement` 陣列多為空。
 - 研究筆記放在 `docs/`。資料模型接口見 `docs/enforcement-data-interface.md`。

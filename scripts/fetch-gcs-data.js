@@ -422,6 +422,21 @@ async function main() {
     console.log('🔄 解析 CSV 資料...');
     const facilities = parseCSV(facilitiesCSV);
     const violations = violationsCSV ? parseCSV(violationsCSV) : [];
+
+    // 補充資料：ECHO 覆蓋率稽核確認屬台灣母公司、但 GCS 原始 CSV 沒有的設施（scripts/build-echo-supplement.py 產生，進 git）
+    for (const [file, target, idKey] of [['facilities-supplement.csv', facilities, 'icis_facility_id'], ['violations-supplement.csv', violations, 'NPDES_VIOLATION_ID']]) {
+      const p = path.join(DATA_DIR, file);
+      if (!fs.existsSync(p)) continue;
+      const rows = parseCSV(fs.readFileSync(p, 'utf8').replace(/^\uFEFF/, ''));
+      const seen = new Set(target.map(r => `${normalizeId(r[idKey] || r['ICIS_FACILITY_ID'])}|${r['npdes_id'] || r['NPDES_ID'] || ''}|${r['SINGLE_EVENT_VIOLATION_DATE'] || ''}|${r['DMR_VALUE_ID'] || ''}`));
+      let added = 0;
+      for (const r of rows) {
+        const key = `${normalizeId(r[idKey] || r['ICIS_FACILITY_ID'])}|${r['npdes_id'] || r['NPDES_ID'] || ''}|${r['SINGLE_EVENT_VIOLATION_DATE'] || ''}|${r['DMR_VALUE_ID'] || ''}`;
+        if (seen.has(key)) continue;
+        seen.add(key); target.push(r); added++;
+      }
+      console.log(`➕ ${file}：合併 ${added} 筆`);
+    }
     
     console.log(`解析完成: ${facilities.length} 設施記錄, ${violations.length} 違規記錄`);
     

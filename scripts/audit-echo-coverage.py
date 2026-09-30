@@ -124,7 +124,8 @@ def match_exporter(zip_path, terms, companies, have, results, df):
     by_first = collections.defaultdict(list)          # 最少見的字 → 搜尋詞（加速）
     for t, need in term_toks.items():
         by_first[min(need, key=len) if len(need) == 1 else sorted(need)[0]].append(t)
-    have_npdes = {x.replace(' ', '') for x in (re.sub(r'\.0+$', '', (f.get('npdes_id') or '').strip()) for f in csv.DictReader(open(DASH / 'data' / 'facilities.csv', encoding='utf-8-sig'))) if x}
+    fac_files = [DASH / 'data' / 'facilities.csv'] + ([DASH / 'data' / 'facilities-supplement.csv'] if (DASH / 'data' / 'facilities-supplement.csv').exists() else [])
+    have_npdes = {x.replace(' ', '') for fp in fac_files for x in (re.sub(r'\.0+$', '', (f.get('npdes_id') or '').strip()) for f in csv.DictReader(open(fp, encoding='utf-8-sig'))) if x}
     zf = zipfile.ZipFile(zip_path)
     name = next(n for n in zf.namelist() if n.lower().endswith('.csv'))
     n = 0
@@ -179,7 +180,8 @@ def main():
         terms.setdefault(t, []).append((code, t, why))
     print(f'{len(subs)} 家公司、{sum(len(v) for v in subs.values())} 個美國子公司 → {len(terms)} 個搜尋詞', file=sys.stderr)
 
-    have = {(ro.en_key(f['facility_name']), f['state'].strip()) for f in csv.DictReader(open(DASH / 'data' / 'facilities.csv', encoding='utf-8-sig'))}
+    fac_files = [DASH / 'data' / 'facilities.csv'] + ([DASH / 'data' / 'facilities-supplement.csv'] if (DASH / 'data' / 'facilities-supplement.csv').exists() else [])
+    have = {(ro.en_key(f['facility_name']), f['state'].strip()) for fp in fac_files for f in csv.DictReader(open(fp, encoding='utf-8-sig'))}
     results, skipped = [], []
 
     failed = []

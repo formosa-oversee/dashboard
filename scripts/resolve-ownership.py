@@ -304,7 +304,7 @@ FPG_USA_NOTE = ('FPC USA（台塑美國）與其德州 Point Comfort、路易斯
 
 CURATED = [
     # ---- 台塑集團（美國）：FPC USA 為集團關係企業，無上市公司持股路徑
-    (SRC_US, 'formosa-plastics', r'formosa (plastics?|petrochemical)', dict(
+    (SRC_US, 'formosa-plastics', r'formosa (plastics?|petrochemical|point comfort|rail line)', dict(
         group=['1301'], groupName='台塑集團 Formosa Plastics Group', entityName='Formosa Plastics Corporation, U.S.A.（台塑美國）',
         confidence='medium', basis='group-affiliate', note=FPG_USA_NOTE)),
     (SRC_US, 'nan-ya-plastics', r'nan ya plastics.*\bamerica\b', dict(node=('1303', '南亞塑膠美洲'), confidence='high',
@@ -614,6 +614,8 @@ def main():
 
     # ---- EPA ECHO facilities
     fac = list(csv.DictReader(open(DATA / 'facilities.csv', encoding='utf-8-sig')))
+    if (DATA / 'facilities-supplement.csv').exists():      # ECHO 覆蓋率稽核補進來的設施
+        fac += list(csv.DictReader(open(DATA / 'facilities-supplement.csv', encoding='utf-8-sig')))
     seen = set()
     for f in fac:
         code = f['公司代號'].strip()
@@ -621,7 +623,7 @@ def main():
         if not code or not fid or (code, fid) in seen: continue
         seen.add((code, fid))
         # ECHO 的台塑美國設施：沿用 US 版 curated 規則
-        parent_slug = 'formosa-plastics' if code == '1301' else ('nan-ya-plastics' if code == '1303' else None)
+        parent_slug = {'1301': 'formosa-plastics', '1303': 'nan-ya-plastics', '2317': 'foxconn-technology-group-hon-hai-precisi'}.get(code)
         res = r.resolve(SRC_US if parent_slug else SRC_ECHO, parent_slug, f['facility_name'], [code], echo_sub=f['境外子公司名稱'] or None)
         if res['responsible'].get('kind') in ('unresolved',) or res.get('method') == 'vt-parent-mapping':
             res = echo_fallback(r, g, us_subs, code, f)

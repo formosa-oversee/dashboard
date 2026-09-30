@@ -19,7 +19,8 @@
     "ownership": "python3 scripts/resolve-ownership.py",
     "enforcement": "node scripts/build-enforcement.js",
     "attribution": "npm run ownership && npm run enforcement && npm run fetch-data",
-    "audit:echo": "python3 scripts/audit-echo-coverage.py"
+    "audit:echo": "python3 scripts/audit-echo-coverage.py",
+    "supplement": "python3 scripts/build-echo-supplement.py"
   },
   "keywords": [],
   "author": "",

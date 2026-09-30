@@ -111,14 +111,14 @@
       "rarestTokenDF": 89
     },
     {
-      "term": "WAIMEA",
-      "rows": 41,
-      "rarestTokenDF": 41
-    },
-    {
       "term": "HILLSBORO",
       "rows": 299,
       "rarestTokenDF": 299
+    },
+    {
+      "term": "WAIMEA",
+      "rows": 41,
+      "rarestTokenDF": 41
     },
     {
       "term": "GENESIS",
@@ -249,11 +249,8 @@
       "state": "TX",
       "active": "Y",
       "inOurData": true,
-      "coverage": "partial",
-      "npdesMissingFromOurs": [
-        "TX0085570",
-        "TXR15285Z"
-      ],
+      "coverage": "full",
+      "npdesMissingFromOurs": [],
       "npdesIds": [
         "TX0085570",
         "TXR15285Z",
@@ -392,10 +389,8 @@
       "state": "TX",
       "active": "Y",
       "inOurData": true,
-      "coverage": "partial",
-      "npdesMissingFromOurs": [
-        "TXR05EU88"
-      ],
+      "coverage": "full",
+      "npdesMissingFromOurs": [],
       "npdesIds": [
         "TXR05DO69",
         "TXR05EU88"
@@ -525,13 +520,13 @@
         {
           "code": "1513",
           "name": "中興電工機械股份有限公司",
-          "via": "H2 PowerTech,INC.",
+          "via": "H2 PowerTech,LLC.",
           "basis": "MOPS 美國子公司"
         },
         {
           "code": "1513",
           "name": "中興電工機械股份有限公司",
-          "via": "H2 PowerTech,LLC.",
+          "via": "H2 PowerTech,INC.",
           "basis": "MOPS 美國子公司"
         }
       ],
@@ -628,13 +623,13 @@
         {
           "code": "1513",
           "name": "中興電工機械股份有限公司",
-          "via": "H2 PowerTech,INC.",
+          "via": "H2 PowerTech,LLC.",
           "basis": "MOPS 美國子公司"
         },
         {
           "code": "1513",
           "name": "中興電工機械股份有限公司",
-          "via": "H2 PowerTech,LLC.",
+          "via": "H2 PowerTech,INC.",
           "basis": "MOPS 美國子公司"
         }
       ],
@@ -741,13 +736,13 @@
         {
           "code": "8478",
           "name": "東哥企業股份有限公司",
-          "via": "Alexander Marine Enterprises Inc",
+          "via": "Alexander Marine USA Inc",
           "basis": "MOPS 美國子公司"
         },
         {
           "code": "8478",
           "name": "東哥企業股份有限公司",
-          "via": "Alexander Marine USA Inc",
+          "via": "Alexander Marine Enterprises Inc",
           "basis": "MOPS 美國子公司"
         }
       ],
@@ -951,11 +946,9 @@
       "city": "RANCHO CUCAMONGA",
       "state": "CA",
       "active": "Y",
-      "inOurData": false,
-      "coverage": "none",
-      "npdesMissingFromOurs": [
-        "CAZ469513"
-      ],
+      "inOurData": true,
+      "coverage": "full",
+      "npdesMissingFromOurs": [],
       "npdesIds": [
         "CAZ469513"
       ],
@@ -986,11 +979,9 @@
       "city": "ONTARIO",
       "state": "CA",
       "active": "Y",
-      "inOurData": false,
-      "coverage": "none",
-      "npdesMissingFromOurs": [
-        "CAZ494423"
-      ],
+      "inOurData": true,
+      "coverage": "full",
+      "npdesMissingFromOurs": [],
       "npdesIds": [
         "CAZ494423"
       ],
@@ -1181,14 +1172,14 @@
       "lastPenalty": ""
     },
     {
-      "term": "NAN YA PLASTICS",
+      "term": "FORMOSA PLASTICS",
       "strength": "strong",
       "owners": [
         {
-          "code": "1303",
-          "name": "南亞塑膠工業股份有限公司",
-          "via": "NAN YA PLASTICS",
-          "basis": "南亞美國／南亞美洲／南亞德州"
+          "code": "1301",
+          "name": "台灣塑膠工業股份有限公司",
+          "via": "FORMOSA PLASTICS",
+          "basis": "FPC USA，台塑集團關係企業（私人持有）"
         }
       ],
       "registryId": "110002066120",
@@ -1220,13 +1211,13 @@
         {
           "code": "9944",
           "name": "新麗企業股份有限公司",
-          "via": "AMERICAN NONWOVEN INC.",
+          "via": "MS NONWOVEN INC.",
           "basis": "MOPS 美國子公司"
         },
         {
           "code": "9944",
           "name": "新麗企業股份有限公司",
-          "via": "MS NONWOVEN INC.",
+          "via": "AMERICAN NONWOVEN INC.",
           "basis": "MOPS 美國子公司"
         }
       ],
@@ -1584,12 +1575,8 @@
       "state": "AZ",
       "active": "Y",
       "inOurData": true,
-      "coverage": "partial",
-      "npdesMissingFromOurs": [
-        "AZC112964",
-        "AZC113138",
-        "AZC113140"
-      ],
+      "coverage": "full",
+      "npdesMissingFromOurs": [],
       "npdesIds": [
         "AZC108221",
         "AZC109427",
@@ -1958,13 +1945,13 @@
         {
           "code": "8478",
           "name": "東哥企業股份有限公司",
-          "via": "Alexander Marine Enterprises Inc",
+          "via": "Alexander Marine USA Inc",
           "basis": "MOPS 美國子公司"
         },
         {
           "code": "8478",
           "name": "東哥企業股份有限公司",
-          "via": "Alexander Marine USA Inc",
+          "via": "Alexander Marine Enterprises Inc",
           "basis": "MOPS 美國子公司"
         }
       ],
@@ -2643,13 +2630,13 @@
         {
           "code": "8478",
           "name": "東哥企業股份有限公司",
-          "via": "Alexander Marine Enterprises Inc",
+          "via": "Alexander Marine USA Inc",
           "basis": "MOPS 美國子公司"
         },
         {
           "code": "8478",
           "name": "東哥企業股份有限公司",
-          "via": "Alexander Marine USA Inc",
+          "via": "Alexander Marine Enterprises Inc",
           "basis": "MOPS 美國子公司"
         }
       ],
@@ -2742,13 +2729,13 @@
         {
           "code": "1513",
           "name": "中興電工機械股份有限公司",
-          "via": "H2 PowerTech,INC.",
+          "via": "H2 PowerTech,LLC.",
           "basis": "MOPS 美國子公司"
         },
         {
           "code": "1513",
           "name": "中興電工機械股份有限公司",
-          "via": "H2 PowerTech,LLC.",
+          "via": "H2 PowerTech,INC.",
           "basis": "MOPS 美國子公司"
         }
       ],
@@ -3902,10 +3889,8 @@
       "state": "CO",
       "active": "Y",
       "inOurData": true,
-      "coverage": "partial",
-      "npdesMissingFromOurs": [
-        "CONOX0652"
-      ],
+      "coverage": "full",
+      "npdesMissingFromOurs": [],
       "npdesIds": [
         "CONOX0652",
         "COPIU008A"
@@ -3969,10 +3954,8 @@
       "state": "TX",
       "active": "Y",
       "inOurData": true,
-      "coverage": "partial",
-      "npdesMissingFromOurs": [
-        "TXR1533GK"
-      ],
+      "coverage": "full",
+      "npdesMissingFromOurs": [],
       "npdesIds": [
         "TXR1533GK"
       ],
@@ -4194,13 +4177,13 @@
         {
           "code": "8478",
           "name": "東哥企業股份有限公司",
-          "via": "Alexander Marine Enterprises Inc",
+          "via": "Alexander Marine USA Inc",
           "basis": "MOPS 美國子公司"
         },
         {
           "code": "8478",
           "name": "東哥企業股份有限公司",
-          "via": "Alexander Marine USA Inc",
+          "via": "Alexander Marine Enterprises Inc",
           "basis": "MOPS 美國子公司"
         }
       ],
@@ -4891,11 +4874,8 @@
       "state": "AL",
       "active": "Y",
       "inOurData": true,
-      "coverage": "partial",
-      "npdesMissingFromOurs": [
-        "ALD000238",
-        "ALU011379"
-      ],
+      "coverage": "full",
+      "npdesMissingFromOurs": [],
       "npdesIds": [
         "ALD000052",
         "ALD000238",
@@ -4919,12 +4899,6 @@
         {
           "code": "2702",
           "name": "華園飯店股份有限公司",
-          "via": "Holiday Garden EV CORP.",
-          "basis": "MOPS 美國子公司"
-        },
-        {
-          "code": "2702",
-          "name": "華園飯店股份有限公司",
           "via": "Holiday Garden FM CORP.",
           "basis": "MOPS 美國子公司"
         },
@@ -4932,6 +4906,12 @@
           "code": "2702",
           "name": "華園飯店股份有限公司",
           "via": "Holiday Garden VC CORP.",
+          "basis": "MOPS 美國子公司"
+        },
+        {
+          "code": "2702",
+          "name": "華園飯店股份有限公司",
+          "via": "Holiday Garden EV CORP.",
           "basis": "MOPS 美國子公司"
         },
         {
@@ -5363,11 +5343,8 @@
       "state": "AZ",
       "active": "Y",
       "inOurData": true,
-      "coverage": "partial",
-      "npdesMissingFromOurs": [
-        "AZC112312",
-        "AZC113891"
-      ],
+      "coverage": "full",
+      "npdesMissingFromOurs": [],
       "npdesIds": [
         "AZC108461",
         "AZC112312",
@@ -5968,10 +5945,8 @@
       "state": "CA",
       "active": "Y",
       "inOurData": true,
-      "coverage": "partial",
-      "npdesMissingFromOurs": [
-        "CAZ513140"
-      ],
+      "coverage": "full",
+      "npdesMissingFromOurs": [],
       "npdesIds": [
         "CAW511595",
         "CAZ513140"
@@ -6777,12 +6752,9 @@
       "city": "POINT COMFORT",
       "state": "TX",
       "active": "Y",
-      "inOurData": false,
-      "coverage": "none",
-      "npdesMissingFromOurs": [
-        "TXR05GN80",
-        "TXR1575HM"
-      ],
+      "inOurData": true,
+      "coverage": "full",
+      "npdesMissingFromOurs": [],
       "npdesIds": [
         "TXR05GN80",
         "TXR1575HM"
@@ -6815,10 +6787,8 @@
       "state": "CA",
       "active": "Y",
       "inOurData": true,
-      "coverage": "partial",
-      "npdesMissingFromOurs": [
-        "CAZ502731"
-      ],
+      "coverage": "full",
+      "npdesMissingFromOurs": [],
       "npdesIds": [
         "CAZ485516",
         "CAZ502731"
@@ -6975,10 +6945,8 @@
       "state": "CA",
       "active": "Y",
       "inOurData": true,
-      "coverage": "partial",
-      "npdesMissingFromOurs": [
-        "CAZ466559"
-      ],
+      "coverage": "full",
+      "npdesMissingFromOurs": [],
       "npdesIds": [
         "CAZ466559"
       ],
@@ -7393,11 +7361,9 @@
       "city": "OAKWOOD",
       "state": "GA",
       "active": "Y",
-      "inOurData": false,
-      "coverage": "none",
-      "npdesMissingFromOurs": [
-        "GAR1544B7"
-      ],
+      "inOurData": true,
+      "coverage": "full",
+      "npdesMissingFromOurs": [],
       "npdesIds": [
         "GAR1544B7"
       ],
@@ -8273,13 +8239,13 @@
         {
           "code": "1513",
           "name": "中興電工機械股份有限公司",
-          "via": "H2 PowerTech,INC.",
+          "via": "H2 PowerTech,LLC.",
           "basis": "MOPS 美國子公司"
         },
         {
           "code": "1513",
           "name": "中興電工機械股份有限公司",
-          "via": "H2 PowerTech,LLC.",
+          "via": "H2 PowerTech,INC.",
           "basis": "MOPS 美國子公司"
         }
       ],
@@ -8310,13 +8276,13 @@
         {
           "code": "9944",
           "name": "新麗企業股份有限公司",
-          "via": "AMERICAN NONWOVEN INC.",
+          "via": "MS NONWOVEN INC.",
           "basis": "MOPS 美國子公司"
         },
         {
           "code": "9944",
           "name": "新麗企業股份有限公司",
-          "via": "MS NONWOVEN INC.",
+          "via": "AMERICAN NONWOVEN INC.",
           "basis": "MOPS 美國子公司"
         }
       ],
@@ -8479,13 +8445,13 @@
         {
           "code": "1597",
           "name": "直得科技股份有限公司",
-          "via": "CHIEFTEK PRECISION\n\n  INTERNATIONAL LLC",
+          "via": "CHIEFTEK PRECISION\n\n  USA CO., LTD.",
           "basis": "MOPS 美國子公司"
         },
         {
           "code": "1597",
           "name": "直得科技股份有限公司",
-          "via": "CHIEFTEK PRECISION\n\n  USA CO., LTD.",
+          "via": "CHIEFTEK PRECISION\n\n  INTERNATIONAL LLC",
           "basis": "MOPS 美國子公司"
         }
       ],
@@ -8672,10 +8638,8 @@
       "state": "FL",
       "active": "Y",
       "inOurData": true,
-      "coverage": "partial",
-      "npdesMissingFromOurs": [
-        "FLR10SJ36"
-      ],
+      "coverage": "full",
+      "npdesMissingFromOurs": [],
       "npdesIds": [
         "FLR05I198",
         "FLR10SJ36"
@@ -9026,13 +8990,13 @@
         {
           "code": "9944",
           "name": "新麗企業股份有限公司",
-          "via": "AMERICAN NONWOVEN INC.",
+          "via": "MS NONWOVEN INC.",
           "basis": "MOPS 美國子公司"
         },
         {
           "code": "9944",
           "name": "新麗企業股份有限公司",
-          "via": "MS NONWOVEN INC.",
+          "via": "AMERICAN NONWOVEN INC.",
           "basis": "MOPS 美國子公司"
         }
       ],
@@ -9238,13 +9202,13 @@
         {
           "code": "9944",
           "name": "新麗企業股份有限公司",
-          "via": "AMERICAN NONWOVEN INC.",
+          "via": "MS NONWOVEN INC.",
           "basis": "MOPS 美國子公司"
         },
         {
           "code": "9944",
           "name": "新麗企業股份有限公司",
-          "via": "MS NONWOVEN INC.",
+          "via": "AMERICAN NONWOVEN INC.",
           "basis": "MOPS 美國子公司"
         }
       ],
@@ -9849,11 +9813,9 @@
       "city": "SAINT JAMES",
       "state": "LA",
       "active": "",
-      "inOurData": false,
-      "coverage": "none",
-      "npdesMissingFromOurs": [
-        "LAR10N958"
-      ],
+      "inOurData": true,
+      "coverage": "full",
+      "npdesMissingFromOurs": [],
       "npdesIds": [
         "LAR10N958"
       ],
@@ -10127,13 +10089,13 @@
         {
           "code": "6499",
           "name": "益安生醫股份有限公司",
-          "via": "Medeologix LLC",
+          "via": "Medeologix,Inc.",
           "basis": "MOPS 美國子公司"
         },
         {
           "code": "6499",
           "name": "益安生醫股份有限公司",
-          "via": "Medeologix,Inc.",
+          "via": "Medeologix LLC",
           "basis": "MOPS 美國子公司"
         }
       ],
@@ -11000,13 +10962,13 @@
         {
           "code": "1513",
           "name": "中興電工機械股份有限公司",
-          "via": "H2 PowerTech,INC.",
+          "via": "H2 PowerTech,LLC.",
           "basis": "MOPS 美國子公司"
         },
         {
           "code": "1513",
           "name": "中興電工機械股份有限公司",
-          "via": "H2 PowerTech,LLC.",
+          "via": "H2 PowerTech,INC.",
           "basis": "MOPS 美國子公司"
         }
       ],
@@ -11227,13 +11189,13 @@
         {
           "code": "8478",
           "name": "東哥企業股份有限公司",
-          "via": "Alexander Marine Enterprises Inc",
+          "via": "Alexander Marine USA Inc",
           "basis": "MOPS 美國子公司"
         },
         {
           "code": "8478",
           "name": "東哥企業股份有限公司",
-          "via": "Alexander Marine USA Inc",
+          "via": "Alexander Marine Enterprises Inc",
           "basis": "MOPS 美國子公司"
         }
       ],
@@ -11679,14 +11641,14 @@
       "lastPenalty": ""
     },
     {
-      "term": "SHARP ELECTRONICS",
+      "term": "SHARP MANUFACTURING",
       "strength": "strong",
       "owners": [
         {
           "code": "2317",
           "name": "鴻海精密工業股份有限公司",
-          "via": "SHARP ELECTRONICS",
-          "basis": "夏普美國（鴻海集團，2016 起）"
+          "via": "SHARP MANUFACTURING",
+          "basis": "夏普美國製造（鴻海集團，2016 起）"
         }
       ],
       "registryId": "110012706143",
@@ -11854,13 +11816,13 @@
         {
           "code": "8478",
           "name": "東哥企業股份有限公司",
-          "via": "Alexander Marine Enterprises Inc",
+          "via": "Alexander Marine USA Inc",
           "basis": "MOPS 美國子公司"
         },
         {
           "code": "8478",
           "name": "東哥企業股份有限公司",
-          "via": "Alexander Marine USA Inc",
+          "via": "Alexander Marine Enterprises Inc",
           "basis": "MOPS 美國子公司"
         }
       ],
@@ -11996,13 +11958,13 @@
         {
           "code": "1513",
           "name": "中興電工機械股份有限公司",
-          "via": "H2 PowerTech,INC.",
+          "via": "H2 PowerTech,LLC.",
           "basis": "MOPS 美國子公司"
         },
         {
           "code": "1513",
           "name": "中興電工機械股份有限公司",
-          "via": "H2 PowerTech,LLC.",
+          "via": "H2 PowerTech,INC.",
           "basis": "MOPS 美國子公司"
         }
       ],
@@ -12109,11 +12071,8 @@
       "state": "TX",
       "active": "Y",
       "inOurData": true,
-      "coverage": "partial",
-      "npdesMissingFromOurs": [
-        "TXRNEBU79",
-        "TXRNET517"
-      ],
+      "coverage": "full",
+      "npdesMissingFromOurs": [],
       "npdesIds": [
         "TXRNEBU79",
         "TXRNET517"
@@ -13898,13 +13857,13 @@
         {
           "code": "8478",
           "name": "東哥企業股份有限公司",
-          "via": "Alexander Marine Enterprises Inc",
+          "via": "Alexander Marine USA Inc",
           "basis": "MOPS 美國子公司"
         },
         {
           "code": "8478",
           "name": "東哥企業股份有限公司",
-          "via": "Alexander Marine USA Inc",
+          "via": "Alexander Marine Enterprises Inc",
           "basis": "MOPS 美國子公司"
         }
       ],
@@ -16458,11 +16417,9 @@
       "city": "MEMPHIS",
       "state": "TN",
       "active": "Y",
-      "inOurData": false,
-      "coverage": "none",
-      "npdesMissingFromOurs": [
-        "TNR053068"
-      ],
+      "inOurData": true,
+      "coverage": "full",
+      "npdesMissingFromOurs": [],
       "npdesIds": [
         "TNR053068"
       ],
@@ -17018,13 +16975,13 @@
         {
           "code": "1513",
           "name": "中興電工機械股份有限公司",
-          "via": "H2 PowerTech,INC.",
+          "via": "H2 PowerTech,LLC.",
           "basis": "MOPS 美國子公司"
         },
         {
           "code": "1513",
           "name": "中興電工機械股份有限公司",
-          "via": "H2 PowerTech,LLC.",
+          "via": "H2 PowerTech,INC.",
           "basis": "MOPS 美國子公司"
         }
       ],
@@ -17389,13 +17346,13 @@
         {
           "code": "1513",
           "name": "中興電工機械股份有限公司",
-          "via": "H2 PowerTech,INC.",
+          "via": "H2 PowerTech,LLC.",
           "basis": "MOPS 美國子公司"
         },
         {
           "code": "1513",
           "name": "中興電工機械股份有限公司",
-          "via": "H2 PowerTech,LLC.",
+          "via": "H2 PowerTech,INC.",
           "basis": "MOPS 美國子公司"
         }
       ],
@@ -17435,11 +17392,9 @@
       "city": "ST. JAMES",
       "state": "LA",
       "active": "Y",
-      "inOurData": false,
-      "coverage": "none",
-      "npdesMissingFromOurs": [
-        "LAR10N960"
-      ],
+      "inOurData": true,
+      "coverage": "full",
+      "npdesMissingFromOurs": [],
       "npdesIds": [
         "LAR10N960"
       ],
@@ -17461,13 +17416,13 @@
         {
           "code": "1513",
           "name": "中興電工機械股份有限公司",
-          "via": "H2 PowerTech,INC.",
+          "via": "H2 PowerTech,LLC.",
           "basis": "MOPS 美國子公司"
         },
         {
           "code": "1513",
           "name": "中興電工機械股份有限公司",
-          "via": "H2 PowerTech,LLC.",
+          "via": "H2 PowerTech,INC.",
           "basis": "MOPS 美國子公司"
         }
       ],
@@ -18026,13 +17981,13 @@
         {
           "code": "1513",
           "name": "中興電工機械股份有限公司",
-          "via": "H2 PowerTech,INC.",
+          "via": "H2 PowerTech,LLC.",
           "basis": "MOPS 美國子公司"
         },
         {
           "code": "1513",
           "name": "中興電工機械股份有限公司",
-          "via": "H2 PowerTech,LLC.",
+          "via": "H2 PowerTech,INC.",
           "basis": "MOPS 美國子公司"
         }
       ],
@@ -18300,7 +18255,6 @@
       "inOurData": true,
       "coverage": "partial",
       "npdesMissingFromOurs": [
-        "TX0097055",
         "TXR05M678"
       ],
       "npdesIds": [
@@ -18968,13 +18922,13 @@
         {
           "code": "1513",
           "name": "中興電工機械股份有限公司",
-          "via": "H2 PowerTech,INC.",
+          "via": "H2 PowerTech,LLC.",
           "basis": "MOPS 美國子公司"
         },
         {
           "code": "1513",
           "name": "中興電工機械股份有限公司",
-          "via": "H2 PowerTech,LLC.",
+          "via": "H2 PowerTech,INC.",
           "basis": "MOPS 美國子公司"
         }
       ],

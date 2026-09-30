@@ -15,6 +15,36 @@ const DATA_DIR = path.join(__dirname, '../data');
 const OUTPUT_FILE = path.join(DATA_DIR, 'epa-data.json');
 
 /**
+ * 設施 → 台灣母公司的持股鏈（scripts/resolve-ownership.py 產生的 data/ownership-resolution.json）。
+ * 檔案不存在時不影響建置，facility.ownership 為 null。
+ */
+function loadFacilityOwnership() {
+  const file = path.join(DATA_DIR, 'ownership-resolution.json');
+  const index = new Map();
+  if (!fs.existsSync(file)) return index;
+  try {
+    const { entities = [] } = JSON.parse(fs.readFileSync(file, 'utf8'));
+    for (const e of entities) {
+      if (e.source !== 'EPA ECHO') continue;
+      index.set(e.key, {
+        responsible: e.responsible ? { kind: e.responsible.kind, code: e.responsible.code || null, name: e.responsible.name || null } : null,
+        groupName: e.groupName || null,
+        entityInMops: e.entityInMops || null,
+        effectivePct: e.effectivePct ?? null,
+        path: e.path || [],
+        method: e.method,
+        confidence: e.confidence,
+        note: e.note || e.pathNote || null,
+      });
+    }
+  } catch (err) {
+    console.warn(`⚠️ 無法讀取 ownership-resolution.json：${err.message}`);
+  }
+  return index;
+}
+const FACILITY_OWNERSHIP = loadFacilityOwnership();
+
+/**
  * 從 GCS 下載檔案
  */
 async function downloadFromGCS(bucketName, fileName) {
@@ -238,6 +268,7 @@ function transformEPAFacilityData(facilities, violations = []) {
           longitude: facilityInfo.longitude || null
         },
         shareholding: facilityInfo.shareholding,
+        ownership: FACILITY_OWNERSHIP.get(`${companyCode}|${facilityId}`) || null,
         programs: {
           air: false,
           water: true, // 大部分是水污染違規

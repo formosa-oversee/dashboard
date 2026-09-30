@@ -30,6 +30,31 @@
           "longitude": "-95.24"
         },
         "shareholding": "80.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1210",
+            "name": "大成長城企業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Amy Food, Inc",
+          "effectivePct": 80,
+          "path": [
+            {
+              "investor": "大成長城企業股份有限公司",
+              "investee": "Dachan(USA), Inc.",
+              "pct": 100
+            },
+            {
+              "investor": "Dachan(USA), Inc.",
+              "investee": "Amy Food, Inc",
+              "pct": 80
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -42,7 +67,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.414Z"
+      "lastUpdated": "2026-09-30T03:13:29.771Z"
     }
   },
   {
@@ -76,6 +101,31 @@
           "longitude": "-118.02125"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1216",
+            "name": "統一企業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Ameripec, Inc.",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "統一企業股份有限公司",
+              "investee": "President Global Corp.",
+              "pct": 100
+            },
+            {
+              "investor": "President Global Corp.",
+              "investee": "Ameripec, Inc.",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -159,7 +209,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -193,6 +243,20 @@
           "longitude": "-85.730556"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1227",
+            "name": "佳格食品股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -381,7 +445,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -415,6 +479,20 @@
           "longitude": "-89.276694"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "group-affiliate",
+            "code": "1301",
+            "name": "台灣塑膠工業股份有限公司"
+          },
+          "groupName": "台塑集團 Formosa Plastics Group",
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "curated-group-affiliate",
+          "confidence": "medium",
+          "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -437,6 +515,20 @@
           "longitude": "-89.277875"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "group-affiliate",
+            "code": "1301",
+            "name": "台灣塑膠工業股份有限公司"
+          },
+          "groupName": "台塑集團 Formosa Plastics Group",
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "curated-group-affiliate",
+          "confidence": "medium",
+          "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -459,6 +551,20 @@
           "longitude": "-75.479167"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "group-affiliate",
+            "code": "1301",
+            "name": "台灣塑膠工業股份有限公司"
+          },
+          "groupName": "台塑集團 Formosa Plastics Group",
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "curated-group-affiliate",
+          "confidence": "medium",
+          "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -481,6 +587,20 @@
           "longitude": "-89.276389"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "group-affiliate",
+            "code": "1301",
+            "name": "台灣塑膠工業股份有限公司"
+          },
+          "groupName": "台塑集團 Formosa Plastics Group",
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "curated-group-affiliate",
+          "confidence": "medium",
+          "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -503,6 +623,20 @@
           "longitude": "-91.185833"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "group-affiliate",
+            "code": "1301",
+            "name": "台灣塑膠工業股份有限公司"
+          },
+          "groupName": "台塑集團 Formosa Plastics Group",
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "curated-group-affiliate",
+          "confidence": "medium",
+          "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -525,6 +659,20 @@
           "longitude": "-96.551001"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "group-affiliate",
+            "code": "1301",
+            "name": "台灣塑膠工業股份有限公司"
+          },
+          "groupName": "台塑集團 Formosa Plastics Group",
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "curated-group-affiliate",
+          "confidence": "medium",
+          "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -547,6 +695,20 @@
           "longitude": null
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "group-affiliate",
+            "code": "1301",
+            "name": "台灣塑膠工業股份有限公司"
+          },
+          "groupName": "台塑集團 Formosa Plastics Group",
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "curated-group-affiliate",
+          "confidence": "medium",
+          "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -62860,7 +63022,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -62894,6 +63056,20 @@
           "longitude": "-95.270277"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1303",
+            "name": "南亞塑膠工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -62916,6 +63092,20 @@
           "longitude": "-95.270277"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1303",
+            "name": "南亞塑膠工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -62938,6 +63128,20 @@
           "longitude": "-91.663333"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1303",
+            "name": "南亞塑膠工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "unverified",
+          "note": "既有 ECHO 名稱匹配（公司專項匹配-1303）；此公司的美國子公司在 MOPS 只有中文名，無法用英文名比對"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -62960,6 +63164,26 @@
           "longitude": "-79.729856"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1303",
+            "name": "南亞塑膠工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "南亞塑膠美洲有限公司",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "南亞塑膠工業股份有限公司",
+              "investee": "南亞塑膠美洲有限公司",
+              "pct": 100
+            }
+          ],
+          "method": "curated-mops-node",
+          "confidence": "high",
+          "note": "Nan Ya Plastics Corp., America（FPG 官網列為南亞子公司）＝ MOPS 南亞塑膠美洲有限公司"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -62982,6 +63206,26 @@
           "longitude": "-80.820716"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1303",
+            "name": "南亞塑膠工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "南亞塑膠美洲有限公司",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "南亞塑膠工業股份有限公司",
+              "investee": "南亞塑膠美洲有限公司",
+              "pct": 100
+            }
+          ],
+          "method": "curated-mops-node",
+          "confidence": "high",
+          "note": "Nan Ya Plastics Corp., America（FPG 官網列為南亞子公司）＝ MOPS 南亞塑膠美洲有限公司"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -63004,6 +63248,26 @@
           "longitude": "-80.820716"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1303",
+            "name": "南亞塑膠工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "南亞塑膠美洲有限公司",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "南亞塑膠工業股份有限公司",
+              "investee": "南亞塑膠美洲有限公司",
+              "pct": 100
+            }
+          ],
+          "method": "curated-mops-node",
+          "confidence": "high",
+          "note": "Nan Ya Plastics Corp., America（FPG 官網列為南亞子公司）＝ MOPS 南亞塑膠美洲有限公司"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -63026,6 +63290,20 @@
           "longitude": "-79.764674"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1303",
+            "name": "南亞塑膠工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "unverified",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）；此公司的美國子公司在 MOPS 只有中文名，無法用英文名比對"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -63048,6 +63326,26 @@
           "longitude": "-96.12"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1303",
+            "name": "南亞塑膠工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "南亞塑膠美國有限公司",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "南亞塑膠工業股份有限公司",
+              "investee": "南亞塑膠美國有限公司",
+              "pct": 100
+            }
+          ],
+          "method": "curated-mops-node",
+          "confidence": "high",
+          "note": "Nan Ya Plastics Corp., USA ＝ MOPS 南亞塑膠美國有限公司"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -115526,7 +115824,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -115560,6 +115858,20 @@
           "longitude": "-118.06554"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1337",
+            "name": "亞洲塑膠再生資源控股有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：MOPS 顯示此公司沒有任何美國子公司，疑為同名誤配"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -115572,7 +115884,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -115606,6 +115918,36 @@
           "longitude": "-82.1833"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1402",
+            "name": "遠東新世紀股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "APG Polytech, LLC",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "遠東新世紀股份有限公司",
+              "investee": "Far Eastern Investment (Holding) Ltd.",
+              "pct": 100
+            },
+            {
+              "investor": "Far Eastern Investment (Holding) Ltd.",
+              "investee": "APG Polytech USA Holdings, Inc.",
+              "pct": 100
+            },
+            {
+              "investor": "APG Polytech USA Holdings, Inc.",
+              "investee": "APG Polytech, LLC",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -115628,6 +115970,36 @@
           "longitude": "-95.42136"
         },
         "shareholding": "33.33%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1402",
+            "name": "遠東新世紀股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Corpus Christi Polymers LLC",
+          "effectivePct": 33.33,
+          "path": [
+            {
+              "investor": "遠東新世紀股份有限公司",
+              "investee": "Far Eastern Investment (Holding) Ltd.",
+              "pct": 100
+            },
+            {
+              "investor": "Far Eastern Investment (Holding) Ltd.",
+              "investee": "APG Polytech USA Holdings, Inc.",
+              "pct": 100
+            },
+            {
+              "investor": "APG Polytech USA Holdings, Inc.",
+              "investee": "Corpus Christi Polymers LLC",
+              "pct": 33.33
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -115650,6 +116022,36 @@
           "longitude": "-79.3207765"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1402",
+            "name": "遠東新世紀股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Phoenix Technologies International, LLC",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "遠東新世紀股份有限公司",
+              "investee": "Far Eastern Investment (Holding) Ltd.",
+              "pct": 100
+            },
+            {
+              "investor": "Far Eastern Investment (Holding) Ltd.",
+              "investee": "APG Polytech USA Holdings, Inc.",
+              "pct": 100
+            },
+            {
+              "investor": "APG Polytech USA Holdings, Inc.",
+              "investee": "Phoenix Technologies International, LLC",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -128648,7 +129050,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -128682,6 +129084,20 @@
           "longitude": "-113.79496"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1439",
+            "name": "雋揚國際股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -128694,7 +129110,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -128728,6 +129144,20 @@
           "longitude": "-101.96805"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1460",
+            "name": "宏遠興業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -128750,6 +129180,41 @@
           "longitude": "-81.898849"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1460",
+            "name": "宏遠興業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Everest Textile USA, LLC（宏遠美國有限公司）",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "宏遠興業股份有限公司",
+              "investee": "宏展國際投資公司",
+              "pct": 100
+            },
+            {
+              "investor": "宏展國際投資公司",
+              "investee": "宏遠國際（香港）有限公司",
+              "pct": 100
+            },
+            {
+              "investor": "宏遠國際（香港）有限公司",
+              "investee": "Everest USA Holdings, Inc.（宏遠美國控股有限公司）",
+              "pct": 100
+            },
+            {
+              "investor": "Everest USA Holdings, Inc.（宏遠美國控股有限公司）",
+              "investee": "Everest Textile USA, LLC（宏遠美國有限公司）",
+              "pct": 100
+            }
+          ],
+          "method": "mops-exact",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -128798,7 +129263,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -128832,6 +129297,20 @@
           "longitude": "-80.6006294"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1506",
+            "name": "正道工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：設施名稱與此公司的美國子公司沒有共同字"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -128844,7 +129323,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -128878,6 +129357,26 @@
           "longitude": "-118.07569"
         },
         "shareholding": "96.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1515",
+            "name": "力山工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Power Tool Specialists Inc.",
+          "effectivePct": 96,
+          "path": [
+            {
+              "investor": "力山工業股份有限公司",
+              "investee": "Power Tool Specialists Inc.",
+              "pct": 96
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -128890,7 +129389,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -128924,6 +129423,20 @@
           "longitude": "-98.395"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1524",
+            "name": "耿鼎企業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：MOPS 顯示此公司沒有任何美國子公司，疑為同名誤配"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -128946,6 +129459,20 @@
           "longitude": "-88.22694"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1524",
+            "name": "耿鼎企業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：MOPS 顯示此公司沒有任何美國子公司，疑為同名誤配"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -139459,7 +139986,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -139493,6 +140020,20 @@
           "longitude": null
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1528",
+            "name": "恩德科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -139515,6 +140056,20 @@
           "longitude": "-118.25248"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1528",
+            "name": "恩德科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "weak",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）只靠品牌字「anderson」相同，美國可能有同名無關公司，需人工確認"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -139537,6 +140092,20 @@
           "longitude": "-103.229167"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1528",
+            "name": "恩德科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "weak",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）只靠品牌字「anderson」相同，美國可能有同名無關公司，需人工確認"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -139559,6 +140128,20 @@
           "longitude": "-82.58528"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1528",
+            "name": "恩德科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "weak",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）只靠品牌字「anderson」相同，美國可能有同名無關公司，需人工確認"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -139581,6 +140164,20 @@
           "longitude": "-82.7632158"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1528",
+            "name": "恩德科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "weak",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）只靠品牌字「anderson」相同，美國可能有同名無關公司，需人工確認"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -139603,6 +140200,20 @@
           "longitude": "-108.62055"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1528",
+            "name": "恩德科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -140351,7 +140962,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -140385,6 +140996,20 @@
           "longitude": null
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1532",
+            "name": "勤美股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：設施名稱與此公司的美國子公司沒有共同字"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -140397,7 +141022,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -140431,6 +141056,26 @@
           "longitude": "-117.60245"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1597",
+            "name": "直得科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "CHIEFTEK PRECISION\n\n  USA CO., LTD.",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "直得科技股份有限公司",
+              "investee": "CHIEFTEK PRECISION\n\n  USA CO., LTD.",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -140443,7 +141088,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -140477,6 +141122,36 @@
           "longitude": "-117.4713"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1726",
+            "name": "永記造漆工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Continental Coatings, Inc.",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "永記造漆工業股份有限公司",
+              "investee": "Emass Investment International Co., Ltd",
+              "pct": 100
+            },
+            {
+              "investor": "Emass Investment International Co., Ltd",
+              "investee": "Yung Chi America Corp",
+              "pct": 100
+            },
+            {
+              "investor": "Yung Chi America Corp",
+              "investee": "Continental Coatings, Inc.",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -140560,7 +141235,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -140594,6 +141269,20 @@
           "longitude": "-170.68025"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "1785",
+            "name": "光洋應用材料科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -140606,7 +141295,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -140640,6 +141329,36 @@
           "longitude": "-82.1863"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2027",
+            "name": "大成不銹鋼工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Bristols Pipe and Tube, Inc.",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "大成不銹鋼工業股份有限公司",
+              "investee": "Ta Chen International, Inc.",
+              "pct": 100
+            },
+            {
+              "investor": "Ta Chen International, Inc.",
+              "investee": "Primus Pipe and Tube Holdings, Inc.",
+              "pct": 100
+            },
+            {
+              "investor": "Primus Pipe and Tube Holdings, Inc.",
+              "investee": "Bristols Pipe and Tube, Inc.",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -140662,6 +141381,36 @@
           "longitude": "-82.0392121"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2027",
+            "name": "大成不銹鋼工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Primus Pipe and Tube, Inc.",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "大成不銹鋼工業股份有限公司",
+              "investee": "Ta Chen International, Inc.",
+              "pct": 100
+            },
+            {
+              "investor": "Ta Chen International, Inc.",
+              "investee": "Primus Pipe and Tube Holdings, Inc.",
+              "pct": 100
+            },
+            {
+              "investor": "Primus Pipe and Tube Holdings, Inc.",
+              "investee": "Primus Pipe and Tube, Inc.",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -140684,6 +141433,31 @@
           "longitude": "-94.142222"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2027",
+            "name": "大成不銹鋼工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "TCI Texarkana, Inc.",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "大成不銹鋼工業股份有限公司",
+              "investee": "Ta Chen International, Inc.",
+              "pct": 100
+            },
+            {
+              "investor": "Ta Chen International, Inc.",
+              "investee": "TCI Texarkana, Inc.",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -140696,7 +141470,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -140730,6 +141504,20 @@
           "longitude": "-88.188546"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2029",
+            "name": "盛餘股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -140742,7 +141530,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -140776,6 +141564,20 @@
           "longitude": "-117.89246"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2064",
+            "name": "晉椿工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -140788,7 +141590,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -140822,6 +141624,46 @@
           "longitude": "-91.243778"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2103",
+            "name": "台橡股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "TSRC Specialty Materials LLC",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "台橡股份有限公司",
+              "investee": "Trimurti Holding Corporation",
+              "pct": 100
+            },
+            {
+              "investor": "Trimurti Holding Corporation",
+              "investee": "TSRC (Hong Kong) Limited",
+              "pct": 100
+            },
+            {
+              "investor": "TSRC (Hong Kong) Limited",
+              "investee": "TSRC (Lux.) Corporation S.A R.L.",
+              "pct": 100
+            },
+            {
+              "investor": "TSRC (Lux.) Corporation S.A R.L.",
+              "investee": "TSRC (USA) Investment Corporation",
+              "pct": 100
+            },
+            {
+              "investor": "TSRC (USA) Investment Corporation",
+              "investee": "TSRC Specialty Materials LLC",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -141115,7 +141957,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -141149,6 +141991,31 @@
           "longitude": "-84.972778"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2104",
+            "name": "國際中橡投資控股股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Continental Carbon Company",
+          "effectivePct": 66.67,
+          "path": [
+            {
+              "investor": "國際中橡投資控股股份有限公司",
+              "investee": "CCC USA Corp.",
+              "pct": 66.67
+            },
+            {
+              "investor": "CCC USA Corp.",
+              "investee": "Continental Carbon Company",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -141171,6 +142038,31 @@
           "longitude": "-101.891185"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2104",
+            "name": "國際中橡投資控股股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Continental Carbon Company",
+          "effectivePct": 66.67,
+          "path": [
+            {
+              "investor": "國際中橡投資控股股份有限公司",
+              "investee": "CCC USA Corp.",
+              "pct": 66.67
+            },
+            {
+              "investor": "CCC USA Corp.",
+              "investee": "Continental Carbon Company",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -141183,7 +142075,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -141217,6 +142109,20 @@
           "longitude": "-92.934512"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2106",
+            "name": "建大工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "unverified",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）；此公司的美國子公司在 MOPS 只有中文名，無法用英文名比對"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -141229,7 +142135,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -141263,6 +142169,20 @@
           "longitude": "-96.75836"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2308",
+            "name": "台達電子工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -141285,6 +142205,31 @@
           "longitude": "-117.60452"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2308",
+            "name": "台達電子工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Delta Electronics (Americas) Ltd.",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "台達電子工業股份有限公司",
+              "investee": "Delta America Ltd.",
+              "pct": 100
+            },
+            {
+              "investor": "Delta America Ltd.",
+              "investee": "Delta Electronics (Americas) Ltd.",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -141307,6 +142252,20 @@
           "longitude": "-96.755144"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2308",
+            "name": "台達電子工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "weak",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）只靠品牌字「delta」相同，美國可能有同名無關公司，需人工確認"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -141329,6 +142288,20 @@
           "longitude": "-96.755144"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2308",
+            "name": "台達電子工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "weak",
+          "note": "既有 ECHO 名稱匹配（公司專項匹配-2308）只靠品牌字「delta」相同，美國可能有同名無關公司，需人工確認"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -141351,6 +142324,20 @@
           "longitude": "-70.88304"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2308",
+            "name": "台達電子工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "weak",
+          "note": "既有 ECHO 名稱匹配（公司專項匹配-2308）只靠品牌字「delta」相同，美國可能有同名無關公司，需人工確認"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -141373,6 +142360,31 @@
           "longitude": "-96.672927"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2308",
+            "name": "台達電子工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "DELTA ELECTRONICS HOLDING (USA) INC.",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "台達電子工業股份有限公司",
+              "investee": "Delta International Holding Limited B.V.",
+              "pct": 100
+            },
+            {
+              "investor": "Delta International Holding Limited B.V.",
+              "investee": "DELTA ELECTRONICS HOLDING (USA) INC.",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -141395,6 +142407,20 @@
           "longitude": "-97.053153"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2308",
+            "name": "台達電子工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "weak",
+          "note": "既有 ECHO 名稱匹配（公司專項匹配-2308）只靠品牌字「delta」相同，美國可能有同名無關公司，需人工確認"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -141417,6 +142443,20 @@
           "longitude": "-80.715278"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2308",
+            "name": "台達電子工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "weak",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）只靠品牌字「delta」相同，美國可能有同名無關公司，需人工確認"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -141439,6 +142479,20 @@
           "longitude": "-106.590833"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2308",
+            "name": "台達電子工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "weak",
+          "note": "既有 ECHO 名稱匹配（公司專項匹配-2308）只靠品牌字「delta」相同，美國可能有同名無關公司，需人工確認"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -141461,6 +142515,20 @@
           "longitude": "-95.438256"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2308",
+            "name": "台達電子工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "weak",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）只靠品牌字「delta」相同，美國可能有同名無關公司，需人工確認"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -143364,7 +144432,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -143398,6 +144466,20 @@
           "longitude": "-87.91903"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2317",
+            "name": "鴻海精密工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "medium",
+          "note": "既有 ECHO 名稱匹配（公司專項匹配-2317），與 MOPS 美國子公司共同字：foxconn"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -143410,7 +144492,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -143444,6 +144526,31 @@
           "longitude": "-78.75711"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2323",
+            "name": "中環股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Media Factory LLC (MFLLC)",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "中環股份有限公司",
+              "investee": "EMC Investment Holding",
+              "pct": 100
+            },
+            {
+              "investor": "EMC Investment Holding",
+              "investee": "Media Factory LLC (MFLLC)",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -143466,6 +144573,36 @@
           "longitude": null
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2323",
+            "name": "中環股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Verbatim US",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "中環股份有限公司",
+              "investee": "EMC Investment Holding",
+              "pct": 100
+            },
+            {
+              "investor": "EMC Investment Holding",
+              "investee": "F5 Holdings",
+              "pct": 100
+            },
+            {
+              "investor": "F5 Holdings",
+              "investee": "Verbatim US",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -143478,7 +144615,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -143512,6 +144649,36 @@
           "longitude": null
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2327",
+            "name": "國巨股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Ferroxcube USA Inc.",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "國巨股份有限公司",
+              "investee": "奇力新電子股份有限公司",
+              "pct": 100
+            },
+            {
+              "investor": "奇力新電子股份有限公司",
+              "investee": "Ferroxcube International Holding B.V.",
+              "pct": 100
+            },
+            {
+              "investor": "Ferroxcube International Holding B.V.",
+              "investee": "Ferroxcube USA Inc.",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -143534,6 +144701,36 @@
           "longitude": "-82.28327"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2327",
+            "name": "國巨股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "KEMET Electronics Corporation",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "國巨股份有限公司",
+              "investee": "Yageo Holding Hungary LLC",
+              "pct": 100
+            },
+            {
+              "investor": "Yageo Holding Hungary LLC",
+              "investee": "KEMET Corporation",
+              "pct": 100
+            },
+            {
+              "investor": "KEMET Corporation",
+              "investee": "KEMET Electronics Corporation",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -143546,7 +144743,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -143580,6 +144777,26 @@
           "longitude": "-112.15311"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2330",
+            "name": "台灣積體電路製造股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "TSMC Arizona",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "台灣積體電路製造股份有限公司",
+              "investee": "TSMC Arizona",
+              "pct": 100
+            }
+          ],
+          "method": "echo-site-to-subsidiary",
+          "confidence": "medium",
+          "note": "亞利桑那州的 TSMC 工地／公用設施許可，歸 TSMC Arizona（台積電 100%）"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -143602,6 +144819,26 @@
           "longitude": "-112.15402"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2330",
+            "name": "台灣積體電路製造股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "TSMC Arizona",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "台灣積體電路製造股份有限公司",
+              "investee": "TSMC Arizona",
+              "pct": 100
+            }
+          ],
+          "method": "echo-site-to-subsidiary",
+          "confidence": "medium",
+          "note": "亞利桑那州的 TSMC 工地／公用設施許可，歸 TSMC Arizona（台積電 100%）"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -143624,6 +144861,26 @@
           "longitude": "-112.13833"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2330",
+            "name": "台灣積體電路製造股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "TSMC Arizona",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "台灣積體電路製造股份有限公司",
+              "investee": "TSMC Arizona",
+              "pct": 100
+            }
+          ],
+          "method": "echo-site-to-subsidiary",
+          "confidence": "medium",
+          "note": "亞利桑那州的 TSMC 工地／公用設施許可，歸 TSMC Arizona（台積電 100%）"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -143646,6 +144903,26 @@
           "longitude": "-112.16961"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2330",
+            "name": "台灣積體電路製造股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "TSMC Arizona",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "台灣積體電路製造股份有限公司",
+              "investee": "TSMC Arizona",
+              "pct": 100
+            }
+          ],
+          "method": "echo-site-to-subsidiary",
+          "confidence": "medium",
+          "note": "亞利桑那州的 TSMC 工地／公用設施許可，歸 TSMC Arizona（台積電 100%）"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -143668,6 +144945,20 @@
           "longitude": null
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2330",
+            "name": "台灣積體電路製造股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -143690,6 +144981,20 @@
           "longitude": "-112.16651"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2330",
+            "name": "台灣積體電路製造股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -143712,6 +145017,20 @@
           "longitude": "-112.16651"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2330",
+            "name": "台灣積體電路製造股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -143734,6 +145053,20 @@
           "longitude": "-112.16055"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2330",
+            "name": "台灣積體電路製造股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -143756,6 +145089,26 @@
           "longitude": "-112.1576"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2330",
+            "name": "台灣積體電路製造股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "TSMC Arizona",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "台灣積體電路製造股份有限公司",
+              "investee": "TSMC Arizona",
+              "pct": 100
+            }
+          ],
+          "method": "echo-site-to-subsidiary",
+          "confidence": "medium",
+          "note": "亞利桑那州的 TSMC 工地／公用設施許可，歸 TSMC Arizona（台積電 100%）"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -143778,6 +145131,26 @@
           "longitude": "-112.18072"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2330",
+            "name": "台灣積體電路製造股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "TSMC Arizona",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "台灣積體電路製造股份有限公司",
+              "investee": "TSMC Arizona",
+              "pct": 100
+            }
+          ],
+          "method": "echo-site-to-subsidiary",
+          "confidence": "medium",
+          "note": "亞利桑那州的 TSMC 工地／公用設施許可，歸 TSMC Arizona（台積電 100%）"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -143800,6 +145173,26 @@
           "longitude": "-112.16204"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2330",
+            "name": "台灣積體電路製造股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "TSMC Arizona",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "台灣積體電路製造股份有限公司",
+              "investee": "TSMC Arizona",
+              "pct": 100
+            }
+          ],
+          "method": "echo-site-to-subsidiary",
+          "confidence": "medium",
+          "note": "亞利桑那州的 TSMC 工地／公用設施許可，歸 TSMC Arizona（台積電 100%）"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -143822,6 +145215,26 @@
           "longitude": "-112.14291"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2330",
+            "name": "台灣積體電路製造股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "TSMC Arizona",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "台灣積體電路製造股份有限公司",
+              "investee": "TSMC Arizona",
+              "pct": 100
+            }
+          ],
+          "method": "echo-site-to-subsidiary",
+          "confidence": "medium",
+          "note": "亞利桑那州的 TSMC 工地／公用設施許可，歸 TSMC Arizona（台積電 100%）"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -143844,6 +145257,26 @@
           "longitude": "-112.14291"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2330",
+            "name": "台灣積體電路製造股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "TSMC Arizona",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "台灣積體電路製造股份有限公司",
+              "investee": "TSMC Arizona",
+              "pct": 100
+            }
+          ],
+          "method": "echo-site-to-subsidiary",
+          "confidence": "medium",
+          "note": "亞利桑那州的 TSMC 工地／公用設施許可，歸 TSMC Arizona（台積電 100%）"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -143866,6 +145299,26 @@
           "longitude": "-112.16251"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2330",
+            "name": "台灣積體電路製造股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "TSMC Arizona",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "台灣積體電路製造股份有限公司",
+              "investee": "TSMC Arizona",
+              "pct": 100
+            }
+          ],
+          "method": "mops-token",
+          "confidence": "medium",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -143888,6 +145341,26 @@
           "longitude": "-112.17533"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2330",
+            "name": "台灣積體電路製造股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "TSMC Arizona",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "台灣積體電路製造股份有限公司",
+              "investee": "TSMC Arizona",
+              "pct": 100
+            }
+          ],
+          "method": "echo-site-to-subsidiary",
+          "confidence": "medium",
+          "note": "亞利桑那州的 TSMC 工地／公用設施許可，歸 TSMC Arizona（台積電 100%）"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -143910,6 +145383,26 @@
           "longitude": "-112.16372"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2330",
+            "name": "台灣積體電路製造股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "TSMC Arizona",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "台灣積體電路製造股份有限公司",
+              "investee": "TSMC Arizona",
+              "pct": 100
+            }
+          ],
+          "method": "echo-site-to-subsidiary",
+          "confidence": "medium",
+          "note": "亞利桑那州的 TSMC 工地／公用設施許可，歸 TSMC Arizona（台積電 100%）"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -143932,6 +145425,26 @@
           "longitude": "-112.15654"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2330",
+            "name": "台灣積體電路製造股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "TSMC Arizona",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "台灣積體電路製造股份有限公司",
+              "investee": "TSMC Arizona",
+              "pct": 100
+            }
+          ],
+          "method": "echo-site-to-subsidiary",
+          "confidence": "medium",
+          "note": "亞利桑那州的 TSMC 工地／公用設施許可，歸 TSMC Arizona（台積電 100%）"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -143954,6 +145467,20 @@
           "longitude": "-118.221898"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2330",
+            "name": "台灣積體電路製造股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "weak",
+          "note": "既有 ECHO 名稱匹配（公司專項匹配-2330）只靠品牌字「tsmc」相同，美國可能有同名無關公司，需人工確認"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -143976,6 +145503,26 @@
           "longitude": "-112.15311"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2330",
+            "name": "台灣積體電路製造股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "TSMC Arizona",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "台灣積體電路製造股份有限公司",
+              "investee": "TSMC Arizona",
+              "pct": 100
+            }
+          ],
+          "method": "echo-site-to-subsidiary",
+          "confidence": "medium",
+          "note": "亞利桑那州的 TSMC 工地／公用設施許可，歸 TSMC Arizona（台積電 100%）"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -143998,6 +145545,26 @@
           "longitude": "-112.16699"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2330",
+            "name": "台灣積體電路製造股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "TSMC Arizona",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "台灣積體電路製造股份有限公司",
+              "investee": "TSMC Arizona",
+              "pct": 100
+            }
+          ],
+          "method": "echo-site-to-subsidiary",
+          "confidence": "medium",
+          "note": "亞利桑那州的 TSMC 工地／公用設施許可，歸 TSMC Arizona（台積電 100%）"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -144020,6 +145587,36 @@
           "longitude": "-122.451012"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2330",
+            "name": "台灣積體電路製造股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "TSMC Washington",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "台灣積體電路製造股份有限公司",
+              "investee": "TSMC Partners",
+              "pct": 100
+            },
+            {
+              "investor": "TSMC Partners",
+              "investee": "TSMC Development",
+              "pct": 100
+            },
+            {
+              "investor": "TSMC Development",
+              "investee": "TSMC Washington",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -145573,7 +147170,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -145607,6 +147204,26 @@
           "longitude": "-87.33095"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2357",
+            "name": "華碩電腦股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "ACI",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "華碩電腦股份有限公司",
+              "investee": "ACI",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -145619,7 +147236,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -145653,6 +147270,20 @@
           "longitude": "-84.806667"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2359",
+            "name": "所羅門股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -145665,7 +147296,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -145699,6 +147330,20 @@
           "longitude": "-88.27394"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2360",
+            "name": "致茂電子股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -145711,7 +147356,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -145745,6 +147390,20 @@
           "longitude": "-111.91707"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2367",
+            "name": "燿華電子股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：MOPS 顯示此公司沒有任何美國子公司，疑為同名誤配"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -145757,7 +147416,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -145791,6 +147450,20 @@
           "longitude": "-82.4538889"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2373",
+            "name": "震旦行股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -145803,7 +147476,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -145837,6 +147510,20 @@
           "longitude": null
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2382",
+            "name": "廣達電腦股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Quanta Computer USA, Inc. (QCA)",
+          "effectivePct": null,
+          "path": [],
+          "method": "mops-token",
+          "confidence": "high",
+          "note": "MOPS 有此節點但未列出從母公司到此節點的持股（清單不完整），持股比例未知"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -145859,6 +147546,20 @@
           "longitude": "-121.953127"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2382",
+            "name": "廣達電腦股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Quanta Computer USA, Inc. (QCA)",
+          "effectivePct": null,
+          "path": [],
+          "method": "mops-token",
+          "confidence": "high",
+          "note": "MOPS 有此節點但未列出從母公司到此節點的持股（清單不完整），持股比例未知"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -145881,6 +147582,20 @@
           "longitude": "-121.976859"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2382",
+            "name": "廣達電腦股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Quanta Computer USA, Inc. (QCA)",
+          "effectivePct": null,
+          "path": [],
+          "method": "mops-exact",
+          "confidence": "high",
+          "note": "MOPS 有此節點但未列出從母公司到此節點的持股（清單不完整），持股比例未知"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -145929,7 +147644,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -145963,6 +147678,20 @@
           "longitude": "-121.91593"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2395",
+            "name": "研華股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -145975,7 +147704,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -146009,6 +147738,20 @@
           "longitude": "-93.10325"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2480",
+            "name": "敦陽科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "weak",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）只靠品牌字「stark」相同，美國可能有同名無關公司，需人工確認"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -146021,7 +147764,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -146055,6 +147798,20 @@
           "longitude": null
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2506",
+            "name": "太平洋建設股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -146067,7 +147824,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -146101,6 +147858,26 @@
           "longitude": "-122.33792"
         },
         "shareholding": "94.43%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2603",
+            "name": "長榮海運股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Everport Terminal Services Inc.",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "長榮海運股份有限公司",
+              "investee": "Everport Terminal Services Inc.",
+              "pct": 94.43
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -146113,7 +147890,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -146147,6 +147924,20 @@
           "longitude": "-86.792014"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2607",
+            "name": "長榮國際儲運股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：設施名稱與此公司的美國子公司沒有共同字"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -174895,7 +176686,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -174929,6 +176720,20 @@
           "longitude": "-149.993"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2610",
+            "name": "中華航空股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -174941,7 +176746,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -174975,6 +176780,20 @@
           "longitude": "-97.05994"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2618",
+            "name": "長榮航空股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -174987,7 +176806,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -175021,6 +176840,20 @@
           "longitude": "-99.2757"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2637",
+            "name": "慧洋海運股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：MOPS 顯示此公司沒有任何美國子公司，疑為同名誤配"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -175033,7 +176866,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -175067,6 +176900,26 @@
           "longitude": "-117.92074"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2723",
+            "name": "開曼美食達人股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Perfect 85 Degrees C, Inc.",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "開曼美食達人股份有限公司",
+              "investee": "Perfect 85 Degrees C, Inc.",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -175150,7 +177003,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -175184,6 +177037,20 @@
           "longitude": "-73.284444"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "2752",
+            "name": "豆府股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：MOPS 顯示此公司沒有任何美國子公司，疑為同名誤配"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -183877,7 +185744,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -183911,6 +185778,20 @@
           "longitude": "-86.8794"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "3004",
+            "name": "豐達科技股份有限公司(原宏達)"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -183923,7 +185804,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -183957,6 +185838,20 @@
           "longitude": "-95.4356"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "3085",
+            "name": "台鋼新零售股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：MOPS 顯示此公司沒有任何美國子公司，疑為同名誤配"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -183969,7 +185864,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -184003,6 +185898,20 @@
           "longitude": "-81.036509"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "3138",
+            "name": "耀登科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -184015,7 +185924,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -184049,6 +185958,20 @@
           "longitude": "-97.5831"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "3162",
+            "name": "精確實業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：MOPS 顯示此公司沒有任何美國子公司，疑為同名誤配"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -184061,7 +185984,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -184095,6 +186018,26 @@
           "longitude": null
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "3260",
+            "name": "威剛科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "ADATA TECHNOLOGY (U.S.A.) CO., LTD.",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "威剛科技股份有限公司",
+              "investee": "ADATA TECHNOLOGY (U.S.A.) CO., LTD.",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -184107,7 +186050,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -184141,6 +186084,20 @@
           "longitude": "-121.906218"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "3294",
+            "name": "英濟股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -184153,7 +186110,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -184187,6 +186144,26 @@
           "longitude": "-116.98252"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "3356",
+            "name": "奇偶科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "USA Vision Systems Inc.",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "奇偶科技股份有限公司",
+              "investee": "USA Vision Systems Inc.",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -184199,7 +186176,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -184233,6 +186210,20 @@
           "longitude": "-88.98372"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "3357",
+            "name": "西北臺慶科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：MOPS 顯示此公司沒有任何美國子公司，疑為同名誤配"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -184245,7 +186236,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -184279,6 +186270,26 @@
           "longitude": "-122.3668"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "3380",
+            "name": "明泰科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Alpha Technical Services Inc. (ATS)",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "明泰科技股份有限公司",
+              "investee": "Alpha Technical Services Inc. (ATS)",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -184291,7 +186302,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -184325,6 +186336,20 @@
           "longitude": "-116.5961"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "3594",
+            "name": "磐儀科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "weak",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）只靠品牌字「arbor」相同，美國可能有同名無關公司，需人工確認"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -184347,6 +186372,20 @@
           "longitude": "-116.60161"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "3594",
+            "name": "磐儀科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "weak",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）只靠品牌字「arbor」相同，美國可能有同名無關公司，需人工確認"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -184369,6 +186408,20 @@
           "longitude": "-116.59623"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "3594",
+            "name": "磐儀科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "weak",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）只靠品牌字「arbor」相同，美國可能有同名無關公司，需人工確認"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -184381,7 +186434,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -184415,6 +186468,26 @@
           "longitude": "-117.6256"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "3597",
+            "name": "映興電子股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "AVERTRONICS (USA) INC.",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "映興電子股份有限公司",
+              "investee": "AVERTRONICS (USA) INC.",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -184463,7 +186536,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -184497,6 +186570,31 @@
           "longitude": "-122.00074"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "3706",
+            "name": "神達控股股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "MiTAC Information Systems Corp.",
+          "effectivePct": 96.28,
+          "path": [
+            {
+              "investor": "神達控股股份有限公司",
+              "investee": "神雲科技(股)公司",
+              "pct": 96.28
+            },
+            {
+              "investor": "神雲科技(股)公司",
+              "investee": "MiTAC Information Systems Corp.",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -184545,7 +186643,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -184579,6 +186677,20 @@
           "longitude": "-94.240167"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "4104",
+            "name": "佳醫健康事業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：MOPS 顯示此公司沒有任何美國子公司，疑為同名誤配"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -184591,7 +186703,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -184625,6 +186737,20 @@
           "longitude": "-80.365"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "4419",
+            "name": "皇家國際美食股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：MOPS 顯示此公司沒有任何美國子公司，疑為同名誤配"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -184637,7 +186763,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -184671,6 +186797,20 @@
           "longitude": "-84.52228"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "4513",
+            "name": "福裕事業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -184683,7 +186823,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -184717,6 +186857,20 @@
           "longitude": "-79.334428"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "4523",
+            "name": "永彰科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -184765,7 +186919,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -184799,6 +186953,20 @@
           "longitude": "-121.998322"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "4534",
+            "name": "慶騰精密科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：MOPS 顯示此公司沒有任何美國子公司，疑為同名誤配"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -184821,6 +186989,20 @@
           "longitude": "-84.541745"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "4534",
+            "name": "慶騰精密科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：MOPS 顯示此公司沒有任何美國子公司，疑為同名誤配"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -184843,6 +187025,20 @@
           "longitude": "-79.670833"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "4534",
+            "name": "慶騰精密科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：MOPS 顯示此公司沒有任何美國子公司，疑為同名誤配"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -185381,7 +187577,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -185415,6 +187611,20 @@
           "longitude": "-87.569167"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "4538",
+            "name": "大詠城機械股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：MOPS 顯示此公司沒有任何美國子公司，疑為同名誤配"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -186688,7 +188898,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -186722,6 +188932,20 @@
           "longitude": "-71.426116"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "4702",
+            "name": "中美聯合實業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -186734,7 +188958,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -186768,6 +188992,26 @@
           "longitude": "-117.62154"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "4737",
+            "name": "華廣生技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Bionime USA Corporation",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "華廣生技股份有限公司",
+              "investee": "Bionime USA Corporation",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -186816,7 +189060,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -186850,6 +189094,31 @@
           "longitude": null
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "4915",
+            "name": "致伸科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Polaris Electronics Inc. (以下稱Polaris)",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "致伸科技股份有限公司",
+              "investee": "Primax Technology (Cayman Holding) Ltd.(以下稱Primax Tech.)",
+              "pct": 100
+            },
+            {
+              "investor": "Primax Technology (Cayman Holding) Ltd.(以下稱Primax Tech.)",
+              "investee": "Polaris Electronics Inc. (以下稱Polaris)",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -186872,6 +189141,31 @@
           "longitude": "-94.97089"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "4915",
+            "name": "致伸科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Polaris Electronics Inc. (以下稱Polaris)",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "致伸科技股份有限公司",
+              "investee": "Primax Technology (Cayman Holding) Ltd.(以下稱Primax Tech.)",
+              "pct": 100
+            },
+            {
+              "investor": "Primax Technology (Cayman Holding) Ltd.(以下稱Primax Tech.)",
+              "investee": "Polaris Electronics Inc. (以下稱Polaris)",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -186884,7 +189178,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -186918,6 +189212,31 @@
           "longitude": "-117.909142"
         },
         "shareholding": "0.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "4991",
+            "name": "環宇通訊半導體控股股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "D-Tech Optoelectronics, Inc.",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "環宇通訊半導體控股股份有限公司",
+              "investee": "美國環宇通訊半導體有限公司",
+              "pct": 100
+            },
+            {
+              "investor": "美國環宇通訊半導體有限公司",
+              "investee": "D-Tech Optoelectronics, Inc.",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -186930,7 +189249,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -186964,6 +189283,26 @@
           "longitude": "-118.04348"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "5009",
+            "name": "榮剛材料科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "ALLOY TOOL STEEL, INC.",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "榮剛材料科技股份有限公司",
+              "investee": "ALLOY TOOL STEEL, INC.",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -187117,7 +189456,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -187151,6 +189490,20 @@
           "longitude": "-77.333263"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "5351",
+            "name": "鈺創科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -187163,7 +189516,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -187197,6 +189550,20 @@
           "longitude": "-73.18926"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "5460",
+            "name": "同協電子股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：MOPS 顯示此公司沒有任何美國子公司，疑為同名誤配"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -187219,6 +189586,20 @@
           "longitude": "-85.744"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "5460",
+            "name": "同協電子股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -187231,7 +189612,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -187265,6 +189646,20 @@
           "longitude": null
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "6120",
+            "name": "達運精密工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -187277,7 +189672,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -187311,6 +189706,20 @@
           "longitude": "-81.189387"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "6152",
+            "name": "百一電子股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -187323,7 +189732,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -187357,6 +189766,20 @@
           "longitude": "-90.741897"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "6209",
+            "name": "今國光學工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -187369,7 +189792,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -187403,6 +189826,20 @@
           "longitude": "-86.958814"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "6221",
+            "name": "晉泰科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "weak",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）只靠品牌字「genesis」相同，美國可能有同名無關公司，需人工確認"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -187425,6 +189862,20 @@
           "longitude": "-88.089339"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "6221",
+            "name": "晉泰科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -187437,7 +189888,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -187471,6 +189922,20 @@
           "longitude": null
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "3296",
+            "name": "勝德國際研發股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -187729,7 +190194,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -187763,6 +190228,20 @@
           "longitude": "-89.729301"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "6276",
+            "name": "安鈦克科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：MOPS 顯示此公司沒有任何美國子公司，疑為同名誤配"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -187775,7 +190254,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -187809,6 +190288,26 @@
           "longitude": "-76.627167"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "6472",
+            "name": "保瑞藥業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Bora Pharmaceuticals USA Inc.",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "保瑞藥業股份有限公司",
+              "investee": "Bora Pharmaceuticals USA Inc.",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -187831,6 +190330,46 @@
           "longitude": "-104.99239"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "6472",
+            "name": "保瑞藥業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Upsher-Smith Laboratories, LLC",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "保瑞藥業股份有限公司",
+              "investee": "Bora Pharmaceuticals USA Inc.",
+              "pct": 100
+            },
+            {
+              "investor": "Bora Pharmaceuticals USA Inc.",
+              "investee": "Bora Pharmaceutical Holdings, LLC.",
+              "pct": 100
+            },
+            {
+              "investor": "Bora Pharmaceutical Holdings, LLC.",
+              "investee": "Upsher-Smith Holdings Inc.",
+              "pct": 100
+            },
+            {
+              "investor": "Upsher-Smith Holdings Inc.",
+              "investee": "Upsher-Smith America LLC",
+              "pct": 80
+            },
+            {
+              "investor": "Upsher-Smith America LLC",
+              "investee": "Upsher-Smith Laboratories, LLC",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -187843,7 +190382,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -187877,6 +190416,31 @@
           "longitude": "-89.4189"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "6488",
+            "name": "環球晶圓股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "GlobiTech Incorporated (以下稱GTI)",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "環球晶圓股份有限公司",
+              "investee": "GlobalWafers B.V. (以下稱GWBV)",
+              "pct": 100
+            },
+            {
+              "investor": "GlobalWafers B.V. (以下稱GWBV)",
+              "investee": "GlobiTech Incorporated (以下稱GTI)",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -187899,6 +190463,36 @@
           "longitude": "-90.661579"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "6488",
+            "name": "環球晶圓股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "MEMC Electronic Materials, SpA (以下稱MEMC SpA)",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "環球晶圓股份有限公司",
+              "investee": "GlobalWafers B.V. (以下稱GWBV)",
+              "pct": 100
+            },
+            {
+              "investor": "GlobalWafers B.V. (以下稱GWBV)",
+              "investee": "GlobiTech Incorporated (以下稱GTI)",
+              "pct": 100
+            },
+            {
+              "investor": "GlobiTech Incorporated (以下稱GTI)",
+              "investee": "MEMC Electronic Materials, SpA (以下稱MEMC SpA)",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -196277,7 +198871,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -196311,6 +198905,20 @@
           "longitude": "-82.041153"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "6496",
+            "name": "科懋生物科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：MOPS 顯示此公司沒有任何美國子公司，疑為同名誤配"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -196333,6 +198941,20 @@
           "longitude": "-93.616667"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "6496",
+            "name": "科懋生物科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：MOPS 顯示此公司沒有任何美國子公司，疑為同名誤配"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -196345,7 +198967,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -196379,6 +199001,26 @@
           "longitude": "-117.54404"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "6534",
+            "name": "正瀚生技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "CH BIOTECH, LLC",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "正瀚生技股份有限公司",
+              "investee": "CH BIOTECH, LLC",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -196391,7 +199033,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -196425,6 +199067,31 @@
           "longitude": "-104.944917"
         },
         "shareholding": "5.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "6612",
+            "name": "應用奈米醫材科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "MILLENNIUM BIOMEDICAL, INC. (MBI)",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "應用奈米醫材科技股份有限公司",
+              "investee": "AST VISIONCARE INC. (ASTVC-US)",
+              "pct": 100
+            },
+            {
+              "investor": "AST VISIONCARE INC. (ASTVC-US)",
+              "investee": "MILLENNIUM BIOMEDICAL, INC. (MBI)",
+              "pct": 95
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -196437,7 +199104,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -196471,6 +199138,36 @@
           "longitude": "-118.2077"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "6670",
+            "name": "復盛應用科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "FS-Precision Tech Co., LLC.",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "復盛應用科技股份有限公司",
+              "investee": "Gainsmart Group Ltd.",
+              "pct": 100
+            },
+            {
+              "investor": "Gainsmart Group Ltd.",
+              "investee": "FS-North America, Inc.",
+              "pct": 100
+            },
+            {
+              "investor": "FS-North America, Inc.",
+              "investee": "FS-Precision Tech Co., LLC.",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -196624,7 +199321,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -196658,6 +199355,20 @@
           "longitude": "-96.10075"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "6761",
+            "name": "穩得實業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -196670,7 +199381,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -196704,6 +199415,20 @@
           "longitude": "-123.1838"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "6782",
+            "name": "視陽光學股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -196716,7 +199441,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -196750,6 +199475,31 @@
           "longitude": "-121.2505"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "6887",
+            "name": "寶綠特資源再生工程股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "CYCLEPLUS,LLC(原名：BORETECH RESOURCE RECOVERY ENGINEERING CO., LLC)",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "寶綠特資源再生工程股份有限公司",
+              "investee": "RIZEN CO., LTD.",
+              "pct": 100
+            },
+            {
+              "investor": "RIZEN CO., LTD.",
+              "investee": "CYCLEPLUS,LLC(原名：BORETECH RESOURCE RECOVERY ENGINEERING CO., LLC)",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -196903,7 +199653,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -196937,6 +199687,26 @@
           "longitude": "-111.837124"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "6957",
+            "name": "裕慶金屬股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Beeline Corp.",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "裕慶金屬股份有限公司",
+              "investee": "Beeline Corp.",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -196959,6 +199729,20 @@
           "longitude": "-81.3849"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "6957",
+            "name": "裕慶金屬股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：設施名稱與此公司的美國子公司沒有共同字"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -196981,6 +199765,20 @@
           "longitude": "-81.3861"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "6957",
+            "name": "裕慶金屬股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：設施名稱與此公司的美國子公司沒有共同字"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -197003,6 +199801,20 @@
           "longitude": "-111.7618"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "6957",
+            "name": "裕慶金屬股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：設施名稱與此公司的美國子公司沒有共同字"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -197025,6 +199837,20 @@
           "longitude": "-106.6025"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "6957",
+            "name": "裕慶金屬股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：設施名稱與此公司的美國子公司沒有共同字"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -197047,6 +199873,20 @@
           "longitude": "-81.3782694"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "6957",
+            "name": "裕慶金屬股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：設施名稱與此公司的美國子公司沒有共同字"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -197069,6 +199909,20 @@
           "longitude": "-81.3783"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "6957",
+            "name": "裕慶金屬股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：設施名稱與此公司的美國子公司沒有共同字"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -197091,6 +199945,20 @@
           "longitude": "-104.731496"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "6957",
+            "name": "裕慶金屬股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：設施名稱與此公司的美國子公司沒有共同字"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -197314,7 +200182,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -197348,6 +200216,36 @@
           "longitude": "-72.595"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "8069",
+            "name": "元太科技工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "E Ink Corporation",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "元太科技工業股份有限公司",
+              "investee": "E Ink Technology B.V.",
+              "pct": 100
+            },
+            {
+              "investor": "E Ink Technology B.V.",
+              "investee": "E Ink Netherlands B.V.",
+              "pct": 100
+            },
+            {
+              "investor": "E Ink Netherlands B.V.",
+              "investee": "E Ink Corporation",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -197360,7 +200258,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -197394,6 +200292,20 @@
           "longitude": "-111.929"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "8110",
+            "name": "華東科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": 100,
+          "path": [],
+          "method": "self",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -197416,6 +200328,20 @@
           "longitude": "-75.12795"
         },
         "shareholding": "",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "8110",
+            "name": "華東科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": null,
+          "effectivePct": null,
+          "path": [],
+          "method": "echo-name-match",
+          "confidence": "suspect",
+          "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）無佐證：MOPS 顯示此公司沒有任何美國子公司，疑為同名誤配"
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -197428,7 +200354,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -197462,6 +200388,31 @@
           "longitude": "-97.25409"
         },
         "shareholding": "82.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "8114",
+            "name": "振樺電子股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "KIS Acquisition Corp. (KIA)",
+          "effectivePct": 91.9,
+          "path": [
+            {
+              "investor": "振樺電子股份有限公司",
+              "investee": "Posiflex Business Machines, Inc. (PBM)",
+              "pct": 100
+            },
+            {
+              "investor": "Posiflex Business Machines, Inc. (PBM)",
+              "investee": "KIS Acquisition Corp. (KIA)",
+              "pct": 82
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -197474,7 +200425,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -197508,6 +200459,26 @@
           "longitude": "-90.308889"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "8271",
+            "name": "宇瞻科技股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "AMA",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "宇瞻科技股份有限公司",
+              "investee": "AMA",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -198361,7 +201332,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -198395,6 +201366,26 @@
           "longitude": "-112.0149"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "8464",
+            "name": "億豐綜合工業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Norman International, Inc.",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "億豐綜合工業股份有限公司",
+              "investee": "Norman International, Inc.",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -198407,7 +201398,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -198441,6 +201432,36 @@
           "longitude": "-122.34581"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "8478",
+            "name": "東哥企業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "Pacific Coast Yachting Services Inc",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "東哥企業股份有限公司",
+              "investee": "Alexander Marine International Co., Ltd",
+              "pct": 100
+            },
+            {
+              "investor": "Alexander Marine International Co., Ltd",
+              "investee": "Alexander Marine Enterprises Inc",
+              "pct": 100
+            },
+            {
+              "investor": "Alexander Marine Enterprises Inc",
+              "investee": "Pacific Coast Yachting Services Inc",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -210949,7 +213970,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   },
   {
@@ -210983,6 +214004,36 @@
           "longitude": "-117.60622"
         },
         "shareholding": "80.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "9944",
+            "name": "新麗企業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "AMERICAN FURNITURE ALLIANCE INC.",
+          "effectivePct": 80,
+          "path": [
+            {
+              "investor": "新麗企業股份有限公司",
+              "investee": "SHINIH USA INC.",
+              "pct": 100
+            },
+            {
+              "investor": "SHINIH USA INC.",
+              "investee": "WORLD FURNITURE GROUP",
+              "pct": 100
+            },
+            {
+              "investor": "WORLD FURNITURE GROUP",
+              "investee": "AMERICAN FURNITURE ALLIANCE INC.",
+              "pct": 80
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -211005,6 +214056,31 @@
           "longitude": "-117.60626"
         },
         "shareholding": "100.00%",
+        "ownership": {
+          "responsible": {
+            "kind": "listed",
+            "code": "9944",
+            "name": "新麗企業股份有限公司"
+          },
+          "groupName": null,
+          "entityInMops": "AMERICAN NONWOVEN INC.",
+          "effectivePct": 100,
+          "path": [
+            {
+              "investor": "新麗企業股份有限公司",
+              "investee": "VFT INC.",
+              "pct": 100
+            },
+            {
+              "investor": "VFT INC.",
+              "investee": "AMERICAN NONWOVEN INC.",
+              "pct": 100
+            }
+          ],
+          "method": "mops-echo-subsidiary",
+          "confidence": "high",
+          "note": null
+        },
         "programs": {
           "air": false,
           "water": true,
@@ -211123,7 +214199,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2025-10-13T11:07:36.416Z"
+      "lastUpdated": "2026-09-30T03:13:29.772Z"
     }
   }
 ]

@@ -9,10 +9,16 @@
     "lint": "next lint",
     "export": "next export",
     "deploy": "npm run build && touch out/.nojekyll && git add out/ && git commit -m \"Deploy to gh-pages\" && git subtree push --prefix out origin gh-pages",
-    "download-epa": "node scripts/download-epa-data.js",
+    "download-epa": "CLOUDSDK_ACTIVE_CONFIG_NAME=formosa node scripts/download-epa-data.js",
     "fetch-data": "node scripts/fetch-gcs-data.js",
     "setup-epa": "npm run download-epa && npm run fetch-data",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gcloud:login": "CLOUDSDK_ACTIVE_CONFIG_NAME=formosa gcloud auth login",
+    "gcloud:check": "CLOUDSDK_ACTIVE_CONFIG_NAME=formosa gcloud storage ls gs://epa_echo_data/",
+    "mapping:seed": "python3 scripts/seed-company-mapping.py",
+    "ownership": "python3 scripts/resolve-ownership.py",
+    "enforcement": "node scripts/build-enforcement.js",
+    "attribution": "npm run ownership && npm run enforcement && npm run fetch-data"
   },
   "keywords": [],
   "author": "",

@@ -471,7 +471,7 @@
 
 [^151]: https://www.foxconn.com/s3/reports/ESG/HonHai-2022_ESG_Insight_EN-0913.pdf
 
-[^152]: https://violationtracker.goodjobsfirst.org/?hq_id=Taiwan\&order=pen_year\&sort=desc\&page=1
+[^152]: https://violationtracker.goodjobsfirst.org/?hq_id=Taiwan\&order=pen_year\&sort=desc
 
 [^153]: https://www.wikiwand.com/en/articles/Foxconn
 

@@ -1,0 +1,314 @@
+[
+  {
+    "vtSlug": "au-optronics",
+    "vtgSlug": "au-optronics",
+    "companyCodes": [
+      "2409"
+    ],
+    "level": "company",
+    "confidence": "manual-confirmed",
+    "note": "AUO 友達；VT 名稱 AU Optronics 與 MOPS 英文名 AUO Corporation 無法自動對上"
+  },
+  {
+    "vtSlug": "innolux-corporation",
+    "vtgSlug": "innolux-corporation",
+    "companyCodes": [
+      "3481"
+    ],
+    "level": "company",
+    "confidence": "manual-confirmed",
+    "note": "群創；Chi Mei Optoelectronics 為前身"
+  },
+  {
+    "vtSlug": "foxconn-technology-group-hon-hai-precisi",
+    "vtgSlug": "foxconn-technology-group-hon-hai-precisi",
+    "companyCodes": [
+      "2317",
+      "2354"
+    ],
+    "level": "group",
+    "confidence": "manual-confirmed",
+    "note": "VT 以鴻海集團為 parent；2317 鴻海為主，2354 鴻準（Foxconn Technology Co.）併入集團層"
+  },
+  {
+    "vtSlug": "mega-financial-holding",
+    "vtgSlug": "mega-financial-holding",
+    "companyCodes": [
+      "2886"
+    ],
+    "level": "company",
+    "confidence": "manual-confirmed",
+    "note": "兆豐金"
+  },
+  {
+    "vtSlug": "china-airlines",
+    "vtgSlug": "china-airlines",
+    "companyCodes": [
+      "2610"
+    ],
+    "level": "company",
+    "confidence": "auto-high",
+    "note": ""
+  },
+  {
+    "vtSlug": "eva-airways-corporation",
+    "vtgSlug": null,
+    "companyCodes": [
+      "2618"
+    ],
+    "level": "company",
+    "confidence": "auto-high",
+    "note": ""
+  },
+  {
+    "vtSlug": "yageo",
+    "vtgSlug": "yageo",
+    "companyCodes": [
+      "2327"
+    ],
+    "level": "company",
+    "confidence": "auto-high",
+    "note": ""
+  },
+  {
+    "vtSlug": "hannstar-display",
+    "vtgSlug": "hannstar-display",
+    "companyCodes": [
+      "6116"
+    ],
+    "level": "company",
+    "confidence": "auto-high",
+    "note": ""
+  },
+  {
+    "vtSlug": "tatung",
+    "vtgSlug": "tatung",
+    "companyCodes": [
+      "2371"
+    ],
+    "level": "company",
+    "confidence": "auto-high",
+    "note": ""
+  },
+  {
+    "vtSlug": "formosa-plastics",
+    "vtgSlug": "formosa-plastics",
+    "companyCodes": [
+      "1301"
+    ],
+    "level": "group",
+    "confidence": "manual-confirmed",
+    "note": "VT US 版把台塑美國廠、南亞美國廠部分紀錄與 Formosa Petrochemical Point Comfort 掛在此 parent；Global 版另有獨立 nan-ya-plastics 與 formosa-petrochemical-corporation。集團層紀錄，罰款總額只計入 1301"
+  },
+  {
+    "vtSlug": "united-microelectronics-corporation",
+    "vtgSlug": "united-microelectronics-corporation",
+    "companyCodes": [
+      "2303"
+    ],
+    "level": "company",
+    "confidence": "auto-high",
+    "note": ""
+  },
+  {
+    "vtSlug": "international-csrc-investment-holdings",
+    "vtgSlug": null,
+    "companyCodes": [
+      "2104"
+    ],
+    "level": "company",
+    "confidence": "auto-high",
+    "note": ""
+  },
+  {
+    "vtSlug": "nan-ya-plastics",
+    "vtgSlug": "nan-ya-plastics",
+    "companyCodes": [
+      "1303"
+    ],
+    "level": "company",
+    "confidence": "auto-high",
+    "note": ""
+  },
+  {
+    "vtSlug": null,
+    "vtgSlug": "ctbc-financial",
+    "companyCodes": [
+      "2891"
+    ],
+    "level": "company",
+    "confidence": "manual-confirmed",
+    "note": "中信金"
+  },
+  {
+    "vtSlug": "johnson-health-tech",
+    "vtgSlug": null,
+    "companyCodes": [
+      "1736"
+    ],
+    "level": "company",
+    "confidence": "auto-high",
+    "note": ""
+  },
+  {
+    "vtSlug": null,
+    "vtgSlug": "cathay-financial",
+    "companyCodes": [
+      "2882"
+    ],
+    "level": "company",
+    "confidence": "auto-high",
+    "note": ""
+  },
+  {
+    "vtSlug": "taishin-financial-holdings",
+    "vtgSlug": "taishin-financial-holdings",
+    "companyCodes": [
+      "2887"
+    ],
+    "level": "company",
+    "confidence": "manual-confirmed",
+    "note": "台新金；2025 併新光金後 MOPS 名稱為台新新光金"
+  },
+  {
+    "vtSlug": null,
+    "vtgSlug": "fubon-financial-holding",
+    "companyCodes": [
+      "2881"
+    ],
+    "level": "company",
+    "confidence": "auto-high",
+    "note": ""
+  },
+  {
+    "vtSlug": null,
+    "vtgSlug": "chunghwa-telecom",
+    "companyCodes": [
+      "2412"
+    ],
+    "level": "company",
+    "confidence": "auto-high",
+    "note": ""
+  },
+  {
+    "vtSlug": null,
+    "vtgSlug": "shin-kong-financial-holding-co-ltd",
+    "companyCodes": [
+      "2887"
+    ],
+    "level": "company",
+    "confidence": "manual-confirmed",
+    "note": "新光金已併入台新新光金 2887；歷史裁罰歸到 2887"
+  },
+  {
+    "vtSlug": null,
+    "vtgSlug": "first-financial-holding",
+    "companyCodes": [
+      "2892"
+    ],
+    "level": "company",
+    "confidence": "manual-confirmed",
+    "note": "第一金；MOPS 英文全稱錯位，靠子公司 First Commercial Bank 對上"
+  },
+  {
+    "vtSlug": null,
+    "vtgSlug": "yuanta-financial-holdings",
+    "companyCodes": [
+      "2885"
+    ],
+    "level": "company",
+    "confidence": "manual-confirmed",
+    "note": "元大金；MOPS 英文全稱錯位區"
+  },
+  {
+    "vtSlug": "asustek-computer-inc",
+    "vtgSlug": "asustek-computer-inc",
+    "companyCodes": [
+      "2357"
+    ],
+    "level": "company",
+    "confidence": "auto-high",
+    "note": ""
+  },
+  {
+    "vtSlug": null,
+    "vtgSlug": "shanghai-commercial-and-savings-bank",
+    "companyCodes": [
+      "5876"
+    ],
+    "level": "company",
+    "confidence": "auto-high",
+    "note": ""
+  },
+  {
+    "vtSlug": "taiwan-semiconductor-manufacturing-compa",
+    "vtgSlug": "taiwan-semiconductor-manufacturing-compa",
+    "companyCodes": [
+      "2330"
+    ],
+    "level": "company",
+    "confidence": "manual-confirmed",
+    "note": "母公司層級歸 2330；VT 誤歸在此的「Taiwan Semiconductor Corporation」實為台半 5425，由 resolve-ownership.py 在實體層級更正"
+  },
+  {
+    "vtSlug": null,
+    "vtgSlug": "formosa-petrochemical-corporation",
+    "companyCodes": [
+      "6505",
+      "1326"
+    ],
+    "level": "group",
+    "confidence": "manual-confirmed",
+    "note": "VT Global 把台化（Formosa Chemicals and Fibre）掛在台塑化 parent 下"
+  },
+  {
+    "vtSlug": null,
+    "vtgSlug": "china-petrochemical-development-corp",
+    "companyCodes": [
+      "1314"
+    ],
+    "level": "company",
+    "confidence": "auto-high",
+    "note": ""
+  },
+  {
+    "vtSlug": null,
+    "vtgSlug": "quanta-computer-corporation",
+    "companyCodes": [
+      "2382"
+    ],
+    "level": "company",
+    "confidence": "auto-high",
+    "note": ""
+  },
+  {
+    "vtSlug": "yang-ming-marine-transport",
+    "vtgSlug": null,
+    "companyCodes": [
+      "2609"
+    ],
+    "level": "company",
+    "confidence": "manual-confirmed",
+    "note": "陽明海運"
+  },
+  {
+    "vtSlug": null,
+    "vtgSlug": "pegatron-corporation",
+    "companyCodes": [
+      "4938"
+    ],
+    "level": "company",
+    "confidence": "auto-high",
+    "note": ""
+  },
+  {
+    "vtSlug": "tsrc-corp",
+    "vtgSlug": null,
+    "companyCodes": [
+      "2103"
+    ],
+    "level": "company",
+    "confidence": "auto-high",
+    "note": ""
+  }
+]

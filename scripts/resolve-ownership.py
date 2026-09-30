@@ -133,7 +133,7 @@ def load_mops():
         shifted = not consistent(own, r['英文簡稱']) and consistent(nxt, r['英文簡稱'])
         companies[r['公司代號']] = {
             'code': r['公司代號'], 'name': r['公司名稱'], 'short': r['公司簡稱'],
-            'enAbbr': r['英文簡稱'], 'enFull': nxt if shifted else own, 'market': r['市場別'],
+            'enAbbr': r['英文簡稱'], 'enFull': nxt if shifted else own, 'market': r['市場別'], 'industry': r['產業類別'],
         }
 
     edges = collections.defaultdict(dict)       # code -> {(inv_key, sub_key): edge}

@@ -236,3 +236,51 @@ MOPS 檔案放在 sibling repo `formosa-oversee/scripts/mops_company`，可用 `
 | `suspect` | MOPS 顯示該公司沒有美國子公司，或名稱毫無共同字（例：TO-FU RESTAURANT 對豆府、RIGHT OF WAY 對正道） |
 
 2026-09-30 的結果：169 個設施中 30 個 `suspect`、17 個 `weak`；5,862 筆 ECHO 違規中有 1,420 筆落在 `suspect` 設施上，主要是榮運（821）、耿鼎（300）、豆府（248）。前端目前仍照舊顯示，是否隱藏或加註由產品決定。
+
+### 核對狀態（2026-09-30）
+
+自動檢查全部通過：
+
+| 檢查 | 結果 |
+|---|---|
+| VT 紀錄有資金鏈歸屬 | 629 / 629 |
+| ECHO 設施有 `ownership` | 169 / 169 |
+| 持股比例超過 100%、未知公司代號、curated 節點找不到 | 0 |
+| `CURATED` 規則從未命中 | 0 / 47 |
+| production（formosaoversee.com）頁面資料含 `ownership` | 已確認 |
+
+仍無法確認、維持低信心的項目：
+
+- VT「Formosa Plastics Energy Technology」（14 筆空污）：中文實體未能確認。唯一名稱接近的台塑新智能科技 2022 年才成立，VT 紀錄始於 2011 年，所以維持集團層級。
+- 國泰金 2882、第一金 2892 的 MOPS 子公司清單不完整：國泰世華、國泰人壽、第一銀行只有「作為投資人」的紀錄，持股比例未知；國泰產險不在清單中。
+- VT 列表頁沒有「Parent at the Time of the Penalty」與「Link to ECHO」欄位，收購時點靠公開資訊人工判定，案件層級無法與 ECHO 一對一對應。
+
+### ECHO 覆蓋率稽核：台灣母公司的美國工廠有沒有漏
+
+`scripts/audit-echo-coverage.py` 反過來檢查：從 MOPS 取出所有台灣上市公司的美國子公司（1,072 個英文名），加上已確認的集團關係企業（FPC USA、Formosa Industries、FG LA、夏普美國），在 EPA ECHO 全部設施中比對名稱，列出 `data/facilities.csv` 沒有的工廠。
+
+```bash
+curl -o /tmp/echo_exporter.zip https://echo.epa.gov/files/echodownloads/echo_exporter.zip   # EPA 全量設施檔，約 440MB，不進 git
+npm run audit:echo -- --exporter=/tmp/echo_exporter.zip                                     # 本機比對，約 1 分鐘
+```
+
+ECHO 的查詢 API 會限流（HTTP 429），逐一查 700 個名稱不可行，所以改用全量檔。精準度規則：搜尋詞要含全美設施名中罕見的字，且命中不超過 40 個設施；比對到的設施再以 NPDES 許可證判斷「完整／部分／完全沒有」涵蓋。結果在 `data/echo-coverage-audit.json`，是候選清單，須人工確認。
+
+2026-09-30 結果：566 個候選設施，31 個完整涵蓋、16 個部分涵蓋、519 個不在我們資料中（多數沒有任何違規紀錄）。有違規或罰款紀錄、且確認屬台灣母公司的缺漏：
+
+| 工廠 | 台灣母公司 | 涵蓋 | ECHO 紀錄 | 缺的許可證 |
+|---|---|---|---|---|
+| FPC Texas，Point Comfort TX | 台塑集團關係企業（1301 代表） | 部分 | 12 季不合規、6 次罰款、US$3,655,889 | TX0085570（主廠排放許可）、TXR15285Z |
+| Continental Carbon，Ponca City OK | 國際中橡 2104（66.67%） | 完全沒有 | 4 季不合規、2 次罰款、US$71,600 | 無 NPDES，屬空污／廢棄物 |
+| Continental Carbon，Sunray TX | 國際中橡 2104 | 部分 | 4 季不合規、1 次罰款、US$9,300 | TXR05EU88 |
+| Ocean Alexander Marine Center，Seattle WA | 東哥 8478 | 部分 | 12 季不合規 | WAG030060 |
+| EMD Specialty Materials（Arlon EMD），Rancho Cucamonga CA | 台光電 2383 | 完全沒有 | 10 季不合規 | CAZ469513 |
+| Test Rite Product Corp，Ontario CA | 特力 2908 | 完全沒有 | 10 季不合規 | CAZ494423 |
+| Tulex Pharmaceuticals，Cranbury NJ | 易威 1799 | 完全沒有 | 2 季不合規 | 無 NPDES |
+| TSMC Arizona Corporation，Phoenix AZ | 台積電 2330 | 部分 | 1 季不合規 | AZC112964 等工地雨水許可 |
+
+另外 FG LA（台塑化 6505 經 FG INC. 持股 57%，路易斯安那 St. James「Sunshine Project」）有 3 張工地雨水許可、目前沒有違規，也不在我們資料中。
+
+同名誤配、不是缺漏：Barrette Outdoor Living（對新麗 9944 的 American Outdoor Living）、Mira Mobile Home Community（對泰金 6629 的 Mira Home）。
+
+這些工廠要不要納入網站，需要另外匯入它們的 ICIS-NPDES 違規紀錄，目前沒有加進 `facilities.csv`。

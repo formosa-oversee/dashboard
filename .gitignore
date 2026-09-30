@@ -39,3 +39,4 @@ yarn-error.log*
 /data/enforcement.json
 /data/company-mapping.seed.json
 __pycache__/
+/data/.echo-audit-cache.json

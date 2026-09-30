@@ -37,6 +37,7 @@ npm run download-epa                          # 已內建該環境變數
 - 母公司對照表 `data/company-mapping.json`（進 git）由 `npm run mapping:seed` 產生，依腳本內 `OVERRIDES`（人工確認）與 `FOREIGN`（外資母公司排除）決定。
 - **資金鏈歸屬**：`npm run attribution`（resolve-ownership → build-enforcement → fetch-data）。`scripts/resolve-ownership.py` 把受罰實體沿 MOPS 子公司持股鏈追到負責的台灣母公司，輸出 `data/ownership-resolution.json`（進 git，只含實體名稱與持股鏈，不含 VT 金額）。規格見 `docs/enforcement-data-interface.md` 第 8 節。
 - 新增或修改歸屬判斷時改 `resolve-ownership.py` 的 `CURATED`，每條都要在 `note` 寫依據（MOPS 節點、官方公告或新聞）。MOPS 檔案在 sibling repo `../scripts/mops_company`，可用 `MOPS_DIR` 覆寫。
+- **ECHO 覆蓋率稽核**：`npm run audit:echo -- --exporter=<echo_exporter.zip>` 找台灣母公司在美國但 `facilities.csv` 沒有的工廠（見 `docs/enforcement-data-interface.md` 第 8 節）。ECHO 查詢 API 會回 429 限流，不要逐一打 API，改下載 EPA 全量檔 `echo.epa.gov/files/echodownloads/echo_exporter.zip` 在本機比對。
 - VT 衍生的筆數與金額只能留在 gitignored 檔案（`data/enforcement.json`、`data/violation-tracker/`、`data/company-mapping.seed.json`）；這個 repo 是公開的，push 到 main 會觸發 GitHub Pages 部署。
 - **MOPS `mops_company_info.csv` 的「英文全稱」欄有整段錯一列的問題**（詳見 `docs/violation-tracker-data-access.md` 附錄）。做任何名稱匹配請用「英文簡稱」，或兩支腳本內已修正的英文全稱（以英文簡稱字首或縮寫字母順序判斷錯位），不要直接用原始「英文全稱」。
 - 專案層 `.claude/settings.local.json` 允許 claude-in-chrome 工具，但 auto mode classifier 仍可能擋 `javascript_tool`，`get_page_text` 較穩定。

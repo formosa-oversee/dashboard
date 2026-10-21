@@ -200,7 +200,7 @@ MOPS 檔案放在 sibling repo `formosa-oversee/scripts/mops_company`，可用 `
 | kind | 意義 | 是否掛到上市公司 |
 |---|---|---|
 | `listed` | 有上市公司持股鏈（或實體就是上市公司） | 是 |
-| `group-affiliate` | 集團關係企業，無上市公司持股路徑（例：FPC USA 台塑美國） | 是，以代表上市公司呈現並標示 |
+| `group-affiliate` | 集團關係企業，無上市公司持股路徑（目前沒有實例；FPC USA 原歸此類，2026-10-21 更正為 `listed`，見下表） | 是，以代表上市公司呈現並標示 |
 | `group-assumed` | 實體身分未能確認，暫依 VT 母公司 | 是，低信心 |
 | `merger` | 因合併承繼（例：新光人壽 → 台新新光金） | 是 |
 | `private` / `state-owned` | 台灣非上市母公司（豐群水產、台灣中油） | 否，另列 |
@@ -216,7 +216,7 @@ MOPS 檔案放在 sibling repo `formosa-oversee/scripts/mops_company`，可用 `
 | Formosa Plastics Biomedical Technology | 台塑 1301 | 台化 1326（88.59%） | MOPS：台化 → 台塑生醫 |
 | Formosa Plastics Petrochemical | 台塑 1301 | 台塑化 6505 | 中文名「台塑石化」直譯 |
 | Formosa Chemicals and Fibre | 台塑化 6505 | 台化 1326 | 台化為獨立上市公司 |
-| Formosa Plastics Corporation, Texas／U.S.A.／LA／DE 等 | 台塑 1301 | 台塑集團關係企業（無持股路徑） | FPC USA 為私人持有；台塑 1301 的美國子公司是 Formosa Industries Corp.，2026-08-01 併入 FPC USA |
+| Formosa Plastics Corporation, Texas／U.S.A.／LA／DE 等 | 台塑 1301 | 台塑 1301 的關聯企業（`curated-associate`，有效持股 24.82%） | 台塑 115Q2 合併財報：直接持有 FPC USA 22.66%（權益法）；台塑工業美國 2026-08-01 併入後增為 24.82%（MOPS 重大訊息 2026-10-12）。2026-09-30 版誤記為「私人持有、無持股路徑」，2026-10-21 更正 |
 | Carrefour（家樂福台灣） | 外資 | 統一 1216（家福 100%，2023 起） | MOPS：統一企業 → 家福 |
 | Philips & Lite-On Digital Solutions | 外資 | 光寶科 2301（100%） | MOPS：光寶科 → 飛利浦建興 |
 | Nissan Taiwan | 外資 | 裕日車 2227 | 裕隆日產為 Nissan 在台代理 |

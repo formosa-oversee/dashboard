@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30",
+  "generatedAt": "2026-10-21",
   "vtSnapshotDate": "2026-09-10",
   "mopsSource": "formosa-oversee/scripts mops_company（公開資訊觀測站，2025Q1–Q2 子公司持股）",
   "note": "由 scripts/resolve-ownership.py 產生。responsible.kind：listed 上市公司｜group-affiliate 集團關係企業（無上市公司持股路徑）｜merger 合併承繼｜private／state-owned 台灣非上市母公司｜foreign 外資母公司｜unresolved。path 為 MOPS 持股鏈，effectivePct 為沿路持股相乘。",
@@ -225,21 +225,18 @@
       "entity": "FORMOSA PLASTIC CORPORATION",
       "parentSlug": "formosa-plastics",
       "responsible": {
-        "kind": "group-affiliate",
+        "kind": "listed",
         "code": "1301",
         "name": "台灣塑膠工業股份有限公司",
         "short": "台塑"
       },
-      "groupCodes": [
-        "1301"
-      ],
-      "groupName": "台塑集團 Formosa Plastics Group",
-      "effectivePct": null,
+      "effectivePct": 24.82,
       "path": [],
-      "method": "curated-group-affiliate",
-      "confidence": "medium",
-      "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）"
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
     },
     {
       "source": "Violation Tracker",
@@ -247,21 +244,18 @@
       "entity": "FORMOSA PLASTICS CO.",
       "parentSlug": "formosa-plastics",
       "responsible": {
-        "kind": "group-affiliate",
+        "kind": "listed",
         "code": "1301",
         "name": "台灣塑膠工業股份有限公司",
         "short": "台塑"
       },
-      "groupCodes": [
-        "1301"
-      ],
-      "groupName": "台塑集團 Formosa Plastics Group",
-      "effectivePct": null,
+      "effectivePct": 24.82,
       "path": [],
-      "method": "curated-group-affiliate",
-      "confidence": "medium",
-      "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）"
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
     },
     {
       "source": "Violation Tracker",
@@ -269,21 +263,18 @@
       "entity": "FORMOSA PLASTICS CORP.",
       "parentSlug": "formosa-plastics",
       "responsible": {
-        "kind": "group-affiliate",
+        "kind": "listed",
         "code": "1301",
         "name": "台灣塑膠工業股份有限公司",
         "short": "台塑"
       },
-      "groupCodes": [
-        "1301"
-      ],
-      "groupName": "台塑集團 Formosa Plastics Group",
-      "effectivePct": null,
+      "effectivePct": 24.82,
       "path": [],
-      "method": "curated-group-affiliate",
-      "confidence": "medium",
-      "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）"
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
     },
     {
       "source": "Violation Tracker",
@@ -291,21 +282,18 @@
       "entity": "FORMOSA PLASTICS CORPORATION",
       "parentSlug": "formosa-plastics",
       "responsible": {
-        "kind": "group-affiliate",
+        "kind": "listed",
         "code": "1301",
         "name": "台灣塑膠工業股份有限公司",
         "short": "台塑"
       },
-      "groupCodes": [
-        "1301"
-      ],
-      "groupName": "台塑集團 Formosa Plastics Group",
-      "effectivePct": null,
+      "effectivePct": 24.82,
       "path": [],
-      "method": "curated-group-affiliate",
-      "confidence": "medium",
-      "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）"
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
     },
     {
       "source": "Violation Tracker",
@@ -313,21 +301,18 @@
       "entity": "FORMOSA PLASTICS CORPORATION (DELAWARE CITY)",
       "parentSlug": "formosa-plastics",
       "responsible": {
-        "kind": "group-affiliate",
+        "kind": "listed",
         "code": "1301",
         "name": "台灣塑膠工業股份有限公司",
         "short": "台塑"
       },
-      "groupCodes": [
-        "1301"
-      ],
-      "groupName": "台塑集團 Formosa Plastics Group",
-      "effectivePct": null,
+      "effectivePct": 24.82,
       "path": [],
-      "method": "curated-group-affiliate",
-      "confidence": "medium",
-      "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）"
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
     },
     {
       "source": "Violation Tracker",
@@ -335,21 +320,18 @@
       "entity": "FORMOSA PLASTICS CORPORATION DE",
       "parentSlug": "formosa-plastics",
       "responsible": {
-        "kind": "group-affiliate",
+        "kind": "listed",
         "code": "1301",
         "name": "台灣塑膠工業股份有限公司",
         "short": "台塑"
       },
-      "groupCodes": [
-        "1301"
-      ],
-      "groupName": "台塑集團 Formosa Plastics Group",
-      "effectivePct": null,
+      "effectivePct": 24.82,
       "path": [],
-      "method": "curated-group-affiliate",
-      "confidence": "medium",
-      "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）"
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
     },
     {
       "source": "Violation Tracker",
@@ -357,21 +339,18 @@
       "entity": "FORMOSA PLASTICS CORPORATION, TEXAS",
       "parentSlug": "formosa-plastics",
       "responsible": {
-        "kind": "group-affiliate",
+        "kind": "listed",
         "code": "1301",
         "name": "台灣塑膠工業股份有限公司",
         "short": "台塑"
       },
-      "groupCodes": [
-        "1301"
-      ],
-      "groupName": "台塑集團 Formosa Plastics Group",
-      "effectivePct": null,
+      "effectivePct": 24.82,
       "path": [],
-      "method": "curated-group-affiliate",
-      "confidence": "medium",
-      "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）"
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
     },
     {
       "source": "Violation Tracker",
@@ -379,21 +358,18 @@
       "entity": "FORMOSA PLASTICS CORPORATION,U.S.A.",
       "parentSlug": "formosa-plastics",
       "responsible": {
-        "kind": "group-affiliate",
+        "kind": "listed",
         "code": "1301",
         "name": "台灣塑膠工業股份有限公司",
         "short": "台塑"
       },
-      "groupCodes": [
-        "1301"
-      ],
-      "groupName": "台塑集團 Formosa Plastics Group",
-      "effectivePct": null,
+      "effectivePct": 24.82,
       "path": [],
-      "method": "curated-group-affiliate",
-      "confidence": "medium",
-      "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）"
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
     },
     {
       "source": "Violation Tracker",
@@ -401,21 +377,18 @@
       "entity": "FORMOSA PLASTICS LA",
       "parentSlug": "formosa-plastics",
       "responsible": {
-        "kind": "group-affiliate",
+        "kind": "listed",
         "code": "1301",
         "name": "台灣塑膠工業股份有限公司",
         "short": "台塑"
       },
-      "groupCodes": [
-        "1301"
-      ],
-      "groupName": "台塑集團 Formosa Plastics Group",
-      "effectivePct": null,
+      "effectivePct": 24.82,
       "path": [],
-      "method": "curated-group-affiliate",
-      "confidence": "medium",
-      "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）"
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
     },
     {
       "source": "Violation Tracker",
@@ -423,21 +396,18 @@
       "entity": "Formosa Petrochemical Point Comfort",
       "parentSlug": "formosa-plastics",
       "responsible": {
-        "kind": "group-affiliate",
+        "kind": "listed",
         "code": "1301",
         "name": "台灣塑膠工業股份有限公司",
         "short": "台塑"
       },
-      "groupCodes": [
-        "1301"
-      ],
-      "groupName": "台塑集團 Formosa Plastics Group",
-      "effectivePct": null,
+      "effectivePct": 24.82,
       "path": [],
-      "method": "curated-group-affiliate",
-      "confidence": "medium",
-      "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）"
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
     },
     {
       "source": "Violation Tracker",
@@ -445,21 +415,18 @@
       "entity": "Formosa Plastics",
       "parentSlug": "formosa-plastics",
       "responsible": {
-        "kind": "group-affiliate",
+        "kind": "listed",
         "code": "1301",
         "name": "台灣塑膠工業股份有限公司",
         "short": "台塑"
       },
-      "groupCodes": [
-        "1301"
-      ],
-      "groupName": "台塑集團 Formosa Plastics Group",
-      "effectivePct": null,
+      "effectivePct": 24.82,
       "path": [],
-      "method": "curated-group-affiliate",
-      "confidence": "medium",
-      "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）"
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
     },
     {
       "source": "Violation Tracker",
@@ -467,21 +434,18 @@
       "entity": "Formosa Plastics Co.",
       "parentSlug": "formosa-plastics",
       "responsible": {
-        "kind": "group-affiliate",
+        "kind": "listed",
         "code": "1301",
         "name": "台灣塑膠工業股份有限公司",
         "short": "台塑"
       },
-      "groupCodes": [
-        "1301"
-      ],
-      "groupName": "台塑集團 Formosa Plastics Group",
-      "effectivePct": null,
+      "effectivePct": 24.82,
       "path": [],
-      "method": "curated-group-affiliate",
-      "confidence": "medium",
-      "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）"
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
     },
     {
       "source": "Violation Tracker",
@@ -489,21 +453,18 @@
       "entity": "Formosa Plastics Corp.",
       "parentSlug": "formosa-plastics",
       "responsible": {
-        "kind": "group-affiliate",
+        "kind": "listed",
         "code": "1301",
         "name": "台灣塑膠工業股份有限公司",
         "short": "台塑"
       },
-      "groupCodes": [
-        "1301"
-      ],
-      "groupName": "台塑集團 Formosa Plastics Group",
-      "effectivePct": null,
+      "effectivePct": 24.82,
       "path": [],
-      "method": "curated-group-affiliate",
-      "confidence": "medium",
-      "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）"
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
     },
     {
       "source": "Violation Tracker",
@@ -511,21 +472,18 @@
       "entity": "Formosa Plastics Corporation",
       "parentSlug": "formosa-plastics",
       "responsible": {
-        "kind": "group-affiliate",
+        "kind": "listed",
         "code": "1301",
         "name": "台灣塑膠工業股份有限公司",
         "short": "台塑"
       },
-      "groupCodes": [
-        "1301"
-      ],
-      "groupName": "台塑集團 Formosa Plastics Group",
-      "effectivePct": null,
+      "effectivePct": 24.82,
       "path": [],
-      "method": "curated-group-affiliate",
-      "confidence": "medium",
-      "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）"
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
     },
     {
       "source": "Violation Tracker",
@@ -533,21 +491,18 @@
       "entity": "Formosa Plastics Corporation, LP - Formosa Plastics Corporation, Texas",
       "parentSlug": "formosa-plastics",
       "responsible": {
-        "kind": "group-affiliate",
+        "kind": "listed",
         "code": "1301",
         "name": "台灣塑膠工業股份有限公司",
         "short": "台塑"
       },
-      "groupCodes": [
-        "1301"
-      ],
-      "groupName": "台塑集團 Formosa Plastics Group",
-      "effectivePct": null,
+      "effectivePct": 24.82,
       "path": [],
-      "method": "curated-group-affiliate",
-      "confidence": "medium",
-      "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）"
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
     },
     {
       "source": "Violation Tracker",
@@ -555,21 +510,18 @@
       "entity": "Formosa Plastics Corporation, Texas",
       "parentSlug": "formosa-plastics",
       "responsible": {
-        "kind": "group-affiliate",
+        "kind": "listed",
         "code": "1301",
         "name": "台灣塑膠工業股份有限公司",
         "short": "台塑"
       },
-      "groupCodes": [
-        "1301"
-      ],
-      "groupName": "台塑集團 Formosa Plastics Group",
-      "effectivePct": null,
+      "effectivePct": 24.82,
       "path": [],
-      "method": "curated-group-affiliate",
-      "confidence": "medium",
-      "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）"
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
     },
     {
       "source": "Violation Tracker",
@@ -577,21 +529,18 @@
       "entity": "Formosa Plastics-TX LA-LDAR Multi Media Consent Decree (R6 Lead)-2010",
       "parentSlug": "formosa-plastics",
       "responsible": {
-        "kind": "group-affiliate",
+        "kind": "listed",
         "code": "1301",
         "name": "台灣塑膠工業股份有限公司",
         "short": "台塑"
       },
-      "groupCodes": [
-        "1301"
-      ],
-      "groupName": "台塑集團 Formosa Plastics Group",
-      "effectivePct": null,
+      "effectivePct": 24.82,
       "path": [],
-      "method": "curated-group-affiliate",
-      "confidence": "medium",
-      "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）"
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
     },
     {
       "source": "Violation Tracker",
@@ -4159,21 +4108,18 @@
       "companyCode": "1301",
       "facilityId": "800000669",
       "responsible": {
-        "kind": "group-affiliate",
+        "kind": "listed",
         "code": "1301",
         "name": "台灣塑膠工業股份有限公司",
         "short": "台塑"
       },
-      "groupCodes": [
-        "1301"
-      ],
-      "groupName": "台塑集團 Formosa Plastics Group",
-      "effectivePct": null,
+      "effectivePct": 24.82,
       "path": [],
-      "method": "curated-group-affiliate",
-      "confidence": "medium",
-      "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）"
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
     },
     {
       "source": "EPA ECHO",
@@ -4182,21 +4128,18 @@
       "companyCode": "1301",
       "facilityId": "800006300",
       "responsible": {
-        "kind": "group-affiliate",
+        "kind": "listed",
         "code": "1301",
         "name": "台灣塑膠工業股份有限公司",
         "short": "台塑"
       },
-      "groupCodes": [
-        "1301"
-      ],
-      "groupName": "台塑集團 Formosa Plastics Group",
-      "effectivePct": null,
+      "effectivePct": 24.82,
       "path": [],
-      "method": "curated-group-affiliate",
-      "confidence": "medium",
-      "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）"
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
     },
     {
       "source": "EPA ECHO",
@@ -4205,21 +4148,18 @@
       "companyCode": "1301",
       "facilityId": "2800000009",
       "responsible": {
-        "kind": "group-affiliate",
+        "kind": "listed",
         "code": "1301",
         "name": "台灣塑膠工業股份有限公司",
         "short": "台塑"
       },
-      "groupCodes": [
-        "1301"
-      ],
-      "groupName": "台塑集團 Formosa Plastics Group",
-      "effectivePct": null,
+      "effectivePct": 24.82,
       "path": [],
-      "method": "curated-group-affiliate",
-      "confidence": "medium",
-      "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）"
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
     },
     {
       "source": "EPA ECHO",
@@ -4228,21 +4168,18 @@
       "companyCode": "1301",
       "facilityId": "800001334",
       "responsible": {
-        "kind": "group-affiliate",
+        "kind": "listed",
         "code": "1301",
         "name": "台灣塑膠工業股份有限公司",
         "short": "台塑"
       },
-      "groupCodes": [
-        "1301"
-      ],
-      "groupName": "台塑集團 Formosa Plastics Group",
-      "effectivePct": null,
+      "effectivePct": 24.82,
       "path": [],
-      "method": "curated-group-affiliate",
-      "confidence": "medium",
-      "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）"
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
     },
     {
       "source": "EPA ECHO",
@@ -4251,21 +4188,18 @@
       "companyCode": "1301",
       "facilityId": "3411996",
       "responsible": {
-        "kind": "group-affiliate",
+        "kind": "listed",
         "code": "1301",
         "name": "台灣塑膠工業股份有限公司",
         "short": "台塑"
       },
-      "groupCodes": [
-        "1301"
-      ],
-      "groupName": "台塑集團 Formosa Plastics Group",
-      "effectivePct": null,
+      "effectivePct": 24.82,
       "path": [],
-      "method": "curated-group-affiliate",
-      "confidence": "medium",
-      "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）"
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
     },
     {
       "source": "EPA ECHO",
@@ -4274,21 +4208,18 @@
       "companyCode": "1301",
       "facilityId": "3601073914",
       "responsible": {
-        "kind": "group-affiliate",
+        "kind": "listed",
         "code": "1301",
         "name": "台灣塑膠工業股份有限公司",
         "short": "台塑"
       },
-      "groupCodes": [
-        "1301"
-      ],
-      "groupName": "台塑集團 Formosa Plastics Group",
-      "effectivePct": null,
+      "effectivePct": 24.82,
       "path": [],
-      "method": "curated-group-affiliate",
-      "confidence": "medium",
-      "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）"
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
     },
     {
       "source": "EPA ECHO",
@@ -4297,21 +4228,18 @@
       "companyCode": "1301",
       "facilityId": "3601244108",
       "responsible": {
-        "kind": "group-affiliate",
+        "kind": "listed",
         "code": "1301",
         "name": "台灣塑膠工業股份有限公司",
         "short": "台塑"
       },
-      "groupCodes": [
-        "1301"
-      ],
-      "groupName": "台塑集團 Formosa Plastics Group",
-      "effectivePct": null,
+      "effectivePct": 24.82,
       "path": [],
-      "method": "curated-group-affiliate",
-      "confidence": "medium",
-      "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）"
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
     },
     {
       "source": "EPA ECHO",
@@ -8029,21 +7957,18 @@
       "companyCode": "1301",
       "facilityId": "3601104956",
       "responsible": {
-        "kind": "group-affiliate",
+        "kind": "listed",
         "code": "1301",
         "name": "台灣塑膠工業股份有限公司",
         "short": "台塑"
       },
-      "groupCodes": [
-        "1301"
-      ],
-      "groupName": "台塑集團 Formosa Plastics Group",
-      "effectivePct": null,
+      "effectivePct": 24.82,
       "path": [],
-      "method": "curated-group-affiliate",
-      "confidence": "medium",
-      "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）"
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
     },
     {
       "source": "EPA ECHO",
@@ -8327,21 +8252,18 @@
       "companyCode": "1301",
       "facilityId": "3601731156",
       "responsible": {
-        "kind": "group-affiliate",
+        "kind": "listed",
         "code": "1301",
         "name": "台灣塑膠工業股份有限公司",
         "short": "台塑"
       },
-      "groupCodes": [
-        "1301"
-      ],
-      "groupName": "台塑集團 Formosa Plastics Group",
-      "effectivePct": null,
+      "effectivePct": 24.82,
       "path": [],
-      "method": "curated-group-affiliate",
-      "confidence": "medium",
-      "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）"
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
     },
     {
       "source": "EPA ECHO",
@@ -8442,21 +8364,18 @@
       "companyCode": "1301",
       "facilityId": "3601368154",
       "responsible": {
-        "kind": "group-affiliate",
+        "kind": "listed",
         "code": "1301",
         "name": "台灣塑膠工業股份有限公司",
         "short": "台塑"
       },
-      "groupCodes": [
-        "1301"
-      ],
-      "groupName": "台塑集團 Formosa Plastics Group",
-      "effectivePct": null,
+      "effectivePct": 24.82,
       "path": [],
-      "method": "curated-group-affiliate",
-      "confidence": "medium",
-      "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）"
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
     },
     {
       "source": "EPA ECHO",
@@ -8672,21 +8591,18 @@
       "companyCode": "1301",
       "facilityId": "1600028209",
       "responsible": {
-        "kind": "group-affiliate",
+        "kind": "listed",
         "code": "1301",
         "name": "台灣塑膠工業股份有限公司",
         "short": "台塑"
       },
-      "groupCodes": [
-        "1301"
-      ],
-      "groupName": "台塑集團 Formosa Plastics Group",
-      "effectivePct": null,
+      "effectivePct": 24.82,
       "path": [],
-      "method": "curated-group-affiliate",
-      "confidence": "medium",
-      "note": "FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）"
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
     },
     {
       "source": "EPA ECHO",

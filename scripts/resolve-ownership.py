@@ -294,19 +294,20 @@ class OwnershipGraph:
 # ---------------------------------------------------------------- curated rules
 # 每條：(source 限定或 None, parentSlug 限定或 None, entity regex) → spec
 # spec 種類：
-#   self=code / node=(code, 節點名稱片段) / group=[codes] / unlisted={...} / foreign=note
+#   self=code / node=(code, 節點名稱片段) / associate=(code, 有效持股%) / group=[codes] / unlisted={...} / foreign=note
+#   associate：上市公司直接持有的關聯企業（20–50%，權益法）。MOPS 子公司清單只收子公司，關聯企業要靠財報附註補
 # 共同欄位：confidence（high|medium|low）、note、controlSince（台灣母公司取得控制的年份，早於此年的紀錄標 preAcquisition）
 
-FPG_USA_NOTE = ('FPC USA（台塑美國）與其德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為私人持有公司，'
-                '隸屬台塑集團但不是任何台灣上市公司的子公司（MOPS 子公司清單無此節點）。台塑 1301 在美國的 100% 子公司是 '
-                'Formosa Industries Corp.（MOPS：台塑工業美國；FPG 官網 fpg.com.tw/en/about/other-company），'
-                '2026-08-01 併入 FPC USA（Business Wire 2026-08-01），1301 自此持有存續公司股權，比例未揭露。')
+FPG_USA_NOTE = ('FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），'
+                '台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。'
+                '德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。'
+                'MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。')
 
 CURATED = [
-    # ---- 台塑集團（美國）：FPC USA 為集團關係企業，無上市公司持股路徑
+    # ---- 台塑集團（美國）：FPC USA 為台塑 1301 的關聯企業（24.82%）
     (SRC_US, 'formosa-plastics', r'formosa (plastics?|petrochemical|point comfort|rail line)', dict(
-        group=['1301'], groupName='台塑集團 Formosa Plastics Group', entityName='Formosa Plastics Corporation, U.S.A.（台塑美國）',
-        confidence='medium', basis='group-affiliate', note=FPG_USA_NOTE)),
+        associate=('1301', 24.82), groupName='台塑集團 Formosa Plastics Group', entityName='Formosa Plastics Corporation, U.S.A.（台塑美國）',
+        confidence='high', note=FPG_USA_NOTE)),
     (SRC_US, 'nan-ya-plastics', r'nan ya plastics.*\bamerica\b', dict(node=('1303', '南亞塑膠美洲'), confidence='high',
         note='Nan Ya Plastics Corp., America（FPG 官網列為南亞子公司）＝ MOPS 南亞塑膠美洲有限公司')),
     (SRC_US, 'nan-ya-plastics', r'nan ya plastics.*\busa\b', dict(node=('1303', '南亞塑膠美國'), confidence='high',
@@ -499,6 +500,12 @@ class Resolver:
             out = self.from_node(code, node, eff, path, 'curated-mops-node', conf)
             out.update(base)
             return out
+        if 'associate' in spec:
+            code, pct = spec['associate']
+            out = {'responsible': self.listed(code), 'effectivePct': pct, 'path': [], 'method': 'curated-associate', 'confidence': conf, **base}
+            for k in ('entityName', 'groupName'):
+                if spec.get(k): out[k] = spec[k]
+            return self.finish(out, code)
         if 'group' in spec:
             code = spec['group'][0]
             out = {'responsible': {**self.listed(code), 'kind': spec.get('basis', 'group')}, 'groupCodes': spec['group'],

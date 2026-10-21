@@ -41,4 +41,5 @@ npm run download-epa                          # 已內建該環境變數
 - **ECHO 覆蓋率稽核**：`npm run audit:echo -- --exporter=<echo_exporter.zip>` 找台灣母公司在美國但 `facilities.csv` 沒有的工廠（見 `docs/enforcement-data-interface.md` 第 8 節）。ECHO 查詢 API 會回 429 限流，不要逐一打 API，改下載 EPA 全量檔 `echo.epa.gov/files/echodownloads/echo_exporter.zip` 在本機比對。
 - VT 衍生的筆數與金額只能留在 gitignored 檔案（`data/enforcement.json`、`data/violation-tracker/`、`data/company-mapping.seed.json`）；這個 repo 是公開的，push 到 main 會觸發 GitHub Pages 部署。
 - **MOPS `mops_company_info.csv` 的「英文全稱」欄有整段錯一列的問題**（詳見 `docs/violation-tracker-data-access.md` 附錄）。做任何名稱匹配請用「英文簡稱」，或兩支腳本內已修正的英文全稱（以英文簡稱字首或縮寫字母順序判斷錯位），不要直接用原始「英文全稱」。
+- **海外據點清單**（美國以外的延伸準備）：`python3 scripts/build-overseas-footprint.py` 從 MOPS 2025Q2 產生 `data/overseas-footprint.csv`（每列一個國家／母公司／子公司）與 `data/overseas-countries.csv`（國家摘要，給夥伴認領去找當地的環保裁罰資料來源）。網站不讀這兩個檔。中國大陸子公司只能從合併報表子公司名稱推斷；「類型（推測）」是關鍵字推測，不是官方分類。
 - 專案層 `.claude/settings.local.json` 允許 claude-in-chrome 工具，但 auto mode classifier 仍可能擋 `javascript_tool`，`get_page_text` 較穩定。

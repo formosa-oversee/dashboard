@@ -6,7 +6,7 @@ import {
   Alert, AlertIcon, AlertTitle, AlertDescription,
   Menu, MenuButton, MenuList, MenuItem, Button, Flex, Stack, CardFooter, Image
 } from '@chakra-ui/react';
-import { FaExternalLinkAlt, FaCalendarAlt, FaNewspaper, FaBuilding, FaChevronRight, FaFilter, FaChevronDown, FaCheck } from 'react-icons/fa';
+import { FaExternalLinkAlt, FaCalendarAlt, FaNewspaper, FaBuilding, FaChevronRight, FaFilter, FaChevronDown, FaCheck, FaMapMarkerAlt, FaArchive } from 'react-icons/fa';
 import { getCompanyData, getAllCompanyIds } from '../../lib/gcs-api-server';
 import Layout from '../../components/Layout';
 import Link from 'next/link';
@@ -55,9 +55,161 @@ const FacilityCard = ({ facility, companyId }) => {
   );
 };
 
+// 污染事件（data/news.json，規格見 docs/pollution-news-spec.md）
+const NEWS_SPEC_URL = 'https://github.com/formosa-oversee/dashboard/blob/main/docs/pollution-news-spec.md';
+
+const EVENT_TYPES = {
+  'pollution-incident': { label: '污染事故', color: 'red' },
+  'enforcement': { label: '環境執法', color: 'purple' },
+  'litigation': { label: '訴訟', color: 'blue' },
+  'eia-dispute': { label: '環評爭議', color: 'cyan' },
+  'industrial-accident': { label: '化學品事故', color: 'orange' },
+  'community-health': { label: '社區健康', color: 'pink' }
+};
+
+// 指控與已確定的事實要分得出來
+const EVENT_STATUSES = {
+  alleged: { label: '指控', color: 'yellow' },
+  investigating: { label: '調查中', color: 'yellow' },
+  concluded: { label: '官方調查已有結論', color: 'gray' },
+  penalized: { label: '已裁罰', color: 'red' },
+  settled: { label: '已和解', color: 'green' },
+  ruled: { label: '已判決', color: 'red' },
+  ongoing: { label: '持續中', color: 'orange' }
+};
+const OPEN_ENDED = new Set(['alleged', 'investigating', 'ongoing']);
+
+const SOURCE_KINDS = { official: '官方文件', court: '法院', company: '公司回應' };
+const MEDIA_REGIONS = { taiwan: '台灣媒體', local: '當地媒體', international: '國際媒體' };
+
+const sourceLabel = (source) => {
+  if (source.kind === 'media') return MEDIA_REGIONS[source.outletRegion] || '媒體';
+  if (source.kind === 'ngo') return source.outletRegion === 'taiwan' ? '台灣 NGO' : 'NGO';
+  return SOURCE_KINDS[source.kind] || source.kind;
+};
+
+const eventPeriod = (event) => {
+  if (event.dateEnd && event.dateEnd !== event.dateStart) return `${event.dateStart} – ${event.dateEnd}`;
+  if (!event.dateEnd && OPEN_ENDED.has(event.status)) return `${event.dateStart} 起`;
+  return event.dateStart;
+};
+
+const EventCard = ({ event, companyData, events }) => {
+  const type = EVENT_TYPES[event.type] || { label: event.type, color: 'gray' };
+  const status = EVENT_STATUSES[event.status] || { label: event.status, color: 'gray' };
+  const facilityById = new Map((companyData.facilities || []).map(f => [f.facilityId, f]));
+  const relatedFacilities = (event.related?.echoFacilityIds || []).filter(id => facilityById.has(id));
+  const relatedEvents = (event.related?.eventIds || []).map(id => events.find(e => e.id === id)).filter(Boolean);
+  const otherCompanies = (event.attribution || []).filter(a => a.shown && a.companyCode !== companyData.companyCode)
+    .filter((a, i, all) => all.findIndex(b => b.companyCode === a.companyCode) === i);
+
+  return (
+    <Card id={event.id} variant="outline" scrollMarginTop="80px">
+      <CardBody>
+        <Stack spacing={3}>
+          <HStack spacing={2} flexWrap="wrap">
+            <Badge colorScheme={type.color}>{type.label}</Badge>
+            <Badge colorScheme={status.color} variant="outline">{status.label}</Badge>
+          </HStack>
+          <Heading size="sm">{event.title}</Heading>
+          <HStack spacing={4} color="gray.600" fontSize="sm" flexWrap="wrap">
+            <HStack spacing={1}><Icon as={FaCalendarAlt} /><Text>{eventPeriod(event)}</Text></HStack>
+            <HStack spacing={1}><Icon as={FaMapMarkerAlt} /><Text>{(event.locations || []).map(l => l.plantSite).join('、')}</Text></HStack>
+          </HStack>
+          <Text>{event.summary}</Text>
+
+          <Box bg="gray.50" borderRadius="md" p={3} fontSize="sm">
+            <Text fontWeight="bold" color="gray.700" mb={1}>持股關係</Text>
+            {(event.holdings || []).map((h, i) => {
+              const group = (event.groupControl || []).find(g => g.group === h.group);
+              return (
+                <Box key={i} mb={1}>
+                  <Text color="gray.700">
+                    {h.entity}：{h.companyShort || companyData.name} 有效持股 {h.effectivePct}%
+                    {h.reason === 'group' && group && `（${group.group}合計 ${group.totalPct}%，依集團規則列入）`}
+                  </Text>
+                  {h.path?.length > 0 && <Text color="gray.500">{h.path.join(' → ')}</Text>}
+                  {h.basis && <Text color="gray.500" fontSize="xs">依據：{h.basis}</Text>}
+                </Box>
+              );
+            })}
+            <Text color="gray.500" fontSize="xs">持股比例為最新財報的數字，不一定是事件當時的比例；只計該公司自身的持股鏈，不含集團內的交叉持股。</Text>
+            {otherCompanies.length > 0 && (
+              <Text color="gray.600" mt={1}>
+                同一事件也列在：
+                {otherCompanies.map((a, i) => (
+                  <span key={a.companyCode}>
+                    {i > 0 && '、'}
+                    <Link href={`/companies/tw-${a.companyCode}#${event.id}`} legacyBehavior>
+                      <ChakraLink color="teal.600">{a.companyShort || a.companyName}（{a.effectivePct}%）</ChakraLink>
+                    </Link>
+                  </span>
+                ))}
+              </Text>
+            )}
+          </Box>
+
+          <Box>
+            <Text fontWeight="bold" fontSize="sm" color="gray.700" mb={1}>來源</Text>
+            <VStack align="stretch" spacing={2}>
+              {(event.sources || []).map((s, i) => (
+                <Box key={i} fontSize="sm">
+                  <HStack spacing={2} flexWrap="wrap">
+                    <Badge variant="subtle" colorScheme={s.kind === 'media' ? 'blue' : s.kind === 'ngo' ? 'teal' : 'green'}>{sourceLabel(s)}</Badge>
+                    <Text color="gray.600">{s.outlet}・{s.date}</Text>
+                  </HStack>
+                  <HStack spacing={3} flexWrap="wrap" mt={1}>
+                    <ChakraLink href={s.url} isExternal color="teal.600">
+                      {s.title} <Icon as={FaExternalLinkAlt} mx="2px" boxSize={3} />
+                    </ChakraLink>
+                    {s.archiveUrl && (
+                      <ChakraLink href={s.archiveUrl} isExternal color="gray.500" fontSize="xs">
+                        <Icon as={FaArchive} mr={1} />封存
+                      </ChakraLink>
+                    )}
+                  </HStack>
+                </Box>
+              ))}
+            </VStack>
+          </Box>
+
+          {(relatedFacilities.length > 0 || relatedEvents.length > 0) && (
+            <Box fontSize="sm">
+              {relatedFacilities.length > 0 && (
+                <Text color="gray.600">
+                  相關 EPA 設施：
+                  {relatedFacilities.map((id, i) => (
+                    <span key={id}>
+                      {i > 0 && '、'}
+                      <Link href={`/companies/${companyData.id}/facilities/${id}`} legacyBehavior>
+                        <ChakraLink color="teal.600">{facilityById.get(id).name}</ChakraLink>
+                      </Link>
+                    </span>
+                  ))}
+                </Text>
+              )}
+              {relatedEvents.length > 0 && (
+                <Text color="gray.600">
+                  相關事件：
+                  {relatedEvents.map((e, i) => (
+                    <span key={e.id}>
+                      {i > 0 && '、'}
+                      <ChakraLink href={`#${e.id}`} color="teal.600">{e.title}</ChakraLink>
+                    </span>
+                  ))}
+                </Text>
+              )}
+            </Box>
+          )}
+        </Stack>
+      </CardBody>
+    </Card>
+  );
+};
+
 const CompanyDetail = ({ companyData }) => {
   const [selectedViolationPlant, setSelectedViolationPlant] = useState('all');
-  const [selectedNewsPlant, setSelectedNewsPlant] = useState('all');
+  const [selectedEventSite, setSelectedEventSite] = useState('all');
 
   if (!companyData) {
     return (
@@ -119,7 +271,17 @@ const CompanyDetail = ({ companyData }) => {
     actualDate: v.actualDate
   })) || [];
 
-  const newsData = { international: [], domestic: [] };
+  // 只有污染事件、不在 EPA 資料裡的公司：EPA 欄位不顯示 0，避免被讀成「沒有違規」
+  const inEpaData = companyData.inEpaData !== false;
+  const hasFacilities = (companyData.facilities || []).length > 0;
+  const events = companyData.news || [];
+  const eventSites = [...new Set(events.flatMap(e => (e.locations || []).map(l => l.plantSite)))].sort();
+  const eventSiteOptions = [{ value: 'all', label: '所有廠區' }, ...eventSites.map(site => ({ value: site, label: site }))];
+  const filteredEvents = selectedEventSite === 'all'
+    ? events
+    : events.filter(e => (e.locations || []).some(l => l.plantSite === selectedEventSite));
+  // 有違規的開違規分頁，只有事件的開事件分頁
+  const defaultTabIndex = violationData.length > 0 ? 1 : (events.length > 0 ? 0 : 1);
 
   // Extract plant site options from violations data to ensure exact match
   const violationPlantSites = [...new Set(
@@ -139,18 +301,6 @@ const CompanyDetail = ({ companyData }) => {
     }
     return violationData.filter(v => v.plantSite === selectedViolationPlant);
   }, [violationData, selectedViolationPlant]);
-
-  // Memoized filtered news
-  const filteredNews = useMemo(() => {
-    const filterBySite = (newsItems, site) => {
-      if (site === 'all') return newsItems;
-      return newsItems.filter(n => n.plantSite === site);
-    };
-    return {
-      international: filterBySite(newsData.international, selectedNewsPlant),
-      domestic: filterBySite(newsData.domestic, selectedNewsPlant),
-    };
-  }, [newsData, selectedNewsPlant]);
 
   // Helper to get the label for the selected plant value
   const getSelectedPlantLabel = (selectedValue) => {
@@ -196,15 +346,17 @@ const CompanyDetail = ({ companyData }) => {
               </Link>
             </BreadcrumbItem>
 
-            <BreadcrumbItem>
+            <BreadcrumbItem isCurrentPage={!hasFacilities}>
               <Link href="/companies" legacyBehavior>
                 <BreadcrumbLink>{companyInfo ? companyInfo.name.split(' (')[0] : '公司'}</BreadcrumbLink>
               </Link>
             </BreadcrumbItem>
 
-            <BreadcrumbItem isCurrentPage>
-              <BreadcrumbLink>{companyInfo ? companyInfo.facilityName : '詳細資料'}</BreadcrumbLink>
-            </BreadcrumbItem>
+            {hasFacilities && (
+              <BreadcrumbItem isCurrentPage>
+                <BreadcrumbLink>{companyInfo ? companyInfo.facilityName : '詳細資料'}</BreadcrumbLink>
+              </BreadcrumbItem>
+            )}
           </Breadcrumb>
 
           <Heading mt={4} color="green.600">{companyInfo ? companyInfo.name : '公司名稱載入中...'}</Heading>
@@ -262,8 +414,9 @@ const CompanyDetail = ({ companyData }) => {
                     <Heading size="md" color="green.600" mb={2}><Icon as={FaNewspaper} mr={2} />統計資訊</Heading>
                     <Divider />
                      {Object.entries({
-                      "總廠區數": companyInfo.totalFacilities,
-                      "總違規數": companyInfo.totalViolations,
+                      "總廠區數": inEpaData ? companyInfo.totalFacilities : '不在 EPA 資料範圍',
+                      "總違規數": inEpaData ? companyInfo.totalViolations : '不在 EPA 資料範圍',
+                      "污染事件數": events.length,
                       "官方網站": companyInfo.reportUrl && companyInfo.reportUrl !== 'N/A' ? (
                         <ChakraLink href={companyInfo.reportUrl} isExternal color="teal.500">
                           查看網站 <Icon as={FaExternalLinkAlt} mx="2px" />
@@ -285,91 +438,74 @@ const CompanyDetail = ({ companyData }) => {
         {/* Facilities List */}
         <VStack spacing={6} align="stretch" mb={10}>
           <Heading size="lg" color="green.600">廠區列表</Heading>
-          <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={6}>
-            {companyData.facilities?.map(facility => (
-              <FacilityCard key={facility.facilityId} facility={facility} companyId={companyData.id} />
-            ))}
-          </SimpleGrid>
+          {inEpaData ? (
+            <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={6}>
+              {companyData.facilities?.map(facility => (
+                <FacilityCard key={facility.facilityId} facility={facility} companyId={companyData.id} />
+              ))}
+            </SimpleGrid>
+          ) : (
+            <Alert status="info" borderRadius="md">
+              <AlertIcon />
+              <AlertDescription>此公司在美國 EPA 資料中沒有對應設施，以下事件來自官方文件與新聞報導。</AlertDescription>
+            </Alert>
+          )}
         </VStack>
 
         {/* Tabs for News and Violations */}
-        <Tabs variant="enclosed-colored" colorScheme="green" isFitted>
+        <Tabs variant="enclosed-colored" colorScheme="green" isFitted defaultIndex={defaultTabIndex}>
           <TabList mb="1em">
-            <Tab>相關新聞</Tab>
-            <Tab>環境違規記錄</Tab>
+            <Tab>污染事件（{events.length}）</Tab>
+            <Tab>環境違規記錄（{inEpaData ? violationData.length.toLocaleString() : '—'}）</Tab>
           </TabList>
 
           <TabPanels>
 
-            {/* 相關新聞 Tab */}
+            {/* 污染事件 Tab */}
             <TabPanel>
               <VStack align="stretch" spacing={4}>
-                <HStack>
-                  <Icon as={FaFilter} />
-                  <Text fontWeight="bold">篩選廠區:</Text>
-                  <Menu>
-                    <MenuButton 
-                      as={Button} 
-                      rightIcon={<FaChevronDown />} 
-                      variant="outline" 
-                      size="sm" 
-                      minWidth="200px" 
-                      textAlign="left"
-                    >
-                      <Flex justify="space-between" align="center" width="100%">
-                        {getSelectedPlantLabel(selectedNewsPlant)}
-                      </Flex>
-                    </MenuButton>
-                    <MenuList zIndex={10}>
-                      {plantSiteOptions.map(option => (
-                        <MenuItem 
-                          key={option.value} 
-                          onClick={() => setSelectedNewsPlant(option.value)}
-                          icon={selectedNewsPlant === option.value ? <FaCheck /> : undefined}
-                        >
-                          {option.label}
-                        </MenuItem>
-                      ))}
-                    </MenuList>
-                  </Menu>
-                </HStack>
-                <Heading size="md" color="green.600" mt={2}>國際新聞</Heading>
-                {filteredNews.international.length > 0 ? (
-                  filteredNews.international.map((newsItem, index) => (
-                    <Card key={`intl-${index}`} variant="outline" size="sm">
-                      <CardBody>
-                        <Heading size="sm" mb={1}>{newsItem.title}</Heading>
-                        <HStack justifyContent="space-between" color="gray.500" fontSize="sm">
-                          <Text><Icon as={FaCalendarAlt} mr={1} /> {newsItem.date} - {newsItem.source}</Text>
-                          {newsItem.plantSite && <Text>廠區: {newsItem.plantSite}</Text>}
-                        </HStack>
-                         <ChakraLink href={newsItem.url || '#'} isExternal color="teal.500" fontSize="sm" mt={1} display="block">
-                          閱讀更多 <Icon as={FaExternalLinkAlt} mx="2px" />
-                        </ChakraLink>
-                      </CardBody>
-                    </Card>
-                  ))
-                ) : (
-                  <Text>此廠區無相關國際新聞。</Text>
+                <Text fontSize="sm" color="gray.600">
+                  收錄台灣上市公司境外據點的污染事件。每個事件至少有一份官方、法院或公司文件，或兩家互相獨立的媒體報導；
+                  指控與已確定的事實以狀態標示區分。
+                  <ChakraLink href={NEWS_SPEC_URL} isExternal color="teal.600" ml={1}>收錄原則</ChakraLink>
+                </Text>
+                {eventSites.length > 1 && (
+                  <HStack>
+                    <Icon as={FaFilter} />
+                    <Text fontWeight="bold">篩選廠區:</Text>
+                    <Menu>
+                      <MenuButton
+                        as={Button}
+                        rightIcon={<FaChevronDown />}
+                        variant="outline"
+                        size="sm"
+                        minWidth="200px"
+                        textAlign="left"
+                      >
+                        <Flex justify="space-between" align="center" width="100%">
+                          {eventSiteOptions.find(o => o.value === selectedEventSite)?.label || '選擇廠區'}
+                        </Flex>
+                      </MenuButton>
+                      <MenuList zIndex={10}>
+                        {eventSiteOptions.map(option => (
+                          <MenuItem
+                            key={option.value}
+                            onClick={() => setSelectedEventSite(option.value)}
+                            icon={selectedEventSite === option.value ? <FaCheck /> : undefined}
+                          >
+                            {option.label}
+                          </MenuItem>
+                        ))}
+                      </MenuList>
+                    </Menu>
+                  </HStack>
                 )}
-                <Heading size="md" color="green.600" mt={4}>國內新聞</Heading>
-                 {filteredNews.domestic.length > 0 ? (
-                  filteredNews.domestic.map((newsItem, index) => (
-                     <Card key={`dom-${index}`} variant="outline" size="sm">
-                      <CardBody>
-                        <Heading size="sm" mb={1}>{newsItem.title}</Heading>
-                         <HStack justifyContent="space-between" color="gray.500" fontSize="sm">
-                          <Text><Icon as={FaCalendarAlt} mr={1} /> {newsItem.date} - {newsItem.source}</Text>
-                          {newsItem.plantSite && <Text>廠區: {newsItem.plantSite}</Text>}
-                        </HStack>
-                        <ChakraLink href={newsItem.url || '#'} isExternal color="teal.500" fontSize="sm" mt={1} display="block">
-                          閱讀更多 <Icon as={FaExternalLinkAlt} mx="2px" />
-                        </ChakraLink>
-                      </CardBody>
-                    </Card>
+                {filteredEvents.length > 0 ? (
+                  filteredEvents.map(event => (
+                    <EventCard key={event.id} event={event} companyData={companyData} events={events} />
                   ))
                 ) : (
-                  <Text>此廠區無相關國內新聞。</Text>
+                  <Text>目前沒有收錄這家公司的境外污染事件。</Text>
                 )}
               </VStack>
             </TabPanel>
@@ -452,7 +588,7 @@ const CompanyDetail = ({ companyData }) => {
                     </Table>
                   </Box>
                 ) : (
-                  <Text>此廠區無相關違規記錄。</Text>
+                  <Text>{inEpaData ? '此廠區無相關違規記錄。' : '此公司在美國 EPA 資料中沒有對應設施。'}</Text>
                 )}
               </VStack>
             </TabPanel>

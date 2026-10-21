@@ -19,6 +19,7 @@
     "ownership": "python3 scripts/resolve-ownership.py",
     "enforcement": "node scripts/build-enforcement.js",
     "attribution": "npm run ownership && npm run enforcement && npm run fetch-data",
+    "news": "python3 scripts/build-news.py && npm run fetch-data",
     "audit:echo": "python3 scripts/audit-echo-coverage.py",
     "supplement": "python3 scripts/build-echo-supplement.py"
   },
@@ -30,7 +31,6 @@
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
-    "axios": "^1.6.7",
     "chart.js": "^4.4.1",
     "framer-motion": "^11.0.5",
     "leaflet": "^1.9.4",

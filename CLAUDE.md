@@ -10,7 +10,7 @@ Next.js 14 靜態匯出的企業違規監測 dashboard。資料在 build 時由 
 - `npm run build` 會先跑 `fetch-data`。
 - **補充資料**：`data/facilities-supplement.csv`、`data/violations-supplement.csv`（進 git，不在 GCS）由 `scripts/build-echo-supplement.py` 從 EPA ICIS-NPDES 全量檔產生，收 ECHO 覆蓋率稽核確認屬台灣母公司、但 GCS 原始 CSV 沒有的許可證；`fetch-gcs-data.js` 建置時合併。重新下載 GCS 資料不會蓋掉它們。新增工廠時改腳本內 `CONFIRMED`，每筆寫依據。
 - 公司主鍵是台灣上市公司代號（`companyCode`，如 1210），以投審會境外投資名稱模糊匹配到 EPA facility。
-- `lib/api.js` 內仍有大量 mock data，`violations` / `enforcement` 陣列多為空。
+- 原本的 mock data（`lib/api.js`）已於 2026-10-21 刪除；`enforcement` 陣列目前仍為空（Violation Tracker 資料不進公開 repo）。
 - 研究筆記放在 `docs/`。資料模型接口見 `docs/enforcement-data-interface.md`。
 
 ## gcloud 認證（與其他專案隔離）
@@ -41,5 +41,6 @@ npm run download-epa                          # 已內建該環境變數
 - **ECHO 覆蓋率稽核**：`npm run audit:echo -- --exporter=<echo_exporter.zip>` 找台灣母公司在美國但 `facilities.csv` 沒有的工廠（見 `docs/enforcement-data-interface.md` 第 8 節）。ECHO 查詢 API 會回 429 限流，不要逐一打 API，改下載 EPA 全量檔 `echo.epa.gov/files/echodownloads/echo_exporter.zip` 在本機比對。
 - VT 衍生的筆數與金額只能留在 gitignored 檔案（`data/enforcement.json`、`data/violation-tracker/`、`data/company-mapping.seed.json`）；這個 repo 是公開的，push 到 main 會觸發 GitHub Pages 部署。
 - **MOPS `mops_company_info.csv` 的「英文全稱」欄有整段錯一列的問題**（詳見 `docs/violation-tracker-data-access.md` 附錄）。做任何名稱匹配請用「英文簡稱」，或兩支腳本內已修正的英文全稱（以英文簡稱字首或縮寫字母順序判斷錯位），不要直接用原始「英文全稱」。
+- **污染事件**（公司頁「污染事件」分頁）：規格見 `docs/pollution-news-spec.md`。人工整理 `data/news-events.json`（每個事件附來源與封存網址）→ `npm run news`（`scripts/build-news.py` 驗證收錄門檻、依持股決定掛在哪些公司頁、從 MOPS 補只有新聞的公司基本資料 → `data/news.json` → fetch-data）。兩個檔都進 git，CI 不需要 MOPS。只有新聞、沒有 EPA 設施的公司 `inEpaData: false`，前端不顯示 0 筆違規。研究與查證紀錄放 `docs/pollution-news-research/`。
 - **海外據點清單**（美國以外的延伸準備）：`python3 scripts/build-overseas-footprint.py` 從 MOPS 2025Q2 產生 `data/overseas-footprint.csv`（每列一個國家／母公司／子公司）與 `data/overseas-countries.csv`（國家摘要，給夥伴認領去找當地的環保裁罰資料來源）。網站不讀這兩個檔。中國大陸子公司只能從合併報表子公司名稱推斷；「類型（推測）」是關鍵字推測，不是官方分類。
 - 專案層 `.claude/settings.local.json` 允許 claude-in-chrome 工具，但 auto mode classifier 仍可能擋 `javascript_tool`，`get_page_text` 較穩定。

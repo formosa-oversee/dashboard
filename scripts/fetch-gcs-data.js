@@ -45,6 +45,89 @@ function loadFacilityOwnership() {
 const FACILITY_OWNERSHIP = loadFacilityOwnership();
 
 /**
+ * 公司基本資料：facilities.csv 與 data/news.json 的公司欄位同名，用同一套對應。
+ */
+function companyInfoFromRow(row) {
+  return {
+    name: row['投資公司名稱'],
+    englishName: row['投資公司英文全稱'],
+    chairman: row['董事長'],
+    foundedDate: row['成立日期'],
+    listedDate: row['上市日期'],
+    capital: row['實收資本額(元)'],
+    website: row['公司網址'],
+    address: row['住址'],
+    industry: row['產業類別'] || 'N/A',
+    logoUrl: row['LOGO網址']
+  };
+}
+
+/**
+ * 污染事件（scripts/build-news.py 產生的 data/news.json，規格見 docs/pollution-news-spec.md）。
+ * 事件掛到持股達門檻的公司（companyCodes）；只有新聞、沒有 EPA 設施的公司另外建立公司物件（inEpaData: false）。
+ * 檔案不存在時不影響建置，news 為空陣列。
+ */
+function attachNews(companies) {
+  companies.forEach(company => {
+    company.news = [];
+    company.inEpaData = true;
+  });
+  const file = path.join(DATA_DIR, 'news.json');
+  if (!fs.existsSync(file)) return;
+
+  let news;
+  try {
+    news = JSON.parse(fs.readFileSync(file, 'utf8'));
+  } catch (err) {
+    console.warn(`⚠️ 無法讀取 news.json：${err.message}`);
+    return;
+  }
+
+  const byCode = new Map(companies.map(c => [c.companyCode, c]));
+  let newsOnly = 0;
+  for (const [code, row] of Object.entries(news.companies || {})) {
+    if (byCode.has(code)) continue;
+    const info = companyInfoFromRow(row);
+    const company = {
+      id: `tw-${code}`,
+      ...info,
+      englishName: info.englishName || info.name,
+      shortName: row['公司簡稱'] || null,
+      parentCompany: null,
+      companyType: '台灣上市公司',
+      companyCode: code,
+      facilities: [],
+      violations: [],
+      enforcement: [],
+      news: [],
+      inEpaData: false,
+      metadata: {
+        dataSource: '污染事件（官方文件與新聞報導）',
+        lastUpdated: new Date().toISOString()
+      }
+    };
+    companies.push(company);
+    byCode.set(code, company);
+    newsOnly++;
+  }
+
+  for (const event of news.events || []) {
+    for (const code of event.companyCodes || []) {
+      const company = byCode.get(code);
+      if (!company) {
+        console.warn(`⚠️ 事件 ${event.id} 的公司 ${code} 不在資料中`);
+        continue;
+      }
+      company.news.push({ ...event, holdings: (event.attribution || []).filter(a => a.companyCode === code) });
+    }
+  }
+  companies.forEach(c => c.news.sort((a, b) => (b.dateStart || '').localeCompare(a.dateStart || '')));
+
+  const withNews = companies.filter(c => c.news.length > 0).length;
+  console.log(`📰 污染事件：${(news.events || []).length} 個事件，掛到 ${withNews} 家公司（其中 ${newsOnly} 家只有新聞）`);
+}
+
+/**
  * 從 GCS 下載檔案
  */
 async function downloadFromGCS(bucketName, fileName) {
@@ -176,18 +259,7 @@ function transformEPAFacilityData(facilities, violations = []) {
 
     // 儲存公司基本資訊
     if (companyCode && !companyInfoMap.has(companyCode)) {
-      companyInfoMap.set(companyCode, {
-        name: facility['投資公司名稱'],
-        englishName: facility['投資公司英文全稱'],
-        chairman: facility['董事長'],
-        foundedDate: facility['成立日期'],
-        listedDate: facility['上市日期'],
-        capital: facility['實收資本額(元)'],
-        website: facility['公司網址'],
-        address: facility['住址'],
-        industry: facility['產業類別'] || 'N/A',
-        logoUrl: facility['LOGO網址']
-      });
+      companyInfoMap.set(companyCode, companyInfoFromRow(facility));
     }
 
     // 儲存設施地址資訊
@@ -452,7 +524,8 @@ async function main() {
     // 轉換資料格式
     console.log('🔄 轉換資料格式...');
     const transformedData = transformEPAFacilityData(recordsToProcess, violations);
-    
+    attachNews(transformedData);
+
     // 儲存為 JSON
     fs.writeFileSync(OUTPUT_FILE, JSON.stringify(transformedData, null, 2));
     

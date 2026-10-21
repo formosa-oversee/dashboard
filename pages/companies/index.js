@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Box, Container, Heading, Text, Grid, GridItem, VStack, HStack, Badge, Card, CardBody, Stack, Divider, CardFooter, Button, Image, Input, InputGroup, InputLeftElement, Flex } from '@chakra-ui/react';
-import { FaSearch, FaIndustry, FaBuilding, FaChevronRight } from 'react-icons/fa';
+import { FaSearch, FaIndustry, FaBuilding, FaChevronRight, FaExclamationTriangle } from 'react-icons/fa';
 import Link from 'next/link';
 import Layout from '../../components/Layout';
 
@@ -10,16 +10,23 @@ const CompanyCard = ({ company }) => {
     <Link href={`/companies/${company.id}`} legacyBehavior>
       <Card boxShadow="md" borderRadius="lg" h="100%" cursor="pointer" _hover={{ boxShadow: "xl" }}>
         <CardBody>
-          <Image
-            src={company.logoUrl || `https://via.placeholder.com/300x150?text=${encodeURIComponent(company.name)}`}
-            alt={company.name}
-            borderRadius="lg"
-            height="150px"
-            width="100%"
-            objectFit="contain"
-            bg="white"
-            p={4}
-          />
+          {company.logoUrl ? (
+            <Image
+              src={company.logoUrl}
+              alt={company.name}
+              borderRadius="lg"
+              height="150px"
+              width="100%"
+              objectFit="contain"
+              bg="white"
+              p={4}
+            />
+          ) : (
+            // 沒有 logo 時顯示公司名稱（原本的 via.placeholder.com 已停止服務，會變成破圖）
+            <Flex height="150px" borderRadius="lg" bg="gray.50" align="center" justify="center" p={4}>
+              <Text fontSize="xl" fontWeight="bold" color="gray.500" textAlign="center">{company.name}</Text>
+            </Flex>
+          )}
           <Stack mt="6" spacing="3">
             <Heading size="md">{company.name}</Heading>
             <Text color="gray.600" fontSize="sm">{company.englishName}</Text>
@@ -27,8 +34,20 @@ const CompanyCard = ({ company }) => {
               <FaIndustry />
               <Text color="gray.600">{company.industry}</Text>
             </HStack>
-            <Text color="gray.600">廠區數量: {company.facilities.length}</Text>
-            <Text color="gray.600">違規記錄: {company.totalViolations}</Text>
+            {company.inEpaData ? (
+              <>
+                <Text color="gray.600">廠區數量: {company.facilities.length}</Text>
+                <Text color="gray.600">違規記錄: {company.totalViolations}</Text>
+              </>
+            ) : (
+              <Text color="gray.500">不在美國 EPA 資料範圍</Text>
+            )}
+            {company.newsCount > 0 && (
+              <HStack>
+                <FaExclamationTriangle color="#DD6B20" />
+                <Text color="orange.600" fontWeight="semibold">污染事件: {company.newsCount}</Text>
+              </HStack>
+            )}
           </Stack>
         </CardBody>
         <Divider />
@@ -61,7 +80,7 @@ export default function Companies({ companiesData: initialCompaniesData = [] }) 
     } else {
       const filtered = companiesData.filter(company =>
         company.name.toLowerCase().includes(term.toLowerCase()) ||
-        company.englishName.toLowerCase().includes(term.toLowerCase()) ||
+        (company.englishName || '').toLowerCase().includes(term.toLowerCase()) ||
         company.industry.toLowerCase().includes(term.toLowerCase()) ||
         company.facilities.some(facility =>
           facility.name?.toLowerCase().includes(term.toLowerCase()) ||
@@ -136,12 +155,14 @@ export async function getStaticProps() {
       return {
         id: company.id,
         name: company.name,
-        englishName: company.englishName,
+        englishName: company.englishName || '',
         industry: company.industry || 'N/A',
         logoUrl: company.logoUrl || null,
         facilities: facilities,
         totalViolations: company.violationCount,
-        totalFacilities: company.facilityCount
+        totalFacilities: company.facilityCount,
+        newsCount: company.newsCount,
+        inEpaData: company.inEpaData
       };
     });
 

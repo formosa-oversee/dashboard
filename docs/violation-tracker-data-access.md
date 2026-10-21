@@ -175,7 +175,7 @@ Sitemap: https://subsidytracker.goodjobsfirst.org/sitemap_index.xml
 
 ### 對應 dashboard 現行資料管線的補充回答
 
-現況：`scripts/fetch-gcs-data.js` 從私有 GCS bucket 拉 EPA ECHO 的 `facilities.csv` / `violations.csv`，以台灣上市公司代號（如 1210、1216）＋投審會境外投資公司名稱做模糊匹配到 EPA facility，輸出 `data/epa-data.json`；`lib/api.js` 多為 mock，`violations` / `enforcement` 陣列多為空。
+現況：`scripts/fetch-gcs-data.js` 從私有 GCS bucket 拉 EPA ECHO 的 `facilities.csv` / `violations.csv`，以台灣上市公司代號（如 1210、1216）＋投審會境外投資公司名稱做模糊匹配到 EPA facility，輸出 `data/epa-data.json`；`violations` / `enforcement` 陣列多為空（`lib/api.js` 的 mock data 已於 2026-10-21 刪除）。
 
 #### Q1. VT 的公司／母公司如何對到台灣公司代號？
 

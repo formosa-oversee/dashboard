@@ -582,6 +582,216 @@
       ]
     },
     {
+      "id": "fg-la-sunshine-project-permits",
+      "title": "台塑集團FG LA路易斯安那州「陽光計畫」石化園區許可爭議與訴訟",
+      "summary": "台塑集團旗下 FG LA LLC 擬在路易斯安那州 St. James Parish 興建約 94 億美元的「陽光計畫」石化園區，州環境品質部（LDEQ）2020 年 1 月 6 日核發 1 張 PSD 建廠許可與 14 張 Title V 操作許可；陸軍工兵團 2020 年 11 月同意重審其濕地許可、主要工程隨之停擺，陸軍 2021 年 8 月再下令做完整環境影響評估，台塑方面當時表示將重新評估投資。州第 19 司法區法院 2022 年 9 月認定 LDEQ 決策有誤、撤銷全部 15 張許可，第一巡迴上訴法院 2024 年 1 月 19 日推翻原判、恢復許可，FG LA 聲明州最高法院同年 9 月 4 日拒絕審查。環團指控園區將使當地有毒空污倍增、加重其所稱「癌症巷」的負擔，2026 年 2 月 5 日再向州法院控告 LDEQ 展延 PSD 許可，主張公司未依 2024 年 3 月第三度展延的條件證明符合新版 PM2.5 標準，LDEQ 表示不評論訴訟中案件。FG LA 則稱許可合法、將依州與聯邦標準興建營運，並於 2025 年 5 月表示計畫已暫停約四年，但未說明環評是否已啟動。",
+      "type": "eia-dispute",
+      "status": "ongoing",
+      "dateStart": "2020-01",
+      "dateEnd": null,
+      "datePrecision": "month",
+      "locations": [
+        {
+          "country": "美國",
+          "plantSite": "St. James Parish, Louisiana, 美國"
+        }
+      ],
+      "entities": [
+        {
+          "name": "FG LA LLC",
+          "country": "美國"
+        }
+      ],
+      "groupControl": [
+        {
+          "group": "台塑集團",
+          "entity": "FG LA LLC",
+          "totalPct": 100,
+          "members": [
+            "6505",
+            "1326",
+            "1303",
+            "1434",
+            "1301"
+          ],
+          "basis": "工商時報 2017-11-10 與 Fubon 轉投資資料（2026Q2）：FG INC. 股權為台塑化 57%、台化 30%、南亞 10%、福懋 3%；FG INC. 持有 FG LA LLC 100%（MOPS：台塑化 → FG INC. → FG LA LLC）。台化、南亞、福懋於 2017-11 增資加入，此前 FG INC. 由台塑化 100% 持有。"
+        }
+      ],
+      "related": {
+        "eventIds": [],
+        "echoFacilityIds": [
+          "3601242192",
+          "3601242202"
+        ],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "court",
+          "outlet": "19th Judicial District Court, Parish of East Baton Rouge, Louisiana",
+          "outletRegion": "local",
+          "language": "en",
+          "title": "Written Reasons for Judgment — RISE St. James, Louisiana Bucket Brigade, Sierra Club, Center for Biological Diversity, Healthy Gulf, Earthworks, and No Waste Louisiana v. Louisiana Department of Environmental Quality, Docket No. 694,029",
+          "date": "2022-09-08",
+          "url": "https://law.tulane.edu/sites/default/files/u2404/FormosaRuling.091422.pdf",
+          "archiveUrl": "https://web.archive.org/web/20240708171123/https://law.tulane.edu/sites/default/files/u2404/FormosaRuling.091422.pdf",
+          "verified": "opened",
+          "note": "法院判決理由書 PDF（存放於 Tulane Law School 網站）。標題取自文件抬頭並附當事人與案號。Trudy M. White 法官 2022-09-08 簽署、09-12 歸檔、09-14 寄送當事人（媒體多以 09-14 報導）。撤銷 LDEQ 2020-01-06 核發的 PSD-LA-812 與 14 張 Title V 許可（3141-V0～3154-V0），共 15 張，並認定其錯誤侵害原告依州憲法第 IX 條第 1 項享有的權利。"
+        },
+        {
+          "kind": "court",
+          "outlet": "Louisiana Court of Appeal, First Circuit",
+          "outletRegion": "local",
+          "language": "en",
+          "title": "RISE St. James, Louisiana Bucket Brigade, Sierra Club, Center for Biological Diversity, Healthy Gulf, Earthworks, and No Waste Louisiana versus Louisiana Department of Environmental Quality, 2023 CA 0578",
+          "date": "2024-01-19",
+          "url": "https://www.la-fcca.org/opiniongrid/opinionpdf/2023%20CA%200578%20Decision%20Appeal.pdf",
+          "archiveUrl": "https://web.archive.org/web/20241101221207/https://www.la-fcca.org/opiniongrid/opinionpdf/2023%20CA%200578%20Decision%20Appeal.pdf",
+          "verified": "opened",
+          "note": "判決書無標題，以當事人欄位與案號為標題。法院網站改版後原網址回 404，以 Wayback 2024-11-01 快照開啟 PDF 確認（FindLaw 亦收錄全文）。五人合議庭由 Welch 法官主筆，Theriot 協同、Wolfe 不同意見（未附理由）；主文為 JUDGMENT REVERSED; PERMITS REINSTATED; JUDGMENT RENDERED，駁回環團的司法審查聲請。"
+        },
+        {
+          "kind": "company",
+          "outlet": "FG LA LLC（The Sunshine Project 網站）",
+          "outletRegion": "local",
+          "language": "en",
+          "title": "Louisiana Supreme Court Affirms Project Air Permits",
+          "date": "2024-09-04",
+          "url": "https://www.sunshineprojectla.com/press_releases.php?action=submit&story_id=63",
+          "archiveUrl": "https://web.archive.org/web/20261022024653/https://www.sunshineprojectla.com/press_releases.php?action=submit&story_id=63",
+          "verified": "opened",
+          "note": "公司新聞稿（FG News）；內文頁無標題，標題取自新聞列表。稱州最高法院 2024-09-04 一致拒絕審查（denied review），使第一巡迴上訴法院判決維持不變；附 FG LA 社區與政府關係主任 Janile Parks 聲明，稱許可有據、將依州與聯邦標準興建營運。州最高法院未查到可開啟的官方裁定，Liskow & Lewis 2024-09-23 文章亦記載同日駁回。快照為本次 Save Page Now 建立。"
+        },
+        {
+          "kind": "media",
+          "outlet": "公視新聞網",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "台塑赴美建廠 路易斯安那州居民反對",
+          "date": "2020-06-10",
+          "url": "https://news.pts.org.tw/article/482449",
+          "archiveUrl": "https://web.archive.org/web/20251211034127/https://news.pts.org.tw/article/482449",
+          "verified": "opened",
+          "note": "環團以小股東身分到台塑股東會抗議；台塑董事長林健男稱台塑並未投資設廠，環團則指投資方為台塑化、南亞、台化等關係企業。"
+        },
+        {
+          "kind": "media",
+          "outlet": "Taipei Times",
+          "outletRegion": "taiwan",
+          "language": "en",
+          "title": "Pentagon official orders review of Formosa project",
+          "date": "2021-08-20",
+          "url": "https://www.taipeitimes.com/News/front/archives/2021/08/20/2003762905",
+          "archiveUrl": "https://web.archive.org/web/20211016122545/https://www.taipeitimes.com/News/front/archives/2021/08/20/2003762905",
+          "verified": "opened",
+          "note": "美聯社（AP）紐奧良電：陸軍代理助理部長 Jaime Pinkham 於 2021-08-18（週三）下令工兵團做完整環境評估；工兵團 2019 年 9 月核發濕地許可，2020 年 11 月同意重審後主要工程停擺。含台塑方面回應（將重新評估投資、年底前有結果）。"
+        },
+        {
+          "kind": "media",
+          "outlet": "Verite News（Louisiana Illuminator 轉載）",
+          "outletRegion": "local",
+          "language": "en",
+          "title": "St. James environmental advocates feel ‘left out’ after recent pro-industry votes",
+          "date": "2025-05-06",
+          "url": "https://lailluminator.com/2025/05/06/st-james-environment/",
+          "archiveUrl": "https://web.archive.org/web/20260712110545/https://lailluminator.com/2025/05/06/st-james-environment/",
+          "verified": "opened",
+          "note": "Verite News 記者 Safura Syed 撰稿。原網頁有 Cloudflare 驗證（403），以 Wayback 快照開啟確認。含 FG LA 發言人 Janile Parks 聲明（公司回應）：確信許可均合法核發、計畫已暫停約四年；未回答工兵團要求的環評是否已啟動。Earthjustice 律師稱公司須取得工兵團濕地許可才能動工。"
+        },
+        {
+          "kind": "media",
+          "outlet": "The Advocate",
+          "outletRegion": "local",
+          "language": "en",
+          "title": "A proposal to build a massive plastics plant in Louisiana faces a new court challenge",
+          "date": "2026-02-06",
+          "url": "https://www.theadvocate.com/baton_rouge/news/courts/formosa-air-permit-louisiana-lawsuit/article_2b0a2227-62fc-5b6b-957b-cd7999253944.html",
+          "archiveUrl": "https://web.archive.org/web/20260215000040/https://www.theadvocate.com/baton_rouge/news/courts/formosa-air-permit-louisiana-lawsuit/article_2b0a2227-62fc-5b6b-957b-cd7999253944.html",
+          "verified": "opened",
+          "note": "原網頁出現安全驗證頁，以 Wayback 快照開啟確認；網頁 <title> 為 'Groups sue Louisiana over massive Formosa plastics plant'。記者 Alex Lubben，02-06 刊出、02-08 更新；起訴日為 2026-02-05（週四）。LDEQ 表示不評論訴訟中案件，公司未回應。Earthjustice 新聞稿與 Bloomberg Law 同日報導，起訴對象為 LDEQ 2026-01-06 的第四度展延。"
+        }
+      ],
+      "addedAt": "2026-10-22",
+      "attribution": [
+        {
+          "companyCode": "6505",
+          "entity": "FG LA LLC",
+          "kind": "listed",
+          "effectivePct": 57,
+          "controlSince": 2017,
+          "path": [
+            "台塑石化",
+            "FG INC.（57%）",
+            "FG LA LLC（100%）"
+          ],
+          "basis": "工商時報 2017-11-10 與 Fubon 轉投資資料（2026Q2）：FG INC. 股權為台塑化 57%、台化 30%、南亞 10%、福懋 3%；FG INC. 持有 FG LA LLC 100%（MOPS：台塑化 → FG INC. → FG LA LLC）。台化、南亞、福懋於 2017-11 增資加入，此前 FG INC. 由台塑化 100% 持有。",
+          "companyName": "台塑石化股份有限公司",
+          "companyShort": "台塑化",
+          "shown": true,
+          "reason": "own"
+        },
+        {
+          "companyCode": "1326",
+          "entity": "FG LA LLC",
+          "kind": "listed",
+          "effectivePct": 30,
+          "controlSince": 2017,
+          "path": [
+            "台灣化學纖維",
+            "FG INC.（30%）",
+            "FG LA LLC（100%）"
+          ],
+          "basis": "工商時報 2017-11-10 與 Fubon 轉投資資料（2026Q2）：FG INC. 股權為台塑化 57%、台化 30%、南亞 10%、福懋 3%；FG INC. 持有 FG LA LLC 100%（MOPS：台塑化 → FG INC. → FG LA LLC）。台化、南亞、福懋於 2017-11 增資加入，此前 FG INC. 由台塑化 100% 持有。",
+          "companyName": "台灣化學纖維股份有限公司",
+          "companyShort": "台化",
+          "shown": true,
+          "reason": "own"
+        },
+        {
+          "companyCode": "1303",
+          "entity": "FG LA LLC",
+          "kind": "listed",
+          "effectivePct": 10,
+          "controlSince": 2017,
+          "path": [
+            "南亞塑膠工業",
+            "FG INC.（10%）",
+            "FG LA LLC（100%）"
+          ],
+          "basis": "工商時報 2017-11-10 與 Fubon 轉投資資料（2026Q2）：FG INC. 股權為台塑化 57%、台化 30%、南亞 10%、福懋 3%；FG INC. 持有 FG LA LLC 100%（MOPS：台塑化 → FG INC. → FG LA LLC）。台化、南亞、福懋於 2017-11 增資加入，此前 FG INC. 由台塑化 100% 持有。",
+          "companyName": "南亞塑膠工業股份有限公司",
+          "companyShort": "南亞",
+          "shown": true,
+          "reason": "group",
+          "group": "台塑集團"
+        },
+        {
+          "companyCode": "1434",
+          "entity": "FG LA LLC",
+          "kind": "listed",
+          "effectivePct": 3,
+          "controlSince": 2017,
+          "path": [
+            "福懋興業",
+            "FG INC.（3%）",
+            "FG LA LLC（100%）"
+          ],
+          "basis": "工商時報 2017-11-10 與 Fubon 轉投資資料（2026Q2）：FG INC. 股權為台塑化 57%、台化 30%、南亞 10%、福懋 3%；FG INC. 持有 FG LA LLC 100%（MOPS：台塑化 → FG INC. → FG LA LLC）。台化、南亞、福懋於 2017-11 增資加入，此前 FG INC. 由台塑化 100% 持有。",
+          "companyName": "福懋興業股份有限公司",
+          "companyShort": "福懋",
+          "shown": true,
+          "reason": "group",
+          "group": "台塑集團"
+        }
+      ],
+      "companyCodes": [
+        "1303",
+        "1326",
+        "1434",
+        "6505"
+      ]
+    },
+    {
       "id": "formosa-ha-tinh-taipei-lawsuit",
       "title": "越南居民在台北地院向台塑集團等求償河靜污染損害",
       "summary": "2019 年 6 月 11 日，7,875 名越南居民在台北地方法院控告台塑、南亞、台化、台塑化、中鋼、JFE 等 24 名 FHS 直接或間接股東及董事，求償約新台幣 1.4 億元；台塑回應 FHS 已於 2016 年 8 月支付 5 億美元，並依越南政府要求由其統籌發放。台北地院 2019 年 10 月以無國際管轄權裁定駁回，最高法院 2020 年 11 月廢棄高院維持駁回的裁定；之後法院要求原告補正經我國駐外機構認證的委任書，高等法院 2024 年 5 月裁定 4 名完成認證的原告可在台灣續行訴訟，其餘 7,861 人的抗告因未補正而駁回。Mongabay 2026 年 4 月報導，原告團體指越南警方曾攔阻原告前往河內辦理認證，在美國提起的相關訴訟則等待台灣審理結果。",

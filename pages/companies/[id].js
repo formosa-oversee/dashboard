@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import {
   Box, Container, Heading, Text, Tabs, TabList, TabPanels, Tab, TabPanel,
   Table, Thead, Tbody, Tr, Th, Td, Badge, HStack, VStack, Link as ChakraLink,
@@ -207,9 +207,27 @@ const EventCard = ({ event, companyData, events }) => {
   );
 };
 
+// 有違規的開違規分頁，只有事件的開事件分頁
+const defaultTabIndex = (company) =>
+  (company?.violations?.length || 0) > 0 ? 1 : ((company?.news?.length || 0) > 0 ? 0 : 1);
+
 const CompanyDetail = ({ companyData }) => {
   const [selectedViolationPlant, setSelectedViolationPlant] = useState('all');
   const [selectedEventSite, setSelectedEventSite] = useState('all');
+  const [tabIndex, setTabIndex] = useState(defaultTabIndex(companyData));
+
+  // 「同一事件也列在」連到別家公司時網址帶 #事件 id：事件分頁不是預設分頁的話，要先切過去再捲動。
+  // 在公司頁之間切換時元件會沿用，所以每次換公司都重設篩選與分頁。
+  useEffect(() => {
+    const id = decodeURIComponent(window.location.hash.slice(1));
+    const hasEvent = Boolean(id) && (companyData?.news || []).some(e => e.id === id);
+    setSelectedViolationPlant('all');
+    setSelectedEventSite('all');
+    setTabIndex(hasEvent ? 0 : defaultTabIndex(companyData));
+    if (hasEvent) {
+      setTimeout(() => document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' }), 100);
+    }
+  }, [companyData]);
 
   if (!companyData) {
     return (
@@ -280,8 +298,6 @@ const CompanyDetail = ({ companyData }) => {
   const filteredEvents = selectedEventSite === 'all'
     ? events
     : events.filter(e => (e.locations || []).some(l => l.plantSite === selectedEventSite));
-  // 有違規的開違規分頁，只有事件的開事件分頁
-  const defaultTabIndex = violationData.length > 0 ? 1 : (events.length > 0 ? 0 : 1);
 
   // Extract plant site options from violations data to ensure exact match
   const violationPlantSites = [...new Set(
@@ -453,7 +469,7 @@ const CompanyDetail = ({ companyData }) => {
         </VStack>
 
         {/* Tabs for News and Violations */}
-        <Tabs variant="enclosed-colored" colorScheme="green" isFitted defaultIndex={defaultTabIndex}>
+        <Tabs variant="enclosed-colored" colorScheme="green" isFitted index={tabIndex} onChange={setTabIndex}>
           <TabList mb="1em">
             <Tab>污染事件（{events.length}）</Tab>
             <Tab>環境違規記錄（{inEpaData ? violationData.length.toLocaleString() : '—'}）</Tab>

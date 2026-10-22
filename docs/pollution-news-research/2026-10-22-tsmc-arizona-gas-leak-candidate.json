@@ -1,0 +1,124 @@
+[
+  {
+    "id": "tsmc-arizona-2023-gas-leak-allegations",
+    "title": "工會人士指控台積電亞利桑那工地將氣體外洩疏散稱為槍擊演習",
+    "summary": "2023 年 6 月《The American Prospect》報導亞利桑那州管線工會 Local 469 業務主任 Josh Wakeham 的說法：鳳凰城台積電工地曾以「槍擊演習」為由疏散工人，工人事後才得知是氣體外洩，他指公司試圖隱瞞（報導未載明事發日期與氣體種類），9to5Mac 與台灣英文新聞其後轉述此說法；《衛報》同年 8 月另引述一名 2022 年在工地工作的前包商工人，稱有人在工人頭頂噴灑防火化學品，許多工人出現咳嗽。台積電回應時否認工地有工作相關死亡，表示定期接受亞利桑那州職業安全衛生處（ADOSH）等機構稽核、安全與傷害事故率明顯低於州與全國基準，所查到的報導中未見公司針對氣體外洩說法的個別回應。《亞利桑那共和報》2023 年 11 月依取得的 ADOSH 檢查紀錄報導，檢查員記錄的 4 項違規中有 3 項涉及一氧化碳暴露，並發現部分作業地點通風不足；OSHA 資料庫中 ADOSH 於 2022 年 11 月對 TSMC Arizona 開立的健康類檢查已於 2023 年 10 月結案、未列違規事項，目前未見主管機關就氣體外洩指控作出認定。",
+    "type": "industrial-accident",
+    "status": "alleged",
+    "dateStart": "2023-06",
+    "dateEnd": null,
+    "datePrecision": "month",
+    "locations": [
+      {
+        "country": "美國",
+        "plantSite": "Phoenix, Arizona, 美國"
+      }
+    ],
+    "entities": [
+      {
+        "name": "TSMC Arizona Corporation",
+        "country": "美國"
+      }
+    ],
+    "attributionOverride": [
+      {
+        "companyCode": "2330",
+        "entity": "TSMC Arizona Corporation",
+        "kind": "listed",
+        "effectivePct": 100,
+        "controlSince": 2020,
+        "path": [
+          "台灣積體電路製造",
+          "TSMC Arizona Corporation（100%）"
+        ],
+        "basis": "台積電 2Q26 合併財報：持有 TSMC Arizona Corporation 100%；2020-11-10 設立。"
+      }
+    ],
+    "groupControl": [],
+    "related": {
+      "eventIds": [],
+      "echoFacilityIds": [
+        "3601487739",
+        "3601833672",
+        "3601820587",
+        "3602079003"
+      ],
+      "enforcementCaseIds": []
+    },
+    "sources": [
+      {
+        "kind": "media",
+        "outlet": "The American Prospect",
+        "outletRegion": "local",
+        "language": "en",
+        "title": "Chipmaker’s Scramble to Build Marred by Mistakes and Injuries",
+        "date": "2023-06-22",
+        "url": "https://prospect.org/2023/06/22/2023-06-22-tsmc-semiconductor-factory-phoenix-accidents/",
+        "archiveUrl": "https://web.archive.org/web/20260830180022/https://prospect.org/2023/06/22/2023-06-22-tsmc-semiconductor-factory-phoenix-accidents/",
+        "verified": "opened",
+        "note": "氣體外洩說法的原始報導（作者 Lee Harris）：出自 Arizona Local 469（管線工會）業務主任 Josh Wakeham 的轉述，未載明事發日期與氣體種類。台積電聲明回應的是死亡指控與整體事故率，未個別提及氣體外洩。舊網址 /labor/2023-06-22-tsmc-semiconductor-factory-phoenix-accidents/ 會轉址至此。"
+      },
+      {
+        "kind": "media",
+        "outlet": "9to5Mac",
+        "outletRegion": "local",
+        "language": "en",
+        "title": "TSMC Arizona plant safety questioned, after multiple accidents and fake active shooter drill",
+        "date": "2023-06-23",
+        "url": "https://9to5mac.com/2023/06/23/tsmc-arizona-plant-safety/",
+        "archiveUrl": "https://web.archive.org/web/20250724175528/https://9to5mac.com/2023/06/23/tsmc-arizona-plant-safety/",
+        "verified": "opened",
+        "note": "轉述 The American Prospect 報導並引用 Wakeham 原話，非獨立採訪；文中無台積電回應。"
+      },
+      {
+        "kind": "media",
+        "outlet": "Taiwan News（台灣英文新聞）",
+        "outletRegion": "taiwan",
+        "language": "en",
+        "title": "Petition calls for Taiwanese workers to be barred from working on TSMC Arizona plant",
+        "date": "2023-08-10",
+        "url": "https://www.taiwannews.com.tw/en/news/4967975",
+        "archiveUrl": "https://web.archive.org/web/20230812062138/https://www.taiwannews.com.tw/en/news/4967975",
+        "verified": "opened",
+        "note": "主題是 Local 469 反對台籍工人簽證的請願；轉述 The American Prospect 的氣體外洩說法，並引台積電聲明（否認有工人死亡、事故率低於州與全國基準）。網址現轉址至 /news/4967975。"
+      },
+      {
+        "kind": "media",
+        "outlet": "The Guardian",
+        "outletRegion": "international",
+        "language": "en",
+        "title": "‘They would not listen to us’: inside Arizona’s troubled chip plant",
+        "date": "2023-08-28",
+        "url": "https://www.theguardian.com/business/2023/aug/28/phoenix-microchip-plant-biden-union-tsmc",
+        "archiveUrl": "https://web.archive.org/web/20261022024219/https://www.theguardian.com/business/2023/aug/28/phoenix-microchip-plant-biden-union-tsmc",
+        "verified": "opened",
+        "note": "獨立採訪（作者 Michael Sainato）。另一項化學品暴露指控：一名 2022 年在工地的前包商工人稱有人在工人頭頂噴灑防火化學品、許多人咳嗽；文中未提氣體外洩。台積電未回應個別投訴，稱當地可記錄安全事故率比全國數字低近 80%、失能傷害事故率低近 96%。原無 Wayback 快照，2026-10-22 以 Save Page Now 建立。"
+      },
+      {
+        "kind": "media",
+        "outlet": "The Arizona Republic（PressReader 版）",
+        "outletRegion": "local",
+        "language": "en",
+        "title": "Inspectors found few violations at TSMC site despite safety claims",
+        "date": "2023-11-23",
+        "url": "https://www.pressreader.com/usa/the-arizona-republic/20231123/281565180505807",
+        "archiveUrl": "https://web.archive.org/web/20261022024304/https://www.pressreader.com/usa/the-arizona-republic/20231123/281565180505807",
+        "verified": "search-only",
+        "note": "PressReader 以 JavaScript 載入內文（WebFetch 403，curl 只取得外殼頁），azcentral 原網址查不到；標題、日期，以及「4 項違規中 3 項涉及一氧化碳暴露」「通風不足」「矽塵暴露」等內容只從搜尋結果摘要確認。日期為印刷版日期。Wayback 快照（2026-10-22 以 Save Page Now 建立）只存到外殼頁。未能確認違規是開給台積電還是包商。"
+      },
+      {
+        "kind": "official",
+        "outlet": "U.S. Department of Labor, OSHA Establishment Search（Arizona Division of Occupational Safety and Health 檢查紀錄）",
+        "outletRegion": "local",
+        "language": "en",
+        "title": "Inspection: 1637540.015 - Rfx2023xt3633x0067 - Tsmc Arizona Corporation",
+        "date": "2022-11-30",
+        "url": "https://www.osha.gov/ords/imis/establishment.inspection_detail?id=1637540.015",
+        "archiveUrl": "https://web.archive.org/web/20250220194745/https://www.osha.gov/ords/imis/establishment.inspection_detail?id=1637540.015",
+        "verified": "opened",
+        "note": "osha.gov 直接開啟會遇到 CAPTCHA（WebFetch 回 405），改以 Wayback 快照開啟確認：ADOSH 轉介（Referral）、健康類（Health）、部分範圍檢查，2022-11-30 開立、2023-10-18 結案，頁面未列任何違規或罰款。頁面沒有寫檢查項目，因此無法確認是否就是《亞利桑那共和報》所述的一氧化碳檢查。日期為檢查開立日。"
+      }
+    ],
+    "addedAt": "2026-10-22"
+  }
+]

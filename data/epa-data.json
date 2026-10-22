@@ -161,7 +161,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.368Z"
+      "lastUpdated": "2026-10-22T02:51:47.155Z"
     },
     "news": [],
     "inEpaData": true
@@ -305,7 +305,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -543,7 +543,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -85176,9 +85176,111 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [
+      {
+        "id": "formosa-point-comfort-2024-unreported-emissions-judgment",
+        "title": "台塑美國德州廠9起排放事件未及時通報，與德州州政府和解罰款475,000美元",
+        "summary": "德州總檢察長辦公室於 2024 年 7 月 19 日在《德州公報》（Texas Register）刊登和解通知：州政府在 Travis 郡第 459 地方法院控告 Formosa Plastics Corporation, Texas（案號 D-1-GN-21-007088），指 Point Comfort 廠 2019 年 6 月至 2021 年 9 月間發生 9 起排放事件（含維修、開停車作業），排放空氣污染物且未及時通報德州環境品質委員會（TCEQ），違反德州空氣清淨法及州、聯邦許可。雙方擬議的合意判決暨永久禁制令（Agreed Final Judgment and Permanent Injunction）要求公司找出程序缺失並採取矯正措施，確保及時通報 TCEQ，另判給州政府民事罰款 475,000 美元與律師費 75,000 美元，並開放 30 天書面意見。EPA 的 ECHO 執法資料庫記載本案於 2021 年 9 月 16 日移送州總檢察長、2024 年 8 月 21 日登錄最終命令（Final Order Entered），州罰款 475,000 美元。",
+        "type": "enforcement",
+        "status": "settled",
+        "dateStart": "2024-07-19",
+        "dateEnd": "2024-08-21",
+        "datePrecision": "day",
+        "locations": [
+          {
+            "country": "美國",
+            "plantSite": "Point Comfort, Texas, 美國"
+          }
+        ],
+        "entities": [
+          {
+            "name": "Formosa Plastics Corporation, Texas",
+            "country": "美國"
+          }
+        ],
+        "groupControl": [],
+        "related": {
+          "eventIds": [],
+          "echoFacilityIds": [
+            "3601104956",
+            "3601368154",
+            "1600028209",
+            "3601073914",
+            "3601731156"
+          ],
+          "enforcementCaseIds": []
+        },
+        "sources": [
+          {
+            "kind": "official",
+            "outlet": "Texas Register（Office of the Attorney General of Texas）",
+            "outletRegion": "local",
+            "language": "en",
+            "title": "Texas Water Code and Texas Health and Safety Code Settlement Notice",
+            "date": "2024-07-19",
+            "url": "https://www.sos.texas.gov/texreg/archive/July192024/In%20Addition/In%20Addition.html",
+            "archiveUrl": "https://web.archive.org/web/20240802115737/https://www.sos.texas.gov/texreg/archive/July192024/In%20Addition/In%20Addition.html",
+            "verified": "opened",
+            "note": "原網址回 403，以 Wayback 快照開啟確認。刊於 2024-07-19 期 In Addition 欄，TRD-202403022，2024-07-09 提交；State of Texas v. Formosa Plastics Corporation, Texas, Cause No. D-1-GN-21-007088（459th Judicial District, Travis County）。同頁前一則是 Arkema 案的和解通知，勿混淆。"
+          },
+          {
+            "kind": "official",
+            "outlet": "U.S. Environmental Protection Agency, ECHO（ICIS-Air 州政府通報資料）",
+            "outletRegion": "local",
+            "language": "en",
+            "title": "Civil Enforcement Case Report | ECHO | US EPA",
+            "date": "2025-02-28",
+            "url": "https://echo.epa.gov/enforcement-case-report?id=TX000A783459482021236",
+            "archiveUrl": "https://web.archive.org/web/20261022024734/https://echo.epa.gov/enforcement-case-report?id=TX000A783459482021236",
+            "verified": "opened",
+            "note": "頁面以 JavaScript 載入，內容以 ECHO case_rest_services.get_case_report API 確認：Lead State、Civil Judicial Action、FORMOSA POINT COMFORT PLANT（TX0000004805700015）；2021-09-16 移送州總檢察長、2024-08-21 Final Order Entered、州罰款 $475,000、PenaltyCollected 欄為 $0。日期採案件狀態日（2025-02-28 Closed）。Wayback 快照只存到頁面外殼。"
+          }
+        ],
+        "addedAt": "2026-10-22",
+        "attribution": [
+          {
+            "companyCode": "1301",
+            "entity": "Formosa Plastics Corporation, Texas",
+            "kind": "listed",
+            "effectivePct": 24.82,
+            "controlSince": 1978,
+            "path": [
+              "台灣塑膠工業",
+              "Formosa Plastics Corporation, U.S.A.（24.82%）",
+              "Formosa Plastics Corporation, Texas（100%）"
+            ],
+            "basis": "台塑 115Q2 合併財報：採權益法投資 Formosa Plastics Corporation, U.S.A. 22.66%；2026-08-01 台塑工業美國（Formosa Industries Corp.）併入後增為 24.82%（MOPS 重大訊息 2026-10-12）。FPC USA 由台塑集團於 1978 年設立，Texas、Louisiana、Delaware、Illinois 廠為其全資子公司。",
+            "companyName": "台灣塑膠工業股份有限公司",
+            "companyShort": "台塑",
+            "shown": true,
+            "reason": "own"
+          }
+        ],
+        "companyCodes": [
+          "1301"
+        ],
+        "holdings": [
+          {
+            "companyCode": "1301",
+            "entity": "Formosa Plastics Corporation, Texas",
+            "kind": "listed",
+            "effectivePct": 24.82,
+            "controlSince": 1978,
+            "path": [
+              "台灣塑膠工業",
+              "Formosa Plastics Corporation, U.S.A.（24.82%）",
+              "Formosa Plastics Corporation, Texas（100%）"
+            ],
+            "basis": "台塑 115Q2 合併財報：採權益法投資 Formosa Plastics Corporation, U.S.A. 22.66%；2026-08-01 台塑工業美國（Formosa Industries Corp.）併入後增為 24.82%（MOPS 重大訊息 2026-10-12）。FPC USA 由台塑集團於 1978 年設立，Texas、Louisiana、Delaware、Illinois 廠為其全資子公司。",
+            "companyName": "台灣塑膠工業股份有限公司",
+            "companyShort": "台塑",
+            "shown": true,
+            "reason": "own"
+          }
+        ]
+      },
       {
         "id": "formosa-point-comfort-2021-epa-rmp-penalty",
         "title": "台塑美國德州廠違反空氣清淨法化學事故預防規定，罰款285萬美元",
@@ -85759,6 +85861,116 @@
             "path": [
               "台灣塑膠工業",
               "Formosa Plastics Corporation, U.S.A.（24.82%）"
+            ],
+            "basis": "台塑 115Q2 合併財報：採權益法投資 Formosa Plastics Corporation, U.S.A. 22.66%；2026-08-01 台塑工業美國（Formosa Industries Corp.）併入後增為 24.82%（MOPS 重大訊息 2026-10-12）。FPC USA 由台塑集團於 1978 年設立，Texas、Louisiana、Delaware、Illinois 廠為其全資子公司。",
+            "companyName": "台灣塑膠工業股份有限公司",
+            "companyShort": "台塑",
+            "shown": true,
+            "reason": "own"
+          }
+        ]
+      },
+      {
+        "id": "formosa-baton-rouge-2017-epa-rmp-penalty",
+        "title": "台塑美國路易斯安那廠違反空氣清淨法化學事故預防規定，罰款277,200美元",
+        "summary": "EPA 第 6 區與 Formosa Plastics Corporation, Louisiana 的同意協議暨最終命令（CAFO，案號 CAA-06-2016-3361）於 2017 年 2 月 7 日生效，公司同意支付 277,200 美元民事罰款，了結 Baton Rouge 廠氯乙烯單體（VCM）與聚氯乙烯（PVC）製程 7 項違反空氣清淨法第 112(r) 條風險管理計畫規定的指控，公司不承認也不否認相關事實認定。EPA 指出的問題來自 2014 年 7 月的稽查，包括製程危害分析逾期未更新、未辨識 2011 年 10 月破裂的氮氣加熱器超壓風險、2013 年 8 月未依程序旁通反應器聯鎖、更換設備前未做變更管理，以及 2008、2011 年稽核缺失未及時改正。EPA 案卷另載 2017 年 2 月 6 日的行政同意令（CAA-06-2016-3362，不含罰款），要求公司一年內完成未決的危害分析建議與稽核改正事項；ECHO 記載罰款 277,200 美元已收訖。",
+        "type": "enforcement",
+        "status": "penalized",
+        "dateStart": "2017-02-07",
+        "dateEnd": null,
+        "datePrecision": "day",
+        "locations": [
+          {
+            "country": "美國",
+            "plantSite": "Baton Rouge, Louisiana, 美國"
+          }
+        ],
+        "entities": [
+          {
+            "name": "Formosa Plastics Corporation, Louisiana",
+            "country": "美國"
+          }
+        ],
+        "groupControl": [],
+        "related": {
+          "eventIds": [],
+          "echoFacilityIds": [
+            "3411996"
+          ],
+          "enforcementCaseIds": []
+        },
+        "sources": [
+          {
+            "kind": "official",
+            "outlet": "U.S. Environmental Protection Agency (EPA), Region 6",
+            "outletRegion": "local",
+            "language": "en",
+            "title": "Consent Agreement and Final Order",
+            "date": "2017-02-07",
+            "url": "https://yosemite.epa.gov/oa/rhc/epaadmin.nsf/Filings/48790413CD220257852580D500214D64/$File/formosa3361.pdf",
+            "archiveUrl": "https://web.archive.org/web/20260110221504/https://yosemite.epa.gov/oa/rhc/epaadmin.nsf/Filings/48790413CD220257852580D500214D64/$File/formosa3361.pdf",
+            "verified": "opened",
+            "note": "Docket No. CAA-06-2016-3361，22 頁；第 85 段罰款 $277,200，第 102 段向 Regional Hearing Clerk 提交即生效。EPA 行政執法案卷頁面列 Complaint Date 02/07/2017、Closed Date 03/09/2017、Disposition: Payment Received。"
+          },
+          {
+            "kind": "official",
+            "outlet": "U.S. Environmental Protection Agency (EPA), Region 6",
+            "outletRegion": "local",
+            "language": "en",
+            "title": "Administrative Order on Consent",
+            "date": "2017-02-06",
+            "url": "https://yosemite.epa.gov/oa/rhc/epaadmin.nsf/Filings/5D6219B924AF5A65852580D600214D15/$File/formosa3362.pdf",
+            "archiveUrl": "https://web.archive.org/web/20241222092041/https://yosemite.epa.gov/oa/rhc/epaadmin.nsf/Filings/5D6219B924AF5A65852580D600214D15/$File/formosa3362.pdf",
+            "verified": "opened",
+            "note": "Docket No. CAA-06-2016-3362，依 CAA 113(a)(3)(4) 發布的合規命令（不含罰款）；第 38 段要求一年內完成 2008 設施選址研究、2012 PHA 重新驗證與 2008、2011 稽核的未決事項。EPA 案卷頁面日期 02/06/2017。"
+          },
+          {
+            "kind": "official",
+            "outlet": "U.S. Environmental Protection Agency, ECHO",
+            "outletRegion": "local",
+            "language": "en",
+            "title": "Civil Enforcement Case Report | ECHO | US EPA",
+            "date": "2017-03-06",
+            "url": "https://echo.epa.gov/enforcement-case-report?id=06-2016-3361",
+            "archiveUrl": "https://web.archive.org/web/20240330141710/https://echo.epa.gov/enforcement-case-report?id=06-2016-3361",
+            "verified": "opened",
+            "note": "頁面以 JavaScript 載入，內容以 ECHO case_rest_services.get_case_report API 確認：案名 Formosa Plastics RMP CAFO、Final Order With Penalty、聯邦罰款 $277,200、PenaltyCollected $277,200、相關稽查 2014-07-24；日期採案件狀態日（03/06/2017 Closed）。Wayback 快照只存到頁面外殼。"
+          }
+        ],
+        "addedAt": "2026-10-22",
+        "attribution": [
+          {
+            "companyCode": "1301",
+            "entity": "Formosa Plastics Corporation, Louisiana",
+            "kind": "listed",
+            "effectivePct": 24.82,
+            "controlSince": 1978,
+            "path": [
+              "台灣塑膠工業",
+              "Formosa Plastics Corporation, U.S.A.（24.82%）",
+              "Formosa Plastics Corporation, Louisiana（100%）"
+            ],
+            "basis": "台塑 115Q2 合併財報：採權益法投資 Formosa Plastics Corporation, U.S.A. 22.66%；2026-08-01 台塑工業美國（Formosa Industries Corp.）併入後增為 24.82%（MOPS 重大訊息 2026-10-12）。FPC USA 由台塑集團於 1978 年設立，Texas、Louisiana、Delaware、Illinois 廠為其全資子公司。",
+            "companyName": "台灣塑膠工業股份有限公司",
+            "companyShort": "台塑",
+            "shown": true,
+            "reason": "own"
+          }
+        ],
+        "companyCodes": [
+          "1301"
+        ],
+        "holdings": [
+          {
+            "companyCode": "1301",
+            "entity": "Formosa Plastics Corporation, Louisiana",
+            "kind": "listed",
+            "effectivePct": 24.82,
+            "controlSince": 1978,
+            "path": [
+              "台灣塑膠工業",
+              "Formosa Plastics Corporation, U.S.A.（24.82%）",
+              "Formosa Plastics Corporation, Louisiana（100%）"
             ],
             "basis": "台塑 115Q2 合併財報：採權益法投資 Formosa Plastics Corporation, U.S.A. 22.66%；2026-08-01 台塑工業美國（Formosa Industries Corp.）併入後增為 24.82%（MOPS 重大訊息 2026-10-12）。FPC USA 由台塑集團於 1978 年設立，Texas、Louisiana、Delaware、Illinois 廠為其全資子公司。",
             "companyName": "台灣塑膠工業股份有限公司",
@@ -86455,6 +86667,128 @@
               "台灣塑膠工業",
               "Formosa Plastics Corporation, U.S.A.（24.82%）",
               "Formosa Plastics Corporation, Illinois（100%）"
+            ],
+            "basis": "台塑 115Q2 合併財報：採權益法投資 Formosa Plastics Corporation, U.S.A. 22.66%；2026-08-01 台塑工業美國（Formosa Industries Corp.）併入後增為 24.82%（MOPS 重大訊息 2026-10-12）。FPC USA 由台塑集團於 1978 年設立，Texas、Louisiana、Delaware、Illinois 廠為其全資子公司。",
+            "companyName": "台灣塑膠工業股份有限公司",
+            "companyShort": "台塑",
+            "shown": true,
+            "reason": "own"
+          }
+        ]
+      },
+      {
+        "id": "formosa-baton-rouge-2002-ldeq-settlement",
+        "title": "台塑美國路易斯安那廠與州環境品質部和解，罰款300,000美元並出資改善",
+        "summary": "路易斯安那州環境品質部（LDEQ）於 2002 年 10 月 9 日宣布與 Formosa Plastics Corporation, Louisiana 達成擬議和解，了結 1999 至 2000 年間稽查 Baton Rouge 廠後依有害廢棄物、水污染、空氣與輻射法規發出的五份潛在處罰通知（NOPP）；LDEQ 指出的問題包括未落實地下水監測井檢查與維護、5 個洩漏閥門未於 15 天內修復、約 200 加侖製程廢水自洩漏儲槽流入 bayou 等。和解內容為現金罰款 300,000 美元、約 2,700,000 美元設備（新增廢水汽提塔）提升受污染地下水回收處理效率，以及 1,350,000 美元的有益環境計畫，包括每年再減排約 4 噸有毒化學物質、捐助 Louisiana Rural Water Association 與 LDEQ 廢井封填基金；公司在和解書中否認違規、不承認責任。LDEQ 網站記載本和解已於 2003 年 1 月 7 日生效（FINALIZED）。",
+        "type": "enforcement",
+        "status": "settled",
+        "dateStart": "2002-10-09",
+        "dateEnd": "2003-01-07",
+        "datePrecision": "day",
+        "locations": [
+          {
+            "country": "美國",
+            "plantSite": "Baton Rouge, Louisiana, 美國"
+          }
+        ],
+        "entities": [
+          {
+            "name": "Formosa Plastics Corporation, Louisiana",
+            "country": "美國"
+          }
+        ],
+        "groupControl": [],
+        "related": {
+          "eventIds": [],
+          "echoFacilityIds": [
+            "3411996"
+          ],
+          "enforcementCaseIds": []
+        },
+        "sources": [
+          {
+            "kind": "official",
+            "outlet": "Louisiana Department of Environmental Quality (LDEQ)",
+            "outletRegion": "local",
+            "language": "en",
+            "title": "DEQ AGREES TO PROPOSED SETTLEMENT WITH FORMOSA PLASTICS",
+            "date": "2002-10-09",
+            "url": "http://www.deq.state.la.us/news/2001/pdf/formosa10902.pdf",
+            "archiveUrl": "https://web.archive.org/web/20030907064949/http://www.deq.state.la.us:80/news/2001/pdf/formosa10902.pdf",
+            "verified": "opened",
+            "note": "LDEQ 新聞稿 PDF；舊網域 deq.state.la.us 已停用，以 Wayback 快照開啟。LDEQ「2002 News Releases」列表（10/9/2002）連結至此檔。內容：現金罰款 $300,000、$2,700,000 地下水回收改善設備、$1,350,000 BEP（$750,000 減排技術、$100,000 停用井水、$250,000 LRWA、$250,000 廢井封填）。"
+          },
+          {
+            "kind": "official",
+            "outlet": "Louisiana Department of Environmental Quality (LDEQ)",
+            "outletRegion": "local",
+            "language": "en",
+            "title": "SETTLEMENT AGREEMENT",
+            "date": "2002-10-02",
+            "url": "http://www.deq.state.la.us/enforcement/bep/pdf/FormosaSettlementfinal.pdf",
+            "archiveUrl": "https://web.archive.org/web/20040720043150/http://www.deq.state.la.us:80/enforcement/bep/pdf/FormosaSettlementfinal.pdf",
+            "verified": "opened",
+            "note": "抬頭「IN THE MATTER OF: FORMOSA PLASTICS CORPORATION, LOUISIANA」，Tracking Nos. HE-PP-99-0715、WE-CN-00-0261、AE-PP-00-0313、AE-PP-99-0270、RE-PP-00-0171。為公開徵求意見的未簽署版本，文件本身未載日期；日期採 LDEQ BEP 頁所列送州總檢察長日（10/2/2002）。公司在第 V 段等處否認違規、不承認責任；第 XXVII 段 $2,700,000 為 VCM #2 廢水汽提塔。"
+          },
+          {
+            "kind": "official",
+            "outlet": "Louisiana Department of Environmental Quality (LDEQ)",
+            "outletRegion": "local",
+            "language": "en",
+            "title": "Beneficial Environmental Projects",
+            "date": "2003-03-25",
+            "url": "http://www.deq.state.la.us/enforcement/bep/bep.asp",
+            "archiveUrl": "https://web.archive.org/web/20030327033245/http://www.deq.state.la.us:80/enforcement/bep/bep.asp",
+            "verified": "opened",
+            "note": "頁面標「This Page Last Updated: 3/25/2003」；Formosa Plastics Corporation, Louisiana（AI No. 288）一列寫明「FINALIZED January 7, 2003」，送州總檢察長日 10/2/2002。"
+          },
+          {
+            "kind": "media",
+            "outlet": "ICIS（Chemical Market Reporter）",
+            "outletRegion": "international",
+            "language": "en",
+            "title": "Formosa Plastics to Spend $4.3 Million To Resolve Environmental Violations",
+            "date": "2002-10-20",
+            "url": "https://www.icis.com/explore/resources/news/2002/10/18/183060/formosa-plastics-to-spend-4-3-million-to-resolve-environmental-violations/",
+            "archiveUrl": "https://web.archive.org/web/20190227015622/https://www.icis.com/explore/resources/news/2002/10/18/183060/formosa-plastics-to-spend-4-3-million-to-resolve-environmental-violations/",
+            "verified": "opened",
+            "note": "原網址被 Incapsula 擋（2025 年快照也只存到攔截頁），以 2019 年 Wayback 快照確認全文。頁面標「Source: CMR」、日期 2002/10/20，網址路徑為 2002/10/18。列出 LDEQ 引述的違規項目（監測井、洩漏閥門、約 200 加侖廢水流入 bayou）。"
+          }
+        ],
+        "addedAt": "2026-10-22",
+        "attribution": [
+          {
+            "companyCode": "1301",
+            "entity": "Formosa Plastics Corporation, Louisiana",
+            "kind": "listed",
+            "effectivePct": 24.82,
+            "controlSince": 1978,
+            "path": [
+              "台灣塑膠工業",
+              "Formosa Plastics Corporation, U.S.A.（24.82%）",
+              "Formosa Plastics Corporation, Louisiana（100%）"
+            ],
+            "basis": "台塑 115Q2 合併財報：採權益法投資 Formosa Plastics Corporation, U.S.A. 22.66%；2026-08-01 台塑工業美國（Formosa Industries Corp.）併入後增為 24.82%（MOPS 重大訊息 2026-10-12）。FPC USA 由台塑集團於 1978 年設立，Texas、Louisiana、Delaware、Illinois 廠為其全資子公司。",
+            "companyName": "台灣塑膠工業股份有限公司",
+            "companyShort": "台塑",
+            "shown": true,
+            "reason": "own"
+          }
+        ],
+        "companyCodes": [
+          "1301"
+        ],
+        "holdings": [
+          {
+            "companyCode": "1301",
+            "entity": "Formosa Plastics Corporation, Louisiana",
+            "kind": "listed",
+            "effectivePct": 24.82,
+            "controlSince": 1978,
+            "path": [
+              "台灣塑膠工業",
+              "Formosa Plastics Corporation, U.S.A.（24.82%）",
+              "Formosa Plastics Corporation, Louisiana（100%）"
             ],
             "basis": "台塑 115Q2 合併財報：採權益法投資 Formosa Plastics Corporation, U.S.A. 22.66%；2026-08-01 台塑工業美國（Formosa Industries Corp.）併入後增為 24.82%（MOPS 重大訊息 2026-10-12）。FPC USA 由台塑集團於 1978 年設立，Texas、Louisiana、Delaware、Illinois 廠為其全資子公司。",
             "companyName": "台灣塑膠工業股份有限公司",
@@ -139406,7 +139740,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [
       {
@@ -139966,7 +140300,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -153134,7 +153468,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -153196,7 +153530,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -153351,7 +153685,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -153413,7 +153747,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -153559,7 +153893,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -164158,7 +164492,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -165136,7 +165470,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -165198,7 +165532,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -165266,7 +165600,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -165415,7 +165749,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -165477,7 +165811,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -165871,7 +166205,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -165933,7 +166267,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -165995,7 +166329,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -166364,7 +166698,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -166625,7 +166959,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -166687,7 +167021,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -168986,7 +169320,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -169084,7 +169418,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -169209,7 +169543,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -169339,7 +169673,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -171978,7 +172312,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [
       {
@@ -172300,7 +172634,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -172362,7 +172696,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -172424,7 +172758,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -172486,7 +172820,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -172548,7 +172882,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -172718,7 +173052,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -172780,7 +173114,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -172842,7 +173176,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -172904,7 +173238,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -173014,7 +173348,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -201812,7 +202146,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -201874,7 +202208,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -201936,7 +202270,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -201998,7 +202332,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -202249,7 +202583,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -210992,7 +211326,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -211054,7 +211388,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -211116,7 +211450,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -211178,7 +211512,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -211240,7 +211574,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -211308,7 +211642,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -211370,7 +211704,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -211438,7 +211772,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -211500,7 +211834,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -211568,7 +211902,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -211702,7 +212036,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -211806,7 +212140,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -211915,7 +212249,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -211977,7 +212311,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -212039,7 +212373,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -212101,7 +212435,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -212199,7 +212533,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -212859,7 +213193,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -214182,7 +214516,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -214244,7 +214578,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -214348,7 +214682,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -214468,7 +214802,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -214541,7 +214875,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -214750,7 +215084,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -214812,7 +215146,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -214910,7 +215244,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -214972,7 +215306,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -215034,7 +215368,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -215096,7 +215430,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -215194,7 +215528,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -215502,7 +215836,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -215564,7 +215898,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -215756,7 +216090,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -224247,7 +224581,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -224345,7 +224679,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -224413,7 +224747,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -224486,7 +224820,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -224705,7 +225039,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -224767,7 +225101,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -224829,7 +225163,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -225043,7 +225377,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -225574,7 +225908,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -225652,7 +225986,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -225750,7 +226084,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -225823,7 +226157,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -226732,7 +227066,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -226800,7 +227134,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -239374,7 +239708,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -239605,7 +239939,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -239725,7 +240059,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [
       {
@@ -240404,7 +240738,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -240518,7 +240852,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-21T14:30:11.369Z"
+      "lastUpdated": "2026-10-22T02:51:47.156Z"
     },
     "news": [],
     "inEpaData": true
@@ -241044,7 +241378,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-21T14:30:11.376Z"
+      "lastUpdated": "2026-10-22T02:51:47.163Z"
     }
   },
   {
@@ -241568,7 +241902,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-21T14:30:11.376Z"
+      "lastUpdated": "2026-10-22T02:51:47.163Z"
     }
   },
   {
@@ -241779,7 +242113,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-21T14:30:11.376Z"
+      "lastUpdated": "2026-10-22T02:51:47.163Z"
     }
   },
   {
@@ -242301,7 +242635,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-21T14:30:11.376Z"
+      "lastUpdated": "2026-10-22T02:51:47.163Z"
     }
   }
 ]

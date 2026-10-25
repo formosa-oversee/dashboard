@@ -2327,5 +2327,292 @@
       }
     ],
     "addedAt": "2026-10-25"
+  },
+  {
+    "id": "ase-korea-paju-2021-air-log-fine",
+    "title": "日月光韓國坡州廠未填寫空污排放設施運轉日誌，遭處罰鍰",
+    "summary": "日月光投控子公司 ASE (Korea) Inc. 依法向韓國環境資訊公開系統（env-info.kr）申報：京畿道坡州廠 2021 年 5 月 13 日因未填寫大氣排放設施運轉日誌（SEMS），遭處罰鍰（과태료），公司已繳納。申報內容沒有寫出處分機關、違反條文與金額。",
+    "type": "enforcement",
+    "status": "penalized",
+    "dateStart": "2021-05-13",
+    "dateEnd": null,
+    "datePrecision": "day",
+    "locations": [
+      {
+        "country": "南韓",
+        "plantSite": "坡州, 南韓"
+      }
+    ],
+    "entities": [
+      {
+        "name": "ASE (Korea) Inc.",
+        "country": "南韓"
+      }
+    ],
+    "attributionOverride": [
+      {
+        "companyCode": "3711",
+        "entity": "ASE (Korea) Inc.（에이에스이코리아）",
+        "kind": "listed",
+        "effectivePct": 100,
+        "controlSince": 1999,
+        "path": [
+          "日月光投控",
+          "日月光半導體（100%）",
+          "A.S.E. Holding Limited（100%）",
+          "ASE Investment (Labuan) Inc.（70.1%；其餘 29.9% 由集團內 ASE Test Limited 持有）",
+          "ASE (Korea) Inc.（100%）"
+        ],
+        "basis": "MOPS 114 年第 2 季（2025Q2）日月光投控合併財報子公司表：A.S.E. Holding 持有 ASE Investment (Labuan) 70.1%，ASE Test 持有 29.9%（ASE Test 由 A.S.E. Holding 10.2%、J&R Holding 89.8% 持有，兩者皆為日月光 100% 子公司），Labuan 持有 ASE (Korea) 100%，有效 100%。日月光集團 1999 年向 Motorola 買下坡州廠設立 ASE Korea（ASE 官網沿革；The Register 1999-07-01）；日月光投控 2018 年成立並承接日月光半導體。"
+      }
+    ],
+    "groupControl": [],
+    "related": {
+      "eventIds": [],
+      "echoFacilityIds": [],
+      "enforcementCaseIds": []
+    },
+    "sources": [
+      {
+        "kind": "company",
+        "outlet": "韓國環境資訊公開系統 env-info.kr（環境部、韓國環境產業技術院營運；企業依法申報）",
+        "outletRegion": "local",
+        "language": "ko",
+        "title": "에이에스이코리아 2021년 환경정보 등록 — 환경관련 법규 위반사례",
+        "date": "2021",
+        "url": "https://www.env-info.kr/user/register/viewUserSearch2.do?YEAR=2021&COMP_ID=00000000000000149233&OPEN_YN=Y",
+        "archiveUrl": "https://web.archive.org/web/20261025094044/https://www.env-info.kr/user/register/viewUserSearch2.do?YEAR=2021&COMP_ID=00000000000000149233&OPEN_YN=Y",
+        "verified": "opened",
+        "note": "「대기배출시설 운영일지(SEMS) 미작성」，처분일자 2021.05.13，조치사항「과태료 납부」。사업장：경기 파주시 산업단지길 76，사업자등록번호 207-81-00390（bizno.net）。2022 年度申報此欄空白，2024、2025 年度申報「환경관련 법규 위반 현황」為「-」（2026-10-25 查）。"
+      }
+    ],
+    "addedAt": "2026-10-25"
+  },
+  {
+    "id": "ase-korea-paju-2023-air-improvement-orders",
+    "title": "日月光韓國坡州廠違反大氣環境保全法，京畿道兩度下改善命令",
+    "summary": "ASE (Korea) Inc. 依法向韓國環境資訊公開系統申報：京畿道廳 2023 年 3 月 17 日認定坡州廠空污防制設施的煙囪採樣口位置不合規定，違反大氣環境保全法第 40 條；3 月 22 日認定特定有害物質的排放設施變更未依法申報，違反同法第 23 條，兩次都處以改善命令（警告）。公司申報已延長煙囪、改善採樣口，並補辦變更申報。",
+    "type": "enforcement",
+    "status": "concluded",
+    "dateStart": "2023-03-17",
+    "dateEnd": "2023-03-22",
+    "datePrecision": "day",
+    "locations": [
+      {
+        "country": "南韓",
+        "plantSite": "坡州, 南韓"
+      }
+    ],
+    "entities": [
+      {
+        "name": "ASE (Korea) Inc.",
+        "country": "南韓"
+      }
+    ],
+    "attributionOverride": [
+      {
+        "companyCode": "3711",
+        "entity": "ASE (Korea) Inc.（에이에스이코리아）",
+        "kind": "listed",
+        "effectivePct": 100,
+        "controlSince": 1999,
+        "path": [
+          "日月光投控",
+          "日月光半導體（100%）",
+          "A.S.E. Holding Limited（100%）",
+          "ASE Investment (Labuan) Inc.（70.1%；其餘 29.9% 由集團內 ASE Test Limited 持有）",
+          "ASE (Korea) Inc.（100%）"
+        ],
+        "basis": "MOPS 114 年第 2 季（2025Q2）日月光投控合併財報子公司表：A.S.E. Holding 持有 ASE Investment (Labuan) 70.1%，ASE Test 持有 29.9%（ASE Test 由 A.S.E. Holding 10.2%、J&R Holding 89.8% 持有，兩者皆為日月光 100% 子公司），Labuan 持有 ASE (Korea) 100%，有效 100%。日月光集團 1999 年向 Motorola 買下坡州廠設立 ASE Korea（ASE 官網沿革；The Register 1999-07-01）；日月光投控 2018 年成立並承接日月光半導體。"
+      }
+    ],
+    "groupControl": [],
+    "related": {
+      "eventIds": [],
+      "echoFacilityIds": [],
+      "enforcementCaseIds": []
+    },
+    "sources": [
+      {
+        "kind": "company",
+        "outlet": "韓國環境資訊公開系統 env-info.kr（環境部、韓國環境產業技術院營運；企業依法申報）",
+        "outletRegion": "local",
+        "language": "ko",
+        "title": "에이에스이코리아 2023년 환경정보 등록 — 환경관련 법규 위반 현황",
+        "date": "2023",
+        "url": "https://www.env-info.kr/user/register/viewUserSearch2.do?YEAR=2023&COMP_ID=00000000000000149233&OPEN_YN=Y",
+        "archiveUrl": "https://web.archive.org/web/20261025094125/https://www.env-info.kr/user/register/viewUserSearch2.do?YEAR=2023&COMP_ID=00000000000000149233&OPEN_YN=Y",
+        "verified": "opened",
+        "note": "兩筆，處分機關皆為경기도청：(1) 2023.03.17「대기환경보전법 제 40조 방지시설 관리 및 개선에 관한 사항 위반」，처분내용「(경고)개선 명령」，조치「방지시설 굴뚝 측정공 설치위치 부적합으로 굴뚝 연장으로 측정공 개선 完」；(2) 2023.03.22「대기환경보전법 제 23조 배출시설 신고 미이행」，처분내용「(경고)개선 명령」，조치「특정 유해물질 변경신고 미이행으로 변경 신고 完」。"
+      }
+    ],
+    "addedAt": "2026-10-25"
+  },
+  {
+    "id": "memc-korea-cheonan-2023-air-change-report-fine",
+    "title": "環球晶韓國天安廠排放設施變更未申報，忠清南道處罰鍰",
+    "summary": "環球晶子公司 MEMC Korea Company 依法向韓國環境資訊公開系統申報：忠清南道廳 2023 年 10 月 13 日認定天安廠未依大氣環境保全法第 23 條第 2 項辦理排放設施變更申報，處罰鍰（과태료）；公司表示已補辦變更申報。申報沒有寫出金額。",
+    "type": "enforcement",
+    "status": "penalized",
+    "dateStart": "2023-10-13",
+    "dateEnd": null,
+    "datePrecision": "day",
+    "locations": [
+      {
+        "country": "南韓",
+        "plantSite": "天安, 南韓"
+      }
+    ],
+    "entities": [
+      {
+        "name": "MEMC Korea Company",
+        "country": "南韓"
+      }
+    ],
+    "attributionOverride": [
+      {
+        "companyCode": "6488",
+        "entity": "MEMC Korea Company（엠이엠씨코리아(주)）",
+        "kind": "listed",
+        "effectivePct": 100,
+        "controlSince": 2016,
+        "path": [
+          "環球晶",
+          "GlobalWafers B.V.（100%）",
+          "MEMC Korea Company（100%）"
+        ],
+        "basis": "MOPS 114 年第 2 季（2025Q2）環球晶合併財報子公司表：GWBV 持有 MEMC Korea 100%。環球晶 2016-12-02 完成收購 SunEdison Semiconductor（含 MEMC Korea）。"
+      },
+      {
+        "companyCode": "5483",
+        "entity": "MEMC Korea Company（엠이엠씨코리아(주)）",
+        "kind": "listed",
+        "effectivePct": 46.64,
+        "controlSince": 2016,
+        "path": [
+          "中美晶",
+          "環球晶（46.64%）",
+          "GlobalWafers B.V.（100%）",
+          "MEMC Korea Company（100%）"
+        ],
+        "basis": "MOPS 114 年第 2 季（2025Q2）中美晶合併財報子公司表：中美晶持有環球晶 46.64%，GWBV 持有 MEMC Korea 100%；2026 年媒體報導中美晶持股約 47%。中美晶自環球晶設立起即為母公司，MEMC Korea 2016-12 隨環球晶收購 SunEdison Semiconductor 納入。"
+      }
+    ],
+    "groupControl": [],
+    "related": {
+      "eventIds": [],
+      "echoFacilityIds": [],
+      "enforcementCaseIds": []
+    },
+    "sources": [
+      {
+        "kind": "company",
+        "outlet": "韓國環境資訊公開系統 env-info.kr（環境部、韓國環境產業技術院營運；企業依法申報）",
+        "outletRegion": "local",
+        "language": "ko",
+        "title": "엠이엠씨코리아(주) 2023년 환경정보 등록 — 환경관련 법규 위반 현황",
+        "date": "2023",
+        "url": "https://www.env-info.kr/user/register/viewUserSearch2.do?YEAR=2023&COMP_ID=00000000000000149873&OPEN_YN=Y",
+        "archiveUrl": "https://web.archive.org/web/20261025094222/https://www.env-info.kr/user/register/viewUserSearch2.do?YEAR=2023&COMP_ID=00000000000000149873&OPEN_YN=Y",
+        "verified": "opened",
+        "note": "「대기환경보전법 위반」，처분기관 충청남도청，처분일자 2023.10.13，처분내용「대기환경보전법 제84조 행정처분(과태료)」，조치내용「변경신고 이행 완료」，근거법률「대기환경보전법 제23조 제2항 변경신고 미이행」。사업장：충남 천안시 서북구 성거읍 망향로 854，사업자등록번호 312-81-10958（bizno.net）。2022、2024、2025 年度申報此欄為「-」（2026-10-25 查）。"
+      }
+    ],
+    "addedAt": "2026-10-25"
+  },
+  {
+    "id": "patec-presisi-bekasi-proper-red-2022-2024",
+    "title": "百達印尼孫公司 PT Patec Presisi 連續兩期 PROPER 環境評等列紅色",
+    "summary": "印尼環境部 PROPER 企業環境績效評等把百達-KY 孫公司 PT Patec Presisi Engineering（西爪哇 Bekasi 縣，汽機車零件廠）2022–2023 年度（SK.1353/2023，2023-12 與 2024-05 兩次更正後仍維持）與 2023–2024 年度（SK.129/2025）都列為紅色（MERAH）。依 Permen LHK 1/2021 第 33 條第 2 項，紅色是指企業的環境管理不符合法規要求；決定書只列評等，沒有寫出具體不合規項目。已解析的 2014–15、2016–17、2018–19 年度名單沒有這家公司，2019–2022 與 2024–25 年度的完整名單官網沒有公開，查無其他年度評等。",
+    "type": "enforcement",
+    "status": "concluded",
+    "dateStart": "2022-07",
+    "dateEnd": "2024-06",
+    "datePrecision": "month",
+    "locations": [
+      {
+        "country": "印尼",
+        "plantSite": "Bekasi, 印尼"
+      }
+    ],
+    "entities": [
+      {
+        "name": "PT Patec Presisi Engineering",
+        "country": "印尼"
+      }
+    ],
+    "attributionOverride": [
+      {
+        "companyCode": "2236",
+        "entity": "PT Patec Presisi Engineering",
+        "kind": "listed",
+        "effectivePct": 100,
+        "controlSince": 2006,
+        "path": [
+          "百達-KY",
+          "PATEC PTE. LTD.（100%）",
+          "Press Automation Technology Pte. Ltd.（100%）",
+          "PT Patec Presisi Engineering（100%；2022-01 前 70%）"
+        ],
+        "basis": "MOPS 114 年第 1 季（2025Q1）百達-KY 子公司表：PATEC → PAT 100% → PT. Patec Presisi Engineering 100%。百達 2023 年第 2 季合併財報附註：111 年 1 月 PAT 向印尼股東買下 30%，持股由 70% 增為 100%。百達 2021 年報沿革：2006 年投資 PT. Patec Presisi Engineering（1997-08 設立，Bekasi Delta Silicon 工業區），早於 2022-07 評等期起點。"
+      }
+    ],
+    "groupControl": [],
+    "related": {
+      "eventIds": [],
+      "echoFacilityIds": [],
+      "enforcementCaseIds": []
+    },
+    "sources": [
+      {
+        "kind": "official",
+        "outlet": "印尼環境及林業部（KLHK）",
+        "outletRegion": "local",
+        "language": "id",
+        "title": "Keputusan Menteri LHK Nomor SK.1353/MENLHK/SETJEN/KUM.1/12/2023 tentang Hasil Penilaian Peringkat Kinerja Perusahaan dalam Pengelolaan Lingkungan Hidup Tahun 2022–2023",
+        "date": "2023-12-15",
+        "url": "https://proper.kemenlh.go.id/propercms/uploads/magazine/docs/sk/magazineSK_1353_PRINGKAT_PROPER_2023.pdf",
+        "archiveUrl": "https://web.archive.org/web/20261025094259/https://proper.kemenlh.go.id/propercms/uploads/magazine/docs/sk/magazineSK_1353_PRINGKAT_PROPER_2023.pdf",
+        "verified": "opened",
+        "note": "第 123 頁第 263 號：PT. Patec Presisi Engineering，Otomotif，Kab. Bekasi，Jawa Barat，MERAH。"
+      },
+      {
+        "kind": "official",
+        "outlet": "印尼環境及林業部（KLHK）",
+        "outletRegion": "local",
+        "language": "id",
+        "title": "Keputusan Menteri LHK Nomor SK.1377/MENLHK/SETJEN/KUM.1/12/2023 tentang Perubahan atas SK.1353/MENLHK/SETJEN/KUM.1/12/2023",
+        "date": "2023-12-29",
+        "url": "https://proper.kemenlh.go.id/propercms/uploads/magazine/docs/sk/magazineSK_1377_ADENDUM_PERINGKAT_PROPER_2023.pdf",
+        "archiveUrl": "https://web.archive.org/web/20261025094326/https://proper.kemenlh.go.id/propercms/uploads/magazine/docs/sk/magazineSK_1377_ADENDUM_PERINGKAT_PROPER_2023.pdf",
+        "verified": "opened",
+        "note": "第一次更正（依 Permen LHK 1/2021 第 47 條對紅色與暫緩者輔導後重新評等）；第 36 頁第 263 號仍為 MERAH。"
+      },
+      {
+        "kind": "official",
+        "outlet": "印尼環境及林業部（KLHK）",
+        "outletRegion": "local",
+        "language": "id",
+        "title": "Keputusan Menteri LHK Nomor 546 Tahun 2024 tentang Perubahan Kedua atas SK.1353/MENLHK/SETJEN/KUM.1/12/2023",
+        "date": "2024-05-13",
+        "url": "https://proper.kemenlh.go.id/propercms/uploads/magazine/docs/sk/magazineSalinan_SK_546_Th_2024_Adendum_Pringkat_PROPER_2023.pdf",
+        "archiveUrl": "https://web.archive.org/web/20261025094347/https://proper.kemenlh.go.id/propercms/uploads/magazine/docs/sk/magazineSalinan_SK_546_Th_2024_Adendum_Pringkat_PROPER_2023.pdf",
+        "verified": "opened",
+        "note": "第二次更正；第 141 頁第 230 號仍為 MERAH。這是 2022–2023 年度的現行結果。"
+      },
+      {
+        "kind": "official",
+        "outlet": "印尼環境部（KLH）",
+        "outletRegion": "local",
+        "language": "id",
+        "title": "Keputusan Menteri LH Nomor 129 Tahun 2025 tentang Hasil Penilaian Peringkat Kinerja Perusahaan dalam Pengelolaan Lingkungan Hidup Tahun 2023–2024",
+        "date": "2025-02-18",
+        "url": "https://nas-proper.kemenlh.go.id/share.cgi?ssid=612ea68ce54d4640902c19e9aaa3dfe4&openfolder=forcedownload&ep=&fid=612ea68ce54d4640902c19e9aaa3dfe4",
+        "archiveUrl": "https://web.archive.org/web/20261025094423/https://nas-proper.kemenlh.go.id/share.cgi?ssid=612ea68ce54d4640902c19e9aaa3dfe4&openfolder=forcedownload&ep=&fid=612ea68ce54d4640902c19e9aaa3dfe4",
+        "verified": "opened",
+        "note": "第 154 頁第 554 號：PT. Patec Presisi Engineering，Otomotif，Kab. Bekasi，Jawa Barat，MERAH。簽署日 2025-02-18 取自第 3–5 頁掃描影像 OCR。這個網址是 KLH 的 NAS 下載連結（proper.kemenlh.go.id 沒有另外的固定網址）。"
+      }
+    ],
+    "addedAt": "2026-10-25"
   }
 ]

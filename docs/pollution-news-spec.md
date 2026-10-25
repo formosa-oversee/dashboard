@@ -183,7 +183,12 @@ data/epa-data.json           company.news[]；只有新聞、沒有 EPA 設施�
 | id | 期間 | 事件 | 營運實體 → 歸屬 | 類型／狀態 | 關鍵來源 | 門檻 |
 |---|---|---|---|---|---|---|
 | W1 | 2024-11 起 | 印尼鎳業冶煉廠與自備燃煤電廠遭指控造成空污、水污，有小學距煙囪約 100 公尺；2025-08-05 居民與子公司員工到台北總部陳抗。華新回應未持續新建燃煤電廠，已設脫硫脫硝與 CEMS | WNII（Morowali，有效 92%，2020 設立）、Sunny Metal（Weda Bay，有效 79.61%，2022 設立）→ 1605 | community-health／alleged | TTNC Watch 報告（BHRRC 收錄）、中央社 2025-08-05、公視 2025-08-05、TaiwanPlus、Global Voices、New Bloom；當地媒體：Betahita 2025-08-07〈Menagih Tanggung Jawab Nikel Hingga Taipei〉（點名 WNII）、Halmahera Nesia 2025-08-07（點名 Walsin Lihwa）；公司回應見中央社、公視、Fokus Taiwan（中央社印尼文版，與中央社算同一家）；官方合規紀錄：PROPER 2023–2024（KLH SK 129/2025）評 WNII 為藍 | ✓ |
-| — | 2023-06-02 | WNII 自備燃煤電廠脫硫塔（FGD）施工中焊接火花引燃，冒黑煙約 40 分鐘，無傷亡，電廠尚未運轉 | WNII | industrial-accident | CNBC Indonesia 2023-06-07；Bisnis.com 兩篇頁面擋住 | 待補：已確認點名的只有一家；也沒有報導化學品或污染物外洩，可能不屬第 3 節第 9 條的範圍 |
+| W2 | 2025-04 起 | DREAL 稽查 DMV France 蒙巴爾廠，發現酸鹼化學品共用防漏承接槽、卸酸區結構損壞；Côte-d'Or 省長 2026-01-08 發布第 60 號省令（mise en demeure）限期改正 | DMV France（有效 71.83%，2024-11 隨 DMV 收購）→ 1605 | enforcement／concluded | Côte-d'Or 省令、DREAL 三份稽查報告（Géorisques） | ✓ |
+| W3 | 2024 | ARPA Valle d'Aosta 認定 Cogne Aosta 鋼廠旁測站 PM10 鎳年均 22 ng/m³，高於 20 ng/m³ 目標值，主要來自鋼廠；大區 AIA 換證規定增產須經空品技術小組評估 | Cogne Acciai Speciali（71.83%，2022-12 收購）→ 1605 | pollution-incident／concluded | ARPA 2024、2025 空品報告、大區 P.D. 7777/2025、ANSA、AostaSera | ✓ |
+| W4 | 2025 | Com.Steel Inox（Calusco d'Adda）非危險廢棄物存放在許可區外、通報延誤，遭處罰 | Com.Steel Inox（46.69%，2024-05 收購）→ 1605 | enforcement／penalized | Cogne 2025 永續報告書 GRI 2-27（公司自揭露，未列機關、日期、金額） | ✓（公司文件） |
+| W5 | 2025 | 瑞典 Degerfors Long Products 危險液體與化學品沒有防漏設施，違反環境許可遭罰款 | Degerfors Long Products（71.83%，2023 收購）→ 1605 | enforcement／penalized | Cogne 2025 永續報告書 GRI 2-27、Outokumpu 2023 出售公告 | ✓（公司文件） |
+| W6 | 2024-04 至 2024-10 | 山東省環保督察信訪：煙台華新不銹鋼被檢舉電爐冒黃煙；黃渤海新區生態環境分局查出車間鐵皮破損致顆粒物逸散，責令封堵，異味檢測達標 | 煙台華新不銹鋼（100%，2007 設立）→ 1605 | enforcement／concluded | 黃渤海新區生態環境分局兩份督察信訪銷號公示、山東省企業環境信息披露年報 | ✓ |
+| — | 2023-06-02 | WNII 自備燃煤電廠脫硫塔（FGD）施工中焊接火花引燃，冒黑煙約 40 分鐘，無傷亡，電廠尚未運轉 | WNII | industrial-accident | CNBC Indonesia、Kompas.com、VOA Indonesia、Merdeka.com | 不收：2026-10-25 補到兩家以上獨立媒體，但沒有化學品或污染物外洩的報導，不符第 3 節第 9 條 |
 | — | 2022–2023 | PT Walsin Lippo Industries（Bekasi，鍍鋅鋼線、鋁桿與電纜）的 PROPER 評等被列為「暫緩」；依 Permen LHK 1/2021 第 37、41 條，暫緩代表有環境行政處分已交改善證明、但尚未撤銷。處分機關、日期、違反項目都沒有公開；2024-05-13 複查合規改評為藍，其他年度都是藍 | PT Walsin Lippo Industries（華新直接 70%，1991 合資設立）→ 1605 | enforcement | KLH SK.1353/2023、SK.1377/2023、SK 546/2024 | 待補：官方文件只證明「有處分」，看不到內容。要向 Bekasi 縣 DLH、西爪哇省 DLH 或 KLH 執法單位申請資訊公開，或查 Cikarang 地方法院 SIPP |
 
 2026-10-21 另外用印尼文查過 Morowali（IMIP）與 Weda Bay（IWIP），並逐一核對使用者提供的 15 個來源（`docs/pollution-news-research/2026-10-21-walsin-morowali-id.md`、`2026-10-21-walsin-weda-bay-id.md`），沒有找到新的、點名華新子公司又符合門檻的事件。
@@ -194,7 +199,7 @@ data/epa-data.json           company.news[]；只有新聞、沒有 EPA 設施�
 - Mongabay Indonesia 2024-12-12 Halmahera 呼吸道疾病增加：只把 Sunny Metal 列為電廠業主之一，沒有歸因，而且是單一媒體。
 - 2023-12 青山集團 ITSS 爆炸（不是華新的設施）、2024-09 WNII 工人墜落死亡（純職災）、2020 Aosta 空品爭議（重要性低、單一來源）、Labota 與 Weda Bay 燃煤機組本身（屬能源使用，不是事件）。
 
-結果：華新會成為**只有新聞**的公司頁，只有 1 個事件（W1）。華新 2025 永續報告書揭露的環境罰款只有台南 2 件，屬國內，不收。
+結果：華新是**只有新聞**的公司頁。2026-10-21 上線 W1；2026-10-25 逐一查過中國 11 個、歐洲 10 個、墨西哥、馬來西亞據點，加上印尼補查，新增 W2–W6（查核紀錄：`docs/pollution-news-research/2026-10-25-walsin-china.md`、`2026-10-25-walsin-europe.md`、`2026-10-25-walsin-mexico-malaysia-indonesia.md`）。其餘據點在可公開查詢的官方管道都沒有找到紀錄；IPE 蔚藍地圖、信用中國要登入或瀏覽器驗證，沒有查。華新 2025 永續報告書揭露的環境罰款只有台南 2 件，屬國內，不收。
 
 ### 台積電 2330
 
@@ -208,7 +213,7 @@ data/epa-data.json           company.news[]；只有新聞、沒有 EPA 設施�
 
 ### 試點規模
 
-- 已上線：台塑集團 12 個（F1–F12，其中 F9 掛台塑化、台化、南亞、福懋，不掛台塑）、華新 1 個、台積電 2 個，共 15 個。
+- 已上線：台塑集團 12 個（F1–F12，其中 F9 掛台塑化、台化、南亞、福懋，不掛台塑）、華新 1 個、台積電 2 個，共 15 個。2026-10-25 華新再加 W2–W6，共 20 個。
 - F2–F4、F7、F8 掛在 1301 的依據：台塑**直接持有 FPC USA 22.66%**，屬權益法的關聯企業；2026-08-01 台塑工業美國併入後增為 24.82%（台塑 115Q2 合併財報、MOPS 重大訊息 2026-03-06 與 2026-10-12）。FPC USA 由台塑集團 1978 年設立，這些事件都在持有期間內。
 - 各實體的 `controlSince` 都早於事件起始日，沒有因「收購前」被排除的事件。
 - 會新增 4 個只有新聞的公司頁：

@@ -81,7 +81,7 @@
 
 ### A3. PT. Walhsu Metal Industry（Walhsu，WMI）
 
-- **園區：未驗證。** 沒有任何文件寫出廠址，兩種登記地址都在雅加達。
+- **園區：IWIP（2026-10-25 確認）。** 北馬魯古省開放資料的 2024、2025 年工業登記，把 Walhsu 的工廠列在 Tanjung Ulie, Lililef Sawai, Weda Tengah，也就是 Weda Bay（IWIP）園區（見 `2026-10-25-walsin-mexico-malaysia-indonesia.md` 3.3）。以下是確認前的紀錄：沒有任何文件寫出廠址，兩種登記地址都在雅加達。
   - 推論偏向 IWIP：它是 Sunny 持股 99.9% 的子公司；Sunny 把貨賣給 Walhsu（1H26 US$72.9M）；設備是「高冰鎳轉爐」，處理的是 Sunny 的低冰鎳。這三點都是間接跡象。
 - **設施**：
   - 「高冰鎳轉爐設備」：向 Eternal Tsingshan 購買，US$49.33M（MOPS 2023-06-26 20:24:39）
@@ -189,7 +189,7 @@ controlSince 2022-12-01；持股歷程見既有文件。
 | DMV USA, Inc. | **Houston**, Texas | 同上（美國唯一的製造據點） | 100% | 71.83% | 2024-11-01 |
 | Advanced Manufacturing Holdings Ltd（英國） | 英國（細節未驗證） | 特殊金屬精密加工 | WLE 17.89% + SMP（39.30% − 17.89% = 21.41%） | 約 33.27%（推算） | 2025-03 至 2026-03 |
 
-其餘子公司（Cogne France、Edelstahl、UK、SG、Metalinox、Specialty Steel USA、Celik、Degerfors Long Products）都只做銷售。
+其餘子公司（Cogne France、Edelstahl、UK、SG、Metalinox、Specialty Steel USA、Celik）都只做銷售。**Degerfors Long Products AB 不是銷售公司**（2026-10-25 更正）：Cogne 2023 年向 Outokumpu 買下瑞典 Degerfors 與 Storfors 兩座長材廠，Cogne 2025 永續報告書把它列為 Production company；有效持股 71.83%，2023 年起受華新控制（見 `2026-10-25-walsin-europe.md`）。
 
 ### B2. 中國大陸（114 年度關係企業報告書附表二的地址；2Q26 附註十五的持股）
 

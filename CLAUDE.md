@@ -46,3 +46,9 @@ npm run download-epa                          # 已內建該環境變數
 - **不在 EPA 資料裡的公司**：污染事件或 VT 紀錄掛到、但 `facilities.csv` 沒有的上市公司，由 `scripts/build-company-info.py`（`npm run company-info`）從 MOPS 補基本資料 → `data/company-info.json`（進 git）。這些公司 `inEpaData: false`，前端不顯示 0 筆違規。
 - **海外據點清單**（美國以外的延伸準備）：`python3 scripts/build-overseas-footprint.py` 從 MOPS 2025Q2 產生 `data/overseas-footprint.csv`（每列一個國家／母公司／子公司）與 `data/overseas-countries.csv`（國家摘要，給夥伴認領去找當地的環保裁罰資料來源）。網站不讀這兩個檔。中國大陸子公司只能從合併報表子公司名稱推斷；「類型（推測）」是關鍵字推測，不是官方分類。
 - 專案層 `.claude/settings.local.json` 允許 claude-in-chrome 工具，但 auto mode classifier 仍可能擋 `javascript_tool`，`get_page_text` 較穩定。
+
+## 專題報導
+
+- 路由 `/reports`（列表）與 `/reports/<slug>`（單篇）。清單與關聯在 `lib/reports.js`：`companies` 決定哪些公司頁掛專題卡，`relatedEventIds` 對應 `data/news-events.json` 的事件 id，公司頁的事件卡會連回專題。
+- 內文在 `content/reports/<slug>.js`。`<Chapter>` 內的段落、清單、表格**逐字取自定稿，不改寫**；圖表、大事記、引言框、編按是網頁版加的，數字只能取自報告內文，例外要在程式註解寫依據。版面元件在 `components/report/`，圖表配色已用 dataviz `validate_palette.js` 驗證，改色要重驗。
+- 第一篇 `kumamoto-jasm`（台積電進駐熊本田野調查，來源 `Report_中文_2026-10定稿.docx`）。docx 內含內部審稿留言，不要把 docx 放上網站。

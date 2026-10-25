@@ -10,6 +10,7 @@ import { FaExternalLinkAlt, FaCalendarAlt, FaNewspaper, FaBuilding, FaChevronRig
 import { getCompanyData, getAllCompanyIds } from '../../lib/gcs-api-server';
 import { OFFENSE_CATEGORIES, VT_SNAPSHOT_NOTE, offenseInfo, agencyLabel, formatUSD } from '../../lib/enforcement';
 import Layout from '../../components/Layout';
+import { CompanyReports, EventReportLinks } from '../../components/report/CompanyReports';
 import Link from 'next/link';
 
 const FacilityCard = ({ facility, companyId }) => {
@@ -118,6 +119,7 @@ const EventCard = ({ event, companyData, events }) => {
             <HStack spacing={1}><Icon as={FaMapMarkerAlt} /><Text>{(event.locations || []).map(l => l.plantSite).join('、')}</Text></HStack>
           </HStack>
           <Text>{event.summary}</Text>
+          <EventReportLinks eventId={event.id} />
 
           <Box bg="gray.50" borderRadius="md" p={3} fontSize="sm">
             <Text fontWeight="bold" color="gray.700" mb={1}>持股關係</Text>
@@ -575,6 +577,8 @@ const CompanyDetail = ({ companyData }) => {
             </Alert>
           )}
         </VStack>
+
+        <CompanyReports companyCode={companyData.companyCode} />
 
         {/* Tabs for News and Violations */}
         <Tabs variant="enclosed-colored" colorScheme="green" isFitted index={tabIndex} onChange={setTabIndex}>

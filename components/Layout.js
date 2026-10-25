@@ -7,21 +7,25 @@ const Navbar = () => {
   return (
     <Box as="nav" bg="green.50" py={4} boxShadow="sm">
       <Container maxW="container.xl">
-        <Flex justifyContent="space-between" alignItems="center">
+        {/* 手機寬度放不下 logo + 四個按鈕，按鈕換到第二行並縮小 */}
+        <Flex justifyContent="space-between" alignItems="center" flexWrap="wrap" rowGap={2}>
           <Link href="/" legacyBehavior>
             <Flex as="a" alignItems="center" cursor="pointer">
               <Icon as={FaLeaf} color="green.500" boxSize={6} mr={2} />
               <Heading as="h1" size="lg" color="green.600">Formosa Oversee</Heading>
             </Flex>
           </Link>
-          <HStack spacing={6}>
+          <HStack spacing={{ base: 0, md: 6 }} w={{ base: '100%', md: 'auto' }} justifyContent={{ base: 'space-between', md: 'flex-end' }}>
             <Link href="/map" legacyBehavior>
-              <Button as="a" variant="ghost" colorScheme="green">污染地圖</Button>
+              <Button as="a" variant="ghost" colorScheme="green" size={{ base: 'sm', md: 'md' }}>污染地圖</Button>
             </Link>
             <Link href="/companies" legacyBehavior>
-              <Button as="a" variant="ghost" colorScheme="green">企業列表</Button>
+              <Button as="a" variant="ghost" colorScheme="green" size={{ base: 'sm', md: 'md' }}>企業列表</Button>
             </Link>
-            <Button variant="ghost" colorScheme="green">關於我們</Button>
+            <Link href="/reports" legacyBehavior>
+              <Button as="a" variant="ghost" colorScheme="green" size={{ base: 'sm', md: 'md' }}>專題報導</Button>
+            </Link>
+            <Button variant="ghost" colorScheme="green" size={{ base: 'sm', md: 'md' }}>關於我們</Button>
           </HStack>
         </Flex>
       </Container>

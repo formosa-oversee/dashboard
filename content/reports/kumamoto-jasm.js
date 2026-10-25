@@ -27,14 +27,17 @@ export const TOC = [
   { id: 'appendix-sources', num: '附', label: '附錄' },
 ];
 
-// 封面下方「數字看熊本」
-export const KEY_NUMBERS = [
-  { value: '逾 250 億美元', label: 'JASM 兩廠合計投資' },
-  { value: '11.2 兆日圓', label: '十年對熊本縣經濟波及效果', note: '九州金融集團 2024 年 9 月試算' },
-  { value: '約 3,400 人', label: '兩廠合計僱用規模' },
-  { value: '+30.9%', label: '菊陽町商業地地價漲幅', note: '2025 年公示地價，全國第 3' },
-  { value: '233 → 1,753 人', label: '熊本縣台灣籍居民', note: '2022 年 6 月 → 2024 年 6 月' },
-];
+// 封面下方的數字列
+export const KEY_NUMBERS = {
+  title: '數字看熊本',
+  items: [
+    { value: '逾 250 億美元', label: 'JASM 兩廠合計投資' },
+    { value: '11.2 兆日圓', label: '十年對熊本縣經濟波及效果', note: '九州金融集團 2024 年 9 月試算' },
+    { value: '約 3,400 人', label: '兩廠合計僱用規模' },
+    { value: '+30.9%', label: '菊陽町商業地地價漲幅', note: '2025 年公示地價，全國第 3' },
+    { value: '233 → 1,753 人', label: '熊本縣台灣籍居民', note: '2022 年 6 月 → 2024 年 6 月' },
+  ],
+};
 
 // 文末修訂紀錄
 export const REVISIONS = [

@@ -2,6 +2,7 @@ import { Box, Container, Flex, Heading, Text, Link as ChakraLink } from '@chakra
 import { keyframes } from '@emotion/react';
 import Link from 'next/link';
 import { R } from './tokens';
+import { formatMonth, publishedLabel } from '../../lib/reports';
 
 /**
  * 專題封面。沒有照片，主視覺是一張地層剖面：西（熊本市）在左、東（阿蘇）在右，
@@ -108,8 +109,8 @@ const ReportHero = ({ report, companies }) => (
         </Reveal>
         <Reveal delay={0.5}>
           <Flex wrap="wrap" columnGap={5} rowGap={1} mt={8} fontSize="13.5px" color="rgba(255,255,255,0.7)">
-            <Text>田野調查　{report.fieldwork}</Text>
-            <Text>報告　{report.published}（{report.revised}修訂）</Text>
+            <Text>田野調查　{formatMonth(report.fieldworkAt)}</Text>
+            <Text>報告　{publishedLabel(report)}</Text>
             <Text>閱讀約 {report.readingMinutes} 分鐘</Text>
           </Flex>
           <Text fontSize="13px" color="rgba(255,255,255,0.6)" mt={2}>執行單位：{report.org}</Text>

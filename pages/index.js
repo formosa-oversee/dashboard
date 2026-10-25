@@ -2,7 +2,7 @@ import { Box, Container, Heading, Text, Button, Stack, Flex, SimpleGrid, Icon, I
 import Link from 'next/link';
 import Layout from '../components/Layout';
 import { FaSearchLocation, FaChartLine, FaClipboardCheck } from 'react-icons/fa';
-import { REPORTS, reportPath } from '../lib/reports';
+import { latestReport, reportPath } from '../lib/reports';
 import { R } from '../components/report/tokens';
 
 // 首頁的專題入口：一條深藍帶，連到最新一篇專題
@@ -73,7 +73,7 @@ export default function Home() {
       </Box>
 
       {/* 最新專題 */}
-      <LatestReport report={REPORTS[0]} />
+      <LatestReport report={latestReport()} />
 
       {/* 特色功能區塊 */}
       <Box py={16}>

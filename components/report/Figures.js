@@ -152,6 +152,40 @@ export const Compare = ({ headers, rows }) => {
   );
 };
 
+// 通用表格：第一列是表頭。report-docx.py 產生的草稿預設用它，之後可換成下面更貼內容的元件。
+// 窄螢幕在表格內橫向捲動，不會撐寬整頁
+export const DataTable = ({ rows }) => {
+  const [head, ...body] = rows;
+  return (
+    <Box overflowX="auto" borderTopWidth="2px" borderColor={R.ink}>
+      <Box as="table" w="100%" fontSize="14.5px" lineHeight={1.75} sx={{ borderCollapse: 'collapse' }}>
+        <Box as="thead">
+          <Box as="tr">
+            {head.map((h, i) => (
+              <Box as="th" key={i} textAlign="left" fontSize="13px" fontWeight={700} color={R.inkSoft}
+                px={3} py={2.5} borderBottomWidth="1px" borderColor={R.ink} minW="6em">
+                {h}
+              </Box>
+            ))}
+          </Box>
+        </Box>
+        <Box as="tbody">
+          {body.map((row, i) => (
+            <Box as="tr" key={i}>
+              {row.map((cell, j) => (
+                <Box as="td" key={j} px={3} py={3} verticalAlign="top" color={R.ink}
+                  borderBottomWidth="1px" borderColor={R.rule} fontWeight={j === 0 ? 700 : 400}>
+                  {cell}
+                </Box>
+              ))}
+            </Box>
+          ))}
+        </Box>
+      </Box>
+    </Box>
+  );
+};
+
 // 表 2：小檔案（項目／內容）
 export const FactSheet = ({ rows }) => (
   <Box as="dl" borderTopWidth="2px" borderColor={R.ink}>

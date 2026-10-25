@@ -82,7 +82,7 @@ const EVENT_STATUSES = {
 };
 const OPEN_ENDED = new Set(['alleged', 'investigating', 'ongoing']);
 
-const SOURCE_KINDS = { official: '官方文件', court: '法院', company: '公司回應' };
+const SOURCE_KINDS = { official: '官方文件', court: '法院', company: '公司文件' };
 const MEDIA_REGIONS = { taiwan: '台灣媒體', local: '當地媒體', international: '國際媒體' };
 
 const sourceLabel = (source) => {

@@ -29,8 +29,8 @@ FRS 計畫連結表另外連到 Excel 沒有列的系統：EIS（國家排放清
 | FRS 設施登記 | `REGISTRY_ID`、地址、座標 | `frs_downloads.zip` | 1.2GB | `REGISTRY_ID` | 166 廠區、717 個系統連結 | 只用來對編號 |
 | AFS（舊空污系統，2014 停用） | `AFS_IDS`、`CAA_*`（2012 版欄位名） | `afs_downloads.zip`（2017 年最後一版） | 0.8GB | ICIS-Air 編號去掉州碼後的 10 碼 | 23 個空污編號對得到 | 不用，見 §3.2 |
 | ICIS-Air（空污） | `AIR_IDS`、`CAA_*` | `ICIS-AIR_downloads.zip` | 0.8GB | `PGM_SYS_ID` | 違規 125、正式處分 152、非正式 322、排放檢測 527（不合格 35）、稽查 1,639 | 違規、處分、不合格檢測已上線 |
-| ICIS-NPDES（水污） | `NPDES_IDS`、`CWA_*` | `npdes_downloads.zip` | 2.3GB | `NPDES_ID` | 單一事件違規 112、時程違規 106、正式處分 59（罰款 US$386 萬）、非正式處分 388、稽查 930 | 只有違規（GCS 快照），見 §4.2 |
-| ICIS-NPDES 放流水超標 | `CWA_3_YR_EFFLUENT_EXCEEDANCES` | `npdes_eff_downloads.zip` | 約 16GB | `NPDES_ID` | 見 §4.2 | 有（GCS 快照） |
+| ICIS-NPDES（水污） | `NPDES_IDS`、`CWA_*` | `npdes_downloads.zip` | 2.3GB | `NPDES_ID` | 單一事件違規 112、時程違規 106、正式處分 59（罰款 US$386 萬）、非正式處分 388、稽查 930 | 違規、處分已上線（2026-10-25 起由全量檔重建），見 §4.2 |
+| ICIS-NPDES 放流水超標 | `CWA_3_YR_EFFLUENT_EXCEEDANCES` | `npdes_eff_downloads.zip` | 約 16GB | `NPDES_ID` | 7,326 | 已上線（全量檔重建） |
 | RCRAInfo（有害廢棄物） | `RCRA_IDS`、`RCRA_*` | `rcra_downloads.zip` | 0.6GB | `ID_NUMBER` | 違規 403、處分 171、稽查 492 | 違規、處分已上線 |
 | SDWIS（飲用水） | `SDWA_IDS`、`SDWA_*` | `SDWA_latest_downloads.zip` | 5.2GB | `PWSID` | 3 個廠內供水系統、35 筆違規 | 不用，見 §3.3 |
 | TRI（有毒化學物質） | `TRI_IDS`、`TRI_*` | TRI 年度檔 `tri/<年>_US.csv`（ECHO 沒有逐筆檔） | 約 2.5GB | `TRIFD` 或 `FRS ID` | 見 §3.4 | 只顯示 Exporter 的最近一年總量 |
@@ -84,17 +84,20 @@ TRI 申報者會填外國母公司。用 MOPS 上市櫃公司英文名稱比對�
 
 ## 4. 發現的缺口
 
-以下都還沒處理，網站照舊。另外水污染資料也還沒做 §9（`enforcement-data-interface.md`）的收購時點檢查：APG Polytech 有 123 筆、MEMC 有 154 筆早於收購。
+§4.2 已在 2026-10-25 處理；其餘還沒處理，網站照舊。
 
 ### 4.1 同廠區其他 NPDES 許可證
 
 我們 166 個廠區在 FRS 底下總共有 477 張 NPDES 許可證，資料裡只有 196 張。多出的 281 張有 252 張落在 3 個住宅建案的廠區（Vista Del Verde、Asante、Canyon Trails，亞利桑那）：台積電的 3 張工地許可證被 FRS 併進這些建案，建案本身的許可證與台積電無關，不應納入。其餘工廠多出的許可證只有零星幾張（MEMC 2、KEMET 2、TCI Texarkana 1、WaferTech 1），單一事件／時程違規合計 34 筆，多數在建案。
 
-### 4.2 水污染資料是舊快照，也沒有處分
+### 4.2 水污染資料是舊快照，也沒有處分（2026-10-25 已處理）
 
-GCS 的 `violations.csv` 最新日期是 2025-08-31。和 2026-10 的 ICIS-NPDES 比，單一事件違規多 2 筆、時程違規多 4 筆。放流水超標：最新檔裡我們的許可證有 7,326 筆，我們的資料沒有的 1,020 筆中，556 筆是 TCI Texarkana 2000–2010 年前業主的紀錄（刻意不收），其餘 464 筆在 2021–2026 年（2025 年 105 筆、2026 年 152 筆），主要是 VISCO Eugene OR（視陽 6782）261 筆、Evergreen Transport Calera AL 60 筆、Pacific Coast Yachting Seattle（東哥 8478）48 筆、MEMC 44 筆。水污染資料需要從 ICIS-NPDES 全量檔整批重產，不再依賴 GCS 快照。
+發現時：GCS 的 `violations.csv` 最新日期是 2025-08-31。放流水超標：最新檔裡我們的許可證有 7,326 筆，我們的資料沒有的 1,020 筆中，556 筆是 TCI Texarkana 2000–2010 年前業主的紀錄（刻意不收），其餘 464 筆在 2021–2026 年，主要是 VISCO Eugene OR（視陽 6782）261 筆、Evergreen Transport Calera AL 60 筆、Pacific Coast Yachting Seattle（東哥 8478）48 筆、MEMC 44 筆。水污染也只有違規，沒有處分與罰款：我們 196 張許可證有 59 件正式處分（罰款合計 US$3,863,654）、375 件非正式處分、907 次稽查。
 
-網站的水污染只有違規，沒有處分與罰款：我們 196 張許可證有 59 件正式處分（罰款合計 US$3,863,654）、375 件非正式處分、907 次稽查。
+處理：
+- `violations.csv` 改由 `scripts/build-water-violations.py` 從全量檔重建，結果見 `enforcement-data-interface.md` 第 10 節。
+- 正式處分與 `OFFICIAL_FLG=Y` 的非正式處分（警告信、違規通知）加進 `build-echo-programs.py`（`program: 'CWA'`）。稽查不收，和空污、廢棄物一樣。
+- 取得控制前的水污染違規在建置時排除 283 筆（APG Polytech 123、MEMC 154、FPC Illiopolis 6）。
 
 ### 4.3 同一座工廠的其他 FRS 廠區
 

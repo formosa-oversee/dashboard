@@ -1,13 +1,14 @@
 """
-水污染（NPDES）以外的 EPA 紀錄：同一個廠區在空污（CAA）、有害廢棄物（RCRA）、EPA 聯邦執法案件（ICIS FE&C）的違規與處分，
-以及 TRI 有毒物質排放量、溫室氣體排放量。輸出 data/echo-programs.json（EPA 公開資料，進 git），建置時由 fetch-gcs-data.js 併入。
+水污染違規（data/violations.csv，build-water-violations.py）以外的 EPA 紀錄：同一個廠區在空污（CAA）、有害廢棄物（RCRA）的違規與處分、
+水污染（CWA）的處分與罰款、EPA 聯邦執法案件（ICIS FE&C），以及 TRI 有毒物質排放量、溫室氣體排放量。輸出 data/echo-programs.json（EPA 公開資料，進 git），建置時由 fetch-gcs-data.js 併入。
 
 做法
   1. 我們的設施（data/facilities.csv＋facilities-supplement.csv）以 NPDES 許可證號在 ECHO Exporter 找到所屬廠區（FRS REGISTRY_ID）。
      一個廠區可能有好幾張 NPDES 許可證，空污、廢棄物紀錄是廠區層級的，掛在主要設施（個別許可證優先於通用許可證）。
      沒有 NPDES 許可證、只有空污或廢棄物紀錄的台灣母公司工廠列在 EXTRA_SITES，以 REGISTRY_ID 當設施編號另建設施。
-  2. 用廠區的 AIR_IDS／RCRA_IDS／REGISTRY_ID 到各計畫的全量檔取逐筆紀錄。
+  2. 用廠區的 AIR_IDS／RCRA_IDS／REGISTRY_ID 與我們的 NPDES 許可證到各計畫的全量檔取逐筆紀錄。
   3. 台灣母公司取得控制前的紀錄屬前業主，不納入（CONTROL_SINCE，與 build-echo-supplement.py 的 CONFIRMED 年份）。
+     水污染違規在 violations.csv，建置時 fetch-gcs-data.js 用這裡輸出的廠區 controlSince 同樣排除。
   4. 查證後確定是同名誤配的廠區（NOT_OWNED）不掛任何紀錄。
 
 用法（全量檔不進 git）
@@ -118,7 +119,7 @@ def load_ours():
 
 def main():
     d = pathlib.Path(next((a.split('=', 1)[1] for a in sys.argv[1:] if a.startswith('--dir=')), '') or sys.exit(__doc__))
-    zips = {k: zipfile.ZipFile(d / f'{k}.zip') for k in ('echo_exporter', 'ICIS-AIR_downloads', 'rcra_downloads', 'case_downloads')}
+    zips = {k: zipfile.ZipFile(d / f'{k}.zip') for k in ('echo_exporter', 'ICIS-AIR_downloads', 'rcra_downloads', 'case_downloads', 'npdes_downloads')}
     ours, since = load_ours()
 
     # 1. 廠區：公司代號＋REGISTRY_ID 一個，同一廠區不同公司（不同持股鏈）分開
@@ -176,10 +177,13 @@ def main():
     by_air = collections.defaultdict(list)
     by_rcra = collections.defaultdict(list)
     by_reg = collections.defaultdict(list)
+    by_npdes = collections.defaultdict(list)
     for key, s in sites.items():
         for x in s['programIds']['air']: by_air[x].append(key)
         for x in s['programIds']['waste']: by_rcra[x].append(key)
+        for x in s['npdesIds']: by_npdes[x].append(key)
         by_reg[s['registryId']].append(key)
+    fid_of = {(code, n): fid for n, lst in ours.items() for code, fid, _ in lst}
 
     records = []
 
@@ -259,33 +263,57 @@ def main():
                 'description': re.sub(r'\s+', ' ', r['ENF_SUMMARY_TEXT']).strip(), 'penaltyUSD': penalty.get(a) or money(r['TOTAL_PENALTY_ASSESSED_AMT']),
                 'sourceUrl': f'https://echo.epa.gov/enforcement-case-report?id={r["CASE_NUMBER"]}'})
 
+    # 2d. 水污染處分 ICIS-NPDES：掛在該許可證的設施（不是廠區主要設施）。違規本身在 violations.csv
+    npdes = zips['npdes_downloads']
+
+    def add_npdes(n, rec):
+        for key in by_npdes.get(n, ()):
+            records.append({**rec, 'facilityId': fid_of.get((key[0], n)), 'npdesId': n, 'companyCode': key[0], 'registryId': key[1]})
+
+    for r in rows(npdes, 'NPDES_FORMAL_ENFORCEMENT_ACTIONS.csv'):
+        if r['NPDES_ID'] in by_npdes:
+            add_npdes(r['NPDES_ID'], {
+                'id': f"CWA-F-{r['ACTIVITY_ID']}", 'program': 'CWA', 'kind': 'formal', 'type': r['ENF_TYPE_DESC'],
+                'date': ymd(r['SETTLEMENT_ENTERED_DATE']), 'agency': AGENCY.get(r['AGENCY'], r['AGENCY']),
+                'description': {'AFR': 'Administrative - Formal', 'JDC': 'Judicial'}.get(r['ACTIVITY_TYPE_CODE'], r['ACTIVITY_TYPE_CODE']),
+                'caseNumber': r['ENF_IDENTIFIER'], 'penaltyUSD': money((money(r['FED_PENALTY_ASSESSED_AMT']) or 0) + (money(r['STATE_LOCAL_PENALTY_AMT']) or 0))})
+    # 非正式處分只收 OFFICIAL_FLG=Y（警告信、違規通知）；N 是電話、內部審查、「無須處理」等，不是對業者的處分
+    for r in rows(npdes, 'NPDES_INFORMAL_ENFORCEMENT_ACTIONS.csv'):
+        if r['NPDES_ID'] in by_npdes and r['OFFICIAL_FLG'] == 'Y':
+            add_npdes(r['NPDES_ID'], {
+                'id': f"CWA-I-{r['ACTIVITY_ID']}", 'program': 'CWA', 'kind': 'informal', 'type': r['ENF_TYPE_DESC'],
+                'date': ymd(r['ACHIEVED_DATE']), 'agency': AGENCY.get(r['AGENCY'], r['AGENCY']),
+                'description': r['ACTIVITY_TYPE_DESC'], 'caseNumber': r['ENF_IDENTIFIER'], 'penaltyUSD': None})
+
     # 3. 前業主的紀錄、沒有日期的紀錄
-    dropped = collections.Counter()
+    dropped = collections.defaultdict(collections.Counter)
     kept, seen = [], set()
     for rec in records:
-        # ICIS-Air 處分檔同一個處分每個適用計畫各一列；RCRA 違規檔同一天同一條文的多筆無法區分，算一筆
+        # ICIS-Air 處分檔同一個處分每個適用計畫各一列；RCRA 違規檔同一天同一條文的多筆無法區分，算一筆；
+        # NPDES 同一封警告信寄給同廠區好幾張許可證時各一列，算一筆（掛第一張許可證的設施）
         if (rec['companyCode'], rec['registryId'], rec['id']) in seen:
             continue
         seen.add((rec['companyCode'], rec['registryId'], rec['id']))
         s = sites[(rec['companyCode'], rec['registryId'])]
         if s['controlSince'] and rec.get('date') and rec['date'] < s['controlSince']:
-            dropped[(s['companyCode'], s['name'], s['controlSince'])] += 1
+            dropped[(s['companyCode'], s['name'], s['controlSince'])][rec['program']] += 1
             continue
         kept.append({k: v for k, v in rec.items() if v not in (None, '', [])})
     kept.sort(key=lambda x: (x['companyCode'], x.get('date') or ''), reverse=False)
 
-    # 空污罰款同時出現在 ICIS-Air 正式處分與聯邦案件時（EPA 主辦案件），案件號相同只算一次
+    # 空污、水污罰款同時出現在各計畫正式處分與聯邦案件時（EPA 主辦案件），案件號相同只算一次
     fec_numbers = {(r['companyCode'], r.get('caseNumber')) for r in kept if r['program'] == 'FEC'}
     for r in kept:
-        if r['program'] == 'CAA' and r['kind'] == 'formal' and (r['companyCode'], r.get('caseNumber')) in fec_numbers:
+        if r['program'] in ('CAA', 'CWA') and r['kind'] == 'formal' and (r['companyCode'], r.get('caseNumber')) in fec_numbers:
             r['duplicateOf'] = 'FEC'
 
     used = {(r['companyCode'], r['registryId']) for r in kept}
-    out_sites = [s for k, s in sites.items() if k in used or any(s['releases'].values()) or s['programIds']['air'] or s['programIds']['waste']]
+    # 有 controlSince 的廠區一定輸出：fetch-gcs-data.js 要用它排除水污染違規
+    out_sites = [s for k, s in sites.items() if k in used or any(s['releases'].values()) or s['programIds']['air'] or s['programIds']['waste'] or s['controlSince']]
     OUT.write_text(json.dumps({
         'generatedAt': datetime.date.today().isoformat(),
-        'source': 'EPA ECHO 全量檔：ECHO Exporter、ICIS-Air、RCRAInfo、ICIS FE&C（echo.epa.gov/tools/data-downloads）',
-        'note': '以我們設施的 NPDES 許可證找出同一廠區（FRS）的空污、有害廢棄物紀錄與 EPA 聯邦執法案件。TRI／GHG 為最近申報年度的排放量。',
+        'source': 'EPA ECHO 全量檔：ECHO Exporter、ICIS-Air、RCRAInfo、ICIS-NPDES 處分、ICIS FE&C（echo.epa.gov/tools/data-downloads）',
+        'note': '以我們設施的 NPDES 許可證找出同一廠區（FRS）的空污、有害廢棄物紀錄與 EPA 聯邦執法案件，以及各許可證的水污染處分。TRI／GHG 為最近申報年度的排放量。',
         'sites': sorted(out_sites, key=lambda s: (s['companyCode'], s['name'])),
         'excludedSites': excluded,
         'records': kept,
@@ -296,7 +324,7 @@ def main():
     for k, n in sorted(by.items()):
         print(f'  {k[0]:5} {k[1]:10} {n:5}', file=sys.stderr)
     for (code, name, date), n in sorted(dropped.items()):
-        print(f'  排除 {code} {name} 在 {date} 取得控制前的 {n} 筆', file=sys.stderr)
+        print(f"  排除 {code} {name} 在 {date} 取得控制前的 {sum(n.values())} 筆（{'、'.join(f'{k} {v}' for k, v in sorted(n.items()))}）", file=sys.stderr)
     for e in excluded:
         print(f"  排除同名誤配廠區 {e['companyCode']} {e['name']}", file=sys.stderr)
 

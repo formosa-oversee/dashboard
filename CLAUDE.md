@@ -5,11 +5,12 @@ Next.js 14 靜態匯出的企業違規監測 dashboard。資料在 build 時由 
 ## 資料管線
 
 - 來源：EPA ECHO（美國）CSV，存放於私有 GCS bucket `gs://epa_echo_data/`（GCP 專案 `formosa-oversee`）。
-- `npm run download-epa` → 用 gcloud 下載到 `data/facilities.csv`、`data/violations.csv`。
+- `npm run download-epa` → 用 gcloud 下載 `data/facilities.csv`。
+- **水污染違規** `data/violations.csv`：`npm run water -- --dir=<全量檔目錄>`（`scripts/build-water-violations.py`）用 `facilities.csv` 的 NPDES 許可證從 EPA ICIS-NPDES 全量檔重建（2026-10-25 起，原本的 GCS 快照停在 2025-08）。`download-epa` 不再下載 GCS 的違規檔；重新下載 `facilities.csv` 後要再跑一次。規格見 `docs/enforcement-data-interface.md` 第 10 節。
 - `npm run fetch-data` → `scripts/fetch-gcs-data.js` 轉成 `data/epa-data.json`。
 - `npm run build` 會先跑 `fetch-data`。
 - **補充資料**：`data/facilities-supplement.csv`、`data/violations-supplement.csv`（進 git，不在 GCS）由 `scripts/build-echo-supplement.py` 從 EPA ICIS-NPDES 全量檔產生，收 ECHO 覆蓋率稽核確認屬台灣母公司、但 GCS 原始 CSV 沒有的許可證；`fetch-gcs-data.js` 建置時合併。重新下載 GCS 資料不會蓋掉它們。新增工廠時改腳本內 `CONFIRMED`，每筆寫依據。
-- **水污染以外的 EPA 紀錄**：`npm run programs -- --dir=<全量檔目錄>`（`scripts/build-echo-programs.py`）以我們設施的 NPDES 許可證在 ECHO Exporter 找到所屬廠區（FRS），取同廠區的空污（ICIS-Air）、有害廢棄物（RCRA）違規與處分、EPA 聯邦執法案件（ICIS FE&C），以及 TRI／GHG 排放量 → `data/echo-programs.json`（進 git）。`fetch-gcs-data.js` 併進 `violations`，以 `program`（CWA／CAA／RCRA／FEC）區分。台灣母公司取得控制前的紀錄依腳本內 `CONTROL_SINCE` 排除，每筆寫依據；沒有 NPDES 許可證的工廠加在 `EXTRA_SITES`。全量檔用 `scripts/download-echo-sources.sh` 下載到 `formosa-oversee/epa-downloads/`（約 9GB，不進 git）。規格見 `docs/enforcement-data-interface.md` 第 9 節；ECHO Exporter 列到的每個 EPA 資料來源（FRS、AFS、ICIS-Air、NPDES、RCRA、SDWIS、TRI、GHGRP、FE&C、人口統計）的內容、我們廠區的覆蓋情形與已知缺口見 `docs/echo-data-sources.md`。
+- **水污染以外的 EPA 紀錄**：`npm run programs -- --dir=<全量檔目錄>`（`scripts/build-echo-programs.py`）以我們設施的 NPDES 許可證在 ECHO Exporter 找到所屬廠區（FRS），取同廠區的空污（ICIS-Air）、有害廢棄物（RCRA）違規與處分、EPA 聯邦執法案件（ICIS FE&C），水污染的正式／非正式處分與罰款，以及 TRI／GHG 排放量 → `data/echo-programs.json`（進 git）。`fetch-gcs-data.js` 併進 `violations`，以 `program`（CWA／CAA／RCRA／FEC）區分。台灣母公司取得控制前的紀錄依腳本內 `CONTROL_SINCE` 排除，每筆寫依據（`violations.csv` 的水污染違規在建置時由 `fetch-gcs-data.js` 依同一份廠區日期排除）；沒有 NPDES 許可證的工廠加在 `EXTRA_SITES`。全量檔用 `scripts/download-echo-sources.sh` 下載到 `formosa-oversee/epa-downloads/`（約 9GB，不進 git）。規格見 `docs/enforcement-data-interface.md` 第 9 節；ECHO Exporter 列到的每個 EPA 資料來源（FRS、AFS、ICIS-Air、NPDES、RCRA、SDWIS、TRI、GHGRP、FE&C、人口統計）的內容、我們廠區的覆蓋情形與已知缺口見 `docs/echo-data-sources.md`。
 - 公司主鍵是台灣上市公司代號（`companyCode`，如 1210），以投審會境外投資名稱模糊匹配到 EPA facility。
 - 原本的 mock data（`lib/api.js`）已於 2026-10-21 刪除。
 - 研究筆記放在 `docs/`。資料模型接口見 `docs/enforcement-data-interface.md`。

@@ -327,10 +327,10 @@ npm run attribution
 
 ## 9. 水污染以外的 EPA 紀錄：空污、有害廢棄物、聯邦執法案件（2026-10-25）
 
-GCS 原始資料與補充資料都只有 ICIS-NPDES，也就是 Clean Water Act 的水污染違規。`scripts/build-echo-programs.py` 把同一廠區在其他法規下的紀錄補進來。
+`data/violations.csv` 與補充資料只有 ICIS-NPDES 的水污染違規（第 10 節）。`scripts/build-echo-programs.py` 把同一廠區在其他法規下的紀錄，以及水污染的處分與罰款補進來。
 
 ```bash
-scripts/download-echo-sources.sh                 # → ../epa-downloads（約 9GB，不進 git）；這支只需要其中 4 個檔
+scripts/download-echo-sources.sh                 # → ../epa-downloads（約 9GB，不進 git）；這支只需要其中 5 個檔
 npm run programs -- --dir=../epa-downloads       # → data/echo-programs.json（進 git），約 1 分鐘
 npm run fetch-data
 ```
@@ -342,8 +342,8 @@ npm run fetch-data
 EPA 的 FRS（Facility Registry Service）替每個實體廠區配一個 `REGISTRY_ID`，ECHO Exporter 每列一個廠區，列出它在各法規下的許可證或登記編號（`NPDES_IDS`、`AIR_IDS`、`RCRA_IDS`、`TRI_IDS`、`GHG_IDS`）。
 
 1. 我們 196 個設施的 NPDES 許可證，在 Exporter 全部對得到，共 165 個廠區。一個廠區常有好幾張 NPDES 許可證，例如 FPC Texas 有主廠排放許可和兩張雨水許可。
-2. 用廠區的空污編號到 ICIS-Air、廢棄物編號到 RCRAInfo、`REGISTRY_ID` 到 ICIS FE&C 案件檔取逐筆紀錄。
-3. 空污、廢棄物是廠區層級的紀錄，掛在主要設施，也就是個別許可證優先於通用許可證的那一個，避免同一筆在公司頁算好幾次。
+2. 用廠區的空污編號到 ICIS-Air、廢棄物編號到 RCRAInfo、`REGISTRY_ID` 到 ICIS FE&C 案件檔、我們的 NPDES 許可證到 ICIS-NPDES 處分檔取逐筆紀錄。
+3. 空污、廢棄物是廠區層級的紀錄，掛在主要設施，也就是個別許可證優先於通用許可證的那一個，避免同一筆在公司頁算好幾次。水污染處分是許可證層級的，掛在該許可證的設施（`facilityId`）。
 4. 沒有 NPDES 許可證的台灣母公司工廠，以前因為網站只收水污而沒有納入，列在 `EXTRA_SITES`，用 `REGISTRY_ID` 當設施編號另建設施，持股鏈沿用同一子公司的既有設施。目前只有 Continental Carbon Ponca City OK（國際中橡 2104）。
 
 ### 收錄的紀錄
@@ -356,15 +356,17 @@ EPA 的 FRS（Facility Registry Service）替每個實體廠區配一個 `REGIST
 | `CAA` | `ICIS-AIR_FORMAL_ACTIONS` | `formal` | 行政命令、司法案件，含罰款 |
 | `RCRA` | `RCRA_VIOLATIONS` | `violation` | 違反的條文、認定日期、回復合規日期 |
 | `RCRA` | `RCRA_ENFORCEMENTS` | `informal`／`formal` | 處分類型代碼第 3 碼是 1 的是非正式，其餘是正式；罰款取 `FMP_AMOUNT`（最終罰款） |
+| `CWA` | `NPDES_FORMAL_ENFORCEMENT_ACTIONS` | `formal` | 行政命令（EPA 309 條命令、州的罰款／非罰款命令、同意令）、司法案件；罰款是聯邦與州／地方合計 |
+| `CWA` | `NPDES_INFORMAL_ENFORCEMENT_ACTIONS` | `informal` | 只收 `OFFICIAL_FLG=Y`：警告信、違規通知、不合規通知。`N` 是電話／email、內部審查、「無須處理」等，不是對業者的處分 |
 | `FEC` | `CASE_*` | `case` | EPA 主辦的聯邦案件，跨 CAA、RCRA、CWA、EPCRA、TSCA 等法規；罰款是各結案的聯邦與州／地方罰款合計 |
 
 另外每個廠區記 TRI 有毒化學物質廠內排放量（磅）、TRI 排放與移轉總量、GHG 溫室氣體排放量（公噸 CO₂e），都是 Exporter 的最近申報年度數字，顯示在設施頁。
 
-去重：ICIS-Air 處分檔同一處分每個適用計畫各一列，只算一筆；RCRA 違規檔同一天同一條文的多列無法區分，也只算一筆。EPA 主辦的空污處分同時出現在 ICIS-Air 與 FE&C 時，案件號相同，保留 FE&C 那筆（`duplicateOf: 'FEC'`，前端不顯示）。
+去重：ICIS-Air 處分檔同一處分每個適用計畫各一列，只算一筆；RCRA 違規檔同一天同一條文的多列無法區分，也只算一筆；NPDES 同一封警告信寄給同廠區好幾張許可證時各一列，只算一筆。EPA 主辦的空污、水污處分同時出現在 ICIS-Air／ICIS-NPDES 與 FE&C 時，案件號相同，保留 FE&C 那筆（`duplicateOf: 'FEC'`，前端不顯示）。目前水污有一筆：FPC 的 06-2006-3410 多媒體同意令（US$280 萬）。
 
 ### 前端
 
-`fetch-gcs-data.js` 的 `attachEchoPrograms` 把紀錄併進 `violations`，原本的水污染標 `program: 'CWA'`。公司頁「環境違規記錄」分頁多了類別篩選（水污染／空氣污染／有害廢棄物／EPA 執法案件）、類別欄、罰款欄，案件編號連到 EPA 設施報告或案件報告。設施的 `programs` 旗標依廠區實際登記設定，設施頁顯示 TRI／GHG 排放量與 EPA 設施報告連結。
+`fetch-gcs-data.js` 的 `attachEchoPrograms` 把紀錄併進 `violations`，`violations.csv` 的水污染違規標 `program: 'CWA'`、沒有 `kind`；水污染處分也是 `CWA`，`kind` 是 `formal`／`informal`。公司頁「環境違規記錄」分頁多了類別篩選（水污染／空氣污染／有害廢棄物／EPA 執法案件）、類別欄、罰款欄，案件編號連到 EPA 設施報告或案件報告。設施的 `programs` 旗標依廠區實際登記設定，設施頁顯示 TRI／GHG 排放量與 EPA 設施報告連結。
 
 呈現原則沿用第 6 節：
 
@@ -376,25 +378,29 @@ EPA 的 FRS（Facility Registry Service）替每個實體廠區配一個 `REGIST
 
 和 VT 的 `controlSince`、補充資料的 `CONFIRMED` 年份同一原則：台灣母公司取得控制以前的紀錄屬前業主，不納入。年份來源依序是 `build-echo-supplement.py` 的 `CONFIRMED`、`ownership-resolution.json` 的 `controlSince`、本腳本的 `CONTROL_SINCE`（每筆寫依據）。沒有日期的紀錄無法判斷，保留。
 
+`echo-programs.json` 的紀錄由本腳本排除。`violations.csv` 的水污染違規保留原樣，建置時 `fetch-gcs-data.js` 用輸出廠區的 `controlSince` 排除（同一設施在幾個廠區時取最晚的日期），所以有 `controlSince` 的廠區即使沒有其他紀錄也會輸出。
+
 2026-10-25 對所有有空污或廢棄物紀錄的廠區逐一查證取得控制的日期（年報、SEC 文件、官方公告、CSB 報告），依據寫在 `CONTROL_SINCE`。排除的筆數如下：
 
-| 廠區 | 台灣母公司取得控制 | 前業主 | 排除 |
-|---|---|---|---|
-| Bristol Metals，Bristol TN（大成不銹鋼 2027） | 2025-04-04 | Ascent Industries（前 Synalloy） | 90 筆，全部 |
-| MEMC，O'Fallon MO（環球晶 6488） | 2016-12-02 | SunEdison Semiconductor | 45 筆，全部 |
-| FPC Illiopolis IL（台塑 1301） | 2002-04 | Borden Chemicals and Plastics | 25 筆 |
-| KEMET，Simpsonville SC（國巨 2327） | 2020-06 | — | 23 筆 |
-| TCI Texarkana TX（大成不銹鋼 2027） | 2018 | Arconic | 19 筆 |
-| Upsher-Smith，Denver CO（保瑞 6472） | 2024-04-01 | Sawai | 15 筆，全部 |
-| APG Polytech，Apple Grove WV（遠東新 1402） | 2018-03-01 | M&G Polymers USA | 7 筆，全部 |
-| Arlon EMD，Rancho Cucamonga CA（台光電 2383） | 2021-01-18 | CriticalPoint Capital | 5 筆，全部 |
-| 宏遠美國，Forest City NC（宏遠 1460） | 2016-10 | 不明的前一位使用者 | 4 筆，全部 |
-| Continental Carbon Phenix City AL、Ponca City OK（國際中橡 2104） | 1995 | Witco | 各 3 筆 |
-| FPC Baton Rouge LA（台塑 1301） | 1981 | ICI 子公司 | 2 筆 |
-| Continental Coatings，Fontana CA（永記 1726） | 2012-11 | 不明 | 2 筆 |
-| FS Precision Tech，Compton CA（復盛應用 6670） | 2004-09 | Coastcast | 1 筆 |
+「其他紀錄」是 `echo-programs.json` 的空污、廢棄物、水污處分與聯邦案件，「水污染違規」是 `violations.csv` 在建置時排除的筆數。TCI Texarkana 另有 556 筆 2000–2010 年的水污染違規，`build-echo-supplement.py` 產生補充資料時就沒有收。
 
-另外查到三個既有 ECHO 匹配是同名誤配，不是台灣母公司的工廠，列在 `NOT_OWNED`，不掛任何空污、廢棄物紀錄：
+| 廠區 | 台灣母公司取得控制 | 前業主 | 其他紀錄 | 水污染違規 |
+|---|---|---|---|---|
+| Bristol Metals，Bristol TN（大成不銹鋼 2027） | 2025-04-04 | Ascent Industries（前 Synalloy） | 90 筆，全部 | — |
+| MEMC，O'Fallon MO（環球晶 6488） | 2016-12-02 | SunEdison Semiconductor | 46 筆，全部 | 154 筆 |
+| FPC Illiopolis IL（台塑 1301） | 2002-04 | Borden Chemicals and Plastics | 39 筆 | 6 筆 |
+| KEMET，Simpsonville SC（國巨 2327） | 2020-06 | — | 23 筆 | — |
+| TCI Texarkana TX（大成不銹鋼 2027） | 2018 | Arconic | 19 筆 | （補充資料已排除 556 筆） |
+| Upsher-Smith，Denver CO（保瑞 6472） | 2024-04-01 | Sawai | 15 筆，全部 | — |
+| APG Polytech，Apple Grove WV（遠東新 1402） | 2018-03-01 | M&G Polymers USA | 8 筆，全部 | 123 筆 |
+| Arlon EMD，Rancho Cucamonga CA（台光電 2383） | 2021-01-18 | CriticalPoint Capital | 5 筆，全部 | — |
+| 宏遠美國，Forest City NC（宏遠 1460） | 2016-10 | 不明的前一位使用者 | 4 筆，全部 | — |
+| Continental Carbon Phenix City AL、Ponca City OK（國際中橡 2104） | 1995 | Witco | 各 3 筆 | — |
+| FPC Baton Rouge LA（台塑 1301） | 1981 | ICI 子公司 | 2 筆 | — |
+| Continental Coatings，Fontana CA（永記 1726） | 2012-11 | 不明 | 2 筆 | — |
+| FS Precision Tech，Compton CA（復盛應用 6670） | 2004-09 | Coastcast | 1 筆 | — |
+
+另外查到三個既有 ECHO 匹配是同名誤配，不是台灣母公司的工廠，列在 `NOT_OWNED`，不掛任何空污、廢棄物紀錄與水污處分：
 
 | 廠區 | 被匹配到的公司 | 實際 |
 |---|---|---|
@@ -402,4 +408,32 @@ EPA 的 FRS（Facility Registry Service）替每個實體廠區配一個 `REGIST
 | Solomon Corporation，Decatur TN | 所羅門 2359 | 所羅門唯一的美國子公司是 2019 年在加州設立的 Solomon Technology (USA) |
 | Chroma Corp，McHenry IL | 致茂 2360 | 伊利諾州的色母粒廠，2018 年併入 Carolina Color；致茂的美國子公司都在加州 |
 
-**仍待決定**：水污染資料（GCS 原始 CSV）沒有做過同樣的檢查。目前 APG Polytech 有 123 筆、MEMC 有 154 筆水污染紀錄早於收購；Everbrite 有 1 筆。這三個同名誤配的 `ownership.confidence` 仍是 `high`。這些都還照舊顯示在網站上。
+**仍待決定**：這三個同名誤配的設施仍以 `ownership.confidence: high` 顯示在公司頁。2026-10 的全量檔裡它們已經沒有水污染違規（Everbrite 原本那 1 筆 EPA 已刪除），所以頁面上只剩設施本身。
+
+## 10. 水污染違規改由 EPA 全量檔重建（2026-10-25）
+
+`data/violations.csv` 原本是 GCS 上的匹配快照（`comprehensive_violations_full.csv`），最新只到 2025-08-31，之後 EPA 刪改的紀錄也沒有跟上。現在改由 `scripts/build-water-violations.py` 用同一批設施（`data/facilities.csv` 的 169 張 NPDES 許可證）到 ICIS-NPDES 全量檔重取四類違規。欄位與原檔相同，公司、設施欄位照 `facilities.csv`，違規欄位照全量檔原值，`fetch-gcs-data.js` 照舊讀。
+
+```bash
+scripts/download-echo-sources.sh                                   # npdes_downloads.zip、npdes_eff_downloads.zip
+npm run programs -- --dir=../epa-downloads                         # 水污處分、各廠區 controlSince
+npm run supplement -- --npdes=../epa-downloads/npdes_downloads.zip --eff=../epa-downloads/npdes_eff_downloads.zip
+npm run water -- --dir=../epa-downloads                            # → data/violations.csv，約 2 分鐘
+npm run fetch-data
+```
+
+- `npm run download-epa` 不再下載 GCS 的違規檔，以免蓋掉；重新下載 `facilities.csv` 後要再跑 `npm run water`。
+- 補充資料的許可證（`facilities-supplement.csv`）仍由 `build-echo-supplement.py` 產生違規，兩支都要跑。
+- 台灣母公司取得控制前的紀錄不在這裡刪，見第 9 節「取得控制前的紀錄」。
+
+2026-10-25 第一次重建（EPA 2026-10 全量檔，放流水最新監測期 2026-08-31）：
+
+| | 筆數 |
+|---|---|
+| 舊快照 | 5,862 |
+| 重建後 | 6,319（放流水超標 6,171、單一事件 71、遵循時程 44、許可時程 33） |
+| 新增 | 469，多數是 2021–2026 年的放流水超標 |
+| 舊快照有、全量檔已無（EPA 刪除或更正） | 12，APG Polytech 6、FPC Baton Rouge 3、其他 3 |
+| 兩邊都有、內容更新 | 改善狀態 135 筆、改善日期 154 筆 |
+
+補充資料重建後 635 筆，多 1 筆單一事件違規。建置時再排除取得控制前的 283 筆後，網站的水污染違規是 6,671 筆，另有水污處分 172 筆（正式 44、非正式 128），有罰款的 9 筆合計 US$1,063,654（不含已列在聯邦案件的 06-2006-3410）。

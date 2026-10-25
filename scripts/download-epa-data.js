@@ -30,17 +30,15 @@ async function downloadWithGsutil() {
     }
     
     const facilitiesFile = path.join(DATA_DIR, 'facilities.csv');
-    const violationsFile = path.join(DATA_DIR, 'violations.csv');
     
     // 下載設施資料
     const facilitiesCommand = `gsutil cp gs://epa_echo_data/integrated_facility_matches_updated.csv ${facilitiesFile}`;
     await execAsync(facilitiesCommand);
     console.log('✅ 設施資料下載成功！');
     
-    // 下載違規資料
-    const violationsCommand = `gsutil cp gs://epa_echo_data/comprehensive_violations_full.csv ${violationsFile}`;
-    await execAsync(violationsCommand);
-    console.log('✅ 違規資料下載成功！');
+    // 違規資料（violations.csv）2026-10-25 起改由 scripts/build-water-violations.py 從 EPA 全量檔重建，
+    // GCS 的 comprehensive_violations_full.csv 停在 2025-08，不再下載以免蓋掉
+    console.log('ℹ️ 違規資料請跑 python3 scripts/build-water-violations.py --dir=<全量檔目錄>');
     
     return true;
   } catch (error) {

@@ -1,7 +1,7 @@
 {
  "generatedAt": "2026-10-25",
- "source": "EPA ECHO 全量檔：ECHO Exporter、ICIS-Air、RCRAInfo、ICIS FE&C（echo.epa.gov/tools/data-downloads）",
- "note": "以我們設施的 NPDES 許可證找出同一廠區（FRS）的空污、有害廢棄物紀錄與 EPA 聯邦執法案件。TRI／GHG 為最近申報年度的排放量。",
+ "source": "EPA ECHO 全量檔：ECHO Exporter、ICIS-Air、RCRAInfo、ICIS-NPDES 處分、ICIS FE&C（echo.epa.gov/tools/data-downloads）",
+ "note": "以我們設施的 NPDES 許可證找出同一廠區（FRS）的空污、有害廢棄物紀錄與 EPA 聯邦執法案件，以及各許可證的水污染處分。TRI／GHG 為最近申報年度的排放量。",
  "sites": [
   {
    "registryId": "110024543038",
@@ -22,6 +22,32 @@
      "CAL000261174",
      "CAR000171470"
     ],
+    "toxics": [],
+    "ghg": []
+   },
+   "releases": {
+    "triOnSiteLb": null,
+    "triReleasesTransfersLb": null,
+    "ghgCO2eTons": null
+   },
+   "controlSince": null
+  },
+  {
+   "registryId": "110009956379",
+   "companyCode": "1227",
+   "name": "STANDARD FOODS INC",
+   "city": "LOUISVILLE",
+   "state": "KY",
+   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110009956379",
+   "facilityIds": [
+    "2400023034"
+   ],
+   "npdesIds": [
+    "KYR000460"
+   ],
+   "programIds": {
+    "air": [],
+    "waste": [],
     "toxics": [],
     "ghg": []
    },
@@ -369,6 +395,60 @@
    "controlBasis": "宏遠 2016-10 設立美國廠（宏遠 2023 年報、areadevelopment.com 2016-12-07）"
   },
   {
+   "registryId": "110070621550",
+   "companyCode": "1515",
+   "name": "AIR & POWER TOOL SPECIALISTS",
+   "city": "ARTESIA",
+   "state": "CA",
+   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110070621550",
+   "facilityIds": [
+    "3601123776",
+    "3601151380"
+   ],
+   "npdesIds": [
+    "CAW511595",
+    "CAZ513140"
+   ],
+   "programIds": {
+    "air": [],
+    "waste": [],
+    "toxics": [],
+    "ghg": []
+   },
+   "releases": {
+    "triOnSiteLb": null,
+    "triReleasesTransfersLb": null,
+    "ghgCO2eTons": null
+   },
+   "controlSince": null
+  },
+  {
+   "registryId": "110070817560",
+   "companyCode": "1524",
+   "name": "GORDON'S",
+   "city": "SEMMES",
+   "state": "AL",
+   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110070817560",
+   "facilityIds": [
+    "3601213679"
+   ],
+   "npdesIds": [
+    "ALG180909"
+   ],
+   "programIds": {
+    "air": [],
+    "waste": [],
+    "toxics": [],
+    "ghg": []
+   },
+   "releases": {
+    "triOnSiteLb": null,
+    "triReleasesTransfersLb": null,
+    "ghgCO2eTons": null
+   },
+   "controlSince": null
+  },
+  {
    "registryId": "110027373900",
    "companyCode": "1528",
    "name": "ANDERSON PRINTING",
@@ -461,6 +541,60 @@
    },
    "controlSince": "2025-04-04",
    "controlBasis": "2025-04-04 大成不銹鋼美國子公司 Ta Chen International 向 Ascent Industries 買下資產（SEC 8-K 附件 acnt-20250331ex991）"
+  },
+  {
+   "registryId": "110070263045",
+   "companyCode": "2027",
+   "name": "PRIMUS PIPE AND TUBE INC",
+   "city": "WILDWOOD",
+   "state": "FL",
+   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110070263045",
+   "facilityIds": [
+    "3600931186",
+    "3601061039"
+   ],
+   "npdesIds": [
+    "FLR05I198",
+    "FLR10SJ36"
+   ],
+   "programIds": {
+    "air": [],
+    "waste": [],
+    "toxics": [],
+    "ghg": []
+   },
+   "releases": {
+    "triOnSiteLb": null,
+    "triReleasesTransfersLb": null,
+    "ghgCO2eTons": null
+   },
+   "controlSince": null
+  },
+  {
+   "registryId": "110071083208",
+   "companyCode": "2027",
+   "name": "TCI TEXARKANA",
+   "city": "NASH",
+   "state": "TX",
+   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110071083208",
+   "facilityIds": [
+    "3601330163"
+   ],
+   "npdesIds": [
+    "TXR1533GK"
+   ],
+   "programIds": {
+    "air": [],
+    "waste": [],
+    "toxics": [],
+    "ghg": []
+   },
+   "releases": {
+    "triOnSiteLb": null,
+    "triReleasesTransfersLb": null,
+    "ghgCO2eTons": null
+   },
+   "controlSince": "2018-01-01"
   },
   {
    "registryId": "110018919946",
@@ -674,6 +808,32 @@
    },
    "controlSince": "1995-01-01",
    "controlBasis": "同上"
+  },
+  {
+   "registryId": "110070619600",
+   "companyCode": "2308",
+   "name": "DELTA ELECTRONICS AMERICAS",
+   "city": "EASTVALE",
+   "state": "CA",
+   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110070619600",
+   "facilityIds": [
+    "3601123625"
+   ],
+   "npdesIds": [
+    "CAZ510817"
+   ],
+   "programIds": {
+    "air": [],
+    "waste": [],
+    "toxics": [],
+    "ghg": []
+   },
+   "releases": {
+    "triOnSiteLb": null,
+    "triReleasesTransfersLb": null,
+    "ghgCO2eTons": null
+   },
+   "controlSince": null
   },
   {
    "registryId": "110000795541",
@@ -1169,6 +1329,34 @@
    "controlSince": null
   },
   {
+   "registryId": "110070097528",
+   "companyCode": "2723",
+   "name": "PERFECT 85 DEGREES C INC",
+   "city": "BREA",
+   "state": "CA",
+   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110070097528",
+   "facilityIds": [
+    "3600736432",
+    "3600995140"
+   ],
+   "npdesIds": [
+    "CAZ485516",
+    "CAZ502731"
+   ],
+   "programIds": {
+    "air": [],
+    "waste": [],
+    "toxics": [],
+    "ghg": []
+   },
+   "releases": {
+    "triOnSiteLb": null,
+    "triReleasesTransfersLb": null,
+    "ghgCO2eTons": null
+   },
+   "controlSince": null
+  },
+  {
    "registryId": "110070203845",
    "companyCode": "2908",
    "name": "TEST RITE PRODUCT CORP",
@@ -1214,6 +1402,32 @@
     "waste": [
      "CAL000275846"
     ],
+    "toxics": [],
+    "ghg": []
+   },
+   "releases": {
+    "triOnSiteLb": null,
+    "triReleasesTransfersLb": null,
+    "ghgCO2eTons": null
+   },
+   "controlSince": null
+  },
+  {
+   "registryId": "110064649359",
+   "companyCode": "3357",
+   "name": "ADVANCED ELECTRONICS",
+   "city": "NORMAL",
+   "state": "IL",
+   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110064649359",
+   "facilityIds": [
+    "800003458"
+   ],
+   "npdesIds": [
+    "ILP000173"
+   ],
+   "programIds": {
+    "air": [],
+    "waste": [],
     "toxics": [],
     "ghg": []
    },
@@ -1280,6 +1494,32 @@
    "releases": {
     "triOnSiteLb": 1184,
     "triReleasesTransfersLb": 4242,
+    "ghgCO2eTons": null
+   },
+   "controlSince": null
+  },
+  {
+   "registryId": "110020524798",
+   "companyCode": "4538",
+   "name": "WINSTON MACHINERY CO INC",
+   "city": "LYNN",
+   "state": "AL",
+   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110020524798",
+   "facilityIds": [
+    "1600003157"
+   ],
+   "npdesIds": [
+    "ALG120502"
+   ],
+   "programIds": {
+    "air": [],
+    "waste": [],
+    "toxics": [],
+    "ghg": []
+   },
+   "releases": {
+    "triOnSiteLb": null,
+    "triReleasesTransfersLb": null,
     "ghgCO2eTons": null
    },
    "controlSince": null
@@ -1361,6 +1601,110 @@
     "waste": [
      "MDR000517946"
     ],
+    "toxics": [],
+    "ghg": []
+   },
+   "releases": {
+    "triOnSiteLb": null,
+    "triReleasesTransfersLb": null,
+    "ghgCO2eTons": null
+   },
+   "controlSince": null
+  },
+  {
+   "registryId": "110070159864",
+   "companyCode": "5460",
+   "name": "MUSTANG",
+   "city": "BRIDGEPORT",
+   "state": "AL",
+   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110070159864",
+   "facilityIds": [
+    "3600813020"
+   ],
+   "npdesIds": [
+    "ALR10BCYS"
+   ],
+   "programIds": {
+    "air": [],
+    "waste": [],
+    "toxics": [],
+    "ghg": []
+   },
+   "releases": {
+    "triOnSiteLb": null,
+    "triReleasesTransfersLb": null,
+    "ghgCO2eTons": null
+   },
+   "controlSince": null
+  },
+  {
+   "registryId": "110028275060",
+   "companyCode": "6120",
+   "name": "DARWIN",
+   "city": "DARWIN",
+   "state": "MN",
+   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110028275060",
+   "facilityIds": [
+    "2400058479"
+   ],
+   "npdesIds": [
+    "MNG580150"
+   ],
+   "programIds": {
+    "air": [],
+    "waste": [],
+    "toxics": [],
+    "ghg": []
+   },
+   "releases": {
+    "triOnSiteLb": null,
+    "triReleasesTransfersLb": null,
+    "ghgCO2eTons": null
+   },
+   "controlSince": null
+  },
+  {
+   "registryId": "110028077239",
+   "companyCode": "6152",
+   "name": "PRIME, INC",
+   "city": "PORT WENTWORTH",
+   "state": "GA",
+   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110028077239",
+   "facilityIds": [
+    "600012615"
+   ],
+   "npdesIds": [
+    "GAU050264"
+   ],
+   "programIds": {
+    "air": [],
+    "waste": [],
+    "toxics": [],
+    "ghg": []
+   },
+   "releases": {
+    "triOnSiteLb": null,
+    "triReleasesTransfersLb": null,
+    "ghgCO2eTons": null
+   },
+   "controlSince": null
+  },
+  {
+   "registryId": "110070072471",
+   "companyCode": "6221",
+   "name": "GENESIS 1",
+   "city": "HARTSELLE",
+   "state": "AL",
+   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110070072471",
+   "facilityIds": [
+    "3600704654"
+   ],
+   "npdesIds": [
+    "ALR10B876"
+   ],
+   "programIds": {
+    "air": [],
+    "waste": [],
     "toxics": [],
     "ghg": []
    },
@@ -1648,6 +1992,58 @@
    "controlBasis": "2004 年復盛向 Coastcast 買下該址（foundrymag.com）；2001 年的紀錄屬 Coastcast"
   },
   {
+   "registryId": "110028295529",
+   "companyCode": "6761",
+   "name": "WENDELL",
+   "city": "WENDELL",
+   "state": "MN",
+   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110028295529",
+   "facilityIds": [
+    "2400053716"
+   ],
+   "npdesIds": [
+    "MNG580153"
+   ],
+   "programIds": {
+    "air": [],
+    "waste": [],
+    "toxics": [],
+    "ghg": []
+   },
+   "releases": {
+    "triOnSiteLb": null,
+    "triReleasesTransfersLb": null,
+    "ghgCO2eTons": null
+   },
+   "controlSince": null
+  },
+  {
+   "registryId": "110070093475",
+   "companyCode": "6887",
+   "name": "BORETECH RESOURCE RECOVERY ENGINEERING LLC",
+   "city": "STOCKTON",
+   "state": "CA",
+   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110070093475",
+   "facilityIds": [
+    "3600731234"
+   ],
+   "npdesIds": [
+    "CAZ445267"
+   ],
+   "programIds": {
+    "air": [],
+    "waste": [],
+    "toxics": [],
+    "ghg": []
+   },
+   "releases": {
+    "triOnSiteLb": null,
+    "triReleasesTransfersLb": null,
+    "ghgCO2eTons": null
+   },
+   "controlSince": null
+  },
+  {
    "registryId": "110041673463",
    "companyCode": "8069",
    "name": "E INK CORPORATION",
@@ -1709,6 +2105,32 @@
    "controlSince": null
   },
   {
+   "registryId": "110070382800",
+   "companyCode": "9944",
+   "name": "AMERICAN  FURNITURE ALLIANCE INC",
+   "city": "RANCHO CUCAMONGA",
+   "state": "CA",
+   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110070382800",
+   "facilityIds": [
+    "3600980432"
+   ],
+   "npdesIds": [
+    "CAZ502448"
+   ],
+   "programIds": {
+    "air": [],
+    "waste": [],
+    "toxics": [],
+    "ghg": []
+   },
+   "releases": {
+    "triOnSiteLb": null,
+    "triReleasesTransfersLb": null,
+    "ghgCO2eTons": null
+   },
+   "controlSince": null
+  },
+  {
    "registryId": "110070289000",
    "companyCode": "9944",
    "name": "AMERICAN NONWOVENS INC",
@@ -1758,6 +2180,48 @@
   }
  ],
  "records": [
+  {
+   "id": "CWA-I-3601976938",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Noncompliance Issued",
+   "date": "2019-08-12",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA433688",
+   "facilityId": "3600726609",
+   "npdesId": "CAZ288896",
+   "companyCode": "1216",
+   "registryId": "110024543038"
+  },
+  {
+   "id": "CWA-I-3603673476",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Noncompliance Issued",
+   "date": "2023-08-01",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA450188",
+   "facilityId": "3600726609",
+   "npdesId": "CAZ288896",
+   "companyCode": "1216",
+   "registryId": "110024543038"
+  },
+  {
+   "id": "CWA-I-2600105156",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "2012-02-24",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "KY-200062130",
+   "facilityId": "2400023034",
+   "npdesId": "KYR000460",
+   "companyCode": "1227",
+   "registryId": "110009956379"
+  },
   {
    "id": "CAA-V-3400464929-06000F000000158VOC6",
    "program": "CAA",
@@ -1835,6 +2299,20 @@
    "registryId": "110000338536"
   },
   {
+   "id": "CWA-I-1600192521",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1983-03-01",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00004087",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
    "id": "CAA-I-3400489514",
    "program": "CAA",
    "kind": "informal",
@@ -1847,6 +2325,20 @@
    "registryId": "110000597444"
   },
   {
+   "id": "CWA-I-1600192520",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1983-05-25",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00004088",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
    "id": "CAA-I-3400489608",
    "program": "CAA",
    "kind": "informal",
@@ -1855,6 +2347,20 @@
    "agency": "州政府",
    "description": "Administrative - Informal",
    "caseNumber": "LA000A0000220330000200014",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-I-1600192499",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1984-02-14",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00005798",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
    "companyCode": "1301",
    "registryId": "110000597444"
   },
@@ -1884,6 +2390,104 @@
    "registryId": "110000597444"
   },
   {
+   "id": "CWA-F-1600192514",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "CWA 309A AO For Compliance",
+   "date": "1985-02-08",
+   "agency": "EPA",
+   "description": "Administrative - Formal",
+   "caseNumber": "06-1985-N061",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-I-1600192519",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1985-02-14",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00004089",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-I-1600228573",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1985-10-29",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00012313",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
+   "id": "CWA-F-3400142488",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "Civil Judicial Action",
+   "date": "1985-11-26",
+   "agency": "州政府",
+   "description": "Judicial",
+   "caseNumber": "DE-10390",
+   "facilityId": "2800000009",
+   "npdesId": "DE0000612",
+   "companyCode": "1301",
+   "registryId": "110000338536"
+  },
+  {
+   "id": "CWA-F-2800000739",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "State Administrative Order of Consent",
+   "date": "1985-11-26",
+   "agency": "州政府",
+   "description": "Administrative - Formal",
+   "caseNumber": "DE-N00000037",
+   "facilityId": "2800000009",
+   "npdesId": "DE0000612",
+   "companyCode": "1301",
+   "registryId": "110000338536"
+  },
+  {
+   "id": "CWA-F-2800000737",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "Civil Judicial Action",
+   "date": "1985-11-26",
+   "agency": "州政府",
+   "description": "Judicial",
+   "caseNumber": "DE-N00000053",
+   "facilityId": "2800000009",
+   "npdesId": "DE0000612",
+   "companyCode": "1301",
+   "registryId": "110000338536"
+  },
+  {
+   "id": "CWA-F-1600228577",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "CWA 309A AO For Compliance",
+   "date": "1985-12-17",
+   "agency": "EPA",
+   "description": "Administrative - Formal",
+   "caseNumber": "06-1986-N152",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
    "id": "RCRA-V-DED002336394-262.A-01/02/1986",
    "program": "RCRA",
    "kind": "violation",
@@ -1896,6 +2500,20 @@
    "registryId": "110000338536"
   },
   {
+   "id": "CWA-I-1600228560",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1986-02-14",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00015531",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
    "id": "RCRA-E-DED002336394-000-DE122",
    "program": "RCRA",
    "kind": "informal",
@@ -1904,6 +2522,34 @@
    "agency": "州政府",
    "companyCode": "1301",
    "registryId": "110000338536"
+  },
+  {
+   "id": "CWA-I-1600192518",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1986-03-03",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00004110",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-I-1600192498",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1986-04-04",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00005799",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
   },
   {
    "id": "RCRA-V-TXT490011293-264.A-02/15/1987",
@@ -1926,6 +2572,34 @@
    "date": "1987-04-22",
    "resolvedDate": "1999-10-27",
    "agency": "EPA",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
+   "id": "CWA-I-1600228572",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1987-05-12",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00012314",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
+   "id": "CWA-I-1600228559",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1987-06-18",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00015532",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
    "companyCode": "1301",
    "registryId": "110018925957"
   },
@@ -1954,6 +2628,20 @@
    "registryId": "110018925957"
   },
   {
+   "id": "CWA-I-1600228571",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1987-09-17",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00012315",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
    "id": "RCRA-V-LAD041224932-264.G-10/22/1987",
    "program": "RCRA",
    "kind": "violation",
@@ -1964,6 +2652,20 @@
    "agency": "州政府",
    "companyCode": "1301",
    "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-I-1600228558",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1987-12-01",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00015533",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
   },
   {
    "id": "RCRA-E-LAD041224932-001-HQ310",
@@ -2024,6 +2726,20 @@
    "registryId": "110000597444"
   },
   {
+   "id": "CWA-I-1600228557",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1988-03-31",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00015534",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
    "id": "RCRA-V-LAD041224932-264.H-04/25/1988",
    "program": "RCRA",
    "kind": "violation",
@@ -2046,6 +2762,20 @@
    "registryId": "110000597444"
   },
   {
+   "id": "CWA-I-1600228556",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1988-04-28",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00015535",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
    "id": "RCRA-E-LAD041224932-004-HQ120",
    "program": "RCRA",
    "kind": "informal",
@@ -2056,6 +2786,20 @@
    "registryId": "110000597444"
   },
   {
+   "id": "CWA-I-1600228568",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1988-08-01",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00012368",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
    "id": "CAA-I-3400489605",
    "program": "CAA",
    "kind": "informal",
@@ -2064,6 +2808,20 @@
    "agency": "州政府",
    "description": "Administrative - Informal",
    "caseNumber": "LA000A0000220330000200045",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-I-1600192513",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1988-10-06",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00004798",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
    "companyCode": "1301",
    "registryId": "110000597444"
   },
@@ -2093,6 +2851,20 @@
    "registryId": "110000338536"
   },
   {
+   "id": "CWA-I-1600192497",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1989-03-16",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00005800",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
    "id": "RCRA-E-DED002336394-001-HQ120",
    "program": "RCRA",
    "kind": "informal",
@@ -2101,6 +2873,34 @@
    "agency": "州政府",
    "companyCode": "1301",
    "registryId": "110000338536"
+  },
+  {
+   "id": "CWA-F-1600228575",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "CWA 309A AO For Compliance",
+   "date": "1989-05-05",
+   "agency": "EPA",
+   "description": "Administrative - Formal",
+   "caseNumber": "06-1989-N451",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
+   "id": "CWA-I-1600192512",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1989-09-12",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00004897",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
   },
   {
    "id": "CAA-F-3400489478",
@@ -2116,6 +2916,160 @@
    "registryId": "110000597444"
   },
   {
+   "id": "CWA-I-1600192507",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1989-11-09",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00005217",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-F-1600192491",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "CWA 309A AO For Compliance",
+   "date": "1989-11-15",
+   "agency": "EPA",
+   "description": "Administrative - Formal",
+   "caseNumber": "06-1990-N251",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-I-1600192496",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1990-01-08",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00005801",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-F-1600192511",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "CWA 309A AO For Compliance",
+   "date": "1990-02-13",
+   "agency": "EPA",
+   "description": "Administrative - Formal",
+   "caseNumber": "06-1990-N169",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-I-1600228567",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1990-03-01",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00012524",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
+   "id": "CWA-I-1600192508",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1990-03-14",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00005157",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-I-1600228566",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1990-04-03",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00012887",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
+   "id": "CWA-F-1600228574",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "CWA 309G2B AO For Class II Penalties",
+   "date": "1990-05-23",
+   "agency": "EPA",
+   "description": "Administrative - Formal",
+   "caseNumber": "06-1989-N452",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
+   "id": "CWA-I-1600228555",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1990-06-06",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00015536",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
+   "id": "CWA-F-1600228551",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "CWA 309A AO For Compliance",
+   "date": "1990-07-11",
+   "agency": "EPA",
+   "description": "Administrative - Formal",
+   "caseNumber": "06-1990-N539",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
+   "id": "CWA-F-1600228550",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "CWA 309A AO For Compliance",
+   "date": "1990-07-17",
+   "agency": "EPA",
+   "description": "Administrative - Formal",
+   "caseNumber": "06-1990-N540",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
    "id": "CAA-F-3400489565",
    "program": "CAA",
    "kind": "formal",
@@ -2128,6 +3082,20 @@
    "registryId": "110000597444"
   },
   {
+   "id": "CWA-I-1600192495",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1990-09-24",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00005802",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
    "id": "RCRA-V-LAD041224932-264.A-09/28/1990",
    "program": "RCRA",
    "kind": "violation",
@@ -2136,6 +3104,20 @@
    "date": "1990-09-28",
    "resolvedDate": "1991-07-26",
    "agency": "州政府",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-I-1600192505",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1990-10-31",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00005369",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
    "companyCode": "1301",
    "registryId": "110000597444"
   },
@@ -2172,6 +3154,20 @@
    "sourceUrl": "https://echo.epa.gov/enforcement-case-report?id=06-1983-0019",
    "companyCode": "1301",
    "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-F-1600228563",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "CWA 309G2B AO For Class II Penalties",
+   "date": "1990-12-13",
+   "agency": "EPA",
+   "description": "Administrative - Formal",
+   "caseNumber": "06-1991-N547",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
   },
   {
    "id": "CAA-F-3400489476",
@@ -2279,6 +3275,20 @@
    "registryId": "110018925957"
   },
   {
+   "id": "CWA-I-1600192503",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1991-03-06",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00005409",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
    "id": "RCRA-E-TXT490011293-000-HQ210",
    "program": "RCRA",
    "kind": "formal",
@@ -2286,6 +3296,34 @@
    "date": "1991-03-18",
    "agency": "EPA",
    "proposedPenaltyUSD": 5625000,
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
+   "id": "CWA-I-1600192500",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1991-05-22",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00005544",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-F-1600228549",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "CWA 309A AO For Compliance",
+   "date": "1991-05-24",
+   "agency": "EPA",
+   "description": "Administrative - Formal",
+   "caseNumber": "06-1991-N712",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
    "companyCode": "1301",
    "registryId": "110018925957"
   },
@@ -2327,6 +3365,20 @@
    "registryId": "110000338536"
   },
   {
+   "id": "CWA-F-1600228548",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "CWA 309A AO For Compliance",
+   "date": "1992-06-30",
+   "agency": "EPA",
+   "description": "Administrative - Formal",
+   "caseNumber": "06-1992-N630",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
    "id": "CAA-F-3400489474",
    "program": "CAA",
    "kind": "formal",
@@ -2364,6 +3416,20 @@
    "registryId": "110000338536"
   },
   {
+   "id": "CWA-F-1600192487",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "CWA 309A AO For Compliance",
+   "date": "1992-08-26",
+   "agency": "EPA",
+   "description": "Administrative - Formal",
+   "caseNumber": "06-1992-N328",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
    "id": "CAA-V-3400366368-LA000A0000220330000290005",
    "program": "CAA",
    "kind": "violation",
@@ -2386,6 +3452,34 @@
    "description": "Administrative - Formal",
    "caseNumber": "LA000A0000220330000200081",
    "penaltyUSD": 7500,
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-F-1600192486",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "CWA 309A AO For Compliance",
+   "date": "1992-11-30",
+   "agency": "EPA",
+   "description": "Administrative - Formal",
+   "caseNumber": "06-1993-N093",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-F-1600192483",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "CWA 309A AO For Compliance",
+   "date": "1993-04-27",
+   "agency": "EPA",
+   "description": "Administrative - Formal",
+   "caseNumber": "06-1993-N182",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
    "companyCode": "1301",
    "registryId": "110000597444"
   },
@@ -2449,6 +3543,48 @@
    "registryId": "110000338536"
   },
   {
+   "id": "CWA-F-1600192480",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "CWA 309A AO For Compliance",
+   "date": "1993-11-30",
+   "agency": "EPA",
+   "description": "Administrative - Formal",
+   "caseNumber": "06-1994-N169",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-I-1600228545",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1994-01-19",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00017614",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
+   "id": "CWA-I-1600228538",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1994-03-08",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00018474",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
    "id": "CAA-F-3400489469",
    "program": "CAA",
    "kind": "formal",
@@ -2458,6 +3594,20 @@
    "description": "Administrative - Formal",
    "caseNumber": "LA000A0000220330000200092",
    "penaltyUSD": 10000,
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-I-1600192479",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1994-03-25",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00007002",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
    "companyCode": "1301",
    "registryId": "110000597444"
   },
@@ -2475,6 +3625,48 @@
    "registryId": "110000338536"
   },
   {
+   "id": "CWA-F-1600228539",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "CWA 309A AO For Compliance",
+   "date": "1994-05-17",
+   "agency": "EPA",
+   "description": "Administrative - Formal",
+   "caseNumber": "06-1994-N455",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
+   "id": "CWA-F-1600192504",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "CWA 309A AO For Compliance",
+   "date": "1994-05-31",
+   "agency": "EPA",
+   "description": "Administrative - Formal",
+   "caseNumber": "06-1994-N145",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-I-1600228543",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1994-06-08",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00018102",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
    "id": "CAA-F-3400608021",
    "program": "CAA",
    "kind": "formal",
@@ -2486,6 +3678,20 @@
    "penaltyUSD": 25000,
    "companyCode": "1301",
    "registryId": "110000338536"
+  },
+  {
+   "id": "CWA-I-1600228542",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1994-06-28",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00018107",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
   },
   {
    "id": "FEC-36018",
@@ -2531,6 +3737,34 @@
    "agency": "EPA",
    "companyCode": "1301",
    "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-I-1600228535",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1994-09-16",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00019022",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
+   "id": "CWA-I-1600228534",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1994-09-28",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00019034",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
   },
   {
    "id": "CAA-V-3400366372-LA000A0000220330000290009",
@@ -2582,6 +3816,48 @@
    "registryId": "110018925957"
   },
   {
+   "id": "CWA-F-1600192475",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "CWA 309A AO For Compliance",
+   "date": "1995-01-11",
+   "agency": "EPA",
+   "description": "Administrative - Formal",
+   "caseNumber": "06-1995-N083",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-F-1600228536",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "CWA 309A AO For Compliance",
+   "date": "1995-01-12",
+   "agency": "EPA",
+   "description": "Administrative - Formal",
+   "caseNumber": "06-1995-N258",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
+   "id": "CWA-I-1600192473",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1995-01-31",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00007290",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
    "id": "RCRA-E-LAD041224932-000-HQ120",
    "program": "RCRA",
    "kind": "informal",
@@ -2603,6 +3879,20 @@
    "penaltyUSD": 10000,
    "companyCode": "1301",
    "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-I-1600228532",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1995-04-13",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00019320",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
   },
   {
    "id": "FEC-35909",
@@ -2627,6 +3917,34 @@
    "registryId": "110018925957"
   },
   {
+   "id": "CWA-I-1600228533",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1995-06-02",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00019105",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
+   "id": "CWA-I-1600192468",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1995-09-19",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00007819",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
    "id": "CAA-I-3400489596",
    "program": "CAA",
    "kind": "informal",
@@ -2637,6 +3955,20 @@
    "caseNumber": "LA000A0000220330000200107",
    "companyCode": "1301",
    "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-I-1600228530",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1995-11-30",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00019591",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
   },
   {
    "id": "FEC-36453",
@@ -2655,6 +3987,20 @@
    "outcome": "Unilateral Administrative Order Without Adjudication",
    "description": "1. SECTION 309 OF THE CLEAN WATER ACT ( CWA ). 2. FORMOSA PLASTICS CORP. - BATON ROUGE BATON ROUGE, LOUISIANA 70821 3. RESPONDENT WAS IN VIOLATION OF SECTION 301 OF THE CWA BY EXCEEDING THE EFFLUENT LIMITATIONS OF ITS PERMIT DURING THE MONITORING PERIOD. 4. RELIEF SOUGHT PURSUANT TO SECTION 309 OF THE CWA, EPA IS- SUED AN ADMINISTRATIVE ORDER (AO) REQUIRING THE RESPOND- ENT TO COMPLY WITH THE EFFLUENT LIMITS OF ITS PERMIT.",
    "sourceUrl": "https://echo.epa.gov/enforcement-case-report?id=06-1996-0151",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-F-1600192467",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "CWA 309A AO For Compliance",
+   "date": "1996-01-12",
+   "agency": "EPA",
+   "description": "Administrative - Formal",
+   "caseNumber": "06-1996-N072",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
    "companyCode": "1301",
    "registryId": "110000597444"
   },
@@ -2685,6 +4031,20 @@
    "registryId": "110000597444"
   },
   {
+   "id": "CWA-I-1600192470",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1996-02-15",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00007804",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
    "id": "CAA-V-3400309682-03000F0000100030002700098",
    "program": "CAA",
    "kind": "violation",
@@ -2696,6 +4056,20 @@
    "pollutants": "VOLATILE ORGANIC COMPOUNDS (VOCS) Vinyl chloride",
    "companyCode": "1301",
    "registryId": "110000338536"
+  },
+  {
+   "id": "CWA-I-1600228531",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1996-06-04",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00019443",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
   },
   {
    "id": "CAA-I-3400489594",
@@ -2723,6 +4097,48 @@
    "registryId": "110000338536"
   },
   {
+   "id": "CWA-I-1600228527",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1996-09-30",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00020100",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
+   "id": "CWA-I-1600228561",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1996-10-21",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00015175",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
+   "id": "CWA-I-1600228526",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1996-11-13",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00020177",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
    "id": "RCRA-V-LAD041224932-262.C-11/27/1996",
    "program": "RCRA",
    "kind": "violation",
@@ -2733,6 +4149,20 @@
    "agency": "州政府",
    "companyCode": "1301",
    "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-I-1600228528",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1996-12-06",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00020013",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
   },
   {
    "id": "RCRA-V-LAD041224932-262.A-12/12/1996",
@@ -2783,6 +4213,34 @@
    "registryId": "110000338536"
   },
   {
+   "id": "CWA-I-1600192502",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1997-04-17",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00005428",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-I-1600192466",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1997-04-29",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00008054",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
    "id": "FEC-35885",
    "program": "FEC",
    "kind": "case",
@@ -2802,6 +4260,20 @@
    "sourceUrl": "https://echo.epa.gov/enforcement-case-report?id=06-1995-0007",
    "companyCode": "1301",
    "registryId": "110018925957"
+  },
+  {
+   "id": "CWA-I-1600192465",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1997-09-22",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00008611",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
   },
   {
    "id": "CAA-V-3601158149-TX000A0036583082003218001",
@@ -2859,6 +4331,34 @@
    "caseNumber": "LA000A0000220330000200121",
    "companyCode": "1301",
    "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-I-1600192464",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1997-12-10",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00008622",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-I-1600228525",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1998-01-06",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00021403",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
   },
   {
    "id": "RCRA-V-LAD041224932-262.C-02/02/1998",
@@ -2933,6 +4433,34 @@
    "registryId": "110000597444"
   },
   {
+   "id": "CWA-I-1600192485",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1998-03-17",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00006680",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-I-1600192469",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1998-03-24",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00007814",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
    "id": "CAA-F-3400489461",
    "program": "CAA",
    "kind": "formal",
@@ -2942,6 +4470,20 @@
    "description": "Administrative - Formal",
    "caseNumber": "LA000A0000220330000200126",
    "penaltyUSD": 5000,
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-I-1600192463",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1998-04-17",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00008804",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
    "companyCode": "1301",
    "registryId": "110000597444"
   },
@@ -3014,6 +4556,20 @@
    "registryId": "110000597444"
   },
   {
+   "id": "CWA-F-1600192462",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "CWA 309A AO For Compliance",
+   "date": "1998-07-15",
+   "agency": "EPA",
+   "description": "Administrative - Formal",
+   "caseNumber": "06-1998-N215",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
    "id": "CAA-F-3400489501",
    "program": "CAA",
    "kind": "formal",
@@ -3044,6 +4600,76 @@
    "description": "1. SECTION 113(D) OF THE CLEAN AIR ACT ( CAA ), 42 U.S.C. SECTION 7413(D). 2. FORMOSA PLASTICS CORPORATION P.O. BOX 271 (GULF STATES ROAD) BATON ROUGE, EAST BATON ROUGE PARISH, LOUISIANA 70821 3. RESPONDENT WAS IN VIOLATION OF SECTION 112 OF THE CAA BY (1) FAILURE TO COMPLY WITH PVC REACTOR REQUIREMENTS FOR EXHAUST GAS STREAMS, (2) FAILURE TO COMPLY WITH REQUIRE- MENTS FOR MANUAL VENTING OF GASES, (3) FAILURE TO COMPLY WITH EMISSIONS FOR ETHYLENE DICHLORIDE, VINYL CHLORIDE, AND POLYVINYL CHLORIDE PLANTS, (4) FAILURE TO COMPLY WITH LEAK DETECTION AND ELIMINATION REQUIREMENTS, (5) FAILURE TO COMPLY WITH EMISSIONS TESTING REQUIREMENTS, AND (6) VIOLATING THE HON STANDARDS FOR OPEN-ENDED VALVES OR LINES. 4. RELIEF SOUGHT PURSUANT TO SECTION 113(D) OF THE CAA, EPA PROPOSES A CIVIL PENALTY OF $37,647 FOR THE VIOLATIONS CITED.",
    "penaltyUSD": 25000,
    "sourceUrl": "https://echo.epa.gov/enforcement-case-report?id=06-1998-0551",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-I-1600192451",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1998-09-22",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00009257",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-I-1600228524",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1998-10-01",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00021604",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
+   "id": "CWA-I-1600192456",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1998-11-03",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00008966",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-I-1600192454",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1998-11-30",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00009111",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-I-1600192448",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1998-12-07",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00009388",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
    "companyCode": "1301",
    "registryId": "110000597444"
   },
@@ -3096,6 +4722,20 @@
    "registryId": "110000597444"
   },
   {
+   "id": "CWA-I-1600228523",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1999-02-09",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00021854",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
    "id": "FEC-38950",
    "program": "FEC",
    "kind": "case",
@@ -3112,6 +4752,20 @@
    "outcome": "Unilateral Administrative Order Without Adjudication",
    "description": "1. SECTION 309(A) OF THE CLEAN WATER ACT ( CWA ), 33 U.S.C. SECTION 1319(A). 2. FORMOSA PLASTICS CORPORATION, A DELAWARE CORPORATION GULF STATES ROAD BATON ROUGE, EAST BATON ROUGE, LOUISIANA 70805 3. RESPONDENT WAS IN VIOLATION OF SECTION 301 OF THE CWA BY DISCHARGING POLLUTANTS FROM ITS FACILITY WHICH EXCEEDED PERMITTED EFFLUENT LIMITATIONS, AS SHOWN IN THE CERTIFIED DMRS FILED WITH EPA. 4. RELIEF SOUGHT PURSUANT TO SECTION 309(A) OF THE CWA, EPA ISSUED THE RESPONDENT AN ADMINISTRATIVE ORDER (AO). THE AO ORDERED THE RESPONDENT TO: A) WITHIN 30 DAYS, TAKE WHATEVER CORRECTIVE ACTION IS NECESSARY TO ELIMINATE AND PREVENT RECURRENCE OF THE BOD VIOLATIONS CITED, B) WITHIN 30 DAYS, SUBMIT A WRITTEN REPORT DETAILING THE SPECIFIC ACTIONS TAKEN TO CORRECT THE VIOLATIONS AND EXPLAIN HOW THEY WILL PREVENT RECURRENCE, C) IF NOT POSSIBLE TO COR- RECT THE VIOLATIONS WITHIN 30 DAYS, WITHIN 30 DAYS, SUB- MIT A COMPREHENSIVE PLAN TO SO IN SHORTEST POSSIBLE TIME, D) ACCOMPLISH THE TASKS AND COMPLY WITH THE SCHEDULE OF ACTIVITIES OF THIS AO, E) SUBMIT CONSTRUCTION PROGRESS REPORTS MONTHLY UNTIL COMPLETION OF THE PROPOSED IMPROVE- MENTS, AND F) ON JAN. 31, 2000, REPORT COMPLIANCE OR NON- COMPLIANCE WITH THE REQUIREMENTS OF ACTION D.",
    "sourceUrl": "https://echo.epa.gov/enforcement-case-report?id=06-1999-0279",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-F-1600192453",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "CWA 309A AO For Compliance",
+   "date": "1999-02-12",
+   "agency": "EPA",
+   "description": "Administrative - Formal",
+   "caseNumber": "06-1999-N083",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
    "companyCode": "1301",
    "registryId": "110000597444"
   },
@@ -3151,6 +4805,20 @@
    "registryId": "110000597444"
   },
   {
+   "id": "CWA-I-1600192457",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1999-06-07",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00008957",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
    "id": "RCRA-E-DED002336394-000-DE121",
    "program": "RCRA",
    "kind": "informal",
@@ -3177,6 +4845,20 @@
    "outcome": "Unilateral Administrative Order Without Adjudication",
    "description": "1. SECTION 309(A) OF THE CLEAN WATER ACT ( CWA ), 33 U.S.C. SECTION 1319(A). 2. FORMOSA PLASTICS CORPORATION, LOUISIANA, A DELAWARE CORP. GULF STATES ROAD BATON ROUGE, EAST BATON ROUGE PARISH, LOUISIANA 70821 3. RESPONDENT WAS IN VIOLATION OF SECTION 301 OF THE CWA BY DISCHARGING POLLUTANTS FROM ITS FACILITY THAT EXCEEDED PERMITTED EFFLUENT LIMITATIONS, AS SHOWN IN THE CERTIFIED DMRS FILED WITH EPA. 4. RELIEF SOUGHT PURSUANT TO SECTION 309(A) OF THE CWA, EPA ISSUED THE RESPONDENT AN ADMINISTRATIVE ORDER (AO). THE AO ORDERED THE RESPONDENT TO: A) ACCOMPLISH THE TASKS AND COMPLY WITH THE SCHEDULE OF ACTIVITIES CONTAINED IN THIS AO, B) SUBMIT CONSTRUCTION PROGRESS REPORTS FOR EACH MONTH BEGINNING IN AUG. 1999, AND CONTINUING UNTIL JAN. 2001, OR UNTIL COMPLETION OF THE PROPOSED IMPROVEMENTS, AND C) ON JAN. 31, 2000, AND JAN. 31, 2001, REPORT COM- PLIANCE OR NONCOMPLIANCE WITH THE REQUIREMENTS OF ACTION A.",
    "sourceUrl": "https://echo.epa.gov/enforcement-case-report?id=06-1999-0715",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-F-1600192449",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "CWA 309A AO For Compliance",
+   "date": "1999-07-26",
+   "agency": "EPA",
+   "description": "Administrative - Formal",
+   "caseNumber": "06-1999-N092",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
    "companyCode": "1301",
    "registryId": "110000597444"
   },
@@ -3216,6 +4898,20 @@
    "caseNumber": "LA000A0000220330000200140",
    "companyCode": "1301",
    "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-I-1600228522",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "1999-08-20",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00022071",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
   },
   {
    "id": "CAA-V-3400309646-DE000A0000100030002700139",
@@ -3299,6 +4995,20 @@
    "outcome": "Unilateral Administrative Order Without Adjudication",
    "description": "1. SECTIONS 308(A) AND 309(A) OF THE CLEAN WATER ACT ( CWA ) 33 U.S.C. SECTIONS 1318(A) AND 1319(A). 2. FORMOSA PLASTICS CORPORATION, LOUISIANA, A DELAWARE CORP. GULF STATES ROAD BATON ROUGE, EAST BATON ROUGE PARISH, LOUISIANA 70805 3. RESPONDENT WAS IN VIOLATION OF SECTION 301 OF THE CWA BY DISCHARGING POLLUTANTS FROM ITS FACILITY WHICH EXCEEDED PERMITTED EFFLUENT LIMITATIONS, AS SHOWN IN THE CERTIFIED DMRS FILED WITH EPA. 4. RELIEF SOUGHT PURSUANT TO SECTION 309(A) OF THE CWA, EPA ISSUED THE RESPONDENT AN ADMINISTRATIVE ORDER (AO) THAT REQUIRED THE RESPONDENT TO: A) WITHIN 30 DAYS, TAKE WHAT- EVER CORRECTIVE ACTION IS NECESSARY TO ELIMINATE AND PRE- VENT RECURRENCE OF THE VIOLATIONS CITED; B) WITHIN 30 DAYS, SUBMIT A WRITTEN REPORT DETAILING THE SPECIFIC AC- TIONS TAKEN AND EXPLAIN HOW THESE ACTIONS WILL PREVENT RECURRENCE, C) IF NOT POSSIBLE TO CORRECT THE VIOLATIONS IN 30 DAYS, WITHIN 30 DAYS, SUBMIT A COMPREHENSIVE PLAN TO DO SO IN THE SHORTEST POSSIBLE TIME; D) WITHIN 45 DAYS ARRANGE TO MEET WITH EPA AND SHOW CAUSE; AND E) ALL TERMS AND CONDITIONS OF THE PERMIT ARE EFFECTIVE AS ISSUED, AND REQUIRE FULL COMPLIANCE.",
    "sourceUrl": "https://echo.epa.gov/enforcement-case-report?id=06-2000-0153",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-F-1600192445",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "CWA 309A AO For Compliance",
+   "date": "1999-12-22",
+   "agency": "EPA",
+   "description": "Administrative - Formal",
+   "caseNumber": "06-2000-N111",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
    "companyCode": "1301",
    "registryId": "110000597444"
   },
@@ -3405,6 +5115,20 @@
    "registryId": "110018925957"
   },
   {
+   "id": "CWA-F-1600228521",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "CWA 309A AO For Compliance",
+   "date": "2000-06-26",
+   "agency": "EPA",
+   "description": "Administrative - Formal",
+   "caseNumber": "06-2000-N293",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
    "id": "CAA-V-3601159565-TX000A0594583502003218001",
    "program": "CAA",
    "kind": "violation",
@@ -3439,6 +5163,21 @@
    "caseNumber": "DE000A0000100030002700138",
    "companyCode": "1301",
    "registryId": "110000338536"
+  },
+  {
+   "id": "CWA-F-1600192437",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "State CWA Non Penalty AO",
+   "date": "2000-09-22",
+   "agency": "州政府",
+   "description": "Administrative - Formal",
+   "caseNumber": "LA-N00002983",
+   "penaltyUSD": 100000,
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
   },
   {
    "id": "CAA-V-3400366345-LA000A0000220330000200150",
@@ -3604,6 +5343,20 @@
    "registryId": "110000338536"
   },
   {
+   "id": "CWA-I-1600228520",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "2001-07-03",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00022996",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
    "id": "CAA-I-3400608006",
    "program": "CAA",
    "kind": "informal",
@@ -3614,6 +5367,34 @@
    "caseNumber": "DE000A0000100030002700159",
    "companyCode": "1301",
    "registryId": "110000338536"
+  },
+  {
+   "id": "CWA-I-1600228517",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "2002-05-23",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00023289",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
+   "id": "CWA-I-1600192432",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "2002-05-30",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "LA-N00004903",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
   },
   {
    "id": "FEC-41808",
@@ -3695,6 +5476,20 @@
    "registryId": "110000597444"
   },
   {
+   "id": "CWA-F-1600192430",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "State CWA Non Penalty AO",
+   "date": "2002-12-24",
+   "agency": "州政府",
+   "description": "Administrative - Formal",
+   "caseNumber": "LA-N00005628",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
    "id": "CAA-F-3400489509",
    "program": "CAA",
    "kind": "formal",
@@ -3731,6 +5526,35 @@
    "penaltyUSD": 300000,
    "companyCode": "1301",
    "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-F-1600192431",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "State Administrative Order of Consent",
+   "date": "2003-01-07",
+   "agency": "州政府",
+   "description": "Administrative - Formal",
+   "caseNumber": "LA-N00005373",
+   "penaltyUSD": 300000,
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-I-1600228518",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "2003-01-23",
+   "agency": "EPA",
+   "description": "Administrative - Informal",
+   "caseNumber": "06-N00023225",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
   },
   {
    "id": "RCRA-V-TXT490011293-279.C-02/06/2003",
@@ -4039,6 +5863,21 @@
    "agency": "EPA",
    "description": "Administrative - Formal",
    "caseNumber": "06-2004-A025",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-F-1600192428",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "State Administrative Order of Consent",
+   "date": "2004-05-11",
+   "agency": "州政府",
+   "description": "Administrative - Formal",
+   "caseNumber": "LA-N00007716",
+   "penaltyUSD": 155200,
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
    "companyCode": "1301",
    "registryId": "110000597444"
   },
@@ -4410,6 +6249,20 @@
    "registryId": "110018925957"
   },
   {
+   "id": "CWA-I-1600192427",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "2006-04-06",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "LA-N00015812",
+   "facilityId": "3411996",
+   "npdesId": "LA0006149",
+   "companyCode": "1301",
+   "registryId": "110000597444"
+  },
+  {
    "id": "CAA-I-3400607972",
    "program": "CAA",
    "kind": "informal",
@@ -4696,6 +6549,20 @@
    "description": "Stack Test",
    "companyCode": "1301",
    "registryId": "110018925957"
+  },
+  {
+   "id": "CWA-I-800042657",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "2007-08-28",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "IL-N00007793",
+   "facilityId": "800001334",
+   "npdesId": "IL0001350",
+   "companyCode": "1301",
+   "registryId": "110000722166"
   },
   {
    "id": "CAA-F-3600356203",
@@ -5511,6 +7378,20 @@
    "registryId": "110000338536"
   },
   {
+   "id": "CWA-I-1800069968",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "2010-01-11",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "TX-200030663",
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
    "id": "CAA-F-600010334",
    "program": "CAA",
    "kind": "formal",
@@ -5534,6 +7415,22 @@
    "penaltyUSD": 589000,
    "companyCode": "1301",
    "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-F-600010334",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "Civil Judicial Action",
+   "date": "2010-02-03",
+   "agency": "EPA",
+   "description": "Judicial",
+   "caseNumber": "06-2006-3410",
+   "penaltyUSD": 2800000,
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957",
+   "duplicateOf": "FEC"
   },
   {
    "id": "CAA-F-3400607938",
@@ -5812,6 +7709,20 @@
    "registryId": "110000338536"
   },
   {
+   "id": "CWA-I-2800000741",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "2011-05-23",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "DE-N00000036",
+   "facilityId": "2800000009",
+   "npdesId": "DE0000612",
+   "companyCode": "1301",
+   "registryId": "110000338536"
+  },
+  {
    "id": "CAA-V-3400309663-DE000A0000100030002700673",
    "program": "CAA",
    "kind": "violation",
@@ -5835,6 +7746,21 @@
    "caseNumber": "DE000A0000100030002700657",
    "companyCode": "1301",
    "registryId": "110000338536"
+  },
+  {
+   "id": "CWA-F-2600083046",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "State CWA Penalty AO",
+   "date": "2011-07-31",
+   "agency": "州政府",
+   "description": "Administrative - Formal",
+   "caseNumber": "TX-2010-1903-IWD-E",
+   "penaltyUSD": 68600,
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
   },
   {
    "id": "CAA-V-3400309661-DE000A0000100030002700672",
@@ -5905,6 +7831,20 @@
    "agency": "州政府",
    "description": "Administrative - Informal",
    "caseNumber": "DE000A0000100030002700670",
+   "companyCode": "1301",
+   "registryId": "110000338536"
+  },
+  {
+   "id": "CWA-I-3400037767",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "2012-02-29",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "DE-200077523",
+   "facilityId": "2800000009",
+   "npdesId": "DE0000612",
    "companyCode": "1301",
    "registryId": "110000338536"
   },
@@ -6715,6 +8655,20 @@
    "registryId": "110000338536"
   },
   {
+   "id": "CWA-I-3600787994",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "2016-08-22",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "DE-12136",
+   "facilityId": "2800000009",
+   "npdesId": "DE0000612",
+   "companyCode": "1301",
+   "registryId": "110000338536"
+  },
+  {
    "id": "RCRA-E-DED002336394-001-DE312",
    "program": "RCRA",
    "kind": "formal",
@@ -6961,6 +8915,21 @@
    "agency": "州政府",
    "companyCode": "1301",
    "registryId": "110000597444"
+  },
+  {
+   "id": "CWA-F-3601727027",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "State CWA Penalty AO",
+   "date": "2019-01-17",
+   "agency": "州政府",
+   "description": "Administrative - Formal",
+   "caseNumber": "TX-2017-0737-IWD-E",
+   "penaltyUSD": 121875,
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
   },
   {
    "id": "RCRA-E-LAD041224932-217-HQ120",
@@ -7579,6 +9548,21 @@
    "registryId": "110018925957"
   },
   {
+   "id": "CWA-F-3604616617",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "State CWA Penalty AO",
+   "date": "2025-09-30",
+   "agency": "州政府",
+   "description": "Administrative - Formal",
+   "caseNumber": "TX-2019-0623-IWD-E",
+   "penaltyUSD": 274500,
+   "facilityId": "1600028209",
+   "npdesId": "TX0085570",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
    "id": "RCRA-V-TXT490011293-270.A-10/02/2025",
    "program": "RCRA",
    "kind": "violation",
@@ -7944,6 +9928,20 @@
    "registryId": "110000353965"
   },
   {
+   "id": "CWA-I-1600190194",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "2004-09-27",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "LA-N00008268",
+   "facilityId": "1600011139",
+   "npdesId": "LA0082279",
+   "companyCode": "1303",
+   "registryId": "110002066120"
+  },
+  {
    "id": "RCRA-V-LAD985213479-262.C-01/13/2005",
    "program": "RCRA",
    "kind": "violation",
@@ -8000,6 +9998,34 @@
    "caseNumber": "SC000A2320003400116",
    "companyCode": "1303",
    "registryId": "110000353965"
+  },
+  {
+   "id": "CWA-I-3600068427",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "2015-02-11",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "LA-200111662",
+   "facilityId": "1600011139",
+   "npdesId": "LA0082279",
+   "companyCode": "1303",
+   "registryId": "110002066120"
+  },
+  {
+   "id": "CWA-F-3600161395",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "State CWA Non Penalty AO",
+   "date": "2015-06-16",
+   "agency": "州政府",
+   "description": "Administrative - Formal",
+   "caseNumber": "LA-WECN1500080",
+   "facilityId": "1600011139",
+   "npdesId": "LA0082279",
+   "companyCode": "1303",
+   "registryId": "110002066120"
   },
   {
    "id": "CAA-V-3600675654-SC000A2320003400152",
@@ -8064,6 +10090,21 @@
    "registryId": "110000353965"
   },
   {
+   "id": "CWA-F-3601527867",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "State Administrative Order of Consent",
+   "date": "2018-11-29",
+   "agency": "州政府",
+   "description": "Administrative - Formal",
+   "caseNumber": "LA-SAWE180044",
+   "penaltyUSD": 5000,
+   "facilityId": "1600011139",
+   "npdesId": "LA0082279",
+   "companyCode": "1303",
+   "registryId": "110002066120"
+  },
+  {
    "id": "CAA-I-3602709302",
    "program": "CAA",
    "kind": "informal",
@@ -8088,6 +10129,119 @@
    "registryId": "110002066120"
   },
   {
+   "id": "CWA-F-3603807292",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "State Administrative Order of Consent",
+   "date": "2023-11-02",
+   "agency": "州政府",
+   "description": "Administrative - Formal",
+   "caseNumber": "WV-10184",
+   "penaltyUSD": 30000,
+   "facilityId": "3200025465",
+   "npdesId": "WV0000132",
+   "companyCode": "1402",
+   "registryId": "110000585956"
+  },
+  {
+   "id": "CWA-I-3602163624",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Violation",
+   "date": "2019-11-21",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "NC-NOV-2019-PC-0745",
+   "facilityId": "3600802504",
+   "npdesId": "NCG170425",
+   "companyCode": "1460",
+   "registryId": "110000348106"
+  },
+  {
+   "id": "CWA-I-3602177058",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Noncompliance Issued",
+   "date": "2019-09-18",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA434214",
+   "facilityId": "3601123776",
+   "npdesId": "CAW511595",
+   "companyCode": "1515",
+   "registryId": "110070621550"
+  },
+  {
+   "id": "CWA-I-3603697693",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "2023-08-28",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "AL-18930689341682393",
+   "facilityId": "3601213679",
+   "npdesId": "ALG180909",
+   "companyCode": "1524",
+   "registryId": "110070817560"
+  },
+  {
+   "id": "CWA-I-3601522547",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Noncompliance Issued",
+   "date": "2018-08-13",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA430177",
+   "facilityId": "3600735006",
+   "npdesId": "CAZ471711",
+   "companyCode": "1528",
+   "registryId": "110027373900"
+  },
+  {
+   "id": "CWA-I-3601563333",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Violation",
+   "date": "2018-09-20",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA430697",
+   "facilityId": "3600735006",
+   "npdesId": "CAZ471711",
+   "companyCode": "1528",
+   "registryId": "110027373900"
+  },
+  {
+   "id": "CWA-I-3603044664",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Violation",
+   "date": "2021-10-18",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA443683",
+   "facilityId": "3600735006",
+   "npdesId": "CAZ471711",
+   "companyCode": "1528",
+   "registryId": "110027373900"
+  },
+  {
+   "id": "CWA-I-3603045072",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Violation",
+   "date": "2022-01-03",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA444978",
+   "facilityId": "3600735006",
+   "npdesId": "CAZ471711",
+   "companyCode": "1528",
+   "registryId": "110027373900"
+  },
+  {
    "id": "RCRA-V-CAR000005421-262.C-06/04/2020",
    "program": "RCRA",
    "kind": "violation",
@@ -8096,6 +10250,20 @@
    "date": "2020-06-04",
    "resolvedDate": "2020-06-04",
    "agency": "州政府",
+   "companyCode": "1726",
+   "registryId": "110000479330"
+  },
+  {
+   "id": "CWA-I-3602260248",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Noncompliance Issued",
+   "date": "2020-08-17",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA437166",
+   "facilityId": "3600725948",
+   "npdesId": "CAZ213328",
    "companyCode": "1726",
    "registryId": "110000479330"
   },
@@ -8123,6 +10291,20 @@
    "penaltyUSD": 6900,
    "companyCode": "2027",
    "registryId": "110018919946"
+  },
+  {
+   "id": "CWA-I-3601936297",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Noncompliance Issued",
+   "date": "2019-08-02",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "FL-NCOMET12372158",
+   "facilityId": "3601061039",
+   "npdesId": "FLR10SJ36",
+   "companyCode": "2027",
+   "registryId": "110070263045"
   },
   {
    "id": "CAA-F-3601761826",
@@ -8194,6 +10376,20 @@
    "agency": "州政府",
    "companyCode": "2027",
    "registryId": "110018919946"
+  },
+  {
+   "id": "CWA-I-3605180445",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Violation",
+   "date": "2026-09-18",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "TN-784903",
+   "facilityId": "3600256978",
+   "npdesId": "TNR050509",
+   "companyCode": "2027",
+   "registryId": "110000372178"
   },
   {
    "id": "CAA-V-3400366698-LA000A0000220470014700005",
@@ -9893,6 +12089,20 @@
    "registryId": "110043745114"
   },
   {
+   "id": "CWA-I-3603515682",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Violation",
+   "date": "2022-12-09",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA448815",
+   "facilityId": "3601123625",
+   "npdesId": "CAZ510817",
+   "companyCode": "2308",
+   "registryId": "110070619600"
+  },
+  {
    "id": "RCRA-V-SCD000003558-262.A-09/22/2022",
    "program": "RCRA",
    "kind": "violation",
@@ -10201,6 +12411,20 @@
    "registryId": "110000490772"
   },
   {
+   "id": "CWA-I-3400006645",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "2011-05-09",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "WA-120563",
+   "facilityId": "3400001710",
+   "npdesId": "WAR003032",
+   "companyCode": "2330",
+   "registryId": "110000490772"
+  },
+  {
    "id": "RCRA-V-WAH000002246-262.A-02/20/2013",
    "program": "RCRA",
    "kind": "violation",
@@ -10295,6 +12519,20 @@
    "registryId": "110000490772"
   },
   {
+   "id": "CWA-I-3602319447",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Noncompliance Issued",
+   "date": "2020-10-23",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA438264",
+   "facilityId": "3600729147",
+   "npdesId": "CAZ423773",
+   "companyCode": "2330",
+   "registryId": "110070091743"
+  },
+  {
    "id": "RCRA-V-WAH000002246-262.A-05/12/2021",
    "program": "RCRA",
    "kind": "violation",
@@ -10341,6 +12579,90 @@
    "registryId": "110071274693"
   },
   {
+   "id": "CWA-I-3603673588",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Noncompliance Issued",
+   "date": "2023-08-01",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA450328",
+   "facilityId": "3600734765",
+   "npdesId": "CAZ469513",
+   "companyCode": "2383",
+   "registryId": "110000477608"
+  },
+  {
+   "id": "CWA-I-3601766104",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Violation",
+   "date": "2019-03-01",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA432564",
+   "facilityId": "3600734481",
+   "npdesId": "CAZ466559",
+   "companyCode": "2603",
+   "registryId": "110070095996"
+  },
+  {
+   "id": "CWA-I-2600034003",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Violation",
+   "date": "2011-05-24",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "AL-200048688",
+   "facilityId": "1600003204",
+   "npdesId": "ALG140006",
+   "companyCode": "2607",
+   "registryId": "110010105652"
+  },
+  {
+   "id": "CWA-I-3400215138",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "2014-02-25",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "AL-1-004386",
+   "facilityId": "1600003204",
+   "npdesId": "ALG140006",
+   "companyCode": "2607",
+   "registryId": "110010105652"
+  },
+  {
+   "id": "CWA-I-3600076997",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "2015-01-28",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "AL-1-005517",
+   "facilityId": "1600003204",
+   "npdesId": "ALG140006",
+   "companyCode": "2607",
+   "registryId": "110010105652"
+  },
+  {
+   "id": "CWA-I-3600189500",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "2015-08-06",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "AL-1-005959",
+   "facilityId": "1600003204",
+   "npdesId": "ALG140006",
+   "companyCode": "2607",
+   "registryId": "110010105652"
+  },
+  {
    "id": "RCRA-V-ALR000049833-XXS-05/05/2016",
    "program": "RCRA",
    "kind": "violation",
@@ -10373,6 +12695,90 @@
    "agency": "州政府",
    "companyCode": "2607",
    "registryId": "110010105652"
+  },
+  {
+   "id": "CWA-I-3601160866",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Violation",
+   "date": "2017-08-24",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "AL-29-003731",
+   "facilityId": "1600003204",
+   "npdesId": "ALG140006",
+   "companyCode": "2607",
+   "registryId": "110010105652"
+  },
+  {
+   "id": "CWA-I-3603515648",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Violation",
+   "date": "2022-12-09",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA448693",
+   "facilityId": "3600995140",
+   "npdesId": "CAZ502731",
+   "companyCode": "2723",
+   "registryId": "110070097528"
+  },
+  {
+   "id": "CWA-I-3603044306",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Violation",
+   "date": "2021-10-18",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA443033",
+   "facilityId": "3600825999",
+   "npdesId": "CAZ494423",
+   "companyCode": "2908",
+   "registryId": "110070203845"
+  },
+  {
+   "id": "CWA-I-3603045156",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Violation",
+   "date": "2022-01-03",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA445099",
+   "facilityId": "3600825999",
+   "npdesId": "CAZ494423",
+   "companyCode": "2908",
+   "registryId": "110070203845"
+  },
+  {
+   "id": "CWA-I-3603515759",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Violation",
+   "date": "2022-12-09",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA448950",
+   "facilityId": "3600825999",
+   "npdesId": "CAZ494423",
+   "companyCode": "2908",
+   "registryId": "110070203845"
+  },
+  {
+   "id": "CWA-F-800049405",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "CWA 309G2B AO For Class II Penalties",
+   "date": "1998-09-30",
+   "agency": "EPA",
+   "description": "Administrative - Formal",
+   "caseNumber": "05-1998-N017",
+   "facilityId": "800003458",
+   "npdesId": "ILP000173",
+   "companyCode": "3357",
+   "registryId": "110064649359"
   },
   {
    "id": "CAA-I-3400359980",
@@ -10444,6 +12850,230 @@
    "agency": "州政府",
    "companyCode": "4534",
    "registryId": "110000349935"
+  },
+  {
+   "id": "CWA-I-1800033902",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Violation",
+   "date": "2009-09-03",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "AL-200020938",
+   "facilityId": "1600003157",
+   "npdesId": "ALG120502",
+   "companyCode": "4538",
+   "registryId": "110020524798"
+  },
+  {
+   "id": "CWA-I-3601977203",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Noncompliance Issued",
+   "date": "2019-09-06",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA433988",
+   "facilityId": "3600731890",
+   "npdesId": "CAZ451490",
+   "companyCode": "5009",
+   "registryId": "110070094063"
+  },
+  {
+   "id": "CWA-I-3602016633",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Noncompliance Issued",
+   "date": "2019-10-15",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA434252",
+   "facilityId": "3600731890",
+   "npdesId": "CAZ451490",
+   "companyCode": "5009",
+   "registryId": "110070094063"
+  },
+  {
+   "id": "CWA-I-3602283286",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Violation",
+   "date": "2020-09-04",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA437368",
+   "facilityId": "3600731890",
+   "npdesId": "CAZ451490",
+   "companyCode": "5009",
+   "registryId": "110070094063"
+  },
+  {
+   "id": "CWA-I-3603044785",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Noncompliance Issued",
+   "date": "2021-11-24",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA443925",
+   "facilityId": "3600731890",
+   "npdesId": "CAZ451490",
+   "companyCode": "5009",
+   "registryId": "110070094063"
+  },
+  {
+   "id": "CWA-I-3604406220",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Violation",
+   "date": "2025-05-15",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA456057",
+   "facilityId": "3600731890",
+   "npdesId": "CAZ451490",
+   "companyCode": "5009",
+   "registryId": "110070094063"
+  },
+  {
+   "id": "CWA-I-3601803219",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "2019-03-26",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "AL-1-008391",
+   "facilityId": "3600813020",
+   "npdesId": "ALR10BCYS",
+   "companyCode": "5460",
+   "registryId": "110070159864"
+  },
+  {
+   "id": "CWA-I-2600057833",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "2010-08-10",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "MN-200052717",
+   "facilityId": "2400058479",
+   "npdesId": "MNG580150",
+   "companyCode": "6120",
+   "registryId": "110028275060"
+  },
+  {
+   "id": "CWA-I-3000054332",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "2011-12-29",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "MN-200073154",
+   "facilityId": "2400058479",
+   "npdesId": "MNG580150",
+   "companyCode": "6120",
+   "registryId": "110028275060"
+  },
+  {
+   "id": "CWA-I-3600480100",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "2015-01-05",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "MN-200132212",
+   "facilityId": "2400058479",
+   "npdesId": "MNG580150",
+   "companyCode": "6120",
+   "registryId": "110028275060"
+  },
+  {
+   "id": "CWA-I-3600805147",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "2015-01-05",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "MN-200141450",
+   "facilityId": "2400058479",
+   "npdesId": "MNG580150",
+   "companyCode": "6120",
+   "registryId": "110028275060"
+  },
+  {
+   "id": "CWA-I-600092269",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Violation",
+   "date": "2006-08-17",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "GA-200008844",
+   "facilityId": "600012615",
+   "npdesId": "GAU050264",
+   "companyCode": "6152",
+   "registryId": "110028077239"
+  },
+  {
+   "id": "CWA-I-600092283",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Violation",
+   "date": "2006-09-29",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "GA-200008845",
+   "facilityId": "600012615",
+   "npdesId": "GAU050264",
+   "companyCode": "6152",
+   "registryId": "110028077239"
+  },
+  {
+   "id": "CWA-I-600024994",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Violation",
+   "date": "2006-12-28",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "GA-200004376",
+   "facilityId": "600012615",
+   "npdesId": "GAU050264",
+   "companyCode": "6152",
+   "registryId": "110028077239"
+  },
+  {
+   "id": "CWA-I-600085858",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Violation",
+   "date": "2007-06-22",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "GA-200008533",
+   "facilityId": "600012615",
+   "npdesId": "GAU050264",
+   "companyCode": "6152",
+   "registryId": "110028077239"
+  },
+  {
+   "id": "CWA-F-3601078637",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "Order of Suspension or Revocation",
+   "date": "2016-03-11",
+   "agency": "州政府",
+   "description": "Administrative - Formal",
+   "caseNumber": "AL-8-000068",
+   "facilityId": "3600704654",
+   "npdesId": "ALR10B876",
+   "companyCode": "6221",
+   "registryId": "110070072471"
   },
   {
    "id": "RCRA-V-ILD069942662-264.D-05/30/2001",
@@ -10562,6 +13192,34 @@
    "registryId": "110018295762"
   },
   {
+   "id": "CWA-I-3603993444",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "MO-NBIN00083559",
+   "facilityId": "2400049760",
+   "npdesId": "MO0000299",
+   "companyCode": "6488",
+   "registryId": "110000442101"
+  },
+  {
+   "id": "CWA-F-3400153401",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "State CWA Penalty AO",
+   "date": "2013-05-02",
+   "agency": "州政府",
+   "description": "Administrative - Formal",
+   "caseNumber": "MN-STIP05022013",
+   "penaltyUSD": 8479,
+   "facilityId": "2400002617",
+   "npdesId": "MN0041769",
+   "companyCode": "6496",
+   "registryId": "110003825629"
+  },
+  {
    "id": "FEC-3603786357",
    "program": "FEC",
    "kind": "case",
@@ -10580,6 +13238,146 @@
    "sourceUrl": "https://echo.epa.gov/enforcement-case-report?id=09-2024-4736",
    "companyCode": "6534",
    "registryId": "110064691668"
+  },
+  {
+   "id": "CWA-I-3602488596",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Violation",
+   "date": "2021-04-09",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA440431",
+   "facilityId": "3600726744",
+   "npdesId": "CAZ293043",
+   "companyCode": "6670",
+   "registryId": "110000861354"
+  },
+  {
+   "id": "CWA-F-3604293003",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "State CWA Penalty AO",
+   "date": "2022-04-27",
+   "agency": "州政府",
+   "description": "Administrative - Formal",
+   "caseNumber": "CA-ZFEA446490",
+   "facilityId": "3600726744",
+   "npdesId": "CAZ293043",
+   "companyCode": "6670",
+   "registryId": "110000861354"
+  },
+  {
+   "id": "CWA-F-3604293076",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "State CWA Penalty AO",
+   "date": "2023-08-02",
+   "agency": "州政府",
+   "description": "Administrative - Formal",
+   "caseNumber": "CA-ZFEA450376",
+   "facilityId": "3600726744",
+   "npdesId": "CAZ293043",
+   "companyCode": "6670",
+   "registryId": "110000861354"
+  },
+  {
+   "id": "CWA-F-3604293201",
+   "program": "CWA",
+   "kind": "formal",
+   "type": "State CWA Penalty AO",
+   "date": "2024-07-25",
+   "agency": "州政府",
+   "description": "Administrative - Formal",
+   "caseNumber": "CA-ZFEA453726",
+   "facilityId": "3600726744",
+   "npdesId": "CAZ293043",
+   "companyCode": "6670",
+   "registryId": "110000861354"
+  },
+  {
+   "id": "CWA-I-2600046039",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Letter of Violation/ Warning Letter",
+   "date": "2009-11-09",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "MN-200050243",
+   "facilityId": "2400053716",
+   "npdesId": "MNG580153",
+   "companyCode": "6761",
+   "registryId": "110028295529"
+  },
+  {
+   "id": "CWA-I-3601347793",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Violation",
+   "date": "2018-02-23",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA429169",
+   "facilityId": "3600731234",
+   "npdesId": "CAZ445267",
+   "companyCode": "6887",
+   "registryId": "110070093475"
+  },
+  {
+   "id": "CWA-I-3601553931",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Noncompliance Issued",
+   "date": "2018-08-16",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA430480",
+   "facilityId": "3600731234",
+   "npdesId": "CAZ445267",
+   "companyCode": "6887",
+   "registryId": "110070093475"
+  },
+  {
+   "id": "CWA-I-3601977147",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Noncompliance Issued",
+   "date": "2019-08-27",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA433931",
+   "facilityId": "3600731234",
+   "npdesId": "CAZ445267",
+   "companyCode": "6887",
+   "registryId": "110070093475"
+  },
+  {
+   "id": "CWA-I-3603044955",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Noncompliance Issued",
+   "date": "2021-08-30",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA444367",
+   "facilityId": "3600731234",
+   "npdesId": "CAZ445267",
+   "companyCode": "6887",
+   "registryId": "110070093475"
+  },
+  {
+   "id": "CWA-I-3603045491",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Noncompliance Issued",
+   "date": "2022-02-14",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA446176",
+   "facilityId": "3600731234",
+   "npdesId": "CAZ445267",
+   "companyCode": "6887",
+   "registryId": "110070093475"
   },
   {
    "id": "RCRA-V-MAC300013125-264.B-09/13/2012",
@@ -10717,6 +13515,62 @@
    "agency": "州政府",
    "companyCode": "8114",
    "registryId": "110003152944"
+  },
+  {
+   "id": "CWA-I-3602331415",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Violation",
+   "date": "2020-10-26",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA438698",
+   "facilityId": "3600980432",
+   "npdesId": "CAZ502448",
+   "companyCode": "9944",
+   "registryId": "110070382800"
+  },
+  {
+   "id": "CWA-I-3602330955",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Violation",
+   "date": "2020-10-26",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA438641",
+   "facilityId": "3601094358",
+   "npdesId": "CAZ509889",
+   "companyCode": "9944",
+   "registryId": "110070289000"
+  },
+  {
+   "id": "CWA-I-3603043369",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Noncompliance Issued",
+   "date": "2021-06-25",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA441455",
+   "facilityId": "3600980432",
+   "npdesId": "CAZ502448",
+   "companyCode": "9944",
+   "registryId": "110070382800"
+  },
+  {
+   "id": "CWA-I-3602769128",
+   "program": "CWA",
+   "kind": "informal",
+   "type": "Notice of Noncompliance Issued",
+   "date": "2021-06-25",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "CA-ZIEA440928",
+   "facilityId": "3600980432",
+   "npdesId": "CAZ502448",
+   "companyCode": "9944",
+   "registryId": "110070382800"
   }
  ]
 }

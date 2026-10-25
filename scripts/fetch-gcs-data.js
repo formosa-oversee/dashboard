@@ -201,11 +201,14 @@ function attachEnforcement(companies) {
 
 const PROGRAM_LABELS = { CWA: '水污染', CAA: '空氣污染', RCRA: '有害廢棄物', FEC: 'EPA 執法案件' };
 const toEpaDate = (iso) => (iso ? `${iso.slice(5, 7)}/${iso.slice(8, 10)}/${iso.slice(0, 4)}` : 'N/A');
+const fromEpaDate = (d) => (/^\d\d\/\d\d\/\d{4}$/.test(d || '') ? `${d.slice(6)}-${d.slice(0, 2)}-${d.slice(3, 5)}` : null);
 
 /**
- * 水污染以外的 EPA 紀錄（scripts/build-echo-programs.py 產生的 data/echo-programs.json）：
- * 同一廠區的空污、有害廢棄物紀錄與 EPA 聯邦執法案件，併進 violations，program 欄位區分。
- * 廠區層級的紀錄掛在主要設施（site.facilityIds[0]）；沒有 NPDES 許可證的廠區（newFacility）另建設施。
+ * 水污染違規以外的 EPA 紀錄（scripts/build-echo-programs.py 產生的 data/echo-programs.json）：
+ * 同一廠區的空污、有害廢棄物紀錄、水污染處分與 EPA 聯邦執法案件，併進 violations，program 欄位區分。
+ * 廠區層級的紀錄掛在主要設施（site.facilityIds[0]），水污染處分掛在該許可證的設施（r.facilityId）；
+ * 沒有 NPDES 許可證的廠區（newFacility）另建設施。
+ * 台灣母公司取得控制（site.controlSince）前的水污染違規在這裡排除；其他類別腳本已經排除。
  * 也把廠區的監管計畫、TRI／GHG 排放量、EPA 設施報告連結寫到設施上。檔案不存在時不影響建置。
  */
 function attachEchoPrograms(companies) {
@@ -256,16 +259,40 @@ function attachEchoPrograms(companies) {
     siteByKey.set(`${site.companyCode}|${site.registryId}`, { company, site });
   }
 
+  // 前業主時期的水污染違規：同一設施在好幾個廠區時取最晚的取得控制日期
+  const since = new Map();
+  for (const site of data.sites || []) {
+    if (!site.controlSince) continue;
+    for (const id of site.facilityIds) {
+      const key = `${site.companyCode}|${id}`;
+      if (!since.has(key) || since.get(key) < site.controlSince) since.set(key, site.controlSince);
+    }
+  }
+  const dropped = {};
+  companies.forEach(c => {
+    c.violations = c.violations.filter(v => {
+      const cs = since.get(`${c.companyCode}|${v.facilityId}`);
+      const iso = fromEpaDate(v.date) || fromEpaDate(v.scheduleDate);
+      if (!cs || !iso || iso >= cs) return true;
+      const name = c.facilities.find(f => f.facilityId === v.facilityId)?.name || v.facilityId;
+      dropped[`${c.companyCode} ${name}（${cs} 前）`] = (dropped[`${c.companyCode} ${name}（${cs} 前）`] || 0) + 1;
+      return false;
+    });
+  });
+  const droppedTotal = Object.values(dropped).reduce((a, b) => a + b, 0);
+  console.log(`💧 排除台灣母公司取得控制前的水污染違規 ${droppedTotal} 筆：${Object.entries(dropped).map(([k, n]) => `${k} ${n}`).join('、')}`);
+
   let added = 0;
   for (const r of data.records || []) {
     const hit = siteByKey.get(`${r.companyCode}|${r.registryId}`);
     if (!hit || r.duplicateOf) continue;
     const { company, site } = hit;
-    const facility = company.facilities.find(f => f.facilityId === site.facilityIds[0]);
+    const facilityId = r.facilityId && company.facilities.some(f => f.facilityId === r.facilityId) ? r.facilityId : site.facilityIds[0];
+    const facility = company.facilities.find(f => f.facilityId === facilityId);
     const resolved = r.resolvedDate ? `RE - Returned to Compliance ${toEpaDate(r.resolvedDate)}` : null;
     company.violations.push({
       violationId: r.caseNumber && r.program === 'FEC' ? r.caseNumber : r.id,
-      facilityId: site.facilityIds[0],
+      facilityId,
       program: r.program,
       programLabel: PROGRAM_LABELS[r.program],
       kind: r.kind,

@@ -97,7 +97,7 @@ TRI 申報者會填外國母公司。用 MOPS 上市櫃公司英文名稱比對�
 處理：
 - `violations.csv` 改由 `scripts/build-water-violations.py` 從全量檔重建，結果見 `enforcement-data-interface.md` 第 10 節。
 - 正式處分與 `OFFICIAL_FLG=Y` 的非正式處分（警告信、違規通知）加進 `build-echo-programs.py`（`program: 'CWA'`）。稽查不收，和空污、廢棄物一樣。
-- 取得控制前的水污染違規在建置時排除 283 筆（APG Polytech 123、MEMC 154、FPC Illiopolis 6）。
+- 取得控制前的水污染違規在建置時排除 487 筆（Corpus Christi Polymers 204、MEMC 154、APG Polytech 123、FPC Illiopolis 6）。只有水污染紀錄的收購工廠另外查證過，結果見 `enforcement-data-interface.md` 第 9 節。
 
 ### 4.3 同一座工廠的其他 FRS 廠區
 

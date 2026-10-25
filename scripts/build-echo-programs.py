@@ -47,13 +47,23 @@ CONTROL_SINCE = [
     ('6534', '110064691668', '2015-02-28', 'CH Biotech Ontario CA', '正瀚 2015-02-28 100% 投資設立（正瀚 2023 年報）'),
     ('6670', '110000861354', '2004-09-01', 'FS Precision Tech Compton CA', '2004 年復盛向 Coastcast 買下該址（foundrymag.com）；2001 年的紀錄屬 Coastcast'),
     ('8069', '110041673463', '2009-12-24', 'E Ink Corporation MA', '2009-12 元太（PVI）完成收購 E Ink（blog.eink.com）'),
+    # 2026-10-25 第二批：只有水污染違規、可能是收購來的工廠
+    ('1402', '110067568297', '2018-12-28', 'Corpus Christi Polymers TX', '2018-12-28 Corpus Christi Polymers（Alpek／Indorama／遠東新各 1/3）向破產的 M&G USA 買下（alpek.com/?p=3417；遠東新重大訊息 2018-12-22、2018-12-27）'),
+    ('8478', '110009766761', '2015-07-01', 'Pacific Coast Yachting Services Seattle WA', '東哥集團最晚 2015-07 起向關係人承租此址（東哥 2016 年報）；2018-02 許可證由 Alexander Marine USA 轉給 PCYS（華盛頓州 Ecology 轉移文件）'),
+    ('5009', '110070094063', '2010-01-01', 'Alloy Tool Steel Santa Fe Springs CA', '榮剛 2010 年取得 55%、2011 年 85%（榮剛 2010、2011 年報）；月份不明'),
+    ('6887', '110070093475', '2013-05-30', 'Boretech Stockton CA', '寶綠特 2013-05-30 設立 Boretech LLC（現名 CYCLEPLUS LLC）自建（寶綠特 2024 年報、wastedive.com 2014-08-12）'),
+    ('2027', '110070263045', '2017-08-01', 'Primus Pipe and Tube Wildwood FL', '2017-08-01 大成不銹鋼美國子公司向 Outokumpu 買下 Outokumpu Stainless Pipe（大成重大訊息 2017-08-01、outokumpu.com 公告）'),
 ]
 
-# 查證後確定與台灣母公司無關的同名誤配廠區：不掛空污、廢棄物紀錄。既有的水污染匹配不在這支腳本處理
+# 查證後確定與台灣母公司無關的同名誤配廠區：不掛空污、廢棄物紀錄與水污處分。既有的水污染違規（violations.csv）不在這支腳本處理
 NOT_OWNED = [
     ('4523', '110001888253', 'Everbrite LLC Buena Vista VA', '是威斯康辛的招牌廠 Everbrite；永彰英文名 Everbrite Technology，2023 年報沒有美國子公司'),
     ('2359', '110033647016', 'Solomon Corporation Decatur TN', '所羅門 2023 年報唯一的美國子公司是 2019 年在加州 Walnut 設立的 Solomon Technology (USA)'),
     ('2360', '110000429607', 'Chroma Corp McHenry IL', '是伊利諾州的色母粒廠，2018 年被 Carolina Color 併購（ptonline.com）；致茂的美國子公司都在加州'),
+    ('6782', '110069582400', 'VISCO, Inc. Eugene OR', '1947 年在奧勒岡登記的建築金屬加工廠（opencorpdata.com/us-or/4554812，SIC 3446）；視陽是隱形眼鏡廠，MOPS 沒有美國子公司'),
+    ('1227', '110009956379', 'Standard Foods Inc Louisville KY', '1937 年創立的肉品冷凍食品廠，後改名 Culinary Standards（肯塔基州公司登記）；佳格的美國子公司是 Standard Foods, LLC'),
+    ('6957', '110066887738', 'Beeline Facility Scottsdale AZ', '許可證持有人是原住民族企業 Salt River Sand and Rock（砂石，SIC 1442），Beeline 是公路名；裕慶的 Beeline Corp. 在伊利諾州做展示架'),
+    ('8271', '110016682115', 'AMA Facility Ama LA', '許可證持有人是 ADM Grain（穀物，SIC 5153），Ama 是路易斯安那的地名；宇瞻的 AMA 是 Apacer Memory America'),
 ]
 
 # 沒有 NPDES 許可證的台灣母公司工廠：(公司代號, REGISTRY_ID, 依據, 持股鏈沿用哪個既有設施 公司代號|設施編號)

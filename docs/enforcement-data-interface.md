@@ -380,13 +380,14 @@ EPA 的 FRS（Facility Registry Service）替每個實體廠區配一個 `REGIST
 
 `echo-programs.json` 的紀錄由本腳本排除。`violations.csv` 的水污染違規保留原樣，建置時 `fetch-gcs-data.js` 用輸出廠區的 `controlSince` 排除（同一設施在幾個廠區時取最晚的日期），所以有 `controlSince` 的廠區即使沒有其他紀錄也會輸出。
 
-2026-10-25 對所有有空污或廢棄物紀錄的廠區逐一查證取得控制的日期（年報、SEC 文件、官方公告、CSB 報告），依據寫在 `CONTROL_SINCE`。排除的筆數如下：
+2026-10-25 對所有有空污或廢棄物紀錄的廠區逐一查證取得控制的日期（年報、SEC 文件、官方公告、CSB 報告），依據寫在 `CONTROL_SINCE`。同一天第二批查了只有水污染違規、可能是收購來的高信心匹配：Corpus Christi Polymers 要排除；東哥 Pacific Coast Yachting Seattle（集團最晚 2015-07 起使用此址）、榮剛 Alloy Tool Steel（2010 收購）、寶綠特 Stockton（2013 自設）、大成 Primus Pipe and Tube Wildwood（2017-08-01 收購）的違規都在取得控制之後，日期照樣記在 `CONTROL_SINCE`；其餘四個是同名誤配（見下）。排除的筆數如下：
 
 「其他紀錄」是 `echo-programs.json` 的空污、廢棄物、水污處分與聯邦案件，「水污染違規」是 `violations.csv` 在建置時排除的筆數。TCI Texarkana 另有 556 筆 2000–2010 年的水污染違規，`build-echo-supplement.py` 產生補充資料時就沒有收。
 
 | 廠區 | 台灣母公司取得控制 | 前業主 | 其他紀錄 | 水污染違規 |
 |---|---|---|---|---|
 | Bristol Metals，Bristol TN（大成不銹鋼 2027） | 2025-04-04 | Ascent Industries（前 Synalloy） | 90 筆，全部 | — |
+| Corpus Christi Polymers，Corpus Christi TX（遠東新 1402，持股 1/3） | 2018-12-28 | M&G USA（破產） | — | 204 筆，全部 |
 | MEMC，O'Fallon MO（環球晶 6488） | 2016-12-02 | SunEdison Semiconductor | 46 筆，全部 | 154 筆 |
 | FPC Illiopolis IL（台塑 1301） | 2002-04 | Borden Chemicals and Plastics | 39 筆 | 6 筆 |
 | KEMET，Simpsonville SC（國巨 2327） | 2020-06 | — | 23 筆 | — |
@@ -400,15 +401,19 @@ EPA 的 FRS（Facility Registry Service）替每個實體廠區配一個 `REGIST
 | Continental Coatings，Fontana CA（永記 1726） | 2012-11 | 不明 | 2 筆 | — |
 | FS Precision Tech，Compton CA（復盛應用 6670） | 2004-09 | Coastcast | 1 筆 | — |
 
-另外查到三個既有 ECHO 匹配是同名誤配，不是台灣母公司的工廠，列在 `NOT_OWNED`，不掛任何空污、廢棄物紀錄與水污處分：
+另外查到七個既有 ECHO 匹配是同名誤配，不是台灣母公司的工廠，列在 `NOT_OWNED`，不掛任何空污、廢棄物紀錄與水污處分（後四個是第二批查到的）：
 
 | 廠區 | 被匹配到的公司 | 實際 |
 |---|---|---|
 | Everbrite LLC，Buena Vista VA | 永彰 4523（英文名 Everbrite Technology） | 威斯康辛的招牌廠；永彰 2023 年報沒有美國子公司 |
 | Solomon Corporation，Decatur TN | 所羅門 2359 | 所羅門唯一的美國子公司是 2019 年在加州設立的 Solomon Technology (USA) |
 | Chroma Corp，McHenry IL | 致茂 2360 | 伊利諾州的色母粒廠，2018 年併入 Carolina Color；致茂的美國子公司都在加州 |
+| VISCO, Inc.，Eugene OR | 視陽 6782 | 1947 年在奧勒岡登記的建築金屬加工廠；視陽是隱形眼鏡廠，沒有美國子公司 |
+| Standard Foods Inc，Louisville KY | 佳格 1227 | 1937 年創立的肉品冷凍食品廠，後改名 Culinary Standards；佳格的美國子公司是 Standard Foods, LLC |
+| Beeline Facility，Scottsdale AZ | 裕慶 6957 | 原住民族企業 Salt River Sand and Rock 的砂石場，Beeline 是公路名；裕慶的 Beeline Corp. 在伊利諾州 |
+| AMA Facility，Ama LA | 宇瞻 8271 | ADM Grain 的穀物設施，Ama 是地名；宇瞻的 AMA 是 Apacer Memory America |
 
-**仍待決定**：這三個同名誤配的設施仍以 `ownership.confidence: high` 顯示在公司頁。2026-10 的全量檔裡它們已經沒有水污染違規（Everbrite 原本那 1 筆 EPA 已刪除），所以頁面上只剩設施本身。
+**仍待決定**：這七個同名誤配的設施仍以 `ownership.confidence: high` 顯示在公司頁，水污染違規照 `violations.csv` 顯示：VISCO 261 筆、AMA 26 筆、Beeline 6 筆、Standard Foods 5 筆、Solomon 5 筆（2025 年，2026-10 重建才出現），Everbrite（原本 1 筆已被 EPA 刪除）與 Chroma 沒有。
 
 ## 10. 水污染違規改由 EPA 全量檔重建（2026-10-25）
 
@@ -436,4 +441,4 @@ npm run fetch-data
 | 舊快照有、全量檔已無（EPA 刪除或更正） | 12，APG Polytech 6、FPC Baton Rouge 3、其他 3 |
 | 兩邊都有、內容更新 | 改善狀態 135 筆、改善日期 154 筆 |
 
-補充資料重建後 635 筆，多 1 筆單一事件違規。建置時再排除取得控制前的 283 筆後，網站的水污染違規是 6,671 筆，另有水污處分 172 筆（正式 44、非正式 128），有罰款的 9 筆合計 US$1,063,654（不含已列在聯邦案件的 06-2006-3410）。
+補充資料重建後 635 筆，多 1 筆單一事件違規。建置時再排除取得控制前的 487 筆後（Corpus Christi Polymers 204、MEMC 154、APG Polytech 123、FPC Illiopolis 6），網站的水污染違規是 6,467 筆，另有水污處分 171 筆（正式 44、非正式 127），有罰款的 9 筆合計 US$1,063,654（不含已列在聯邦案件的 06-2006-3410）。

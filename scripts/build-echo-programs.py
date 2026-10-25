@@ -1,0 +1,305 @@
+"""
+水污染（NPDES）以外的 EPA 紀錄：同一個廠區在空污（CAA）、有害廢棄物（RCRA）、EPA 聯邦執法案件（ICIS FE&C）的違規與處分，
+以及 TRI 有毒物質排放量、溫室氣體排放量。輸出 data/echo-programs.json（EPA 公開資料，進 git），建置時由 fetch-gcs-data.js 併入。
+
+做法
+  1. 我們的設施（data/facilities.csv＋facilities-supplement.csv）以 NPDES 許可證號在 ECHO Exporter 找到所屬廠區（FRS REGISTRY_ID）。
+     一個廠區可能有好幾張 NPDES 許可證，空污、廢棄物紀錄是廠區層級的，掛在主要設施（個別許可證優先於通用許可證）。
+     沒有 NPDES 許可證、只有空污或廢棄物紀錄的台灣母公司工廠列在 EXTRA_SITES，以 REGISTRY_ID 當設施編號另建設施。
+  2. 用廠區的 AIR_IDS／RCRA_IDS／REGISTRY_ID 到各計畫的全量檔取逐筆紀錄。
+  3. 台灣母公司取得控制前的紀錄屬前業主，不納入（CONTROL_SINCE，與 build-echo-supplement.py 的 CONFIRMED 年份）。
+  4. 查證後確定是同名誤配的廠區（NOT_OWNED）不掛任何紀錄。
+
+用法（全量檔不進 git）
+  scripts/download-echo-sources.sh                          # → ../epa-downloads
+  python3 scripts/build-echo-programs.py --dir=../epa-downloads
+"""
+import csv, io, re, sys, json, zipfile, pathlib, datetime, collections, importlib.util
+
+DASH = pathlib.Path(__file__).resolve().parents[1]
+DATA = DASH / 'data'
+OUT = DATA / 'echo-programs.json'
+spec = importlib.util.spec_from_file_location('sup', DASH / 'scripts' / 'build-echo-supplement.py')
+sup = importlib.util.module_from_spec(spec); spec.loader.exec_module(sup)
+
+# (公司代號, REGISTRY_ID, 取得控制日期, 廠區, 依據)；早於該日的紀錄屬前業主。2026-10-25 逐一查證，只知年份的填 1 月 1 日
+# 自建的廠區也列出來，表示查過了
+CONTROL_SINCE = [
+    ('1301', '110000597444', '1981-01-01', 'FPC Baton Rouge LA', '1981 年起由 FPC USA 經營（路易斯安那州長新聞稿 opportunitylouisiana.gov「FPC has operated since 1981」）'),
+    ('1301', '110000338536', '1981-05-01', 'FPC Delaware City DE', '1981-05 向 Stauffer Chemical 買下（EPA NPL 說明 semspub.epa.gov/src/document/03/900262）'),
+    ('1301', '110000722166', '2002-04-01', 'FPC Illiopolis IL', '2002-04 向 Borden Chemicals and Plastics 買下（CSB 調查報告 csb.gov/assets/1/20/formosa_il_report.pdf）'),
+    ('1301', '110018925957', '1980-01-01', 'FPC Point Comfort TX', 'FPC 自建，1980 年開始營運（EPA 結案摘要、fpcusa.com）'),
+    ('1303', '110000353965', '1990-01-01', '南亞 Lake City SC', '南亞自建，1990 年一期完工（nanyaamericasc.com）'),
+    ('1402', '110000585956', '2018-03-01', 'APG Polytech Apple Grove WV', '2018-03-01 遠東新從 M&G Polymers USA 破產程序買下（westvirginia.gov/?p=2497）'),
+    ('1460', '110000348106', '2016-10-01', '宏遠美國 Forest City NC', '宏遠 2016-10 設立美國廠（宏遠 2023 年報、areadevelopment.com 2016-12-07）'),
+    ('1726', '110000479330', '2012-11-01', 'Continental Coatings Fontana CA', '永記 2012-11 轉投資 Continental Coatings（永記 2023 年報）'),
+    ('2027', '110000372178', '2025-04-04', 'Bristol Metals TN', '2025-04-04 大成不銹鋼美國子公司 Ta Chen International 向 Ascent Industries 買下資產（SEC 8-K 附件 acnt-20250331ex991）'),
+    ('2103', '110046122735', '2011-04-01', 'TSRC Specialty Materials Plaquemine LA', '2011-04 台橡 100% 買下 Dexco Polymers（Dow／ExxonMobil 合資）（businessreport.com 2011-04-05）'),
+    ('2104', '110000369798', '1995-01-01', 'Continental Carbon Phenix City AL', '1995 年中橡向 Witco 買下 Continental Carbon（continentalcarbonasia.com 集團沿革）'),
+    ('2104', '110000465728', '1995-01-01', 'Continental Carbon Sunray TX', '同上'),
+    ('2104', '110000455766', '1995-01-01', 'Continental Carbon Ponca City OK', '同上'),
+    ('2327', '110017088355', '2020-06-01', 'KEMET Simpsonville SC', '國巨 2020-06 完成收購 KEMET（resolve-ownership.py CURATED）'),
+    ('2330', '110000490772', '1996-06-01', 'WaferTech Camas WA', '1996-06 台積電主導合資成立，2000-12 起近 100%（pr.tsmc.com/english/news/2290、Altera 10-K）'),
+    ('2383', '110000477608', '2021-01-18', 'Arlon EMD Rancho Cucamonga CA', '2021-01 台光電向 CriticalPoint Capital 買下（arlonemd.com 2021-01-18 公告）'),
+    ('6472', '110000887942', '2024-04-01', 'Upsher-Smith Denver CO', '2024-04-01 保瑞向 Sawai 完成收購 Upsher-Smith（boracdmo.com 公告）；公告只列明尼蘇達廠'),
+    ('6488', '110000442101', '2016-12-02', 'MEMC O’Fallon MO', '2016-12-02 環球晶完成收購 SunEdison Semiconductor（SEC 8-K 附件 d304688dex991）'),
+    ('6534', '110064691668', '2015-02-28', 'CH Biotech Ontario CA', '正瀚 2015-02-28 100% 投資設立（正瀚 2023 年報）'),
+    ('6670', '110000861354', '2004-09-01', 'FS Precision Tech Compton CA', '2004 年復盛向 Coastcast 買下該址（foundrymag.com）；2001 年的紀錄屬 Coastcast'),
+    ('8069', '110041673463', '2009-12-24', 'E Ink Corporation MA', '2009-12 元太（PVI）完成收購 E Ink（blog.eink.com）'),
+]
+
+# 查證後確定與台灣母公司無關的同名誤配廠區：不掛空污、廢棄物紀錄。既有的水污染匹配不在這支腳本處理
+NOT_OWNED = [
+    ('4523', '110001888253', 'Everbrite LLC Buena Vista VA', '是威斯康辛的招牌廠 Everbrite；永彰英文名 Everbrite Technology，2023 年報沒有美國子公司'),
+    ('2359', '110033647016', 'Solomon Corporation Decatur TN', '所羅門 2023 年報唯一的美國子公司是 2019 年在加州 Walnut 設立的 Solomon Technology (USA)'),
+    ('2360', '110000429607', 'Chroma Corp McHenry IL', '是伊利諾州的色母粒廠，2018 年被 Carolina Color 併購（ptonline.com）；致茂的美國子公司都在加州'),
+]
+
+# 沒有 NPDES 許可證的台灣母公司工廠：(公司代號, REGISTRY_ID, 依據, 持股鏈沿用哪個既有設施 公司代號|設施編號)
+# 候選來自 ECHO 覆蓋率稽核（data/echo-coverage-audit.json 的 npdesIds 為空者），每筆人工確認
+EXTRA_SITES = [
+    ('2104', '110000455766', 'MOPS：國際中橡 → CCC USA Corp.（66.67%）→ Continental Carbon Company；Ponca City 廠沒有 NPDES 許可證', '2104|3600967495'),
+]
+
+DFR = 'https://echo.epa.gov/detailed-facility-report?fid='
+# 各檔的機關欄位寫法不同（S／E／L 代碼或 State／EPA 全名），統一成中文
+AGENCY = {'S': '州政府', 'E': 'EPA', 'L': '地方政府', 'State': '州政府', 'EPA': 'EPA', 'U.S. EPA': 'EPA', 'Local': '地方政府', 'Tribal': '原住民族政府'}
+
+
+def norm_npdes(x):
+    """GCS 原始資料的許可證號有被轉成浮點數的（SCR000483 → 「SCR 483.00」），補回 9 碼。"""
+    x = re.sub(r'\.0+$', '', (x or '').replace('\xa0', ' ').strip())
+    m = re.fullmatch(r'([A-Z]+)\s*(\d+)', x)
+    if m and len(m.group(1) + m.group(2)) < 9:
+        return m.group(1) + m.group(2).zfill(9 - len(m.group(1)))
+    return x.replace(' ', '')
+
+
+def ymd(s):
+    """EPA 日期有 MM/DD/YYYY 與 MM-DD-YYYY 兩種。"""
+    m = re.fullmatch(r'(\d\d)[/-](\d\d)[/-](\d{4})', (s or '').strip())
+    return f'{m.group(3)}-{m.group(1)}-{m.group(2)}' if m else None
+
+
+def money(s):
+    try:
+        v = float(s)
+    except (TypeError, ValueError):
+        return None
+    return round(v) if v > 0 else None
+
+
+def ids(s):
+    return [x for x in re.split(r'[,\s]+', s or '') if x]
+
+
+def rows(zf, name):
+    with zf.open(name) as fh:
+        yield from csv.DictReader(io.TextIOWrapper(fh, encoding='latin-1'))
+
+
+def load_ours():
+    """NPDES → [(公司代號, ICIS 設施編號, 設施名稱)]，以及設施 → 取得控制年份。"""
+    ours = collections.defaultdict(list)
+    for fp in ('facilities.csv', 'facilities-supplement.csv'):
+        for r in csv.DictReader(open(DATA / fp, encoding='utf-8-sig')):
+            fid = re.sub(r'\.0+$', '', r['icis_facility_id'].strip())
+            ours[norm_npdes(r['npdes_id'])].append((r['公司代號'], fid, r['facility_name']))
+    since = {}
+    for code, _, _, permits, *rest in sup.CONFIRMED:
+        for p in permits:
+            if rest and rest[0]:
+                since[p] = f'{rest[0]}-01-01'
+    for e in json.loads((DATA / 'ownership-resolution.json').read_text()).get('entities', []):
+        if e['source'] == 'EPA ECHO' and e.get('controlSince'):
+            since[e['key']] = f"{e['controlSince']}-01-01"
+    return ours, since
+
+
+def main():
+    d = pathlib.Path(next((a.split('=', 1)[1] for a in sys.argv[1:] if a.startswith('--dir=')), '') or sys.exit(__doc__))
+    zips = {k: zipfile.ZipFile(d / f'{k}.zip') for k in ('echo_exporter', 'ICIS-AIR_downloads', 'rcra_downloads', 'case_downloads')}
+    ours, since = load_ours()
+
+    # 1. 廠區：公司代號＋REGISTRY_ID 一個，同一廠區不同公司（不同持股鏈）分開
+    sites = {}
+    extra = {reg: (code, basis, own) for code, reg, basis, own in EXTRA_SITES}
+
+    def site(code, r):
+        return sites.setdefault((code, r['REGISTRY_ID']), {
+            'registryId': r['REGISTRY_ID'], 'companyCode': code, 'name': r['FAC_NAME'], 'city': r['FAC_CITY'], 'state': r['FAC_STATE'],
+            'dfrUrl': DFR + r['REGISTRY_ID'], 'facilityIds': [], 'npdesIds': [],
+            'programIds': {'air': ids(r['AIR_IDS']), 'waste': ids(r['RCRA_IDS']), 'toxics': ids(r['TRI_IDS']), 'ghg': ids(r['GHG_IDS'])},
+            'releases': {'triOnSiteLb': money(r['TRI_ON_SITE_RELEASES']), 'triReleasesTransfersLb': money(r['TRI_RELEASES_TRANSFERS']),
+                         'ghgCO2eTons': money(r['GHG_CO2_RELEASES'])},
+            'controlSince': None,
+        })
+
+    for r in rows(zips['echo_exporter'], 'ECHO_EXPORTER.csv'):
+        if r['REGISTRY_ID'] in extra:
+            code, basis, own = extra[r['REGISTRY_ID']]
+            s = site(code, r)
+            s['facilityIds'] = [r['REGISTRY_ID']]
+            s['newFacility'] = {'address': r['FAC_STREET'], 'zipCode': r['FAC_ZIP'], 'latitude': r['FAC_LAT'], 'longitude': r['FAC_LONG'],
+                                'basis': basis, 'ownershipFrom': own}
+        common = [n for n in ids(r['NPDES_IDS']) if n in ours]
+        for n in common:
+            for code, fid, _ in ours[n]:
+                s = site(code, r)
+                if fid not in s['facilityIds']:
+                    # 個別許可證（第 3 碼是數字，例 TX0085570）排前面當主要設施，通用許可證（TXR…、CAZ…）排後面
+                    if n[2:3].isdigit() and not any(x[2:3].isdigit() for x in s['npdesIds']):
+                        s['facilityIds'].insert(0, fid)
+                    else:
+                        s['facilityIds'].append(fid)
+                if n not in s['npdesIds']:
+                    s['npdesIds'].append(n)
+                cs = since.get(n) or since.get(f'{code}|{fid}')
+                s['controlSince'] = max(filter(None, [s['controlSince'], cs]), default=None)
+    if set(extra) - {s['registryId'] for s in sites.values()}:
+        print(f'  ⚠ EXTRA_SITES 在 ECHO Exporter 找不到：{sorted(set(extra) - {s["registryId"] for s in sites.values()})}', file=sys.stderr)
+    for code, reg, date, _, basis in CONTROL_SINCE:
+        s = sites.get((code, reg))
+        if not s:
+            print(f'  ⚠ CONTROL_SINCE 的廠區不在資料中：{code} {reg}', file=sys.stderr); continue
+        s['controlSince'] = max(filter(None, [s['controlSince'], date]))
+        s['controlBasis'] = basis
+    found = {n for s in sites.values() for n in s['npdesIds']}
+    print(f'{len(found)}/{len(ours)} 個 NPDES 許可證對到 {len(sites) - len(extra)} 個廠區，另有 {len(extra)} 個沒有 NPDES 的廠區', file=sys.stderr)
+    if set(ours) - found:
+        print(f'  ⚠ ECHO Exporter 找不到：{sorted(set(ours) - found)}', file=sys.stderr)
+    excluded = []
+    for code, reg, name, basis in NOT_OWNED:
+        if sites.pop((code, reg), None):
+            excluded.append({'companyCode': code, 'registryId': reg, 'name': name, 'reason': basis})
+
+    by_air = collections.defaultdict(list)
+    by_rcra = collections.defaultdict(list)
+    by_reg = collections.defaultdict(list)
+    for key, s in sites.items():
+        for x in s['programIds']['air']: by_air[x].append(key)
+        for x in s['programIds']['waste']: by_rcra[x].append(key)
+        by_reg[s['registryId']].append(key)
+
+    records = []
+
+    def add(keys, rec):
+        for key in keys:
+            records.append({**rec, 'companyCode': key[0], 'registryId': key[1]})
+
+    # 2a. 空污 ICIS-Air
+    air = zips['ICIS-AIR_downloads']
+    for r in rows(air, 'ICIS-AIR_VIOLATION_HISTORY.csv'):
+        if r['PGM_SYS_ID'] in by_air:
+            hpv = r['ENF_RESPONSE_POLICY_CODE'] == 'HPV'
+            add(by_air[r['PGM_SYS_ID']], {
+                'id': f"CAA-V-{r['ACTIVITY_ID']}-{r['COMP_DETERMINATION_UID']}", 'program': 'CAA', 'kind': 'violation',
+                'type': 'High Priority Violation' if hpv else 'Federally Reportable Violation',
+                'date': ymd(r['HPV_DAYZERO_DATE']) or ymd(r['EARLIEST_FRV_DETERM_DATE']), 'resolvedDate': ymd(r['HPV_RESOLVED_DATE']),
+                'agency': AGENCY.get(r['AGENCY_TYPE_DESC'], r['AGENCY_TYPE_DESC']), 'description': r['PROGRAM_DESCS'],
+                'pollutants': '' if r['POLLUTANT_DESCS'] == 'FACIL' else r['POLLUTANT_DESCS'], 'penaltyUSD': None})
+    for r in rows(air, 'ICIS-AIR_FORMAL_ACTIONS.csv'):
+        if r['PGM_SYS_ID'] in by_air:
+            add(by_air[r['PGM_SYS_ID']], {
+                'id': f"CAA-F-{r['ACTIVITY_ID']}", 'program': 'CAA', 'kind': 'formal', 'type': r['ENF_TYPE_DESC'],
+                'date': ymd(r['SETTLEMENT_ENTERED_DATE']), 'agency': AGENCY.get(r['STATE_EPA_FLAG'], r['STATE_EPA_FLAG']),
+                'description': r['ACTIVITY_TYPE_DESC'], 'caseNumber': r['ENF_IDENTIFIER'], 'penaltyUSD': money(r['PENALTY_AMOUNT'])})
+    for r in rows(air, 'ICIS-AIR_INFORMAL_ACTIONS.csv'):
+        if r['PGM_SYS_ID'] in by_air:
+            add(by_air[r['PGM_SYS_ID']], {
+                'id': f"CAA-I-{r['ACTIVITY_ID']}", 'program': 'CAA', 'kind': 'informal', 'type': r['ENF_TYPE_DESC'],
+                'date': ymd(r['ACHIEVED_DATE']), 'agency': AGENCY.get(r['STATE_EPA_FLAG'], r['STATE_EPA_FLAG']),
+                'description': r['ACTIVITY_TYPE_DESC'], 'caseNumber': r['ENF_IDENTIFIER'], 'penaltyUSD': None})
+    for r in rows(air, 'ICIS-AIR_STACK_TESTS.csv'):
+        if r['PGM_SYS_ID'] in by_air and r['AIR_STACK_TEST_STATUS_DESC'] == 'Fail':
+            add(by_air[r['PGM_SYS_ID']], {
+                'id': f"CAA-ST-{r['ACTIVITY_ID']}", 'program': 'CAA', 'kind': 'stack-test', 'type': 'Failed Stack Test',
+                'date': ymd(r['ACTUAL_END_DATE']), 'agency': AGENCY.get(r['STATE_EPA_FLAG'], r['STATE_EPA_FLAG']),
+                'description': r['COMP_MONITOR_TYPE_DESC'], 'pollutants': r['POLLUTANT_CODES'], 'penaltyUSD': None})
+
+    # 2b. 有害廢棄物 RCRA。處分類型代碼第 3 碼：1 非正式、2–3 行政正式、5–6 司法
+    rcra = zips['rcra_downloads']
+    for r in rows(rcra, 'RCRA_VIOLATIONS.csv'):
+        if r['ID_NUMBER'] in by_rcra:
+            add(by_rcra[r['ID_NUMBER']], {
+                'id': f"RCRA-V-{r['ID_NUMBER']}-{r['VIOLATION_TYPE']}-{r['DATE_VIOLATION_DETERMINED']}", 'program': 'RCRA', 'kind': 'violation',
+                'type': r['VIOLATION_TYPE_DESC'], 'violationCode': r['VIOLATION_TYPE'], 'date': ymd(r['DATE_VIOLATION_DETERMINED']),
+                'resolvedDate': ymd(r['ACTUAL_RTC_DATE']), 'agency': AGENCY.get(r['VIOL_DETERMINED_BY_AGENCY'].strip(), r['VIOL_DETERMINED_BY_AGENCY'].strip()),
+                'penaltyUSD': None})
+    for r in rows(rcra, 'RCRA_ENFORCEMENTS.csv'):
+        if r['ID_NUMBER'] in by_rcra:
+            level = r['ENFORCEMENT_TYPE'][2:3]
+            add(by_rcra[r['ID_NUMBER']], {
+                'id': f"RCRA-E-{r['ID_NUMBER']}-{r['ENFORCEMENT_IDENTIFIER']}-{r['ENFORCEMENT_TYPE']}", 'program': 'RCRA',
+                'kind': 'informal' if level == '1' else 'formal', 'type': r['ENFORCEMENT_DESC'].strip().title(),
+                'date': ymd(r['ENFORCEMENT_ACTION_DATE']), 'agency': AGENCY.get(r['ENFORCEMENT_AGENCY'].strip(), r['ENFORCEMENT_AGENCY'].strip()),
+                'penaltyUSD': money(r['FMP_AMOUNT']), 'proposedPenaltyUSD': money(r['PMP_AMOUNT'])})
+
+    # 2c. EPA 聯邦執法案件（跨法規：CAA、RCRA、CWA、EPCRA、TSCA…），以廠區 REGISTRY_ID 對案件
+    case = zips['case_downloads']
+    case_keys = collections.defaultdict(set)
+    for r in rows(case, 'CASE_FACILITIES.csv'):
+        for key in by_reg.get(r['REGISTRY_ID'], ()):
+            case_keys[r['ACTIVITY_ID']].add(key)
+    statutes, penalty, settled = collections.defaultdict(list), {}, {}
+    for r in rows(case, 'CASE_LAW_SECTIONS.csv'):
+        if r['ACTIVITY_ID'] in case_keys and r['STATUTE_CODE'] not in statutes[r['ACTIVITY_ID']]:
+            statutes[r['ACTIVITY_ID']].append(r['STATUTE_CODE'])
+    for r in rows(case, 'CASE_ENFORCEMENT_CONCLUSIONS.csv'):
+        if r['ACTIVITY_ID'] in case_keys:
+            penalty[r['ACTIVITY_ID']] = (penalty.get(r['ACTIVITY_ID']) or 0) + (money(r['FED_PENALTY_ASSESSED_AMT']) or 0) + (money(r['STATE_LOCAL_PENALTY_AMT']) or 0)
+            settled[r['ACTIVITY_ID']] = max(filter(None, [settled.get(r['ACTIVITY_ID']), ymd(r['SETTLEMENT_ENTERED_DATE'])]), default=None)
+    for r in rows(case, 'CASE_ENFORCEMENTS.csv'):
+        a = r['ACTIVITY_ID']
+        if a in case_keys:
+            add(sorted(case_keys[a]), {
+                'id': f'FEC-{a}', 'program': 'FEC', 'kind': 'case', 'type': r['ACTIVITY_TYPE_DESC'], 'statutes': statutes.get(a, []),
+                'date': settled.get(a) or ymd(r['CASE_STATUS_DATE']), 'fiscalYear': r['FISCAL_YEAR'], 'agency': AGENCY.get(r['LEAD'], r['LEAD']),
+                'caseNumber': r['CASE_NUMBER'], 'caseName': r['CASE_NAME'], 'status': r['ACTIVITY_STATUS_DESC'], 'outcome': r['ENF_OUTCOME_DESC'],
+                'description': re.sub(r'\s+', ' ', r['ENF_SUMMARY_TEXT']).strip(), 'penaltyUSD': penalty.get(a) or money(r['TOTAL_PENALTY_ASSESSED_AMT']),
+                'sourceUrl': f'https://echo.epa.gov/enforcement-case-report?id={r["CASE_NUMBER"]}'})
+
+    # 3. 前業主的紀錄、沒有日期的紀錄
+    dropped = collections.Counter()
+    kept, seen = [], set()
+    for rec in records:
+        # ICIS-Air 處分檔同一個處分每個適用計畫各一列；RCRA 違規檔同一天同一條文的多筆無法區分，算一筆
+        if (rec['companyCode'], rec['registryId'], rec['id']) in seen:
+            continue
+        seen.add((rec['companyCode'], rec['registryId'], rec['id']))
+        s = sites[(rec['companyCode'], rec['registryId'])]
+        if s['controlSince'] and rec.get('date') and rec['date'] < s['controlSince']:
+            dropped[(s['companyCode'], s['name'], s['controlSince'])] += 1
+            continue
+        kept.append({k: v for k, v in rec.items() if v not in (None, '', [])})
+    kept.sort(key=lambda x: (x['companyCode'], x.get('date') or ''), reverse=False)
+
+    # 空污罰款同時出現在 ICIS-Air 正式處分與聯邦案件時（EPA 主辦案件），案件號相同只算一次
+    fec_numbers = {(r['companyCode'], r.get('caseNumber')) for r in kept if r['program'] == 'FEC'}
+    for r in kept:
+        if r['program'] == 'CAA' and r['kind'] == 'formal' and (r['companyCode'], r.get('caseNumber')) in fec_numbers:
+            r['duplicateOf'] = 'FEC'
+
+    used = {(r['companyCode'], r['registryId']) for r in kept}
+    out_sites = [s for k, s in sites.items() if k in used or any(s['releases'].values()) or s['programIds']['air'] or s['programIds']['waste']]
+    OUT.write_text(json.dumps({
+        'generatedAt': datetime.date.today().isoformat(),
+        'source': 'EPA ECHO 全量檔：ECHO Exporter、ICIS-Air、RCRAInfo、ICIS FE&C（echo.epa.gov/tools/data-downloads）',
+        'note': '以我們設施的 NPDES 許可證找出同一廠區（FRS）的空污、有害廢棄物紀錄與 EPA 聯邦執法案件。TRI／GHG 為最近申報年度的排放量。',
+        'sites': sorted(out_sites, key=lambda s: (s['companyCode'], s['name'])),
+        'excludedSites': excluded,
+        'records': kept,
+    }, ensure_ascii=False, indent=1))
+
+    print(f'輸出 {OUT.relative_to(DASH)}：{len(out_sites)} 個廠區、{len(kept)} 筆紀錄', file=sys.stderr)
+    by = collections.Counter((r['program'], r['kind']) for r in kept)
+    for k, n in sorted(by.items()):
+        print(f'  {k[0]:5} {k[1]:10} {n:5}', file=sys.stderr)
+    for (code, name, date), n in sorted(dropped.items()):
+        print(f'  排除 {code} {name} 在 {date} 取得控制前的 {n} 筆', file=sys.stderr)
+    for e in excluded:
+        print(f"  排除同名誤配廠區 {e['companyCode']} {e['name']}", file=sys.stderr)
+
+
+if __name__ == '__main__':
+    main()

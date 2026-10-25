@@ -199,6 +199,102 @@ function attachEnforcement(companies) {
   console.log(`⚖️ 罰款紀錄（Violation Tracker ${data.snapshotDate}）：${records.length} 筆，掛到 ${withRecords} 家公司`);
 }
 
+const PROGRAM_LABELS = { CWA: '水污染', CAA: '空氣污染', RCRA: '有害廢棄物', FEC: 'EPA 執法案件' };
+const toEpaDate = (iso) => (iso ? `${iso.slice(5, 7)}/${iso.slice(8, 10)}/${iso.slice(0, 4)}` : 'N/A');
+
+/**
+ * 水污染以外的 EPA 紀錄（scripts/build-echo-programs.py 產生的 data/echo-programs.json）：
+ * 同一廠區的空污、有害廢棄物紀錄與 EPA 聯邦執法案件，併進 violations，program 欄位區分。
+ * 廠區層級的紀錄掛在主要設施（site.facilityIds[0]）；沒有 NPDES 許可證的廠區（newFacility）另建設施。
+ * 也把廠區的監管計畫、TRI／GHG 排放量、EPA 設施報告連結寫到設施上。檔案不存在時不影響建置。
+ */
+function attachEchoPrograms(companies) {
+  companies.forEach(c => c.violations.forEach(v => { v.program = 'CWA'; v.programLabel = PROGRAM_LABELS.CWA; }));
+  const data = readDataJson('echo-programs.json');
+  if (!data) return;
+
+  const byCode = new Map(companies.map(c => [c.companyCode, c]));
+  const siteByKey = new Map();
+  for (const site of data.sites || []) {
+    const company = byCode.get(site.companyCode);
+    if (!company) {
+      console.warn(`⚠️ 廠區 ${site.name} 的公司 ${site.companyCode} 不在資料中`);
+      continue;
+    }
+    const nf = site.newFacility;
+    if (nf && !company.facilities.some(f => f.facilityId === site.facilityIds[0])) {
+      // 持股鏈與持股比例沿用同一子公司的既有設施
+      const like = FACILITY_OWNERSHIP.get(nf.ownershipFrom);
+      const sibling = company.facilities.find(f => `${company.companyCode}|${f.facilityId}` === nf.ownershipFrom);
+      company.facilities.push({
+        facilityId: site.facilityIds[0],
+        name: site.name,
+        registryId: site.registryId,
+        address: nf.address || 'N/A',
+        city: site.city || 'N/A',
+        state: site.state || 'N/A',
+        zipCode: nf.zipCode || 'N/A',
+        country: 'USA',
+        industry: 'N/A',
+        coordinates: { latitude: nf.latitude || null, longitude: nf.longitude || null },
+        shareholding: sibling?.shareholding,
+        ownership: like ? { ...like, note: nf.basis } : null,
+        programs: { air: false, water: false, waste: false, toxics: false }
+      });
+    }
+    for (const id of site.facilityIds) {
+      const facility = company.facilities.find(f => f.facilityId === id);
+      if (!facility) continue;
+      facility.programs = {
+        ...facility.programs,
+        air: site.programIds.air.length > 0,
+        waste: site.programIds.waste.length > 0,
+        toxics: site.programIds.toxics.length > 0,
+      };
+      facility.echo = { registryId: site.registryId, dfrUrl: site.dfrUrl, releases: site.releases, controlSince: site.controlSince };
+    }
+    siteByKey.set(`${site.companyCode}|${site.registryId}`, { company, site });
+  }
+
+  let added = 0;
+  for (const r of data.records || []) {
+    const hit = siteByKey.get(`${r.companyCode}|${r.registryId}`);
+    if (!hit || r.duplicateOf) continue;
+    const { company, site } = hit;
+    const facility = company.facilities.find(f => f.facilityId === site.facilityIds[0]);
+    const resolved = r.resolvedDate ? `RE - Returned to Compliance ${toEpaDate(r.resolvedDate)}` : null;
+    company.violations.push({
+      violationId: r.caseNumber && r.program === 'FEC' ? r.caseNumber : r.id,
+      facilityId: site.facilityIds[0],
+      program: r.program,
+      programLabel: PROGRAM_LABELS[r.program],
+      kind: r.kind,
+      violationCode: r.violationCode || (r.program === 'FEC' ? (r.statutes || []).join('、') : r.caseNumber) || null,
+      violationTypeDesc: r.type,
+      description: (r.program === 'FEC' ? [r.caseName, r.outcome] : [r.description, r.pollutants && `污染物：${r.pollutants}`]).filter(Boolean).join('；') || 'N/A',
+      date: toEpaDate(r.date),
+      endDate: 'N/A',
+      comment: r.program === 'FEC' ? r.description || '' : '',
+      agencyType: r.agency || 'N/A',
+      status: resolved || r.status || (r.kind === 'violation' ? 'Unknown' : 'N/A'),
+      source: 'EPA ECHO',
+      sourceUrl: r.sourceUrl || site.dfrUrl,
+      plantSite: `${facility?.name || site.name}, 美國`,
+      penaltyUSD: r.penaltyUSD || null,
+      fine: r.penaltyUSD ? `$${r.penaltyUSD.toLocaleString('en-US')}` : 'N/A',
+      monitoringPeriodEndDate: null,
+      valueReceivedDate: null
+    });
+    added++;
+  }
+  // 水污染與其他類別混在同一張表，依日期新到舊排，沒有日期的放最後
+  const sortKey = (v) => (/^\d\d\/\d\d\/\d{4}$/.test(v.date) ? v.date.slice(6) + v.date.slice(0, 2) + v.date.slice(3, 5) : '');
+  companies.forEach(c => c.violations.sort((x, y) => sortKey(y).localeCompare(sortKey(x))));
+  const counts = {};
+  (data.records || []).forEach(r => { if (!r.duplicateOf) counts[r.program] = (counts[r.program] || 0) + 1; });
+  console.log(`🏭 水污染以外的 EPA 紀錄：併入 ${added} 筆（${Object.entries(counts).map(([k, n]) => `${PROGRAM_LABELS[k]} ${n}`).join('、')}）`);
+}
+
 /**
  * 從 GCS 下載檔案
  */
@@ -596,6 +692,7 @@ async function main() {
     // 轉換資料格式
     console.log('🔄 轉換資料格式...');
     const transformedData = transformEPAFacilityData(recordsToProcess, violations);
+    attachEchoPrograms(transformedData);
     addCompaniesOutsideEpa(transformedData);
     attachNews(transformedData);
     attachEnforcement(transformedData);

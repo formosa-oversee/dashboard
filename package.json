@@ -22,7 +22,8 @@
     "attribution": "npm run ownership && npm run enforcement && npm run company-info && npm run fetch-data",
     "news": "python3 scripts/build-news.py && npm run company-info && npm run fetch-data",
     "audit:echo": "python3 scripts/audit-echo-coverage.py",
-    "supplement": "python3 scripts/build-echo-supplement.py"
+    "supplement": "python3 scripts/build-echo-supplement.py",
+    "programs": "python3 scripts/build-echo-programs.py"
   },
   "keywords": [],
   "author": "",

@@ -9,6 +9,7 @@ import {
 import { FaExternalLinkAlt, FaCalendarAlt, FaNewspaper, FaBuilding, FaChevronRight, FaFilter, FaChevronDown, FaCheck, FaMapMarkerAlt, FaArchive } from 'react-icons/fa';
 import { getCompanyData, getAllCompanyIds } from '../../lib/gcs-api-server';
 import { OFFENSE_CATEGORIES, VT_SNAPSHOT_NOTE, offenseInfo, agencyLabel, formatUSD } from '../../lib/enforcement';
+import { ECHO_PROGRAMS, ECHO_PROGRAMS_NOTE, RECORD_KINDS, programInfo } from '../../lib/echo-programs';
 import Layout from '../../components/Layout';
 import { CompanyReports, EventReportLinks } from '../../components/report/CompanyReports';
 import Link from 'next/link';
@@ -314,6 +315,7 @@ const defaultTabIndex = (company) => {
 
 const CompanyDetail = ({ companyData }) => {
   const [selectedViolationPlant, setSelectedViolationPlant] = useState('all');
+  const [selectedProgram, setSelectedProgram] = useState('all');
   const [selectedEventSite, setSelectedEventSite] = useState('all');
   const [tabIndex, setTabIndex] = useState(defaultTabIndex(companyData));
 
@@ -324,6 +326,7 @@ const CompanyDetail = ({ companyData }) => {
     const id = decodeURIComponent(window.location.hash.slice(1));
     const hasEvent = Boolean(id) && (companyData?.news || []).some(e => e.id === id);
     setSelectedViolationPlant('all');
+    setSelectedProgram('all');
     setSelectedEventSite('all');
     setTabIndex(hasEvent ? 0 : id === 'enforcement' ? 2 : defaultTabIndex(companyData));
     if (hasEvent) {
@@ -378,6 +381,10 @@ const CompanyDetail = ({ companyData }) => {
     source: v.source,
     plantSite: v.plantSite,
     fine: v.fine || 'N/A',
+    program: v.program || 'CWA',
+    kind: v.kind,
+    penaltyUSD: v.penaltyUSD,
+    sourceUrl: v.sourceUrl,
     agencyType: v.agencyType,
     parameterCode: v.parameterCode,
     parameterDesc: v.parameterDesc,
@@ -413,13 +420,17 @@ const CompanyDetail = ({ companyData }) => {
     ...violationPlantSites.sort().map(site => ({ value: site, label: site }))
   ];
 
-  // Memoized filtered violations
-  const filteredViolations = useMemo(() => {
-    if (selectedViolationPlant === 'all') {
-      return violationData;
-    }
-    return violationData.filter(v => v.plantSite === selectedViolationPlant);
-  }, [violationData, selectedViolationPlant]);
+  // 廠區與類別（水污染／空污／有害廢棄物／EPA 執法案件）兩個篩選疊加；類別按鈕的筆數跟著廠區篩選
+  const plantViolations = selectedViolationPlant === 'all'
+    ? violationData
+    : violationData.filter(v => v.plantSite === selectedViolationPlant);
+  const programCounts = plantViolations.reduce((m, v) => ({ ...m, [v.program]: (m[v.program] || 0) + 1 }), {});
+  const programFilters = [['all', `全部（${plantViolations.length.toLocaleString()}）`],
+    ...Object.entries(ECHO_PROGRAMS).filter(([k]) => programCounts[k]).map(([k, p]) => [k, `${p.label}（${programCounts[k].toLocaleString()}）`])];
+  const filteredViolations = useMemo(() => (
+    selectedProgram === 'all' ? plantViolations : plantViolations.filter(v => v.program === selectedProgram)
+  ), [plantViolations, selectedProgram]);
+  const epaPenaltyTotal = filteredViolations.reduce((sum, v) => sum + (v.penaltyUSD || 0), 0);
 
   // Helper to get the label for the selected plant value
   const getSelectedPlantLabel = (selectedValue) => {
@@ -642,6 +653,7 @@ const CompanyDetail = ({ companyData }) => {
             {/* 環境違規記錄 Tab */}
             <TabPanel>
               <VStack align="stretch" spacing={4}>
+                {inEpaData && <Text fontSize="sm" color="gray.600">{ECHO_PROGRAMS_NOTE}</Text>}
                 <HStack>
                   <Icon as={FaFilter} />
                   <Text fontWeight="bold">篩選廠區:</Text>
@@ -671,6 +683,22 @@ const CompanyDetail = ({ companyData }) => {
                     </MenuList>
                   </Menu>
                 </HStack>
+                {programFilters.length > 2 && (
+                  <HStack spacing={2} flexWrap="wrap">
+                    {programFilters.map(([k, label]) => (
+                      <Button key={k} size="xs" colorScheme={k === 'all' ? 'green' : ECHO_PROGRAMS[k].color}
+                        variant={selectedProgram === k ? 'solid' : 'outline'} onClick={() => setSelectedProgram(k)}>
+                        {label}
+                      </Button>
+                    ))}
+                  </HStack>
+                )}
+                {epaPenaltyTotal > 0 && (
+                  <Text fontSize="sm" fontWeight="semibold">
+                    EPA 紀錄中有罰款金額的處分合計 {formatUSD(epaPenaltyTotal)}
+                    <Text as="span" fontWeight="normal" color="gray.600">（與「罰款紀錄」分頁可能是同一批案件）</Text>
+                  </Text>
+                )}
                 {filteredViolations.length > 0 ? (
                   <Box borderWidth="1px" borderRadius="lg" overflowX="auto">
                     <Table variant="simple" size="sm">
@@ -678,6 +706,7 @@ const CompanyDetail = ({ companyData }) => {
                         <Tr>
                           <Th>案件編號</Th>
                           <Th>發生日期</Th>
+                          <Th>類別</Th>
                           <Th>監測期結束</Th>
                           <Th>接收日期</Th>
                           <Th>類型</Th>
@@ -685,6 +714,7 @@ const CompanyDetail = ({ companyData }) => {
                           <Th>描述</Th>
                           <Th>備註</Th>
                           <Th>狀態</Th>
+                          <Th isNumeric>罰款</Th>
                           <Th>來源</Th>
                           <Th>廠區</Th>
                         </Tr>
@@ -692,8 +722,18 @@ const CompanyDetail = ({ companyData }) => {
                       <Tbody>
                         {filteredViolations.map((violation, index) => (
                           <Tr key={index}>
-                            <Td>{violation.caseNumber || 'N/A'}</Td>
+                            <Td>
+                              {violation.sourceUrl ? (
+                                <ChakraLink href={violation.sourceUrl} isExternal color="teal.600">
+                                  {violation.caseNumber} <Icon as={FaExternalLinkAlt} mx="2px" boxSize={3} />
+                                </ChakraLink>
+                              ) : violation.caseNumber || 'N/A'}
+                            </Td>
                             <Td whiteSpace="nowrap">{violation.date || 'N/A'}</Td>
+                            <Td minW="110px">
+                              <Badge colorScheme={programInfo(violation.program).color} fontSize="0.8em">{programInfo(violation.program).label}</Badge>
+                              {RECORD_KINDS[violation.kind] && <Text fontSize="xs" color="gray.500">{RECORD_KINDS[violation.kind]}</Text>}
+                            </Td>
                             <Td whiteSpace="nowrap">{violation.monitoringPeriodEndDate || 'N/A'}</Td>
                             <Td whiteSpace="nowrap">{violation.valueReceivedDate || 'N/A'}</Td>
                             <Td>
@@ -709,6 +749,7 @@ const CompanyDetail = ({ companyData }) => {
                                 {violation.status || 'N/A'}
                               </Badge>
                             </Td>
+                            <Td isNumeric whiteSpace="nowrap">{violation.penaltyUSD ? `US$${violation.penaltyUSD.toLocaleString()}` : '—'}</Td>
                             <Td>{violation.source || 'N/A'}</Td>
                             <Td>{violation.plantSite || 'N/A'}</Td>
                           </Tr>

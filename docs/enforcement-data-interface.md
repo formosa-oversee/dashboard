@@ -321,5 +321,85 @@ npm run attribution
 | WAG030060「MORRIS & CO DBA OCEAN ALEXANDER」 | 同品牌經銷商，與東哥的持股關係未能確認 |
 | TXR05M678「ALUMAX MILL PRODUCTS」 | 前業主名下的許可證 |
 | LAR10O047 Bo-Mac Contractors | FG LA 工程承包商的許可證，不是工廠本身 |
-| Continental Carbon Ponca City OK、Tulex Pharmaceuticals NJ | 沒有 NPDES 許可證，違規屬空污／其他法規，網站目前只收水污違規 |
+| Continental Carbon Ponca City OK、Tulex Pharmaceuticals NJ | 沒有 NPDES 許可證，違規屬空污／其他法規，當時網站只收水污違規。Ponca City 已於 2026-10-25 以第 9 節的 `EXTRA_SITES` 補進；Tulex 只有 2 季廢棄物不合規，易威 1799 還沒有公司頁，暫不納入 |
 | Barrette Outdoor Living、Mira Mobile Home Community、Chroma Corp（IL） | 同名誤配 |
+
+
+## 9. 水污染以外的 EPA 紀錄：空污、有害廢棄物、聯邦執法案件（2026-10-25）
+
+GCS 原始資料與補充資料都只有 ICIS-NPDES，也就是 Clean Water Act 的水污染違規。`scripts/build-echo-programs.py` 把同一廠區在其他法規下的紀錄補進來。
+
+```bash
+scripts/download-echo-sources.sh                 # → ../epa-downloads（約 9GB，不進 git）；這支只需要其中 4 個檔
+npm run programs -- --dir=../epa-downloads       # → data/echo-programs.json（進 git），約 1 分鐘
+npm run fetch-data
+```
+
+其他 EPA 來源（AFS、SDWIS、TRI 年度檔、GHGRP、人口統計等）的確認結果與缺口見 `docs/echo-data-sources.md`。
+
+### 怎麼對到廠區
+
+EPA 的 FRS（Facility Registry Service）替每個實體廠區配一個 `REGISTRY_ID`，ECHO Exporter 每列一個廠區，列出它在各法規下的許可證或登記編號（`NPDES_IDS`、`AIR_IDS`、`RCRA_IDS`、`TRI_IDS`、`GHG_IDS`）。
+
+1. 我們 196 個設施的 NPDES 許可證，在 Exporter 全部對得到，共 165 個廠區。一個廠區常有好幾張 NPDES 許可證，例如 FPC Texas 有主廠排放許可和兩張雨水許可。
+2. 用廠區的空污編號到 ICIS-Air、廢棄物編號到 RCRAInfo、`REGISTRY_ID` 到 ICIS FE&C 案件檔取逐筆紀錄。
+3. 空污、廢棄物是廠區層級的紀錄，掛在主要設施，也就是個別許可證優先於通用許可證的那一個，避免同一筆在公司頁算好幾次。
+4. 沒有 NPDES 許可證的台灣母公司工廠，以前因為網站只收水污而沒有納入，列在 `EXTRA_SITES`，用 `REGISTRY_ID` 當設施編號另建設施，持股鏈沿用同一子公司的既有設施。目前只有 Continental Carbon Ponca City OK（國際中橡 2104）。
+
+### 收錄的紀錄
+
+| `program` | 來源檔 | `kind` | 內容 |
+|---|---|---|---|
+| `CAA` | `ICIS-AIR_VIOLATION_HISTORY` | `violation` | 高優先違規（HPV）與聯邦應報違規（FRV），含污染物、解除日期 |
+| `CAA` | `ICIS-AIR_STACK_TESTS` | `stack-test` | 只收結果為 Fail 的煙道排放檢測 |
+| `CAA` | `ICIS-AIR_INFORMAL_ACTIONS` | `informal` | 違規通知（NOV）、警告信 |
+| `CAA` | `ICIS-AIR_FORMAL_ACTIONS` | `formal` | 行政命令、司法案件，含罰款 |
+| `RCRA` | `RCRA_VIOLATIONS` | `violation` | 違反的條文、認定日期、回復合規日期 |
+| `RCRA` | `RCRA_ENFORCEMENTS` | `informal`／`formal` | 處分類型代碼第 3 碼是 1 的是非正式，其餘是正式；罰款取 `FMP_AMOUNT`（最終罰款） |
+| `FEC` | `CASE_*` | `case` | EPA 主辦的聯邦案件，跨 CAA、RCRA、CWA、EPCRA、TSCA 等法規；罰款是各結案的聯邦與州／地方罰款合計 |
+
+另外每個廠區記 TRI 有毒化學物質廠內排放量（磅）、TRI 排放與移轉總量、GHG 溫室氣體排放量（公噸 CO₂e），都是 Exporter 的最近申報年度數字，顯示在設施頁。
+
+去重：ICIS-Air 處分檔同一處分每個適用計畫各一列，只算一筆；RCRA 違規檔同一天同一條文的多列無法區分，也只算一筆。EPA 主辦的空污處分同時出現在 ICIS-Air 與 FE&C 時，案件號相同，保留 FE&C 那筆（`duplicateOf: 'FEC'`，前端不顯示）。
+
+### 前端
+
+`fetch-gcs-data.js` 的 `attachEchoPrograms` 把紀錄併進 `violations`，原本的水污染標 `program: 'CWA'`。公司頁「環境違規記錄」分頁多了類別篩選（水污染／空氣污染／有害廢棄物／EPA 執法案件）、類別欄、罰款欄，案件編號連到 EPA 設施報告或案件報告。設施的 `programs` 旗標依廠區實際登記設定，設施頁顯示 TRI／GHG 排放量與 EPA 設施報告連結。
+
+呈現原則沿用第 6 節：
+
+- 違規認定與處分常是同一件事的不同階段，筆數不等於違規次數。
+- 這些罰款與 Violation Tracker 的罰款大量重疊（VT 的環境類紀錄多半就是從 ECHO 來的），公司頁只在違規分頁內顯示「EPA 紀錄中的罰款合計」，不加進列表頁的罰款總額。
+- 歸屬信心沿用設施的 `ownership.confidence`，`suspect`／`weak` 設施的空污、廢棄物紀錄照樣顯示（2026-09-30 的決定）。
+
+### 取得控制前的紀錄
+
+和 VT 的 `controlSince`、補充資料的 `CONFIRMED` 年份同一原則：台灣母公司取得控制以前的紀錄屬前業主，不納入。年份來源依序是 `build-echo-supplement.py` 的 `CONFIRMED`、`ownership-resolution.json` 的 `controlSince`、本腳本的 `CONTROL_SINCE`（每筆寫依據）。沒有日期的紀錄無法判斷，保留。
+
+2026-10-25 對所有有空污或廢棄物紀錄的廠區逐一查證取得控制的日期（年報、SEC 文件、官方公告、CSB 報告），依據寫在 `CONTROL_SINCE`。排除的筆數如下：
+
+| 廠區 | 台灣母公司取得控制 | 前業主 | 排除 |
+|---|---|---|---|
+| Bristol Metals，Bristol TN（大成不銹鋼 2027） | 2025-04-04 | Ascent Industries（前 Synalloy） | 90 筆，全部 |
+| MEMC，O'Fallon MO（環球晶 6488） | 2016-12-02 | SunEdison Semiconductor | 45 筆，全部 |
+| FPC Illiopolis IL（台塑 1301） | 2002-04 | Borden Chemicals and Plastics | 25 筆 |
+| KEMET，Simpsonville SC（國巨 2327） | 2020-06 | — | 23 筆 |
+| TCI Texarkana TX（大成不銹鋼 2027） | 2018 | Arconic | 19 筆 |
+| Upsher-Smith，Denver CO（保瑞 6472） | 2024-04-01 | Sawai | 15 筆，全部 |
+| APG Polytech，Apple Grove WV（遠東新 1402） | 2018-03-01 | M&G Polymers USA | 7 筆，全部 |
+| Arlon EMD，Rancho Cucamonga CA（台光電 2383） | 2021-01-18 | CriticalPoint Capital | 5 筆，全部 |
+| 宏遠美國，Forest City NC（宏遠 1460） | 2016-10 | 不明的前一位使用者 | 4 筆，全部 |
+| Continental Carbon Phenix City AL、Ponca City OK（國際中橡 2104） | 1995 | Witco | 各 3 筆 |
+| FPC Baton Rouge LA（台塑 1301） | 1981 | ICI 子公司 | 2 筆 |
+| Continental Coatings，Fontana CA（永記 1726） | 2012-11 | 不明 | 2 筆 |
+| FS Precision Tech，Compton CA（復盛應用 6670） | 2004-09 | Coastcast | 1 筆 |
+
+另外查到三個既有 ECHO 匹配是同名誤配，不是台灣母公司的工廠，列在 `NOT_OWNED`，不掛任何空污、廢棄物紀錄：
+
+| 廠區 | 被匹配到的公司 | 實際 |
+|---|---|---|
+| Everbrite LLC，Buena Vista VA | 永彰 4523（英文名 Everbrite Technology） | 威斯康辛的招牌廠；永彰 2023 年報沒有美國子公司 |
+| Solomon Corporation，Decatur TN | 所羅門 2359 | 所羅門唯一的美國子公司是 2019 年在加州設立的 Solomon Technology (USA) |
+| Chroma Corp，McHenry IL | 致茂 2360 | 伊利諾州的色母粒廠，2018 年併入 Carolina Color；致茂的美國子公司都在加州 |
+
+**仍待決定**：水污染資料（GCS 原始 CSV）沒有做過同樣的檢查。目前 APG Polytech 有 123 筆、MEMC 有 154 筆水污染紀錄早於收購；Everbrite 有 1 筆。這三個同名誤配的 `ownership.confidence` 仍是 `high`。這些都還照舊顯示在網站上。

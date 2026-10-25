@@ -9,6 +9,7 @@ import { FaExternalLinkAlt, FaBuilding, FaChevronRight, FaMapMarkerAlt, FaIndust
 import dynamic from 'next/dynamic';
 import { getCompanyData, getAllCompanyIds } from '../../../../lib/gcs-api-server';
 import { getCoordinateAccuracy } from '../../../../lib/coordinate-precision';
+import { ECHO_PROGRAMS_NOTE, RECORD_KINDS, programInfo } from '../../../../lib/echo-programs';
 import Layout from '../../../../components/Layout';
 import Link from 'next/link';
 
@@ -49,7 +50,8 @@ const FacilityDetail = ({ companyData, facility }) => {
     shareholding: facility.shareholding,
     latitude: facility.coordinates?.latitude,
     longitude: facility.coordinates?.longitude,
-    programs: facility.programs
+    programs: facility.programs,
+    echo: facility.echo
   };
 
   const parentCompany = {
@@ -75,6 +77,10 @@ const FacilityDetail = ({ companyData, facility }) => {
     source: v.source,
     plantSite: v.plantSite,
     fine: v.fine || 'N/A',
+    program: v.program || 'CWA',
+    kind: v.kind,
+    penaltyUSD: v.penaltyUSD,
+    sourceUrl: v.sourceUrl,
     monitoringPeriodEndDate: v.monitoringPeriodEndDate,
     valueReceivedDate: v.valueReceivedDate,
     scheduleDate: v.scheduleDate,
@@ -223,6 +229,25 @@ const FacilityDetail = ({ companyData, facility }) => {
                     </Badge>
                   ))}
                 </HStack>
+                {facilityInfo.echo && (
+                  <VStack align="start" spacing={2} width="100%">
+                    {/* TRI／GHG 是 EPA 設施登記（廠區）層級、最近申報年度的數字，同廠區的設施頁都顯示同一份 */}
+                    {facilityInfo.echo.releases?.triOnSiteLb && (
+                      <Text fontSize="sm">
+                        有毒化學物質（TRI）廠內排放：{facilityInfo.echo.releases.triOnSiteLb.toLocaleString()} 磅
+                        （約 {Math.round(facilityInfo.echo.releases.triOnSiteLb * 0.4536).toLocaleString()} 公斤），最近申報年度
+                      </Text>
+                    )}
+                    {facilityInfo.echo.releases?.ghgCO2eTons && (
+                      <Text fontSize="sm">
+                        溫室氣體排放：{facilityInfo.echo.releases.ghgCO2eTons.toLocaleString()} 公噸 CO₂e，最近申報年度
+                      </Text>
+                    )}
+                    <ChakraLink href={facilityInfo.echo.dfrUrl} isExternal color="teal.600" fontSize="sm">
+                      EPA 設施報告（登記 ID {facilityInfo.echo.registryId}）<Icon as={FaExternalLinkAlt} mx="2px" boxSize={3} />
+                    </ChakraLink>
+                  </VStack>
+                )}
               </VStack>
             </CardBody>
           </Card>
@@ -289,6 +314,7 @@ const FacilityDetail = ({ companyData, facility }) => {
         {/* Violations Table */}
         <VStack spacing={6} align="stretch">
           <Heading size="lg" color="green.600">環境違規記錄 ({facilityViolations.length})</Heading>
+          <Text fontSize="sm" color="gray.600">{ECHO_PROGRAMS_NOTE}</Text>
           {facilityViolations.length > 0 ? (
             <Box borderWidth="1px" borderRadius="lg" overflowX="auto">
               <Table variant="simple" size="sm">
@@ -296,6 +322,7 @@ const FacilityDetail = ({ companyData, facility }) => {
                   <Tr>
                     <Th>案件編號</Th>
                     <Th>發生日期</Th>
+                    <Th>類別</Th>
                     <Th>監測期結束</Th>
                     <Th>接收日期</Th>
                     <Th>類型</Th>
@@ -303,13 +330,24 @@ const FacilityDetail = ({ companyData, facility }) => {
                     <Th>描述</Th>
                     <Th>備註</Th>
                     <Th>狀態</Th>
+                    <Th isNumeric>罰款</Th>
                   </Tr>
                 </Thead>
                 <Tbody>
                   {facilityViolations.map((violation, index) => (
                     <Tr key={index}>
-                      <Td>{violation.caseNumber || 'N/A'}</Td>
+                      <Td>
+                        {violation.sourceUrl ? (
+                          <ChakraLink href={violation.sourceUrl} isExternal color="teal.600">
+                            {violation.caseNumber} <Icon as={FaExternalLinkAlt} mx="2px" boxSize={3} />
+                          </ChakraLink>
+                        ) : violation.caseNumber || 'N/A'}
+                      </Td>
                       <Td whiteSpace="nowrap">{violation.date || 'N/A'}</Td>
+                      <Td minW="110px">
+                        <Badge colorScheme={programInfo(violation.program).color} fontSize="0.8em">{programInfo(violation.program).label}</Badge>
+                        {RECORD_KINDS[violation.kind] && <Text fontSize="xs" color="gray.500">{RECORD_KINDS[violation.kind]}</Text>}
+                      </Td>
                       <Td whiteSpace="nowrap">{violation.monitoringPeriodEndDate || 'N/A'}</Td>
                       <Td whiteSpace="nowrap">{violation.valueReceivedDate || 'N/A'}</Td>
                       <Td>
@@ -325,6 +363,7 @@ const FacilityDetail = ({ companyData, facility }) => {
                           {violation.status || 'N/A'}
                         </Badge>
                       </Td>
+                      <Td isNumeric whiteSpace="nowrap">{violation.penaltyUSD ? `US$${violation.penaltyUSD.toLocaleString()}` : '—'}</Td>
                     </Tr>
                   ))}
                 </Tbody>

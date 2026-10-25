@@ -18,8 +18,9 @@
     "mapping:seed": "python3 scripts/seed-company-mapping.py",
     "ownership": "python3 scripts/resolve-ownership.py",
     "enforcement": "node scripts/build-enforcement.js",
-    "attribution": "npm run ownership && npm run enforcement && npm run fetch-data",
-    "news": "python3 scripts/build-news.py && npm run fetch-data",
+    "company-info": "python3 scripts/build-company-info.py",
+    "attribution": "npm run ownership && npm run enforcement && npm run company-info && npm run fetch-data",
+    "news": "python3 scripts/build-news.py && npm run company-info && npm run fetch-data",
     "audit:echo": "python3 scripts/audit-echo-coverage.py",
     "supplement": "python3 scripts/build-echo-supplement.py"
   },

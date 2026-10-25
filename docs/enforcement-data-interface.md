@@ -2,6 +2,12 @@
 
 狀態：草案 v2（2026-09-10）。已依 `violation-tracker-data-access.md` 研究結果更新欄位對應與取得路徑。
 
+**2026-10-25 上線**：Good Jobs First 以書信同意本專案非營利使用 VT 資料，快照與 `data/enforcement.json` 改為進 git，公司頁新增「罰款紀錄」分頁（`#enforcement` 直接開啟）。實作與本草案的差異：
+- 只顯示 `shown` 的紀錄：掛得到上市公司、不是國內案件（jurisdiction Taiwan）、不是收購前（`attribution.preAcquisition`）。2026-09-10 快照 629 筆中顯示 172 筆、19 家公司；不顯示的原因寫在 `hiddenReason`。
+- 公司層彙總叫 `enforcementSummary`（`count`、`penaltyTotalUSD`、`latestYear`），不是 `summary`；`metadata.dataSources` 沒有做。
+- 類別是依 Primary Offense 歸的七類（`lib/enforcement.js`），列表頁快照沒有 Offense Group 欄。
+- 沒有紀錄頁 slug 的 101 筆（`get_page_text` 抓的頁）連到 VT 母公司頁。
+
 ## 1. 兩種資料的本質不同，分開存
 
 | | EPA ECHO（現有 `violations`） | Violation Tracker（新增至 `enforcement`） |
@@ -136,7 +142,7 @@ scripts/fetch-gcs-data.js            # 修改：轉完 EPA 後，若 data/enforc
 
 - `npm run build` 不強制依賴 VT 資料；沒有 `enforcement.json` 就照舊產出，`enforcement` 為空陣列。
 - 訂閱 CSV 的實際欄位清單尚未確認，`build-enforcement.js` 的欄位對應表寫成獨立常數，拿到檔案後只改一處。
-- 產出的靜態網站會公開整批紀錄，這已超出 internal use。**上線前必須取得 Good Jobs First 書面同意**，否則前端只呈現母公司頁連結與官方摘要數字（研究筆記建議 3）。
+- 產出的靜態網站會公開整批紀錄，這已超出 internal use。**上線前必須取得 Good Jobs First 書面同意**，否則前端只呈現母公司頁連結與官方摘要數字（研究筆記建議 3）。→ 2026-10-25 已取得書信同意（非營利使用），快照與 `enforcement.json` 改為進 git。
 
 ## 6. 前端接點
 

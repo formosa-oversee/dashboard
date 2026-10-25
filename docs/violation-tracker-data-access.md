@@ -3,6 +3,8 @@
 調查日期：2026-09-10
 調查對象：https://violationtracker.goodjobsfirst.org/（US 版）、Violation Tracker Global、Violation Tracker UK
 
+> **2026-10-25 更新**：Good Jobs First 以書信同意本專案（非營利組織）使用 VT 資料（"Yes you're allow to use without profit"）。下文關於「internal use only、不進公開 repo」的限制已不適用於本專案的非營利使用；禁止規避 Cloudflare 抓取（ToS §5.2）仍然適用。網站呈現方式見 `enforcement-data-interface.md` 開頭。
+
 > 方法備註：三個 Violation Tracker 站與 goodjobsfirst.org 主站皆在 Cloudflare 之後，對 `curl`（含瀏覽器 UA）與 WebFetch 一律回 **HTTP 403 + `cf-mitigated: challenge`**（JS challenge 頁「Just a moment...」）。本文所有頁面內容是透過會執行 JS 的第三方抽取服務（anysearch extract）取得；「結果筆數」「連結數」均是從實際回傳的頁面計數而來。
 
 ## 結論摘要

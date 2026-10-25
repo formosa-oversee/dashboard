@@ -45,7 +45,7 @@ function loadFacilityOwnership() {
 const FACILITY_OWNERSHIP = loadFacilityOwnership();
 
 /**
- * 公司基本資料：facilities.csv 與 data/news.json 的公司欄位同名，用同一套對應。
+ * 公司基本資料：facilities.csv 與 data/company-info.json 的公司欄位同名，用同一套對應。
  */
 function companyInfoFromRow(row) {
   return {
@@ -62,33 +62,31 @@ function companyInfoFromRow(row) {
   };
 }
 
-/**
- * 污染事件（scripts/build-news.py 產生的 data/news.json，規格見 docs/pollution-news-spec.md）。
- * 事件掛到持股達門檻的公司（companyCodes）；只有新聞、沒有 EPA 設施的公司另外建立公司物件（inEpaData: false）。
- * 檔案不存在時不影響建置，news 為空陣列。
- */
-function attachNews(companies) {
-  companies.forEach(company => {
-    company.news = [];
-    company.inEpaData = true;
-  });
-  const file = path.join(DATA_DIR, 'news.json');
-  if (!fs.existsSync(file)) return;
-
-  let news;
+function readDataJson(name) {
+  const file = path.join(DATA_DIR, name);
+  if (!fs.existsSync(file)) return null;
   try {
-    news = JSON.parse(fs.readFileSync(file, 'utf8'));
+    return JSON.parse(fs.readFileSync(file, 'utf8'));
   } catch (err) {
-    console.warn(`⚠️ 無法讀取 news.json：${err.message}`);
-    return;
+    console.warn(`⚠️ 無法讀取 ${name}：${err.message}`);
+    return null;
   }
+}
 
-  const byCode = new Map(companies.map(c => [c.companyCode, c]));
-  let newsOnly = 0;
-  for (const [code, row] of Object.entries(news.companies || {})) {
+const DATA_SOURCE_LABELS = { news: '污染事件（官方文件與新聞報導）', enforcement: 'Violation Tracker（Good Jobs First）' };
+
+/**
+ * 不在 EPA 資料裡、但有污染事件或 Violation Tracker 紀錄的公司（scripts/build-company-info.py 產生的 data/company-info.json）。
+ * 另外建立公司物件，標 inEpaData: false，前端不顯示 0 筆違規。
+ */
+function addCompaniesOutsideEpa(companies) {
+  companies.forEach(company => { company.inEpaData = true; });
+  const byCode = new Set(companies.map(c => c.companyCode));
+  let added = 0;
+  for (const [code, row] of Object.entries(readDataJson('company-info.json')?.companies || {})) {
     if (byCode.has(code)) continue;
     const info = companyInfoFromRow(row);
-    const company = {
+    companies.push({
       id: `tw-${code}`,
       ...info,
       englishName: info.englishName || info.name,
@@ -102,15 +100,25 @@ function attachNews(companies) {
       news: [],
       inEpaData: false,
       metadata: {
-        dataSource: '污染事件（官方文件與新聞報導）',
+        dataSource: (row.sources || []).map(s => DATA_SOURCE_LABELS[s] || s).join('、'),
         lastUpdated: new Date().toISOString()
       }
-    };
-    companies.push(company);
-    byCode.set(code, company);
-    newsOnly++;
+    });
+    added++;
   }
+  console.log(`🏢 不在 EPA 資料裡的公司：${added} 家`);
+}
 
+/**
+ * 污染事件（scripts/build-news.py 產生的 data/news.json，規格見 docs/pollution-news-spec.md）。
+ * 事件掛到持股達門檻的公司（companyCodes）。檔案不存在時不影響建置，news 為空陣列。
+ */
+function attachNews(companies) {
+  companies.forEach(company => { company.news = []; });
+  const news = readDataJson('news.json');
+  if (!news) return;
+
+  const byCode = new Map(companies.map(c => [c.companyCode, c]));
   for (const event of news.events || []) {
     for (const code of event.companyCodes || []) {
       const company = byCode.get(code);
@@ -124,7 +132,71 @@ function attachNews(companies) {
   companies.forEach(c => c.news.sort((a, b) => (b.dateStart || '').localeCompare(a.dateStart || '')));
 
   const withNews = companies.filter(c => c.news.length > 0).length;
-  console.log(`📰 污染事件：${(news.events || []).length} 個事件，掛到 ${withNews} 家公司（其中 ${newsOnly} 家只有新聞）`);
+  console.log(`📰 污染事件：${(news.events || []).length} 個事件，掛到 ${withNews} 家公司`);
+}
+
+/**
+ * 罰款紀錄（scripts/build-enforcement.js 產生的 data/enforcement.json，Violation Tracker，Good Jobs First 書信同意非營利使用）。
+ * 只放 shown 的紀錄（掛得到上市公司、境外、非收購前），欄位只留前端用得到的。
+ * 罰款合計排除 VT 標 (*) 的重複計算紀錄。檔案不存在時 enforcement 為空陣列。
+ */
+function attachEnforcement(companies) {
+  companies.forEach(company => {
+    company.enforcement = [];
+    company.enforcementSummary = { count: 0, penaltyTotalUSD: 0, latestYear: null };
+  });
+  const data = readDataJson('enforcement.json');
+  if (!data) return;
+
+  const byCode = new Map(companies.map(c => [c.companyCode, c]));
+  const records = (data.records || []).filter(r => r.shown);
+  for (const r of records) {
+    const a = r.attribution || {};
+    const resp = a.responsible || {};
+    const hops = (a.ownershipPath || []).map(p => (p.pct != null ? `${p.investee}（${p.pct}%）` : p.investee));
+    for (const code of r.companyCodes) {
+      const company = byCode.get(code);
+      if (!company) {
+        console.warn(`⚠️ 罰款紀錄 ${r.caseId} 的公司 ${code} 不在資料中`);
+        continue;
+      }
+      company.enforcement.push({
+        caseId: r.caseId,
+        source: r.source,
+        sourceUrl: r.sourceUrl,
+        parentUrl: r.parentUrl,
+        snapshotDate: data.snapshotDate,
+        jurisdiction: r.jurisdiction,
+        companyNameInSource: r.companyNameInSource,
+        parentInSource: r.parentInSource,
+        year: r.date.slice(0, 4),
+        agencyCode: r.agencyCode,
+        agencyLevel: r.agencyLevel,
+        offenseType: r.offenseType,
+        penaltyAmountUSD: r.penaltyAmountUSD,
+        isDuplicateFlagged: r.isDuplicateFlagged,
+        facilityState: r.facilityState,
+        holding: {
+          role: resp.code === code ? 'responsible' : 'ultimate-parent',
+          effectivePct: a.effectiveOwnershipPct ?? null,
+          path: [resp.short || resp.name, ...hops].filter(Boolean),
+          method: a.method || null,
+          confidence: r.matchConfidence,
+          note: a.note || null,
+        },
+      });
+    }
+  }
+  for (const c of companies) {
+    c.enforcement.sort((x, y) => y.year.localeCompare(x.year) || y.penaltyAmountUSD - x.penaltyAmountUSD);
+    c.enforcementSummary = {
+      count: c.enforcement.length,
+      penaltyTotalUSD: c.enforcement.filter(r => !r.isDuplicateFlagged).reduce((s, r) => s + r.penaltyAmountUSD, 0),
+      latestYear: c.enforcement[0]?.year || null,
+    };
+  }
+  const withRecords = companies.filter(c => c.enforcement.length > 0).length;
+  console.log(`⚖️ 罰款紀錄（Violation Tracker ${data.snapshotDate}）：${records.length} 筆，掛到 ${withRecords} 家公司`);
 }
 
 /**
@@ -524,7 +596,9 @@ async function main() {
     // 轉換資料格式
     console.log('🔄 轉換資料格式...');
     const transformedData = transformEPAFacilityData(recordsToProcess, violations);
+    addCompaniesOutsideEpa(transformedData);
     attachNews(transformedData);
+    attachEnforcement(transformedData);
 
     // 儲存為 JSON
     fs.writeFileSync(OUTPUT_FILE, JSON.stringify(transformedData, null, 2));

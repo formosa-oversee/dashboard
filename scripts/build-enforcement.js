@@ -6,6 +6,9 @@
  *   欄位：recordSlug, company, parentSlug, industry, offenseType, year, agencyCode, penaltyText
  * 輸入：data/violation-tracker/<date>-us-hq-taiwan-parents.json  （parentSlug → parent 名稱）
  * 輸入：data/company-mapping.json（可選；vtSlug → companyCodes）
+ *
+ * Good Jobs First 以書信同意本專案（非營利）使用並公開 VT 資料（2026-10-25 使用者轉述："Yes you're allow to use without profit"）。
+ * 每筆標 shown：是否顯示在網站上；不顯示的保留在檔案裡，hiddenReason 說明原因。
  */
 const fs = require('fs');
 const path = require('path');
@@ -57,6 +60,7 @@ for (const f of fs.readdirSync(VT_DIR).filter(f => f.startsWith(`${SNAPSHOT_DATE
       caseId: recordSlug ? `VT-${recordSlug}` : `VT-noslug-${++noSlugSeq}`,
       source: 'Violation Tracker',
       sourceUrl: recordSlug ? `https://violationtracker.goodjobsfirst.org/violation-tracker/${recordSlug}` : null,
+      parentUrl: `https://violationtracker.goodjobsfirst.org/parent/${parentSlug}`,
       primarySourceUrl: null, archivedSourceUrl: null,
       jurisdiction: 'United States',
       facilityId: null,
@@ -88,6 +92,7 @@ for (const f of fs.readdirSync(VT_DIR).filter(f => f.startsWith(`${SNAPSHOT_DATE
       caseId: recordSlug ? `VTG-${recordSlug}` : `VTG-noslug-${++noSlugSeq}`, // 正式 VTG Record ID 需紀錄頁
       source: 'Violation Tracker Global',
       sourceUrl: recordSlug ? `https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/${recordSlug}` : null,
+      parentUrl: `https://violationtrackerglobal.goodjobsfirst.org/parent/${parentSlug}`,
       primarySourceUrl: null, archivedSourceUrl: null,
       jurisdiction: 'Taiwan',
       facilityId: null,
@@ -143,13 +148,25 @@ for (const r of records) {
   }
 }
 
+// ---- 網站顯示範圍（歸屬原則同 docs/pollution-news-spec.md）----
+// - no-listed-parent：掛不到上市公司（外資、台灣非上市母公司）
+// - domestic：國內案件。網站只收台灣企業的境外紀錄（2026-10-21 使用者決定「國內都不用」）
+// - pre-acquisition：台灣母公司取得控制前的罰款，不算在它頭上
+for (const r of records) {
+  r.hiddenReason = !r.companyCodes.length ? 'no-listed-parent'
+    : r.jurisdiction === 'Taiwan' ? 'domestic'
+    : r.attribution?.preAcquisition ? 'pre-acquisition'
+    : null;
+  r.shown = !r.hiddenReason;
+}
+
 const unmatched = {};
 for (const r of records.filter(r => r.companyCodes.length === 0)) {
   const k = `${r.source}|${r.parentSlug}`;
   unmatched[k] ||= { source: r.source, slug: r.parentSlug, parent: r.parentInSource, records: 0, penaltyUSD: 0 };
   unmatched[k].records++; if (!r.isDuplicateFlagged) unmatched[k].penaltyUSD += r.penaltyAmountUSD;
 }
-fs.writeFileSync(path.join(DATA, 'enforcement.json'), JSON.stringify({ snapshotDate: SNAPSHOT_DATE, source: 'Violation Tracker / Violation Tracker Global (Good Jobs First), internal use only', count: records.length, records }, null, 2));
+fs.writeFileSync(path.join(DATA, 'enforcement.json'), JSON.stringify({ snapshotDate: SNAPSHOT_DATE, source: 'Violation Tracker / Violation Tracker Global (Good Jobs First)；經 Good Jobs First 書信同意非營利使用', count: records.length, records }, null, 2));
 fs.writeFileSync(path.join(VT_DIR, 'unmatched.json'), JSON.stringify(Object.values(unmatched).sort((a, b) => b.penaltyUSD - a.penaltyUSD), null, 2));
 
 for (const src of ['Violation Tracker', 'Violation Tracker Global']) {
@@ -165,4 +182,8 @@ for (const r of records) {
 }
 console.log(`資金鏈歸屬：${attributed}/${records.length} 筆套用 ownership-resolution.json`);
 for (const [k, v] of Object.entries(byKind).sort()) console.log(`  ${k.padEnd(24)} ${String(v.records).padStart(4)} 筆  US$${v.usd.toLocaleString()}`);
+const hidden = {};
+for (const r of records.filter(r => !r.shown)) hidden[r.hiddenReason] = (hidden[r.hiddenReason] || 0) + 1;
+const shown = records.filter(r => r.shown);
+console.log(`網站顯示：${shown.length} 筆，${new Set(shown.flatMap(r => r.companyCodes)).size} 家公司；不顯示：${JSON.stringify(hidden)}`);
 console.log(`snapshot ${SNAPSHOT_DATE}: 共 ${records.length} 筆；未掛上市公司的受罰實體 ${Object.keys(unmatched).length} 家（外資、台灣非上市母公司；見 data/violation-tracker/unmatched.json）`);

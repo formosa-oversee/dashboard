@@ -4,12 +4,12 @@
 - 驗證每個事件的欄位與收錄門檻（spec 第 3 節），有任何錯誤就中止、不產出。
 - 依持股決定事件出現在哪些公司頁（spec 第 4 節）：有效持股 ≥ 20%，或集團合計 ≥ 50% 且本身有持股。
   事件有 attributionOverride 就照用（關聯企業、MOPS 追不到的實體）；沒有才用 resolve-ownership.py 沿 MOPS 持股鏈追。
-- 只有新聞、沒有 EPA 設施的公司，從 MOPS 補基本資料（需要 ../scripts/mops_company，可用 MOPS_DIR 覆寫）。
+- 只有新聞、沒有 EPA 設施的公司，基本資料由 scripts/build-company-info.py 從 MOPS 補（npm run news 會接著跑）。
 
-data/news.json 進 git，CI 建置不需要 MOPS。
-用法：python3 scripts/build-news.py（npm run news 會接著跑 fetch-data）
+需要 ../scripts/mops_company（可用 MOPS_DIR 覆寫）。data/news.json 進 git，CI 建置不需要 MOPS。
+用法：npm run news（build-news.py → build-company-info.py → fetch-data）
 """
-import csv, json, re, sys, datetime, pathlib, importlib.util
+import json, re, sys, datetime, pathlib, importlib.util
 
 DASH = pathlib.Path(__file__).resolve().parents[1]
 DATA = DASH / 'data'
@@ -113,23 +113,6 @@ def attribute(ev, holders, companies):
     return err
 
 
-def company_info():
-    rows = {r['公司代號']: r for r in csv.DictReader(open(ro.MOPS_DIR / 'mops_company_info.csv', encoding='utf-8-sig'))}
-    return rows
-
-
-def company_cols(code, info, companies):
-    """與 data/facilities.csv 的公司欄位同名，fetch-gcs-data.js 用同一套對應。"""
-    m, c = info[code], companies[code]
-    site = (m['公司網址'] or '').strip()
-    if site and not re.match(r'^https?://', site):
-        site = 'https://' + site.lstrip('/')
-    return {'公司代號': code, '投資公司名稱': m['公司名稱'], '投資公司英文全稱': c['enFull'] or m['英文簡稱'] or m['公司名稱'],
-            '英文簡稱': m['英文簡稱'], '公司簡稱': m['公司簡稱'], '產業類別': m['產業類別'], '董事長': m['董事長'],
-            '成立日期': m['成立日期'], '上市日期': m['上市日期'], '實收資本額(元)': m['實收資本額(元)'],
-            '公司網址': site, '住址': m['住址'], 'LOGO網址': ''}
-
-
 def main():
     events = json.load(open(SRC, encoding='utf-8'))
     companies, edges, display, listed_child, us_subs = ro.load_mops()
@@ -156,28 +139,19 @@ def main():
             print(f'  ✗ {e}', file=sys.stderr)
         sys.exit(f'{len(errors)} 個錯誤，未產出 {OUT.relative_to(DASH)}')
 
-    have = set()
-    for f in ('facilities.csv', 'facilities-supplement.csv'):
-        if (DATA / f).exists():
-            have |= {r['公司代號'].strip() for r in csv.DictReader(open(DATA / f, encoding='utf-8-sig'))}
-    info = company_info()
     shown = sorted({c for ev in out_events for c in ev['companyCodes']})
-    news_only = {c: company_cols(c, info, companies) for c in shown if c not in have}
-
     out_events.sort(key=lambda e: e['dateStart'], reverse=True)
     OUT.write_text(json.dumps({
         'generatedAt': datetime.date.today().isoformat(),
         'note': '由 scripts/build-news.py 從 data/news-events.json 產生，規格見 docs/pollution-news-spec.md。'
-                'attribution[].shown 表示事件是否出現在該公司頁；reason：own 有效持股 ≥ 20%｜group 集團合計 ≥ 50% 且本身有持股。'
-                'companies 為只有新聞、不在 EPA 資料裡的公司基本資料（MOPS）。',
+                'attribution[].shown 表示事件是否出現在該公司頁；reason：own 有效持股 ≥ 20%｜group 集團合計 ≥ 50% 且本身有持股。',
         'events': out_events,
-        'companies': news_only,
     }, ensure_ascii=False, indent=2) + '\n')
 
     print(f'{len(out_events)} 個事件 → {OUT.relative_to(DASH)}')
     for c in shown:
         n = sum(1 for ev in out_events if c in ev['companyCodes'])
-        print(f"  {c} {companies[c]['short']}：{n} 個事件{'（只有新聞，新增公司頁）' if c in news_only else ''}")
+        print(f"  {c} {companies[c]['short']}：{n} 個事件")
     if warnings:
         print(f'{len(warnings)} 個警告（見上方）')
 

@@ -10,7 +10,7 @@ Next.js 14 靜態匯出的企業違規監測 dashboard。資料在 build 時由 
 - `npm run build` 會先跑 `fetch-data`。
 - **補充資料**：`data/facilities-supplement.csv`、`data/violations-supplement.csv`（進 git，不在 GCS）由 `scripts/build-echo-supplement.py` 從 EPA ICIS-NPDES 全量檔產生，收 ECHO 覆蓋率稽核確認屬台灣母公司、但 GCS 原始 CSV 沒有的許可證；`fetch-gcs-data.js` 建置時合併。重新下載 GCS 資料不會蓋掉它們。新增工廠時改腳本內 `CONFIRMED`，每筆寫依據。
 - 公司主鍵是台灣上市公司代號（`companyCode`，如 1210），以投審會境外投資名稱模糊匹配到 EPA facility。
-- 原本的 mock data（`lib/api.js`）已於 2026-10-21 刪除；`enforcement` 陣列目前仍為空（Violation Tracker 資料不進公開 repo）。
+- 原本的 mock data（`lib/api.js`）已於 2026-10-21 刪除。
 - 研究筆記放在 `docs/`。資料模型接口見 `docs/enforcement-data-interface.md`。
 
 ## gcloud 認證（與其他專案隔離）
@@ -31,16 +31,18 @@ npm run download-epa                          # 已內建該環境變數
 
 ## Violation Tracker 資料規範
 
-- **不要寫任何繞過 Cloudflare 的爬蟲**抓 violationtracker.goodjobsfirst.org 或 Global 站。其 Terms of Service §5.2 明文禁止，見 `docs/violation-tracker-data-access.md` 第 5 節。
-- 原始 CSV 由人工訂閱下載或向 Good Jobs First 申請，上傳到 `gs://epa_echo_data/violation-tracker/`，不進 git。
+- **授權**：Good Jobs First 以書信同意本專案（非營利組織）使用 VT 資料（"Yes you're allow to use without profit"，使用者 2026-10-25 轉述）。VT 快照、`data/enforcement.json` 都進 git，公司頁「罰款紀錄」分頁公開顯示。網站上要標示來源（Violation Tracker, Good Jobs First）、快照日期與「經同意非營利使用」。不得用於營利。
+- **不要寫任何繞過 Cloudflare 的爬蟲**抓 violationtracker.goodjobsfirst.org 或 Global 站。其 Terms of Service §5.2 明文禁止，見 `docs/violation-tracker-data-access.md` 第 5 節。授權只涵蓋使用資料，不涵蓋規避技術阻擋。
+- 原始資料由人工瀏覽、訂閱下載或向 Good Jobs First 申請取得，放在 `data/violation-tracker/`。
 - 2026-09-10 的列表頁快照在 `data/violation-tracker/*.tsv`：US 版 `hq_id=Taiwan` 201 筆、Global `jurisdiction=Taiwan` 428 筆。透過使用者自己的 Chrome（claude-in-chrome 擴充）正常瀏覽讀取，未繞過任何阻擋。JavaScript 抓取的頁面有紀錄 slug，`get_page_text` 抓的只有純文字、無 slug（US p2–3、Global p4–5）。Global 分頁真實網址是 `/?jurisdiction_sum=Taiwan&page=N`，`/jurisdiction/Taiwan?page=N` 會被忽略。
-- `node scripts/build-enforcement.js [YYYY-MM-DD]` 將快照轉成 `data/enforcement.json`。
+- `node scripts/build-enforcement.js [YYYY-MM-DD]` 將快照轉成 `data/enforcement.json`。每筆標 `shown`：要掛得到上市公司、不是國內案件（jurisdiction Taiwan，「國內都不用」）、不是台灣母公司取得控制前的罰款，才顯示在網站；不顯示的留在檔案裡，`hiddenReason` 說明原因。前端字典（違規類型中文、類別、機關名稱）在 `lib/enforcement.js`。
 - 母公司對照表 `data/company-mapping.json`（進 git）由 `npm run mapping:seed` 產生，依腳本內 `OVERRIDES`（人工確認）與 `FOREIGN`（外資母公司排除）決定。
-- **資金鏈歸屬**：`npm run attribution`（resolve-ownership → build-enforcement → fetch-data）。`scripts/resolve-ownership.py` 把受罰實體沿 MOPS 子公司持股鏈追到負責的台灣母公司，輸出 `data/ownership-resolution.json`（進 git，只含實體名稱與持股鏈，不含 VT 金額）。規格見 `docs/enforcement-data-interface.md` 第 8 節。
+- **資金鏈歸屬**：`npm run attribution`（resolve-ownership → build-enforcement → build-company-info → fetch-data）。`scripts/resolve-ownership.py` 把受罰實體沿 MOPS 子公司持股鏈追到負責的台灣母公司，輸出 `data/ownership-resolution.json`（進 git，只含實體名稱與持股鏈，不含 VT 金額）。規格見 `docs/enforcement-data-interface.md` 第 8 節。
 - 新增或修改歸屬判斷時改 `resolve-ownership.py` 的 `CURATED`，每條都要在 `note` 寫依據（MOPS 節點、官方公告或新聞）。MOPS 檔案在 sibling repo `../scripts/mops_company`，可用 `MOPS_DIR` 覆寫。
 - **ECHO 覆蓋率稽核**：`npm run audit:echo -- --exporter=<echo_exporter.zip>` 找台灣母公司在美國但 `facilities.csv` 沒有的工廠（見 `docs/enforcement-data-interface.md` 第 8 節）。ECHO 查詢 API 會回 429 限流，不要逐一打 API，改下載 EPA 全量檔 `echo.epa.gov/files/echodownloads/echo_exporter.zip` 在本機比對。
-- VT 衍生的筆數與金額只能留在 gitignored 檔案（`data/enforcement.json`、`data/violation-tracker/`、`data/company-mapping.seed.json`）；這個 repo 是公開的，push 到 main 會觸發 GitHub Pages 部署。
+- 這個 repo 是公開的，push 到 main 會觸發 GitHub Pages 部署。
 - **MOPS `mops_company_info.csv` 的「英文全稱」欄有整段錯一列的問題**（詳見 `docs/violation-tracker-data-access.md` 附錄）。做任何名稱匹配請用「英文簡稱」，或兩支腳本內已修正的英文全稱（以英文簡稱字首或縮寫字母順序判斷錯位），不要直接用原始「英文全稱」。
-- **污染事件**（公司頁「污染事件」分頁）：規格見 `docs/pollution-news-spec.md`。人工整理 `data/news-events.json`（每個事件附來源與封存網址）→ `npm run news`（`scripts/build-news.py` 驗證收錄門檻、依持股決定掛在哪些公司頁、從 MOPS 補只有新聞的公司基本資料 → `data/news.json` → fetch-data）。兩個檔都進 git，CI 不需要 MOPS。只有新聞、沒有 EPA 設施的公司 `inEpaData: false`，前端不顯示 0 筆違規。研究與查證紀錄放 `docs/pollution-news-research/`。
+- **污染事件**（公司頁「污染事件」分頁）：規格見 `docs/pollution-news-spec.md`。人工整理 `data/news-events.json`（每個事件附來源與封存網址）→ `npm run news`（`scripts/build-news.py` 驗證收錄門檻、依持股決定掛在哪些公司頁 → `data/news.json` → build-company-info → fetch-data）。兩個檔都進 git，CI 不需要 MOPS。研究與查證紀錄放 `docs/pollution-news-research/`。
+- **不在 EPA 資料裡的公司**：污染事件或 VT 紀錄掛到、但 `facilities.csv` 沒有的上市公司，由 `scripts/build-company-info.py`（`npm run company-info`）從 MOPS 補基本資料 → `data/company-info.json`（進 git）。這些公司 `inEpaData: false`，前端不顯示 0 筆違規。
 - **海外據點清單**（美國以外的延伸準備）：`python3 scripts/build-overseas-footprint.py` 從 MOPS 2025Q2 產生 `data/overseas-footprint.csv`（每列一個國家／母公司／子公司）與 `data/overseas-countries.csv`（國家摘要，給夥伴認領去找當地的環保裁罰資料來源）。網站不讀這兩個檔。中國大陸子公司只能從合併報表子公司名稱推斷；「類型（推測）」是關鍵字推測，不是官方分類。
 - 專案層 `.claude/settings.local.json` 允許 claude-in-chrome 工具，但 auto mode classifier 仍可能擋 `javascript_tool`，`get_page_text` 較穩定。

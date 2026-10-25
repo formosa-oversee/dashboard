@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import { Box, Container, Heading, Text, Grid, GridItem, VStack, HStack, Badge, Card, CardBody, Stack, Divider, CardFooter, Button, Image, Input, InputGroup, InputLeftElement, Flex } from '@chakra-ui/react';
-import { FaSearch, FaIndustry, FaBuilding, FaChevronRight, FaExclamationTriangle } from 'react-icons/fa';
+import { FaSearch, FaIndustry, FaBuilding, FaChevronRight, FaExclamationTriangle, FaGavel } from 'react-icons/fa';
 import Link from 'next/link';
 import Layout from '../../components/Layout';
+import { formatUSD } from '../../lib/enforcement';
 
 
 const CompanyCard = ({ company }) => {
@@ -46,6 +47,12 @@ const CompanyCard = ({ company }) => {
               <HStack>
                 <FaExclamationTriangle color="#DD6B20" />
                 <Text color="orange.600" fontWeight="semibold">污染事件: {company.newsCount}</Text>
+              </HStack>
+            )}
+            {company.enforcementCount > 0 && (
+              <HStack>
+                <FaGavel color="#805AD5" />
+                <Text color="purple.600" fontWeight="semibold">罰款紀錄: {company.enforcementCount}（{formatUSD(company.penaltyTotalUSD)}）</Text>
               </HStack>
             )}
           </Stack>
@@ -162,6 +169,8 @@ export async function getStaticProps() {
         totalViolations: company.violationCount,
         totalFacilities: company.facilityCount,
         newsCount: company.newsCount,
+        enforcementCount: company.enforcementCount,
+        penaltyTotalUSD: company.penaltyTotalUSD,
         inEpaData: company.inEpaData
       };
     });

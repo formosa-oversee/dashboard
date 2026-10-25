@@ -34,9 +34,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Violation Tracker snapshots (Good Jobs First ToS: internal use only)
-/data/violation-tracker/
-/data/enforcement.json
+# Violation Tracker：快照與 enforcement.json 進 git（Good Jobs First 書信同意非營利使用，見 CLAUDE.md）
 /data/company-mapping.seed.json
 __pycache__/
 /data/.echo-audit-cache.json

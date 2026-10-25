@@ -1,0 +1,464 @@
+[
+  {
+    "source": "Violation Tracker Global",
+    "slug": "qualcomm",
+    "parent": "Qualcomm",
+    "records": 3,
+    "penaltyUSD": 780317774
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "nippon-chemi-con-corp",
+    "parent": "Nippon Chemi-Con Corp.",
+    "records": 3,
+    "penaltyUSD": 67036240
+  },
+  {
+    "source": "Violation Tracker",
+    "slug": "fcf-co",
+    "parent": "FCF Co.",
+    "records": 12,
+    "penaltyUSD": 32294165
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "panasonic",
+    "parent": "Panasonic",
+    "records": 6,
+    "penaltyUSD": 25226044
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "tdk-corporation",
+    "parent": "TDK Corporation",
+    "records": 1,
+    "penaltyUSD": 11303504
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "nhk-spring",
+    "parent": "NHK Spring",
+    "records": 1,
+    "penaltyUSD": 10250883
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "vantiva-sa",
+    "parent": "Vantiva SA",
+    "records": 1,
+    "penaltyUSD": 5193636
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "nichicon-corporation",
+    "parent": "Nichicon Corporation",
+    "records": 2,
+    "penaltyUSD": 3873206
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "citigroup",
+    "parent": "Citigroup",
+    "records": 11,
+    "penaltyUSD": 1565243
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "matsuo-electric",
+    "parent": "Matsuo Electric",
+    "records": 2,
+    "penaltyUSD": 1213417
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "vishay-intertechnology",
+    "parent": "Vishay Intertechnology",
+    "records": 1,
+    "penaltyUSD": 931632
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "standard-chartered",
+    "parent": "Standard Chartered",
+    "records": 5,
+    "penaltyUSD": 710619
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "apple-inc",
+    "parent": "Apple Inc.",
+    "records": 1,
+    "penaltyUSD": 659564
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "bnp-paribas",
+    "parent": "BNP Paribas",
+    "records": 4,
+    "penaltyUSD": 573786
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "hitachi",
+    "parent": "Hitachi",
+    "records": 2,
+    "penaltyUSD": 562153
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "dbs-bank",
+    "parent": "DBS Bank",
+    "records": 2,
+    "penaltyUSD": 533001
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "cpc-corporation",
+    "parent": "CPC Corporation",
+    "records": 10,
+    "penaltyUSD": 472111
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "barclays",
+    "parent": "Barclays",
+    "records": 1,
+    "penaltyUSD": 376051
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "samsung-electronics",
+    "parent": "Samsung Electronics",
+    "records": 2,
+    "penaltyUSD": 350952
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "sony",
+    "parent": "Sony",
+    "records": 1,
+    "penaltyUSD": 169890
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "walt-disney",
+    "parent": "Walt Disney",
+    "records": 3,
+    "penaltyUSD": 165635
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "costco",
+    "parent": "Costco",
+    "records": 9,
+    "penaltyUSD": 161982
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "volkswagen",
+    "parent": "Volkswagen",
+    "records": 1,
+    "penaltyUSD": 160141
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "australia-and-new-zealand-banking-group",
+    "parent": "Australia and New Zealand Banking Group",
+    "records": 1,
+    "penaltyUSD": 126906
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "wh-group",
+    "parent": "WH Group",
+    "records": 6,
+    "penaltyUSD": 116029
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "royal-philips",
+    "parent": "Royal Philips",
+    "records": 1,
+    "penaltyUSD": 102009
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "hsbc",
+    "parent": "HSBC",
+    "records": 2,
+    "penaltyUSD": 85388
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "cigna",
+    "parent": "Cigna",
+    "records": 1,
+    "penaltyUSD": 85162
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "ajinomoto",
+    "parent": "Ajinomoto",
+    "records": 7,
+    "penaltyUSD": 70057
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "deutsche-bank",
+    "parent": "Deutsche Bank",
+    "records": 1,
+    "penaltyUSD": 64301
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "allianz",
+    "parent": "Allianz",
+    "records": 1,
+    "penaltyUSD": 63322
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "societe-generale",
+    "parent": "Societe Generale",
+    "records": 1,
+    "penaltyUSD": 62040
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "hyatt-hotels",
+    "parent": "Hyatt Hotels",
+    "records": 2,
+    "penaltyUSD": 61758
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "wsp-global",
+    "parent": "WSP Global",
+    "records": 4,
+    "penaltyUSD": 35352
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "natura-and-co",
+    "parent": "Natura & Co.",
+    "records": 1,
+    "penaltyUSD": 33194
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "schneider-electric",
+    "parent": "Schneider Electric",
+    "records": 2,
+    "penaltyUSD": 29623
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "ford-motor",
+    "parent": "Ford Motor",
+    "records": 1,
+    "penaltyUSD": 27182
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "kimberly-clark",
+    "parent": "Kimberly-Clark",
+    "records": 1,
+    "penaltyUSD": 26538
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "mazda-motor",
+    "parent": "Mazda Motor",
+    "records": 1,
+    "penaltyUSD": 26121
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "lg-electronics",
+    "parent": "LG Electronics",
+    "records": 2,
+    "penaltyUSD": 25327
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "heineken",
+    "parent": "Heineken",
+    "records": 1,
+    "penaltyUSD": 22120
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "basf",
+    "parent": "BASF",
+    "records": 1,
+    "penaltyUSD": 22040
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "xiaomi-corporation",
+    "parent": "Xiaomi Corporation",
+    "records": 1,
+    "penaltyUSD": 20015
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "fujifilm",
+    "parent": "Fujifilm",
+    "records": 1,
+    "penaltyUSD": 19736
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "geely",
+    "parent": "Geely",
+    "records": 1,
+    "penaltyUSD": 16989
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "gsk-plc",
+    "parent": "GSK plc",
+    "records": 1,
+    "penaltyUSD": 16597
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "apollo-global-management",
+    "parent": "Apollo Global Management",
+    "records": 1,
+    "penaltyUSD": 15324
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "mitsubishi-chemical",
+    "parent": "Mitsubishi Chemical",
+    "records": 2,
+    "penaltyUSD": 13597
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "honda",
+    "parent": "Honda",
+    "records": 1,
+    "penaltyUSD": 13591
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "schindler",
+    "parent": "Schindler",
+    "records": 1,
+    "penaltyUSD": 13544
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "colgate-palmolive",
+    "parent": "Colgate-Palmolive",
+    "records": 1,
+    "penaltyUSD": 13123
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "yamaha-motor",
+    "parent": "Yamaha Motor",
+    "records": 2,
+    "penaltyUSD": 11825
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "loreal",
+    "parent": "L'Oreal",
+    "records": 1,
+    "penaltyUSD": 10932
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "chemours",
+    "parent": "Chemours",
+    "records": 1,
+    "penaltyUSD": 10821
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "mercedes-benz-group",
+    "parent": "Mercedes-Benz Group",
+    "records": 1,
+    "penaltyUSD": 10785
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "deloitte",
+    "parent": "Deloitte",
+    "records": 1,
+    "penaltyUSD": 10718
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "cathay-pacific-airways",
+    "parent": "Cathay Pacific Airways",
+    "records": 1,
+    "penaltyUSD": 9852
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "american-express",
+    "parent": "American Express",
+    "records": 1,
+    "penaltyUSD": 9704
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "kao-corporation",
+    "parent": "Kao Corporation",
+    "records": 1,
+    "penaltyUSD": 9513
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "maersk",
+    "parent": "Maersk",
+    "records": 1,
+    "penaltyUSD": 9272
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "toyota",
+    "parent": "Toyota",
+    "records": 1,
+    "penaltyUSD": 8115
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "mitsubishi-electric",
+    "parent": "Mitsubishi Electric",
+    "records": 1,
+    "penaltyUSD": 8062
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "kone",
+    "parent": "Kone",
+    "records": 1,
+    "penaltyUSD": 6755
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "fujitsu-general-limited",
+    "parent": "Fujitsu General Limited",
+    "records": 1,
+    "penaltyUSD": 6672
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "ernst-and-young",
+    "parent": "Ernst & Young",
+    "records": 1,
+    "penaltyUSD": 6190
+  },
+  {
+    "source": "Violation Tracker Global",
+    "slug": "samsung-candt-corporation",
+    "parent": "Samsung C&T Corporation",
+    "records": 1,
+    "penaltyUSD": 6088
+  }
+]

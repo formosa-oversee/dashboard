@@ -1,0 +1,5613 @@
+[
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|ASUSTeK Computer, Inc.",
+    "entity": "ASUSTeK Computer, Inc.",
+    "parentSlug": "asustek-computer-inc",
+    "responsible": {
+      "kind": "listed",
+      "code": "2357",
+      "name": "華碩電腦股份有限公司",
+      "short": "華碩"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 1,
+    "years": [
+      2024,
+      2024
+    ],
+    "penaltyUSD": 367436,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|AU Optronics",
+    "entity": "AU Optronics",
+    "parentSlug": "au-optronics",
+    "responsible": {
+      "kind": "listed",
+      "code": "2409",
+      "name": "友達光電股份有限公司",
+      "short": "友達"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "high",
+    "note": "友達光電 AUO（MOPS 英文名 AUO Corporation）",
+    "records": 1,
+    "years": [
+      2015,
+      2015
+    ],
+    "penaltyUSD": 12500000,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|AU Optronics Corporation",
+    "entity": "AU Optronics Corporation",
+    "parentSlug": "au-optronics",
+    "responsible": {
+      "kind": "listed",
+      "code": "2409",
+      "name": "友達光電股份有限公司",
+      "short": "友達"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "high",
+    "note": "友達光電 AUO（MOPS 英文名 AUO Corporation）",
+    "records": 4,
+    "years": [
+      2012,
+      2013
+    ],
+    "penaltyUSD": 670000000,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|CHINA AIRLINES LTD",
+    "entity": "CHINA AIRLINES LTD",
+    "parentSlug": "china-airlines",
+    "responsible": {
+      "kind": "listed",
+      "code": "2610",
+      "name": "中華航空股份有限公司",
+      "short": "華航"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 6,
+    "years": [
+      2000,
+      2008
+    ],
+    "penaltyUSD": 248400,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|China Airlines Ltd.",
+    "entity": "China Airlines Ltd.",
+    "parentSlug": "china-airlines",
+    "responsible": {
+      "kind": "listed",
+      "code": "2610",
+      "name": "中華航空股份有限公司",
+      "short": "華航"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 1,
+    "years": [
+      2010,
+      2010
+    ],
+    "penaltyUSD": 40000000,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|China Airlines, Ltd.",
+    "entity": "China Airlines, Ltd.",
+    "parentSlug": "china-airlines",
+    "responsible": {
+      "kind": "listed",
+      "code": "2610",
+      "name": "中華航空股份有限公司",
+      "short": "華航"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 5,
+    "years": [
+      2002,
+      2018
+    ],
+    "penaltyUSD": 110084500,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|EVA AIRWAYS CORP",
+    "entity": "EVA AIRWAYS CORP",
+    "parentSlug": "eva-airways-corporation",
+    "responsible": {
+      "kind": "listed",
+      "code": "2618",
+      "name": "長榮航空股份有限公司",
+      "short": "長榮航"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 4,
+    "years": [
+      2002,
+      2011
+    ],
+    "penaltyUSD": 176500,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|EVA Airways Corporation",
+    "entity": "EVA Airways Corporation",
+    "parentSlug": "eva-airways-corporation",
+    "responsible": {
+      "kind": "listed",
+      "code": "2618",
+      "name": "長榮航空股份有限公司",
+      "short": "長榮航"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 3,
+    "years": [
+      2011,
+      2018
+    ],
+    "penaltyUSD": 133450000,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|BUMBLE BEE FOODS LLC",
+    "entity": "BUMBLE BEE FOODS LLC",
+    "parentSlug": "fcf-co",
+    "responsible": {
+      "kind": "private",
+      "id": "fcf",
+      "name": "豐群水產股份有限公司（FCF Co., Ltd.）"
+    },
+    "effectivePct": null,
+    "path": [],
+    "method": "curated-unlisted",
+    "confidence": "high",
+    "note": "豐群水產（台灣，未上市）2020 年初買下 Bumble Bee；2020 年以前的罰款屬收購前責任",
+    "controlSince": 2020,
+    "records": 3,
+    "years": [
+      2012,
+      2012
+    ],
+    "penaltyUSD": 132430,
+    "recordsBeforeControl": 1
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|BUMBLE BEE FOODS, LLC",
+    "entity": "BUMBLE BEE FOODS, LLC",
+    "parentSlug": "fcf-co",
+    "responsible": {
+      "kind": "private",
+      "id": "fcf",
+      "name": "豐群水產股份有限公司（FCF Co., Ltd.）"
+    },
+    "effectivePct": null,
+    "path": [],
+    "method": "curated-unlisted",
+    "confidence": "high",
+    "note": "豐群水產（台灣，未上市）2020 年初買下 Bumble Bee；2020 年以前的罰款屬收購前責任",
+    "controlSince": 2020,
+    "records": 2,
+    "years": [
+      2022,
+      2024
+    ],
+    "penaltyUSD": 21435,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|BUMBLE BEE SEAFOODS LLC",
+    "entity": "BUMBLE BEE SEAFOODS LLC",
+    "parentSlug": "fcf-co",
+    "responsible": {
+      "kind": "private",
+      "id": "fcf",
+      "name": "豐群水產股份有限公司（FCF Co., Ltd.）"
+    },
+    "effectivePct": null,
+    "path": [],
+    "method": "curated-unlisted",
+    "confidence": "high",
+    "note": "豐群水產（台灣，未上市）2020 年初買下 Bumble Bee；2020 年以前的罰款屬收購前責任",
+    "controlSince": 2020,
+    "records": 3,
+    "years": [
+      2009,
+      2026
+    ],
+    "penaltyUSD": 35300,
+    "recordsBeforeControl": 2
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Bumble Bee Foods LLC",
+    "entity": "Bumble Bee Foods LLC",
+    "parentSlug": "fcf-co",
+    "responsible": {
+      "kind": "private",
+      "id": "fcf",
+      "name": "豐群水產股份有限公司（FCF Co., Ltd.）"
+    },
+    "effectivePct": null,
+    "path": [],
+    "method": "curated-unlisted",
+    "confidence": "high",
+    "note": "豐群水產（台灣，未上市）2020 年初買下 Bumble Bee；2020 年以前的罰款屬收購前責任",
+    "controlSince": 2020,
+    "records": 3,
+    "years": [
+      2012,
+      2017
+    ],
+    "penaltyUSD": 32100000,
+    "recordsBeforeControl": 3
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Bumble Bee Foods, LLC",
+    "entity": "Bumble Bee Foods, LLC",
+    "parentSlug": "fcf-co",
+    "responsible": {
+      "kind": "private",
+      "id": "fcf",
+      "name": "豐群水產股份有限公司（FCF Co., Ltd.）"
+    },
+    "effectivePct": null,
+    "path": [],
+    "method": "curated-unlisted",
+    "confidence": "high",
+    "note": "豐群水產（台灣，未上市）2020 年初買下 Bumble Bee；2020 年以前的罰款屬收購前責任",
+    "controlSince": 2020,
+    "records": 1,
+    "years": [
+      2008,
+      2008
+    ],
+    "penaltyUSD": 5000,
+    "recordsBeforeControl": 1
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|FORMOSA PLASTIC CORPORATION",
+    "entity": "FORMOSA PLASTIC CORPORATION",
+    "parentSlug": "formosa-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "1301",
+      "name": "台灣塑膠工業股份有限公司",
+      "short": "台塑"
+    },
+    "effectivePct": 24.82,
+    "path": [],
+    "method": "curated-associate",
+    "confidence": "high",
+    "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+    "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+    "groupName": "台塑集團 Formosa Plastics Group",
+    "records": 1,
+    "years": [
+      2005,
+      2005
+    ],
+    "penaltyUSD": 0,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|FORMOSA PLASTICS CO.",
+    "entity": "FORMOSA PLASTICS CO.",
+    "parentSlug": "formosa-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "1301",
+      "name": "台灣塑膠工業股份有限公司",
+      "short": "台塑"
+    },
+    "effectivePct": 24.82,
+    "path": [],
+    "method": "curated-associate",
+    "confidence": "high",
+    "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+    "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+    "groupName": "台塑集團 Formosa Plastics Group",
+    "records": 8,
+    "years": [
+      2010,
+      2017
+    ],
+    "penaltyUSD": 69300,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|FORMOSA PLASTICS CORP.",
+    "entity": "FORMOSA PLASTICS CORP.",
+    "parentSlug": "formosa-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "1301",
+      "name": "台灣塑膠工業股份有限公司",
+      "short": "台塑"
+    },
+    "effectivePct": 24.82,
+    "path": [],
+    "method": "curated-associate",
+    "confidence": "high",
+    "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+    "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+    "groupName": "台塑集團 Formosa Plastics Group",
+    "records": 1,
+    "years": [
+      2002,
+      2002
+    ],
+    "penaltyUSD": 19250,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|FORMOSA PLASTICS CORPORATION",
+    "entity": "FORMOSA PLASTICS CORPORATION",
+    "parentSlug": "formosa-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "1301",
+      "name": "台灣塑膠工業股份有限公司",
+      "short": "台塑"
+    },
+    "effectivePct": 24.82,
+    "path": [],
+    "method": "curated-associate",
+    "confidence": "high",
+    "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+    "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+    "groupName": "台塑集團 Formosa Plastics Group",
+    "records": 3,
+    "years": [
+      2004,
+      2018
+    ],
+    "penaltyUSD": 330838,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|FORMOSA PLASTICS CORPORATION (DELAWARE CITY)",
+    "entity": "FORMOSA PLASTICS CORPORATION (DELAWARE CITY)",
+    "parentSlug": "formosa-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "1301",
+      "name": "台灣塑膠工業股份有限公司",
+      "short": "台塑"
+    },
+    "effectivePct": 24.82,
+    "path": [],
+    "method": "curated-associate",
+    "confidence": "high",
+    "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+    "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+    "groupName": "台塑集團 Formosa Plastics Group",
+    "records": 1,
+    "years": [
+      2015,
+      2015
+    ],
+    "penaltyUSD": 112500,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|FORMOSA PLASTICS CORPORATION DE",
+    "entity": "FORMOSA PLASTICS CORPORATION DE",
+    "parentSlug": "formosa-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "1301",
+      "name": "台灣塑膠工業股份有限公司",
+      "short": "台塑"
+    },
+    "effectivePct": 24.82,
+    "path": [],
+    "method": "curated-associate",
+    "confidence": "high",
+    "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+    "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+    "groupName": "台塑集團 Formosa Plastics Group",
+    "records": 1,
+    "years": [
+      2017,
+      2017
+    ],
+    "penaltyUSD": 21572,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|FORMOSA PLASTICS CORPORATION, TEXAS",
+    "entity": "FORMOSA PLASTICS CORPORATION, TEXAS",
+    "parentSlug": "formosa-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "1301",
+      "name": "台灣塑膠工業股份有限公司",
+      "short": "台塑"
+    },
+    "effectivePct": 24.82,
+    "path": [],
+    "method": "curated-associate",
+    "confidence": "high",
+    "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+    "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+    "groupName": "台塑集團 Formosa Plastics Group",
+    "records": 17,
+    "years": [
+      2000,
+      2024
+    ],
+    "penaltyUSD": 290691,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|FORMOSA PLASTICS CORPORATION,U.S.A.",
+    "entity": "FORMOSA PLASTICS CORPORATION,U.S.A.",
+    "parentSlug": "formosa-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "1301",
+      "name": "台灣塑膠工業股份有限公司",
+      "short": "台塑"
+    },
+    "effectivePct": 24.82,
+    "path": [],
+    "method": "curated-associate",
+    "confidence": "high",
+    "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+    "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+    "groupName": "台塑集團 Formosa Plastics Group",
+    "records": 3,
+    "years": [
+      2009,
+      2012
+    ],
+    "penaltyUSD": 183835,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|FORMOSA PLASTICS LA",
+    "entity": "FORMOSA PLASTICS LA",
+    "parentSlug": "formosa-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "1301",
+      "name": "台灣塑膠工業股份有限公司",
+      "short": "台塑"
+    },
+    "effectivePct": 24.82,
+    "path": [],
+    "method": "curated-associate",
+    "confidence": "high",
+    "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+    "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+    "groupName": "台塑集團 Formosa Plastics Group",
+    "records": 1,
+    "years": [
+      2024,
+      2024
+    ],
+    "penaltyUSD": 17878,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Formosa Petrochemical Point Comfort",
+    "entity": "Formosa Petrochemical Point Comfort",
+    "parentSlug": "formosa-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "1301",
+      "name": "台灣塑膠工業股份有限公司",
+      "short": "台塑"
+    },
+    "effectivePct": 24.82,
+    "path": [],
+    "method": "curated-associate",
+    "confidence": "high",
+    "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+    "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+    "groupName": "台塑集團 Formosa Plastics Group",
+    "records": 1,
+    "years": [
+      2022,
+      2022
+    ],
+    "penaltyUSD": 0,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Formosa Plastics",
+    "entity": "Formosa Plastics",
+    "parentSlug": "formosa-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "1301",
+      "name": "台灣塑膠工業股份有限公司",
+      "short": "台塑"
+    },
+    "effectivePct": 24.82,
+    "path": [],
+    "method": "curated-associate",
+    "confidence": "high",
+    "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+    "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+    "groupName": "台塑集團 Formosa Plastics Group",
+    "records": 6,
+    "years": [
+      2004,
+      2016
+    ],
+    "penaltyUSD": 1478077,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Formosa Plastics Co.",
+    "entity": "Formosa Plastics Co.",
+    "parentSlug": "formosa-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "1301",
+      "name": "台灣塑膠工業股份有限公司",
+      "short": "台塑"
+    },
+    "effectivePct": 24.82,
+    "path": [],
+    "method": "curated-associate",
+    "confidence": "high",
+    "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+    "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+    "groupName": "台塑集團 Formosa Plastics Group",
+    "records": 4,
+    "years": [
+      2002,
+      2020
+    ],
+    "penaltyUSD": 30500,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Formosa Plastics Corp.",
+    "entity": "Formosa Plastics Corp.",
+    "parentSlug": "formosa-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "1301",
+      "name": "台灣塑膠工業股份有限公司",
+      "short": "台塑"
+    },
+    "effectivePct": 24.82,
+    "path": [],
+    "method": "curated-associate",
+    "confidence": "high",
+    "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+    "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+    "groupName": "台塑集團 Formosa Plastics Group",
+    "records": 4,
+    "years": [
+      2002,
+      2019
+    ],
+    "penaltyUSD": 67160000,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Formosa Plastics Corporation",
+    "entity": "Formosa Plastics Corporation",
+    "parentSlug": "formosa-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "1301",
+      "name": "台灣塑膠工業股份有限公司",
+      "short": "台塑"
+    },
+    "effectivePct": 24.82,
+    "path": [],
+    "method": "curated-associate",
+    "confidence": "high",
+    "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+    "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+    "groupName": "台塑集團 Formosa Plastics Group",
+    "records": 6,
+    "years": [
+      2002,
+      2021
+    ],
+    "penaltyUSD": 4461290,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Formosa Plastics Corporation, LP - Formosa Plastics Corporation, Texas",
+    "entity": "Formosa Plastics Corporation, LP - Formosa Plastics Corporation, Texas",
+    "parentSlug": "formosa-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "1301",
+      "name": "台灣塑膠工業股份有限公司",
+      "short": "台塑"
+    },
+    "effectivePct": 24.82,
+    "path": [],
+    "method": "curated-associate",
+    "confidence": "high",
+    "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+    "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+    "groupName": "台塑集團 Formosa Plastics Group",
+    "records": 1,
+    "years": [
+      2023,
+      2023
+    ],
+    "penaltyUSD": 29200,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Formosa Plastics Corporation, Texas",
+    "entity": "Formosa Plastics Corporation, Texas",
+    "parentSlug": "formosa-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "1301",
+      "name": "台灣塑膠工業股份有限公司",
+      "short": "台塑"
+    },
+    "effectivePct": 24.82,
+    "path": [],
+    "method": "curated-associate",
+    "confidence": "high",
+    "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+    "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+    "groupName": "台塑集團 Formosa Plastics Group",
+    "records": 24,
+    "years": [
+      2004,
+      2024
+    ],
+    "penaltyUSD": 1757086,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Formosa Plastics-TX LA-LDAR Multi Media Consent Decree (R6 Lead)-2010",
+    "entity": "Formosa Plastics-TX LA-LDAR Multi Media Consent Decree (R6 Lead)-2010",
+    "parentSlug": "formosa-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "1301",
+      "name": "台灣塑膠工業股份有限公司",
+      "short": "台塑"
+    },
+    "effectivePct": 24.82,
+    "path": [],
+    "method": "curated-associate",
+    "confidence": "high",
+    "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+    "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+    "groupName": "台塑集團 Formosa Plastics Group",
+    "records": 1,
+    "years": [
+      2013,
+      2013
+    ],
+    "penaltyUSD": 0,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|FOXCONN",
+    "entity": "FOXCONN",
+    "parentSlug": "foxconn-technology-group-hon-hai-precisi",
+    "responsible": {
+      "kind": "listed",
+      "code": "2317",
+      "name": "鴻海精密工業股份有限公司",
+      "short": "鴻海"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "high",
+    "note": "鴻海精密 2317 本身或其美國據點",
+    "records": 1,
+    "years": [
+      2022,
+      2022
+    ],
+    "penaltyUSD": 6215,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Hon Hai Precision Industry Company",
+    "entity": "Hon Hai Precision Industry Company",
+    "parentSlug": "foxconn-technology-group-hon-hai-precisi",
+    "responsible": {
+      "kind": "listed",
+      "code": "2317",
+      "name": "鴻海精密工業股份有限公司",
+      "short": "鴻海"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "high",
+    "note": "鴻海精密 2317 本身或其美國據點",
+    "records": 1,
+    "years": [
+      2009,
+      2009
+    ],
+    "penaltyUSD": 96267,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Hon Hai Precision Industry Company Ltd. And E-Star Inc.",
+    "entity": "Hon Hai Precision Industry Company Ltd. And E-Star Inc.",
+    "parentSlug": "foxconn-technology-group-hon-hai-precisi",
+    "responsible": {
+      "kind": "listed",
+      "code": "2317",
+      "name": "鴻海精密工業股份有限公司",
+      "short": "鴻海"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "high",
+    "note": "鴻海精密 2317 本身或其美國據點",
+    "records": 1,
+    "years": [
+      2007,
+      2007
+    ],
+    "penaltyUSD": 42000000,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|SHARP CORPORATION",
+    "entity": "SHARP CORPORATION",
+    "parentSlug": "foxconn-technology-group-hon-hai-precisi",
+    "responsible": {
+      "kind": "listed",
+      "code": "2317",
+      "name": "鴻海精密工業股份有限公司",
+      "short": "鴻海"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "high",
+    "note": "夏普 Sharp 自 2016-08 起為鴻海集團取得控制權的公司（MOPS 子公司清單未列）；2016 年以前的罰款屬收購前責任",
+    "controlSince": 2016,
+    "records": 1,
+    "years": [
+      2000,
+      2000
+    ],
+    "penaltyUSD": 75000,
+    "recordsBeforeControl": 1
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|SHARP CORPORATIONS DBA SHARP PACKAGING SOLUTIONS",
+    "entity": "SHARP CORPORATIONS DBA SHARP PACKAGING SOLUTIONS",
+    "parentSlug": "foxconn-technology-group-hon-hai-precisi",
+    "responsible": {
+      "kind": "listed",
+      "code": "2317",
+      "name": "鴻海精密工業股份有限公司",
+      "short": "鴻海"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "high",
+    "note": "夏普 Sharp 自 2016-08 起為鴻海集團取得控制權的公司（MOPS 子公司清單未列）；2016 年以前的罰款屬收購前責任",
+    "controlSince": 2016,
+    "records": 1,
+    "years": [
+      2020,
+      2020
+    ],
+    "penaltyUSD": 10446,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|SHARP MANUFACTURING COMPANY OF AMERICA",
+    "entity": "SHARP MANUFACTURING COMPANY OF AMERICA",
+    "parentSlug": "foxconn-technology-group-hon-hai-precisi",
+    "responsible": {
+      "kind": "listed",
+      "code": "2317",
+      "name": "鴻海精密工業股份有限公司",
+      "short": "鴻海"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "high",
+    "note": "夏普 Sharp 自 2016-08 起為鴻海集團取得控制權的公司（MOPS 子公司清單未列）；2016 年以前的罰款屬收購前責任",
+    "controlSince": 2016,
+    "records": 1,
+    "years": [
+      2002,
+      2002
+    ],
+    "penaltyUSD": 5600,
+    "recordsBeforeControl": 1
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Sharp",
+    "entity": "Sharp",
+    "parentSlug": "foxconn-technology-group-hon-hai-precisi",
+    "responsible": {
+      "kind": "listed",
+      "code": "2317",
+      "name": "鴻海精密工業股份有限公司",
+      "short": "鴻海"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "high",
+    "note": "夏普 Sharp 自 2016-08 起為鴻海集團取得控制權的公司（MOPS 子公司清單未列）；2016 年以前的罰款屬收購前責任",
+    "controlSince": 2016,
+    "records": 2,
+    "years": [
+      2011,
+      2015
+    ],
+    "penaltyUSD": 7025000,
+    "recordsBeforeControl": 2
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Sharp Corp.",
+    "entity": "Sharp Corp.",
+    "parentSlug": "foxconn-technology-group-hon-hai-precisi",
+    "responsible": {
+      "kind": "listed",
+      "code": "2317",
+      "name": "鴻海精密工業股份有限公司",
+      "short": "鴻海"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "high",
+    "note": "夏普 Sharp 自 2016-08 起為鴻海集團取得控制權的公司（MOPS 子公司清單未列）；2016 年以前的罰款屬收購前責任",
+    "controlSince": 2016,
+    "records": 1,
+    "years": [
+      2008,
+      2008
+    ],
+    "penaltyUSD": 120000000,
+    "recordsBeforeControl": 1
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Sharp Corporation",
+    "entity": "Sharp Corporation",
+    "parentSlug": "foxconn-technology-group-hon-hai-precisi",
+    "responsible": {
+      "kind": "listed",
+      "code": "2317",
+      "name": "鴻海精密工業股份有限公司",
+      "short": "鴻海"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "high",
+    "note": "夏普 Sharp 自 2016-08 起為鴻海集團取得控制權的公司（MOPS 子公司清單未列）；2016 年以前的罰款屬收購前責任",
+    "controlSince": 2016,
+    "records": 1,
+    "years": [
+      2011,
+      2011
+    ],
+    "penaltyUSD": 115500000,
+    "recordsBeforeControl": 1
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Sharp Electronics Corporation",
+    "entity": "Sharp Electronics Corporation",
+    "parentSlug": "foxconn-technology-group-hon-hai-precisi",
+    "responsible": {
+      "kind": "listed",
+      "code": "2317",
+      "name": "鴻海精密工業股份有限公司",
+      "short": "鴻海"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "high",
+    "note": "夏普 Sharp 自 2016-08 起為鴻海集團取得控制權的公司（MOPS 子公司清單未列）；2016 年以前的罰款屬收購前責任",
+    "controlSince": 2016,
+    "records": 2,
+    "years": [
+      2011,
+      2013
+    ],
+    "penaltyUSD": 220500000,
+    "recordsBeforeControl": 2
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|HannStar Display Corporation",
+    "entity": "HannStar Display Corporation",
+    "parentSlug": "hannstar-display",
+    "responsible": {
+      "kind": "listed",
+      "code": "6116",
+      "name": "瀚宇彩晶股份有限公司",
+      "short": "彩晶"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 4,
+    "years": [
+      2010,
+      2013
+    ],
+    "penaltyUSD": 96200000,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Chi Mei Corporation",
+    "entity": "Chi Mei Corporation",
+    "parentSlug": "innolux-corporation",
+    "responsible": {
+      "kind": "listed",
+      "code": "3481",
+      "name": "群創光電股份有限公司",
+      "short": "群創"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "high",
+    "note": "奇美電子 2010 年與群創合併（存續更名奇美電、2012 年再更名群創）；2010 年以前的罰款為合併前責任，由群創承繼",
+    "controlSince": 2010,
+    "records": 2,
+    "years": [
+      2011,
+      2013
+    ],
+    "penaltyUSD": 188273318,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Chi Mei Optoelectronics",
+    "entity": "Chi Mei Optoelectronics",
+    "parentSlug": "innolux-corporation",
+    "responsible": {
+      "kind": "listed",
+      "code": "3481",
+      "name": "群創光電股份有限公司",
+      "short": "群創"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "high",
+    "note": "奇美電子 2010 年與群創合併（存續更名奇美電、2012 年再更名群創）；2010 年以前的罰款為合併前責任，由群創承繼",
+    "controlSince": 2010,
+    "records": 2,
+    "years": [
+      2009,
+      2015
+    ],
+    "penaltyUSD": 228750000,
+    "recordsBeforeControl": 1
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Chimei Innolux Corp.",
+    "entity": "Chimei Innolux Corp.",
+    "parentSlug": "innolux-corporation",
+    "responsible": {
+      "kind": "listed",
+      "code": "3481",
+      "name": "群創光電股份有限公司",
+      "short": "群創"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "high",
+    "note": "奇美電子 2010 年與群創合併（存續更名奇美電、2012 年再更名群創）；2010 年以前的罰款為合併前責任，由群創承繼",
+    "controlSince": 2010,
+    "records": 1,
+    "years": [
+      2011,
+      2011
+    ],
+    "penaltyUSD": 110273318,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|CONTINENTAL CARBON COMPANY",
+    "entity": "CONTINENTAL CARBON COMPANY",
+    "parentSlug": "international-csrc-investment-holdings",
+    "responsible": {
+      "kind": "listed",
+      "code": "2104",
+      "name": "國際中橡投資控股股份有限公司",
+      "short": "國際中橡"
+    },
+    "entityInMops": "Continental Carbon Company",
+    "effectivePct": 66.67,
+    "path": [
+      {
+        "investor": "國際中橡投資控股股份有限公司",
+        "investee": "CCC USA Corp.",
+        "pct": 66.67
+      },
+      {
+        "investor": "CCC USA Corp.",
+        "investee": "Continental Carbon Company",
+        "pct": 100.0
+      }
+    ],
+    "method": "mops-exact",
+    "confidence": "high",
+    "records": 3,
+    "years": [
+      2010,
+      2015
+    ],
+    "penaltyUSD": 34650,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|CONTINENTAL CARBON COMPANY, INC.",
+    "entity": "CONTINENTAL CARBON COMPANY, INC.",
+    "parentSlug": "international-csrc-investment-holdings",
+    "responsible": {
+      "kind": "listed",
+      "code": "2104",
+      "name": "國際中橡投資控股股份有限公司",
+      "short": "國際中橡"
+    },
+    "entityInMops": "Continental Carbon Company",
+    "effectivePct": 66.67,
+    "path": [
+      {
+        "investor": "國際中橡投資控股股份有限公司",
+        "investee": "CCC USA Corp.",
+        "pct": 66.67
+      },
+      {
+        "investor": "CCC USA Corp.",
+        "investee": "Continental Carbon Company",
+        "pct": 100.0
+      }
+    ],
+    "method": "mops-exact",
+    "confidence": "high",
+    "records": 1,
+    "years": [
+      2018,
+      2018
+    ],
+    "penaltyUSD": 249500,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Continental Carbon",
+    "entity": "Continental Carbon",
+    "parentSlug": "international-csrc-investment-holdings",
+    "responsible": {
+      "kind": "listed",
+      "code": "2104",
+      "name": "國際中橡投資控股股份有限公司",
+      "short": "國際中橡"
+    },
+    "entityInMops": "Continental Carbon Company",
+    "effectivePct": 66.67,
+    "path": [
+      {
+        "investor": "國際中橡投資控股股份有限公司",
+        "investee": "CCC USA Corp.",
+        "pct": 66.67
+      },
+      {
+        "investor": "CCC USA Corp.",
+        "investee": "Continental Carbon Company",
+        "pct": 100.0
+      }
+    ],
+    "method": "mops-exact",
+    "confidence": "high",
+    "records": 2,
+    "years": [
+      2000,
+      2019
+    ],
+    "penaltyUSD": 27634,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Continental Carbon Company",
+    "entity": "Continental Carbon Company",
+    "parentSlug": "international-csrc-investment-holdings",
+    "responsible": {
+      "kind": "listed",
+      "code": "2104",
+      "name": "國際中橡投資控股股份有限公司",
+      "short": "國際中橡"
+    },
+    "entityInMops": "Continental Carbon Company",
+    "effectivePct": 66.67,
+    "path": [
+      {
+        "investor": "國際中橡投資控股股份有限公司",
+        "investee": "CCC USA Corp.",
+        "pct": 66.67
+      },
+      {
+        "investor": "CCC USA Corp.",
+        "investee": "Continental Carbon Company",
+        "pct": 100.0
+      }
+    ],
+    "method": "mops-exact",
+    "confidence": "high",
+    "records": 8,
+    "years": [
+      2006,
+      2025
+    ],
+    "penaltyUSD": 1742381,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Continental Carbon Inc.",
+    "entity": "Continental Carbon Inc.",
+    "parentSlug": "international-csrc-investment-holdings",
+    "responsible": {
+      "kind": "listed",
+      "code": "2104",
+      "name": "國際中橡投資控股股份有限公司",
+      "short": "國際中橡"
+    },
+    "entityInMops": "Continental Carbon Company",
+    "effectivePct": 66.67,
+    "path": [
+      {
+        "investor": "國際中橡投資控股股份有限公司",
+        "investee": "CCC USA Corp.",
+        "pct": 66.67
+      },
+      {
+        "investor": "CCC USA Corp.",
+        "investee": "Continental Carbon Company",
+        "pct": 100.0
+      }
+    ],
+    "method": "mops-exact",
+    "confidence": "high",
+    "records": 1,
+    "years": [
+      2008,
+      2008
+    ],
+    "penaltyUSD": 20709000,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Johnson Health Tech Co. Ltd",
+    "entity": "Johnson Health Tech Co. Ltd",
+    "parentSlug": "johnson-health-tech",
+    "responsible": {
+      "kind": "listed",
+      "code": "1736",
+      "name": "喬山健康科技股份有限公司",
+      "short": "喬山"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 1,
+    "years": [
+      2015,
+      2015
+    ],
+    "penaltyUSD": 3000000,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Mega International Commercial Bank",
+    "entity": "Mega International Commercial Bank",
+    "parentSlug": "mega-financial-holding",
+    "responsible": {
+      "kind": "listed",
+      "code": "2886",
+      "name": "兆豐金融控股股份有限公司",
+      "short": "兆豐金"
+    },
+    "entityInMops": "兆豐銀行",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "兆豐金融控股股份有限公司",
+        "investee": "兆豐銀行",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "兆豐國際商業銀行",
+    "records": 1,
+    "years": [
+      2016,
+      2016
+    ],
+    "penaltyUSD": 180000000,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Mega International Commercial Bank Co., Ltd.",
+    "entity": "Mega International Commercial Bank Co., Ltd.",
+    "parentSlug": "mega-financial-holding",
+    "responsible": {
+      "kind": "listed",
+      "code": "2886",
+      "name": "兆豐金融控股股份有限公司",
+      "short": "兆豐金"
+    },
+    "entityInMops": "兆豐銀行",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "兆豐金融控股股份有限公司",
+        "investee": "兆豐銀行",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "兆豐國際商業銀行",
+    "records": 1,
+    "years": [
+      2018,
+      2018
+    ],
+    "penaltyUSD": 29000000,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|NAN YA PLASTICS CORP. - AMERICA",
+    "entity": "NAN YA PLASTICS CORP. - AMERICA",
+    "parentSlug": "nan-ya-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "1303",
+      "name": "南亞塑膠工業股份有限公司",
+      "short": "南亞"
+    },
+    "entityInMops": "南亞塑膠美洲有限公司",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "南亞塑膠工業股份有限公司",
+        "investee": "南亞塑膠美洲有限公司",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "Nan Ya Plastics Corp., America（FPG 官網列為南亞子公司）＝ MOPS 南亞塑膠美洲有限公司",
+    "records": 1,
+    "years": [
+      2003,
+      2003
+    ],
+    "penaltyUSD": 20000,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|NAN YA PLASTICS CORPORATION U.S.A.",
+    "entity": "NAN YA PLASTICS CORPORATION U.S.A.",
+    "parentSlug": "nan-ya-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "1303",
+      "name": "南亞塑膠工業股份有限公司",
+      "short": "南亞"
+    },
+    "entityInMops": "南亞塑膠美國有限公司",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "南亞塑膠工業股份有限公司",
+        "investee": "南亞塑膠美國有限公司",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "Nan Ya Plastics Corp., USA ＝ MOPS 南亞塑膠美國有限公司",
+    "records": 1,
+    "years": [
+      2021,
+      2021
+    ],
+    "penaltyUSD": 6437,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|NAN YA PLASTICS CORPORATION USA",
+    "entity": "NAN YA PLASTICS CORPORATION USA",
+    "parentSlug": "nan-ya-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "1303",
+      "name": "南亞塑膠工業股份有限公司",
+      "short": "南亞"
+    },
+    "entityInMops": "南亞塑膠美國有限公司",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "南亞塑膠工業股份有限公司",
+        "investee": "南亞塑膠美國有限公司",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "Nan Ya Plastics Corp., USA ＝ MOPS 南亞塑膠美國有限公司",
+    "records": 3,
+    "years": [
+      2018,
+      2021
+    ],
+    "penaltyUSD": 40353,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|NAN YA PLASTICS CORPORATION, AMERICA",
+    "entity": "NAN YA PLASTICS CORPORATION, AMERICA",
+    "parentSlug": "nan-ya-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "1303",
+      "name": "南亞塑膠工業股份有限公司",
+      "short": "南亞"
+    },
+    "entityInMops": "南亞塑膠美洲有限公司",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "南亞塑膠工業股份有限公司",
+        "investee": "南亞塑膠美洲有限公司",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "Nan Ya Plastics Corp., America（FPG 官網列為南亞子公司）＝ MOPS 南亞塑膠美洲有限公司",
+    "records": 3,
+    "years": [
+      2002,
+      2004
+    ],
+    "penaltyUSD": 294650,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Nan Ya Plastics",
+    "entity": "Nan Ya Plastics",
+    "parentSlug": "nan-ya-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "1303",
+      "name": "南亞塑膠工業股份有限公司",
+      "short": "南亞"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 1,
+    "years": [
+      2003,
+      2003
+    ],
+    "penaltyUSD": 80000,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Nan Ya Plastics Corporation",
+    "entity": "Nan Ya Plastics Corporation",
+    "parentSlug": "nan-ya-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "1303",
+      "name": "南亞塑膠工業股份有限公司",
+      "short": "南亞"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 2,
+    "years": [
+      2005,
+      2018
+    ],
+    "penaltyUSD": 5005000,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Nan Ya Plastics Corporation, America",
+    "entity": "Nan Ya Plastics Corporation, America",
+    "parentSlug": "nan-ya-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "1303",
+      "name": "南亞塑膠工業股份有限公司",
+      "short": "南亞"
+    },
+    "entityInMops": "南亞塑膠美洲有限公司",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "南亞塑膠工業股份有限公司",
+        "investee": "南亞塑膠美洲有限公司",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "Nan Ya Plastics Corp., America（FPG 官網列為南亞子公司）＝ MOPS 南亞塑膠美洲有限公司",
+    "records": 1,
+    "years": [
+      2018,
+      2018
+    ],
+    "penaltyUSD": 14000,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Taishin Securities Co., Ltd.",
+    "entity": "Taishin Securities Co., Ltd.",
+    "parentSlug": "taishin-financial-holdings",
+    "responsible": {
+      "kind": "listed",
+      "code": "2887",
+      "name": "台新新光金融控股股份有限公司",
+      "short": "台新新光金"
+    },
+    "entityInMops": "台新證券",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "台新新光金融控股股份有限公司",
+        "investee": "台新證券",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "台新證券",
+    "records": 1,
+    "years": [
+      2024,
+      2024
+    ],
+    "penaltyUSD": 200000,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|URX2024XT3633X0163 - TSMC ARIZONA CORPORATION",
+    "entity": "URX2024XT3633X0163 - TSMC ARIZONA CORPORATION",
+    "parentSlug": "taiwan-semiconductor-manufacturing-compa",
+    "responsible": {
+      "kind": "listed",
+      "code": "2330",
+      "name": "台灣積體電路製造股份有限公司",
+      "short": "台積電"
+    },
+    "entityInMops": "TSMC Arizona",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "台灣積體電路製造股份有限公司",
+        "investee": "TSMC Arizona",
+        "pct": 100.0
+      }
+    ],
+    "method": "mops-token",
+    "confidence": "high",
+    "records": 1,
+    "years": [
+      2024,
+      2024
+    ],
+    "penaltyUSD": 16131,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Chunghwa Picture Tubes",
+    "entity": "Chunghwa Picture Tubes",
+    "parentSlug": "tatung",
+    "responsible": {
+      "kind": "listed",
+      "code": "2371",
+      "name": "大同股份有限公司",
+      "short": "大同"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "medium",
+    "note": "中華映管為大同集團關係企業、大同為最大股東（非過半持股）；華映 2019 年重整下市，MOPS 無持股資料",
+    "records": 1,
+    "years": [
+      2015,
+      2015
+    ],
+    "penaltyUSD": 350502,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Chunghwa Picture Tubes Ltd.",
+    "entity": "Chunghwa Picture Tubes Ltd.",
+    "parentSlug": "tatung",
+    "responsible": {
+      "kind": "listed",
+      "code": "2371",
+      "name": "大同股份有限公司",
+      "short": "大同"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "medium",
+    "note": "中華映管為大同集團關係企業、大同為最大股東（非過半持股）；華映 2019 年重整下市，MOPS 無持股資料",
+    "records": 2,
+    "years": [
+      2008,
+      2011
+    ],
+    "penaltyUSD": 70305105,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Chunghwa Picture Tubes, Ltd.",
+    "entity": "Chunghwa Picture Tubes, Ltd.",
+    "parentSlug": "tatung",
+    "responsible": {
+      "kind": "listed",
+      "code": "2371",
+      "name": "大同股份有限公司",
+      "short": "大同"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "medium",
+    "note": "中華映管為大同集團關係企業、大同為最大股東（非過半持股）；華映 2019 年重整下市，MOPS 無持股資料",
+    "records": 3,
+    "years": [
+      2012,
+      2012
+    ],
+    "penaltyUSD": 25305105,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|TATUNG COMPANY OF AMERICA INC",
+    "entity": "TATUNG COMPANY OF AMERICA INC",
+    "parentSlug": "tatung",
+    "responsible": {
+      "kind": "listed",
+      "code": "2371",
+      "name": "大同股份有限公司",
+      "short": "大同"
+    },
+    "entityInMops": "大同美國電機(股)公司",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "大同股份有限公司",
+        "investee": "大同美國電機(股)公司",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "Tatung Company of America ＝ MOPS 大同美國電機(股)公司",
+    "records": 1,
+    "years": [
+      2006,
+      2006
+    ],
+    "penaltyUSD": 18690,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|TATUNG COMPANY OF AMERICA, INC.",
+    "entity": "TATUNG COMPANY OF AMERICA, INC.",
+    "parentSlug": "tatung",
+    "responsible": {
+      "kind": "listed",
+      "code": "2371",
+      "name": "大同股份有限公司",
+      "short": "大同"
+    },
+    "entityInMops": "大同美國電機(股)公司",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "大同股份有限公司",
+        "investee": "大同美國電機(股)公司",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "Tatung Company of America ＝ MOPS 大同美國電機(股)公司",
+    "records": 1,
+    "years": [
+      2000,
+      2000
+    ],
+    "penaltyUSD": 7200,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Tatung Co. of America, Inc. p/s plan",
+    "entity": "Tatung Co. of America, Inc. p/s plan",
+    "parentSlug": "tatung",
+    "responsible": {
+      "kind": "listed",
+      "code": "2371",
+      "name": "大同股份有限公司",
+      "short": "大同"
+    },
+    "entityInMops": "大同美國電機(股)公司",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "大同股份有限公司",
+        "investee": "大同美國電機(股)公司",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "Tatung Company of America ＝ MOPS 大同美國電機(股)公司",
+    "records": 1,
+    "years": [
+      2002,
+      2002
+    ],
+    "penaltyUSD": 10001,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|TSRC Specialty Materials LLC",
+    "entity": "TSRC Specialty Materials LLC",
+    "parentSlug": "tsrc-corp",
+    "responsible": {
+      "kind": "listed",
+      "code": "2103",
+      "name": "台橡股份有限公司",
+      "short": "台橡"
+    },
+    "entityInMops": "TSRC Specialty Materials LLC",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "台橡股份有限公司",
+        "investee": "Trimurti Holding Corporation",
+        "pct": 100.0
+      },
+      {
+        "investor": "Trimurti Holding Corporation",
+        "investee": "TSRC (Hong Kong) Limited",
+        "pct": 100.0
+      },
+      {
+        "investor": "TSRC (Hong Kong) Limited",
+        "investee": "TSRC (Lux.) Corporation S.A R.L.",
+        "pct": 100.0
+      },
+      {
+        "investor": "TSRC (Lux.) Corporation S.A R.L.",
+        "investee": "TSRC (USA) Investment Corporation",
+        "pct": 100.0
+      },
+      {
+        "investor": "TSRC (USA) Investment Corporation",
+        "investee": "TSRC Specialty Materials LLC",
+        "pct": 100.0
+      }
+    ],
+    "method": "mops-exact",
+    "confidence": "high",
+    "records": 1,
+    "years": [
+      2025,
+      2025
+    ],
+    "penaltyUSD": 23500,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|United Microelectronics Corporation, Inc.",
+    "entity": "United Microelectronics Corporation, Inc.",
+    "parentSlug": "united-microelectronics-corporation",
+    "responsible": {
+      "kind": "listed",
+      "code": "2303",
+      "name": "聯華電子股份有限公司",
+      "short": "聯電"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 1,
+    "years": [
+      2020,
+      2020
+    ],
+    "penaltyUSD": 60000000,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|KEMET BLUE POWDER CORPORATION",
+    "entity": "KEMET BLUE POWDER CORPORATION",
+    "parentSlug": "yageo",
+    "responsible": {
+      "kind": "listed",
+      "code": "2327",
+      "name": "國巨股份有限公司",
+      "short": "國巨*"
+    },
+    "entityInMops": "KEMET Corporation",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "國巨股份有限公司",
+        "investee": "Yageo Holding Hungary LLC",
+        "pct": 100.0
+      },
+      {
+        "investor": "Yageo Holding Hungary LLC",
+        "investee": "KEMET Corporation",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "medium",
+    "note": "KEMET Blue Powder 為 KEMET 子公司（MOPS 未列此層），掛到 KEMET Corporation 節點；國巨 2020-06 完成收購 KEMET",
+    "controlSince": 2020,
+    "records": 1,
+    "years": [
+      2014,
+      2014
+    ],
+    "penaltyUSD": 5100,
+    "recordsBeforeControl": 1
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|KEMET BLUE POWER CORP.",
+    "entity": "KEMET BLUE POWER CORP.",
+    "parentSlug": "yageo",
+    "responsible": {
+      "kind": "listed",
+      "code": "2327",
+      "name": "國巨股份有限公司",
+      "short": "國巨*"
+    },
+    "entityInMops": "KEMET Corporation",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "國巨股份有限公司",
+        "investee": "Yageo Holding Hungary LLC",
+        "pct": 100.0
+      },
+      {
+        "investor": "Yageo Holding Hungary LLC",
+        "investee": "KEMET Corporation",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "medium",
+    "note": "KEMET Blue Powder 為 KEMET 子公司（MOPS 未列此層），掛到 KEMET Corporation 節點；國巨 2020-06 完成收購 KEMET",
+    "controlSince": 2020,
+    "records": 1,
+    "years": [
+      2013,
+      2013
+    ],
+    "penaltyUSD": 7350,
+    "recordsBeforeControl": 1
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|KEMET Corporation",
+    "entity": "KEMET Corporation",
+    "parentSlug": "yageo",
+    "responsible": {
+      "kind": "listed",
+      "code": "2327",
+      "name": "國巨股份有限公司",
+      "short": "國巨*"
+    },
+    "entityInMops": "KEMET Corporation",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "國巨股份有限公司",
+        "investee": "Yageo Holding Hungary LLC",
+        "pct": 100.0
+      },
+      {
+        "investor": "Yageo Holding Hungary LLC",
+        "investee": "KEMET Corporation",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "國巨 2020-06 完成收購 KEMET",
+    "controlSince": 2020,
+    "records": 1,
+    "years": [
+      2020,
+      2020
+    ],
+    "penaltyUSD": 62000000,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Kemet Corporation",
+    "entity": "Kemet Corporation",
+    "parentSlug": "yageo",
+    "responsible": {
+      "kind": "listed",
+      "code": "2327",
+      "name": "國巨股份有限公司",
+      "short": "國巨*"
+    },
+    "entityInMops": "KEMET Corporation",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "國巨股份有限公司",
+        "investee": "Yageo Holding Hungary LLC",
+        "pct": 100.0
+      },
+      {
+        "investor": "Yageo Holding Hungary LLC",
+        "investee": "KEMET Corporation",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "國巨 2020-06 完成收購 KEMET",
+    "controlSince": 2020,
+    "records": 1,
+    "years": [
+      2001,
+      2001
+    ],
+    "penaltyUSD": 60000,
+    "recordsBeforeControl": 1
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Kemet Electronics Corporation",
+    "entity": "Kemet Electronics Corporation",
+    "parentSlug": "yageo",
+    "responsible": {
+      "kind": "listed",
+      "code": "2327",
+      "name": "國巨股份有限公司",
+      "short": "國巨*"
+    },
+    "entityInMops": "KEMET Corporation",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "國巨股份有限公司",
+        "investee": "Yageo Holding Hungary LLC",
+        "pct": 100.0
+      },
+      {
+        "investor": "Yageo Holding Hungary LLC",
+        "investee": "KEMET Corporation",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "國巨 2020-06 完成收購 KEMET",
+    "controlSince": 2020,
+    "records": 1,
+    "years": [
+      2017,
+      2017
+    ],
+    "penaltyUSD": 23000,
+    "recordsBeforeControl": 1
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|NEC Tokin Corp.",
+    "entity": "NEC Tokin Corp.",
+    "parentSlug": "yageo",
+    "responsible": {
+      "kind": "listed",
+      "code": "2327",
+      "name": "國巨股份有限公司",
+      "short": "國巨*"
+    },
+    "entityInMops": "TOKIN Corporation",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "國巨股份有限公司",
+        "investee": "Yageo Holding Hungary LLC",
+        "pct": 100.0
+      },
+      {
+        "investor": "Yageo Holding Hungary LLC",
+        "investee": "KEMET Corporation",
+        "pct": 100.0
+      },
+      {
+        "investor": "KEMET Corporation",
+        "investee": "KEMET Electronics Corporation",
+        "pct": 100.0
+      },
+      {
+        "investor": "KEMET Electronics Corporation",
+        "investee": "TOKIN Corporation",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "TOKIN（原 NEC TOKIN）2017 年成為 KEMET 全資子公司，2020 年隨 KEMET 併入國巨",
+    "controlSince": 2020,
+    "records": 2,
+    "years": [
+      2017,
+      2017
+    ],
+    "penaltyUSD": 37250000,
+    "recordsBeforeControl": 1
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|NEC Tokin Corporation",
+    "entity": "NEC Tokin Corporation",
+    "parentSlug": "yageo",
+    "responsible": {
+      "kind": "listed",
+      "code": "2327",
+      "name": "國巨股份有限公司",
+      "short": "國巨*"
+    },
+    "entityInMops": "TOKIN Corporation",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "國巨股份有限公司",
+        "investee": "Yageo Holding Hungary LLC",
+        "pct": 100.0
+      },
+      {
+        "investor": "Yageo Holding Hungary LLC",
+        "investee": "KEMET Corporation",
+        "pct": 100.0
+      },
+      {
+        "investor": "KEMET Corporation",
+        "investee": "KEMET Electronics Corporation",
+        "pct": 100.0
+      },
+      {
+        "investor": "KEMET Electronics Corporation",
+        "investee": "TOKIN Corporation",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "TOKIN（原 NEC TOKIN）2017 年成為 KEMET 全資子公司，2020 年隨 KEMET 併入國巨",
+    "controlSince": 2020,
+    "records": 1,
+    "years": [
+      2015,
+      2015
+    ],
+    "penaltyUSD": 13800000,
+    "recordsBeforeControl": 1
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|TOKIN Corporation",
+    "entity": "TOKIN Corporation",
+    "parentSlug": "yageo",
+    "responsible": {
+      "kind": "listed",
+      "code": "2327",
+      "name": "國巨股份有限公司",
+      "short": "國巨*"
+    },
+    "entityInMops": "TOKIN Corporation",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "國巨股份有限公司",
+        "investee": "Yageo Holding Hungary LLC",
+        "pct": 100.0
+      },
+      {
+        "investor": "Yageo Holding Hungary LLC",
+        "investee": "KEMET Corporation",
+        "pct": 100.0
+      },
+      {
+        "investor": "KEMET Corporation",
+        "investee": "KEMET Electronics Corporation",
+        "pct": 100.0
+      },
+      {
+        "investor": "KEMET Electronics Corporation",
+        "investee": "TOKIN Corporation",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "TOKIN（原 NEC TOKIN）2017 年成為 KEMET 全資子公司，2020 年隨 KEMET 併入國巨",
+    "controlSince": 2020,
+    "records": 1,
+    "years": [
+      2019,
+      2019
+    ],
+    "penaltyUSD": 2000000,
+    "recordsBeforeControl": 1
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Yang Ming America Corp.",
+    "entity": "Yang Ming America Corp.",
+    "parentSlug": "yang-ming-marine-transport",
+    "responsible": {
+      "kind": "listed",
+      "code": "2609",
+      "name": "陽明海運股份有限公司",
+      "short": "陽明"
+    },
+    "entityInMops": "陽明（美洲）股份有限公司",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "陽明海運股份有限公司",
+        "investee": "陽明德拉瓦控股公司",
+        "pct": 100.0
+      },
+      {
+        "investor": "陽明德拉瓦控股公司",
+        "investee": "陽明（美洲）股份有限公司",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "Yang Ming (America) Corp. ＝ MOPS 陽明德拉瓦控股 → 陽明（美洲）",
+    "records": 1,
+    "years": [
+      2012,
+      2012
+    ],
+    "penaltyUSD": 5831,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Yang Ming America Corporation",
+    "entity": "Yang Ming America Corporation",
+    "parentSlug": "yang-ming-marine-transport",
+    "responsible": {
+      "kind": "listed",
+      "code": "2609",
+      "name": "陽明海運股份有限公司",
+      "short": "陽明"
+    },
+    "entityInMops": "陽明（美洲）股份有限公司",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "陽明海運股份有限公司",
+        "investee": "陽明德拉瓦控股公司",
+        "pct": 100.0
+      },
+      {
+        "investor": "陽明德拉瓦控股公司",
+        "investee": "陽明（美洲）股份有限公司",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "Yang Ming (America) Corp. ＝ MOPS 陽明德拉瓦控股 → 陽明（美洲）",
+    "records": 3,
+    "years": [
+      2015,
+      2022
+    ],
+    "penaltyUSD": 30272,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Yang Ming Marine Lines",
+    "entity": "Yang Ming Marine Lines",
+    "parentSlug": "yang-ming-marine-transport",
+    "responsible": {
+      "kind": "listed",
+      "code": "2609",
+      "name": "陽明海運股份有限公司",
+      "short": "陽明"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "high",
+    "note": "陽明海運本身",
+    "records": 1,
+    "years": [
+      2021,
+      2021
+    ],
+    "penaltyUSD": 5700,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker",
+    "key": "Violation Tracker|Yang Ming Marine Transport Corp.",
+    "entity": "Yang Ming Marine Transport Corp.",
+    "parentSlug": "yang-ming-marine-transport",
+    "responsible": {
+      "kind": "listed",
+      "code": "2609",
+      "name": "陽明海運股份有限公司",
+      "short": "陽明"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "high",
+    "note": "陽明海運本身",
+    "records": 3,
+    "years": [
+      2016,
+      2019
+    ],
+    "penaltyUSD": 34500,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Ajinomoto Bio-Tech Co., Ltd.",
+    "entity": "Ajinomoto Bio-Tech Co., Ltd.",
+    "parentSlug": "ajinomoto",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Ajinomoto"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2014,
+      2014
+    ],
+    "penaltyUSD": 6585,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Ajinomoto Enterprises Corporation",
+    "entity": "Ajinomoto Enterprises Corporation",
+    "parentSlug": "ajinomoto",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Ajinomoto"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2019,
+      2019
+    ],
+    "penaltyUSD": 13646,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Ajinomoto Food Industry Co",
+    "entity": "Ajinomoto Food Industry Co",
+    "parentSlug": "ajinomoto",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Ajinomoto"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2013,
+      2013
+    ],
+    "penaltyUSD": 20015,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Ajinomoto Food Industry Co.",
+    "entity": "Ajinomoto Food Industry Co.",
+    "parentSlug": "ajinomoto",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Ajinomoto"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 4,
+    "years": [
+      2011,
+      2021
+    ],
+    "penaltyUSD": 29811,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Allianz Taiwan Life",
+    "entity": "Allianz Taiwan Life",
+    "parentSlug": "allianz",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Allianz"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2021,
+      2021
+    ],
+    "penaltyUSD": 63322,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|American Express Taiwan Co., Ltd.",
+    "entity": "American Express Taiwan Co., Ltd.",
+    "parentSlug": "american-express",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：American Express"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2025,
+      2025
+    ],
+    "penaltyUSD": 9704,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Yahoo! Taiwan, Inc.",
+    "entity": "Yahoo! Taiwan, Inc.",
+    "parentSlug": "apollo-global-management",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Apollo Global Management"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2020,
+      2020
+    ],
+    "penaltyUSD": 15324,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Apple Asia LLC",
+    "entity": "Apple Asia LLC",
+    "parentSlug": "apple-inc",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Apple Inc."
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2014,
+      2014
+    ],
+    "penaltyUSD": 659564,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|ASUSTeK Computer Inc.",
+    "entity": "ASUSTeK Computer Inc.",
+    "parentSlug": "asustek-computer-inc",
+    "responsible": {
+      "kind": "listed",
+      "code": "2357",
+      "name": "華碩電腦股份有限公司",
+      "short": "華碩"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 1,
+    "years": [
+      2014,
+      2014
+    ],
+    "penaltyUSD": 6579,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|AU Optronics Corporation",
+    "entity": "AU Optronics Corporation",
+    "parentSlug": "au-optronics",
+    "responsible": {
+      "kind": "listed",
+      "code": "2409",
+      "name": "友達光電股份有限公司",
+      "short": "友達"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "high",
+    "note": "友達光電 AUO（MOPS 英文名 AUO Corporation）",
+    "records": 4,
+    "years": [
+      2023,
+      2025
+    ],
+    "penaltyUSD": 30484,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|ANZ (Taiwan)",
+    "entity": "ANZ (Taiwan)",
+    "parentSlug": "australia-and-new-zealand-banking-group",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Australia and New Zealand Banking Group"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2017,
+      2017
+    ],
+    "penaltyUSD": 126906,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Barclays Bank PLC",
+    "entity": "Barclays Bank PLC",
+    "parentSlug": "barclays",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Barclays"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2015,
+      2015
+    ],
+    "penaltyUSD": 376051,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|BASF Corporation",
+    "entity": "BASF Corporation",
+    "parentSlug": "basf",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：BASF"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2022,
+      2022
+    ],
+    "penaltyUSD": 22040,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|BNP Paribas",
+    "entity": "BNP Paribas",
+    "parentSlug": "bnp-paribas",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：BNP Paribas"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2015,
+      2015
+    ],
+    "penaltyUSD": 64301,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|BNP Paribas Life Insurance Company of France",
+    "entity": "BNP Paribas Life Insurance Company of France",
+    "parentSlug": "bnp-paribas",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：BNP Paribas"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 2,
+    "years": [
+      2024,
+      2024
+    ],
+    "penaltyUSD": 474780,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Cardif Assurance Vie",
+    "entity": "Cardif Assurance Vie",
+    "parentSlug": "bnp-paribas",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：BNP Paribas"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2020,
+      2020
+    ],
+    "penaltyUSD": 34705,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Carrefour Inc.",
+    "entity": "Carrefour Inc.",
+    "parentSlug": "carrefour",
+    "responsible": {
+      "kind": "listed",
+      "code": "1216",
+      "name": "統一企業股份有限公司",
+      "short": "統一"
+    },
+    "entityInMops": "家福(股)公司",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "統一企業股份有限公司",
+        "investee": "家福(股)公司",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "家樂福台灣＝家福股份有限公司。統一集團 2023 年向家樂福集團買下 60% 後持有 100%（MOPS：統一企業 → 家福 100%）；2023 年以前為家樂福 60%／統一集團 40% 合資，統一為少數股東",
+    "controlSince": 2023,
+    "records": 6,
+    "years": [
+      2015,
+      2023
+    ],
+    "penaltyUSD": 411077,
+    "recordsBeforeControl": 4
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Cathay Century Insurance",
+    "entity": "Cathay Century Insurance",
+    "parentSlug": "cathay-financial",
+    "responsible": {
+      "kind": "listed",
+      "code": "2882",
+      "name": "國泰金融控股股份有限公司",
+      "short": "國泰金"
+    },
+    "effectivePct": null,
+    "path": [],
+    "method": "vt-parent-mapping",
+    "confidence": "low",
+    "note": "只有 VT 母公司層級對照，實體名稱對不到 MOPS 子公司節點",
+    "records": 1,
+    "years": [
+      2019,
+      2019
+    ],
+    "penaltyUSD": 117973,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Cathay Life Insurance Co.",
+    "entity": "Cathay Life Insurance Co.",
+    "parentSlug": "cathay-financial",
+    "responsible": {
+      "kind": "listed",
+      "code": "2882",
+      "name": "國泰金融控股股份有限公司",
+      "short": "國泰金"
+    },
+    "entityInMops": "國泰人壽",
+    "effectivePct": null,
+    "path": [],
+    "method": "curated-mops-node",
+    "confidence": "medium",
+    "pathNote": "MOPS 有此節點但未列出從母公司到此節點的持股（清單不完整），持股比例未知",
+    "note": "國泰人壽；MOPS 國泰金子公司清單不完整，持股比例未列",
+    "records": 4,
+    "years": [
+      2014,
+      2024
+    ],
+    "penaltyUSD": 32578,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Cathay Life Insurance Co., Ltd.",
+    "entity": "Cathay Life Insurance Co., Ltd.",
+    "parentSlug": "cathay-financial",
+    "responsible": {
+      "kind": "listed",
+      "code": "2882",
+      "name": "國泰金融控股股份有限公司",
+      "short": "國泰金"
+    },
+    "entityInMops": "國泰人壽",
+    "effectivePct": null,
+    "path": [],
+    "method": "curated-mops-node",
+    "confidence": "medium",
+    "pathNote": "MOPS 有此節點但未列出從母公司到此節點的持股（清單不完整），持股比例未知",
+    "note": "國泰人壽；MOPS 國泰金子公司清單不完整，持股比例未列",
+    "records": 4,
+    "years": [
+      2020,
+      2023
+    ],
+    "penaltyUSD": 215678,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Cathay United Bank",
+    "entity": "Cathay United Bank",
+    "parentSlug": "cathay-financial",
+    "responsible": {
+      "kind": "listed",
+      "code": "2882",
+      "name": "國泰金融控股股份有限公司",
+      "short": "國泰金"
+    },
+    "entityInMops": "國泰世華商業銀行(股)公司",
+    "effectivePct": null,
+    "path": [],
+    "method": "curated-mops-node",
+    "confidence": "medium",
+    "pathNote": "MOPS 有此節點但未列出從母公司到此節點的持股（清單不完整），持股比例未知",
+    "note": "國泰世華銀行；MOPS 國泰金子公司清單不完整，只有國泰世華作為投資人的紀錄，持股比例未列",
+    "records": 8,
+    "years": [
+      2012,
+      2024
+    ],
+    "penaltyUSD": 1821580,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Cathay United Bank Corporation",
+    "entity": "Cathay United Bank Corporation",
+    "parentSlug": "cathay-financial",
+    "responsible": {
+      "kind": "listed",
+      "code": "2882",
+      "name": "國泰金融控股股份有限公司",
+      "short": "國泰金"
+    },
+    "entityInMops": "國泰世華商業銀行(股)公司",
+    "effectivePct": null,
+    "path": [],
+    "method": "curated-mops-node",
+    "confidence": "medium",
+    "pathNote": "MOPS 有此節點但未列出從母公司到此節點的持股（清單不完整），持股比例未知",
+    "note": "國泰世華銀行；MOPS 國泰金子公司清單不完整，只有國泰世華作為投資人的紀錄，持股比例未列",
+    "records": 1,
+    "years": [
+      2026,
+      2026
+    ],
+    "penaltyUSD": 9510,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Cathay Pacific Limited",
+    "entity": "Cathay Pacific Limited",
+    "parentSlug": "cathay-pacific-airways",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Cathay Pacific Airways"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2025,
+      2025
+    ],
+    "penaltyUSD": 9852,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Chemours Corporation",
+    "entity": "Chemours Corporation",
+    "parentSlug": "chemours",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Chemours"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2021,
+      2021
+    ],
+    "penaltyUSD": 10821,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|China Airlines",
+    "entity": "China Airlines",
+    "parentSlug": "china-airlines",
+    "responsible": {
+      "kind": "listed",
+      "code": "2610",
+      "name": "中華航空股份有限公司",
+      "short": "華航"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 2,
+    "years": [
+      2011,
+      2013
+    ],
+    "penaltyUSD": 830217,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|China Airlines Corporation",
+    "entity": "China Airlines Corporation",
+    "parentSlug": "china-airlines",
+    "responsible": {
+      "kind": "listed",
+      "code": "2610",
+      "name": "中華航空股份有限公司",
+      "short": "華航"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 9,
+    "years": [
+      2024,
+      2026
+    ],
+    "penaltyUSD": 206043,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|China Petrochemical Development Corp.",
+    "entity": "China Petrochemical Development Corp.",
+    "parentSlug": "china-petrochemical-development-corp",
+    "responsible": {
+      "kind": "listed",
+      "code": "1314",
+      "name": "中國石油化學工業開發(股)公司",
+      "short": "中石化"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 1,
+    "years": [
+      2018,
+      2018
+    ],
+    "penaltyUSD": 216184,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Chung-Hwa Wideband Best Network et al.",
+    "entity": "Chung-Hwa Wideband Best Network et al.",
+    "parentSlug": "chunghwa-telecom",
+    "responsible": {
+      "kind": "listed",
+      "code": "2412",
+      "name": "中華電信股份有限公司",
+      "short": "中華電"
+    },
+    "effectivePct": null,
+    "path": [],
+    "method": "vt-parent-mapping",
+    "confidence": "low",
+    "note": "只有 VT 母公司層級對照，實體名稱對不到 MOPS 子公司節點",
+    "records": 1,
+    "years": [
+      2012,
+      2012
+    ],
+    "penaltyUSD": 16938,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Chunghwa Telecom",
+    "entity": "Chunghwa Telecom",
+    "parentSlug": "chunghwa-telecom",
+    "responsible": {
+      "kind": "listed",
+      "code": "2412",
+      "name": "中華電信股份有限公司",
+      "short": "中華電"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 2,
+    "years": [
+      2015,
+      2023
+    ],
+    "penaltyUSD": 1262705,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Chunghwa Telecom Co., Ltd.",
+    "entity": "Chunghwa Telecom Co., Ltd.",
+    "parentSlug": "chunghwa-telecom",
+    "responsible": {
+      "kind": "listed",
+      "code": "2412",
+      "name": "中華電信股份有限公司",
+      "short": "中華電"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 2,
+    "years": [
+      2013,
+      2018
+    ],
+    "penaltyUSD": 26738,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Chunghwa Telecom Corporation Limited",
+    "entity": "Chunghwa Telecom Corporation Limited",
+    "parentSlug": "chunghwa-telecom",
+    "responsible": {
+      "kind": "listed",
+      "code": "2412",
+      "name": "中華電信股份有限公司",
+      "short": "中華電"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 2,
+    "years": [
+      2025,
+      2026
+    ],
+    "penaltyUSD": 17578,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|CIGNA Taiwan Life Assurance Ltd.",
+    "entity": "CIGNA Taiwan Life Assurance Ltd.",
+    "parentSlug": "cigna",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Cigna"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2020,
+      2020
+    ],
+    "penaltyUSD": 85162,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Citibank (Taiwan) Co., Ltd.",
+    "entity": "Citibank (Taiwan) Co., Ltd.",
+    "parentSlug": "citigroup",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Citigroup"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 3,
+    "years": [
+      2021,
+      2022
+    ],
+    "penaltyUSD": 63095,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Citibank Taiwan Limited",
+    "entity": "Citibank Taiwan Limited",
+    "parentSlug": "citigroup",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Citigroup"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 7,
+    "years": [
+      2010,
+      2021
+    ],
+    "penaltyUSD": 1306211,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Citibank Taiwan Ltd.",
+    "entity": "Citibank Taiwan Ltd.",
+    "parentSlug": "citigroup",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Citigroup"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2023,
+      2023
+    ],
+    "penaltyUSD": 195937,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Colgate-Palmolive Taiwan",
+    "entity": "Colgate-Palmolive Taiwan",
+    "parentSlug": "colgate-palmolive",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Colgate-Palmolive"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2011,
+      2011
+    ],
+    "penaltyUSD": 13123,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Costco Corporation",
+    "entity": "Costco Corporation",
+    "parentSlug": "costco",
+    "responsible": {
+      "kind": "foreign",
+      "name": "美商 Costco 台灣子公司。1997 年起由高雄大統集團持股 45%，2022-06 由 Costco 買回全部股權（Taipei Times 2022-07-02）；大統集團持股非經上市公司，MOPS 無路徑"
+    },
+    "method": "curated-foreign",
+    "confidence": "high",
+    "taiwanMinorityUntil": 2022,
+    "records": 8,
+    "years": [
+      2012,
+      2024
+    ],
+    "penaltyUSD": 151187,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Costco Inc.",
+    "entity": "Costco Inc.",
+    "parentSlug": "costco",
+    "responsible": {
+      "kind": "foreign",
+      "name": "美商 Costco 台灣子公司。1997 年起由高雄大統集團持股 45%，2022-06 由 Costco 買回全部股權（Taipei Times 2022-07-02）；大統集團持股非經上市公司，MOPS 無路徑"
+    },
+    "method": "curated-foreign",
+    "confidence": "high",
+    "taiwanMinorityUntil": 2022,
+    "records": 1,
+    "years": [
+      2021,
+      2021
+    ],
+    "penaltyUSD": 10795,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|CPC Corp.",
+    "entity": "CPC Corp.",
+    "parentSlug": "cpc-corporation",
+    "responsible": {
+      "kind": "state-owned",
+      "id": "cpc",
+      "name": "台灣中油股份有限公司（CPC Corporation, Taiwan）"
+    },
+    "effectivePct": null,
+    "path": [],
+    "method": "curated-unlisted",
+    "confidence": "medium",
+    "note": "台灣中油為經濟部所屬國營事業，未上市。VT 的「Taiwan CNPC Co. Ltd.」疑為台灣中油誤譯，一併歸中油",
+    "records": 2,
+    "years": [
+      2018,
+      2020
+    ],
+    "penaltyUSD": 385711,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|CPC Corporation, Taiwan",
+    "entity": "CPC Corporation, Taiwan",
+    "parentSlug": "cpc-corporation",
+    "responsible": {
+      "kind": "state-owned",
+      "id": "cpc",
+      "name": "台灣中油股份有限公司（CPC Corporation, Taiwan）"
+    },
+    "effectivePct": null,
+    "path": [],
+    "method": "curated-unlisted",
+    "confidence": "medium",
+    "note": "台灣中油為經濟部所屬國營事業，未上市。VT 的「Taiwan CNPC Co. Ltd.」疑為台灣中油誤譯，一併歸中油",
+    "records": 6,
+    "years": [
+      2018,
+      2025
+    ],
+    "penaltyUSD": 52297,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Taiwan CNPC Co. Ltd.",
+    "entity": "Taiwan CNPC Co. Ltd.",
+    "parentSlug": "cpc-corporation",
+    "responsible": {
+      "kind": "state-owned",
+      "id": "cpc",
+      "name": "台灣中油股份有限公司（CPC Corporation, Taiwan）"
+    },
+    "effectivePct": null,
+    "path": [],
+    "method": "curated-unlisted",
+    "confidence": "medium",
+    "note": "台灣中油為經濟部所屬國營事業，未上市。VT 的「Taiwan CNPC Co. Ltd.」疑為台灣中油誤譯，一併歸中油",
+    "records": 2,
+    "years": [
+      2018,
+      2019
+    ],
+    "penaltyUSD": 34103,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|CTBC Bank",
+    "entity": "CTBC Bank",
+    "parentSlug": "ctbc-financial",
+    "responsible": {
+      "kind": "listed",
+      "code": "2891",
+      "name": "中國信託金融控股股份有限公司",
+      "short": "中信金"
+    },
+    "entityInMops": "中國信託商業銀行(股)公司",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "中國信託金融控股股份有限公司",
+        "investee": "中國信託商業銀行(股)公司",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "中國信託商業銀行",
+    "records": 8,
+    "years": [
+      2014,
+      2023
+    ],
+    "penaltyUSD": 2095230,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|CTBC Financial Holding Co., Ltd.",
+    "entity": "CTBC Financial Holding Co., Ltd.",
+    "parentSlug": "ctbc-financial",
+    "responsible": {
+      "kind": "listed",
+      "code": "2891",
+      "name": "中國信託金融控股股份有限公司",
+      "short": "中信金"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 1,
+    "years": [
+      2023,
+      2023
+    ],
+    "penaltyUSD": 944220,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|CTBC Financial Holding Company",
+    "entity": "CTBC Financial Holding Company",
+    "parentSlug": "ctbc-financial",
+    "responsible": {
+      "kind": "listed",
+      "code": "2891",
+      "name": "中國信託金融控股股份有限公司",
+      "short": "中信金"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 2,
+    "years": [
+      2014,
+      2018
+    ],
+    "penaltyUSD": 404180,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Taiwan Life Insurance Co. Ltd.",
+    "entity": "Taiwan Life Insurance Co. Ltd.",
+    "parentSlug": "ctbc-financial",
+    "responsible": {
+      "kind": "listed",
+      "code": "2891",
+      "name": "中國信託金融控股股份有限公司",
+      "short": "中信金"
+    },
+    "entityInMops": "台灣人壽保險(股)公司(下稱台灣人壽)",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "中國信託金融控股股份有限公司",
+        "investee": "台灣人壽保險(股)公司(下稱台灣人壽)",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "台灣人壽",
+    "records": 1,
+    "years": [
+      2023,
+      2023
+    ],
+    "penaltyUSD": 314740,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|DBS (Taiwan) Ltd.",
+    "entity": "DBS (Taiwan) Ltd.",
+    "parentSlug": "dbs-bank",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：DBS Bank"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2017,
+      2017
+    ],
+    "penaltyUSD": 317265,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|DBS Bank (Taiwan) Ltd.",
+    "entity": "DBS Bank (Taiwan) Ltd.",
+    "parentSlug": "dbs-bank",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：DBS Bank"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2021,
+      2021
+    ],
+    "penaltyUSD": 215736,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Deloitte Touche Tohmatsu",
+    "entity": "Deloitte Touche Tohmatsu",
+    "parentSlug": "deloitte",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Deloitte"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2021,
+      2021
+    ],
+    "penaltyUSD": 10718,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Deutsche Bank",
+    "entity": "Deutsche Bank",
+    "parentSlug": "deutsche-bank",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Deutsche Bank"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2015,
+      2015
+    ],
+    "penaltyUSD": 64301,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Ernst & Young Global Limited",
+    "entity": "Ernst & Young Global Limited",
+    "parentSlug": "ernst-and-young",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Ernst & Young"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2024,
+      2024
+    ],
+    "penaltyUSD": 6190,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|First Commercial Bank",
+    "entity": "First Commercial Bank",
+    "parentSlug": "first-financial-holding",
+    "responsible": {
+      "kind": "listed",
+      "code": "2892",
+      "name": "第一金融控股股份有限公司",
+      "short": "第一金"
+    },
+    "entityInMops": "第一銀行",
+    "effectivePct": null,
+    "path": [],
+    "method": "curated-mops-node",
+    "confidence": "medium",
+    "pathNote": "MOPS 有此節點但未列出從母公司到此節點的持股（清單不完整），持股比例未知",
+    "note": "第一商業銀行；MOPS 第一金子公司清單不完整，持股比例未列",
+    "records": 8,
+    "years": [
+      2010,
+      2020
+    ],
+    "penaltyUSD": 846312,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|First Financial Holding",
+    "entity": "First Financial Holding",
+    "parentSlug": "first-financial-holding",
+    "responsible": {
+      "kind": "listed",
+      "code": "2892",
+      "name": "第一金融控股股份有限公司",
+      "short": "第一金"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 1,
+    "years": [
+      2018,
+      2018
+    ],
+    "penaltyUSD": 68485,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Ford Lio Ho Motor Company",
+    "entity": "Ford Lio Ho Motor Company",
+    "parentSlug": "ford-motor",
+    "responsible": {
+      "kind": "foreign",
+      "name": "福特六和：福特 70%、六和機械（未上市）30%"
+    },
+    "method": "curated-foreign",
+    "confidence": "medium",
+    "records": 1,
+    "years": [
+      2012,
+      2012
+    ],
+    "penaltyUSD": 27182,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Formosa Chemicals and Fibre Corporation",
+    "entity": "Formosa Chemicals and Fibre Corporation",
+    "parentSlug": "formosa-petrochemical-corporation",
+    "responsible": {
+      "kind": "listed",
+      "code": "1326",
+      "name": "台灣化學纖維股份有限公司",
+      "short": "台化"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "high",
+    "note": "台化 1326 為獨立上市公司；VT 將其掛在台塑化母公司下，依資金鏈應歸 1326",
+    "records": 1,
+    "years": [
+      2013,
+      2013
+    ],
+    "penaltyUSD": 100874,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Formosa Petrochemical Co",
+    "entity": "Formosa Petrochemical Co",
+    "parentSlug": "formosa-petrochemical-corporation",
+    "responsible": {
+      "kind": "listed",
+      "code": "6505",
+      "name": "台塑石化股份有限公司",
+      "short": "台塑化"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 1,
+    "years": [
+      2018,
+      2018
+    ],
+    "penaltyUSD": 26623,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Formosa Petrochemical Corporation",
+    "entity": "Formosa Petrochemical Corporation",
+    "parentSlug": "formosa-petrochemical-corporation",
+    "responsible": {
+      "kind": "listed",
+      "code": "6505",
+      "name": "台塑石化股份有限公司",
+      "short": "台塑化"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 5,
+    "years": [
+      2016,
+      2021
+    ],
+    "penaltyUSD": 160594,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Formosa Plastic Industries Co.",
+    "entity": "Formosa Plastic Industries Co.",
+    "parentSlug": "formosa-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "1301",
+      "name": "台灣塑膠工業股份有限公司",
+      "short": "台塑"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "high",
+    "note": "直譯「台灣塑膠工業」＝ 1301",
+    "records": 6,
+    "years": [
+      2011,
+      2022
+    ],
+    "penaltyUSD": 64508,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Formosa Plastics",
+    "entity": "Formosa Plastics",
+    "parentSlug": "formosa-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "1301",
+      "name": "台灣塑膠工業股份有限公司",
+      "short": "台塑"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "medium",
+    "note": "VT 名稱即母公司名稱，歸台塑 1301",
+    "records": 6,
+    "years": [
+      2010,
+      2023
+    ],
+    "penaltyUSD": 7700523,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Formosa Plastics Biomedical Technology Co.",
+    "entity": "Formosa Plastics Biomedical Technology Co.",
+    "parentSlug": "formosa-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "1326",
+      "name": "台灣化學纖維股份有限公司",
+      "short": "台化"
+    },
+    "entityInMops": "台塑生醫公司",
+    "effectivePct": 88.59,
+    "path": [
+      {
+        "investor": "台灣化學纖維股份有限公司",
+        "investee": "台塑生醫公司",
+        "pct": 88.59
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "台塑生醫科技由台化 1326 持股 88.59%（MOPS），非台塑 1301",
+    "records": 2,
+    "years": [
+      2016,
+      2020
+    ],
+    "penaltyUSD": 13037,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Formosa Plastics Energy Technology Co.",
+    "entity": "Formosa Plastics Energy Technology Co.",
+    "parentSlug": "formosa-plastics",
+    "responsible": {
+      "kind": "group-assumed",
+      "code": "1301",
+      "name": "台灣塑膠工業股份有限公司",
+      "short": "台塑"
+    },
+    "groupCodes": [
+      "1301"
+    ],
+    "groupName": "台塑集團 Formosa Plastics Group",
+    "effectivePct": null,
+    "path": [],
+    "method": "curated-group-assumed",
+    "confidence": "low",
+    "note": "中文實體名稱未能確認（MOPS 無對應節點），暫以 VT 母公司層級歸台塑 1301",
+    "records": 14,
+    "years": [
+      2011,
+      2023
+    ],
+    "penaltyUSD": 110171,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Formosa Plastics Petrochemical Co.",
+    "entity": "Formosa Plastics Petrochemical Co.",
+    "parentSlug": "formosa-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "6505",
+      "name": "台塑石化股份有限公司",
+      "short": "台塑化"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "medium",
+    "note": "直譯「台塑石化」＝ 6505。VT 將其掛在 Formosa Plastics 母公司下，但依公司名稱應歸台塑化（VT 另有 Formosa Petrochemical Corporation 母公司）",
+    "records": 77,
+    "years": [
+      2010,
+      2024
+    ],
+    "penaltyUSD": 22574964,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Foxconn",
+    "entity": "Foxconn",
+    "parentSlug": "foxconn-technology-group-hon-hai-precisi",
+    "responsible": {
+      "kind": "listed",
+      "code": "2317",
+      "name": "鴻海精密工業股份有限公司",
+      "short": "鴻海"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "high",
+    "note": "鴻海精密 2317 本身或其美國據點",
+    "records": 1,
+    "years": [
+      2023,
+      2023
+    ],
+    "penaltyUSD": 329738,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Hon Hai Precision Industry Co., Ltd.",
+    "entity": "Hon Hai Precision Industry Co., Ltd.",
+    "parentSlug": "foxconn-technology-group-hon-hai-precisi",
+    "responsible": {
+      "kind": "listed",
+      "code": "2317",
+      "name": "鴻海精密工業股份有限公司",
+      "short": "鴻海"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "high",
+    "note": "鴻海精密 2317 本身或其美國據點",
+    "records": 1,
+    "years": [
+      2023,
+      2023
+    ],
+    "penaltyUSD": 14660,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Fubon Financial Holding",
+    "entity": "Fubon Financial Holding",
+    "parentSlug": "fubon-financial-holding",
+    "responsible": {
+      "kind": "listed",
+      "code": "2881",
+      "name": "富邦金融控股股份有限公司",
+      "short": "富邦金"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 1,
+    "years": [
+      2012,
+      2012
+    ],
+    "penaltyUSD": 134728,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Fubon Life Insurance Co.",
+    "entity": "Fubon Life Insurance Co.",
+    "parentSlug": "fubon-financial-holding",
+    "responsible": {
+      "kind": "listed",
+      "code": "2881",
+      "name": "富邦金融控股股份有限公司",
+      "short": "富邦金"
+    },
+    "entityInMops": "富邦人壽",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "富邦金融控股股份有限公司",
+        "investee": "富邦人壽",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "富邦人壽",
+    "records": 1,
+    "years": [
+      2021,
+      2021
+    ],
+    "penaltyUSD": 107188,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Fubon Life Insurance Co., Ltd.",
+    "entity": "Fubon Life Insurance Co., Ltd.",
+    "parentSlug": "fubon-financial-holding",
+    "responsible": {
+      "kind": "listed",
+      "code": "2881",
+      "name": "富邦金融控股股份有限公司",
+      "short": "富邦金"
+    },
+    "entityInMops": "富邦人壽",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "富邦金融控股股份有限公司",
+        "investee": "富邦人壽",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "富邦人壽",
+    "records": 1,
+    "years": [
+      2019,
+      2019
+    ],
+    "penaltyUSD": 157298,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Taipei Fubon Commercial Bank",
+    "entity": "Taipei Fubon Commercial Bank",
+    "parentSlug": "fubon-financial-holding",
+    "responsible": {
+      "kind": "listed",
+      "code": "2881",
+      "name": "富邦金融控股股份有限公司",
+      "short": "富邦金"
+    },
+    "entityInMops": "台北富邦銀行",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "富邦金融控股股份有限公司",
+        "investee": "台北富邦銀行",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "台北富邦銀行",
+    "records": 8,
+    "years": [
+      2010,
+      2021
+    ],
+    "penaltyUSD": 970085,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Fujifilm Information Co., Ltd.",
+    "entity": "Fujifilm Information Co., Ltd.",
+    "parentSlug": "fujifilm",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Fujifilm"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2023,
+      2023
+    ],
+    "penaltyUSD": 19736,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Fujitsu General (Taiwan) Co., Ltd.",
+    "entity": "Fujitsu General (Taiwan) Co., Ltd.",
+    "parentSlug": "fujitsu-general-limited",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Fujitsu General Limited"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2014,
+      2014
+    ],
+    "penaltyUSD": 6672,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Volvo Cars Taiwan Limited",
+    "entity": "Volvo Cars Taiwan Limited",
+    "parentSlug": "geely",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Geely"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2012,
+      2012
+    ],
+    "penaltyUSD": 16989,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|GlaxoSmithKline Pharmaceutical Co., Ltd.",
+    "entity": "GlaxoSmithKline Pharmaceutical Co., Ltd.",
+    "parentSlug": "gsk-plc",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：GSK plc"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2014,
+      2014
+    ],
+    "penaltyUSD": 16597,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|HannStar Display Corporation",
+    "entity": "HannStar Display Corporation",
+    "parentSlug": "hannstar-display",
+    "responsible": {
+      "kind": "listed",
+      "code": "6116",
+      "name": "瀚宇彩晶股份有限公司",
+      "short": "彩晶"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 1,
+    "years": [
+      2022,
+      2022
+    ],
+    "penaltyUSD": 8975,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Heineken Taiwan Co.",
+    "entity": "Heineken Taiwan Co.",
+    "parentSlug": "heineken",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Heineken"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2024,
+      2024
+    ],
+    "penaltyUSD": 22120,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Hitachi Taiwan",
+    "entity": "Hitachi Taiwan",
+    "parentSlug": "hitachi",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Hitachi"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2010,
+      2010
+    ],
+    "penaltyUSD": 18507,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Hitachi-LG Data Storage Korea Inc.",
+    "entity": "Hitachi-LG Data Storage Korea Inc.",
+    "parentSlug": "hitachi",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Hitachi"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2012,
+      2012
+    ],
+    "penaltyUSD": 543646,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Honda Taiwan",
+    "entity": "Honda Taiwan",
+    "parentSlug": "honda",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Honda"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2012,
+      2012
+    ],
+    "penaltyUSD": 13591,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|HSBC Bank (Taiwan)",
+    "entity": "HSBC Bank (Taiwan)",
+    "parentSlug": "hsbc",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：HSBC"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 2,
+    "years": [
+      2011,
+      2012
+    ],
+    "penaltyUSD": 85388,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Grand Hyatt International Hotels Co., Ltd.",
+    "entity": "Grand Hyatt International Hotels Co., Ltd.",
+    "parentSlug": "hyatt-hotels",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Hyatt Hotels"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 2,
+    "years": [
+      2020,
+      2020
+    ],
+    "penaltyUSD": 61758,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Chimei Innolux Corporation",
+    "entity": "Chimei Innolux Corporation",
+    "parentSlug": "innolux-corporation",
+    "responsible": {
+      "kind": "listed",
+      "code": "3481",
+      "name": "群創光電股份有限公司",
+      "short": "群創"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "high",
+    "note": "奇美電為群創前名",
+    "records": 1,
+    "years": [
+      2014,
+      2014
+    ],
+    "penaltyUSD": 5000,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Innolux Corporation",
+    "entity": "Innolux Corporation",
+    "parentSlug": "innolux-corporation",
+    "responsible": {
+      "kind": "listed",
+      "code": "3481",
+      "name": "群創光電股份有限公司",
+      "short": "群創"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 2,
+    "years": [
+      2024,
+      2026
+    ],
+    "penaltyUSD": 12567,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Kao Corporation",
+    "entity": "Kao Corporation",
+    "parentSlug": "kao-corporation",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Kao Corporation"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2025,
+      2025
+    ],
+    "penaltyUSD": 9513,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Kimberley-Clark Taiwan",
+    "entity": "Kimberley-Clark Taiwan",
+    "parentSlug": "kimberly-clark",
+    "responsible": {
+      "kind": "foreign",
+      "name": "金百利克拉克 2000 年起全資持有台灣公司（Kimberly-Clark 新聞稿）"
+    },
+    "method": "curated-foreign",
+    "confidence": "high",
+    "records": 1,
+    "years": [
+      2017,
+      2017
+    ],
+    "penaltyUSD": 26538,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|KONE Elevator Co., Ltd.",
+    "entity": "KONE Elevator Co., Ltd.",
+    "parentSlug": "kone",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Kone"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2025,
+      2025
+    ],
+    "penaltyUSD": 6755,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|LG Electronics Taiwan",
+    "entity": "LG Electronics Taiwan",
+    "parentSlug": "lg-electronics",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：LG Electronics"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 2,
+    "years": [
+      2011,
+      2015
+    ],
+    "penaltyUSD": 25327,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|L'Oreal Taiwan Co., Ltd.",
+    "entity": "L'Oreal Taiwan Co., Ltd.",
+    "parentSlug": "loreal",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：L'Oreal"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2020,
+      2020
+    ],
+    "penaltyUSD": 10932,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Maersk Logistics Taiwan Co., Ltd.",
+    "entity": "Maersk Logistics Taiwan Co., Ltd.",
+    "parentSlug": "maersk",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Maersk"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2023,
+      2023
+    ],
+    "penaltyUSD": 9272,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Matsuo Electric Co. Ltd.",
+    "entity": "Matsuo Electric Co. Ltd.",
+    "parentSlug": "matsuo-electric",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Matsuo Electric"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2016,
+      2016
+    ],
+    "penaltyUSD": 725598,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Matsuo Electric Co., Ltd.",
+    "entity": "Matsuo Electric Co., Ltd.",
+    "parentSlug": "matsuo-electric",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Matsuo Electric"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2021,
+      2021
+    ],
+    "penaltyUSD": 487819,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Mazda Transportation Enterprises Limited",
+    "entity": "Mazda Transportation Enterprises Limited",
+    "parentSlug": "mazda-motor",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Mazda Motor"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2024,
+      2024
+    ],
+    "penaltyUSD": 26121,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Mega International Commercial Bank",
+    "entity": "Mega International Commercial Bank",
+    "parentSlug": "mega-financial-holding",
+    "responsible": {
+      "kind": "listed",
+      "code": "2886",
+      "name": "兆豐金融控股股份有限公司",
+      "short": "兆豐金"
+    },
+    "entityInMops": "兆豐銀行",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "兆豐金融控股股份有限公司",
+        "investee": "兆豐銀行",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "兆豐國際商業銀行",
+    "records": 8,
+    "years": [
+      2010,
+      2022
+    ],
+    "penaltyUSD": 1341309,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Mercedes-Benz Taiwan Co., Ltd.",
+    "entity": "Mercedes-Benz Taiwan Co., Ltd.",
+    "parentSlug": "mercedes-benz-group",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Mercedes-Benz Group"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2021,
+      2021
+    ],
+    "penaltyUSD": 10785,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Mitsubishi Chemical Corporation",
+    "entity": "Mitsubishi Chemical Corporation",
+    "parentSlug": "mitsubishi-chemical",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Mitsubishi Chemical"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 2,
+    "years": [
+      2012,
+      2020
+    ],
+    "penaltyUSD": 13597,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Mitsubishi Elevator Co., Ltd.",
+    "entity": "Mitsubishi Elevator Co., Ltd.",
+    "parentSlug": "mitsubishi-electric",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Mitsubishi Electric"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2022,
+      2022
+    ],
+    "penaltyUSD": 8062,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Nan Ya Plastics",
+    "entity": "Nan Ya Plastics",
+    "parentSlug": "nan-ya-plastics",
+    "responsible": {
+      "kind": "listed",
+      "code": "1303",
+      "name": "南亞塑膠工業股份有限公司",
+      "short": "南亞"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 25,
+    "years": [
+      2010,
+      2024
+    ],
+    "penaltyUSD": 477816,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Avon Cosmetics Taiwan",
+    "entity": "Avon Cosmetics Taiwan",
+    "parentSlug": "natura-and-co",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Natura & Co."
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2014,
+      2014
+    ],
+    "penaltyUSD": 33194,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|NHK Spring Co., Ltd.",
+    "entity": "NHK Spring Co., Ltd.",
+    "parentSlug": "nhk-spring",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：NHK Spring"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2020,
+      2020
+    ],
+    "penaltyUSD": 10250883,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Nichicon (Hong Kong) Ltd.",
+    "entity": "Nichicon (Hong Kong) Ltd.",
+    "parentSlug": "nichicon-corporation",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Nichicon Corporation"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 2,
+    "years": [
+      2016,
+      2025
+    ],
+    "penaltyUSD": 3873206,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Hong Kong Chemi-Con Limited",
+    "entity": "Hong Kong Chemi-Con Limited",
+    "parentSlug": "nippon-chemi-con-corp",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Nippon Chemi-Con Corp."
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2016,
+      2016
+    ],
+    "penaltyUSD": 2475934,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Nippon Chemi-Con Corp.",
+    "entity": "Nippon Chemi-Con Corp.",
+    "parentSlug": "nippon-chemi-con-corp",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Nippon Chemi-Con Corp."
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2016,
+      2016
+    ],
+    "penaltyUSD": 55787438,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Taiwan Chemi-Con Corporation",
+    "entity": "Taiwan Chemi-Con Corporation",
+    "parentSlug": "nippon-chemi-con-corp",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Nippon Chemi-Con Corp."
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2016,
+      2016
+    ],
+    "penaltyUSD": 8772868,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Nissan Taiwan",
+    "entity": "Nissan Taiwan",
+    "parentSlug": "nissan",
+    "responsible": {
+      "kind": "listed",
+      "code": "2227",
+      "name": "裕隆日產汽車股份有限公司",
+      "short": "裕日車"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "medium",
+    "note": "Nissan 在台由裕隆日產汽車（2227，上市）代理，裕隆集團與日產合資；VT 原文為 Nissan Taiwan，依代理關係歸 2227",
+    "records": 1,
+    "years": [
+      2014,
+      2014
+    ],
+    "penaltyUSD": 6405,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Panasonic Marketing Sales Co., Ltd.",
+    "entity": "Panasonic Marketing Sales Co., Ltd.",
+    "parentSlug": "panasonic",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Panasonic"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2012,
+      2012
+    ],
+    "penaltyUSD": 10163,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Panasonic Marketing Sales Taiwan Co., Ltd.",
+    "entity": "Panasonic Marketing Sales Taiwan Co., Ltd.",
+    "parentSlug": "panasonic",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Panasonic"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2011,
+      2011
+    ],
+    "penaltyUSD": 27652,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Panasonic Multi-Layer Materials Taiwan Co.",
+    "entity": "Panasonic Multi-Layer Materials Taiwan Co.",
+    "parentSlug": "panasonic",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Panasonic"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2015,
+      2015
+    ],
+    "penaltyUSD": 5504,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Panasonic Taiwan Co., Ltd.",
+    "entity": "Panasonic Taiwan Co., Ltd.",
+    "parentSlug": "panasonic",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Panasonic"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2018,
+      2018
+    ],
+    "penaltyUSD": 9682,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|SANYO Electric (Hong Kong) Ltd.",
+    "entity": "SANYO Electric (Hong Kong) Ltd.",
+    "parentSlug": "panasonic",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Panasonic"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2016,
+      2016
+    ],
+    "penaltyUSD": 25142120,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Sanyo Electric (Hong Kong) Limited",
+    "entity": "Sanyo Electric (Hong Kong) Limited",
+    "parentSlug": "panasonic",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Panasonic"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2015,
+      2015
+    ],
+    "penaltyUSD": 30923,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Pegatron Technology Co.",
+    "entity": "Pegatron Technology Co.",
+    "parentSlug": "pegatron-corporation",
+    "responsible": {
+      "kind": "listed",
+      "code": "4938",
+      "name": "和碩聯合科技股份有限公司",
+      "short": "和碩"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "medium",
+    "note": "和碩聯合科技 4938（VT 名稱 Pegatron Technology 為中文名直譯）",
+    "records": 6,
+    "years": [
+      2013,
+      2024
+    ],
+    "penaltyUSD": 62916,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Qualcomm Display Manufacturing Company Limited",
+    "entity": "Qualcomm Display Manufacturing Company Limited",
+    "parentSlug": "qualcomm",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Qualcomm"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 2,
+    "years": [
+      2011,
+      2011
+    ],
+    "penaltyUSD": 16694,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Qualcomm Incorporated",
+    "entity": "Qualcomm Incorporated",
+    "parentSlug": "qualcomm",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Qualcomm"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2017,
+      2017
+    ],
+    "penaltyUSD": 780301080,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Quanta Computer Corporation",
+    "entity": "Quanta Computer Corporation",
+    "parentSlug": "quanta-computer-corporation",
+    "responsible": {
+      "kind": "listed",
+      "code": "2382",
+      "name": "廣達電腦股份有限公司",
+      "short": "廣達"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 3,
+    "years": [
+      2020,
+      2022
+    ],
+    "penaltyUSD": 90781,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Philips & Lite-On Digital Solutions Corporation",
+    "entity": "Philips & Lite-On Digital Solutions Corporation",
+    "parentSlug": "royal-philips",
+    "responsible": {
+      "kind": "listed",
+      "code": "2301",
+      "name": "光寶科技股份有限公司",
+      "short": "光寶科"
+    },
+    "entityInMops": "飛利浦建興數位科技股份有限公司",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "光寶科技股份有限公司",
+        "investee": "飛利浦建興數位科技股份有限公司",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "飛利浦建興數位科技（PLDS）目前由光寶科 2301 持股 100%（MOPS）；2012 年時為建興電子與飛利浦合資，建興 2014 年併入光寶科",
+    "records": 1,
+    "years": [
+      2012,
+      2012
+    ],
+    "penaltyUSD": 271823,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Philips Electronics",
+    "entity": "Philips Electronics",
+    "parentSlug": "royal-philips",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Royal Philips"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2011,
+      2011
+    ],
+    "penaltyUSD": 102009,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Samsung C&T Construction Co., Ltd.",
+    "entity": "Samsung C&T Construction Co., Ltd.",
+    "parentSlug": "samsung-candt-corporation",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Samsung C&T Corporation"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2025,
+      2025
+    ],
+    "penaltyUSD": 6088,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Samsung Taiwan",
+    "entity": "Samsung Taiwan",
+    "parentSlug": "samsung-electronics",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Samsung Electronics"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 2,
+    "years": [
+      2013,
+      2018
+    ],
+    "penaltyUSD": 350952,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Schindler Elevator Co., Ltd.",
+    "entity": "Schindler Elevator Co., Ltd.",
+    "parentSlug": "schindler",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Schindler"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2022,
+      2022
+    ],
+    "penaltyUSD": 13544,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Schneider Electric Corporation",
+    "entity": "Schneider Electric Corporation",
+    "parentSlug": "schneider-electric",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Schneider Electric"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 2,
+    "years": [
+      2022,
+      2023
+    ],
+    "penaltyUSD": 29623,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Shanghai Commercial and Savings Bank",
+    "entity": "Shanghai Commercial and Savings Bank",
+    "parentSlug": "shanghai-commercial-and-savings-bank",
+    "responsible": {
+      "kind": "listed",
+      "code": "5876",
+      "name": "上海商業儲蓄銀行股份有限公司",
+      "short": "上海商銀"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 1,
+    "years": [
+      2023,
+      2023
+    ],
+    "penaltyUSD": 316652,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Shin Kong Life Insurance",
+    "entity": "Shin Kong Life Insurance",
+    "parentSlug": "shin-kong-financial-holding-co-ltd",
+    "responsible": {
+      "kind": "merger",
+      "code": "2887",
+      "name": "台新新光金融控股股份有限公司",
+      "short": "台新新光金"
+    },
+    "groupCodes": [
+      "2887"
+    ],
+    "groupName": "台新新光金控",
+    "effectivePct": null,
+    "path": [],
+    "method": "curated-merger",
+    "confidence": "high",
+    "note": "新光金控 2025-07 以股份轉換成為台新新光金 2887 的子公司，新光人壽隨之併入；2025 年以前為合併前責任",
+    "controlSince": 2025,
+    "records": 1,
+    "years": [
+      2020,
+      2020
+    ],
+    "penaltyUSD": 942932,
+    "recordsBeforeControl": 1
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Shin Kong Life Insurance Co., Ltd.",
+    "entity": "Shin Kong Life Insurance Co., Ltd.",
+    "parentSlug": "shin-kong-financial-holding-co-ltd",
+    "responsible": {
+      "kind": "merger",
+      "code": "2887",
+      "name": "台新新光金融控股股份有限公司",
+      "short": "台新新光金"
+    },
+    "groupCodes": [
+      "2887"
+    ],
+    "groupName": "台新新光金控",
+    "effectivePct": null,
+    "path": [],
+    "method": "curated-merger",
+    "confidence": "high",
+    "note": "新光金控 2025-07 以股份轉換成為台新新光金 2887 的子公司，新光人壽隨之併入；2025 年以前為合併前責任",
+    "controlSince": 2025,
+    "records": 1,
+    "years": [
+      2022,
+      2022
+    ],
+    "penaltyUSD": 105781,
+    "recordsBeforeControl": 1
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Societe Generale",
+    "entity": "Societe Generale",
+    "parentSlug": "societe-generale",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Societe Generale"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2016,
+      2016
+    ],
+    "penaltyUSD": 62040,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Sony Optiarc Inc.",
+    "entity": "Sony Optiarc Inc.",
+    "parentSlug": "sony",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Sony"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2012,
+      2012
+    ],
+    "penaltyUSD": 169890,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Standard Chartered Bank (Taiwan)",
+    "entity": "Standard Chartered Bank (Taiwan)",
+    "parentSlug": "standard-chartered",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Standard Chartered"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 5,
+    "years": [
+      2011,
+      2013
+    ],
+    "penaltyUSD": 710619,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Taishin International Bank",
+    "entity": "Taishin International Bank",
+    "parentSlug": "taishin-financial-holdings",
+    "responsible": {
+      "kind": "listed",
+      "code": "2887",
+      "name": "台新新光金融控股股份有限公司",
+      "short": "台新新光金"
+    },
+    "entityInMops": "台新銀行",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "台新新光金融控股股份有限公司",
+        "investee": "台新銀行",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "台新銀行",
+    "records": 3,
+    "years": [
+      2021,
+      2023
+    ],
+    "penaltyUSD": 1653549,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Taiwan Semiconductor Corporation",
+    "entity": "Taiwan Semiconductor Corporation",
+    "parentSlug": "taiwan-semiconductor-manufacturing-compa",
+    "responsible": {
+      "kind": "listed",
+      "code": "5425",
+      "name": "台灣半導體股份有限公司",
+      "short": "台半"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "high",
+    "note": "台灣半導體（台半 5425）非台積電。佐證：台半利澤廠 2021 年違反水污法罰 142.8 萬元（旺得富 2021-10-20），與 VT 2021 年 US$51,025 紀錄相符",
+    "records": 6,
+    "years": [
+      2016,
+      2023
+    ],
+    "penaltyUSD": 110487,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Taiwan Semiconductor Manufacturing Company",
+    "entity": "Taiwan Semiconductor Manufacturing Company",
+    "parentSlug": "taiwan-semiconductor-manufacturing-compa",
+    "responsible": {
+      "kind": "listed",
+      "code": "2330",
+      "name": "台灣積體電路製造股份有限公司",
+      "short": "台積電"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 21,
+    "years": [
+      2017,
+      2026
+    ],
+    "penaltyUSD": 199940,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Tatung Co. Taoyuan Electric Wire & Cable Co.",
+    "entity": "Tatung Co. Taoyuan Electric Wire & Cable Co.",
+    "parentSlug": "tatung",
+    "responsible": {
+      "kind": "listed",
+      "code": "2371",
+      "name": "大同股份有限公司",
+      "short": "大同"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "high",
+    "note": "大同本身（含桃園電線電纜廠）",
+    "records": 1,
+    "years": [
+      2014,
+      2014
+    ],
+    "penaltyUSD": 19902,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Tatung Co., Ltd.",
+    "entity": "Tatung Co., Ltd.",
+    "parentSlug": "tatung",
+    "responsible": {
+      "kind": "listed",
+      "code": "2371",
+      "name": "大同股份有限公司",
+      "short": "大同"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "curated-self",
+    "confidence": "high",
+    "note": "大同本身（含桃園電線電纜廠）",
+    "records": 1,
+    "years": [
+      2019,
+      2019
+    ],
+    "penaltyUSD": 6471,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|TDK Corporation",
+    "entity": "TDK Corporation",
+    "parentSlug": "tdk-corporation",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：TDK Corporation"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2020,
+      2020
+    ],
+    "penaltyUSD": 11303504,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Toyota Distribution Supply Chain Logistics Co., Ltd.",
+    "entity": "Toyota Distribution Supply Chain Logistics Co., Ltd.",
+    "parentSlug": "toyota",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Toyota"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2022,
+      2022
+    ],
+    "penaltyUSD": 8115,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|United Microelectronics Corporation",
+    "entity": "United Microelectronics Corporation",
+    "parentSlug": "united-microelectronics-corporation",
+    "responsible": {
+      "kind": "listed",
+      "code": "2303",
+      "name": "聯華電子股份有限公司",
+      "short": "聯電"
+    },
+    "effectivePct": 100.0,
+    "path": [],
+    "method": "self",
+    "confidence": "high",
+    "records": 5,
+    "years": [
+      2012,
+      2026
+    ],
+    "penaltyUSD": 42426,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Radio Corporation of America",
+    "entity": "Radio Corporation of America",
+    "parentSlug": "vantiva-sa",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Vantiva SA"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2025,
+      2025
+    ],
+    "penaltyUSD": 5193636,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Vishay Polytech Co., Ltd.",
+    "entity": "Vishay Polytech Co., Ltd.",
+    "parentSlug": "vishay-intertechnology",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Vishay Intertechnology"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2016,
+      2016
+    ],
+    "penaltyUSD": 931632,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Audi Volkswagen Taiwan Co., Ltd.",
+    "entity": "Audi Volkswagen Taiwan Co., Ltd.",
+    "parentSlug": "volkswagen",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Volkswagen"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2016,
+      2016
+    ],
+    "penaltyUSD": 160141,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Walt Disney Co.",
+    "entity": "Walt Disney Co.",
+    "parentSlug": "walt-disney",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Walt Disney"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 3,
+    "years": [
+      2014,
+      2019
+    ],
+    "penaltyUSD": 165635,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|WH Group Corporation",
+    "entity": "WH Group Corporation",
+    "parentSlug": "wh-group",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：WH Group"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 6,
+    "years": [
+      2020,
+      2026
+    ],
+    "penaltyUSD": 116029,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Parsons Brinckerhoff Technology Corp.",
+    "entity": "Parsons Brinckerhoff Technology Corp.",
+    "parentSlug": "wsp-global",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：WSP Global"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 4,
+    "years": [
+      2011,
+      2020
+    ],
+    "penaltyUSD": 35352,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Xiaomi Taiwan",
+    "entity": "Xiaomi Taiwan",
+    "parentSlug": "xiaomi-corporation",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Xiaomi Corporation"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2014,
+      2014
+    ],
+    "penaltyUSD": 20015,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|NEC TOKIN Corporation",
+    "entity": "NEC TOKIN Corporation",
+    "parentSlug": "yageo",
+    "responsible": {
+      "kind": "listed",
+      "code": "2327",
+      "name": "國巨股份有限公司",
+      "short": "國巨*"
+    },
+    "entityInMops": "TOKIN Corporation",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "國巨股份有限公司",
+        "investee": "Yageo Holding Hungary LLC",
+        "pct": 100.0
+      },
+      {
+        "investor": "Yageo Holding Hungary LLC",
+        "investee": "KEMET Corporation",
+        "pct": 100.0
+      },
+      {
+        "investor": "KEMET Corporation",
+        "investee": "KEMET Electronics Corporation",
+        "pct": 100.0
+      },
+      {
+        "investor": "KEMET Electronics Corporation",
+        "investee": "TOKIN Corporation",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "TOKIN（原 NEC TOKIN）2017 年成為 KEMET 全資子公司，2020 年隨 KEMET 併入國巨",
+    "controlSince": 2020,
+    "records": 1,
+    "years": [
+      2016,
+      2016
+    ],
+    "penaltyUSD": 36375452,
+    "recordsBeforeControl": 1
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|TOKIN Corporation",
+    "entity": "TOKIN Corporation",
+    "parentSlug": "yageo",
+    "responsible": {
+      "kind": "listed",
+      "code": "2327",
+      "name": "國巨股份有限公司",
+      "short": "國巨*"
+    },
+    "entityInMops": "TOKIN Corporation",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "國巨股份有限公司",
+        "investee": "Yageo Holding Hungary LLC",
+        "pct": 100.0
+      },
+      {
+        "investor": "Yageo Holding Hungary LLC",
+        "investee": "KEMET Corporation",
+        "pct": 100.0
+      },
+      {
+        "investor": "KEMET Corporation",
+        "investee": "KEMET Electronics Corporation",
+        "pct": 100.0
+      },
+      {
+        "investor": "KEMET Electronics Corporation",
+        "investee": "TOKIN Corporation",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "TOKIN（原 NEC TOKIN）2017 年成為 KEMET 全資子公司，2020 年隨 KEMET 併入國巨",
+    "controlSince": 2020,
+    "records": 1,
+    "years": [
+      2021,
+      2021
+    ],
+    "penaltyUSD": 41138478,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Taiwan Yamaha Motorcycle Industry Co.",
+    "entity": "Taiwan Yamaha Motorcycle Industry Co.",
+    "parentSlug": "yamaha-motor",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Yamaha Motor"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2014,
+      2014
+    ],
+    "penaltyUSD": 5654,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Yamaha Motor Co., Ltd.",
+    "entity": "Yamaha Motor Co., Ltd.",
+    "parentSlug": "yamaha-motor",
+    "responsible": {
+      "kind": "foreign",
+      "name": "外資母公司：Yamaha Motor"
+    },
+    "method": "foreign-parent",
+    "confidence": "high",
+    "candidates": null,
+    "records": 1,
+    "years": [
+      2024,
+      2024
+    ],
+    "penaltyUSD": 6171,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Yuanta Commercial Bank",
+    "entity": "Yuanta Commercial Bank",
+    "parentSlug": "yuanta-financial-holdings",
+    "responsible": {
+      "kind": "listed",
+      "code": "2885",
+      "name": "元大金融控股股份有限公司",
+      "short": "元大金"
+    },
+    "entityInMops": "元大銀行",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "元大金融控股股份有限公司",
+        "investee": "元大銀行",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "元大商業銀行",
+    "records": 6,
+    "years": [
+      2019,
+      2024
+    ],
+    "penaltyUSD": 413343,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Yuanta Funds",
+    "entity": "Yuanta Funds",
+    "parentSlug": "yuanta-financial-holdings",
+    "responsible": {
+      "kind": "listed",
+      "code": "2885",
+      "name": "元大金融控股股份有限公司",
+      "short": "元大金"
+    },
+    "entityInMops": "元大證券投資信託(股)公司 (以下簡稱元大投信)",
+    "effectivePct": 74.71,
+    "path": [
+      {
+        "investor": "元大金融控股股份有限公司",
+        "investee": "元大證券投資信託(股)公司 (以下簡稱元大投信)",
+        "pct": 74.71
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "元大投信（元大金控持股 74.71%）",
+    "records": 1,
+    "years": [
+      2024,
+      2024
+    ],
+    "penaltyUSD": 28185,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Yuanta Securities Co. Ltd.",
+    "entity": "Yuanta Securities Co. Ltd.",
+    "parentSlug": "yuanta-financial-holdings",
+    "responsible": {
+      "kind": "listed",
+      "code": "2885",
+      "name": "元大金融控股股份有限公司",
+      "short": "元大金"
+    },
+    "entityInMops": "元大證券股份有限公司",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "元大金融控股股份有限公司",
+        "investee": "元大證券股份有限公司",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "元大證券",
+    "records": 1,
+    "years": [
+      2024,
+      2024
+    ],
+    "penaltyUSD": 9375,
+    "recordsBeforeControl": 0
+  },
+  {
+    "source": "Violation Tracker Global",
+    "key": "Violation Tracker Global|Yuanta Securities Co., Ltd.",
+    "entity": "Yuanta Securities Co., Ltd.",
+    "parentSlug": "yuanta-financial-holdings",
+    "responsible": {
+      "kind": "listed",
+      "code": "2885",
+      "name": "元大金融控股股份有限公司",
+      "short": "元大金"
+    },
+    "entityInMops": "元大證券股份有限公司",
+    "effectivePct": 100.0,
+    "path": [
+      {
+        "investor": "元大金融控股股份有限公司",
+        "investee": "元大證券股份有限公司",
+        "pct": 100.0
+      }
+    ],
+    "method": "curated-mops-node",
+    "confidence": "high",
+    "note": "元大證券",
+    "records": 1,
+    "years": [
+      2024,
+      2024
+    ],
+    "penaltyUSD": 9328,
+    "recordsBeforeControl": 0
+  }
+]

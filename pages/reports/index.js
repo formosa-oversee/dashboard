@@ -19,7 +19,7 @@ const Meta = ({ report }) => (
 const Cover = ({ report, h, headlineSize, artH }) => (
   <Flex direction="column" justify="space-between" bg={R.deep} color="#fff" h={h} flexShrink={0} position="relative" overflow="hidden">
     <Box p={{ base: 6, md: 8 }} position="relative">
-      <Text fontSize="12px" fontWeight={700} letterSpacing="0.2em" color={R.waterMid}>{report.kicker}</Text>
+      <Text fontSize="12px" fontWeight={700} letterSpacing="0.2em" color={R.onDeep}>{report.kicker}</Text>
       <Text className="cover-headline" fontFamily={R.serif} fontWeight={900} fontSize={headlineSize}
         lineHeight={1.35} mt={4} transition="transform .3s" noOfLines={3} sx={{ textWrap: 'balance' }}>
         {report.headline}
@@ -29,7 +29,7 @@ const Cover = ({ report, h, headlineSize, artH }) => (
   </Flex>
 );
 
-const cardHover = { textDecoration: 'none', borderColor: R.water, '.cover-headline': { transform: 'translateY(-3px)' } };
+const cardHover = { textDecoration: 'none', borderColor: R.accent, '.cover-headline': { transform: 'translateY(-3px)' } };
 
 // 專題卡：上封面、下文字。所有專題同尺寸並排，最新一篇加「最新」標籤
 const ReportCard = ({ report, latest }) => (
@@ -38,14 +38,14 @@ const ReportCard = ({ report, latest }) => (
       <Cover report={report} h={{ base: '250px', md: '300px' }}
         headlineSize={{ base: '1.5rem', md: '1.75rem' }} artH={{ base: '100px', md: '120px' }} />
       <Flex direction="column" flex="1" p={{ base: 6, md: 8 }}>
-        {latest && <Text fontSize="12px" fontWeight={700} letterSpacing="0.16em" color={R.waterText} mb={2}>最新專題</Text>}
+        {latest && <Text fontSize="12px" fontWeight={700} letterSpacing="0.16em" color={R.accentText} mb={2}>最新專題</Text>}
         <Heading as="h2" fontFamily={R.serif} fontWeight={900} fontSize={{ base: '1.25rem', md: '1.4rem' }}
           color={R.ink} lineHeight={1.45}>
           {report.title}
         </Heading>
         <Text fontSize="15px" lineHeight={1.85} color={R.inkSoft} mt={3} flex="1" noOfLines={4}>{report.deck}</Text>
         <Box mt={5}><Meta report={report} /></Box>
-        <Text mt={5} fontSize="14px" fontWeight={700} color={R.waterText}>閱讀專題 →</Text>
+        <Text mt={5} fontSize="14px" fontWeight={700} color={R.accentText}>閱讀專題 →</Text>
       </Flex>
     </ChakraLink>
   </Link>
@@ -68,9 +68,9 @@ export default function Reports() {
       </Head>
       <Box bg={R.paper} pb={{ base: 16, md: 24 }}>
         <Box bg={R.deep} color="#fff" py={{ base: 14, md: 20 }}
-          bgImage="radial-gradient(ellipse at 85% 0%, rgba(127,180,209,0.22), transparent 55%)">
+          bgImage={`radial-gradient(ellipse at 85% 0%, ${R.glow}, transparent 55%)`}>
           <Container maxW="1200px">
-            <Text fontSize="13px" fontWeight={700} letterSpacing="0.2em" color={R.waterMid}>FORMOSA OVERSEE</Text>
+            <Text fontSize="13px" fontWeight={700} letterSpacing="0.2em" color={R.onDeep}>FORMOSA OVERSEE</Text>
             <Heading as="h1" fontFamily={R.serif} fontWeight={900} fontSize={{ base: '2.4rem', md: '3.4rem' }} mt={4}>
               專題報導
             </Heading>

@@ -5,16 +5,16 @@ import { FaSearchLocation, FaChartLine, FaClipboardCheck } from 'react-icons/fa'
 import { latestReport, reportPath } from '../lib/reports';
 import { R } from '../components/report/tokens';
 
-// 首頁的專題入口：一條深藍帶，連到最新一篇專題
+// 首頁的專題入口：一條深綠帶，連到最新一篇專題
 const LatestReport = ({ report }) => (
   <Link href={reportPath(report)} legacyBehavior>
     <Box as="a" display="block" bg={R.deep} color="white" py={{ base: 8, md: 10 }} transition="background .2s"
-      bgImage="radial-gradient(ellipse at 85% 0%, rgba(127,180,209,0.22), transparent 60%)"
+      bgImage={`radial-gradient(ellipse at 85% 0%, ${R.glow}, transparent 60%)`}
       _hover={{ bg: R.deep2 }}>
       <Container maxW="container.xl">
         <Flex align="center" justify="space-between" gap={6}>
           <Box>
-            <Text fontSize="sm" fontWeight="bold" letterSpacing="0.16em" color={R.waterMid}>
+            <Text fontSize="sm" fontWeight="bold" letterSpacing="0.16em" color={R.onDeep}>
               最新專題｜{report.kicker}
             </Text>
             <Heading as="h2" fontSize={{ base: 'xl', md: '2xl' }} mt={2} lineHeight={1.4}>{report.headline}</Heading>

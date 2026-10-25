@@ -27,8 +27,8 @@ const KeyNumbers = ({ title, items }) => (
 const RelatedCard = ({ href, label, title, text }) => (
   <Link href={href} legacyBehavior>
     <ChakraLink display="block" bg="#ffffff" borderWidth="1px" borderColor={R.rule} p={5}
-      _hover={{ borderColor: R.water, textDecoration: 'none' }}>
-      <Text fontSize="12px" fontWeight={700} letterSpacing="0.1em" color={R.waterText}>{label}</Text>
+      _hover={{ borderColor: R.accent, textDecoration: 'none' }}>
+      <Text fontSize="12px" fontWeight={700} letterSpacing="0.1em" color={R.accentText}>{label}</Text>
       <Text fontFamily={R.serif} fontWeight={700} fontSize="1.05rem" lineHeight={1.6} color={R.ink} mt={2}>{title}</Text>
       {text && <Text fontSize="13.5px" color={R.inkSoft} mt={2} lineHeight={1.7}>{text}</Text>}
     </ChakraLink>
@@ -81,7 +81,7 @@ const ReportEnd = ({ report, relations, revisions }) => {
               {report.credit || `執行單位：${report.org}。${report.note || ''}`}
             </Text>
             <Link href="/reports" legacyBehavior>
-              <ChakraLink display="inline-block" mt={6} fontSize="14px" fontWeight={700} color={R.waterText}>
+              <ChakraLink display="inline-block" mt={6} fontSize="14px" fontWeight={700} color={R.accentText}>
                 ← 所有專題報導
               </ChakraLink>
             </Link>

@@ -268,7 +268,7 @@ const KumamotoJasmArticle = () => (
       <Section id="s4-3" num="4.3" title="農業與環境：水資源認知落差" />
       <P>水資源是熊本對台積電最敏感的神經，也是本次調查中企業說法與公民團體認知落差最大之處（表 3）。</P>
       <Figure label="表 3" title="水資源：企業說法與公民團體認知落差" wide>
-        <Compare headers={WATER_HEADERS} rows={WATER_CLAIMS} />
+        <Compare headers={WATER_HEADERS} rows={WATER_CLAIMS} tone="water" />
       </Figure>
       <P><RunIn>PFAS 的疊加風險。</RunIn>熊本市 2024–2025 年調查在北區植木周邊 143 處地點中發現 17 處水井 PFAS 超標（暫定指針值 50 奈克／升），井芹川上游 33 處測點在 2024 年三次調查中有 27 處曾超標、最高達 660 奈克／升（約指針值 13 倍）；益城町亦曾驗出 82 奈克／升。這些污染源於既有工業與廢棄物處理活動，<Mark>與台積電並無直接關聯</Mark>，市府已於 2025 年 2 月成立專家委員會溯源，縣府另在廢棄物處分場調查中新驗出 PFAS。但對公民團體而言，重點在「疊加」：在污染源尚未釐清、涵養面積持續縮減的地下水系統上，再加上一個世界級耗水產業，系統的安全餘裕正在變薄。日經 ESG 亦以「對新工廠用水的不安」為題報導此一結構性憂慮。</P>
       <Figure label="圖 4" title="熊本既存的 PFAS 污染" wide
@@ -277,7 +277,7 @@ const KumamotoJasmArticle = () => (
           {PFAS_EXCEEDANCE.map(m => <Meter key={m.label} {...m} />)}
         </SimpleGrid>
         <Text fontSize="14px" fontWeight={700} color={R.ink} mb={2}>PFAS 濃度（奈克／升）</Text>
-        <BarChart data={PFAS_LEVELS} unit="奈克／升" threshold={PFAS_GUIDELINE} labelWidth="13em" />
+        <BarChart data={PFAS_LEVELS} unit="奈克／升" threshold={PFAS_GUIDELINE} tone="water" labelWidth="13em" />
       </Figure>
       <P><RunIn>農業的退場。</RunIn>廠區周邊原為農業地帶，受訪者觀察部分農民因轉業、土地增值出售與對污染的不安而離開。牧野教授提醒，<Mark>農地即涵養設施</Mark>：農業退場直接削弱地下水補注能力，這是比「企業用多少水」更結構性的水文影響。受訪公民團體成員並回憶，熊本過去經歷乾旱，對企業鑿井取水格外敏感；他們也提到，台灣新竹曾透過地方公投，成功要求企業的回收水不得混入飲用水源，令他們深受鼓舞。</P>
       <P><RunIn>其他環境疑慮。</RunIn>公民團體並提出：廢氣排放（廠址位於聚落上游側）、超抽可能引發的地層下陷、重大地震時的化學品管理與疏散對策、產業廢棄物流向等問題。該會向縣府與菊陽町查詢後得知，兩者都沒有針對半導體工廠火災或爆炸事故的防災計畫；縣府的說法是，若事故危及周邊居民，照常理企業會主動通知。他們同時批評：台灣對特定規模開發強制完整環評，熊本的一、二廠卻完全沒有進行環境影響評估就快速推進——「這是政府為了招商而放水」；本團隊亦對此差異感到震驚，並視之為跨國比較監督的重要切入點。</P>

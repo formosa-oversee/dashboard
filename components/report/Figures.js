@@ -3,13 +3,13 @@ import {
   Box, Flex, Grid, SimpleGrid, Heading, Text, Tooltip, VisuallyHidden, Image, Link as ChakraLink,
   Table, Thead, Tbody, Tr, Th, Td
 } from '@chakra-ui/react';
-import { R } from './tokens';
+import { R, toneColors } from './tokens';
 import { EditorNote } from './Prose';
 
 /**
  * 專題裡的圖表與區塊。所有數字都取自報告內文，這裡只負責呈現。
  * 圖表規則（dataviz）：長條從 0 起算、≤24px 粗、末端 4px 圓角；單一數列不放圖例；
- * 強調用「一個藍 + 其餘灰」；每張圖都有螢幕閱讀器看得到的表格版本。
+ * 強調用「一個主題色 + 其餘灰」，主題色預設品牌綠，跟水有關的圖用 tone="water"；每張圖都有螢幕閱讀器看得到的表格版本。
  */
 
 export const Figure = ({ label, title, source, wide, children }) => (
@@ -17,7 +17,7 @@ export const Figure = ({ label, title, source, wide, children }) => (
     {(label || title) && (
       <Box as="figcaption" mb={5} lineHeight={1.6}>
         {label && (
-          <Text as="span" fontSize="13px" fontWeight={700} color={R.waterText} letterSpacing="0.1em" mr={3}>
+          <Text as="span" fontSize="13px" fontWeight={700} color={R.accentText} letterSpacing="0.1em" mr={3}>
             {label}
           </Text>
         )}
@@ -44,10 +44,11 @@ export const StatRow = ({ items, columns, valueSize }) => (
   </SimpleGrid>
 );
 
-// 橫條圖。emphasis：只有 highlight 那一條上藍色，其餘灰；threshold：畫一條基準線（例如暫定指針值）
+// 橫條圖。emphasis：只有 highlight 那一條上色，其餘灰；threshold：畫一條基準線（例如暫定指針值）
 const LABEL_ROOM = '6.5em'; // 長條右邊留給數值標籤的空間，最長的條也不會把標籤擠出去
 
-export const BarChart = ({ data, unit, max, threshold, emphasis, labelWidth = '10em' }) => {
+export const BarChart = ({ data, unit, max, threshold, emphasis, tone, labelWidth = '10em' }) => {
+  const c = toneColors(tone);
   const top = max || Math.max(...data.map(d => d.value), threshold?.value || 0);
   const at = (v) => `calc((100% - ${LABEL_ROOM}) * ${v / top})`;
 
@@ -72,9 +73,9 @@ export const BarChart = ({ data, unit, max, threshold, emphasis, labelWidth = '1
             <Text fontSize="14px" color={R.inkSoft} lineHeight={1.45}>{d.label}</Text>
             <Tooltip label={`${d.label}：${d.display}${unit ? ` ${unit}` : ''}`} hasArrow placement="top" openDelay={80}>
               <Flex align="center" h="30px" position="relative" tabIndex={0} borderRadius="sm"
-                _focusVisible={{ outline: `2px solid ${R.water}`, outlineOffset: '2px' }}>
+                _focusVisible={{ outline: `2px solid ${c.mark}`, outlineOffset: '2px' }}>
                 <Box h="20px" w={at(d.value)} minW="3px" borderRadius="0 4px 4px 0"
-                  bg={emphasis && !d.highlight ? R.bar : R.water} />
+                  bg={emphasis && !d.highlight ? R.bar : c.mark} />
                 <Text ml={2} fontSize="14px" fontWeight={700} color={R.ink} whiteSpace="nowrap">{d.display}</Text>
                 {threshold && (
                   <Box position="absolute" left={at(threshold.value)} top="-10px" bottom="-10px" w="2px" bg={R.alert} />
@@ -118,13 +119,14 @@ export const Meter = ({ value, total, unit = '處', label, note }) => (
 );
 
 // 表 3：企業說法與質疑左右對照。兩欄都標明是誰說的，延續污染事件「指控和事實分開」的原則
-export const Compare = ({ headers, rows }) => {
+export const Compare = ({ headers, rows, tone }) => {
   const [itemHead, claimHead, critiqueHead] = headers;
-  const cell = (tone, head, text) => (
-    <Box bg={tone === 'claim' ? R.waterTint : '#ffffff'} borderLeftWidth="3px"
-      borderColor={tone === 'claim' ? R.water : R.ink} px={4} py={3} h="100%">
+  const c = toneColors(tone);
+  const cell = (side, head, text) => (
+    <Box bg={side === 'claim' ? c.tint : '#ffffff'} borderLeftWidth="3px"
+      borderColor={side === 'claim' ? c.mark : R.ink} px={4} py={3} h="100%">
       <Text display={{ base: 'block', md: 'none' }} fontSize="12px" fontWeight={700}
-        color={tone === 'claim' ? R.waterText : R.inkSoft} letterSpacing="0.06em" mb={1}>
+        color={side === 'claim' ? c.text : R.inkSoft} letterSpacing="0.06em" mb={1}>
         {head}
       </Text>
       <Text fontSize="15px" lineHeight={1.8} color={R.ink}>{text}</Text>
@@ -135,7 +137,7 @@ export const Compare = ({ headers, rows }) => {
     <Box role="table" aria-label={`${claimHead}與${critiqueHead}`}>
       <Grid role="row" display={{ base: 'none', md: 'grid' }} templateColumns="4.5em 1fr 1fr" columnGap={3} mb={2}>
         <Text role="columnheader" fontSize="12.5px" fontWeight={700} color={R.muted}>{itemHead}</Text>
-        <Text role="columnheader" fontSize="13px" fontWeight={700} color={R.waterText}>{claimHead}</Text>
+        <Text role="columnheader" fontSize="13px" fontWeight={700} color={c.text}>{claimHead}</Text>
         <Text role="columnheader" fontSize="13px" fontWeight={700} color={R.inkSoft}>{critiqueHead}</Text>
       </Grid>
       {rows.map(r => (
@@ -223,8 +225,8 @@ export const Interviewees = ({ headers, people }) => {
     <SimpleGrid columns={{ base: 1, md: 2 }} spacing={4}>
       {people.map(p => (
         <Box key={p.name} bg="#ffffff" borderWidth="1px" borderColor={R.rule} borderTopWidth="3px"
-          borderTopColor={R.water} p={5}>
-          <Text fontSize="12px" fontWeight={700} color={R.waterText} letterSpacing="0.08em">
+          borderTopColor={R.accent} p={5}>
+          <Text fontSize="12px" fontWeight={700} color={R.accentText} letterSpacing="0.08em">
             <VisuallyHidden>{groupHead}：</VisuallyHidden>{p.group}
           </Text>
           <Text fontFamily={R.serif} fontWeight={700} fontSize="1.05rem" lineHeight={1.6} color={R.ink} mt={2}>
@@ -245,7 +247,7 @@ export const Timeline = ({ items }) => (
     {items.map((it, i) => (
       <Grid as="li" key={i} templateColumns={{ base: '5.6em 14px 1fr', md: '6.4em 14px 1fr' }} columnGap={3}
         position="relative">
-        <Text fontSize="13.5px" fontWeight={700} color={R.waterText} pt="3px"
+        <Text fontSize="13.5px" fontWeight={700} color={R.accentText} pt="3px"
           sx={{ fontVariantNumeric: 'tabular-nums' }} whiteSpace="nowrap">
           {it.date}
         </Text>
@@ -254,7 +256,7 @@ export const Timeline = ({ items }) => (
             w="2px" bg={R.rule} />
           <Box position="absolute" left={it.highlight ? '1px' : '3px'} top={it.highlight ? '6px' : '8px'}
             w={it.highlight ? '12px' : '8px'} h={it.highlight ? '12px' : '8px'} borderRadius="full"
-            bg={it.highlight ? R.water : R.paper} borderWidth="2px" borderColor={R.water} />
+            bg={it.highlight ? R.accent : R.paper} borderWidth="2px" borderColor={R.accent} />
         </Box>
         <Text fontSize="15px" lineHeight={1.75} color={R.ink} pb={4} fontWeight={it.highlight ? 700 : 400}>
           {it.text}
@@ -267,7 +269,7 @@ export const Timeline = ({ items }) => (
 export const PullQuote = ({ cite, children }) => (
   <Box as="figure" my={{ base: 12, md: 14 }} mx={0} position="relative" pl={{ base: 0, md: 2 }}>
     <Text aria-hidden fontFamily={R.serif} fontWeight={900} fontSize="4.5rem" lineHeight={0.5}
-      color={R.waterMid} position="relative" top="12px" left="-0.15em">
+      color={R.accentMid} position="relative" top="12px" left="-0.15em">
       「
     </Text>
     <Box as="blockquote" m={0} mt={4} fontFamily={R.serif} fontWeight={700} sx={{ textWrap: 'balance' }}
@@ -282,10 +284,10 @@ export const PullQuote = ({ cite, children }) => (
 export const Findings = ({ items }) => (
   <SimpleGrid columns={{ base: 1, md: 3 }} spacing={4} my={10}>
     {items.map(f => (
-      <ChakraLink key={f.target} href={`#${f.target}`} _hover={{ textDecoration: 'none', borderColor: R.water }}
+      <ChakraLink key={f.target} href={`#${f.target}`} _hover={{ textDecoration: 'none', borderColor: R.accent }}
         display="flex" flexDirection="column" bg="#ffffff" borderWidth="1px" borderColor={R.rule}
-        borderTopWidth="3px" borderTopColor={R.water} p={5} transition="border-color .2s">
-        <Text fontSize="12.5px" fontWeight={700} color={R.waterText} letterSpacing="0.1em">{f.label}</Text>
+        borderTopWidth="3px" borderTopColor={R.accent} p={5} transition="border-color .2s">
+        <Text fontSize="12.5px" fontWeight={700} color={R.accentText} letterSpacing="0.1em">{f.label}</Text>
         <Text fontFamily={R.serif} fontWeight={700} fontSize="1.08rem" lineHeight={1.6} color={R.ink} mt={2} flex="1"
           sx={{ textWrap: 'balance' }}>
           {f.title}
@@ -303,8 +305,8 @@ export const StakeholderNav = ({ items }) => (
     <SimpleGrid columns={{ base: 2, md: 4 }} spacing={2}>
       {items.map(s => (
         <ChakraLink key={s.target} href={`#${s.target}`} display="block" px={3} py={2.5} bg="#ffffff"
-          borderWidth="1px" borderColor={R.rule} _hover={{ borderColor: R.water, textDecoration: 'none' }}>
-          <Text as="span" display="block" fontSize="11.5px" fontWeight={700} color={R.waterText}>{s.num}</Text>
+          borderWidth="1px" borderColor={R.rule} _hover={{ borderColor: R.accent, textDecoration: 'none' }}>
+          <Text as="span" display="block" fontSize="11.5px" fontWeight={700} color={R.accentText}>{s.num}</Text>
           <Text as="span" display="block" fontSize="14px" color={R.ink} lineHeight={1.5}>{s.label}</Text>
         </ChakraLink>
       ))}
@@ -317,13 +319,13 @@ export const Shift = ({ id, num, domain, from, to }) => (
   <Heading as="h3" id={id} scrollMarginTop={R.anchorOffset} fontFamily={R.serif} color={R.ink}
     mt={{ base: 12, md: 16 }} mb={6} lineHeight={1.4}>
     <Text as="span" display="block" fontFamily={R.sans} fontSize="0.8rem" fontWeight={700}
-      letterSpacing="0.12em" color={R.waterText} mb={2}>
+      letterSpacing="0.12em" color={R.accentText} mb={2}>
       {num}
     </Text>
     <Text as="span" display="block" fontSize="1.05rem" fontWeight={700} color={R.inkSoft} mb={2}>{domain}：</Text>
     <Flex as="span" wrap="wrap" align="baseline" columnGap={3} rowGap={1}>
       <Text as="span" fontWeight={600} color={R.muted} fontSize={{ base: '1.35rem', md: '1.65rem' }}>從「{from}」</Text>
-      <Text as="span" aria-hidden color={R.water} fontSize={{ base: '1.2rem', md: '1.5rem' }}>→</Text>
+      <Text as="span" aria-hidden color={R.accent} fontSize={{ base: '1.2rem', md: '1.5rem' }}>→</Text>
       <Text as="span" fontWeight={900} color={R.ink} fontSize={{ base: '1.6rem', md: '2rem' }}>到「{to}」</Text>
     </Flex>
   </Heading>
@@ -335,7 +337,7 @@ export const Watchlist = ({ title, items }) => (
     <Box as="ul" listStyleType="none" pl={0} m={0}>
       {items.map(it => (
         <Flex as="li" key={it} gap={3} align="flex-start" py={2} fontSize="15.5px" lineHeight={1.7} color={R.ink}>
-          <Box w="12px" h="12px" mt="7px" flexShrink={0} borderWidth="2px" borderColor={R.water} />
+          <Box w="12px" h="12px" mt="7px" flexShrink={0} borderWidth="2px" borderColor={R.accent} />
           {it}
         </Flex>
       ))}
@@ -378,7 +380,7 @@ export const References = ({ items, defaultOpen = false }) => {
               {r.url && (
                 <>
                   {' '}
-                  <ChakraLink href={r.url} isExternal color={R.waterText} wordBreak="break-all">{r.url}</ChakraLink>
+                  <ChakraLink href={r.url} isExternal color={R.accentText} wordBreak="break-all">{r.url}</ChakraLink>
                 </>
               )}
             </Box>

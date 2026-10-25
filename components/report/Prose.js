@@ -16,10 +16,10 @@ export const Chapter = ({ id, num, title, children }) => (
     <Box as="header" mb={{ base: 8, md: 10 }}>
       {num && (
         // 單獨放大的「一」「二」看起來像裝飾線，前後補上「第」「章」才讀得出是章號
-        <Flex aria-hidden align="baseline" gap={1.5} mb={3} color={R.waterText}>
+        <Flex aria-hidden align="baseline" gap={1.5} mb={3} color={R.accentText}>
           <Text as="span" fontSize="14px" fontWeight={700} letterSpacing="0.1em">第</Text>
           <Text as="span" fontFamily={R.serif} fontWeight={900} fontSize={{ base: '2.6rem', md: '3.2rem' }}
-            lineHeight={1} color={R.waterMid}>
+            lineHeight={1} color={R.accentMid}>
             {num}
           </Text>
           <Text as="span" fontSize="14px" fontWeight={700} letterSpacing="0.1em">章</Text>
@@ -30,7 +30,7 @@ export const Chapter = ({ id, num, title, children }) => (
         {num && <VisuallyHidden>{num}、</VisuallyHidden>}
         {title}
       </Heading>
-      <Box w="56px" h="3px" bg={R.water} mt={5} />
+      <Box w="56px" h="3px" bg={R.accent} mt={5} />
     </Box>
     {children}
   </Box>
@@ -41,7 +41,7 @@ export const Section = ({ id, num, title }) => (
     color={R.ink} fontSize={{ base: '1.3rem', md: '1.5rem' }} lineHeight={1.45} sx={{ textWrap: 'balance' }}
     mt={{ base: 12, md: 14 }} mb={6}>
     <Text as="span" display="block" fontFamily={R.sans} fontSize="0.8rem" fontWeight={700}
-      letterSpacing="0.12em" color={R.waterText} mb={1}>
+      letterSpacing="0.12em" color={R.accentText} mb={1}>
       {num}
     </Text>
     {title}
@@ -51,7 +51,7 @@ export const Section = ({ id, num, title }) => (
 export const SubHead = ({ children }) => (
   <Heading as="h4" fontFamily={R.sans} fontWeight={700} fontSize="1.05rem" color={R.inkSoft}
     mt={10} mb={4} display="flex" alignItems="center" gap={3}>
-    <Box as="span" w="18px" h="2px" bg={R.water} flexShrink={0} />
+    <Box as="span" w="18px" h="2px" bg={R.accent} flexShrink={0} />
     {children}
   </Heading>
 );
@@ -77,7 +77,7 @@ export const RunIn = ({ children }) => (
 
 export const Mark = ({ children }) => (
   <Text as="strong" fontWeight={700} color={R.ink}
-    bgImage={`linear-gradient(transparent 60%, ${R.waterTint} 60%)`}
+    bgImage={`linear-gradient(transparent 60%, ${R.accentTint} 60%)`}
     sx={{ boxDecorationBreak: 'clone', WebkitBoxDecorationBreak: 'clone' }}>
     {children}
   </Text>
@@ -90,19 +90,19 @@ export const Ul = ({ children }) => (
 export const Li = ({ children }) => (
   <Box as="li" {...bodyText} position="relative" pl="1.4em" mb="0.9em"
     _before={{ content: '""', position: 'absolute', left: '0.15em', top: '0.8em',
-      w: '7px', h: '7px', bg: R.water }}>
+      w: '7px', h: '7px', bg: R.accent }}>
     {children}
   </Box>
 );
 
 // 報告原文的 [19,20] 出處標記：每個數字連到附錄二，點了會展開參考資料
 export const Cite = ({ ids }) => (
-  <Text as="sup" fontSize="0.7em" lineHeight={0} color={R.waterText} ml="1px">
+  <Text as="sup" fontSize="0.7em" lineHeight={0} color={R.accentText} ml="1px">
     [
     {ids.map((n, i) => (
       <span key={n}>
         {i > 0 && ','}
-        <ChakraLink href={`#ref-${n}`} color={R.waterText} textDecoration="underline"
+        <ChakraLink href={`#ref-${n}`} color={R.accentText} textDecoration="underline"
           onClick={() => { const d = document.getElementById('references-list'); if (d) d.open = true; }}>
           {n}
         </ChakraLink>
@@ -114,8 +114,8 @@ export const Cite = ({ ids }) => (
 
 // 網頁版加註，跟報告原文分開標示
 export const EditorNote = ({ children }) => (
-  <Box mt={3} pl={3} borderLeftWidth="2px" borderColor={R.water} fontSize="13px" lineHeight={1.75} color={R.inkSoft}>
-    <Text as="span" fontWeight={700} color={R.waterText} mr={2}>編按</Text>
+  <Box mt={3} pl={3} borderLeftWidth="2px" borderColor={R.accent} fontSize="13px" lineHeight={1.75} color={R.inkSoft}>
+    <Text as="span" fontWeight={700} color={R.accentText} mr={2}>編按</Text>
     {children}
   </Box>
 );
@@ -123,13 +123,13 @@ export const EditorNote = ({ children }) => (
 // 結語：深色區塊、襯線大字。內文段落沿用 <P>，在這裡改顏色字型
 export const Closing = ({ children }) => (
   <Box bg={R.deep} color="#fff" px={{ base: 6, md: 10 }} py={{ base: 8, md: 12 }} mt={2}
-    bgImage="radial-gradient(ellipse at 90% 0%, rgba(127,180,209,0.2), transparent 60%)"
+    bgImage={`radial-gradient(ellipse at 90% 0%, ${R.glow}, transparent 60%)`}
     sx={{
       '& p': { color: 'rgba(255,255,255,0.88)', fontFamily: R.serif, fontWeight: 600,
         fontSize: { base: '18px', md: '20px' }, lineHeight: 2 },
       '& p:last-of-type': { mb: 0 },
       '& strong': { color: '#fff', fontWeight: 900, bgImage: 'none',
-        borderBottom: `2px solid ${R.waterMid}` },
+        borderBottom: `2px solid ${R.onDeep}` },
     }}>
     {children}
   </Box>

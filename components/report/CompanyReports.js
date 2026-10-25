@@ -14,8 +14,8 @@ export const CompanyReports = ({ companyCode }) => {
   if (reports.length === 0) return null;
   return (
     <Box mb={6} bg={R.deep} color="#fff" borderRadius="md" overflow="hidden"
-      bgImage="radial-gradient(ellipse at 90% 0%, rgba(127,180,209,0.22), transparent 60%)">
-      <Text px={6} pt={5} fontSize="12px" fontWeight={700} letterSpacing="0.16em" color={R.waterMid}>
+      bgImage={`radial-gradient(ellipse at 90% 0%, ${R.glow}, transparent 60%)`}>
+      <Text px={6} pt={5} fontSize="12px" fontWeight={700} letterSpacing="0.16em" color={R.onDeep}>
         專題報導（{reports.length}）
       </Text>
       {reports.map((r, i) => (

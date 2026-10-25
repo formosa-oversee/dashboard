@@ -6,7 +6,8 @@ import { formatMonth, publishedLabel } from '../../lib/reports';
 
 /**
  * 專題封面。沒有照片，主視覺是一張地層剖面：西（熊本市）在左、東（阿蘇）在右，
- * 中間那層亮一點的藍是地下水層，虛線往西流。純裝飾（aria-hidden），說明用的示意圖在 3.3 節。
+ * 地層用全站的綠，中間偏青的那層是地下水層，水藍虛線往西流（水藍只用在水上：地下水、雨、工廠取水）。
+ * 純裝飾（aria-hidden），說明用的示意圖在 3.3 節。
  */
 
 const rise = keyframes`from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; }`;
@@ -14,10 +15,10 @@ const drift = (period) => keyframes`from { stroke-dashoffset: 0; } to { stroke-d
 
 const SURFACE = 'M0,250 C320,248 560,236 760,214 C980,190 1160,150 1300,118 C1360,104 1410,96 1440,94';
 const STRATA = [
-  { d: 'M0,290 C320,288 560,276 760,254 C980,230 1160,190 1300,158 C1360,144 1410,136 1440,134', fill: '#0f3247' },
-  { d: 'M0,340 C320,338 560,326 760,304 C980,280 1160,240 1300,208 C1360,194 1410,186 1440,184', fill: '#14496b' },
-  { d: 'M0,400 C320,398 560,386 760,364 C980,340 1160,300 1300,268 C1360,254 1410,246 1440,244', fill: '#0b283a' },
-  { d: 'M0,470 C320,468 560,456 760,434 C980,410 1160,370 1300,338 C1360,324 1410,316 1440,314', fill: '#081d2b' },
+  { d: 'M0,290 C320,288 560,276 760,254 C980,230 1160,190 1300,158 C1360,144 1410,136 1440,134', fill: '#1f4f39' },
+  { d: 'M0,340 C320,338 560,326 760,304 C980,280 1160,240 1300,208 C1360,194 1410,186 1440,184', fill: '#1d5559' },
+  { d: 'M0,400 C320,398 560,386 760,364 C980,340 1160,300 1300,268 C1360,254 1410,246 1440,244', fill: '#183d2c' },
+  { d: 'M0,470 C320,468 560,456 760,434 C980,410 1160,370 1300,338 C1360,324 1410,316 1440,314', fill: '#12311f' },
 ];
 const FLOWS = [
   { d: 'M0,355 C320,353 560,341 760,319 C980,295 1160,255 1300,223 C1360,209 1410,201 1440,199', dash: '40 26', period: 66, dur: '5s', opacity: 0.6 },
@@ -35,20 +36,20 @@ const reduceMotion = { '@media (prefers-reduced-motion: reduce)': { animation: '
 export const StrataArt = () => (
   <svg viewBox="0 0 1440 440" preserveAspectRatio="xMidYMax slice" width="100%" height="100%" aria-hidden
     style={{ display: 'block' }}>
-    <path d={`${SURFACE} L1440,440 L0,440 Z`} fill="#123a50" />
+    <path d={`${SURFACE} L1440,440 L0,440 Z`} fill="#245a41" />
     {STRATA.map(s => <path key={s.fill} d={`${s.d} L1440,440 L0,440 Z`} fill={s.fill} />)}
-    {STRATA.map(s => <path key={`l-${s.fill}`} d={s.d} fill="none" stroke="rgba(127,180,209,0.16)" strokeWidth="1" />)}
-    <path d={SURFACE} fill="none" stroke="rgba(226,239,246,0.55)" strokeWidth="1.5" />
+    {STRATA.map(s => <path key={`l-${s.fill}`} d={s.d} fill="none" stroke="rgba(154,230,180,0.14)" strokeWidth="1" />)}
+    <path d={SURFACE} fill="none" stroke="rgba(240,255,244,0.5)" strokeWidth="1.5" />
     {FLOWS.map(f => (
       <Box as="path" key={f.period} d={f.d} fill="none" stroke={R.waterMid} strokeWidth="2" strokeLinecap="round"
         strokeDasharray={f.dash} opacity={f.opacity}
         sx={{ animation: `${drift(f.period)} ${f.dur} linear infinite`, ...reduceMotion }} />
     ))}
     {SKYLINE.map(([x, w, bottom, h], i) => (
-      <rect key={x} x={x} y={bottom - h} width={w} height={h} fill={i % 2 ? '#1b5272' : '#174a66'} />
+      <rect key={x} x={x} y={bottom - h} width={w} height={h} fill={i % 2 ? '#2c6a4d' : '#28634a'} />
     ))}
-    <line x1="225" y1={250.6 - 92} x2="225" y2={250.6 - 108} stroke="#1b5272" strokeWidth="2" />
-    <g fill="#174a66">
+    <line x1="225" y1={250.6 - 92} x2="225" y2={250.6 - 108} stroke="#2c6a4d" strokeWidth="2" />
+    <g fill="#28634a">
       <polygon points="760,215 860,203 860,172 760,172" />
       <rect x="774" y="150" width="34" height="24" />
       <rect x="828" y="140" width="6" height="34" />
@@ -56,7 +57,7 @@ export const StrataArt = () => (
     </g>
     <rect x="766" y="182" width="88" height="3" fill={R.waterMid} opacity="0.6" />
     {PADDIES.map(([x, y]) => (
-      <line key={x} x1={x} y1={y - 5} x2={x + 30} y2={y - 5 - (x >= 1120 ? 8 : 7)} stroke={R.waterMid}
+      <line key={x} x1={x} y1={y - 5} x2={x + 30} y2={y - 5 - (x >= 1120 ? 8 : 7)} stroke={R.onDeep}
         strokeWidth="3" opacity="0.55" />
     ))}
     <g stroke="rgba(127,180,209,0.35)" strokeWidth="1.5" strokeLinecap="round">
@@ -84,12 +85,12 @@ const ReportHero = ({ report, companies }) => {
   const longest = Math.max(...lines.map(l => l.length));
   return (
     <Box as="header" position="relative" overflow="hidden" bg={R.deep} color="#fff"
-      bgImage="radial-gradient(ellipse at 78% 8%, rgba(127,180,209,0.22), transparent 55%)">
+      bgImage={`radial-gradient(ellipse at 78% 8%, ${R.glow}, transparent 55%)`}>
       <Container maxW="1200px" position="relative" pt={{ base: 14, md: 24 }} pb={{ base: 4, md: 2 }}>
         <Box maxW="860px">
           <Reveal delay={0.05}>
-            <Flex align="center" gap={3} fontSize="13px" fontWeight={700} letterSpacing="0.2em" color={R.waterMid}>
-              <Box w="28px" h="1px" bg={R.waterMid} />
+            <Flex align="center" gap={3} fontSize="13px" fontWeight={700} letterSpacing="0.2em" color={R.onDeep}>
+              <Box w="28px" h="1px" bg={R.onDeep} />
               專題報導｜{report.kicker}
             </Flex>
           </Reveal>

@@ -51,5 +51,5 @@ npm run download-epa                          # 已內建該環境變數
 ## 專題報導
 
 - 路由 `/reports`（列表）與 `/reports/<slug>`（單篇）。清單與關聯在 `lib/reports.js`：`companies` 決定哪些公司頁掛專題卡，`relatedEventIds` 對應 `data/news-events.json` 的事件 id，公司頁的事件卡會連回專題。
-- 內文在 `content/reports/<slug>.js`。`<Chapter>` 內的段落、清單、表格**逐字取自定稿，不改寫**；圖表、大事記、引言框、編按是網頁版加的，數字只能取自報告內文，例外要在程式註解寫依據。版面元件在 `components/report/`，圖表配色已用 dataviz `validate_palette.js` 驗證，改色要重驗。
+- 內文在 `content/reports/<slug>.js`。`<Chapter>` 內的段落、清單、表格**逐字取自定稿，不改寫**；圖表、大事記、引言框、編按是網頁版加的，數字只能取自報告內文，例外要在程式註解寫依據。版面元件在 `components/report/`，主題色跟全站一樣用 Chakra green（`tokens.js`），水藍只給跟水有關的圖（`BarChart`／`Compare` 加 `tone="water"`）。圖表配色已用 dataviz `validate_palette.js` 驗證，改色要重驗；綠跟超標紅色盲難分，不要同圖並用。
 - 第一篇 `kumamoto-jasm`（台積電進駐熊本田野調查，來源 `Report_中文_2026-10定稿.docx`）。docx 內含內部審稿留言，不要把 docx 放上網站。

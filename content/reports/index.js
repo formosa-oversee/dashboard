@@ -7,4 +7,5 @@ import dynamic from 'next/dynamic';
  */
 export const ARTICLES = {
   'kumamoto-jasm': dynamic(() => import('./kumamoto-jasm')),
+  'kumamoto-notes-1': dynamic(() => import('./kumamoto-notes-1')),
 };

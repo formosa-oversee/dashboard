@@ -8,7 +8,7 @@ import { ReportToc, MobileToc, useReadingState } from '../../components/report/R
 import { StatRow } from '../../components/report/Figures';
 import { R, SERIF_FONT_URL } from '../../components/report/tokens';
 import { ARTICLES } from '../../content/reports';
-import { REPORTS, getReport } from '../../lib/reports';
+import { REPORTS, getReport, getSiblingReports, reportPath } from '../../lib/reports';
 import { getReportRelations } from '../../lib/reports-server';
 
 // 桌機三欄：左目次、中內文（約 40 字一行）、右邊留白給 wide 圖表外凸
@@ -35,55 +35,62 @@ const RelatedCard = ({ href, label, title, text }) => (
   </Link>
 );
 
-const ReportEnd = ({ report, relations, revisions }) => (
-  <Box bg={R.paperDeep} borderTopWidth="1px" borderColor={R.rule}>
-    <Container maxW="1200px" py={{ base: 12, md: 16 }}>
-      <Grid templateColumns={COLUMNS} columnGap={{ lg: 16 }}>
-        <Box display={{ base: 'none', lg: 'block' }} />
-        <Box>
-          {(relations.companies.length > 0 || relations.events.length > 0) && (
-            <>
-              <Heading as="h2" fontFamily={R.serif} fontWeight={900} fontSize="1.5rem" color={R.ink} mb={6}>延伸閱讀</Heading>
-              <SimpleGrid columns={{ base: 1, md: 2 }} spacing={4} mb={12}>
-                {relations.companies.map(c => (
-                  <RelatedCard key={c.id} href={`/companies/${c.id}`} label="公司頁"
-                    title={`${c.name}（${c.code}）`} text="美國 EPA 違規紀錄、境外污染事件與罰款紀錄" />
-                ))}
-                {relations.events.map(e => (
-                  <RelatedCard key={e.id} href={`/companies/${e.companyId}#${e.id}`} label="污染事件" title={e.title} />
-                ))}
-              </SimpleGrid>
-            </>
-          )}
+const ReportEnd = ({ report, relations, revisions }) => {
+  const siblings = getSiblingReports(report);
+  return (
+    <Box bg={R.paperDeep} borderTopWidth="1px" borderColor={R.rule}>
+      <Container maxW="1200px" py={{ base: 12, md: 16 }}>
+        <Grid templateColumns={COLUMNS} columnGap={{ lg: 16 }}>
+          <Box display={{ base: 'none', lg: 'block' }} />
+          <Box>
+            {(siblings.length > 0 || relations.companies.length > 0 || relations.events.length > 0) && (
+              <>
+                <Heading as="h2" fontFamily={R.serif} fontWeight={900} fontSize="1.5rem" color={R.ink} mb={6}>延伸閱讀</Heading>
+                <SimpleGrid columns={{ base: 1, md: 2 }} spacing={4} mb={12}>
+                  {siblings.map(r => (
+                    <RelatedCard key={r.slug} href={reportPath(r)} label={`專題報導｜${r.kicker}`}
+                      title={r.headline} text={`${r.title}・閱讀約 ${r.readingMinutes} 分鐘`} />
+                  ))}
+                  {relations.companies.map(c => (
+                    <RelatedCard key={c.id} href={`/companies/${c.id}`} label="公司頁"
+                      title={`${c.name}（${c.code}）`} text="美國 EPA 違規紀錄、境外污染事件與罰款紀錄" />
+                  ))}
+                  {relations.events.map(e => (
+                    <RelatedCard key={e.id} href={`/companies/${e.companyId}#${e.id}`} label="污染事件" title={e.title} />
+                  ))}
+                </SimpleGrid>
+              </>
+            )}
 
-          {revisions.length > 0 && (
-            <>
-              <Heading as="h2" fontFamily={R.serif} fontWeight={700} fontSize="1.15rem" color={R.ink} mb={4}>修訂紀錄</Heading>
-              <Box as="ul" listStyleType="none" pl={0} m={0}>
-                {revisions.map(r => (
-                  <Grid as="li" key={r.date} templateColumns={{ base: '1fr', sm: '7.5em 1fr' }} columnGap={4}
-                    py={2.5} borderTopWidth="1px" borderColor={R.rule} fontSize="14px" lineHeight={1.75}>
-                    <Text fontWeight={700} color={R.inkSoft}>{r.date}</Text>
-                    <Text color={R.inkSoft}>{r.text}</Text>
-                  </Grid>
-                ))}
-              </Box>
-            </>
-          )}
+            {revisions.length > 0 && (
+              <>
+                <Heading as="h2" fontFamily={R.serif} fontWeight={700} fontSize="1.15rem" color={R.ink} mb={4}>修訂紀錄</Heading>
+                <Box as="ul" listStyleType="none" pl={0} m={0}>
+                  {revisions.map(r => (
+                    <Grid as="li" key={r.date} templateColumns={{ base: '1fr', sm: '7.5em 1fr' }} columnGap={4}
+                      py={2.5} borderTopWidth="1px" borderColor={R.rule} fontSize="14px" lineHeight={1.75}>
+                      <Text fontWeight={700} color={R.inkSoft}>{r.date}</Text>
+                      <Text color={R.inkSoft}>{r.text}</Text>
+                    </Grid>
+                  ))}
+                </Box>
+              </>
+            )}
 
-          <Text fontSize="13px" color={R.muted} mt={8} lineHeight={1.8}>
-            執行單位：{report.org}。{report.note}
-          </Text>
-          <Link href="/reports" legacyBehavior>
-            <ChakraLink display="inline-block" mt={6} fontSize="14px" fontWeight={700} color={R.waterText}>
-              ← 所有專題報導
-            </ChakraLink>
-          </Link>
-        </Box>
-      </Grid>
-    </Container>
-  </Box>
-);
+            <Text fontSize="13px" color={R.muted} mt={8} lineHeight={1.8}>
+              {report.credit || `執行單位：${report.org}。${report.note || ''}`}
+            </Text>
+            <Link href="/reports" legacyBehavior>
+              <ChakraLink display="inline-block" mt={6} fontSize="14px" fontWeight={700} color={R.waterText}>
+                ← 所有專題報導
+              </ChakraLink>
+            </Link>
+          </Box>
+        </Grid>
+      </Container>
+    </Box>
+  );
+};
 
 export default function ReportPage({ slug, toc, keyNumbers, revisions, relations }) {
   const report = getReport(slug);

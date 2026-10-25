@@ -6,6 +6,11 @@ import { R } from './tokens';
  * 章（h2）／節（h3）／小標（h4）／段落／清單／粗體／出處上標／編按。
  */
 
+// 第一個標題之前的開場段落（專題文章用），上方留白跟章一致
+export const Intro = ({ children }) => (
+  <Box pt={{ base: 14, md: 20 }}>{children}</Box>
+);
+
 export const Chapter = ({ id, num, title, children }) => (
   <Box as="section" id={id} data-chapter={id} scrollMarginTop={R.anchorOffset} pt={{ base: 14, md: 20 }}>
     <Box as="header" mb={{ base: 8, md: 10 }}>

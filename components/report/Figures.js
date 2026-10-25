@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import {
-  Box, Flex, Grid, SimpleGrid, Heading, Text, Tooltip, VisuallyHidden, Link as ChakraLink,
+  Box, Flex, Grid, SimpleGrid, Heading, Text, Tooltip, VisuallyHidden, Image, Link as ChakraLink,
   Table, Thead, Tbody, Tr, Th, Td
 } from '@chakra-ui/react';
 import { R } from './tokens';
@@ -151,6 +151,20 @@ export const Compare = ({ headers, rows }) => {
     </Box>
   );
 };
+
+// 照片：圖說放在圖下方，逐字取自定稿（含「資料來源：…」）。wide 時在寬螢幕往右外凸
+export const Photo = ({ src, alt, caption, width, height, wide }) => (
+  <Box as="figure" my={{ base: 10, md: 12 }} mx={0} mr={wide ? { xl: '-200px' } : 0}>
+    <Image src={src} alt={alt || caption} width={width} height={height} loading="lazy"
+      w="100%" h="auto" display="block" bg={R.paperDeep} />
+    {caption && (
+      <Text as="figcaption" fontSize="13.5px" lineHeight={1.7} color={R.muted} mt={3} pl={3}
+        borderLeftWidth="2px" borderColor={R.rule}>
+        {caption}
+      </Text>
+    )}
+  </Box>
+);
 
 // 通用表格：第一列是表頭。report-docx.py 產生的草稿預設用它，之後可換成下面更貼內容的元件。
 // 窄螢幕在表格內橫向捲動，不會撐寬整頁
@@ -329,9 +343,9 @@ export const Watchlist = ({ title, items }) => (
   </Box>
 );
 
-// 附錄二：預設收合；從內文 [19] 之類的上標或 #ref-n 網址進來時自動展開
-export const References = ({ items }) => {
-  const [open, setOpen] = useState(false);
+// 參考資料：預設收合（短清單可用 defaultOpen 直接展開）；從內文 [19] 之類的上標或 #ref-n 網址進來時自動展開
+export const References = ({ items, defaultOpen = false }) => {
+  const [open, setOpen] = useState(defaultOpen);
 
   useEffect(() => {
     const openForHash = () => {
@@ -346,7 +360,7 @@ export const References = ({ items }) => {
   }, []);
 
   return (
-    <Box as="details" id="references-list" onToggle={e => setOpen(e.currentTarget.open)}
+    <Box as="details" id="references-list" open={defaultOpen || undefined} onToggle={e => setOpen(e.currentTarget.open)}
       sx={{ '& > summary::-webkit-details-marker': { display: 'none' } }}>
       <Box as="summary" listStyleType="none" cursor="pointer" display="inline-flex" alignItems="center" gap={2}
         px={4} py={2} borderWidth="1px" borderColor={R.ink} fontSize="14px" fontWeight={700} color={R.ink}

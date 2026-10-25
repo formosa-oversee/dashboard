@@ -74,66 +74,73 @@ const Reveal = ({ delay, children, ...rest }) => (
   </Box>
 );
 
-const ReportHero = ({ report, companies }) => (
-  <Box as="header" position="relative" overflow="hidden" bg={R.deep} color="#fff"
-    bgImage="radial-gradient(ellipse at 78% 8%, rgba(127,180,209,0.22), transparent 55%)">
-    <Container maxW="1200px" position="relative" pt={{ base: 14, md: 24 }} pb={{ base: 4, md: 2 }}>
-      <Box maxW="860px">
-        <Reveal delay={0.05}>
-          <Flex align="center" gap={3} fontSize="13px" fontWeight={700} letterSpacing="0.2em" color={R.waterMid}>
-            <Box w="28px" h="1px" bg={R.waterMid} />
-            專題報導｜{report.kicker}
-          </Flex>
-        </Reveal>
-        <Reveal delay={0.15}>
-          <Text fontFamily={R.serif} fontWeight={700} fontSize={{ base: '1.1rem', md: '1.35rem' }}
-            color="rgba(255,255,255,0.85)" mt={6} letterSpacing="0.04em">
-            {report.title}
-          </Text>
-        </Reveal>
-        <Reveal delay={0.25}>
-          <Heading as="h1" fontFamily={R.serif} fontWeight={900} lineHeight={1.28} letterSpacing="0.02em"
-            fontSize={{ base: '2.4rem', sm: '3rem', md: '4.2rem', xl: '4.8rem' }} mt={3}>
-            {report.headline.split('，').map((part, i, all) => (
-              <Box as="span" key={i} display={{ base: 'inline', md: 'block' }}>
-                {part}{i < all.length - 1 ? '，' : ''}
-              </Box>
-            ))}
-          </Heading>
-        </Reveal>
-        <Reveal delay={0.4}>
-          <Text fontSize={{ base: '1.05rem', md: '1.2rem' }} lineHeight={1.9} color="rgba(255,255,255,0.82)"
-            mt={7} maxW="34em">
-            {report.deck}
-          </Text>
-        </Reveal>
-        <Reveal delay={0.5}>
-          <Flex wrap="wrap" columnGap={5} rowGap={1} mt={8} fontSize="13.5px" color="rgba(255,255,255,0.7)">
-            <Text>田野調查　{formatMonth(report.fieldworkAt)}</Text>
-            <Text>報告　{publishedLabel(report)}</Text>
-            <Text>閱讀約 {report.readingMinutes} 分鐘</Text>
-          </Flex>
-          <Text fontSize="13px" color="rgba(255,255,255,0.6)" mt={2}>執行單位：{report.org}</Text>
-          {companies.length > 0 && (
-            <Flex wrap="wrap" gap={2} mt={6}>
-              {companies.map(c => (
-                <Link key={c.id} href={`/companies/${c.id}`} legacyBehavior>
-                  <ChakraLink display="inline-flex" alignItems="center" gap={2} px={4} py={2}
-                    borderWidth="1px" borderColor="rgba(255,255,255,0.35)" fontSize="14px"
-                    _hover={{ bg: 'rgba(255,255,255,0.1)', textDecoration: 'none' }}>
-                    相關企業　{c.name}（{c.code}）<span aria-hidden>→</span>
-                  </ChakraLink>
-                </Link>
-              ))}
+// 主標在「，」或「：」後換行（不用 lookbehind，舊版 Safari 不支援）；最長一行超過 10 字就縮一級字
+const headlineLines = (headline) => headline.replace(/([，：])/g, '$1\n').split('\n');
+const HEADLINE_SIZE = { base: '2.4rem', sm: '3rem', md: '4.2rem', xl: '4.8rem' };
+const LONG_HEADLINE_SIZE = { base: '2rem', sm: '2.5rem', md: '3.2rem', xl: '3.6rem' };
+
+const ReportHero = ({ report, companies }) => {
+  const lines = headlineLines(report.headline);
+  const longest = Math.max(...lines.map(l => l.length));
+  return (
+    <Box as="header" position="relative" overflow="hidden" bg={R.deep} color="#fff"
+      bgImage="radial-gradient(ellipse at 78% 8%, rgba(127,180,209,0.22), transparent 55%)">
+      <Container maxW="1200px" position="relative" pt={{ base: 14, md: 24 }} pb={{ base: 4, md: 2 }}>
+        <Box maxW="860px">
+          <Reveal delay={0.05}>
+            <Flex align="center" gap={3} fontSize="13px" fontWeight={700} letterSpacing="0.2em" color={R.waterMid}>
+              <Box w="28px" h="1px" bg={R.waterMid} />
+              專題報導｜{report.kicker}
             </Flex>
-          )}
-        </Reveal>
+          </Reveal>
+          <Reveal delay={0.15}>
+            <Text fontFamily={R.serif} fontWeight={700} fontSize={{ base: '1.1rem', md: '1.35rem' }}
+              color="rgba(255,255,255,0.85)" mt={6} letterSpacing="0.04em">
+              {report.title}
+            </Text>
+          </Reveal>
+          <Reveal delay={0.25}>
+            <Heading as="h1" fontFamily={R.serif} fontWeight={900} lineHeight={1.28} letterSpacing="0.02em"
+              fontSize={longest > 10 ? LONG_HEADLINE_SIZE : HEADLINE_SIZE} mt={3}>
+              {lines.map((part, i) => (
+                <Box as="span" key={i} display={{ base: 'inline', md: 'block' }}>{part}</Box>
+              ))}
+            </Heading>
+          </Reveal>
+          <Reveal delay={0.4}>
+            <Text fontSize={{ base: '1.05rem', md: '1.2rem' }} lineHeight={1.9} color="rgba(255,255,255,0.82)"
+              mt={7} maxW="34em">
+              {report.deck}
+            </Text>
+          </Reveal>
+          <Reveal delay={0.5}>
+            <Flex wrap="wrap" columnGap={5} rowGap={1} mt={8} fontSize="13.5px" color="rgba(255,255,255,0.7)">
+              <Text>田野調查　{formatMonth(report.fieldworkAt)}</Text>
+              <Text>發布　{publishedLabel(report)}</Text>
+              <Text>閱讀約 {report.readingMinutes} 分鐘</Text>
+            </Flex>
+            <Text fontSize="13px" color="rgba(255,255,255,0.6)" mt={2}>執行單位：{report.org}</Text>
+            {companies.length > 0 && (
+              <Flex wrap="wrap" gap={2} mt={6}>
+                {companies.map(c => (
+                  <Link key={c.id} href={`/companies/${c.id}`} legacyBehavior>
+                    <ChakraLink display="inline-flex" alignItems="center" gap={2} px={4} py={2}
+                      borderWidth="1px" borderColor="rgba(255,255,255,0.35)" fontSize="14px"
+                      _hover={{ bg: 'rgba(255,255,255,0.1)', textDecoration: 'none' }}>
+                      相關企業　{c.name}（{c.code}）<span aria-hidden>→</span>
+                    </ChakraLink>
+                  </Link>
+                ))}
+              </Flex>
+            )}
+          </Reveal>
+        </Box>
+      </Container>
+      <Box h={{ base: '170px', md: '260px', xl: '300px' }} mt={2}>
+        <StrataArt />
       </Box>
-    </Container>
-    <Box h={{ base: '170px', md: '260px', xl: '300px' }} mt={2}>
-      <StrataArt />
     </Box>
-  </Box>
-);
+  );
+};
 
 export default ReportHero;

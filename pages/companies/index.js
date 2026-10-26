@@ -8,8 +8,8 @@ import { formatUSD } from '../../lib/enforcement';
 
 const CompanyCard = ({ company }) => {
   return (
-    <Link href={`/companies/${company.id}`} legacyBehavior>
-      <Card boxShadow="md" borderRadius="lg" h="100%" cursor="pointer" _hover={{ boxShadow: "xl" }}>
+    <Link href={`/companies/${company.id}`} legacyBehavior passHref>
+      <Card as="a" boxShadow="md" borderRadius="lg" h="100%" cursor="pointer" _hover={{ boxShadow: "xl" }}>
         <CardBody>
           {company.logoUrl ? (
             <Image

@@ -29,9 +29,9 @@ export default function NotFound() {
         <Heading as="h2" size="xl" color="green.600" mt={3}>找不到這個頁面</Heading>
         <Text color="gray.600" mt={4}>網址可能打錯了，或這個頁面已經移除。</Text>
         <HStack spacing={3} justify="center" mt={8} flexWrap="wrap">
-          <Link href="/" legacyBehavior><Button as="a" colorScheme="green">回首頁</Button></Link>
-          <Link href="/companies" legacyBehavior><Button as="a" variant="outline" colorScheme="green">企業列表</Button></Link>
-          <Link href="/reports" legacyBehavior><Button as="a" variant="outline" colorScheme="green">專題報導</Button></Link>
+          <Link href="/" legacyBehavior passHref><Button as="a" colorScheme="green">回首頁</Button></Link>
+          <Link href="/companies" legacyBehavior passHref><Button as="a" variant="outline" colorScheme="green">企業列表</Button></Link>
+          <Link href="/reports" legacyBehavior passHref><Button as="a" variant="outline" colorScheme="green">專題報導</Button></Link>
         </HStack>
         <Box h={{ base: 8, md: 16 }} />
       </Container>

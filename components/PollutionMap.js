@@ -90,7 +90,7 @@ const FacilityPopup = ({ facility }) => {
 
       <Link
         href={`/companies/${facility.companyId}/facilities/${facility.facilityId}`}
-        legacyBehavior
+        legacyBehavior passHref
       >
         <Button as="a" size="xs" colorScheme="green" w="100%" mt={1}>
           查看廠區詳情

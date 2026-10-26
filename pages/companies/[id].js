@@ -48,7 +48,7 @@ const FacilityCard = ({ facility, companyId }) => {
       </CardBody>
       <Divider />
       <CardFooter>
-        <Link href={`/companies/${companyId}/facilities/${facility.facilityId}`} legacyBehavior>
+        <Link href={`/companies/${companyId}/facilities/${facility.facilityId}`} legacyBehavior passHref>
           <Button as="a" colorScheme="green" w="100%" size="sm">
             查看詳情
           </Button>
@@ -144,7 +144,7 @@ const EventCard = ({ event, companyData, events }) => {
                 {otherCompanies.map((a, i) => (
                   <span key={a.companyCode}>
                     {i > 0 && '、'}
-                    <Link href={`/companies/tw-${a.companyCode}#${event.id}`} legacyBehavior>
+                    <Link href={`/companies/tw-${a.companyCode}#${event.id}`} legacyBehavior passHref>
                       <ChakraLink color="teal.600">{a.companyShort || a.companyName}（{a.effectivePct}%）</ChakraLink>
                     </Link>
                   </span>
@@ -185,7 +185,7 @@ const EventCard = ({ event, companyData, events }) => {
                   {relatedFacilities.map((id, i) => (
                     <span key={id}>
                       {i > 0 && '、'}
-                      <Link href={`/companies/${companyData.id}/facilities/${id}`} legacyBehavior>
+                      <Link href={`/companies/${companyData.id}/facilities/${id}`} legacyBehavior passHref>
                         <ChakraLink color="teal.600">{facilityById.get(id).name}</ChakraLink>
                       </Link>
                     </span>
@@ -465,19 +465,19 @@ const CompanyDetail = ({ companyData }) => {
         <Container maxW="container.xl">
           <Breadcrumb spacing="8px" separator={<FaChevronRight color="gray.500" />}>
             <BreadcrumbItem>
-              <Link href="/" legacyBehavior>
+              <Link href="/" legacyBehavior passHref>
                 <BreadcrumbLink>首頁</BreadcrumbLink>
               </Link>
             </BreadcrumbItem>
 
             <BreadcrumbItem>
-              <Link href="/companies" legacyBehavior>
+              <Link href="/companies" legacyBehavior passHref>
                 <BreadcrumbLink>企業列表</BreadcrumbLink>
               </Link>
             </BreadcrumbItem>
 
             <BreadcrumbItem isCurrentPage={!hasFacilities}>
-              <Link href="/companies" legacyBehavior>
+              <Link href="/companies" legacyBehavior passHref>
                 <BreadcrumbLink>{companyInfo ? companyInfo.name.split(' (')[0] : '公司'}</BreadcrumbLink>
               </Link>
             </BreadcrumbItem>

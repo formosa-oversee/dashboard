@@ -124,7 +124,7 @@ const ReportHero = ({ report, companies }) => {
             {companies.length > 0 && (
               <Flex wrap="wrap" gap={2} mt={6}>
                 {companies.map(c => (
-                  <Link key={c.id} href={`/companies/${c.id}`} legacyBehavior>
+                  <Link key={c.id} href={`/companies/${c.id}`} legacyBehavior passHref>
                     <ChakraLink display="inline-flex" alignItems="center" gap={2} px={4} py={2}
                       borderWidth="1px" borderColor="rgba(255,255,255,0.35)" fontSize="14px"
                       _hover={{ bg: 'rgba(255,255,255,0.1)', textDecoration: 'none' }}>

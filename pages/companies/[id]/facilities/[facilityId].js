@@ -128,19 +128,19 @@ const FacilityDetail = ({ companyData, facility }) => {
         <Container maxW="container.xl">
           <Breadcrumb spacing="8px" separator={<FaChevronRight color="gray.500" />}>
             <BreadcrumbItem>
-              <Link href="/" legacyBehavior>
+              <Link href="/" legacyBehavior passHref>
                 <BreadcrumbLink>首頁</BreadcrumbLink>
               </Link>
             </BreadcrumbItem>
 
             <BreadcrumbItem>
-              <Link href="/companies" legacyBehavior>
+              <Link href="/companies" legacyBehavior passHref>
                 <BreadcrumbLink>企業列表</BreadcrumbLink>
               </Link>
             </BreadcrumbItem>
 
             <BreadcrumbItem>
-              <Link href={`/companies/${companyData.id}`} legacyBehavior>
+              <Link href={`/companies/${companyData.id}`} legacyBehavior passHref>
                 <BreadcrumbLink>{parentCompany.name}</BreadcrumbLink>
               </Link>
             </BreadcrumbItem>
@@ -206,7 +206,7 @@ const FacilityDetail = ({ companyData, facility }) => {
                       <Box textAlign="right">{typeof value === 'string' ? value : value || 'N/A'}</Box>
                     </HStack>
                   ))}
-                  <Link href={`/companies/${companyData.id}`} legacyBehavior>
+                  <Link href={`/companies/${companyData.id}`} legacyBehavior passHref>
                     <Button as="a" colorScheme="green" size="sm" w="100%" mt={4}>
                       查看母公司詳情
                     </Button>
@@ -298,7 +298,7 @@ const FacilityDetail = ({ companyData, facility }) => {
                           ? `虛線圈為原始座標精度推估的誤差範圍（${coordinateAccuracy.label}）；圓點顏色對應違規筆數。`
                           : `原始座標精度${coordinateAccuracy.label}；圓點顏色對應違規筆數。`}
                       </Text>
-                      <Link href="/map" legacyBehavior>
+                      <Link href="/map" legacyBehavior passHref>
                         <Button as="a" size="sm" variant="outline" colorScheme="green">
                           在全站污染地圖檢視
                         </Button>

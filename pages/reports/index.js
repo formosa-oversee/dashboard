@@ -33,7 +33,7 @@ const cardHover = { textDecoration: 'none', borderColor: R.accent, '.cover-headl
 
 // 專題卡：上封面、下文字。所有專題同尺寸並排，最新一篇加「最新」標籤
 const ReportCard = ({ report, latest }) => (
-  <Link href={reportPath(report)} legacyBehavior>
+  <Link href={reportPath(report)} legacyBehavior passHref>
     <ChakraLink display="flex" flexDirection="column" bg="#ffffff" borderWidth="1px" borderColor={R.rule} _hover={cardHover}>
       <Cover report={report} h={{ base: '250px', md: '300px' }}
         headlineSize={{ base: '1.5rem', md: '1.75rem' }} artH={{ base: '100px', md: '120px' }} />

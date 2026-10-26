@@ -19,7 +19,7 @@ export const CompanyReports = ({ companyCode }) => {
         專題報導（{reports.length}）
       </Text>
       {reports.map((r, i) => (
-        <Link key={r.slug} href={reportPath(r)} legacyBehavior>
+        <Link key={r.slug} href={reportPath(r)} legacyBehavior passHref>
           <ChakraLink display="flex" alignItems="center" justifyContent="space-between" gap={4} px={6} py={4}
             borderTopWidth={i > 0 ? '1px' : 0} borderColor="rgba(255,255,255,0.12)"
             _hover={{ textDecoration: 'none', bg: 'rgba(255,255,255,0.06)' }}>
@@ -47,7 +47,7 @@ export const EventReportLinks = ({ eventId }) => {
       {reports.map((r, i) => (
         <span key={r.slug}>
           {i > 0 && '、'}
-          <Link href={reportPath(r)} legacyBehavior>
+          <Link href={reportPath(r)} legacyBehavior passHref>
             <ChakraLink color="teal.600">{r.title}</ChakraLink>
           </Link>
         </span>

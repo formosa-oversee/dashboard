@@ -7,7 +7,7 @@ import { R } from '../components/report/tokens';
 
 // 首頁的專題入口：一條深綠帶，連到最新一篇專題
 const LatestReport = ({ report }) => (
-  <Link href={reportPath(report)} legacyBehavior>
+  <Link href={reportPath(report)} legacyBehavior passHref>
     <Box as="a" display="block" bg={R.deep} color="white" py={{ base: 8, md: 10 }} transition="background .2s"
       bgImage={`radial-gradient(ellipse at 85% 0%, ${R.glow}, transparent 60%)`}
       _hover={{ bg: R.deep2 }}>
@@ -62,7 +62,7 @@ export default function Home() {
               為投資者、消費者和公眾提供透明、可靠的環境信息。
             </Text>
             <Box>
-              <Link href="/companies" legacyBehavior>
+              <Link href="/companies" legacyBehavior passHref>
                 <Button as="a" colorScheme="green" size="lg" px={8}>
                   查看企業列表
                 </Button>

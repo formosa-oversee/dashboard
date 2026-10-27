@@ -3036,5 +3036,71 @@
       }
     ],
     "addedAt": "2026-10-27"
+  },
+  {
+    "id": "pouchen-pousung-vietnam-bauxeo-2025-permit-and-false-reporting-fine",
+    "title": "寶成越南 Pou Sung 鞋廠未依環境許可證裝集氣罩、環境資料申報不實，同奈省處罰款",
+    "summary": "同奈省農業與環境廳稽查團查核寶成經香港上市的裕元持有的 Pou Sung Vietnam 位於 Bàu Xéo 工業區的鞋廠。同奈省認定四項違規：沒有依資源環境部 2024 年核發環境許可證時的申請內容，在生產線部分位置裝設集氣罩；公司向稽查團提供的 2023 年廢水處理、回用與排入 Thao 河的水量，與水表統計和日誌不符，屬資料不實（không trung thực）；2023 年環保報告申報的危險廢棄物為 328,976 公斤，轉移聯單合計 330,337 公斤，屬申報不正確；向稽查團回報的取水量不實（2025 年 1 月 3 日提供的日誌記水表累計讀數 5,820,115，現場水表累計讀數 5,820,122，決定書未載單位）。同奈省人民委員會主席 2025 年 7 月 1 日處罰款 7.05 億越南盾（集氣罩 3.5 億、廢水量資料 2.5 億、危險廢棄物申報 0.9 億、取水回報 0.15 億）。唯一的補救措施是要求公司更正 2023 年的廢水量資料；決定書寫明沒有加重或減輕情節，也沒有附加處分。",
+    "type": "enforcement",
+    "status": "penalized",
+    "dateStart": "2025-07-01",
+    "dateEnd": null,
+    "datePrecision": "day",
+    "locations": [
+      {
+        "country": "越南",
+        "plantSite": "Bàu Xéo 工業區, 同奈省, 越南",
+        "coordinates": {
+          "lat": 10.950426,
+          "lng": 107.0299901,
+          "precision": "industrial-park",
+          "source": "https://www.openstreetmap.org/way/321136900",
+          "note": "OSM「Khu công nghiệp Bàu Xéo」工業區範圍的中心點；決定書地址只到工業區，OSM 沒有 Pou Sung 廠房"
+        }
+      }
+    ],
+    "entities": [
+      {
+        "name": "Pou Sung Vietnam Co., Ltd",
+        "country": "越南"
+      }
+    ],
+    "attributionOverride": [
+      {
+        "companyCode": "9904",
+        "entity": "Pou Sung Vietnam Co., Ltd（Công ty TNHH Pou Sung Việt Nam，稅號 3600710751）",
+        "kind": "listed",
+        "effectivePct": 51.36,
+        "controlSince": 2005,
+        "path": [
+          "寶成",
+          "寶興投資、寶富投資（皆 100%）",
+          "裕元工業（集團）（香港上市 0551，合計 51.36%）",
+          "Pou Sung Vietnam Co., Ltd（100%）"
+        ],
+        "basis": "MOPS 114 年第 2 季（2025Q2）寶成海外轉投資：寶成持有寶興投資、寶富投資各 100%，寶興持有裕元工業（集團）50.28%、寶富持有 1.08%，合計 51.36%。裕元 2025 年報（HKEXnews 2026-04-21，https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0421/2026042100640.pdf，封存 https://web.archive.org/web/20261027091511/https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0421/2026042100640.pdf）：附註 1 載明最終母公司為寶成；主要股東表載寶成經兩家全資子公司 Wealthplus Holdings（48.18%）、Win Fortune Investments（3.18%）合計持有 51.36%（2025-12-31）。兩個來源的拆法不同，但合計同為 51.36%，effectivePct 取合計；附註 45 主要子公司（PDF 第 203 頁、年報頁碼 201）列 Pou Sung Vietnam Co., Ltd，越南，註冊資本 US$117,000,000，集團持有 100%（2025、2024 年皆同），製造及銷售鞋類。越南國家工商登記（bocaodientu.dkkd.gov.vn，2026-10-27 查）：英文名 POU SUNG VIETNAM CO., LTD.，稅號 3600710751，地址 Bàu Xéo 工業區，與決定書相同。決定書記載 2005-01-12 首次登記，controlSince 取這一年，早於事件。裕元不在台灣上市，比照決策 30 只寫在持股路徑，不另掛。"
+      }
+    ],
+    "groupControl": [],
+    "related": {
+      "eventIds": [],
+      "echoFacilityIds": [],
+      "enforcementCaseIds": []
+    },
+    "sources": [
+      {
+        "kind": "official",
+        "outlet": "同奈省人民委員會（入口網 dongnai.gov.vn「Khen thưởng - Xử phạt」>「Xử phạt」分類公告，附決定書）",
+        "outletRegion": "local",
+        "language": "vi",
+        "title": "Quyết định số 255/QĐ-XPHC ngày 01/7/2025 xử phạt vi phạm hành chính đối với Công ty TNHH Pou Sung Việt Nam",
+        "date": "2025-07-01",
+        "url": "https://dongnai.gov.vn/uploads/binhphuoc/news/2025/07/255_qd_qdub_2025.pdf",
+        "archiveUrl": "https://web.archive.org/web/20261027091301/https://dongnai.gov.vn/uploads/binhphuoc/news/2025/07/255_qd_qdub_2025.pdf",
+        "verified": "opened",
+        "note": "同奈省人民委員會主席簽發的電子簽章副本（「SAO Y」，簽章時間 2025-07-01），號碼與日期為手寫，經影像核對。受罰：Công ty trách nhiệm hữu hạn Pou Sung Việt Nam，稅號 3600710751，Bàu Xéo 工業區（Trảng Bom），2005-01-12 首次登記。依農業與環境廳稽查違規筆錄 99/BB-VPHC（2025-06-20）與廳稽查長公文 269/TT（2025-06-20）。四項：（1）2023 年環保報告危險廢棄物申報 328,976 公斤，轉移聯單 330,337 公斤，認定為申報不正確（khai báo không đúng；第 45/2022/NĐ-CP 第 29 條第 3 項 d 點，0.9 億越南盾）；（2）未依環境許可證 531/GPMT-BTNMT（資源環境部 2024-02-12）申請文件，在生產線部分位置裝設集氣罩（第 11 條第 3 項 đ 點，3.5 億）；（3）向稽查團提供的 2023 年廢水處理、回用與排入 Thao 河水量與水表統計、日誌不符，認定為資料不實（không trung thực；第 43 條第 4 項 b 點，2.5 億）；（4）向稽查團回報的取水量不實（không trung thực），2025-01-03 提供的日誌記水表累計讀數（chỉ số đồng hồ nước）5,820,115、現場 5,820,122，決定書未載單位（第 36/2020/NĐ-CP 第 10 條第 2 項 b 點，經第 04/2022/NĐ-CP 修正，0.15 億）。前三項依第 45/2022/NĐ-CP 第 6 條第 2 項對組織加倍。合計 7.05 億越南盾。加重、減輕情節皆無，無附加處分；補救措施只有更正 2023 年廢水量資料。公告頁：https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-doi-voi-cong-ty-tnhh-pou-sung-viet-nam-54160.html（封存 https://web.archive.org/web/20261027091434/https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-doi-voi-cong-ty-tnhh-pou-sung-viet-nam-54160.html）。"
+      }
+    ],
+    "addedAt": "2026-10-27"
   }
 ]

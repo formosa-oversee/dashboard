@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { Box, Container, Grid, GridItem, Heading, Text, SimpleGrid, Link as ChakraLink } from '@chakra-ui/react';
 import Layout from '../../components/Layout';
 import ReportHero from '../../components/report/ReportHero';
-import { ReportToc, MobileToc, useReadingState } from '../../components/report/ReportToc';
+import { ReportToc, MobileToc } from '../../components/report/ReportToc';
 import { StatRow } from '../../components/report/Figures';
 import { R, SERIF_FONT_URL } from '../../components/report/tokens';
 import { ARTICLES } from '../../content/reports';
@@ -96,7 +96,6 @@ export default function ReportPage({ slug, toc, keyNumbers, revisions, relations
   const report = getReport(slug);
   const Article = ARTICLES[slug];
   const articleRef = useRef(null);
-  const reading = useReadingState(toc, articleRef);
 
   return (
     <Layout>
@@ -111,11 +110,11 @@ export default function ReportPage({ slug, toc, keyNumbers, revisions, relations
       <Box bg={R.paper} color={R.ink} fontFamily={R.sans}>
         <ReportHero report={report} companies={relations.companies} />
         {keyNumbers && <KeyNumbers {...keyNumbers} />}
-        <MobileToc items={toc} {...reading} />
+        <MobileToc items={toc} articleRef={articleRef} />
         <Container maxW="1200px">
           <Grid templateColumns={COLUMNS} columnGap={{ lg: 16 }}>
             <GridItem display={{ base: 'none', lg: 'block' }}>
-              <ReportToc items={toc} {...reading} />
+              <ReportToc items={toc} articleRef={articleRef} />
             </GridItem>
             <GridItem as="article" ref={articleRef} minW={0} pb={{ base: 16, md: 24 }}>
               <Article />

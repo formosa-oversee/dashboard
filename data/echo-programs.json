@@ -468,6 +468,64 @@
    "controlBasis": "宏遠 2016-10 設立美國廠（宏遠 2023 年報、areadevelopment.com 2016-12-07）"
   },
   {
+   "registryId": "110072257417",
+   "companyCode": "1504",
+   "name": "TECO-WESTINGHOUSE MOTOR",
+   "city": "ROUND ROCK",
+   "state": "TX",
+   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110072257417",
+   "facilityIds": [
+    "3602340854"
+   ],
+   "npdesIds": [
+    "TXR05HD30"
+   ],
+   "programIds": {
+    "air": [],
+    "waste": [],
+    "toxics": [],
+    "ghg": []
+   },
+   "releases": {
+    "triOnSiteLb": null,
+    "triReleasesTransfersLb": null,
+    "ghgCO2eTons": null
+   },
+   "controlSince": "1995-04-01",
+   "controlBasis": "同上"
+  },
+  {
+   "registryId": "110000599905",
+   "companyCode": "1504",
+   "name": "TECO-WESTINGHOUSE MOTOR",
+   "city": "ROUND ROCK",
+   "state": "TX",
+   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110000599905",
+   "facilityIds": [
+    "3600965622"
+   ],
+   "npdesIds": [
+    "TXR05CU05"
+   ],
+   "programIds": {
+    "air": [],
+    "waste": [
+     "TXD069438802"
+    ],
+    "toxics": [
+     "78680WSTNGIH35A"
+    ],
+    "ghg": []
+   },
+   "releases": {
+    "triOnSiteLb": 1,
+    "triReleasesTransfersLb": 21003,
+    "ghgCO2eTons": null
+   },
+   "controlSince": "1995-04-01",
+   "controlBasis": "1995-04 東元買下西屋在合資公司的全部股份（tecowestinghouse.com 公司簡介）；合資期間由西屋控制（西屋 FY1993 10-K），月份以前的紀錄不算"
+  },
+  {
    "registryId": "110070621550",
    "companyCode": "1515",
    "name": "AIR & POWER TOOL SPECIALISTS",
@@ -1013,8 +1071,12 @@
     "air": [
      "TNSHL0004715700288"
     ],
-    "waste": [],
-    "toxics": [],
+    "waste": [
+     "TND987782752"
+    ],
+    "toxics": [
+     "3811WSHRPM412SU"
+    ],
     "ghg": []
    },
    "releases": {
@@ -1022,7 +1084,22 @@
     "triReleasesTransfersLb": null,
     "ghgCO2eTons": null
    },
-   "controlSince": "2016-01-01"
+   "controlSince": "2016-08-12",
+   "controlBasis": "2016-08-12 鴻海完成認購夏普新股（夏普公告 160812-4、鴻海 2016 合併財報）；1979 年以來的夏普工廠，之前的紀錄不算",
+   "relatedRegistries": [
+    {
+     "registryId": "110071087344",
+     "name": "SHARP MANUFACTURING COMPANY OF AMERICA",
+     "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110071087344",
+     "basis": "SHARP MANUFACTURING COMPANY OF AMERICA（4050 S Mendenhall Rd）：同址的 EPA 案件登記（FIFRA）"
+    },
+    {
+     "registryId": "110012706143",
+     "name": "SHARP ELECTRONICS CORP. SHARP MANUFACTURING CO OF AMERICA DIV.",
+     "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110012706143",
+     "basis": "SHARP ELECTRONICS CORP. SHARP MANUFACTURING DIV.（4120 S Mendenhall）：同一 104 英畝廠區的有害廢棄物登記與 TRI，相距約 150 公尺"
+    }
+   ]
   },
   {
    "registryId": "110017088355",
@@ -1057,8 +1134,8 @@
     "triReleasesTransfersLb": 809484,
     "ghgCO2eTons": null
    },
-   "controlSince": "2020-06-01",
-   "controlBasis": "國巨 2020-06 完成收購 KEMET（resolve-ownership.py CURATED）",
+   "controlSince": "2020-06-15",
+   "controlBasis": "2020-06-15 國巨完成合併 KEMET（KEMET 8-K：「On June 15, 2020 … consummated the previously announced merger」）",
    "relatedRegistries": [
     {
      "registryId": "110004939103",
@@ -1158,9 +1235,11 @@
    "state": "WA",
    "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110000490772",
    "facilityIds": [
+    "3400007781",
     "3400001710"
    ],
    "npdesIds": [
+    "WAP006200",
     "WAR003032"
    ],
    "programIds": {
@@ -1896,6 +1975,45 @@
    "controlSince": null
   },
   {
+   "registryId": "110001130981",
+   "companyCode": "6472",
+   "name": "UPSHER SMITH LABORATORIES INC",
+   "city": "PLYMOUTH",
+   "state": "MN",
+   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110001130981",
+   "facilityIds": [
+    "110001130981"
+   ],
+   "npdesIds": [],
+   "programIds": {
+    "air": [
+     "MN0000002705300118"
+    ],
+    "waste": [
+     "MND047251004"
+    ],
+    "toxics": [
+     "55447PSHRS14905"
+    ],
+    "ghg": []
+   },
+   "releases": {
+    "triOnSiteLb": null,
+    "triReleasesTransfersLb": null,
+    "ghgCO2eTons": null
+   },
+   "controlSince": "2024-04-01",
+   "newFacility": {
+    "address": "14905 23RD AVE N",
+    "zipCode": "55447",
+    "latitude": "45.00389",
+    "longitude": "-93.47004",
+    "basis": "MOPS：保瑞 → Bora Pharmaceutical Holdings → … → Upsher-Smith Laboratories, LLC（100%）；Plymouth 14905 23rd Ave N 製造廠，2025 年關廠",
+    "ownershipFrom": "6472|3601322171"
+   },
+   "controlBasis": "同上；2025-02 發出 WARN 關廠通知（Star Tribune 2025-02-07）"
+  },
+  {
    "registryId": "110000887942",
    "companyCode": "6472",
    "name": "UPSHER-SMITH LABORATORIES",
@@ -1929,6 +2047,88 @@
    },
    "controlSince": "2024-04-01",
    "controlBasis": "2024-04-01 保瑞向 Sawai 完成收購 Upsher-Smith（boracdmo.com 公告）；公告只列明尼蘇達廠"
+  },
+  {
+   "registryId": "110068499333",
+   "companyCode": "6472",
+   "name": "UPSHER-SMITH LABORATORIES LLC",
+   "city": "MAPLE GROVE",
+   "state": "MN",
+   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110068499333",
+   "facilityIds": [
+    "110068499333"
+   ],
+   "npdesIds": [],
+   "programIds": {
+    "air": [
+     "MN0000002705301286"
+    ],
+    "waste": [],
+    "toxics": [
+     "5536WPSHRS671EV"
+    ],
+    "ghg": []
+   },
+   "releases": {
+    "triOnSiteLb": 28709,
+    "triReleasesTransfersLb": 47667,
+    "ghgCO2eTons": null
+   },
+   "controlSince": "2024-04-01",
+   "newFacility": {
+    "address": "6701 EVENSTAD DR N",
+    "zipCode": "55369",
+    "latitude": "45.07497",
+    "longitude": "-93.44321",
+    "basis": "MOPS：保瑞 → Bora Pharmaceutical Holdings → … → Upsher-Smith Laboratories, LLC（100%）；Maple Grove 6701 Evenstad Dr 製造廠",
+    "ownershipFrom": "6472|3601322171"
+   },
+   "controlBasis": "保瑞重大訊息 113/04/02：美東時間 4 月 1 日接手 Upsher-Smith，100% 持股",
+   "relatedRegistries": [
+    {
+     "registryId": "110071715565",
+     "name": "UPSHER-SMITH LABORATORIES, LLC",
+     "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110071715565",
+     "basis": "UPSHER-SMITH LABORATORIES, LLC：同址 6701 Evenstad Dr 的 TRI 申報"
+    }
+   ]
+  },
+  {
+   "registryId": "110071945656",
+   "companyCode": "6488",
+   "name": "GLOBALWAFERS AMERICA",
+   "city": "SHERMAN",
+   "state": "TX",
+   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110071945656",
+   "facilityIds": [
+    "3601823988"
+   ],
+   "npdesIds": [
+    "TXR05GR94"
+   ],
+   "programIds": {
+    "air": [],
+    "waste": [
+     "TXR000087501"
+    ],
+    "toxics": [],
+    "ghg": []
+   },
+   "releases": {
+    "triOnSiteLb": null,
+    "triReleasesTransfersLb": null,
+    "ghgCO2eTons": null
+   },
+   "controlSince": "2022-08-04",
+   "controlBasis": "環球晶自建：GTI 2022-08 新設 GlobalWafers America（環球晶 111 年報），2022-12-01 動土",
+   "relatedRegistries": [
+    {
+     "registryId": "110072209293",
+     "name": "GLOBALWAFERS AMERICA",
+     "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110072209293",
+     "basis": "GLOBALWAFERS AMERICA（3200 Northgate Dr）：Sherman 新廠的有害廢棄物登記，與雨水許可的 3230 Northgate Dr 同一廠區"
+    }
+   ]
   },
   {
    "registryId": "110000442101",
@@ -2135,6 +2335,76 @@
    },
    "controlSince": "2013-05-30",
    "controlBasis": "寶綠特 2013-05-30 設立 Boretech LLC（現名 CYCLEPLUS LLC）自建（寶綠特 2024 年報、wastedive.com 2014-08-12）"
+  },
+  {
+   "registryId": "110012230264",
+   "companyCode": "8069",
+   "name": "E INK CORPORATION",
+   "city": "FREMONT",
+   "state": "CA",
+   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110012230264",
+   "facilityIds": [
+    "110012230264"
+   ],
+   "npdesIds": [],
+   "programIds": {
+    "air": [],
+    "waste": [
+     "CAL000481080",
+     "CAR000112532",
+     "CAR000363481"
+    ],
+    "toxics": [],
+    "ghg": []
+   },
+   "releases": {
+    "triOnSiteLb": null,
+    "triReleasesTransfersLb": null,
+    "ghgCO2eTons": null
+   },
+   "controlSince": "2012-11-01",
+   "newFacility": {
+    "address": "47485 SEABRIDGE DR",
+    "zipCode": "94538",
+    "latitude": "37.47686",
+    "longitude": "-121.94224",
+    "basis": "MOPS：元太 → … → E Ink Corporation（100%）；Fremont 47485 Seabridge Dr 原是 SiPix Imaging（2012-11 併入，改名 E Ink California, LLC），現由 E Ink Corporation 持有有害廢棄物登記",
+    "ownershipFrom": "8069|3600135516"
+   },
+   "controlBasis": "2012-11 元太完成收購 SiPix Imaging，改名 E Ink California, LLC（元太 2012 年報、104 年度合併財報附註）；月份以前的紀錄屬 SiPix"
+  },
+  {
+   "registryId": "110056371144",
+   "companyCode": "8069",
+   "name": "E INK CORPORATION",
+   "city": "BILLERICA",
+   "state": "MA",
+   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110056371144",
+   "facilityIds": [
+    "3601347091",
+    "3601781315"
+   ],
+   "npdesIds": [
+    "MANOEJ02S",
+    "MAPIU005O"
+   ],
+   "programIds": {
+    "air": [
+     "MA0000002512100742"
+    ],
+    "waste": [
+     "MAC300094695"
+    ],
+    "toxics": [],
+    "ghg": []
+   },
+   "releases": {
+    "triOnSiteLb": null,
+    "triReleasesTransfersLb": null,
+    "ghgCO2eTons": null
+   },
+   "controlSince": "2009-12-24",
+   "controlBasis": "元太 2009-12 取得 E Ink（同 South Hadley）；Billerica 廠 2013 年啟用（元太 2013 年報）"
   },
   {
    "registryId": "110041673463",
@@ -10385,6 +10655,28 @@
    "registryId": "110000348106"
   },
   {
+   "id": "RCRA-V-TXD069438802-XXS-06/17/2004",
+   "program": "RCRA",
+   "kind": "violation",
+   "type": "State Statutory or Regulatory requirements that are broader-in-scope than the federal RCRA requirements",
+   "violationCode": "XXS",
+   "date": "2004-06-17",
+   "resolvedDate": "2004-06-24",
+   "agency": "州政府",
+   "companyCode": "1504",
+   "registryId": "110000599905"
+  },
+  {
+   "id": "RCRA-E-TXD069438802-1-HQ110",
+   "program": "RCRA",
+   "kind": "informal",
+   "type": "Verbal Informal",
+   "date": "2004-06-25",
+   "agency": "州政府",
+   "companyCode": "1504",
+   "registryId": "110000599905"
+  },
+  {
    "id": "CWA-I-3602177058",
    "program": "CWA",
    "kind": "informal",
@@ -12330,6 +12622,80 @@
    "registryId": "110070619600"
   },
   {
+   "id": "RCRA-V-TND987782752-265.B-03/31/2017",
+   "program": "RCRA",
+   "kind": "violation",
+   "type": "Interim Status Standards for Owners and Operators of HW TSDs: General Facility Standards",
+   "violationCode": "265.B",
+   "date": "2017-03-31",
+   "resolvedDate": "2017-06-21",
+   "agency": "州政府",
+   "companyCode": "2317",
+   "registryId": "110001862208"
+  },
+  {
+   "id": "RCRA-V-TND987782752-273.B-03/31/2017",
+   "program": "RCRA",
+   "kind": "violation",
+   "type": "Standards for Universal Waste Management: Standards for Small Quantity Handlers ",
+   "violationCode": "273.B",
+   "date": "2017-03-31",
+   "resolvedDate": "2017-04-04",
+   "agency": "州政府",
+   "companyCode": "2317",
+   "registryId": "110001862208"
+  },
+  {
+   "id": "RCRA-E-TND987782752-001-HQ120",
+   "program": "RCRA",
+   "kind": "informal",
+   "type": "Written Informal",
+   "date": "2017-05-15",
+   "agency": "州政府",
+   "companyCode": "2317",
+   "registryId": "110001862208"
+  },
+  {
+   "id": "RCRA-E-TND987782752-001-TN125",
+   "program": "RCRA",
+   "kind": "informal",
+   "type": "Enf. Action Request",
+   "date": "2017-06-06",
+   "agency": "州政府",
+   "companyCode": "2317",
+   "registryId": "110001862208"
+  },
+  {
+   "id": "RCRA-E-TND987782752-001-TN126",
+   "program": "RCRA",
+   "kind": "informal",
+   "type": "Warning Letter",
+   "date": "2017-07-10",
+   "agency": "州政府",
+   "companyCode": "2317",
+   "registryId": "110001862208"
+  },
+  {
+   "id": "FEC-3605152638",
+   "program": "FEC",
+   "kind": "case",
+   "type": "Administrative - Formal",
+   "statutes": [
+    "FIFRA"
+   ],
+   "date": "2026-09-02",
+   "fiscalYear": "2026",
+   "agency": "EPA",
+   "caseNumber": "04-2026-3677",
+   "caseName": "SHARP ELECTRONICS CORPORATION",
+   "status": "Closed",
+   "outcome": "Unilateral Administrative Order Without Adjudication",
+   "description": "FIFRA NOW: 9/02/2026 Sharp Electronics Corporation Notice of Warning for Non-filing of Pesticide Reports Docket No.: FIFRA-04-2026-3677 The U.S. Environmental Protection Agency regulates the registration, distribution, sale, and use of pesticide products pursuant to the provisions of the Federal Insecticide, Fungicide, and Rodenticide Act (FIFRA or the Act), as amended, 7 U.S.C. 136 et seq. The EPA is issuing this Notice of Warning (NOW) pursuant to Section 9(c)(3) of FIFRA, 7 U.S.C. 136g(c)(3). As explained below, the EPA finds that Sharp Electronics Corporation violated FIFRA Section 12(a)(2)(L) by failing to comply with provisions of Section 7. Pursuant to Section 7(c) of FIFRA, 7 U.S.C. 136e(c), and regulations promulgated thereunder at Title 40 of the Code of Federal Regulations (C.F.R.), Section 167.85(d), a pesticide producer operating an establishment must submit an initial report no later than 30 days after the first registration of each establishment the producer operates. Thereafter, the producer must submit an annual report on or before March 1st of each year, even if the producer has produced no pesticidal product for that reporting year. Pursuant to Section 12(a)(2)(L) of FIFRA, 7 U.S.C. 136j(a)(2)(L), it is unlawful for any person who is a producer to violate any of the provisions of Section 7 of FIFRA. Relevant definitions of produce, producer, establishment, and pesticidal product are found in Section 2 of FIFRA, 7 U.S.C. 136 and 40 C.F.R. Section 167.3. The evidence obtained by the EPA indicates that Sharp Electronics Corporation has failed to file one or more annual Pesticide Reports for Pesticide-Producing and Device-Producing Establishments (EPA Form 3540-16) for one or more years and establishments. The annual reports identified as missing are as follows: EPA Establishment Number: 88806-TN-1 Reporting Year(s): 2022, 2023, 2024",
+   "sourceUrl": "https://echo.epa.gov/enforcement-case-report?id=04-2026-3677",
+   "companyCode": "2317",
+   "registryId": "110001862208"
+  },
+  {
    "id": "RCRA-V-SCD000003558-262.A-09/22/2022",
    "program": "RCRA",
    "kind": "violation",
@@ -13419,6 +13785,18 @@
    "registryId": "110018295762"
   },
   {
+   "id": "CAA-I-3604278117",
+   "program": "CAA",
+   "kind": "informal",
+   "type": "Warning Letter",
+   "date": "2024-12-18",
+   "agency": "州政府",
+   "description": "Administrative - Informal",
+   "caseNumber": "MN000A00089958NON20241",
+   "companyCode": "6472",
+   "registryId": "110068499333"
+  },
+  {
    "id": "CWA-I-3603993444",
    "program": "CWA",
    "kind": "informal",
@@ -13631,6 +14009,76 @@
    "registryId": "110041673463"
   },
   {
+   "id": "RCRA-V-CAR000112532-262.A-08/27/2014",
+   "program": "RCRA",
+   "kind": "violation",
+   "type": "Standards Applicable to Generators of HW: General",
+   "violationCode": "262.A",
+   "date": "2014-08-27",
+   "resolvedDate": "2014-10-01",
+   "agency": "州政府",
+   "companyCode": "8069",
+   "registryId": "110012230264"
+  },
+  {
+   "id": "RCRA-V-MAC300094695-262.C-08/03/2015",
+   "program": "RCRA",
+   "kind": "violation",
+   "type": "Standards Applicable to Generators of HW: Pre-Transport Requirements Applicable to Small and Large Quantity Generators",
+   "violationCode": "262.C",
+   "date": "2015-08-03",
+   "resolvedDate": "2016-03-07",
+   "agency": "EPA",
+   "companyCode": "8069",
+   "registryId": "110056371144"
+  },
+  {
+   "id": "RCRA-V-MAC300094695-262.A-08/03/2015",
+   "program": "RCRA",
+   "kind": "violation",
+   "type": "Standards Applicable to Generators of HW: General",
+   "violationCode": "262.A",
+   "date": "2015-08-03",
+   "resolvedDate": "2016-03-07",
+   "agency": "EPA",
+   "companyCode": "8069",
+   "registryId": "110056371144"
+  },
+  {
+   "id": "RCRA-V-MAC300094695-273.B-08/03/2015",
+   "program": "RCRA",
+   "kind": "violation",
+   "type": "Standards for Universal Waste Management: Standards for Small Quantity Handlers ",
+   "violationCode": "273.B",
+   "date": "2015-08-03",
+   "resolvedDate": "2016-03-07",
+   "agency": "EPA",
+   "companyCode": "8069",
+   "registryId": "110056371144"
+  },
+  {
+   "id": "RCRA-E-MAC300094695-001-HQ120",
+   "program": "RCRA",
+   "kind": "informal",
+   "type": "Written Informal",
+   "date": "2016-02-09",
+   "agency": "EPA",
+   "companyCode": "8069",
+   "registryId": "110056371144"
+  },
+  {
+   "id": "RCRA-V-CAR000112532-262.C-08/29/2017",
+   "program": "RCRA",
+   "kind": "violation",
+   "type": "Standards Applicable to Generators of HW: Pre-Transport Requirements Applicable to Small and Large Quantity Generators",
+   "violationCode": "262.C",
+   "date": "2017-08-29",
+   "resolvedDate": "2017-09-11",
+   "agency": "州政府",
+   "companyCode": "8069",
+   "registryId": "110012230264"
+  },
+  {
    "id": "CAA-F-3601561501",
    "program": "CAA",
    "kind": "formal",
@@ -13686,6 +14134,42 @@
    "agency": "州政府",
    "companyCode": "8069",
    "registryId": "110041673463"
+  },
+  {
+   "id": "RCRA-V-MAC300094695-XXS-09/26/2024",
+   "program": "RCRA",
+   "kind": "violation",
+   "type": "State Statutory or Regulatory requirements that are broader-in-scope than the federal RCRA requirements",
+   "violationCode": "XXS",
+   "date": "2024-09-26",
+   "resolvedDate": "2025-10-02",
+   "agency": "州政府",
+   "companyCode": "8069",
+   "registryId": "110056371144"
+  },
+  {
+   "id": "RCRA-V-MAC300094695-262.C-09/26/2024",
+   "program": "RCRA",
+   "kind": "violation",
+   "type": "Standards Applicable to Generators of HW: Pre-Transport Requirements Applicable to Small and Large Quantity Generators",
+   "violationCode": "262.C",
+   "date": "2024-09-26",
+   "resolvedDate": "2025-10-02",
+   "agency": "州政府",
+   "companyCode": "8069",
+   "registryId": "110056371144"
+  },
+  {
+   "id": "RCRA-V-MAC300094695-262.A-09/26/2024",
+   "program": "RCRA",
+   "kind": "violation",
+   "type": "Standards Applicable to Generators of HW: General",
+   "violationCode": "262.A",
+   "date": "2024-09-26",
+   "resolvedDate": "2025-10-02",
+   "agency": "州政府",
+   "companyCode": "8069",
+   "registryId": "110056371144"
   },
   {
    "id": "RCRA-E-MAC300013125-001-HQ120",

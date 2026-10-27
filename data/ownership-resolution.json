@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21",
+  "generatedAt": "2026-10-27",
   "vtSnapshotDate": "2026-09-10",
   "mopsSource": "formosa-oversee/scripts mops_company（公開資訊觀測站，2025Q1–Q2 子公司持股）",
   "note": "由 scripts/resolve-ownership.py 產生。responsible.kind：listed 上市公司｜group-affiliate 集團關係企業（無上市公司持股路徑）｜merger 合併承繼｜private／state-owned 台灣非上市母公司｜foreign 外資母公司｜unresolved。path 為 MOPS 持股鏈，effectivePct 為沿路持股相乘。",
@@ -7952,195 +7952,6 @@
     },
     {
       "source": "EPA ECHO",
-      "key": "1301|3601104956",
-      "entity": "FORMOSA POINT COMFORT PLANT",
-      "companyCode": "1301",
-      "facilityId": "3601104956",
-      "responsible": {
-        "kind": "listed",
-        "code": "1301",
-        "name": "台灣塑膠工業股份有限公司",
-        "short": "台塑"
-      },
-      "effectivePct": 24.82,
-      "path": [],
-      "method": "curated-associate",
-      "confidence": "high",
-      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
-      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
-      "groupName": "台塑集團 Formosa Plastics Group"
-    },
-    {
-      "source": "EPA ECHO",
-      "key": "2723|3600995140",
-      "entity": "PERFECT 85 DEGREES C INC",
-      "companyCode": "2723",
-      "facilityId": "3600995140",
-      "responsible": {
-        "kind": "listed",
-        "code": "2723",
-        "name": "開曼美食達人股份有限公司",
-        "short": "美食-KY"
-      },
-      "entityInMops": "Perfect 85 Degrees C, Inc.",
-      "effectivePct": 100.0,
-      "path": [
-        {
-          "investor": "開曼美食達人股份有限公司",
-          "investee": "Perfect 85 Degrees C, Inc.",
-          "pct": 100.0
-        }
-      ],
-      "method": "mops-echo-subsidiary",
-      "confidence": "high"
-    },
-    {
-      "source": "EPA ECHO",
-      "key": "2027|1600028470",
-      "entity": "TCI TEXARKANA",
-      "companyCode": "2027",
-      "facilityId": "1600028470",
-      "responsible": {
-        "kind": "listed",
-        "code": "2027",
-        "name": "大成不銹鋼工業股份有限公司",
-        "short": "大成鋼"
-      },
-      "entityInMops": "TCI Texarkana, Inc.",
-      "effectivePct": 100.0,
-      "path": [
-        {
-          "investor": "大成不銹鋼工業股份有限公司",
-          "investee": "Ta Chen International, Inc.",
-          "pct": 100.0
-        },
-        {
-          "investor": "Ta Chen International, Inc.",
-          "investee": "TCI Texarkana, Inc.",
-          "pct": 100.0
-        }
-      ],
-      "method": "mops-echo-subsidiary",
-      "confidence": "high"
-    },
-    {
-      "source": "EPA ECHO",
-      "key": "6505|3601242192",
-      "entity": "FG LA, LLC - SUNSHINE PROJECT EARLY WORKS",
-      "companyCode": "6505",
-      "facilityId": "3601242192",
-      "responsible": {
-        "kind": "listed",
-        "code": "6505",
-        "name": "台塑石化股份有限公司",
-        "short": "台塑化"
-      },
-      "entityInMops": "FG LA LLC",
-      "effectivePct": 57.0,
-      "path": [
-        {
-          "investor": "台塑石化股份有限公司",
-          "investee": "FG INC.",
-          "pct": 57.0
-        },
-        {
-          "investor": "FG INC.",
-          "investee": "FG LA LLC",
-          "pct": 100.0
-        }
-      ],
-      "method": "mops-echo-subsidiary",
-      "confidence": "high"
-    },
-    {
-      "source": "EPA ECHO",
-      "key": "6505|3601242202",
-      "entity": "FG LA, LLC - 3127 WIDENING & DRAINAGE IMPROVEMENTS",
-      "companyCode": "6505",
-      "facilityId": "3601242202",
-      "responsible": {
-        "kind": "listed",
-        "code": "6505",
-        "name": "台塑石化股份有限公司",
-        "short": "台塑化"
-      },
-      "entityInMops": "FG LA LLC",
-      "effectivePct": 57.0,
-      "path": [
-        {
-          "investor": "台塑石化股份有限公司",
-          "investee": "FG INC.",
-          "pct": 57.0
-        },
-        {
-          "investor": "FG INC.",
-          "investee": "FG LA LLC",
-          "pct": 100.0
-        }
-      ],
-      "method": "mops-echo-subsidiary",
-      "confidence": "high"
-    },
-    {
-      "source": "EPA ECHO",
-      "key": "2104|3601283221",
-      "entity": "CONTINENTAL CARBON",
-      "companyCode": "2104",
-      "facilityId": "3601283221",
-      "responsible": {
-        "kind": "listed",
-        "code": "2104",
-        "name": "國際中橡投資控股股份有限公司",
-        "short": "國際中橡"
-      },
-      "entityInMops": "Continental Carbon Company",
-      "effectivePct": 66.67,
-      "path": [
-        {
-          "investor": "國際中橡投資控股股份有限公司",
-          "investee": "CCC USA Corp.",
-          "pct": 66.67
-        },
-        {
-          "investor": "CCC USA Corp.",
-          "investee": "Continental Carbon Company",
-          "pct": 100.0
-        }
-      ],
-      "method": "mops-echo-subsidiary",
-      "confidence": "high"
-    },
-    {
-      "source": "EPA ECHO",
-      "key": "2027|3601330163",
-      "entity": "TCI TEXARKANA",
-      "companyCode": "2027",
-      "facilityId": "3601330163",
-      "responsible": {
-        "kind": "listed",
-        "code": "2027",
-        "name": "大成不銹鋼工業股份有限公司",
-        "short": "大成鋼"
-      },
-      "entityInMops": "TCI Texarkana, Inc.",
-      "effectivePct": 100.0,
-      "path": [
-        {
-          "investor": "大成不銹鋼工業股份有限公司",
-          "investee": "Ta Chen International, Inc.",
-          "pct": 100.0
-        },
-        {
-          "investor": "Ta Chen International, Inc.",
-          "investee": "TCI Texarkana, Inc.",
-          "pct": 100.0
-        }
-      ],
-      "method": "mops-echo-subsidiary",
-      "confidence": "high"
-    },
-    {
-      "source": "EPA ECHO",
       "key": "1210|3601434088",
       "entity": "AMY FOOD",
       "companyCode": "1210",
@@ -8170,51 +7981,22 @@
     },
     {
       "source": "EPA ECHO",
-      "key": "2908|3600825999",
-      "entity": "TEST RITE PRODUCTS CORP",
-      "companyCode": "2908",
-      "facilityId": "3600825999",
+      "key": "2330|3602079043",
+      "entity": "TSMC P4",
+      "companyCode": "2330",
+      "facilityId": "3602079043",
       "responsible": {
         "kind": "listed",
-        "code": "2908",
-        "name": "特力股份有限公司",
-        "short": "特力"
+        "code": "2330",
+        "name": "台灣積體電路製造股份有限公司",
+        "short": "台積電"
       },
-      "entityInMops": "Test-Rite International (U.S.) Co., Ltd.",
+      "entityInMops": "TSMC Arizona",
       "effectivePct": 100.0,
       "path": [
         {
-          "investor": "特力股份有限公司",
-          "investee": "Test-Rite International (U.S.) Co., Ltd.",
-          "pct": 100.0
-        }
-      ],
-      "method": "mops-echo-subsidiary",
-      "confidence": "high"
-    },
-    {
-      "source": "EPA ECHO",
-      "key": "2104|3601600817",
-      "entity": "CONTINENTAL CARBON",
-      "companyCode": "2104",
-      "facilityId": "3601600817",
-      "responsible": {
-        "kind": "listed",
-        "code": "2104",
-        "name": "國際中橡投資控股股份有限公司",
-        "short": "國際中橡"
-      },
-      "entityInMops": "Continental Carbon Company",
-      "effectivePct": 66.67,
-      "path": [
-        {
-          "investor": "國際中橡投資控股股份有限公司",
-          "investee": "CCC USA Corp.",
-          "pct": 66.67
-        },
-        {
-          "investor": "CCC USA Corp.",
-          "investee": "Continental Carbon Company",
+          "investor": "台灣積體電路製造股份有限公司",
+          "investee": "TSMC Arizona",
           "pct": 100.0
         }
       ],
@@ -8359,6 +8141,74 @@
     },
     {
       "source": "EPA ECHO",
+      "key": "6488|3601823988",
+      "entity": "GLOBALWAFERS AMERICA",
+      "companyCode": "6488",
+      "facilityId": "3601823988",
+      "responsible": {
+        "kind": "listed",
+        "code": "6488",
+        "name": "環球晶圓股份有限公司",
+        "short": "環球晶"
+      },
+      "entityInMops": "GlobalWafers America, LLC (以下稱GWA)",
+      "effectivePct": 100.0,
+      "path": [
+        {
+          "investor": "環球晶圓股份有限公司",
+          "investee": "GlobalWafers B.V. (以下稱GWBV)",
+          "pct": 100.0
+        },
+        {
+          "investor": "GlobalWafers B.V. (以下稱GWBV)",
+          "investee": "GlobiTech Incorporated (以下稱GTI)",
+          "pct": 100.0
+        },
+        {
+          "investor": "GlobiTech Incorporated (以下稱GTI)",
+          "investee": "GlobalWafers America, LLC (以下稱GWA)",
+          "pct": 100.0
+        }
+      ],
+      "method": "mops-echo-subsidiary",
+      "confidence": "high"
+    },
+    {
+      "source": "EPA ECHO",
+      "key": "8069|3601781315",
+      "entity": "E-INK",
+      "companyCode": "8069",
+      "facilityId": "3601781315",
+      "responsible": {
+        "kind": "listed",
+        "code": "8069",
+        "name": "元太科技工業股份有限公司",
+        "short": "元太"
+      },
+      "entityInMops": "E Ink Corporation",
+      "effectivePct": 100.0,
+      "path": [
+        {
+          "investor": "元太科技工業股份有限公司",
+          "investee": "E Ink Technology B.V.",
+          "pct": 100.0
+        },
+        {
+          "investor": "E Ink Technology B.V.",
+          "investee": "E Ink Netherlands B.V.",
+          "pct": 100.0
+        },
+        {
+          "investor": "E Ink Netherlands B.V.",
+          "investee": "E Ink Corporation",
+          "pct": 100.0
+        }
+      ],
+      "method": "mops-echo-subsidiary",
+      "confidence": "high"
+    },
+    {
+      "source": "EPA ECHO",
       "key": "1301|3601368154",
       "entity": "FORMOSA POINT COMFORT PLANT",
       "companyCode": "1301",
@@ -8376,6 +8226,25 @@
       "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
       "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
       "groupName": "台塑集團 Formosa Plastics Group"
+    },
+    {
+      "source": "EPA ECHO",
+      "key": "2317|3600258184",
+      "entity": "SHARP MFG. CO. OF AMERICA",
+      "companyCode": "2317",
+      "facilityId": "3600258184",
+      "responsible": {
+        "kind": "listed",
+        "code": "2317",
+        "name": "鴻海精密工業股份有限公司",
+        "short": "鴻海"
+      },
+      "effectivePct": 100.0,
+      "path": [],
+      "method": "curated-self",
+      "confidence": "high",
+      "note": "夏普 Sharp 自 2016-08 起為鴻海集團取得控制權的公司（MOPS 子公司清單未列）；2016 年以前的罰款屬收購前責任",
+      "controlSince": 2016
     },
     {
       "source": "EPA ECHO",
@@ -8447,29 +8316,10 @@
     },
     {
       "source": "EPA ECHO",
-      "key": "2317|3600258184",
-      "entity": "SHARP MFG. CO. OF AMERICA",
-      "companyCode": "2317",
-      "facilityId": "3600258184",
-      "responsible": {
-        "kind": "listed",
-        "code": "2317",
-        "name": "鴻海精密工業股份有限公司",
-        "short": "鴻海"
-      },
-      "effectivePct": 100.0,
-      "path": [],
-      "method": "curated-self",
-      "confidence": "high",
-      "note": "夏普 Sharp 自 2016-08 起為鴻海集團取得控制權的公司（MOPS 子公司清單未列）；2016 年以前的罰款屬收購前責任",
-      "controlSince": 2016
-    },
-    {
-      "source": "EPA ECHO",
-      "key": "2330|3602079043",
-      "entity": "TSMC P4",
+      "key": "2330|3602078942",
+      "entity": "APS - TSMC PHASE 2",
       "companyCode": "2330",
-      "facilityId": "3602079043",
+      "facilityId": "3602078942",
       "responsible": {
         "kind": "listed",
         "code": "2330",
@@ -8490,10 +8340,10 @@
     },
     {
       "source": "EPA ECHO",
-      "key": "2330|3602078942",
-      "entity": "APS - TSMC PHASE 2",
+      "key": "2330|3602086362",
+      "entity": "TSMC ARIZONA - PARKING AREA",
       "companyCode": "2330",
-      "facilityId": "3602078942",
+      "facilityId": "3602086362",
       "responsible": {
         "kind": "listed",
         "code": "2330",
@@ -8562,30 +8412,6 @@
     },
     {
       "source": "EPA ECHO",
-      "key": "2330|3602086362",
-      "entity": "TSMC ARIZONA - PARKING AREA",
-      "companyCode": "2330",
-      "facilityId": "3602086362",
-      "responsible": {
-        "kind": "listed",
-        "code": "2330",
-        "name": "台灣積體電路製造股份有限公司",
-        "short": "台積電"
-      },
-      "entityInMops": "TSMC Arizona",
-      "effectivePct": 100.0,
-      "path": [
-        {
-          "investor": "台灣積體電路製造股份有限公司",
-          "investee": "TSMC Arizona",
-          "pct": 100.0
-        }
-      ],
-      "method": "mops-echo-subsidiary",
-      "confidence": "high"
-    },
-    {
-      "source": "EPA ECHO",
       "key": "1301|1600028209",
       "entity": "FORMOSA POINT COMFORT PLANT",
       "companyCode": "1301",
@@ -8603,6 +8429,64 @@
       "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
       "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
       "groupName": "台塑集團 Formosa Plastics Group"
+    },
+    {
+      "source": "EPA ECHO",
+      "key": "2330|3400007781",
+      "entity": "WAFERTECH LLC",
+      "companyCode": "2330",
+      "facilityId": "3400007781",
+      "responsible": {
+        "kind": "listed",
+        "code": "2330",
+        "name": "台灣積體電路製造股份有限公司",
+        "short": "台積電"
+      },
+      "entityInMops": "TSMC Washington",
+      "effectivePct": 100.0,
+      "path": [
+        {
+          "investor": "台灣積體電路製造股份有限公司",
+          "investee": "TSMC Partners",
+          "pct": 100.0
+        },
+        {
+          "investor": "TSMC Partners",
+          "investee": "TSMC Development",
+          "pct": 100.0
+        },
+        {
+          "investor": "TSMC Development",
+          "investee": "TSMC Washington",
+          "pct": 100.0
+        }
+      ],
+      "method": "mops-echo-subsidiary",
+      "confidence": "high"
+    },
+    {
+      "source": "EPA ECHO",
+      "key": "1504|3602340854",
+      "entity": "TECO-WESTINGHOUSE MOTOR",
+      "companyCode": "1504",
+      "facilityId": "3602340854",
+      "responsible": {
+        "kind": "listed",
+        "code": "1504",
+        "name": "東元電機股份有限公司",
+        "short": "東元"
+      },
+      "entityInMops": "TECO HOLDINGS USA INC.",
+      "effectivePct": 100.0,
+      "path": [
+        {
+          "investor": "東元電機股份有限公司",
+          "investee": "TECO HOLDINGS USA INC.",
+          "pct": 100.0
+        }
+      ],
+      "method": "mops-echo-subsidiary",
+      "confidence": "high"
     },
     {
       "source": "EPA ECHO",
@@ -8635,6 +8519,30 @@
     },
     {
       "source": "EPA ECHO",
+      "key": "1504|3600965622",
+      "entity": "TECO-WESTINGHOUSE MOTOR",
+      "companyCode": "1504",
+      "facilityId": "3600965622",
+      "responsible": {
+        "kind": "listed",
+        "code": "1504",
+        "name": "東元電機股份有限公司",
+        "short": "東元"
+      },
+      "entityInMops": "TECO HOLDINGS USA INC.",
+      "effectivePct": 100.0,
+      "path": [
+        {
+          "investor": "東元電機股份有限公司",
+          "investee": "TECO HOLDINGS USA INC.",
+          "pct": 100.0
+        }
+      ],
+      "method": "mops-echo-subsidiary",
+      "confidence": "high"
+    },
+    {
+      "source": "EPA ECHO",
       "key": "1210|3600973360",
       "entity": "AMY FOOD",
       "companyCode": "1210",
@@ -8657,6 +8565,282 @@
           "investor": "Dachan(USA), Inc.",
           "investee": "Amy Food, Inc",
           "pct": 80.0
+        }
+      ],
+      "method": "mops-echo-subsidiary",
+      "confidence": "high"
+    },
+    {
+      "source": "EPA ECHO",
+      "key": "1301|3601104956",
+      "entity": "FORMOSA POINT COMFORT PLANT",
+      "companyCode": "1301",
+      "facilityId": "3601104956",
+      "responsible": {
+        "kind": "listed",
+        "code": "1301",
+        "name": "台灣塑膠工業股份有限公司",
+        "short": "台塑"
+      },
+      "effectivePct": 24.82,
+      "path": [],
+      "method": "curated-associate",
+      "confidence": "high",
+      "note": "FPC USA（台塑美國）是台塑 1301 的關聯企業：1301 直接持有 22.66%（台塑 115Q2 合併財報，權益法），台塑工業美國（Formosa Industries Corp.）2026-08-01 併入 FPC USA 後增為 24.82%（MOPS 重大訊息 2026-10-12）。德州 Point Comfort、路易斯安那 Baton Rouge、德拉瓦 Delaware City 廠為 FPC USA 全資子公司。MOPS 子公司清單只收子公司，所以沒有 FPC USA 節點。",
+      "entityName": "Formosa Plastics Corporation, U.S.A.（台塑美國）",
+      "groupName": "台塑集團 Formosa Plastics Group"
+    },
+    {
+      "source": "EPA ECHO",
+      "key": "2723|3600995140",
+      "entity": "PERFECT 85 DEGREES C INC",
+      "companyCode": "2723",
+      "facilityId": "3600995140",
+      "responsible": {
+        "kind": "listed",
+        "code": "2723",
+        "name": "開曼美食達人股份有限公司",
+        "short": "美食-KY"
+      },
+      "entityInMops": "Perfect 85 Degrees C, Inc.",
+      "effectivePct": 100.0,
+      "path": [
+        {
+          "investor": "開曼美食達人股份有限公司",
+          "investee": "Perfect 85 Degrees C, Inc.",
+          "pct": 100.0
+        }
+      ],
+      "method": "mops-echo-subsidiary",
+      "confidence": "high"
+    },
+    {
+      "source": "EPA ECHO",
+      "key": "2027|1600028470",
+      "entity": "TCI TEXARKANA",
+      "companyCode": "2027",
+      "facilityId": "1600028470",
+      "responsible": {
+        "kind": "listed",
+        "code": "2027",
+        "name": "大成不銹鋼工業股份有限公司",
+        "short": "大成鋼"
+      },
+      "entityInMops": "TCI Texarkana, Inc.",
+      "effectivePct": 100.0,
+      "path": [
+        {
+          "investor": "大成不銹鋼工業股份有限公司",
+          "investee": "Ta Chen International, Inc.",
+          "pct": 100.0
+        },
+        {
+          "investor": "Ta Chen International, Inc.",
+          "investee": "TCI Texarkana, Inc.",
+          "pct": 100.0
+        }
+      ],
+      "method": "mops-echo-subsidiary",
+      "confidence": "high"
+    },
+    {
+      "source": "EPA ECHO",
+      "key": "6505|3601242192",
+      "entity": "FG LA, LLC - SUNSHINE PROJECT EARLY WORKS",
+      "companyCode": "6505",
+      "facilityId": "3601242192",
+      "responsible": {
+        "kind": "listed",
+        "code": "6505",
+        "name": "台塑石化股份有限公司",
+        "short": "台塑化"
+      },
+      "entityInMops": "FG LA LLC",
+      "effectivePct": 57.0,
+      "path": [
+        {
+          "investor": "台塑石化股份有限公司",
+          "investee": "FG INC.",
+          "pct": 57.0
+        },
+        {
+          "investor": "FG INC.",
+          "investee": "FG LA LLC",
+          "pct": 100.0
+        }
+      ],
+      "method": "mops-echo-subsidiary",
+      "confidence": "high"
+    },
+    {
+      "source": "EPA ECHO",
+      "key": "6505|3601242202",
+      "entity": "FG LA, LLC - 3127 WIDENING & DRAINAGE IMPROVEMENTS",
+      "companyCode": "6505",
+      "facilityId": "3601242202",
+      "responsible": {
+        "kind": "listed",
+        "code": "6505",
+        "name": "台塑石化股份有限公司",
+        "short": "台塑化"
+      },
+      "entityInMops": "FG LA LLC",
+      "effectivePct": 57.0,
+      "path": [
+        {
+          "investor": "台塑石化股份有限公司",
+          "investee": "FG INC.",
+          "pct": 57.0
+        },
+        {
+          "investor": "FG INC.",
+          "investee": "FG LA LLC",
+          "pct": 100.0
+        }
+      ],
+      "method": "mops-echo-subsidiary",
+      "confidence": "high"
+    },
+    {
+      "source": "EPA ECHO",
+      "key": "2027|3601330163",
+      "entity": "TCI TEXARKANA",
+      "companyCode": "2027",
+      "facilityId": "3601330163",
+      "responsible": {
+        "kind": "listed",
+        "code": "2027",
+        "name": "大成不銹鋼工業股份有限公司",
+        "short": "大成鋼"
+      },
+      "entityInMops": "TCI Texarkana, Inc.",
+      "effectivePct": 100.0,
+      "path": [
+        {
+          "investor": "大成不銹鋼工業股份有限公司",
+          "investee": "Ta Chen International, Inc.",
+          "pct": 100.0
+        },
+        {
+          "investor": "Ta Chen International, Inc.",
+          "investee": "TCI Texarkana, Inc.",
+          "pct": 100.0
+        }
+      ],
+      "method": "mops-echo-subsidiary",
+      "confidence": "high"
+    },
+    {
+      "source": "EPA ECHO",
+      "key": "2104|3601283221",
+      "entity": "CONTINENTAL CARBON",
+      "companyCode": "2104",
+      "facilityId": "3601283221",
+      "responsible": {
+        "kind": "listed",
+        "code": "2104",
+        "name": "國際中橡投資控股股份有限公司",
+        "short": "國際中橡"
+      },
+      "entityInMops": "Continental Carbon Company",
+      "effectivePct": 66.67,
+      "path": [
+        {
+          "investor": "國際中橡投資控股股份有限公司",
+          "investee": "CCC USA Corp.",
+          "pct": 66.67
+        },
+        {
+          "investor": "CCC USA Corp.",
+          "investee": "Continental Carbon Company",
+          "pct": 100.0
+        }
+      ],
+      "method": "mops-echo-subsidiary",
+      "confidence": "high"
+    },
+    {
+      "source": "EPA ECHO",
+      "key": "8069|3601347091",
+      "entity": "E INK CORPORATION",
+      "companyCode": "8069",
+      "facilityId": "3601347091",
+      "responsible": {
+        "kind": "listed",
+        "code": "8069",
+        "name": "元太科技工業股份有限公司",
+        "short": "元太"
+      },
+      "entityInMops": "E Ink Corporation",
+      "effectivePct": 100.0,
+      "path": [
+        {
+          "investor": "元太科技工業股份有限公司",
+          "investee": "E Ink Technology B.V.",
+          "pct": 100.0
+        },
+        {
+          "investor": "E Ink Technology B.V.",
+          "investee": "E Ink Netherlands B.V.",
+          "pct": 100.0
+        },
+        {
+          "investor": "E Ink Netherlands B.V.",
+          "investee": "E Ink Corporation",
+          "pct": 100.0
+        }
+      ],
+      "method": "mops-echo-subsidiary",
+      "confidence": "high"
+    },
+    {
+      "source": "EPA ECHO",
+      "key": "2104|3601600817",
+      "entity": "CONTINENTAL CARBON",
+      "companyCode": "2104",
+      "facilityId": "3601600817",
+      "responsible": {
+        "kind": "listed",
+        "code": "2104",
+        "name": "國際中橡投資控股股份有限公司",
+        "short": "國際中橡"
+      },
+      "entityInMops": "Continental Carbon Company",
+      "effectivePct": 66.67,
+      "path": [
+        {
+          "investor": "國際中橡投資控股股份有限公司",
+          "investee": "CCC USA Corp.",
+          "pct": 66.67
+        },
+        {
+          "investor": "CCC USA Corp.",
+          "investee": "Continental Carbon Company",
+          "pct": 100.0
+        }
+      ],
+      "method": "mops-echo-subsidiary",
+      "confidence": "high"
+    },
+    {
+      "source": "EPA ECHO",
+      "key": "2908|3600825999",
+      "entity": "TEST RITE PRODUCTS CORP",
+      "companyCode": "2908",
+      "facilityId": "3600825999",
+      "responsible": {
+        "kind": "listed",
+        "code": "2908",
+        "name": "特力股份有限公司",
+        "short": "特力"
+      },
+      "entityInMops": "Test-Rite International (U.S.) Co., Ltd.",
+      "effectivePct": 100.0,
+      "path": [
+        {
+          "investor": "特力股份有限公司",
+          "investee": "Test-Rite International (U.S.) Co., Ltd.",
+          "pct": 100.0
         }
       ],
       "method": "mops-echo-subsidiary",

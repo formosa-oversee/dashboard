@@ -84,11 +84,20 @@ TRI 申報者會填外國母公司。用 MOPS 上市櫃公司英文名稱比對�
 
 ## 4. 發現的缺口
 
-§4.2 已在 2026-10-25 處理，§4.3 在 2026-10-27 處理；其餘還沒處理，網站照舊。
+§4.2 已在 2026-10-25 處理，§4.1、§4.3、§4.4 在 2026-10-27 處理。
 
 ### 4.1 同廠區其他 NPDES 許可證
 
 我們 166 個廠區在 FRS 底下總共有 477 張 NPDES 許可證，資料裡只有 196 張。多出的 281 張有 252 張落在 3 個住宅建案的廠區（Vista Del Verde、Asante、Canyon Trails，亞利桑那）：台積電的 3 張工地許可證被 FRS 併進這些建案，建案本身的許可證與台積電無關，不應納入。其餘工廠多出的許可證只有零星幾張（MEMC 2、KEMET 2、TCI Texarkana 1、WaferTech 1），單一事件／時程違規合計 34 筆，多數在建案。
+
+2026-10-27 逐張查持證人與有效期間：
+- 加：WaferTech 的預處理許可 WAP006200（持證人 WaferTech LLC，2005 年起）。
+- 不加：
+  - MEMC 的 MOR10D922、MORA00484 是 2011–2017 年的營建雨水許可，幾乎都在環球晶 2016-12 收購以前。
+  - KEMET 的 SCR000434、SCR000435 在 2010 年終止，比國巨收購早。
+  - TCI Texarkana 的 TXR05M678 在前業主 Alumax 名下。
+  - 台積電亞利桑那另兩張營建許可 AZC111124、AZC116442，持證人是承包商 Sundt、Austin Commercial。
+  - 廣達 CAZ505820（2019–2021）、建大 MOX049664、台達 TXR1534VS、ATS CAZ449658 所在的廠區，既有匹配本身是 `weak`／`unverified`，或 MOPS 對不到子公司，不在這次擴充。
 
 ### 4.2 水污染資料是舊快照，也沒有處分（2026-10-25 已處理）
 
@@ -116,16 +125,55 @@ TRI 申報者會填外國母公司。用 MOPS 上市櫃公司英文名稱比對�
 
 處理：除了 Baton Rouge 的淨水設施（只有飲用水登記，網站不收），都列進 `build-echo-programs.py` 的 `SAME_SITE`，系統編號與排放量併進我們的廠區（見 `enforcement-data-interface.md` 第 9 節）。網站因此多 6 筆紀錄：Formosa Hydrocarbons 1996 年的聯邦案件、Marine Terminal 2008–2009 年的廢棄物違規與處分各 1 筆、南亞 Wharton 2019 年的廢棄物違規 2 筆與處分 1 筆。APG Polytech 的廢棄物登記 31 筆、KEMET 兩個登記 2 筆都在取得控制以前，排除。設施頁的溫室氣體排放量多了 FPC Point Comfort 529 萬、南亞 Lake City 12.8 萬、APG Polytech 4.0 萬公噸。
 
-### 4.4 還沒收錄的台資工廠
+### 4.4 還沒收錄的台資工廠（2026-10-27 已處理）
 
-以品牌名在 Exporter 全表搜尋，以及 TRI 的外國母公司欄位，找到資料庫裡沒有、但看起來是台灣母公司的廠區（待逐一確認持股與時點）：
+以品牌名在 Exporter 全表搜尋，以及 TRI 的外國母公司欄位，找到資料庫裡沒有、但看起來是台灣母公司的廠區。2026-10-27 逐一查證持股、取得控制日期，以及工廠在台灣母公司取得控制後是否還在營運（SEC 文件、年報、MOPS 重大訊息、州政府資料）。原則：取得控制前就關廠或賣掉的不加；營建雨水許可的持證人是承包商或地主的不加。
 
-- 國巨 2327：KEMET 在 Fountain Inn SC（2 次罰款）、Shelby NC、Brownsville TX（8 季不合規）、Columbus GA、Carson City NV（KEMET Blue Powder）、Knoxville TN。
-- 環球晶 6488：GlobalWafers America／MEMC Southwest，Sherman TX；MEMC Moore SC（12 季不合規，需確認是否仍屬環球晶）。
-- 元太 8069：E Ink Billerica MA（6 季不合規），我們只有 South Hadley。
-- 保瑞 6472：Upsher-Smith Maple Grove MN（TRI）、Plymouth MN。
-- 鴻海 2317：Sharp Manufacturing，Memphis TN、Jamestown TN。
-- 大成不銹鋼 2027：Ta Chen Long Beach CA、Gardena CA、Morrow GA。
-- 東元 1504：TECO-Westinghouse Motor，Round Rock TX（TRI 外國母公司欄位找到）。
+**加進網站的**（有 NPDES 許可證的走 `build-echo-supplement.py` 的 `CONFIRMED`，沒有的走 `build-echo-programs.py` 的 `EXTRA_SITES`，取得控制日期都寫在 `CONTROL_SINCE`）：
 
-TRI 外國母公司欄位的比對結果見 §3.4。
+| 公司 | 工廠 | 登記 | 取得控制 | 依據 |
+|---|---|---|---|---|
+| 環球晶 6488 | GlobalWafers America，Sherman TX（新廠） | 110071945656（雨水許可 TXR05GR94）＋110072209293（RCRA） | 2022-08-04 自設 | 環球晶 111 年報：GTI 2022-08 新設 GWA；2022-12-01 動土 |
+| 元太 8069 | E Ink，Billerica MA | 110056371144（MANOEJ02S、MAPIU005O） | 2009-12-24（廠址 2013 年啟用） | 元太 2013 年報、遷址公告 |
+| 元太 8069 | E Ink，47485 Seabridge Dr，Fremont CA（原 SiPix） | 110012230264（RCRA） | 2012-11 | 元太 2012 年報、104 年度合併財報附註：E Ink California, LLC 原名 SiPix Imaging |
+| 保瑞 6472 | Upsher-Smith，Maple Grove MN | 110068499333（空污）＋110071715565（TRI） | 2024-04-01 | 保瑞重大訊息 113/04/02 |
+| 保瑞 6472 | Upsher-Smith，Plymouth MN | 110001130981 | 2024-04-01（2025 年關廠） | 同上；Star Tribune 2025-02-07 WARN 通知 |
+| 東元 1504 | TECO-Westinghouse Motor，Round Rock TX | 110000599905（TXR05CU05）、110072257417（TXR05HD30） | 1995-04 | 1995-04 東元買下西屋在合資公司的股份；合資期間由西屋控制（西屋 FY1993 10-K） |
+| 鴻海 2317 | Sharp Manufacturing，Memphis TN（併入既有廠區） | 110071087344、110012706143 → 110001862208 | 2016-08-12 | 夏普公告 160812-4；見下方鴻海–夏普說明 |
+
+網站因此多 6 個設施、18 筆紀錄（都在取得控制之後）：
+- E Ink Billerica：2015、2024 年的廢棄物違規 6 筆，處分 1 筆。
+- E Ink Fremont：2014、2017 年的違規 2 筆。
+- 夏普 Memphis：2017 年的廢棄物違規 2 筆、處分 3 筆，以及 2026 年的 FIFRA 警告（無罰款）。
+- TECO-Westinghouse：2004 年的違規與口頭處分各 1 筆。
+- Upsher-Smith Maple Grove：2024-12 州政府的空污警告信 1 筆。
+- GWA 新廠：還沒有紀錄。
+
+取得控制前排除的見 `enforcement-data-interface.md` 第 9 節。
+
+**不加的**：
+
+| 公司 | 工廠 | 原因 |
+|---|---|---|
+| 國巨 2327 | KEMET Fountain Inn SC | 2008 年閒置、2010-08 賣給 SAATI Americas（KEMET 10-K、SAATI 公告）；EPA 案件 04-2022-2109 的被告是 SAATI |
+| 國巨 2327 | KEMET Blue Powder，Carson City NV | 2019-12-31 停產（KEMET FY2020 10-K），在國巨 2020-06-15 收購以前 |
+| 國巨 2327 | KEMET Shelby NC、Greenwood SC、Columbus GA、Knoxville TN（Foil）、Greenville SC 等 | 2016 年以前關廠或出售；Brownsville TX 是承租的物流倉，紀錄全在 2003–2008 |
+| 國巨 2327 | KEMET Simpsonville Building 1（SCR10ZHNQ） | 下水道工程的營建雨水許可，持證人只寫個人名，無法確認是 KEMET |
+| 環球晶 6488 | MEMC Southwest，Sherman TX | 2011-12-31 關廠，與 GWA 新廠不同地點 |
+| 環球晶 6488 | MEMC，Moore SC（Spartanburg） | 1999 停產、2003-07-01 出售（MEMC 10-Q），現登記為 Midland Capital |
+| 環球晶 6488 | GWA 新廠的兩張營建雨水許可（TXR1520LK、TXR1582UY） | 持證人是承包商 Austin Commercial |
+| 元太 8069 | E Ink Cambridge、Woburn MA；Fremont 46724 Lakeview Blvd | Cambridge 2013 遷走、控制期間只有一次無違規檢查；Woburn 找不到 2009 年後還在用的證據；Lakeview 啟用日不明、沒有任何紀錄 |
+| 保瑞 6472 | Upsher-Smith Minneapolis MN | Inactive，找不到 2024 年後還是 Upsher-Smith 據點的證據 |
+| 大成不銹鋼 2027 | Ta Chen Long Beach（5855 Obispo Ave、5860 Paramount Ave）、Gardena CA、Morrow GA、Duluth GA | TCI 經營期間沒有任何執法紀錄；Paramount 的營建雨水許可持證人是地主 CenterPoint，喬治亞兩張營建雨水許可持證人無法確認；Obispo 1987–1989 的 TRI 屬前業主 REDA Camco |
+| 鴻海 2317 | Sharp Manufacturing Co，Jamestown TN | 1985 年的針織外衣廠（NAICS 315191），與夏普無關 |
+
+**鴻海–夏普**：鴻海自己的合併財報從 2016 年起把夏普列為權益法關聯企業（2025 年直接及間接 34.12%，判斷「不具控制，僅具重大影響」），不是子公司，所以 MOPS 子公司表沒有夏普。夏普依日本法把鴻海認定為母公司。網站照台塑對 FPC USA（權益法 22.66%）的先例，以集團最大股東歸屬，依據寫明這一點。
+
+主要來源：
+- KEMET：合併完成 8-K（2020-06-15）；各廠關閉或出售見 KEMET 10-K／10-Q：Fountain Inn（FY2008 10-K、SAATI 2010-08-18 公告 tradeandindustrydev.com/…/sc-saati-americas-announces-new-facility-greenville-county-4207）、Carson City（sec.gov/Archives/edgar/data/887730/000088773020000032）、Knoxville（…/000088773019000033）、Shelby（…/000110465907009160）、Greenwood（…/000110465906007327）。
+- 環球晶：111 年報（sas-globalwafers.com/wp-content/uploads/2023/05/2022-GlobalWafers-Annual-Report_CN.pdf）；MEMC Southwest 關廠（sec.gov/Archives/edgar/data/945436/000094543612000008）；Moore SC 出售（…/945436/000094543603000034）。
+- 元太：2013 年報（遷 Billerica）；SiPix 併入見元太 104 年度合併財報附註。
+- 保瑞：重大訊息 113/04/02；upsher-smith.com/?p=2196；Plymouth WARN（startribune.com/upsher-smith/601218309）。
+- 東元：tecowestinghouse.com/company/company-profile；西屋 FY1993 10-K（sec.gov/Archives/edgar/data/106413/0000950128-94-000049.txt）。
+- 夏普：global.sharp/corporate/ir/topics/pdf/160812-4.pdf；鴻海 2025 合併財報 p.50、p.53（image.honhai.com/upload/202603/financy_by_quarterly/2025Q4_consolidared_report(c)_20260316_8056.pdf）；FIFRA 案件 echo.epa.gov/enforcement-case-report?id=04-2026-3677。
+- 大成不銹鋼：大成 2000 年報（TCI 1989-11 設立）；長堤營建許可持證人 centerpoint.com/media/west-region-team-wraps-up-ta-chens-long-beach-redevelopment/；據點 tachen.com/location_US.asp。

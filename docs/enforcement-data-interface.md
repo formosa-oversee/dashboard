@@ -344,7 +344,7 @@ EPA 的 FRS（Facility Registry Service）替每個實體廠區配一個 `REGIST
 1. 我們 196 個設施的 NPDES 許可證，在 Exporter 全部對得到，共 165 個廠區。一個廠區常有好幾張 NPDES 許可證，例如 FPC Texas 有主廠排放許可和兩張雨水許可。
 2. 用廠區的空污編號到 ICIS-Air、廢棄物編號到 RCRAInfo、`REGISTRY_ID` 到 ICIS FE&C 案件檔、我們的 NPDES 許可證到 ICIS-NPDES 處分檔取逐筆紀錄。
 3. 空污、廢棄物是廠區層級的紀錄，掛在主要設施，也就是個別許可證優先於通用許可證的那一個，避免同一筆在公司頁算好幾次。水污染處分是許可證層級的，掛在該許可證的設施（`facilityId`）。
-4. 沒有 NPDES 許可證的台灣母公司工廠，以前因為網站只收水污而沒有納入，列在 `EXTRA_SITES`，用 `REGISTRY_ID` 當設施編號另建設施，持股鏈沿用同一子公司的既有設施。目前只有 Continental Carbon Ponca City OK（國際中橡 2104）。
+4. 沒有 NPDES 許可證的台灣母公司工廠，以前因為網站只收水污而沒有納入，列在 `EXTRA_SITES`，用 `REGISTRY_ID` 當設施編號另建設施，持股鏈沿用同一子公司的既有設施。目前有 Continental Carbon Ponca City OK（國際中橡 2104），以及 2026-10-27 補進的 E Ink Fremont CA（元太 8069）、Upsher-Smith Maple Grove 與 Plymouth MN（保瑞 6472）。
 5. 同一座工廠在 FRS 常有好幾個登記：名稱、地址寫法不同就分開建檔，例如溫室氣體申報、碼頭、同廠區另一棟建物。查到的列在 `SAME_SITE`，以 Exporter 的地址、座標確認屬同一工廠後，把它們的空污、廢棄物、TRI、GHG 編號與排放量併進我們的廠區，聯邦案件也以這些 `REGISTRY_ID` 對。廠區輸出 `relatedRegistries` 記併入了哪些登記。排放量是各登記最近申報年度的數字，編號不重複才加總。
 
 ### 收錄的紀錄
@@ -391,7 +391,7 @@ EPA 的 FRS（Facility Registry Service）替每個實體廠區配一個 `REGIST
 | Corpus Christi Polymers，Corpus Christi TX（遠東新 1402，持股 1/3） | 2018-12-28 | M&G USA（破產） | — | 204 筆，全部 |
 | MEMC，O'Fallon MO（環球晶 6488） | 2016-12-02 | SunEdison Semiconductor | 46 筆，全部 | 154 筆 |
 | FPC Illiopolis IL（台塑 1301） | 2002-04 | Borden Chemicals and Plastics | 39 筆 | 6 筆 |
-| KEMET，Simpsonville SC（國巨 2327） | 2020-06 | — | 25 筆 | — |
+| KEMET，Simpsonville SC（國巨 2327） | 2020-06-15 | — | 25 筆 | — |
 | TCI Texarkana TX（大成不銹鋼 2027） | 2018 | Arconic | 19 筆 | （補充資料已排除 556 筆） |
 | Upsher-Smith，Denver CO（保瑞 6472） | 2024-04-01 | Sawai | 15 筆，全部 | — |
 | APG Polytech，Apple Grove WV（遠東新 1402） | 2018-03-01 | M&G Polymers USA | 39 筆，全部 | 123 筆 |
@@ -401,6 +401,10 @@ EPA 的 FRS（Facility Registry Service）替每個實體廠區配一個 `REGIST
 | FPC Baton Rouge LA（台塑 1301） | 1981 | ICI 子公司 | 2 筆 | — |
 | Continental Coatings，Fontana CA（永記 1726） | 2012-11 | 不明 | 2 筆 | — |
 | FS Precision Tech，Compton CA（復盛應用 6670） | 2004-09 | Coastcast | 1 筆 | — |
+| Upsher-Smith，Plymouth MN（保瑞 6472，2026-10-27 補進） | 2024-04-01 | Sawai | 13 筆 | — |
+| Sharp Manufacturing，Memphis TN（鴻海 2317） | 2016-08-12 | 夏普（鴻海入股前） | 6 筆 | — |
+| E Ink，Fremont CA（元太 8069，2026-10-27 補進） | 2012-11 | SiPix Imaging | 2 筆 | — |
+| Upsher-Smith，Maple Grove MN（保瑞 6472，2026-10-27 補進） | 2024-04-01 | Sawai | 1 筆 | — |
 
 另外查到七個既有 ECHO 匹配是同名誤配，不是台灣母公司的工廠，列在 `NOT_OWNED`，不掛任何空污、廢棄物紀錄與水污處分（後四個是第二批查到的）：
 

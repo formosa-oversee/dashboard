@@ -40,7 +40,7 @@ CONTROL_SINCE = [
     ('2104', '110000369798', '1995-01-01', 'Continental Carbon Phenix City AL', '1995 年中橡向 Witco 買下 Continental Carbon（continentalcarbonasia.com 集團沿革）'),
     ('2104', '110000465728', '1995-01-01', 'Continental Carbon Sunray TX', '同上'),
     ('2104', '110000455766', '1995-01-01', 'Continental Carbon Ponca City OK', '同上'),
-    ('2327', '110017088355', '2020-06-01', 'KEMET Simpsonville SC', '國巨 2020-06 完成收購 KEMET（resolve-ownership.py CURATED）'),
+    ('2327', '110017088355', '2020-06-15', 'KEMET Simpsonville SC', '2020-06-15 國巨完成合併 KEMET（KEMET 8-K：「On June 15, 2020 … consummated the previously announced merger」）'),
     ('2330', '110000490772', '1996-06-01', 'WaferTech Camas WA', '1996-06 台積電主導合資成立，2000-12 起近 100%（pr.tsmc.com/english/news/2290、Altera 10-K）'),
     ('2383', '110000477608', '2021-01-18', 'Arlon EMD Rancho Cucamonga CA', '2021-01 台光電向 CriticalPoint Capital 買下（arlonemd.com 2021-01-18 公告）'),
     ('6472', '110000887942', '2024-04-01', 'Upsher-Smith Denver CO', '2024-04-01 保瑞向 Sawai 完成收購 Upsher-Smith（boracdmo.com 公告）；公告只列明尼蘇達廠'),
@@ -54,6 +54,15 @@ CONTROL_SINCE = [
     ('5009', '110070094063', '2010-01-01', 'Alloy Tool Steel Santa Fe Springs CA', '榮剛 2010 年取得 55%、2011 年 85%（榮剛 2010、2011 年報）；月份不明'),
     ('6887', '110070093475', '2013-05-30', 'Boretech Stockton CA', '寶綠特 2013-05-30 設立 Boretech LLC（現名 CYCLEPLUS LLC）自建（寶綠特 2024 年報、wastedive.com 2014-08-12）'),
     ('2027', '110070263045', '2017-08-01', 'Primus Pipe and Tube Wildwood FL', '2017-08-01 大成不銹鋼美國子公司向 Outokumpu 買下 Outokumpu Stainless Pipe（大成重大訊息 2017-08-01、outokumpu.com 公告）'),
+    # 2026-10-27 第三批：ECHO 品牌名搜尋與 TRI 外國母公司欄位找到、資料裡原本沒有的工廠（docs/echo-data-sources.md §4.4）
+    ('6488', '110071945656', '2022-08-04', 'GlobalWafers America Sherman TX', '環球晶自建：GTI 2022-08 新設 GlobalWafers America（環球晶 111 年報），2022-12-01 動土'),
+    ('8069', '110056371144', '2009-12-24', 'E Ink Corporation Billerica MA', '元太 2009-12 取得 E Ink（同 South Hadley）；Billerica 廠 2013 年啟用（元太 2013 年報）'),
+    ('8069', '110012230264', '2012-11-01', 'E Ink Fremont CA（原 SiPix）', '2012-11 元太完成收購 SiPix Imaging，改名 E Ink California, LLC（元太 2012 年報、104 年度合併財報附註）；月份以前的紀錄屬 SiPix'),
+    ('6472', '110068499333', '2024-04-01', 'Upsher-Smith Maple Grove MN', '保瑞重大訊息 113/04/02：美東時間 4 月 1 日接手 Upsher-Smith，100% 持股'),
+    ('6472', '110001130981', '2024-04-01', 'Upsher-Smith Plymouth MN', '同上；2025-02 發出 WARN 關廠通知（Star Tribune 2025-02-07）'),
+    ('1504', '110000599905', '1995-04-01', 'TECO-Westinghouse Motor Round Rock TX', '1995-04 東元買下西屋在合資公司的全部股份（tecowestinghouse.com 公司簡介）；合資期間由西屋控制（西屋 FY1993 10-K），月份以前的紀錄不算'),
+    ('1504', '110072257417', '1995-04-01', 'TECO-Westinghouse Motor Round Rock TX（2026 雨水許可）', '同上'),
+    ('2317', '110001862208', '2016-08-12', 'Sharp Manufacturing Company of America Memphis TN', '2016-08-12 鴻海完成認購夏普新股（夏普公告 160812-4、鴻海 2016 合併財報）；1979 年以來的夏普工廠，之前的紀錄不算'),
 ]
 
 # 查證後確定與台灣母公司無關的同名誤配廠區：不掛空污、廢棄物紀錄與水污處分；設施與水污染違規（violations.csv）在建置時拿掉（2026-10-27 決定）
@@ -71,6 +80,10 @@ NOT_OWNED = [
 # 候選來自 ECHO 覆蓋率稽核（data/echo-coverage-audit.json 的 npdesIds 為空者），每筆人工確認
 EXTRA_SITES = [
     ('2104', '110000455766', 'MOPS：國際中橡 → CCC USA Corp.（66.67%）→ Continental Carbon Company；Ponca City 廠沒有 NPDES 許可證', '2104|3600967495'),
+    # 2026-10-27 第三批（docs/echo-data-sources.md §4.4）
+    ('8069', '110012230264', 'MOPS：元太 → … → E Ink Corporation（100%）；Fremont 47485 Seabridge Dr 原是 SiPix Imaging（2012-11 併入，改名 E Ink California, LLC），現由 E Ink Corporation 持有有害廢棄物登記', '8069|3600135516'),
+    ('6472', '110068499333', 'MOPS：保瑞 → Bora Pharmaceutical Holdings → … → Upsher-Smith Laboratories, LLC（100%）；Maple Grove 6701 Evenstad Dr 製造廠', '6472|3601322171'),
+    ('6472', '110001130981', 'MOPS：保瑞 → Bora Pharmaceutical Holdings → … → Upsher-Smith Laboratories, LLC（100%）；Plymouth 14905 23rd Ave N 製造廠，2025 年關廠', '6472|3601322171'),
 ]
 
 # 同一座工廠在 FRS 的其他登記：(公司代號, 另一個 REGISTRY_ID, 併入的我們廠區 REGISTRY_ID, 依據)
@@ -86,6 +99,10 @@ SAME_SITE = [
     ('1402', '110070639169', '110000585956', 'APG POLYTECH LLC（27610 Huntington Rd）：Apple Grove 廠的有害廢棄物登記'),
     ('2327', '110004939103', '110017088355', 'KEMET ELECTRONICS CORPORATION（1428 Old Stage Rd）：Simpsonville 廠區的有害廢棄物登記，距 2835 Kemet Way 約 2 公里'),
     ('2327', '110000354152', '110017088355', 'KEMET:MAULDIN（1224 Old Stage Rd）：Simpsonville 廠區的有害廢棄物登記，距 2835 Kemet Way 約 1.3 公里'),
+    ('6488', '110072209293', '110071945656', 'GLOBALWAFERS AMERICA（3200 Northgate Dr）：Sherman 新廠的有害廢棄物登記，與雨水許可的 3230 Northgate Dr 同一廠區'),
+    ('6472', '110071715565', '110068499333', 'UPSHER-SMITH LABORATORIES, LLC：同址 6701 Evenstad Dr 的 TRI 申報'),
+    ('2317', '110071087344', '110001862208', 'SHARP MANUFACTURING COMPANY OF AMERICA（4050 S Mendenhall Rd）：同址的 EPA 案件登記（FIFRA）'),
+    ('2317', '110012706143', '110001862208', 'SHARP ELECTRONICS CORP. SHARP MANUFACTURING DIV.（4120 S Mendenhall）：同一 104 英畝廠區的有害廢棄物登記與 TRI，相距約 150 公尺'),
 ]
 
 DFR = 'https://echo.epa.gov/detailed-facility-report?fid='

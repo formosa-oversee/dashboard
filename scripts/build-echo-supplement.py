@@ -41,7 +41,14 @@ CONFIRMED = [
     ('2603', 'Everport Terminal Services Inc.', 'MOPS：長榮 → Everport Terminal Services（94.43%）', ['CAZ466559']),
     ('1210', 'Amy Food, Inc', 'MOPS：大成 → Dachan (USA) → Amy Food（80%）', ['TXRNEBU79', 'TXRNET517']),
     ('1303', '南亞塑膠美洲有限公司', 'MOPS：南亞 → 南亞塑膠美洲（Nan Ya Plastics Corp., America）', ['SCR000483']),
-    ('2317', 'Sharp Manufacturing Company of America', '夏普美國製造，夏普 2016 起為鴻海集團', ['TNR053068'], 2016),
+    # 鴻海財報把夏普列為權益法關聯企業（不具控制），跟台塑對 FPC USA 一樣照集團歸屬；SMCA 是夏普美國子公司 Sharp Electronics Corporation 的製造事業部
+    ('2317', 'Sharp Manufacturing Company of America', '夏普美國製造（Sharp Electronics Corporation 事業部）；鴻海 2016-08-12 起為夏普單一最大股東（直接及間接 34%，鴻海 2025 合併財報），夏普依日本法認定鴻海為母公司', ['TNR053068'], 2016),
+    # 2026-10-27 同廠區漏掉的許可證（docs/echo-data-sources.md §4.1）
+    ('2330', 'TSMC Washington', 'MOPS：台積電 → TSMC Development → TSMC Washington（100%）；WaferTech 廠的預處理許可，持證人 WaferTech LLC', ['WAP006200'], 1996),
+    # 2026-10-27 第三批（docs/echo-data-sources.md §4.4）；營建雨水許可的持證人是承包商的不收（GWA 的 TXR1520LK、TXR1582UY）
+    ('6488', 'GlobalWafers America, LLC', 'MOPS：環球晶 → GTI → GlobalWafers America（100%）；Sherman TX 新廠工業雨水許可，持證人 GWA', ['TXR05GR94'], 2022),
+    ('8069', 'E Ink Corporation', 'MOPS：元太 → E Ink Technology → E Ink Netherlands → E Ink Corporation（100%）；2013 年由 Cambridge 遷到 Billerica，持證人 E Ink Corporation', ['MANOEJ02S', 'MAPIU005O'], 2009),
+    ('1504', 'TECO HOLDINGS USA INC.', 'MOPS：東元 → TECO Holdings USA（德高國際(美國)，100%）及其子公司 TECO-Westinghouse Motor Company（東元合併財報附註）；持證人 TECO-Westinghouse Motor Company', ['TXR05CU05', 'TXR05HD30'], 1995),
 ]
 
 VIOLATION_FILES = ['NPDES_EFF_VIOLATIONS.csv', 'NPDES_SE_VIOLATIONS.csv', 'NPDES_CS_VIOLATIONS.csv', 'NPDES_PS_VIOLATIONS.csv']

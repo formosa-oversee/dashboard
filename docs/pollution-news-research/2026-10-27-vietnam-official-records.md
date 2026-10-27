@@ -1,6 +1,6 @@
-# 越南省級處分決定書：建大越南（2026-10-27）
+# 越南省級處分決定書：同奈省（2026-10-27）
 
-spec 第 7 節「其他公司」O5、O6 的查證紀錄，以及兩筆待補來源的越南案件。資料管線、名稱對照與原始檔在 repo 外的 `formosa-oversee/overseas-enforcement/`（`map_vn/`、`vn_reverse/`），這裡只記個別事件的依據。
+spec 第 7 節「其他公司」O5–O8 的查證紀錄，以及兩筆待補來源的越南案件。資料管線、名稱對照與原始檔在 repo 外的 `formosa-oversee/overseas-enforcement/`（`map_vn/`、`vn_reverse/`），這裡只記個別事件的依據。
 
 ## 怎麼找到的
 
@@ -33,6 +33,27 @@ spec 第 7 節「其他公司」O5、O6 的查證紀錄，以及兩筆待補來�
 - 決定書寫明不加處停止排放源：公司已取得環境許可證 33/GPMT-KCNĐN（2024-04-22，2025-04-04 換發 32/GPMT-KCNĐN），工業區管理委員會 2025-02-18 已通知廢棄物處理設施試運轉完成，且停業會影響 1,600 多名員工；廠址符合工業區規劃，不要求遷廠。
 - 這與 2020 年待補案（下節）的「未取得完工確認書就運轉」是同一個問題的延續，摘要沒有提 2020 年案，因為它還沒有達到門檻。
 
+## 同奈省「Xử phạt」分類掃描（O7、O8 的來源）
+
+- 抓取：名稱對照 agent 用 `map_vn/r3a/scripts/crawl_dongnai_xuphat.py` 抓列表頁 `https://dongnai.gov.vn/vi/news/Xu-phat/page-N/`，每頁間隔 1 秒，失敗重試 2 次，已存檔的頁面不重抓（快取在 `map_vn/r3a/raw/dn_xuphat_page*.html`）。第 8 頁以後的內容是重複的，但腳本要連續兩頁沒有連結才停，結果抓到上限 400 頁；之後不要再重爬列表，直接用快取。
+- 範圍：去重後 421 篇公告（`map_vn/r3a/out/dongnai_xuphat_links.tsv`，文章編號 43526–62372，約 2024-05 起至抓取當天）。公告標題是受罰組織的越南文名，決定書 PDF 才有稅號。
+- 這一輪的比對只是局部：agent 拿自己負責的 107 家子公司裡已找到越南文名的公司，對公告標題的公司名，命中健鼎、豐泰兩家，再讀決定書 PDF（OCR）核對稅號與地址。其餘 421 篇沒有逐份讀 PDF。
+- 完整掃描進行中：每份決定書 OCR 第一頁取稅號 → 國家工商登記查英文名（Name_F）→ 與 MOPS 越南子公司（`shared/all_VN.csv`，528 家）正規化比對，並用各輪名稱對照已知的稅號直接比對。越南文名常與英文名對不上（例：CÔNG TY TNHH TỶ THẠC＝YIH SHUO FOOTWEAR），只比名稱會漏；O5–O8 四家的登記英文名都與 MOPS 名稱逐字相同。個別公告頁與 PDF 每 3 秒最多 1 次，工商登記每 6 秒 1 次，都有快取。結果補在這一節。
+
+## O7：288/QĐ-XPHC（2025-07-02），健鼎越南
+
+- 受罰：Công ty TNHH Electronic Tripod Việt Nam (Biên Hòa)，一人有限公司，稅號 3600240030，邊和第二工業區 3A 路 31 號，1995-09-22 首次登記。國家工商登記英文名 TRIPOD VIETNAM (BIENHOA) ELECTRONIC COMPANY LIMITED，與 MOPS 2025Q2 健鼎本公司直接持有 100% 的子公司同名。
+- 經過：省公安經濟警察 2025-06-02 違規筆錄 72/BB-VPHC 與同日檢測報告；公司 2025-06-03 發文提出異議、請求重新檢視兩項檢測結果；省公安 2025-06-18 查核後維持建議。
+- 行為：廢水量屬每日 4,000 至 4,500 立方公尺級距，決定書原文「thông số Clo」超過技術規範 2.78 倍（沒有寫明是 QCVN 40 的餘氯 Clo dư 或氯化物 Clorua），第 45/2022/NĐ-CP 第 18 條第 3 項 v 點，11.5 億越南盾；總礦物油（Tổng dầu mỡ khoáng）超過 1.2 倍，同條第 7 項加罰 10%，1.15 億。合計 12.65 億越南盾，另須支付採樣分析費 17,135,258 越南盾。
+- 沒有要求補救措施，理由是資料不足以認定這項違規造成的環境狀況。加重、減輕情節皆無。
+
+## O8：3573/QĐ-XPHC（2024-11-26），豐泰 Dona Standard
+
+- 受罰：Công ty TNHH Giày Dona Standard Việt Nam，稅號 3600834796，春祿工業區，2006-06-23 首次登記。國家工商登記英文名 VIETNAM DONA STANDARD FOOTWEAR CO., LTD，與 MOPS 2025Q2 豐泰子公司同名（本公司與 Growth-Link Overseas 合計持有 Dona Orient Holdings 100%，DOH 持有 100%）。
+- 決定書號碼手寫，OCR 讀成 2572，影像與公告標題都是 3573。
+- 行為：廠區 1、2、4 各兩項。取得環保設施完工確認書前就正式運轉，以無環境許可證論處（第 14 條第 3 項 c 點，各 3 億）；未申報比核准環評多裝的機器與粉塵、廢氣處理設施（第 10 條第 1 項 d 點，各 0.6 億）。合計 10.8 億越南盾。
+- 減輕情節：主動申報、坦承違規；已依 2020 年環保法申請環境許可證並納入變更內容；當地沒有收到環境陳情。同樣理由不加處停止排放源；廠址符合工業區規劃，不要求遷廠。
+
 ## 待補來源
 
 | 案件 | 現有來源 | 缺什麼 |
@@ -53,3 +74,7 @@ spec 第 7 節「其他公司」O5、O6 的查證紀錄，以及兩筆待補來�
 | https://dongnai.gov.vn/uploads/binhphuoc/news/2025/07/296_qd_qdub_2025.pdf | https://web.archive.org/web/20261027023233/https://dongnai.gov.vn/uploads/binhphuoc/news/2025/07/296_qd_qdub_2025.pdf |
 | https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-moi-truong-doi-voi-cong-ty-cao-su-kenda-viet-nam-54210.html | https://web.archive.org/web/20261027023155/https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-moi-truong-doi-voi-cong-ty-cao-su-kenda-viet-nam-54210.html |
 | https://thanhtravietnam.vn/xa-hoi/xu-phat-cong-ty-cao-su-kenda-viet-nam-210-trieu-dong-211402.html | http://web.archive.org/web/20241126202418/https://thanhtravietnam.vn/xa-hoi/xu-phat-cong-ty-cao-su-kenda-viet-nam-210-trieu-dong-211402.html |
+| https://dongnai.gov.vn/uploads/binhphuoc/news/2025/07/288_qd_qdub_2025.pdf | https://web.archive.org/web/20261027025103/https://dongnai.gov.vn/uploads/binhphuoc/news/2025/07/288_qd_qdub_2025.pdf |
+| https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-moi-truong-doi-voi-cong-ty-tnhh-electronic-tripod-viet-nam-bien-hoa-54172.html | https://web.archive.org/web/20261027025128/https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-moi-truong-doi-voi-cong-ty-tnhh-electronic-tripod-viet-nam-bien-hoa-54172.html |
+| https://dongnai.gov.vn/uploads/binhphuoc/news/2024/12/2024-qd-3573.pdf | https://web.archive.org/web/20261027025206/https://dongnai.gov.vn/uploads/binhphuoc/news/2024/12/2024-qd-3573.pdf |
+| https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-doi-voi-cong-ty-tnhh-giay-dona-standard-viet-nam-49301.html | https://web.archive.org/web/20261027025231/https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-doi-voi-cong-ty-tnhh-giay-dona-standard-viet-nam-49301.html |

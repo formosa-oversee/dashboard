@@ -345,6 +345,7 @@ EPA 的 FRS（Facility Registry Service）替每個實體廠區配一個 `REGIST
 2. 用廠區的空污編號到 ICIS-Air、廢棄物編號到 RCRAInfo、`REGISTRY_ID` 到 ICIS FE&C 案件檔、我們的 NPDES 許可證到 ICIS-NPDES 處分檔取逐筆紀錄。
 3. 空污、廢棄物是廠區層級的紀錄，掛在主要設施，也就是個別許可證優先於通用許可證的那一個，避免同一筆在公司頁算好幾次。水污染處分是許可證層級的，掛在該許可證的設施（`facilityId`）。
 4. 沒有 NPDES 許可證的台灣母公司工廠，以前因為網站只收水污而沒有納入，列在 `EXTRA_SITES`，用 `REGISTRY_ID` 當設施編號另建設施，持股鏈沿用同一子公司的既有設施。目前只有 Continental Carbon Ponca City OK（國際中橡 2104）。
+5. 同一座工廠在 FRS 常有好幾個登記：名稱、地址寫法不同就分開建檔，例如溫室氣體申報、碼頭、同廠區另一棟建物。查到的列在 `SAME_SITE`，以 Exporter 的地址、座標確認屬同一工廠後，把它們的空污、廢棄物、TRI、GHG 編號與排放量併進我們的廠區，聯邦案件也以這些 `REGISTRY_ID` 對。廠區輸出 `relatedRegistries` 記併入了哪些登記。排放量是各登記最近申報年度的數字，編號不重複才加總。
 
 ### 收錄的紀錄
 
@@ -390,10 +391,10 @@ EPA 的 FRS（Facility Registry Service）替每個實體廠區配一個 `REGIST
 | Corpus Christi Polymers，Corpus Christi TX（遠東新 1402，持股 1/3） | 2018-12-28 | M&G USA（破產） | — | 204 筆，全部 |
 | MEMC，O'Fallon MO（環球晶 6488） | 2016-12-02 | SunEdison Semiconductor | 46 筆，全部 | 154 筆 |
 | FPC Illiopolis IL（台塑 1301） | 2002-04 | Borden Chemicals and Plastics | 39 筆 | 6 筆 |
-| KEMET，Simpsonville SC（國巨 2327） | 2020-06 | — | 23 筆 | — |
+| KEMET，Simpsonville SC（國巨 2327） | 2020-06 | — | 25 筆 | — |
 | TCI Texarkana TX（大成不銹鋼 2027） | 2018 | Arconic | 19 筆 | （補充資料已排除 556 筆） |
 | Upsher-Smith，Denver CO（保瑞 6472） | 2024-04-01 | Sawai | 15 筆，全部 | — |
-| APG Polytech，Apple Grove WV（遠東新 1402） | 2018-03-01 | M&G Polymers USA | 8 筆，全部 | 123 筆 |
+| APG Polytech，Apple Grove WV（遠東新 1402） | 2018-03-01 | M&G Polymers USA | 39 筆，全部 | 123 筆 |
 | Arlon EMD，Rancho Cucamonga CA（台光電 2383） | 2021-01-18 | CriticalPoint Capital | 5 筆，全部 | — |
 | 宏遠美國，Forest City NC（宏遠 1460） | 2016-10 | 不明的前一位使用者 | 4 筆，全部 | — |
 | Continental Carbon Phenix City AL、Ponca City OK（國際中橡 2104） | 1995 | Witco | 各 3 筆 | — |
@@ -413,7 +414,9 @@ EPA 的 FRS（Facility Registry Service）替每個實體廠區配一個 `REGIST
 | Beeline Facility，Scottsdale AZ | 裕慶 6957 | 原住民族企業 Salt River Sand and Rock 的砂石場，Beeline 是公路名；裕慶的 Beeline Corp. 在伊利諾州 |
 | AMA Facility，Ama LA | 宇瞻 8271 | ADM Grain 的穀物設施，Ama 是地名；宇瞻的 AMA 是 Apacer Memory America |
 
-**仍待決定**：這七個同名誤配的設施仍以 `ownership.confidence: high` 顯示在公司頁，水污染違規照 `violations.csv` 顯示：VISCO 261 筆、AMA 26 筆、Beeline 6 筆、Standard Foods 5 筆、Solomon 5 筆（2025 年，2026-10 重建才出現），Everbrite（原本 1 筆已被 EPA 刪除）與 Chroma 沒有。
+**2026-10-27 決定拿掉**：這七個設施連同水污染違規都不再顯示，被拿掉的水污染違規有 VISCO 261 筆、AMA 26 筆、Beeline 6 筆、Standard Foods 5 筆、Solomon 5 筆，Everbrite 與 Chroma 原本就沒有。`echo-programs.json` 的 `excludedSites` 帶各廠區的設施編號，建置時 `fetch-gcs-data.js` 的 `removeNotOwnedSites` 依此拿掉設施與違規。`facilities.csv`、`violations.csv` 保留原樣，重新下載也不受影響。
+
+視陽 6782、宇瞻 8271、佳格 1227、所羅門 2359、永彰 4523、致茂 2360 的 EPA 設施只有這一個，整家公司從網站拿掉；它們沒有污染事件或 VT 紀錄，之後若有，要讓 `build-company-info.py` 把它們當成不在 EPA 資料裡的公司另建。裕慶 6957 還有 7 個 HORIZON 設施（`suspect`），照 2026-09-30 的決定繼續顯示。
 
 ## 10. 水污染違規改由 EPA 全量檔重建（2026-10-25）
 

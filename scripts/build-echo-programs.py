@@ -6,10 +6,11 @@
   1. 我們的設施（data/facilities.csv＋facilities-supplement.csv）以 NPDES 許可證號在 ECHO Exporter 找到所屬廠區（FRS REGISTRY_ID）。
      一個廠區可能有好幾張 NPDES 許可證，空污、廢棄物紀錄是廠區層級的，掛在主要設施（個別許可證優先於通用許可證）。
      沒有 NPDES 許可證、只有空污或廢棄物紀錄的台灣母公司工廠列在 EXTRA_SITES，以 REGISTRY_ID 當設施編號另建設施。
+     同一座工廠在 FRS 另有登記（名稱、地址寫法不同而分開）的列在 SAME_SITE，系統編號與排放量併進我們的廠區。
   2. 用廠區的 AIR_IDS／RCRA_IDS／REGISTRY_ID 與我們的 NPDES 許可證到各計畫的全量檔取逐筆紀錄。
   3. 台灣母公司取得控制前的紀錄屬前業主，不納入（CONTROL_SINCE，與 build-echo-supplement.py 的 CONFIRMED 年份）。
      水污染違規在 violations.csv，建置時 fetch-gcs-data.js 用這裡輸出的廠區 controlSince 同樣排除。
-  4. 查證後確定是同名誤配的廠區（NOT_OWNED）不掛任何紀錄。
+  4. 查證後確定是同名誤配的廠區（NOT_OWNED）不掛任何紀錄，輸出在 excludedSites，建置時 fetch-gcs-data.js 連設施與水污染違規一起拿掉。
 
 用法（全量檔不進 git）
   scripts/download-echo-sources.sh                          # → ../epa-downloads
@@ -55,7 +56,7 @@ CONTROL_SINCE = [
     ('2027', '110070263045', '2017-08-01', 'Primus Pipe and Tube Wildwood FL', '2017-08-01 大成不銹鋼美國子公司向 Outokumpu 買下 Outokumpu Stainless Pipe（大成重大訊息 2017-08-01、outokumpu.com 公告）'),
 ]
 
-# 查證後確定與台灣母公司無關的同名誤配廠區：不掛空污、廢棄物紀錄與水污處分。既有的水污染違規（violations.csv）不在這支腳本處理
+# 查證後確定與台灣母公司無關的同名誤配廠區：不掛空污、廢棄物紀錄與水污處分；設施與水污染違規（violations.csv）在建置時拿掉（2026-10-27 決定）
 NOT_OWNED = [
     ('4523', '110001888253', 'Everbrite LLC Buena Vista VA', '是威斯康辛的招牌廠 Everbrite；永彰英文名 Everbrite Technology，2023 年報沒有美國子公司'),
     ('2359', '110033647016', 'Solomon Corporation Decatur TN', '所羅門 2023 年報唯一的美國子公司是 2019 年在加州 Walnut 設立的 Solomon Technology (USA)'),
@@ -70,6 +71,21 @@ NOT_OWNED = [
 # 候選來自 ECHO 覆蓋率稽核（data/echo-coverage-audit.json 的 npdesIds 為空者），每筆人工確認
 EXTRA_SITES = [
     ('2104', '110000455766', 'MOPS：國際中橡 → CCC USA Corp.（66.67%）→ Continental Carbon Company；Ponca City 廠沒有 NPDES 許可證', '2104|3600967495'),
+]
+
+# 同一座工廠在 FRS 的其他登記：(公司代號, 另一個 REGISTRY_ID, 併入的我們廠區 REGISTRY_ID, 依據)
+# 2026-10-25 以同城市、名稱有品牌字找出（docs/echo-data-sources.md §4.3），2026-10-27 以 ECHO Exporter 的地址、座標確認
+SAME_SITE = [
+    ('1301', '110071160841', '110018925957', 'FORMOSA POINT COMFORT PLANT：Point Comfort 主廠的溫室氣體申報，座標距主廠 0.6 公里'),
+    ('1301', '110000505490', '110018925957', 'FORMOSA HYDROCARBONS COMPANY（103 Fannin Rd）：Point Comfort 廠區南側的烯烴廠，台塑美國子公司'),
+    ('1301', '110033933536', '110018925957', 'FORMOSA PLASTICS MARINE TERMINAL（101 Formosa Dr）：Point Comfort 廠的碼頭'),
+    ('1303', '110070326649', '110000353965', 'NAN YA PLASTICS CORPORATION AMERICA SOUTH CAROLINA PLANT：同址 140 Beulah Rd 的溫室氣體申報'),
+    ('1303', '110000823798', '110070367682', 'NAN YA PLASTICS CORPORATION（700 Hwy 59 Loop）：座標距 Wharton 廠 0.3 公里，同為塑膠膜（SIC 3081）'),
+    ('1303', '110064116772', '110070367682', 'NAN YA PLASTICS：同址 2081 FM 102 Rd 的有害廢棄物登記'),
+    ('1402', '110069729271', '110000585956', 'APG POLYTECH, LLC（27610 Huntington Rd）：Apple Grove 廠的溫室氣體申報，座標相距 0.1 公里'),
+    ('1402', '110070639169', '110000585956', 'APG POLYTECH LLC（27610 Huntington Rd）：Apple Grove 廠的有害廢棄物登記'),
+    ('2327', '110004939103', '110017088355', 'KEMET ELECTRONICS CORPORATION（1428 Old Stage Rd）：Simpsonville 廠區的有害廢棄物登記，距 2835 Kemet Way 約 2 公里'),
+    ('2327', '110000354152', '110017088355', 'KEMET:MAULDIN（1224 Old Stage Rd）：Simpsonville 廠區的有害廢棄物登記，距 2835 Kemet Way 約 1.3 公里'),
 ]
 
 DFR = 'https://echo.epa.gov/detailed-facility-report?fid='
@@ -135,6 +151,8 @@ def main():
     # 1. 廠區：公司代號＋REGISTRY_ID 一個，同一廠區不同公司（不同持股鏈）分開
     sites = {}
     extra = {reg: (code, basis, own) for code, reg, basis, own in EXTRA_SITES}
+    same_site = {reg for _, reg, _, _ in SAME_SITE}
+    same_rows = {}
 
     def site(code, r):
         return sites.setdefault((code, r['REGISTRY_ID']), {
@@ -147,6 +165,8 @@ def main():
         })
 
     for r in rows(zips['echo_exporter'], 'ECHO_EXPORTER.csv'):
+        if r['REGISTRY_ID'] in same_site:
+            same_rows[r['REGISTRY_ID']] = r
         if r['REGISTRY_ID'] in extra:
             code, basis, own = extra[r['REGISTRY_ID']]
             s = site(code, r)
@@ -175,14 +195,27 @@ def main():
             print(f'  ⚠ CONTROL_SINCE 的廠區不在資料中：{code} {reg}', file=sys.stderr); continue
         s['controlSince'] = max(filter(None, [s['controlSince'], date]))
         s['controlBasis'] = basis
+    for code, reg, into, basis in SAME_SITE:
+        s, r = sites.get((code, into)), same_rows.get(reg)
+        if not s or not r:
+            print(f'  ⚠ SAME_SITE 找不到：{code} {reg} → {into}', file=sys.stderr); continue
+        # 排放量是各登記最近申報年度的數字，系統編號沒重複才加總
+        for k, col, amounts in (('air', 'AIR_IDS', ()), ('waste', 'RCRA_IDS', ()), ('toxics', 'TRI_IDS', (('triOnSiteLb', 'TRI_ON_SITE_RELEASES'), ('triReleasesTransfersLb', 'TRI_RELEASES_TRANSFERS'))),
+                                 ('ghg', 'GHG_IDS', (('ghgCO2eTons', 'GHG_CO2_RELEASES'),))):
+            new = [x for x in ids(r[col]) if x not in s['programIds'][k]]
+            s['programIds'][k] += new
+            for key, rc in amounts if new else ():
+                s['releases'][key] = (s['releases'][key] or 0) + (money(r[rc]) or 0) or None
+        s.setdefault('relatedRegistries', []).append({'registryId': reg, 'name': r['FAC_NAME'], 'dfrUrl': DFR + reg, 'basis': basis})
     found = {n for s in sites.values() for n in s['npdesIds']}
     print(f'{len(found)}/{len(ours)} 個 NPDES 許可證對到 {len(sites) - len(extra)} 個廠區，另有 {len(extra)} 個沒有 NPDES 的廠區', file=sys.stderr)
     if set(ours) - found:
         print(f'  ⚠ ECHO Exporter 找不到：{sorted(set(ours) - found)}', file=sys.stderr)
     excluded = []
     for code, reg, name, basis in NOT_OWNED:
-        if sites.pop((code, reg), None):
-            excluded.append({'companyCode': code, 'registryId': reg, 'name': name, 'reason': basis})
+        s = sites.pop((code, reg), None)
+        if s:
+            excluded.append({'companyCode': code, 'registryId': reg, 'name': name, 'reason': basis, 'facilityIds': s['facilityIds']})
 
     by_air = collections.defaultdict(list)
     by_rcra = collections.defaultdict(list)
@@ -192,7 +225,7 @@ def main():
         for x in s['programIds']['air']: by_air[x].append(key)
         for x in s['programIds']['waste']: by_rcra[x].append(key)
         for x in s['npdesIds']: by_npdes[x].append(key)
-        by_reg[s['registryId']].append(key)
+        for reg in [s['registryId']] + [x['registryId'] for x in s.get('relatedRegistries', [])]: by_reg[reg].append(key)
     fid_of = {(code, n): fid for n, lst in ours.items() for code, fid, _ in lst}
 
     records = []

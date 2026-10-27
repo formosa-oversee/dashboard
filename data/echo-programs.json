@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-25",
+ "generatedAt": "2026-10-27",
  "source": "EPA ECHO 全量檔：ECHO Exporter、ICIS-Air、RCRAInfo、ICIS-NPDES 處分、ICIS FE&C（echo.epa.gov/tools/data-downloads）",
  "note": "以我們設施的 NPDES 許可證找出同一廠區（FRS）的空污、有害廢棄物紀錄與 EPA 聯邦執法案件，以及各許可證的水污染處分。TRI／GHG 為最近申報年度的排放量。",
  "sites": [
@@ -128,20 +128,44 @@
     ],
     "waste": [
      "TX0000888164",
-     "TXT490011293"
+     "TXT490011293",
+     "TXR000085409",
+     "TXD988088845"
     ],
     "toxics": [
      "77978FRMSPPOBOX"
     ],
-    "ghg": []
+    "ghg": [
+     "1006691"
+    ]
    },
    "releases": {
     "triOnSiteLb": 1731376,
     "triReleasesTransfersLb": 15894690,
-    "ghgCO2eTons": null
+    "ghgCO2eTons": 5290825
    },
    "controlSince": "1980-01-01",
-   "controlBasis": "FPC 自建，1980 年開始營運（EPA 結案摘要、fpcusa.com）"
+   "controlBasis": "FPC 自建，1980 年開始營運（EPA 結案摘要、fpcusa.com）",
+   "relatedRegistries": [
+    {
+     "registryId": "110071160841",
+     "name": "FORMOSA POINT COMFORT PLANT",
+     "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110071160841",
+     "basis": "FORMOSA POINT COMFORT PLANT：Point Comfort 主廠的溫室氣體申報，座標距主廠 0.6 公里"
+    },
+    {
+     "registryId": "110000505490",
+     "name": "FORMOSA HYDROCARBONS COMPANY INC - POINT COMFORT",
+     "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110000505490",
+     "basis": "FORMOSA HYDROCARBONS COMPANY（103 Fannin Rd）：Point Comfort 廠區南側的烯烴廠，台塑美國子公司"
+    },
+    {
+     "registryId": "110033933536",
+     "name": "FORMOSA PLASTICS MARINE TERMINAL FACILITY",
+     "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110033933536",
+     "basis": "FORMOSA PLASTICS MARINE TERMINAL（101 Formosa Dr）：Point Comfort 廠的碼頭"
+    }
+   ]
   },
   {
    "registryId": "110000597444",
@@ -237,15 +261,71 @@
     "toxics": [
      "29560NNYPLHWY52"
     ],
-    "ghg": []
+    "ghg": [
+     "1005930"
+    ]
    },
    "releases": {
     "triOnSiteLb": 58954,
     "triReleasesTransfersLb": 95008,
-    "ghgCO2eTons": null
+    "ghgCO2eTons": 128241
    },
    "controlSince": "1990-01-01",
-   "controlBasis": "南亞自建，1990 年一期完工（nanyaamericasc.com）"
+   "controlBasis": "南亞自建，1990 年一期完工（nanyaamericasc.com）",
+   "relatedRegistries": [
+    {
+     "registryId": "110070326649",
+     "name": "NAN YA PLASTICS CORPORATION AMERICA SOUTH CAROLINA PLANT",
+     "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110070326649",
+     "basis": "NAN YA PLASTICS CORPORATION AMERICA SOUTH CAROLINA PLANT：同址 140 Beulah Rd 的溫室氣體申報"
+    }
+   ]
+  },
+  {
+   "registryId": "110070367682",
+   "companyCode": "1303",
+   "name": "WHARTON NAN YA PLASTICS USA",
+   "city": "WHARTON",
+   "state": "TX",
+   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110070367682",
+   "facilityIds": [
+    "3600969722"
+   ],
+   "npdesIds": [
+    "TXR05Q913"
+   ],
+   "programIds": {
+    "air": [
+     "TX0000004848100018"
+    ],
+    "waste": [
+     "TXD102661790"
+    ],
+    "toxics": [
+     "77488NNYPL700HW"
+    ],
+    "ghg": []
+   },
+   "releases": {
+    "triOnSiteLb": null,
+    "triReleasesTransfersLb": null,
+    "ghgCO2eTons": null
+   },
+   "controlSince": null,
+   "relatedRegistries": [
+    {
+     "registryId": "110000823798",
+     "name": "NAN YA PLASTICS CORPORATION",
+     "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110000823798",
+     "basis": "NAN YA PLASTICS CORPORATION（700 Hwy 59 Loop）：座標距 Wharton 廠 0.3 公里，同為塑膠膜（SIC 3081）"
+    },
+    {
+     "registryId": "110064116772",
+     "name": "NAN YA PLASTICS",
+     "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110064116772",
+     "basis": "NAN YA PLASTICS：同址 2081 FM 102 Rd 的有害廢棄物登記"
+    }
+   ]
   },
   {
    "registryId": "110066772111",
@@ -292,19 +372,37 @@
     "air": [
      "WV00005300054"
     ],
-    "waste": [],
+    "waste": [
+     "WVD005005475"
+    ],
     "toxics": [
      "25502GDYRTSTRT2"
     ],
-    "ghg": []
+    "ghg": [
+     "1000793"
+    ]
    },
    "releases": {
     "triOnSiteLb": 56018,
     "triReleasesTransfersLb": 56179,
-    "ghgCO2eTons": null
+    "ghgCO2eTons": 40458
    },
    "controlSince": "2018-03-01",
-   "controlBasis": "2018-03-01 遠東新從 M&G Polymers USA 破產程序買下（westvirginia.gov/?p=2497）"
+   "controlBasis": "2018-03-01 遠東新從 M&G Polymers USA 破產程序買下（westvirginia.gov/?p=2497）",
+   "relatedRegistries": [
+    {
+     "registryId": "110069729271",
+     "name": "APG POLYTECH, LLC",
+     "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110069729271",
+     "basis": "APG POLYTECH, LLC（27610 Huntington Rd）：Apple Grove 廠的溫室氣體申報，座標相距 0.1 公里"
+    },
+    {
+     "registryId": "110070639169",
+     "name": "APG POLYTECH LLC",
+     "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110070639169",
+     "basis": "APG POLYTECH LLC（27610 Huntington Rd）：Apple Grove 廠的有害廢棄物登記"
+    }
+   ]
   },
   {
    "registryId": "110067568297",
@@ -944,10 +1042,13 @@
      "SC00012000018"
     ],
     "waste": [
-     "SCD000003558"
+     "SCD000003558",
+     "SCD981466907",
+     "SCD980841886"
     ],
     "toxics": [
-     "29681KMTLC2835K"
+     "29681KMTLC2835K",
+     "29606KMTLC1224O"
     ],
     "ghg": []
    },
@@ -957,7 +1058,21 @@
     "ghgCO2eTons": null
    },
    "controlSince": "2020-06-01",
-   "controlBasis": "國巨 2020-06 完成收購 KEMET（resolve-ownership.py CURATED）"
+   "controlBasis": "國巨 2020-06 完成收購 KEMET（resolve-ownership.py CURATED）",
+   "relatedRegistries": [
+    {
+     "registryId": "110004939103",
+     "name": "KEMET ELECTRONICS CORPORATION",
+     "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110004939103",
+     "basis": "KEMET ELECTRONICS CORPORATION（1428 Old Stage Rd）：Simpsonville 廠區的有害廢棄物登記，距 2835 Kemet Way 約 2 公里"
+    },
+    {
+     "registryId": "110000354152",
+     "name": "KEMET:MAULDIN",
+     "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110000354152",
+     "basis": "KEMET:MAULDIN（1224 Old Stage Rd）：Simpsonville 廠區的有害廢棄物登記，距 2835 Kemet Way 約 1.3 公里"
+    }
+   ]
   },
   {
    "registryId": "110071274693",
@@ -2169,43 +2284,64 @@
    "companyCode": "4523",
    "registryId": "110001888253",
    "name": "Everbrite LLC Buena Vista VA",
-   "reason": "是威斯康辛的招牌廠 Everbrite；永彰英文名 Everbrite Technology，2023 年報沒有美國子公司"
+   "reason": "是威斯康辛的招牌廠 Everbrite；永彰英文名 Everbrite Technology，2023 年報沒有美國子公司",
+   "facilityIds": [
+    "3601252845"
+   ]
   },
   {
    "companyCode": "2359",
    "registryId": "110033647016",
    "name": "Solomon Corporation Decatur TN",
-   "reason": "所羅門 2023 年報唯一的美國子公司是 2019 年在加州 Walnut 設立的 Solomon Technology (USA)"
+   "reason": "所羅門 2023 年報唯一的美國子公司是 2019 年在加州 Walnut 設立的 Solomon Technology (USA)",
+   "facilityIds": [
+    "3600277898"
+   ]
   },
   {
    "companyCode": "2360",
    "registryId": "110000429607",
    "name": "Chroma Corp McHenry IL",
-   "reason": "是伊利諾州的色母粒廠，2018 年被 Carolina Color 併購（ptonline.com）；致茂的美國子公司都在加州"
+   "reason": "是伊利諾州的色母粒廠，2018 年被 Carolina Color 併購（ptonline.com）；致茂的美國子公司都在加州",
+   "facilityIds": [
+    "3600138292"
+   ]
   },
   {
    "companyCode": "6782",
    "registryId": "110069582400",
    "name": "VISCO, Inc. Eugene OR",
-   "reason": "1947 年在奧勒岡登記的建築金屬加工廠（opencorpdata.com/us-or/4554812，SIC 3446）；視陽是隱形眼鏡廠，MOPS 沒有美國子公司"
+   "reason": "1947 年在奧勒岡登記的建築金屬加工廠（opencorpdata.com/us-or/4554812，SIC 3446）；視陽是隱形眼鏡廠，MOPS 沒有美國子公司",
+   "facilityIds": [
+    "3600198775"
+   ]
   },
   {
    "companyCode": "1227",
    "registryId": "110009956379",
    "name": "Standard Foods Inc Louisville KY",
-   "reason": "1937 年創立的肉品冷凍食品廠，後改名 Culinary Standards（肯塔基州公司登記）；佳格的美國子公司是 Standard Foods, LLC"
+   "reason": "1937 年創立的肉品冷凍食品廠，後改名 Culinary Standards（肯塔基州公司登記）；佳格的美國子公司是 Standard Foods, LLC",
+   "facilityIds": [
+    "2400023034"
+   ]
   },
   {
    "companyCode": "6957",
    "registryId": "110066887738",
    "name": "Beeline Facility Scottsdale AZ",
-   "reason": "許可證持有人是原住民族企業 Salt River Sand and Rock（砂石，SIC 1442），Beeline 是公路名；裕慶的 Beeline Corp. 在伊利諾州做展示架"
+   "reason": "許可證持有人是原住民族企業 Salt River Sand and Rock（砂石，SIC 1442），Beeline 是公路名；裕慶的 Beeline Corp. 在伊利諾州做展示架",
+   "facilityIds": [
+    "3600109198"
+   ]
   },
   {
    "companyCode": "8271",
    "registryId": "110016682115",
    "name": "AMA Facility Ama LA",
-   "reason": "許可證持有人是 ADM Grain（穀物，SIC 5153），Ama 是路易斯安那的地名；宇瞻的 AMA 是 Apacer Memory America"
+   "reason": "許可證持有人是 ADM Grain（穀物，SIC 5153），Ama 是路易斯安那的地名；宇瞻的 AMA 是 Apacer Memory America",
+   "facilityIds": [
+    "1600013553"
+   ]
   }
  ],
  "records": [
@@ -4190,6 +4326,26 @@
    "agency": "州政府",
    "companyCode": "1301",
    "registryId": "110000597444"
+  },
+  {
+   "id": "FEC-36935",
+   "program": "FEC",
+   "kind": "case",
+   "type": "Administrative - Formal",
+   "statutes": [
+    "CWA"
+   ],
+   "date": "1996-12-17",
+   "fiscalYear": "1997",
+   "agency": "EPA",
+   "caseNumber": "06-1997-0104",
+   "caseName": "FORMOSA HYDROCARBONS CO., INC. (TX0004707)",
+   "status": "Closed",
+   "outcome": "Unilateral Administrative Order Without Adjudication",
+   "description": "1. SECTION 309(A)(3) OF THE CLEAN WATER ACT ( CWA ), 33 U.S.C. SECTION 1319(A)(3). 2. JACK WU FORMOSA HYDROCARBONS COMPANY, INC. POINT COMFORT PLANT P.O. BOX 769 POINT COMFORT, TEXAS 77978 3. RESPONDENT WAS IN VIOLATION OF SECTION 301 OF THE CWA BY DISCHARGING PRODUCED WATER AND SAND INTO WATERS OF THE U.S. THAT EXCEED THE EFFLUENT LIMITS. 4. RELIEF SOUGHT PURSUANT TO SECTION 309(A)(3) OF THE CWA, EPA ISSUED AN ADMINISTRATIVE ORDER (AO) ORDERING THE RE- SPONDENT TO OPERATE AND MAINTAIN THE FACILITIES SO AS TO DISCHARGE EFFLUENT WHICH DOES NOT EXCEED THE EFFLUENT LIMITATIONS.",
+   "sourceUrl": "https://echo.epa.gov/enforcement-case-report?id=06-1997-0104",
+   "companyCode": "1301",
+   "registryId": "110018925957"
   },
   {
    "id": "CAA-V-3400366311-06000F0000220330000290013",
@@ -6806,6 +6962,18 @@
    "registryId": "110018925957"
   },
   {
+   "id": "RCRA-V-TXR000085409-279.C-12/04/2008",
+   "program": "RCRA",
+   "kind": "violation",
+   "type": "Standards for Used Oil: Generators",
+   "violationCode": "279.C",
+   "date": "2008-12-04",
+   "resolvedDate": "2008-12-04",
+   "agency": "州政府",
+   "companyCode": "1301",
+   "registryId": "110018925957"
+  },
+  {
    "id": "CAA-ST-3400740058",
    "program": "CAA",
    "kind": "stack-test",
@@ -6816,6 +6984,16 @@
    "pollutants": "Hydrochloric acid",
    "companyCode": "1301",
    "registryId": "110000338536"
+  },
+  {
+   "id": "RCRA-E-TXR000085409-1-HQ120",
+   "program": "RCRA",
+   "kind": "informal",
+   "type": "Written Informal",
+   "date": "2009-01-09",
+   "agency": "州政府",
+   "companyCode": "1301",
+   "registryId": "110018925957"
   },
   {
    "id": "CAA-I-3400613994",
@@ -10118,6 +10296,40 @@
    "npdesId": "LA0082279",
    "companyCode": "1303",
    "registryId": "110002066120"
+  },
+  {
+   "id": "RCRA-V-TXD102661790-XXS-03/27/2019",
+   "program": "RCRA",
+   "kind": "violation",
+   "type": "State Statutory or Regulatory requirements that are broader-in-scope than the federal RCRA requirements",
+   "violationCode": "XXS",
+   "date": "2019-03-27",
+   "resolvedDate": "2019-04-24",
+   "agency": "州政府",
+   "companyCode": "1303",
+   "registryId": "110070367682"
+  },
+  {
+   "id": "RCRA-V-TXD102661790-262.D-03/27/2019",
+   "program": "RCRA",
+   "kind": "violation",
+   "type": "Standards Applicable to Recordkeeping and Reporting Applicable to Small and Large Quantity Generators",
+   "violationCode": "262.D",
+   "date": "2019-03-27",
+   "resolvedDate": "2019-04-24",
+   "agency": "州政府",
+   "companyCode": "1303",
+   "registryId": "110070367682"
+  },
+  {
+   "id": "RCRA-E-TXD102661790-1-HQ120",
+   "program": "RCRA",
+   "kind": "informal",
+   "type": "Written Informal",
+   "date": "2019-06-03",
+   "agency": "州政府",
+   "companyCode": "1303",
+   "registryId": "110070367682"
   },
   {
    "id": "CAA-I-3602709302",

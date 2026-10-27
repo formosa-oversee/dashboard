@@ -204,6 +204,29 @@ const toEpaDate = (iso) => (iso ? `${iso.slice(5, 7)}/${iso.slice(8, 10)}/${iso.
 const fromEpaDate = (d) => (/^\d\d\/\d\d\/\d{4}$/.test(d || '') ? `${d.slice(6)}-${d.slice(0, 2)}-${d.slice(3, 5)}` : null);
 
 /**
+ * 查證後確定是同名誤配的廠區（echo-programs.json 的 excludedSites，build-echo-programs.py 的 NOT_OWNED）：
+ * 設施與水污染違規都不顯示，公司因此沒有任何設施時整家拿掉（2026-10-27 決定）。
+ * 被整家拿掉的公司（2026-10 時）都沒有污染事件或 VT 紀錄；之後若有，build-company-info.py 要把它們當成不在 EPA 資料裡的公司另建。
+ */
+function removeNotOwnedSites(companies) {
+  const excluded = readDataJson('echo-programs.json')?.excludedSites || [];
+  const drop = new Set(excluded.flatMap(e => (e.facilityIds || []).map(id => `${e.companyCode}|${id}`)));
+  const removed = [];
+  const kept = companies.filter(c => {
+    const gone = c.facilities.filter(f => drop.has(`${c.companyCode}|${f.facilityId}`));
+    if (!gone.length) return true;
+    const ids = new Set(gone.map(f => f.facilityId));
+    const violations = c.violations.filter(v => ids.has(v.facilityId)).length;
+    c.facilities = c.facilities.filter(f => !ids.has(f.facilityId));
+    c.violations = c.violations.filter(v => !ids.has(v.facilityId));
+    removed.push(`${c.companyCode} ${gone.map(f => f.name).join('、')}（違規 ${violations} 筆${c.facilities.length ? '' : '，整家拿掉'}）`);
+    return c.facilities.length > 0;
+  });
+  console.log(`🚫 拿掉同名誤配的設施 ${removed.length} 個：${removed.join('；')}`);
+  return kept;
+}
+
+/**
  * 水污染違規以外的 EPA 紀錄（scripts/build-echo-programs.py 產生的 data/echo-programs.json）：
  * 同一廠區的空污、有害廢棄物紀錄、水污染處分與 EPA 聯邦執法案件，併進 violations，program 欄位區分。
  * 廠區層級的紀錄掛在主要設施（site.facilityIds[0]），水污染處分掛在該許可證的設施（r.facilityId）；
@@ -718,7 +741,7 @@ async function main() {
     
     // 轉換資料格式
     console.log('🔄 轉換資料格式...');
-    const transformedData = transformEPAFacilityData(recordsToProcess, violations);
+    const transformedData = removeNotOwnedSites(transformEPAFacilityData(recordsToProcess, violations));
     attachEchoPrograms(transformedData);
     addCompaniesOutsideEpa(transformedData);
     attachNews(transformedData);

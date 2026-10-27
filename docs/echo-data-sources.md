@@ -47,7 +47,7 @@ Exporter 其他欄位不是獨立的資料來源：`FAC_DERIVED_*`、`FAC_NAA_FL
 
 `FRS_PROGRAM_LINKS.csv` 是廠區 ↔ 各系統編號的總表，比 Exporter 完整：Exporter 只列 NPDES、空污、RCRA、SDWA、TRI、GHG、案件，FRS 另外有 EIS、TSCA、RMP、SEMS 等。
 
-一個實體工廠可能有好幾個 FRS 廠區。例如 FPC Point Comfort 的溫室氣體申報掛在另一個登記 110071160841（2023 年 529 萬公噸 CO₂e），不在我們以 NPDES 找到的 110018925957 底下。見 §4.3。
+一個實體工廠可能有好幾個 FRS 廠區。例如 FPC Point Comfort 的溫室氣體申報掛在另一個登記 110071160841（2023 年 529 萬公噸 CO₂e），不在我們以 NPDES 找到的 110018925957 底下。2026-10-27 起這類登記以 `SAME_SITE` 併進我們的廠區，見 §4.3。
 
 ### 3.2 AFS
 
@@ -76,7 +76,7 @@ TRI 申報者會填外國母公司。用 MOPS 上市櫃公司英文名稱比對�
 
 7 個廠區有 2011–2023 年的逐年直接排放量。最近一年：FPC Baton Rouge 32.0 萬、Continental Carbon Ponca City 24.2 萬、Sunray 15.5 萬、Phenix City 13.8 萬（2022）、WaferTech 7.3 萬、TCI Texarkana 6.9 萬公噸 CO₂e；FPC Delaware City 2018 年以後低於申報門檻。
 
-漏掉的大排放源見 §4.3：FPC Point Comfort 529 萬、南亞 Lake City 12.8 萬、APG Polytech 4.0 萬公噸。
+原本漏掉的大排放源（§4.3）2026-10-27 已併進廠區：FPC Point Comfort 529 萬、南亞 Lake City 12.8 萬、APG Polytech 4.0 萬公噸。
 
 ### 3.6 人口統計
 
@@ -84,7 +84,7 @@ TRI 申報者會填外國母公司。用 MOPS 上市櫃公司英文名稱比對�
 
 ## 4. 發現的缺口
 
-§4.2 已在 2026-10-25 處理；其餘還沒處理，網站照舊。
+§4.2 已在 2026-10-25 處理，§4.3 在 2026-10-27 處理；其餘還沒處理，網站照舊。
 
 ### 4.1 同廠區其他 NPDES 許可證
 
@@ -99,9 +99,9 @@ TRI 申報者會填外國母公司。用 MOPS 上市櫃公司英文名稱比對�
 - 正式處分與 `OFFICIAL_FLG=Y` 的非正式處分（警告信、違規通知）加進 `build-echo-programs.py`（`program: 'CWA'`）。稽查不收，和空污、廢棄物一樣。
 - 取得控制前的水污染違規在建置時排除 487 筆（Corpus Christi Polymers 204、MEMC 154、APG Polytech 123、FPC Illiopolis 6）。只有水污染紀錄的收購工廠另外查證過，結果見 `enforcement-data-interface.md` 第 9 節。
 
-### 4.3 同一座工廠的其他 FRS 廠區
+### 4.3 同一座工廠的其他 FRS 廠區（2026-10-27 已處理）
 
-同城市、名稱有品牌字的其他登記，確認屬同一工廠的：
+同城市、名稱有品牌字的其他登記，以地址、座標確認屬同一工廠的：
 
 | 公司 | 登記 | 名稱 | 內容 |
 |---|---|---|---|
@@ -113,6 +113,8 @@ TRI 申報者會填外國母公司。用 MOPS 上市櫃公司英文名稱比對�
 | 南亞 1303 | 110000823798、110064116772 | NAN YA PLASTICS，Wharton TX | 空污、TRI、RCRA |
 | 遠東新 1402 | 110069729271、110070639169 | APG POLYTECH，Apple Grove WV | 溫室氣體 4.0 萬公噸、RCRA |
 | 國巨 2327 | 110004939103、110000354152 | KEMET，Simpsonville SC | RCRA |
+
+處理：除了 Baton Rouge 的淨水設施（只有飲用水登記，網站不收），都列進 `build-echo-programs.py` 的 `SAME_SITE`，系統編號與排放量併進我們的廠區（見 `enforcement-data-interface.md` 第 9 節）。網站因此多 6 筆紀錄：Formosa Hydrocarbons 1996 年的聯邦案件、Marine Terminal 2008–2009 年的廢棄物違規與處分各 1 筆、南亞 Wharton 2019 年的廢棄物違規 2 筆與處分 1 筆。APG Polytech 的廢棄物登記 31 筆、KEMET 兩個登記 2 筆都在取得控制以前，排除。設施頁的溫室氣體排放量多了 FPC Point Comfort 529 萬、南亞 Lake City 12.8 萬、APG Polytech 4.0 萬公噸。
 
 ### 4.4 還沒收錄的台資工廠
 

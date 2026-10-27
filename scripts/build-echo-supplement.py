@@ -24,6 +24,9 @@ ro = importlib.util.module_from_spec(spec); spec.loader.exec_module(ro)
 
 # (公司代號, 境外子公司名稱＝MOPS 節點或集團實體, 依據, [NPDES 許可證], 取得控制年份或 None)
 # 有取得控制年份者，早於該年的違規屬前業主，不納入
+# 只收持證人是該子公司（或收購前的前業主）的許可證。2026-10-27 逐張查持證人後拿掉：持證人是承包商或地主的 TSMC Arizona 五張
+# （AZC112964 PowerSecure、AZC113138／AZC113140 Austin Commercial、AZC112312／AZC113891 Okland）、特力 GAR1544B7（Oakwood Industrial BTS）、
+# TCI TXR1533GK（H And M Construction）、Primus FLR10SJ36（Arco Design/Build）；力山 CAZ513140 是同名誤配（build-echo-programs.py NOT_OWNED）
 CONFIRMED = [
     ('1301', 'Formosa Plastics Corporation, U.S.A.', '台塑集團關係企業 FPC USA 德州 Point Comfort 主廠', ['TX0085570', 'TXR15285Z']),
     ('1301', 'Formosa Plastics Corporation, U.S.A.', '台塑集團關係企業 FPC USA 德州 Shore Tank Farm', ['TXR05GN80', 'TXR1575HM']),
@@ -31,17 +34,14 @@ CONFIRMED = [
     ('2104', 'Continental Carbon Company', 'MOPS：國際中橡 → CCC USA Corp.（66.67%）→ Continental Carbon Company', ['TXR05EU88', 'ALD000238', 'ALU011379']),
     # WAG030060「MORRIS & CO DBA OCEAN ALEXANDER」為同品牌經銷商，持股關係未能確認，不納入
     ('2383', 'EMD SPECIALTY MATERIALS,LLC', 'MOPS：台光電 → EMC International Holding → EMC Special Application → EMD Specialty Materials', ['CAZ469513']),
-    ('2908', 'Test-Rite International (U.S.) Co., Ltd.', 'MOPS：特力 → Test-Rite International (U.S.)', ['CAZ494423', 'GAR1544B7']),
-    ('2330', 'TSMC Arizona Corporation', 'MOPS：台積電 → TSMC Arizona（100%）', ['AZC112964', 'AZC113138', 'AZC113140', 'AZC112312', 'AZC113891']),
+    ('2908', 'Test-Rite International (U.S.) Co., Ltd.', 'MOPS：特力 → Test-Rite International (U.S.)', ['CAZ494423']),
     ('6472', 'Upsher-Smith Laboratories, LLC', 'MOPS：保瑞 → Bora Pharmaceuticals USA → … → Upsher-Smith', ['CONOX0652']),
-    ('2027', 'TCI Texarkana, Inc.', 'MOPS：大成不銹鋼 → Ta Chen International → TCI Texarkana；2018-10 向 Arconic 買下（Arconic 公告）', ['TXR1533GK', 'TX0097055'], 2018),  # TXR05M678 為前業主 Alumax 名下，不納入
-    ('2027', 'Primus Pipe and Tube, Inc.', 'MOPS：大成不銹鋼 → Ta Chen International → Primus Pipe and Tube', ['FLR10SJ36']),
-    ('1515', 'Power Tool Specialists Inc.', 'MOPS：力山 → Power Tool Specialists（96%）', ['CAZ513140']),
+    ('2027', 'TCI Texarkana, Inc.', 'MOPS：大成不銹鋼 → Ta Chen International → TCI Texarkana；2018-10 向 Arconic 買下（Arconic 公告）', ['TX0097055'], 2018),  # TXR05M678 為前業主 Alumax 名下，不納入
     ('2723', 'Perfect 85 Degrees C, Inc.', 'MOPS：美食-KY → Perfect 85 Degrees C', ['CAZ502731']),
     ('2603', 'Everport Terminal Services Inc.', 'MOPS：長榮 → Everport Terminal Services（94.43%）', ['CAZ466559']),
     ('1210', 'Amy Food, Inc', 'MOPS：大成 → Dachan (USA) → Amy Food（80%）', ['TXRNEBU79', 'TXRNET517']),
     ('1303', '南亞塑膠美洲有限公司', 'MOPS：南亞 → 南亞塑膠美洲（Nan Ya Plastics Corp., America）', ['SCR000483']),
-    # 鴻海財報把夏普列為權益法關聯企業（不具控制），跟台塑對 FPC USA 一樣照集團歸屬；SMCA 是夏普美國子公司 Sharp Electronics Corporation 的製造事業部
+    # 鴻海財報把夏普列為權益法關聯企業（不具控制，34%）；網站歸屬門檻是有效持股 ≥ 20%（docs/pollution-news-spec.md，與 FPC USA 22.66% 同），所以歸鴻海。SMCA 是夏普美國子公司 Sharp Electronics Corporation 的製造事業部
     ('2317', 'Sharp Manufacturing Company of America', '夏普美國製造（Sharp Electronics Corporation 事業部）；鴻海 2016-08-12 起為夏普單一最大股東（直接及間接 34%，鴻海 2025 合併財報），夏普依日本法認定鴻海為母公司', ['TNR053068'], 2016),
     # 2026-10-27 同廠區漏掉的許可證（docs/echo-data-sources.md §4.1）
     ('2330', 'TSMC Washington', 'MOPS：台積電 → TSMC Development → TSMC Washington（100%）；WaferTech 廠的預處理許可，持證人 WaferTech LLC', ['WAP006200'], 1996),

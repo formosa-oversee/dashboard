@@ -113,13 +113,11 @@
    "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110018925957",
    "facilityIds": [
     "1600028209",
-    "3601104956",
-    "3601073914"
+    "3601104956"
    ],
    "npdesIds": [
     "TX0085570",
-    "TXR15285Z",
-    "TXR15979T"
+    "TXR15285Z"
    ],
    "programIds": {
     "air": [
@@ -328,34 +326,6 @@
    ]
   },
   {
-   "registryId": "110066772111",
-   "companyCode": "1337",
-   "name": "ASIA PLASTICS INC",
-   "city": "SOUTH EL MONTE",
-   "state": "CA",
-   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110066772111",
-   "facilityIds": [
-    "3600727208"
-   ],
-   "npdesIds": [
-    "CAZ323275"
-   ],
-   "programIds": {
-    "air": [],
-    "waste": [
-     "CAL000213433"
-    ],
-    "toxics": [],
-    "ghg": []
-   },
-   "releases": {
-    "triOnSiteLb": null,
-    "triReleasesTransfersLb": null,
-    "ghgCO2eTons": null
-   },
-   "controlSince": null
-  },
-  {
    "registryId": "110000585956",
    "companyCode": "1402",
    "name": "APG POLYTECH, LLC, APPLE GROVE PLANT",
@@ -526,90 +496,6 @@
    "controlBasis": "1995-04 東元買下西屋在合資公司的全部股份（tecowestinghouse.com 公司簡介）；合資期間由西屋控制（西屋 FY1993 10-K），月份以前的紀錄不算"
   },
   {
-   "registryId": "110070621550",
-   "companyCode": "1515",
-   "name": "AIR & POWER TOOL SPECIALISTS",
-   "city": "ARTESIA",
-   "state": "CA",
-   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110070621550",
-   "facilityIds": [
-    "3601123776",
-    "3601151380"
-   ],
-   "npdesIds": [
-    "CAW511595",
-    "CAZ513140"
-   ],
-   "programIds": {
-    "air": [],
-    "waste": [],
-    "toxics": [],
-    "ghg": []
-   },
-   "releases": {
-    "triOnSiteLb": null,
-    "triReleasesTransfersLb": null,
-    "ghgCO2eTons": null
-   },
-   "controlSince": null
-  },
-  {
-   "registryId": "110070817560",
-   "companyCode": "1524",
-   "name": "GORDON'S",
-   "city": "SEMMES",
-   "state": "AL",
-   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110070817560",
-   "facilityIds": [
-    "3601213679"
-   ],
-   "npdesIds": [
-    "ALG180909"
-   ],
-   "programIds": {
-    "air": [],
-    "waste": [],
-    "toxics": [],
-    "ghg": []
-   },
-   "releases": {
-    "triOnSiteLb": null,
-    "triReleasesTransfersLb": null,
-    "ghgCO2eTons": null
-   },
-   "controlSince": null
-  },
-  {
-   "registryId": "110027373900",
-   "companyCode": "1528",
-   "name": "ANDERSON PRINTING",
-   "city": "LOS ANGELES",
-   "state": "CA",
-   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110027373900",
-   "facilityIds": [
-    "3600735006"
-   ],
-   "npdesIds": [
-    "CAZ471711"
-   ],
-   "programIds": {
-    "air": [
-     "CASCA00006037DA011"
-    ],
-    "waste": [
-     "CAR000181438"
-    ],
-    "toxics": [],
-    "ghg": []
-   },
-   "releases": {
-    "triOnSiteLb": null,
-    "triReleasesTransfersLb": null,
-    "ghgCO2eTons": null
-   },
-   "controlSince": null
-  },
-  {
    "registryId": "110000479330",
    "companyCode": "1726",
    "name": "CONTINENTAL COATINGS CO INC",
@@ -681,12 +567,10 @@
    "state": "FL",
    "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110070263045",
    "facilityIds": [
-    "3600931186",
-    "3601061039"
+    "3600931186"
    ],
    "npdesIds": [
-    "FLR05I198",
-    "FLR10SJ36"
+    "FLR05I198"
    ],
    "programIds": {
     "air": [],
@@ -701,32 +585,6 @@
    },
    "controlSince": "2017-08-01",
    "controlBasis": "2017-08-01 大成不銹鋼美國子公司向 Outokumpu 買下 Outokumpu Stainless Pipe（大成重大訊息 2017-08-01、outokumpu.com 公告）"
-  },
-  {
-   "registryId": "110071083208",
-   "companyCode": "2027",
-   "name": "TCI TEXARKANA",
-   "city": "NASH",
-   "state": "TX",
-   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110071083208",
-   "facilityIds": [
-    "3601330163"
-   ],
-   "npdesIds": [
-    "TXR1533GK"
-   ],
-   "programIds": {
-    "air": [],
-    "waste": [],
-    "toxics": [],
-    "ghg": []
-   },
-   "releases": {
-    "triOnSiteLb": null,
-    "triReleasesTransfersLb": null,
-    "ghgCO2eTons": null
-   },
-   "controlSince": "2018-01-01"
   },
   {
    "registryId": "110018919946",
@@ -764,34 +622,6 @@
     "ghgCO2eTons": 68947
    },
    "controlSince": "2018-01-01"
-  },
-  {
-   "registryId": "110000541815",
-   "companyCode": "2029",
-   "name": "SYSCO EASTERN WISCONSIN, LLC",
-   "city": "JACKSON",
-   "state": "WI",
-   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110000541815",
-   "facilityIds": [
-    "3601427989"
-   ],
-   "npdesIds": [
-    "WIG013451"
-   ],
-   "programIds": {
-    "air": [],
-    "waste": [
-     "WIR000011908"
-    ],
-    "toxics": [],
-    "ghg": []
-   },
-   "releases": {
-    "triOnSiteLb": null,
-    "triReleasesTransfersLb": null,
-    "ghgCO2eTons": null
-   },
-   "controlSince": null
   },
   {
    "registryId": "110046122735",
@@ -968,93 +798,6 @@
    "controlSince": null
   },
   {
-   "registryId": "110000795541",
-   "companyCode": "2308",
-   "name": "DELTA ELECTRONICS MANUFACTURING",
-   "city": "BEVERLY",
-   "state": "MA",
-   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110000795541",
-   "facilityIds": [
-    "3601781849"
-   ],
-   "npdesIds": [
-    "MAPIU007E"
-   ],
-   "programIds": {
-    "air": [],
-    "waste": [
-     "MAD042768820",
-     "MAD066596933"
-    ],
-    "toxics": [
-     "01915DLTLC416CA"
-    ],
-    "ghg": []
-   },
-   "releases": {
-    "triOnSiteLb": null,
-    "triReleasesTransfersLb": 40000,
-    "ghgCO2eTons": null
-   },
-   "controlSince": null
-  },
-  {
-   "registryId": "110020165480",
-   "companyCode": "2308",
-   "name": "DELTA GROUP ELECTRONICS - SITE",
-   "city": "ROCKLEDGE",
-   "state": "FL",
-   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110020165480",
-   "facilityIds": [
-    "2400033126"
-   ],
-   "npdesIds": [
-    "FLR10W890"
-   ],
-   "programIds": {
-    "air": [],
-    "waste": [],
-    "toxics": [
-     "32955DLTGR395GU"
-    ],
-    "ghg": []
-   },
-   "releases": {
-    "triOnSiteLb": null,
-    "triReleasesTransfersLb": 215,
-    "ghgCO2eTons": null
-   },
-   "controlSince": null
-  },
-  {
-   "registryId": "110043745114",
-   "companyCode": "2308",
-   "name": "DELTA PLANT",
-   "city": "CONROE",
-   "state": "TX",
-   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110043745114",
-   "facilityIds": [
-    "2600011023"
-   ],
-   "npdesIds": [
-    "TXG111075"
-   ],
-   "programIds": {
-    "air": [],
-    "waste": [],
-    "toxics": [
-     "7738WDLTPL975BR"
-    ],
-    "ghg": []
-   },
-   "releases": {
-    "triOnSiteLb": null,
-    "triReleasesTransfersLb": null,
-    "ghgCO2eTons": null
-   },
-   "controlSince": null
-  },
-  {
    "registryId": "110001862208",
    "companyCode": "2317",
    "name": "SHARP ELECTRONICS CORPORATION",
@@ -1159,24 +902,10 @@
    "state": "AZ",
    "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110071274693",
    "facilityIds": [
-    "3601813500",
-    "3601833672",
-    "3601865713",
-    "3602078942",
-    "3602079003",
-    "3602079043",
-    "3601417145",
     "3601820587",
     "3601487739"
    ],
    "npdesIds": [
-    "AZC108221",
-    "AZC109427",
-    "AZC110242",
-    "AZC112964",
-    "AZC113138",
-    "AZC113140",
-    "AZCN88224",
     "AZI108677",
     "AZMS97089"
    ],
@@ -1195,34 +924,6 @@
    "releases": {
     "triOnSiteLb": 23968,
     "triReleasesTransfersLb": 1225570,
-    "ghgCO2eTons": null
-   },
-   "controlSince": null
-  },
-  {
-   "registryId": "110070091743",
-   "companyCode": "2330",
-   "name": "TSMC GROUP INC",
-   "city": "LOS ANGELES",
-   "state": "CA",
-   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110070091743",
-   "facilityIds": [
-    "3600729147"
-   ],
-   "npdesIds": [
-    "CAZ423773"
-   ],
-   "programIds": {
-    "air": [],
-    "waste": [
-     "CAL000371989"
-    ],
-    "toxics": [],
-    "ghg": []
-   },
-   "releases": {
-    "triOnSiteLb": null,
-    "triReleasesTransfersLb": null,
     "ghgCO2eTons": null
    },
    "controlSince": null
@@ -1263,36 +964,6 @@
    },
    "controlSince": "1996-06-01",
    "controlBasis": "1996-06 台積電主導合資成立，2000-12 起近 100%（pr.tsmc.com/english/news/2290、Altera 10-K）"
-  },
-  {
-   "registryId": "110000469573",
-   "companyCode": "2367",
-   "name": "DAW TECHNOLOGIES",
-   "city": "SALT LAKE CITY",
-   "state": "UT",
-   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110000469573",
-   "facilityIds": [
-    "3601813812"
-   ],
-   "npdesIds": [
-    "UTPIU007P"
-   ],
-   "programIds": {
-    "air": [],
-    "waste": [
-     "UTR000001206"
-    ],
-    "toxics": [
-     "84119DWTCH2700S"
-    ],
-    "ghg": []
-   },
-   "releases": {
-    "triOnSiteLb": null,
-    "triReleasesTransfersLb": null,
-    "ghgCO2eTons": null
-   },
-   "controlSince": null
   },
   {
    "registryId": "110070456257",
@@ -1385,34 +1056,6 @@
    "controlSince": null
   },
   {
-   "registryId": "110003403969",
-   "companyCode": "2480",
-   "name": "STARK MANUFACTURING,LLC",
-   "city": "RUSSELLVILLE",
-   "state": "AR",
-   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110003403969",
-   "facilityIds": [
-    "1200002419"
-   ],
-   "npdesIds": [
-    "ARR00C263"
-   ],
-   "programIds": {
-    "air": [],
-    "waste": [
-     "ARD983287699"
-    ],
-    "toxics": [],
-    "ghg": []
-   },
-   "releases": {
-    "triOnSiteLb": null,
-    "triReleasesTransfersLb": null,
-    "ghgCO2eTons": null
-   },
-   "controlSince": null
-  },
-  {
    "registryId": "110070096198",
    "companyCode": "2603",
    "name": "EVERPORT TERMINAL SERVICES",
@@ -1459,34 +1102,6 @@
     "air": [],
     "waste": [
      "CAL000415243"
-    ],
-    "toxics": [],
-    "ghg": []
-   },
-   "releases": {
-    "triOnSiteLb": null,
-    "triReleasesTransfersLb": null,
-    "ghgCO2eTons": null
-   },
-   "controlSince": null
-  },
-  {
-   "registryId": "110010105652",
-   "companyCode": "2607",
-   "name": "EVERGREEN TRANSPORT, LLC",
-   "city": "CALERA",
-   "state": "AL",
-   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110010105652",
-   "facilityIds": [
-    "1600003204"
-   ],
-   "npdesIds": [
-    "ALG140006"
-   ],
-   "programIds": {
-    "air": [],
-    "waste": [
-     "ALR000049833"
     ],
     "toxics": [],
     "ghg": []
@@ -1583,118 +1198,6 @@
    "controlSince": null
   },
   {
-   "registryId": "110064649359",
-   "companyCode": "3357",
-   "name": "ADVANCED ELECTRONICS",
-   "city": "NORMAL",
-   "state": "IL",
-   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110064649359",
-   "facilityIds": [
-    "800003458"
-   ],
-   "npdesIds": [
-    "ILP000173"
-   ],
-   "programIds": {
-    "air": [],
-    "waste": [],
-    "toxics": [],
-    "ghg": []
-   },
-   "releases": {
-    "triOnSiteLb": null,
-    "triReleasesTransfersLb": null,
-    "ghgCO2eTons": null
-   },
-   "controlSince": null
-  },
-  {
-   "registryId": "110070086088",
-   "companyCode": "3380",
-   "name": "ATS PRODUCTS, INC",
-   "city": "RICHMOND",
-   "state": "CA",
-   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110070086088",
-   "facilityIds": [
-    "3600738670"
-   ],
-   "npdesIds": [
-    "CAW448015"
-   ],
-   "programIds": {
-    "air": [],
-    "waste": [
-     "CAR000330555"
-    ],
-    "toxics": [],
-    "ghg": []
-   },
-   "releases": {
-    "triOnSiteLb": null,
-    "triReleasesTransfersLb": null,
-    "ghgCO2eTons": null
-   },
-   "controlSince": null
-  },
-  {
-   "registryId": "110000349935",
-   "companyCode": "4534",
-   "name": "TRINITY MANUFACTURING, INC.",
-   "city": "HAMLET",
-   "state": "NC",
-   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110000349935",
-   "facilityIds": [
-    "3400013708"
-   ],
-   "npdesIds": [
-    "NCS000233"
-   ],
-   "programIds": {
-    "air": [
-     "NC0000003707700053"
-    ],
-    "waste": [
-     "NCR000150235"
-    ],
-    "toxics": [
-     "28345TRNTY11EVH"
-    ],
-    "ghg": []
-   },
-   "releases": {
-    "triOnSiteLb": 1184,
-    "triReleasesTransfersLb": 4242,
-    "ghgCO2eTons": null
-   },
-   "controlSince": null
-  },
-  {
-   "registryId": "110020524798",
-   "companyCode": "4538",
-   "name": "WINSTON MACHINERY CO INC",
-   "city": "LYNN",
-   "state": "AL",
-   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110020524798",
-   "facilityIds": [
-    "1600003157"
-   ],
-   "npdesIds": [
-    "ALG120502"
-   ],
-   "programIds": {
-    "air": [],
-    "waste": [],
-    "toxics": [],
-    "ghg": []
-   },
-   "releases": {
-    "triOnSiteLb": null,
-    "triReleasesTransfersLb": null,
-    "ghgCO2eTons": null
-   },
-   "controlSince": null
-  },
-  {
    "registryId": "110065581365",
    "companyCode": "4991",
    "name": "D-TECH OPTOELECTRONICS",
@@ -1751,200 +1254,6 @@
    },
    "controlSince": "2010-01-01",
    "controlBasis": "榮剛 2010 年取得 55%、2011 年 85%（榮剛 2010、2011 年報）；月份不明"
-  },
-  {
-   "registryId": "110001780476",
-   "companyCode": "5351",
-   "name": "ETRON",
-   "city": "IJAMSVILLE",
-   "state": "MD",
-   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110001780476",
-   "facilityIds": [
-    "3289799"
-   ],
-   "npdesIds": [
-    "MDG912999"
-   ],
-   "programIds": {
-    "air": [
-     "MD0000002402100337"
-    ],
-    "waste": [
-     "MDR000517946"
-    ],
-    "toxics": [],
-    "ghg": []
-   },
-   "releases": {
-    "triOnSiteLb": null,
-    "triReleasesTransfersLb": null,
-    "ghgCO2eTons": null
-   },
-   "controlSince": null
-  },
-  {
-   "registryId": "110070159864",
-   "companyCode": "5460",
-   "name": "MUSTANG",
-   "city": "BRIDGEPORT",
-   "state": "AL",
-   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110070159864",
-   "facilityIds": [
-    "3600813020"
-   ],
-   "npdesIds": [
-    "ALR10BCYS"
-   ],
-   "programIds": {
-    "air": [],
-    "waste": [],
-    "toxics": [],
-    "ghg": []
-   },
-   "releases": {
-    "triOnSiteLb": null,
-    "triReleasesTransfersLb": null,
-    "ghgCO2eTons": null
-   },
-   "controlSince": null
-  },
-  {
-   "registryId": "110028275060",
-   "companyCode": "6120",
-   "name": "DARWIN",
-   "city": "DARWIN",
-   "state": "MN",
-   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110028275060",
-   "facilityIds": [
-    "2400058479"
-   ],
-   "npdesIds": [
-    "MNG580150"
-   ],
-   "programIds": {
-    "air": [],
-    "waste": [],
-    "toxics": [],
-    "ghg": []
-   },
-   "releases": {
-    "triOnSiteLb": null,
-    "triReleasesTransfersLb": null,
-    "ghgCO2eTons": null
-   },
-   "controlSince": null
-  },
-  {
-   "registryId": "110028077239",
-   "companyCode": "6152",
-   "name": "PRIME, INC",
-   "city": "PORT WENTWORTH",
-   "state": "GA",
-   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110028077239",
-   "facilityIds": [
-    "600012615"
-   ],
-   "npdesIds": [
-    "GAU050264"
-   ],
-   "programIds": {
-    "air": [],
-    "waste": [],
-    "toxics": [],
-    "ghg": []
-   },
-   "releases": {
-    "triOnSiteLb": null,
-    "triReleasesTransfersLb": null,
-    "ghgCO2eTons": null
-   },
-   "controlSince": null
-  },
-  {
-   "registryId": "110070072471",
-   "companyCode": "6221",
-   "name": "GENESIS 1",
-   "city": "HARTSELLE",
-   "state": "AL",
-   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110070072471",
-   "facilityIds": [
-    "3600704654"
-   ],
-   "npdesIds": [
-    "ALR10B876"
-   ],
-   "programIds": {
-    "air": [],
-    "waste": [],
-    "toxics": [],
-    "ghg": []
-   },
-   "releases": {
-    "triOnSiteLb": null,
-    "triReleasesTransfersLb": null,
-    "ghgCO2eTons": null
-   },
-   "controlSince": null
-  },
-  {
-   "registryId": "110005913342",
-   "companyCode": "6221",
-   "name": "GENESIS INC",
-   "city": "ROSELLE",
-   "state": "IL",
-   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110005913342",
-   "facilityIds": [
-    "1000000342"
-   ],
-   "npdesIds": [
-    "ILR10J664"
-   ],
-   "programIds": {
-    "air": [],
-    "waste": [
-     "ILD984891051"
-    ],
-    "toxics": [],
-    "ghg": []
-   },
-   "releases": {
-    "triOnSiteLb": null,
-    "triReleasesTransfersLb": null,
-    "ghgCO2eTons": null
-   },
-   "controlSince": null
-  },
-  {
-   "registryId": "110018295762",
-   "companyCode": "6276",
-   "name": "ARRIS INTERNATIONAL INC",
-   "city": "ROCK FALLS",
-   "state": "IL",
-   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110018295762",
-   "facilityIds": [
-    "3276716"
-   ],
-   "npdesIds": [
-    "ILP000114"
-   ],
-   "programIds": {
-    "air": [
-     "IL000195899AAA"
-    ],
-    "waste": [
-     "ILD069942662"
-    ],
-    "toxics": [
-     "61071NXTRMRTE30"
-    ],
-    "ghg": []
-   },
-   "releases": {
-    "triOnSiteLb": null,
-    "triReleasesTransfersLb": null,
-    "ghgCO2eTons": null
-   },
-   "controlSince": null
   },
   {
    "registryId": "110019904763",
@@ -2165,34 +1474,6 @@
    "controlBasis": "2016-12-02 環球晶完成收購 SunEdison Semiconductor（SEC 8-K 附件 d304688dex991）"
   },
   {
-   "registryId": "110003825629",
-   "companyCode": "6496",
-   "name": "EXCELSIOR WTP",
-   "city": "EXCELSIOR",
-   "state": "MN",
-   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110003825629",
-   "facilityIds": [
-    "2400002617"
-   ],
-   "npdesIds": [
-    "MN0041769"
-   ],
-   "programIds": {
-    "air": [],
-    "waste": [
-     "MND982625642"
-    ],
-    "toxics": [],
-    "ghg": []
-   },
-   "releases": {
-    "triOnSiteLb": null,
-    "triReleasesTransfersLb": null,
-    "ghgCO2eTons": null
-   },
-   "controlSince": null
-  },
-  {
    "registryId": "110070684703",
    "companyCode": "6505",
    "name": "FG LA, LLC - SUNSHINE PROJECT EARLY WORKS",
@@ -2282,32 +1563,6 @@
    },
    "controlSince": "2004-09-01",
    "controlBasis": "2004 年復盛向 Coastcast 買下該址（foundrymag.com）；2001 年的紀錄屬 Coastcast"
-  },
-  {
-   "registryId": "110028295529",
-   "companyCode": "6761",
-   "name": "WENDELL",
-   "city": "WENDELL",
-   "state": "MN",
-   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110028295529",
-   "facilityIds": [
-    "2400053716"
-   ],
-   "npdesIds": [
-    "MNG580153"
-   ],
-   "programIds": {
-    "air": [],
-    "waste": [],
-    "toxics": [],
-    "ghg": []
-   },
-   "releases": {
-    "triOnSiteLb": null,
-    "triReleasesTransfersLb": null,
-    "ghgCO2eTons": null
-   },
-   "controlSince": null
   },
   {
    "registryId": "110070093475",
@@ -2440,34 +1695,6 @@
    "controlBasis": "2009-12 元太（PVI）完成收購 E Ink（blog.eink.com）"
   },
   {
-   "registryId": "110003152944",
-   "companyCode": "8114",
-   "name": "RUSTY ECK FORD QUICK LANE ADDITION",
-   "city": "WICHITA",
-   "state": "KS",
-   "dfrUrl": "https://echo.epa.gov/detailed-facility-report?fid=110003152944",
-   "facilityIds": [
-    "3400028826"
-   ],
-   "npdesIds": [
-    "KSR108698"
-   ],
-   "programIds": {
-    "air": [],
-    "waste": [
-     "KSD031419559"
-    ],
-    "toxics": [],
-    "ghg": []
-   },
-   "releases": {
-    "triOnSiteLb": null,
-    "triReleasesTransfersLb": null,
-    "ghgCO2eTons": null
-   },
-   "controlSince": null
-  },
-  {
    "registryId": "110009766761",
    "companyCode": "8478",
    "name": "OCEAN ALEXANDER MARINE CENTER",
@@ -2550,6 +1777,888 @@
   }
  ],
  "excludedSites": [
+  {
+   "companyCode": "1337",
+   "npdesId": "CAZ323275",
+   "name": "ASIA PLASTICS INC South El Monte CA",
+   "reason": "持證人 Hung Tran，加州塑膠製品廠（SIC 3089）；亞洲塑膠再生 MOPS 沒有美國子公司",
+   "facilityIds": [
+    "3600727208"
+   ]
+  },
+  {
+   "companyCode": "1402",
+   "npdesId": "MDR001523",
+   "name": "PHENIX TECHNOLOGIES, INC. Accident MD",
+   "reason": "馬里蘭州 Accident 的高壓測試設備廠 Phenix Technologies；遠東新的是俄亥俄州的 rPET 廠 Phoenix Technologies International",
+   "facilityIds": [
+    "3400014953"
+   ]
+  },
+  {
+   "companyCode": "1439",
+   "npdesId": "NVCS46759",
+   "name": "ASCENT Las Vegas NV",
+   "reason": "持證人 KB Home（建商）；雋揚 MOPS 沒有美國子公司",
+   "facilityIds": [
+    "3601132205"
+   ]
+  },
+  {
+   "companyCode": "1460",
+   "npdesId": "TXR1556IZ",
+   "name": "EVEREST Lubbock TX",
+   "reason": "持證人 Dreambuilt Homes（建商）；宏遠的美國廠在北卡 Forest City",
+   "facilityIds": [
+    "3601409817"
+   ]
+  },
+  {
+   "companyCode": "1506",
+   "npdesId": "FLR20GY26",
+   "name": "RIGHT OF WAY Islamorada FL",
+   "reason": "持證人 Giannetti Contracting（道路工程）；正道的美國子公司是 Right Way North America",
+   "facilityIds": [
+    "3601614000"
+   ]
+  },
+  {
+   "companyCode": "1515",
+   "npdesId": "CAW511595",
+   "name": "AIR & POWER TOOL SPECIALISTS Artesia CA",
+   "reason": "名稱多了「Air &」；力山的 Power Tool Specialists Inc. 是電動工具銷售公司，美國海關紀錄的收貨地址在北卡 Charlotte（同址的 CAZ513140 已從 build-echo-supplement.py 拿掉）",
+   "facilityIds": [
+    "3601123776"
+   ]
+  },
+  {
+   "companyCode": "1524",
+   "npdesId": "TXR05DE38",
+   "name": "GORDON FACILITY Gordon TX",
+   "reason": "持證人 Red Dog Track（黏土開採，SIC 1459），Gordon 是德州地名；耿鼎 MOPS 沒有美國子公司",
+   "facilityIds": [
+    "3600966559"
+   ]
+  },
+  {
+   "companyCode": "1524",
+   "npdesId": "ALG180909",
+   "name": "GORDON'S Semmes AL",
+   "reason": "阿拉巴馬的廢料回收場 Gordon's（SIC 5093）；耿鼎 MOPS 沒有美國子公司",
+   "facilityIds": [
+    "3601213679"
+   ]
+  },
+  {
+   "companyCode": "1528",
+   "npdesId": "CAZ471711",
+   "name": "ANDERSON LA Los Angeles CA",
+   "reason": "持證人 Anderson Los Angeles（木作，SIC 2431）；恩德的美國子公司是 Anderson America、Giben America",
+   "facilityIds": [
+    "3600735006"
+   ]
+  },
+  {
+   "companyCode": "1528",
+   "npdesId": "COG600562",
+   "name": "ANDERSON #1 Anton CO",
+   "reason": "持證人 Ritchie Exploration（油氣井，SIC 1381）",
+   "facilityIds": [
+    "1200006048"
+   ]
+  },
+  {
+   "companyCode": "1528",
+   "npdesId": "SCR10ZHS7",
+   "name": "ANDERSON 85 Williamston SC",
+   "reason": "持證人是個人 Joseph Patrick（工地）",
+   "facilityIds": [
+    "3601844973"
+   ]
+  },
+  {
+   "companyCode": "1528",
+   "npdesId": "FLG074065",
+   "name": "ANDERSON, M Holiday FL",
+   "reason": "持證人是個人 M. Anderson",
+   "facilityIds": [
+    "3601676299"
+   ]
+  },
+  {
+   "companyCode": "1528",
+   "npdesId": "GAG810122",
+   "name": "ANDERSON GA",
+   "reason": "喬治亞州養豬場（SIC 0213）",
+   "facilityIds": [
+    "400004693"
+   ]
+  },
+  {
+   "companyCode": "1528",
+   "npdesId": "MTR106282",
+   "name": "LP ANDERSON Billings MT",
+   "reason": "持證人 Jones Construction（工地）",
+   "facilityIds": [
+    "3600106709"
+   ]
+  },
+  {
+   "companyCode": "1532",
+   "npdesId": "TNR054327",
+   "name": "METAL PRODUCTS COMPANY McMinnville TN",
+   "reason": "田納西的鈑金廠（SIC 3444）；勤美英文名 China Metal Products，美國子公司 CMAI、Pilot Drive 做汽車零件買賣與資產租賃",
+   "facilityIds": [
+    "1200010484"
+   ]
+  },
+  {
+   "companyCode": "1785",
+   "npdesId": "ASU000002",
+   "name": "SOLAR INC. Utulei AS",
+   "reason": "美屬薩摩亞 Satala 村的設施；光洋科的美國子公司是 Solar Applied Materials USA",
+   "facilityIds": [
+    "3600882155"
+   ]
+  },
+  {
+   "companyCode": "2029",
+   "npdesId": "WIG013451",
+   "name": "SYSCO Jackson WI",
+   "reason": "食品通路商 Sysco；盛餘英文簡稱 SYSCO（Sheng Yu Steel），MOPS 沒有美國子公司",
+   "facilityIds": [
+    "3601427989"
+   ]
+  },
+  {
+   "companyCode": "2064",
+   "npdesId": "CAZ445566",
+   "name": "CAMELLIA Azusa CA",
+   "reason": "持證人 Brookfield Homes（建案）；晉椿 MOPS 沒有美國子公司",
+   "facilityIds": [
+    "3600731285"
+   ]
+  },
+  {
+   "companyCode": "2308",
+   "npdesId": "MAPIU007E",
+   "name": "DELTA ELECTRONICS MFG. CORP. Beverly MA",
+   "reason": "1955 年創立的麻州射頻連接器廠 Delta Electronics Mfg. Corp.（家族經營，microwavejournal.com），與台達無關",
+   "facilityIds": [
+    "3601781849"
+   ]
+  },
+  {
+   "companyCode": "2308",
+   "npdesId": "TXRNEAK39",
+   "name": "DELTA GROUP ELECTRONICS Grand Prairie TX",
+   "reason": "Delta Group Electronics, Inc.，總部在新墨西哥州 Albuquerque 的電子代工廠，不在台達的美國子公司裡",
+   "facilityIds": [
+    "3600971474"
+   ]
+  },
+  {
+   "companyCode": "2308",
+   "npdesId": "FLR10W890",
+   "name": "DELTA GROUP ELECTRONICS - SITE Rockledge FL",
+   "reason": "同上",
+   "facilityIds": [
+    "2400033126"
+   ]
+  },
+  {
+   "companyCode": "2308",
+   "npdesId": "NMNOE3692",
+   "name": "DELTA GROUP ELECTRONICS INC Albuquerque NM",
+   "reason": "同上",
+   "facilityIds": [
+    "3600856895"
+   ]
+  },
+  {
+   "companyCode": "2308",
+   "npdesId": "TXG111075",
+   "name": "DELTA PLANT Conroe TX",
+   "reason": "預拌混凝土廠，持證人 Southern Star Concrete、Argos Ready Mix（SIC 3273）",
+   "facilityIds": [
+    "2600011023"
+   ]
+  },
+  {
+   "companyCode": "2330",
+   "npdesId": "CAZ423773",
+   "name": "TSMC GROUP INC Los Angeles CA",
+   "reason": "洛杉磯的二手汽車零件商 TSMC Group Inc（SIC 5015）",
+   "facilityIds": [
+    "3600729147"
+   ]
+  },
+  {
+   "companyCode": "2357",
+   "npdesId": "TNR243657",
+   "name": "ACI Clarksville TN",
+   "reason": "持證人 ACI Investment Group（不動產開發）；華碩的 ACI 是 ASUS Computer International",
+   "facilityIds": [
+    "3601134948"
+   ]
+  },
+  {
+   "companyCode": "2367",
+   "npdesId": "UTPIU007P",
+   "name": "UNITECH MANUFACTURING LLC Salt Lake City UT",
+   "reason": "猶他州鈑金廠（SIC 3444）；燿華 MOPS 沒有美國子公司",
+   "facilityIds": [
+    "3601813812"
+   ]
+  },
+  {
+   "companyCode": "2373",
+   "npdesId": "FLR10OJ41",
+   "name": "AURORA Tampa FL",
+   "reason": "持證人 The Richman Group（住宅開發）；震旦行 MOPS 沒有美國子公司",
+   "facilityIds": [
+    "3400101760"
+   ]
+  },
+  {
+   "companyCode": "2480",
+   "npdesId": "ARR00C263",
+   "name": "STARK MANUFACTURING, LLC Russellville AR",
+   "reason": "阿肯色州工具機廠（SIC 3542）；敦陽科是資訊服務公司",
+   "facilityIds": [
+    "1200002419"
+   ]
+  },
+  {
+   "companyCode": "2506",
+   "npdesId": "ALR166567",
+   "name": "PACIFIC CONSTRUCTION INC Scottsboro AL",
+   "reason": "阿拉巴馬的同名營造商；太設 MOPS 沒有美國子公司",
+   "facilityIds": [
+    "1600009912"
+   ]
+  },
+  {
+   "companyCode": "2607",
+   "npdesId": "ALG140006",
+   "name": "EVERGREEN TRANSPORT, LLC Calera AL",
+   "reason": "阿拉巴馬的貨運公司 Evergreen Transport（USDOT 1980141，總部 Mobile AL），與長榮集團無關；榮運的美國子公司是 ELCUS",
+   "facilityIds": [
+    "1600003204"
+   ]
+  },
+  {
+   "companyCode": "2637",
+   "npdesId": "TXR1530OG",
+   "name": "WISDOM 3 Laredo TX",
+   "reason": "持證人 White Ark Enterprises（建商）；慧洋 MOPS 沒有美國子公司",
+   "facilityIds": [
+    "3601562209"
+   ]
+  },
+  {
+   "companyCode": "2752",
+   "npdesId": "NY0222186",
+   "name": "TO-FU RESTAURANT Smithtown NY",
+   "reason": "紐約長島的餐廳，持證人 WDH Realty Corp；豆府 MOPS 沒有美國子公司",
+   "facilityIds": [
+    "400032963"
+   ]
+  },
+  {
+   "companyCode": "3004",
+   "npdesId": "ALR10C2XB",
+   "name": "NAFCO Cullman AL",
+   "reason": "持證人 North Alabama Fabricating Company；豐達科 MOPS 沒有美國子公司",
+   "facilityIds": [
+    "3601465866"
+   ]
+  },
+  {
+   "companyCode": "3085",
+   "npdesId": "TXR1507AW",
+   "name": "NEW RETAIL Houston TX",
+   "reason": "持證人 My Park Easy（工程）；台鋼新零售 MOPS 沒有美國子公司",
+   "facilityIds": [
+    "3601151625"
+   ]
+  },
+  {
+   "companyCode": "3138",
+   "npdesId": "SCR10Z8AJ",
+   "name": "AUDEN Rock Hill SC",
+   "reason": "持證人 Century Communities（建商）；耀登 MOPS 沒有美國子公司",
+   "facilityIds": [
+    "3601788912"
+   ]
+  },
+  {
+   "companyCode": "3162",
+   "npdesId": "TXR1543BK",
+   "name": "UNITED ALLOY Seguin TX",
+   "reason": "持證人 MW Builders，替美國金屬加工廠 United Alloy 蓋廠；精確 MOPS 沒有美國子公司",
+   "facilityIds": [
+    "3601166663"
+   ]
+  },
+  {
+   "companyCode": "3356",
+   "npdesId": "CAZ343507",
+   "name": "VISION SYSTEMS INC El Cajon CA",
+   "reason": "名稱與城市都不同：奇偶的美國子公司 USA Vision Systems 在 Irvine，做監控設備銷售",
+   "facilityIds": [
+    "3600727623"
+   ]
+  },
+  {
+   "companyCode": "3357",
+   "npdesId": "ILP000173",
+   "name": "ADVANCED ELECTRONICS Normal IL",
+   "reason": "伊利諾州的同名廠；臺慶科 MOPS 沒有美國子公司",
+   "facilityIds": [
+    "800003458"
+   ]
+  },
+  {
+   "companyCode": "3380",
+   "npdesId": "CAW448015",
+   "name": "ATS INC Richmond CA",
+   "reason": "EPA 登記名 ATS Products, Inc.，塑膠製品廠（SIC 3089）；明泰的 ATS 是售後服務公司 Alpha Technical Services",
+   "facilityIds": [
+    "3600738670"
+   ]
+  },
+  {
+   "companyCode": "3594",
+   "npdesId": "IDR1001KJ",
+   "name": "ARBOR 1 Caldwell ID",
+   "reason": "持證人 Brighton Development（愛達荷的建案）；磐儀的美國子公司是 Arbor Solution",
+   "facilityIds": [
+    "3601024487"
+   ]
+  },
+  {
+   "companyCode": "3594",
+   "npdesId": "IDR10C01S",
+   "name": "ARBOR 4 Meridian ID",
+   "reason": "同上",
+   "facilityIds": [
+    "3601343976"
+   ]
+  },
+  {
+   "companyCode": "3594",
+   "npdesId": "IDR10C083",
+   "name": "ARBOR 5 Nampa ID",
+   "reason": "同上",
+   "facilityIds": [
+    "3601393389"
+   ]
+  },
+  {
+   "companyCode": "4104",
+   "npdesId": "MOR10B027",
+   "name": "EXCELSIOR SPRINGS MEDICAL MO",
+   "reason": "密蘇里州 Excelsior Springs 的醫院工程；佳醫 MOPS 沒有美國子公司",
+   "facilityIds": [
+    "2400012808"
+   ]
+  },
+  {
+   "companyCode": "4419",
+   "npdesId": "WVR112712",
+   "name": "KING HOUSE SITE Jane Lew WV",
+   "reason": "持證人是個人 Larry James Bush Jr.；皇家美食 MOPS 沒有美國子公司",
+   "facilityIds": [
+    "3601731781"
+   ]
+  },
+  {
+   "companyCode": "4513",
+   "npdesId": "GAR393CCB",
+   "name": "FALCON Fayetteville GA",
+   "reason": "持證人 C&J Southern Investments；福裕的美國子公司是 Chevalier Machinery",
+   "facilityIds": [
+    "3601557802"
+   ]
+  },
+  {
+   "companyCode": "4534",
+   "npdesId": "NCS000233",
+   "name": "TRINITY MANUFACTURING CO INC Hamlet NC",
+   "reason": "北卡的農藥化學廠（SIC 2879）；慶騰 MOPS 沒有美國子公司",
+   "facilityIds": [
+    "3400013708"
+   ]
+  },
+  {
+   "companyCode": "4534",
+   "npdesId": "GAR153C63",
+   "name": "TRINITY 85 South Fulton GA",
+   "reason": "持證人 Stream Realty（建案）",
+   "facilityIds": [
+    "3600880046"
+   ]
+  },
+  {
+   "companyCode": "4534",
+   "npdesId": "WAR310477",
+   "name": "TRINITY 35 Granite Falls WA",
+   "reason": "持證人 D.R. Horton（建商）",
+   "facilityIds": [
+    "3601373757"
+   ]
+  },
+  {
+   "companyCode": "4538",
+   "npdesId": "ALG120502",
+   "name": "WINSTON MACHINERY CO INC Lynn AL",
+   "reason": "阿拉巴馬的木工機械廠 Winston；大詠城英文名 WINSON，MOPS 沒有美國子公司",
+   "facilityIds": [
+    "1600003157"
+   ]
+  },
+  {
+   "companyCode": "4702",
+   "npdesId": "RIRNE0419",
+   "name": "ALLIED Cumberland RI",
+   "reason": "持證人 The Allied Group；中美實 MOPS 沒有美國子公司",
+   "facilityIds": [
+    "3601607782"
+   ]
+  },
+  {
+   "companyCode": "5351",
+   "npdesId": "MDG912999",
+   "name": "ETRON CORPORATION MD",
+   "reason": "馬里蘭州 Frederick County 的廢棄物處理業（SIC 4953），1997–2002；鈺創 MOPS 沒有美國子公司",
+   "facilityIds": [
+    "3289799"
+   ]
+  },
+  {
+   "companyCode": "5460",
+   "npdesId": "CTU005130",
+   "name": "CT MUSTANG Bridgeport CT",
+   "reason": "康乃狄克州的同名設施；同協 MOPS 沒有美國子公司",
+   "facilityIds": [
+    "600045067"
+   ]
+  },
+  {
+   "companyCode": "5460",
+   "npdesId": "ALR10BCYS",
+   "name": "MUSTANG Bridgeport AL",
+   "reason": "持證人 CS Beatty Construction、Wiessner Enterprises（工地）",
+   "facilityIds": [
+    "3600813020"
+   ]
+  },
+  {
+   "companyCode": "6120",
+   "npdesId": "MNG580150",
+   "name": "DARWIN MN",
+   "reason": "明尼蘇達州 Darwin 市的污水塘（SIC 4952）；達運的美國子公司是 DPUS",
+   "facilityIds": [
+    "2400058479"
+   ]
+  },
+  {
+   "companyCode": "6152",
+   "npdesId": "GAU050264",
+   "name": "PRIME, INC Port Wentworth GA",
+   "reason": "密蘇里州 Springfield 的貨運公司 Prime, Inc.；百一 MOPS 沒有美國子公司",
+   "facilityIds": [
+    "600012615"
+   ]
+  },
+  {
+   "companyCode": "6209",
+   "npdesId": "LAG532858",
+   "name": "KINKO, LLC Livingston LA",
+   "reason": "路易斯安那的 Kinko, LLC（SIC 8711）；今國光 MOPS 沒有美國子公司",
+   "facilityIds": [
+    "1600016224"
+   ]
+  },
+  {
+   "companyCode": "6221",
+   "npdesId": "ALR10B876",
+   "name": "GENESIS 1 Hartselle AL",
+   "reason": "持證人是個人 Quentin Gillette（工地）；晉泰的美國子公司是 Genesis Technology (USA)",
+   "facilityIds": [
+    "3600704654"
+   ]
+  },
+  {
+   "companyCode": "6221",
+   "npdesId": "ILR10J664",
+   "name": "GENESIS INC Roselle IL",
+   "reason": "伊利諾州的住宅營造商（SIC 1522）",
+   "facilityIds": [
+    "1000000342"
+   ]
+  },
+  {
+   "companyCode": "6239",
+   "npdesId": "NJG165085",
+   "name": "POWERTECH INC Fair Lawn NJ",
+   "reason": "紐澤西的功率電晶體廠 PowerTech, Inc.（1968 年創立）；力成 MOPS 沒有美國子公司",
+   "facilityIds": [
+    "3600846061"
+   ]
+  },
+  {
+   "companyCode": "6276",
+   "npdesId": "ILP000114",
+   "name": "ANTEC MFG. Rock Falls IL",
+   "reason": "電話設備廠（SIC 3661），是美國有線電視設備商 ANTEC；安鈦克 MOPS 沒有美國子公司",
+   "facilityIds": [
+    "3276716"
+   ]
+  },
+  {
+   "companyCode": "6488",
+   "npdesId": "ILR10BC90",
+   "name": "GTI Oglesby IL",
+   "reason": "伊利諾州 Oglesby 的工地許可（2023）；環球晶的 GTI（GlobiTech）在德州 Sherman",
+   "facilityIds": [
+    "3601577555"
+   ]
+  },
+  {
+   "companyCode": "6496",
+   "npdesId": "MN0041769",
+   "name": "EXCELSIOR WTP MN",
+   "reason": "明尼蘇達州 Excelsior 市的淨水廠（SIC 4941）；科懋 MOPS 沒有美國子公司",
+   "facilityIds": [
+    "2400002617"
+   ]
+  },
+  {
+   "companyCode": "6496",
+   "npdesId": "GAR18B78D",
+   "name": "EXCELSIOR EMC Metter GA",
+   "reason": "喬治亞州電力合作社 Excelsior EMC 的線路工程",
+   "facilityIds": [
+    "3601834035"
+   ]
+  },
+  {
+   "companyCode": "6612",
+   "npdesId": "COR901625",
+   "name": "MBI FACILITY Commerce City CO",
+   "reason": "持證人 Mr Bults Inc（MBI）；奈米醫材的 MBI 是 Millennium Biomedical",
+   "facilityIds": [
+    "3601526402"
+   ]
+  },
+  {
+   "companyCode": "6761",
+   "npdesId": "MNG580153",
+   "name": "WENDELL MN",
+   "reason": "明尼蘇達州 Wendell 市的污水塘；穩得 MOPS 沒有美國子公司",
+   "facilityIds": [
+    "2400053716"
+   ]
+  },
+  {
+   "companyCode": "6957",
+   "npdesId": "FLR20BB43",
+   "name": "HORIZON 5 Orlando FL",
+   "reason": "持證人 Orlando Construction（建案）；裕慶的美國子公司是 Beeline",
+   "facilityIds": [
+    "3600274168"
+   ]
+  },
+  {
+   "companyCode": "6957",
+   "npdesId": "FLR20BR75",
+   "name": "HORIZON 10 Orlando FL",
+   "reason": "同上",
+   "facilityIds": [
+    "3600797028"
+   ]
+  },
+  {
+   "companyCode": "6957",
+   "npdesId": "FLR20CA93",
+   "name": "HORIZON 11 Orlando FL",
+   "reason": "同上",
+   "facilityIds": [
+    "3600932376"
+   ]
+  },
+  {
+   "companyCode": "6957",
+   "npdesId": "FLR20CG23",
+   "name": "HORIZON 6 Orlando FL",
+   "reason": "同上",
+   "facilityIds": [
+    "3600932898"
+   ]
+  },
+  {
+   "companyCode": "6957",
+   "npdesId": "NMR10025O",
+   "name": "HORIZON 3 Albuquerque NM",
+   "reason": "持證人 Wilger Enterprises（建案）",
+   "facilityIds": [
+    "3601087629"
+   ]
+  },
+  {
+   "companyCode": "6957",
+   "npdesId": "UTRH05890",
+   "name": "HORIZON 17 Eden UT",
+   "reason": "持證人 Benchmark Modern（建商）",
+   "facilityIds": [
+    "3601468551"
+   ]
+  },
+  {
+   "companyCode": "6957",
+   "npdesId": "COR423178",
+   "name": "HORIZON F6 Aurora CO",
+   "reason": "持證人 Melody Homes（建商）",
+   "facilityIds": [
+    "3601661313"
+   ]
+  },
+  {
+   "companyCode": "8110",
+   "npdesId": "NYL027154",
+   "name": "WALTON (V) NY",
+   "reason": "紐約州 Walton 村；華東 MOPS 沒有美國子公司",
+   "facilityIds": [
+    "3600265313"
+   ]
+  },
+  {
+   "companyCode": "8110",
+   "npdesId": "UTRH02774",
+   "name": "WALTON Saratoga Springs UT",
+   "reason": "持證人是個人（Tom）的建案",
+   "facilityIds": [
+    "3601284833"
+   ]
+  },
+  {
+   "companyCode": "8114",
+   "npdesId": "KSR108698",
+   "name": "KIA KS",
+   "reason": "持證人 Kolbee Enterprises（工地）；振樺電的 KIA 是 KIS Acquisition Corp.",
+   "facilityIds": [
+    "3400028826"
+   ]
+  },
+  {
+   "companyCode": "8464",
+   "npdesId": "UTRH03469",
+   "name": "NORMAN Herriman UT",
+   "reason": "持證人是個人 Kyle Norman（工地）；億豐的 Norman International 是窗簾公司",
+   "facilityIds": [
+    "3601318215"
+   ]
+  },
+  {
+   "companyCode": "1301",
+   "npdesId": "TXR15979T",
+   "name": "FORMOSA PLASTICS USA NEW LSQA AND PDPS Point Comfort TX",
+   "reason": "營建雨水許可，持證人是承包商 Benchmark Houston Builders",
+   "facilityIds": [
+    "3601073914"
+   ]
+  },
+  {
+   "companyCode": "1301",
+   "npdesId": "LAR10N976",
+   "name": "SB CONSTRUCTION - FORMOSA PLASTICS BROOKLAWN YARD EXPANSION Baton Rouge LA",
+   "reason": "營建雨水許可，持證人是承包商 SB Construction",
+   "facilityIds": [
+    "3601244108"
+   ]
+  },
+  {
+   "companyCode": "2308",
+   "npdesId": "TXR1511VP",
+   "name": "DELTA ELECTRONICS CAMPUS Plano TX",
+   "reason": "台達美國 Plano 新園區的營建雨水許可，持證人是承包商 Sunflower Construction",
+   "facilityIds": [
+    "3601877841"
+   ]
+  },
+  {
+   "companyCode": "2308",
+   "npdesId": "TXR1554VR",
+   "name": "DELTA ELECTRONICS CAMPUS Plano TX",
+   "reason": "同上",
+   "facilityIds": [
+    "3601882276"
+   ]
+  },
+  {
+   "companyCode": "2618",
+   "npdesId": "TXR05DS05",
+   "name": "EVA AIRWAYS Grapevine TX",
+   "reason": "持證人是地勤貨運公司 Worldwide Flight Services",
+   "facilityIds": [
+    "3600967797"
+   ]
+  },
+  {
+   "companyCode": "2330",
+   "npdesId": "AZCN88224",
+   "name": "TSMC Arizona 工地",
+   "reason": "營建雨水許可，持證人是承包商 Austin Commercial",
+   "facilityIds": [
+    "3601417145"
+   ]
+  },
+  {
+   "companyCode": "2330",
+   "npdesId": "AZC109427",
+   "name": "TSMC Arizona 工地",
+   "reason": "營建雨水許可，持證人是承包商 Austin Commercial",
+   "facilityIds": [
+    "3601833672"
+   ]
+  },
+  {
+   "companyCode": "2330",
+   "npdesId": "AZC110242",
+   "name": "TSMC P4",
+   "reason": "營建雨水許可，持證人是承包商 Austin Commercial",
+   "facilityIds": [
+    "3601865713"
+   ]
+  },
+  {
+   "companyCode": "2330",
+   "npdesId": "AZCN92757",
+   "name": "TSMC F21 - GC2 - PHASE 1",
+   "reason": "營建雨水許可，持證人是承包商 Okland Construction",
+   "facilityIds": [
+    "3601418338"
+   ]
+  },
+  {
+   "companyCode": "2330",
+   "npdesId": "AZCN94639",
+   "name": "TSMC FAB21 - GC2 - PHASE 3",
+   "reason": "營建雨水許可，持證人是承包商 Okland Construction",
+   "facilityIds": [
+    "3601420865"
+   ]
+  },
+  {
+   "companyCode": "2330",
+   "npdesId": "AZCN93928",
+   "name": "TSMC - F21 - GC@ - WAREHOUSE",
+   "reason": "營建雨水許可，持證人是承包商 Okland Construction",
+   "facilityIds": [
+    "3601418732"
+   ]
+  },
+  {
+   "companyCode": "2330",
+   "npdesId": "AZC100771",
+   "name": "TSMC - TEMPORARY ACCESS ROAD",
+   "reason": "營建雨水許可，持證人是承包商 Okland Construction",
+   "facilityIds": [
+    "3601585255"
+   ]
+  },
+  {
+   "companyCode": "2330",
+   "npdesId": "AZC108461",
+   "name": "TSMC ARIZONA - MAIN OFFICE",
+   "reason": "營建雨水許可，持證人是承包商 Okland Construction",
+   "facilityIds": [
+    "3601817769"
+   ]
+  },
+  {
+   "companyCode": "2330",
+   "npdesId": "AZCN92139",
+   "name": "TSMC CHANNEL EXC",
+   "reason": "營建雨水許可，持證人是承包商 Buesing Corp",
+   "facilityIds": [
+    "3601418159"
+   ]
+  },
+  {
+   "companyCode": "2330",
+   "npdesId": "AZCN93029",
+   "name": "TSMC PHASE 3 & 4 MASS GRADING",
+   "reason": "營建雨水許可，持證人是承包商 Buesing Corp",
+   "facilityIds": [
+    "3601418429"
+   ]
+  },
+  {
+   "companyCode": "2330",
+   "npdesId": "AZCN89954",
+   "name": "COPNWWWW 3A - TSMC UTILITIES PROJECT",
+   "reason": "鳳凰城市政府（COP）的管線工程，持證人是承包商 Sundt Construction",
+   "facilityIds": [
+    "3601417540"
+   ]
+  },
+  {
+   "companyCode": "2330",
+   "npdesId": "AZC110436",
+   "name": "TSMC - INDUSTRIAL RECLAIMED WATER PLANT",
+   "reason": "營建雨水許可，持證人是承包商 Sundt Construction",
+   "facilityIds": [
+    "3601873822"
+   ]
+  },
+  {
+   "companyCode": "2330",
+   "npdesId": "AZCN90944",
+   "name": "TSMC 69 & 230/500 KV OH",
+   "reason": "電力公司 Arizona Public Service 的輸電線工程",
+   "facilityIds": [
+    "3601417827"
+   ]
+  },
+  {
+   "companyCode": "2330",
+   "npdesId": "AZCN91068",
+   "name": "TSMC 69KV & 500/230KV OH",
+   "reason": "同一條輸電線，持證人是電力工程商 Sturgeon Electric",
+   "facilityIds": [
+    "3601417858"
+   ]
+  },
+  {
+   "companyCode": "2330",
+   "npdesId": "AZCN91165",
+   "name": "HPTW - FR311 - TSMC REDUNDANT FEEDS",
+   "reason": "瓦斯公司 Southwest Gas 的供氣管線工程",
+   "facilityIds": [
+    "3601417882"
+   ]
+  },
+  {
+   "companyCode": "2330",
+   "npdesId": "AZC107763",
+   "name": "APS TSMC MICROGRID",
+   "reason": "電力公司 APS（Distributed Energy Resources）的微電網工程",
+   "facilityIds": [
+    "3601781893"
+   ]
+  },
+  {
+   "companyCode": "2330",
+   "npdesId": "AZC108221",
+   "name": "APS - TSMC PHASE 2",
+   "reason": "電力公司 APS 的工程，持證人是 PowerSecure（Southern Company 子公司）",
+   "facilityIds": [
+    "3601813500"
+   ]
+  },
   {
    "companyCode": "4523",
    "registryId": "110001888253",
@@ -10677,90 +10786,6 @@
    "registryId": "110000599905"
   },
   {
-   "id": "CWA-I-3602177058",
-   "program": "CWA",
-   "kind": "informal",
-   "type": "Notice of Noncompliance Issued",
-   "date": "2019-09-18",
-   "agency": "州政府",
-   "description": "Administrative - Informal",
-   "caseNumber": "CA-ZIEA434214",
-   "facilityId": "3601123776",
-   "npdesId": "CAW511595",
-   "companyCode": "1515",
-   "registryId": "110070621550"
-  },
-  {
-   "id": "CWA-I-3603697693",
-   "program": "CWA",
-   "kind": "informal",
-   "type": "Letter of Violation/ Warning Letter",
-   "date": "2023-08-28",
-   "agency": "州政府",
-   "description": "Administrative - Informal",
-   "caseNumber": "AL-18930689341682393",
-   "facilityId": "3601213679",
-   "npdesId": "ALG180909",
-   "companyCode": "1524",
-   "registryId": "110070817560"
-  },
-  {
-   "id": "CWA-I-3601522547",
-   "program": "CWA",
-   "kind": "informal",
-   "type": "Notice of Noncompliance Issued",
-   "date": "2018-08-13",
-   "agency": "州政府",
-   "description": "Administrative - Informal",
-   "caseNumber": "CA-ZIEA430177",
-   "facilityId": "3600735006",
-   "npdesId": "CAZ471711",
-   "companyCode": "1528",
-   "registryId": "110027373900"
-  },
-  {
-   "id": "CWA-I-3601563333",
-   "program": "CWA",
-   "kind": "informal",
-   "type": "Notice of Violation",
-   "date": "2018-09-20",
-   "agency": "州政府",
-   "description": "Administrative - Informal",
-   "caseNumber": "CA-ZIEA430697",
-   "facilityId": "3600735006",
-   "npdesId": "CAZ471711",
-   "companyCode": "1528",
-   "registryId": "110027373900"
-  },
-  {
-   "id": "CWA-I-3603044664",
-   "program": "CWA",
-   "kind": "informal",
-   "type": "Notice of Violation",
-   "date": "2021-10-18",
-   "agency": "州政府",
-   "description": "Administrative - Informal",
-   "caseNumber": "CA-ZIEA443683",
-   "facilityId": "3600735006",
-   "npdesId": "CAZ471711",
-   "companyCode": "1528",
-   "registryId": "110027373900"
-  },
-  {
-   "id": "CWA-I-3603045072",
-   "program": "CWA",
-   "kind": "informal",
-   "type": "Notice of Violation",
-   "date": "2022-01-03",
-   "agency": "州政府",
-   "description": "Administrative - Informal",
-   "caseNumber": "CA-ZIEA444978",
-   "facilityId": "3600735006",
-   "npdesId": "CAZ471711",
-   "companyCode": "1528",
-   "registryId": "110027373900"
-  },
-  {
    "id": "RCRA-V-CAR000005421-262.C-06/04/2020",
    "program": "RCRA",
    "kind": "violation",
@@ -10810,20 +10835,6 @@
    "penaltyUSD": 6900,
    "companyCode": "2027",
    "registryId": "110018919946"
-  },
-  {
-   "id": "CWA-I-3601936297",
-   "program": "CWA",
-   "kind": "informal",
-   "type": "Notice of Noncompliance Issued",
-   "date": "2019-08-02",
-   "agency": "州政府",
-   "description": "Administrative - Informal",
-   "caseNumber": "FL-NCOMET12372158",
-   "facilityId": "3601061039",
-   "npdesId": "FLR10SJ36",
-   "companyCode": "2027",
-   "registryId": "110070263045"
   },
   {
    "id": "CAA-F-3601761826",
@@ -12422,192 +12433,6 @@
    "registryId": "110000455766"
   },
   {
-   "id": "RCRA-V-MAD042768820-262.A-11/04/1987",
-   "program": "RCRA",
-   "kind": "violation",
-   "type": "Standards Applicable to Generators of HW: General",
-   "violationCode": "262.A",
-   "date": "1987-11-04",
-   "resolvedDate": "1992-11-04",
-   "agency": "州政府",
-   "companyCode": "2308",
-   "registryId": "110000795541"
-  },
-  {
-   "id": "RCRA-E-MAD042768820-000-HQ120",
-   "program": "RCRA",
-   "kind": "informal",
-   "type": "Written Informal",
-   "date": "1988-03-07",
-   "agency": "州政府",
-   "companyCode": "2308",
-   "registryId": "110000795541"
-  },
-  {
-   "id": "RCRA-V-MAD066596933-262.A-04/18/1990",
-   "program": "RCRA",
-   "kind": "violation",
-   "type": "Standards Applicable to Generators of HW: General",
-   "violationCode": "262.A",
-   "date": "1990-04-18",
-   "resolvedDate": "1990-08-15",
-   "agency": "州政府",
-   "companyCode": "2308",
-   "registryId": "110000795541"
-  },
-  {
-   "id": "RCRA-V-MAD066596933-268.A-04/18/1990",
-   "program": "RCRA",
-   "kind": "violation",
-   "type": "Land Disposal Restrictions: General",
-   "violationCode": "268.A",
-   "date": "1990-04-18",
-   "resolvedDate": "1991-02-05",
-   "agency": "州政府",
-   "companyCode": "2308",
-   "registryId": "110000795541"
-  },
-  {
-   "id": "RCRA-E-MAD066596933-004-HQ120",
-   "program": "RCRA",
-   "kind": "informal",
-   "type": "Written Informal",
-   "date": "1990-07-09",
-   "agency": "州政府",
-   "companyCode": "2308",
-   "registryId": "110000795541"
-  },
-  {
-   "id": "RCRA-V-MAD066596933-FEA-08/15/1990",
-   "program": "RCRA",
-   "kind": "violation",
-   "type": "Violation of a formal enforcement agreement or order. (3008(a) or 3013)",
-   "violationCode": "FEA",
-   "date": "1990-08-15",
-   "resolvedDate": "1991-02-05",
-   "agency": "州政府",
-   "companyCode": "2308",
-   "registryId": "110000795541"
-  },
-  {
-   "id": "RCRA-E-MAD066596933-006-HQ120",
-   "program": "RCRA",
-   "kind": "informal",
-   "type": "Written Informal",
-   "date": "1990-08-29",
-   "agency": "州政府",
-   "companyCode": "2308",
-   "registryId": "110000795541"
-  },
-  {
-   "id": "RCRA-E-MAD066596933-003-HQ120",
-   "program": "RCRA",
-   "kind": "informal",
-   "type": "Written Informal",
-   "date": "1990-12-14",
-   "agency": "州政府",
-   "companyCode": "2308",
-   "registryId": "110000795541"
-  },
-  {
-   "id": "RCRA-V-MAD066596933-262.C-05/19/1992",
-   "program": "RCRA",
-   "kind": "violation",
-   "type": "Standards Applicable to Generators of HW: Pre-Transport Requirements Applicable to Small and Large Quantity Generators",
-   "violationCode": "262.C",
-   "date": "1992-05-19",
-   "resolvedDate": "1999-06-25",
-   "agency": "州政府",
-   "companyCode": "2308",
-   "registryId": "110000795541"
-  },
-  {
-   "id": "RCRA-E-MAD066596933-000-HQ120",
-   "program": "RCRA",
-   "kind": "informal",
-   "type": "Written Informal",
-   "date": "1992-08-31",
-   "agency": "州政府",
-   "companyCode": "2308",
-   "registryId": "110000795541"
-  },
-  {
-   "id": "RCRA-V-MAD066596933-261.A-02/03/1999",
-   "program": "RCRA",
-   "kind": "violation",
-   "type": "ID and Listing of HW: General",
-   "violationCode": "261.A",
-   "date": "1999-02-03",
-   "resolvedDate": "1999-06-25",
-   "agency": "州政府",
-   "companyCode": "2308",
-   "registryId": "110000795541"
-  },
-  {
-   "id": "RCRA-V-MAD066596933-262.C-02/03/1999",
-   "program": "RCRA",
-   "kind": "violation",
-   "type": "Standards Applicable to Generators of HW: Pre-Transport Requirements Applicable to Small and Large Quantity Generators",
-   "violationCode": "262.C",
-   "date": "1999-02-03",
-   "resolvedDate": "1999-06-25",
-   "agency": "州政府",
-   "companyCode": "2308",
-   "registryId": "110000795541"
-  },
-  {
-   "id": "FEC-600054914",
-   "program": "FEC",
-   "kind": "case",
-   "type": "Administrative - Formal",
-   "statutes": [
-    "EPCRA"
-   ],
-   "date": "2007-07-24",
-   "fiscalYear": "2007",
-   "agency": "EPA",
-   "caseNumber": "01-2007-9046",
-   "caseName": "DELTA ELECTRONICS MANUFACTURING CORPORATION",
-   "status": "Closed",
-   "outcome": "Final Order No Penalty",
-   "description": "SELF DISCLOSURE OF EPCRA 311, 312 and 313 violations resolved with NOD.",
-   "sourceUrl": "https://echo.epa.gov/enforcement-case-report?id=01-2007-9046",
-   "companyCode": "2308",
-   "registryId": "110000795541"
-  },
-  {
-   "id": "RCRA-V-MAD066596933-262.C-07/07/2011",
-   "program": "RCRA",
-   "kind": "violation",
-   "type": "Standards Applicable to Generators of HW: Pre-Transport Requirements Applicable to Small and Large Quantity Generators",
-   "violationCode": "262.C",
-   "date": "2011-07-07",
-   "resolvedDate": "2011-09-21",
-   "agency": "州政府",
-   "companyCode": "2308",
-   "registryId": "110000795541"
-  },
-  {
-   "id": "FEC-3600079579",
-   "program": "FEC",
-   "kind": "case",
-   "type": "Administrative - Formal",
-   "statutes": [
-    "EPCRA"
-   ],
-   "date": "2014-10-14",
-   "fiscalYear": "2015",
-   "agency": "EPA",
-   "caseNumber": "06-2015-0601",
-   "caseName": "Argos Ready Mix",
-   "status": "Closed",
-   "outcome": "Final Order No Penalty",
-   "description": "Argos Ready Mix was disclosed violation of EPCRA 313 to U.S. EPA. After reviewing the Audit Policy checklist they submitted, 100% of the gravity base penalty was mitigated. Economic benefit was deemed insignificant.",
-   "sourceUrl": "https://echo.epa.gov/enforcement-case-report?id=06-2015-0601",
-   "companyCode": "2308",
-   "registryId": "110043745114"
-  },
-  {
    "id": "CWA-I-3603515682",
    "program": "CWA",
    "kind": "informal",
@@ -13112,20 +12937,6 @@
    "registryId": "110000490772"
   },
   {
-   "id": "CWA-I-3602319447",
-   "program": "CWA",
-   "kind": "informal",
-   "type": "Notice of Noncompliance Issued",
-   "date": "2020-10-23",
-   "agency": "州政府",
-   "description": "Administrative - Informal",
-   "caseNumber": "CA-ZIEA438264",
-   "facilityId": "3600729147",
-   "npdesId": "CAZ423773",
-   "companyCode": "2330",
-   "registryId": "110070091743"
-  },
-  {
    "id": "RCRA-V-WAH000002246-262.A-05/12/2021",
    "program": "RCRA",
    "kind": "violation",
@@ -13200,110 +13011,6 @@
    "registryId": "110070095996"
   },
   {
-   "id": "CWA-I-2600034003",
-   "program": "CWA",
-   "kind": "informal",
-   "type": "Notice of Violation",
-   "date": "2011-05-24",
-   "agency": "州政府",
-   "description": "Administrative - Informal",
-   "caseNumber": "AL-200048688",
-   "facilityId": "1600003204",
-   "npdesId": "ALG140006",
-   "companyCode": "2607",
-   "registryId": "110010105652"
-  },
-  {
-   "id": "CWA-I-3400215138",
-   "program": "CWA",
-   "kind": "informal",
-   "type": "Letter of Violation/ Warning Letter",
-   "date": "2014-02-25",
-   "agency": "州政府",
-   "description": "Administrative - Informal",
-   "caseNumber": "AL-1-004386",
-   "facilityId": "1600003204",
-   "npdesId": "ALG140006",
-   "companyCode": "2607",
-   "registryId": "110010105652"
-  },
-  {
-   "id": "CWA-I-3600076997",
-   "program": "CWA",
-   "kind": "informal",
-   "type": "Letter of Violation/ Warning Letter",
-   "date": "2015-01-28",
-   "agency": "州政府",
-   "description": "Administrative - Informal",
-   "caseNumber": "AL-1-005517",
-   "facilityId": "1600003204",
-   "npdesId": "ALG140006",
-   "companyCode": "2607",
-   "registryId": "110010105652"
-  },
-  {
-   "id": "CWA-I-3600189500",
-   "program": "CWA",
-   "kind": "informal",
-   "type": "Letter of Violation/ Warning Letter",
-   "date": "2015-08-06",
-   "agency": "州政府",
-   "description": "Administrative - Informal",
-   "caseNumber": "AL-1-005959",
-   "facilityId": "1600003204",
-   "npdesId": "ALG140006",
-   "companyCode": "2607",
-   "registryId": "110010105652"
-  },
-  {
-   "id": "RCRA-V-ALR000049833-XXS-05/05/2016",
-   "program": "RCRA",
-   "kind": "violation",
-   "type": "State Statutory or Regulatory requirements that are broader-in-scope than the federal RCRA requirements",
-   "violationCode": "XXS",
-   "date": "2016-05-05",
-   "resolvedDate": "2016-08-15",
-   "agency": "州政府",
-   "companyCode": "2607",
-   "registryId": "110010105652"
-  },
-  {
-   "id": "RCRA-V-ALR000049833-279.C-05/05/2016",
-   "program": "RCRA",
-   "kind": "violation",
-   "type": "Standards for Used Oil: Generators",
-   "violationCode": "279.C",
-   "date": "2016-05-05",
-   "resolvedDate": "2016-08-15",
-   "agency": "州政府",
-   "companyCode": "2607",
-   "registryId": "110010105652"
-  },
-  {
-   "id": "RCRA-E-ALR000049833-001-AL115",
-   "program": "RCRA",
-   "kind": "informal",
-   "type": "Warning Letter",
-   "date": "2016-05-24",
-   "agency": "州政府",
-   "companyCode": "2607",
-   "registryId": "110010105652"
-  },
-  {
-   "id": "CWA-I-3601160866",
-   "program": "CWA",
-   "kind": "informal",
-   "type": "Notice of Violation",
-   "date": "2017-08-24",
-   "agency": "州政府",
-   "description": "Administrative - Informal",
-   "caseNumber": "AL-29-003731",
-   "facilityId": "1600003204",
-   "npdesId": "ALG140006",
-   "companyCode": "2607",
-   "registryId": "110010105652"
-  },
-  {
    "id": "CWA-I-3603515648",
    "program": "CWA",
    "kind": "informal",
@@ -13358,105 +13065,6 @@
    "npdesId": "CAZ494423",
    "companyCode": "2908",
    "registryId": "110070203845"
-  },
-  {
-   "id": "CWA-F-800049405",
-   "program": "CWA",
-   "kind": "formal",
-   "type": "CWA 309G2B AO For Class II Penalties",
-   "date": "1998-09-30",
-   "agency": "EPA",
-   "description": "Administrative - Formal",
-   "caseNumber": "05-1998-N017",
-   "facilityId": "800003458",
-   "npdesId": "ILP000173",
-   "companyCode": "3357",
-   "registryId": "110064649359"
-  },
-  {
-   "id": "CAA-I-3400359980",
-   "program": "CAA",
-   "kind": "informal",
-   "type": "Notice of Violation",
-   "date": "2006-01-24",
-   "agency": "州政府",
-   "description": "Administrative - Informal",
-   "caseNumber": "NC000A0000371530005300009",
-   "companyCode": "4534",
-   "registryId": "110000349935"
-  },
-  {
-   "id": "CAA-V-3601643064-NC000A0000370770005300015",
-   "program": "CAA",
-   "kind": "violation",
-   "type": "Federally Reportable Violation",
-   "date": "2010-03-11",
-   "resolvedDate": "2010-03-23",
-   "agency": "州政府",
-   "description": "New Source Performance Standards (Non-Major)",
-   "pollutants": "VOLATILE ORGANIC COMPOUNDS (VOCS)",
-   "companyCode": "4534",
-   "registryId": "110000349935"
-  },
-  {
-   "id": "CAA-I-3601639847",
-   "program": "CAA",
-   "kind": "informal",
-   "type": "Notice of Violation",
-   "date": "2010-03-11",
-   "agency": "州政府",
-   "description": "Administrative - Informal",
-   "caseNumber": "NC000A0000370770005300015",
-   "companyCode": "4534",
-   "registryId": "110000349935"
-  },
-  {
-   "id": "RCRA-V-NCR000150235-262.M-04/03/2019",
-   "program": "RCRA",
-   "kind": "violation",
-   "type": "Standards Applicable to Generators of HW: Preparedness. Prevention, and Emergency Procedures for LQGs",
-   "violationCode": "262.M",
-   "date": "2019-04-03",
-   "resolvedDate": "2019-08-14",
-   "agency": "州政府",
-   "companyCode": "4534",
-   "registryId": "110000349935"
-  },
-  {
-   "id": "RCRA-V-NCR000150235-262.A-04/03/2019",
-   "program": "RCRA",
-   "kind": "violation",
-   "type": "Standards Applicable to Generators of HW: General",
-   "violationCode": "262.A",
-   "date": "2019-04-03",
-   "resolvedDate": "2019-08-14",
-   "agency": "州政府",
-   "companyCode": "4534",
-   "registryId": "110000349935"
-  },
-  {
-   "id": "RCRA-E-NCR000150235-003-HQ120",
-   "program": "RCRA",
-   "kind": "informal",
-   "type": "Written Informal",
-   "date": "2019-06-06",
-   "agency": "州政府",
-   "companyCode": "4534",
-   "registryId": "110000349935"
-  },
-  {
-   "id": "CWA-I-1800033902",
-   "program": "CWA",
-   "kind": "informal",
-   "type": "Notice of Violation",
-   "date": "2009-09-03",
-   "agency": "州政府",
-   "description": "Administrative - Informal",
-   "caseNumber": "AL-200020938",
-   "facilityId": "1600003157",
-   "npdesId": "ALG120502",
-   "companyCode": "4538",
-   "registryId": "110020524798"
   },
   {
    "id": "CWA-I-3601977203",
@@ -13529,262 +13137,6 @@
    "registryId": "110070094063"
   },
   {
-   "id": "CWA-I-3601803219",
-   "program": "CWA",
-   "kind": "informal",
-   "type": "Letter of Violation/ Warning Letter",
-   "date": "2019-03-26",
-   "agency": "州政府",
-   "description": "Administrative - Informal",
-   "caseNumber": "AL-1-008391",
-   "facilityId": "3600813020",
-   "npdesId": "ALR10BCYS",
-   "companyCode": "5460",
-   "registryId": "110070159864"
-  },
-  {
-   "id": "CWA-I-2600057833",
-   "program": "CWA",
-   "kind": "informal",
-   "type": "Letter of Violation/ Warning Letter",
-   "date": "2010-08-10",
-   "agency": "州政府",
-   "description": "Administrative - Informal",
-   "caseNumber": "MN-200052717",
-   "facilityId": "2400058479",
-   "npdesId": "MNG580150",
-   "companyCode": "6120",
-   "registryId": "110028275060"
-  },
-  {
-   "id": "CWA-I-3000054332",
-   "program": "CWA",
-   "kind": "informal",
-   "type": "Letter of Violation/ Warning Letter",
-   "date": "2011-12-29",
-   "agency": "州政府",
-   "description": "Administrative - Informal",
-   "caseNumber": "MN-200073154",
-   "facilityId": "2400058479",
-   "npdesId": "MNG580150",
-   "companyCode": "6120",
-   "registryId": "110028275060"
-  },
-  {
-   "id": "CWA-I-3600480100",
-   "program": "CWA",
-   "kind": "informal",
-   "type": "Letter of Violation/ Warning Letter",
-   "date": "2015-01-05",
-   "agency": "州政府",
-   "description": "Administrative - Informal",
-   "caseNumber": "MN-200132212",
-   "facilityId": "2400058479",
-   "npdesId": "MNG580150",
-   "companyCode": "6120",
-   "registryId": "110028275060"
-  },
-  {
-   "id": "CWA-I-3600805147",
-   "program": "CWA",
-   "kind": "informal",
-   "type": "Letter of Violation/ Warning Letter",
-   "date": "2015-01-05",
-   "agency": "州政府",
-   "description": "Administrative - Informal",
-   "caseNumber": "MN-200141450",
-   "facilityId": "2400058479",
-   "npdesId": "MNG580150",
-   "companyCode": "6120",
-   "registryId": "110028275060"
-  },
-  {
-   "id": "CWA-I-600092269",
-   "program": "CWA",
-   "kind": "informal",
-   "type": "Notice of Violation",
-   "date": "2006-08-17",
-   "agency": "州政府",
-   "description": "Administrative - Informal",
-   "caseNumber": "GA-200008844",
-   "facilityId": "600012615",
-   "npdesId": "GAU050264",
-   "companyCode": "6152",
-   "registryId": "110028077239"
-  },
-  {
-   "id": "CWA-I-600092283",
-   "program": "CWA",
-   "kind": "informal",
-   "type": "Notice of Violation",
-   "date": "2006-09-29",
-   "agency": "州政府",
-   "description": "Administrative - Informal",
-   "caseNumber": "GA-200008845",
-   "facilityId": "600012615",
-   "npdesId": "GAU050264",
-   "companyCode": "6152",
-   "registryId": "110028077239"
-  },
-  {
-   "id": "CWA-I-600024994",
-   "program": "CWA",
-   "kind": "informal",
-   "type": "Notice of Violation",
-   "date": "2006-12-28",
-   "agency": "州政府",
-   "description": "Administrative - Informal",
-   "caseNumber": "GA-200004376",
-   "facilityId": "600012615",
-   "npdesId": "GAU050264",
-   "companyCode": "6152",
-   "registryId": "110028077239"
-  },
-  {
-   "id": "CWA-I-600085858",
-   "program": "CWA",
-   "kind": "informal",
-   "type": "Notice of Violation",
-   "date": "2007-06-22",
-   "agency": "州政府",
-   "description": "Administrative - Informal",
-   "caseNumber": "GA-200008533",
-   "facilityId": "600012615",
-   "npdesId": "GAU050264",
-   "companyCode": "6152",
-   "registryId": "110028077239"
-  },
-  {
-   "id": "CWA-F-3601078637",
-   "program": "CWA",
-   "kind": "formal",
-   "type": "Order of Suspension or Revocation",
-   "date": "2016-03-11",
-   "agency": "州政府",
-   "description": "Administrative - Formal",
-   "caseNumber": "AL-8-000068",
-   "facilityId": "3600704654",
-   "npdesId": "ALR10B876",
-   "companyCode": "6221",
-   "registryId": "110070072471"
-  },
-  {
-   "id": "RCRA-V-ILD069942662-264.D-05/30/2001",
-   "program": "RCRA",
-   "kind": "violation",
-   "type": "Standards for Owners and Operators of HW TSDs: Contingency Plan and Emergency Procedures",
-   "violationCode": "264.D",
-   "date": "2001-05-30",
-   "resolvedDate": "2001-10-15",
-   "agency": "州政府",
-   "companyCode": "6276",
-   "registryId": "110018295762"
-  },
-  {
-   "id": "RCRA-V-ILD069942662-264.C-05/30/2001",
-   "program": "RCRA",
-   "kind": "violation",
-   "type": "Standards for Owners and Operators of HW TSDs: Preparedness and Prevention",
-   "violationCode": "264.C",
-   "date": "2001-05-30",
-   "resolvedDate": "2001-10-15",
-   "agency": "州政府",
-   "companyCode": "6276",
-   "registryId": "110018295762"
-  },
-  {
-   "id": "RCRA-V-ILD069942662-264.B-05/30/2001",
-   "program": "RCRA",
-   "kind": "violation",
-   "type": "Standards for Owners and Operators of HW TSDs: General Facility Standards",
-   "violationCode": "264.B",
-   "date": "2001-05-30",
-   "resolvedDate": "2001-10-15",
-   "agency": "州政府",
-   "companyCode": "6276",
-   "registryId": "110018295762"
-  },
-  {
-   "id": "RCRA-V-ILD069942662-262.A-05/30/2001",
-   "program": "RCRA",
-   "kind": "violation",
-   "type": "Standards Applicable to Generators of HW: General",
-   "violationCode": "262.A",
-   "date": "2001-05-30",
-   "resolvedDate": "2001-10-15",
-   "agency": "州政府",
-   "companyCode": "6276",
-   "registryId": "110018295762"
-  },
-  {
-   "id": "RCRA-V-ILD069942662-264.A-05/30/2001",
-   "program": "RCRA",
-   "kind": "violation",
-   "type": "Standards for Owners and Operators of HW TSDs: General",
-   "violationCode": "264.A",
-   "date": "2001-05-30",
-   "resolvedDate": "2001-10-15",
-   "agency": "州政府",
-   "companyCode": "6276",
-   "registryId": "110018295762"
-  },
-  {
-   "id": "RCRA-V-ILD069942662-264.I-05/30/2001",
-   "program": "RCRA",
-   "kind": "violation",
-   "type": "Standards for Owners and Operators of HW TSDs: Use and Management of Containers",
-   "violationCode": "264.I",
-   "date": "2001-05-30",
-   "resolvedDate": "2001-10-15",
-   "agency": "州政府",
-   "companyCode": "6276",
-   "registryId": "110018295762"
-  },
-  {
-   "id": "RCRA-E-ILD069942662-PG1-IL121",
-   "program": "RCRA",
-   "kind": "informal",
-   "type": "Violation Notice (Vn)",
-   "date": "2001-06-28",
-   "agency": "州政府",
-   "companyCode": "6276",
-   "registryId": "110018295762"
-  },
-  {
-   "id": "CAA-I-3400629392",
-   "program": "CAA",
-   "kind": "informal",
-   "type": "Notice of Violation",
-   "date": "2001-08-31",
-   "agency": "州政府",
-   "description": "Administrative - Informal",
-   "caseNumber": "IL000A0000171950014000001",
-   "companyCode": "6276",
-   "registryId": "110018295762"
-  },
-  {
-   "id": "RCRA-V-ILD069942662-262.D-04/27/2004",
-   "program": "RCRA",
-   "kind": "violation",
-   "type": "Standards Applicable to Recordkeeping and Reporting Applicable to Small and Large Quantity Generators",
-   "violationCode": "262.D",
-   "date": "2004-04-27",
-   "resolvedDate": "2004-05-26",
-   "agency": "州政府",
-   "companyCode": "6276",
-   "registryId": "110018295762"
-  },
-  {
-   "id": "RCRA-E-ILD069942662-DV1-IL121",
-   "program": "RCRA",
-   "kind": "informal",
-   "type": "Violation Notice (Vn)",
-   "date": "2004-05-11",
-   "agency": "州政府",
-   "companyCode": "6276",
-   "registryId": "110018295762"
-  },
-  {
    "id": "CAA-I-3604278117",
    "program": "CAA",
    "kind": "informal",
@@ -13808,21 +13160,6 @@
    "npdesId": "MO0000299",
    "companyCode": "6488",
    "registryId": "110000442101"
-  },
-  {
-   "id": "CWA-F-3400153401",
-   "program": "CWA",
-   "kind": "formal",
-   "type": "State CWA Penalty AO",
-   "date": "2013-05-02",
-   "agency": "州政府",
-   "description": "Administrative - Formal",
-   "caseNumber": "MN-STIP05022013",
-   "penaltyUSD": 8479,
-   "facilityId": "2400002617",
-   "npdesId": "MN0041769",
-   "companyCode": "6496",
-   "registryId": "110003825629"
   },
   {
    "id": "FEC-3603786357",
@@ -13899,20 +13236,6 @@
    "npdesId": "CAZ293043",
    "companyCode": "6670",
    "registryId": "110000861354"
-  },
-  {
-   "id": "CWA-I-2600046039",
-   "program": "CWA",
-   "kind": "informal",
-   "type": "Letter of Violation/ Warning Letter",
-   "date": "2009-11-09",
-   "agency": "州政府",
-   "description": "Administrative - Informal",
-   "caseNumber": "MN-200050243",
-   "facilityId": "2400053716",
-   "npdesId": "MNG580153",
-   "companyCode": "6761",
-   "registryId": "110028295529"
   },
   {
    "id": "CWA-I-3601347793",
@@ -14180,52 +13503,6 @@
    "agency": "州政府",
    "companyCode": "8069",
    "registryId": "110041673463"
-  },
-  {
-   "id": "RCRA-V-KSD031419559-262.A-02/03/2005",
-   "program": "RCRA",
-   "kind": "violation",
-   "type": "Standards Applicable to Generators of HW: General",
-   "violationCode": "262.A",
-   "date": "2005-02-03",
-   "resolvedDate": "2005-02-10",
-   "agency": "州政府",
-   "companyCode": "8114",
-   "registryId": "110003152944"
-  },
-  {
-   "id": "RCRA-V-KSD031419559-262.B-02/03/2005",
-   "program": "RCRA",
-   "kind": "violation",
-   "type": "Standards Applicable to Generators of HW: Manifest Requirements Applicable to Small and Large Quantity Generators",
-   "violationCode": "262.B",
-   "date": "2005-02-03",
-   "resolvedDate": "2005-02-10",
-   "agency": "州政府",
-   "companyCode": "8114",
-   "registryId": "110003152944"
-  },
-  {
-   "id": "RCRA-V-KSD031419559-262.C-02/03/2005",
-   "program": "RCRA",
-   "kind": "violation",
-   "type": "Standards Applicable to Generators of HW: Pre-Transport Requirements Applicable to Small and Large Quantity Generators",
-   "violationCode": "262.C",
-   "date": "2005-02-03",
-   "resolvedDate": "2005-02-10",
-   "agency": "州政府",
-   "companyCode": "8114",
-   "registryId": "110003152944"
-  },
-  {
-   "id": "RCRA-E-KSD031419559-001-HQ120",
-   "program": "RCRA",
-   "kind": "informal",
-   "type": "Written Informal",
-   "date": "2005-02-03",
-   "agency": "州政府",
-   "companyCode": "8114",
-   "registryId": "110003152944"
   },
   {
    "id": "CWA-I-3602331415",

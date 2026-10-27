@@ -44,10 +44,14 @@ def company_cols(code, info, companies):
 
 
 def main():
+    # 查證後不歸台灣母公司的設施（echo-programs.json excludedSites）建置時會拿掉，設施全被拿掉的公司算不在 EPA 資料裡
+    progs = DATA / 'echo-programs.json'
+    gone = {(e['companyCode'], fid) for e in (json.load(open(progs))['excludedSites'] if progs.exists() else []) for fid in e['facilityIds']}
     have = set()
     for f in ('facilities.csv', 'facilities-supplement.csv'):
         if (DATA / f).exists():
-            have |= {r['公司代號'].strip() for r in csv.DictReader(open(DATA / f, encoding='utf-8-sig'))}
+            have |= {r['公司代號'].strip() for r in csv.DictReader(open(DATA / f, encoding='utf-8-sig'))
+                     if (r['公司代號'].strip(), re.sub(r'\.0+$', '', r['icis_facility_id'].strip())) not in gone}
     companies, *_ = ro.load_mops()
     info = {r['公司代號']: r for r in csv.DictReader(open(ro.MOPS_DIR / 'mops_company_info.csv', encoding='utf-8-sig'))}
 

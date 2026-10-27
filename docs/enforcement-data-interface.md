@@ -243,6 +243,8 @@ MOPS 檔案放在 sibling repo `formosa-oversee/scripts/mops_company`，可用 `
 
 2026-09-30 的結果：169 個設施中 30 個 `suspect`、17 個 `weak`；5,862 筆 ECHO 違規中有 1,420 筆落在 `suspect` 設施上，主要是榮運（821）、耿鼎（300）、豆府（248）。前端目前仍照舊顯示，是否隱藏或加註由產品決定。
 
+這個分級只看名稱，`high` 也會錯。2026-10-27 改成逐張查許可證持證人，查證是誤配或持證人是承包商的都拿掉（第 9 節 `NOT_OWNED`），方法與結果見 `docs/echo-data-sources.md` 第 5 節。
+
 ### 核對狀態（2026-09-30）
 
 自動檢查全部通過：
@@ -310,6 +312,8 @@ npm run attribution
 | 其他既有公司 | 保瑞 Upsher-Smith、力山 Power Tool Specialists、美食-KY 85°C、長榮 Everport、大成 Amy Food、鴻海 Sharp Memphis | 各 1–2 張 | 3 |
 
 合計補進 27 個許可證、634 筆違規；網站由 92 家公司、169 個設施、5,862 筆違規，變成 95 家、196 個設施、6,496 筆。補完後重跑稽核：完整涵蓋由 31 個升到 50 個，部分涵蓋由 16 個降到 4 個。
+
+**2026-10-27 更正**：逐張查持證人後，上表有 9 張拿掉。台積電 5 張、特力 GAR1544B7、TCI TXR1533GK、Primus FLR10SJ36 的持證人是承包商或開發商；力山 CAZ513140（Air & Power Tool Specialists，Artesia CA）是同名誤配，力山的 Power Tool Specialists 在北卡。見 `docs/echo-data-sources.md` 第 5 節。
 
 控制時點：TCI Texarkana 是 2018-10 向 Arconic 買下，TX0097055 在 2000–2010 年的 556 筆違規屬前業主（Alcoa／Arconic），不納入；夏普美國以 2016 年為起點。
 
@@ -420,7 +424,9 @@ EPA 的 FRS（Facility Registry Service）替每個實體廠區配一個 `REGIST
 
 **2026-10-27 決定拿掉**：這七個設施連同水污染違規都不再顯示，被拿掉的水污染違規有 VISCO 261 筆、AMA 26 筆、Beeline 6 筆、Standard Foods 5 筆、Solomon 5 筆，Everbrite 與 Chroma 原本就沒有。`echo-programs.json` 的 `excludedSites` 帶各廠區的設施編號，建置時 `fetch-gcs-data.js` 的 `removeNotOwnedSites` 依此拿掉設施與違規。`facilities.csv`、`violations.csv` 保留原樣，重新下載也不受影響。
 
-視陽 6782、宇瞻 8271、佳格 1227、所羅門 2359、永彰 4523、致茂 2360 的 EPA 設施只有這一個，整家公司從網站拿掉；它們沒有污染事件或 VT 紀錄，之後若有，要讓 `build-company-info.py` 把它們當成不在 EPA 資料裡的公司另建。裕慶 6957 還有 7 個 HORIZON 設施（`suspect`），照 2026-09-30 的決定繼續顯示。
+視陽 6782、宇瞻 8271、佳格 1227、所羅門 2359、永彰 4523、致茂 2360 的 EPA 設施只有這一個，整家公司從網站拿掉；它們沒有污染事件或 VT 紀錄，之後若有，要讓 `build-company-info.py` 把它們當成不在 EPA 資料裡的公司另建。裕慶 6957 還有 7 個 HORIZON 設施（`suspect`），當時照 2026-09-30 的決定繼續顯示。
+
+**2026-10-27 第二批**：同一天稍後逐張查網站上所有設施的許可證持證人（`docs/echo-data-sources.md` 第 5 節），再拿掉 98 張許可證的設施（同名誤配 76 張；持證人是承包商、公用事業或地主 22 張），`build-echo-supplement.py` 也拿掉 9 張（承包商 8 張、誤配 1 張）。網站設施由 199 個減為 92 個、紀錄少 1,639 筆，46 家公司的設施全是誤配而拿掉。`NOT_OWNED` 除了 FRS REGISTRY_ID，也可以寫 NPDES 許可證號，只拿掉那張許可證的設施；`excludedSites` 的這類項目帶 `npdesId`。設施全被拿掉、但有污染事件或 VT 紀錄的公司（華碩 2357、長榮航 2618），`build-company-info.py` 改當成不在 EPA 資料裡的公司。
 
 ## 10. 水污染違規改由 EPA 全量檔重建（2026-10-25）
 

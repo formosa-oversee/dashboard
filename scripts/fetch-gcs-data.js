@@ -204,9 +204,9 @@ const toEpaDate = (iso) => (iso ? `${iso.slice(5, 7)}/${iso.slice(8, 10)}/${iso.
 const fromEpaDate = (d) => (/^\d\d\/\d\d\/\d{4}$/.test(d || '') ? `${d.slice(6)}-${d.slice(0, 2)}-${d.slice(3, 5)}` : null);
 
 /**
- * 查證後確定是同名誤配的廠區（echo-programs.json 的 excludedSites，build-echo-programs.py 的 NOT_OWNED）：
+ * 查證後不歸台灣母公司的廠區或許可證（echo-programs.json 的 excludedSites，build-echo-programs.py 的 NOT_OWNED：同名誤配、承包商持證等）：
  * 設施與水污染違規都不顯示，公司因此沒有任何設施時整家拿掉（2026-10-27 決定）。
- * 被整家拿掉的公司（2026-10 時）都沒有污染事件或 VT 紀錄；之後若有，build-company-info.py 要把它們當成不在 EPA 資料裡的公司另建。
+ * 整家拿掉、但有污染事件或 VT 紀錄的公司，build-company-info.py 會當成不在 EPA 資料裡的公司另建（addCompaniesOutsideEpa）。
  */
 function removeNotOwnedSites(companies) {
   const excluded = readDataJson('echo-programs.json')?.excludedSites || [];
@@ -222,7 +222,7 @@ function removeNotOwnedSites(companies) {
     removed.push(`${c.companyCode} ${gone.map(f => f.name).join('、')}（違規 ${violations} 筆${c.facilities.length ? '' : '，整家拿掉'}）`);
     return c.facilities.length > 0;
   });
-  console.log(`🚫 拿掉同名誤配的設施 ${removed.length} 個：${removed.join('；')}`);
+  console.log(`🚫 拿掉查證後不歸台灣母公司的設施（同名誤配、承包商持證等）${removed.length} 家公司：${removed.join('；')}`);
   return kept;
 }
 

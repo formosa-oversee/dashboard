@@ -4287,17 +4287,18 @@
         "name": "南亞塑膠工業股份有限公司",
         "short": "南亞"
       },
-      "effectivePct": null,
-      "path": [],
-      "method": "echo-name-match",
-      "usSubsidiaries": [
-        "南亞德州公司(註)",
-        "南亞美國公司(註)",
-        "南亞美洲公司(註)",
-        "南亞電路板(美國)有限公司"
+      "entityInMops": "南亞塑膠美洲有限公司",
+      "effectivePct": 100.0,
+      "path": [
+        {
+          "investor": "南亞塑膠工業股份有限公司",
+          "investee": "南亞塑膠美洲有限公司",
+          "pct": 100.0
+        }
       ],
-      "confidence": "unverified",
-      "note": "既有 ECHO 名稱匹配（公司專項匹配-1303）；此公司的美國子公司在 MOPS 只有中文名，無法用英文名比對"
+      "method": "curated-mops-node",
+      "confidence": "high",
+      "note": "持證人 Nan Ya Plastics Corp., America；Batchelor LA 塑膠膜廠"
     },
     {
       "source": "EPA ECHO",
@@ -4386,17 +4387,18 @@
         "name": "南亞塑膠工業股份有限公司",
         "short": "南亞"
       },
-      "effectivePct": null,
-      "path": [],
-      "method": "echo-name-match",
-      "usSubsidiaries": [
-        "南亞德州公司(註)",
-        "南亞美國公司(註)",
-        "南亞美洲公司(註)",
-        "南亞電路板(美國)有限公司"
+      "entityInMops": "南亞塑膠美洲有限公司",
+      "effectivePct": 100.0,
+      "path": [
+        {
+          "investor": "南亞塑膠工業股份有限公司",
+          "investee": "南亞塑膠美洲有限公司",
+          "pct": 100.0
+        }
       ],
-      "confidence": "unverified",
-      "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）；此公司的美國子公司在 MOPS 只有中文名，無法用英文名比對"
+      "method": "curated-mops-node",
+      "confidence": "high",
+      "note": "持證人 Nan Ya Plastics Corp America；Lake City SC 廠"
     },
     {
       "source": "EPA ECHO",
@@ -5162,15 +5164,18 @@
         "name": "建大工業股份有限公司",
         "short": "建大"
       },
-      "effectivePct": null,
-      "path": [],
-      "method": "echo-name-match",
-      "usSubsidiaries": [
-        "ADI",
-        "建大美國"
+      "entityInMops": "建大工業（美國）股份有限公司（建大美國）",
+      "effectivePct": 100.0,
+      "path": [
+        {
+          "investor": "建大工業股份有限公司",
+          "investee": "建大工業（美國）股份有限公司（建大美國）",
+          "pct": 100.0
+        }
       ],
-      "confidence": "unverified",
-      "note": "既有 ECHO 名稱匹配（MOPS英文名稱匹配）；此公司的美國子公司在 MOPS 只有中文名，無法用英文名比對"
+      "method": "curated-mops-node",
+      "confidence": "high",
+      "note": "持證人 American Kenda Rubber Industrial（建大美國）"
     },
     {
       "source": "EPA ECHO",
@@ -7981,54 +7986,6 @@
     },
     {
       "source": "EPA ECHO",
-      "key": "2330|3602079043",
-      "entity": "TSMC P4",
-      "companyCode": "2330",
-      "facilityId": "3602079043",
-      "responsible": {
-        "kind": "listed",
-        "code": "2330",
-        "name": "台灣積體電路製造股份有限公司",
-        "short": "台積電"
-      },
-      "entityInMops": "TSMC Arizona",
-      "effectivePct": 100.0,
-      "path": [
-        {
-          "investor": "台灣積體電路製造股份有限公司",
-          "investee": "TSMC Arizona",
-          "pct": 100.0
-        }
-      ],
-      "method": "mops-echo-subsidiary",
-      "confidence": "high"
-    },
-    {
-      "source": "EPA ECHO",
-      "key": "1515|3601151380",
-      "entity": "AIR & POWER TOOL SPECIALISTS",
-      "companyCode": "1515",
-      "facilityId": "3601151380",
-      "responsible": {
-        "kind": "listed",
-        "code": "1515",
-        "name": "力山工業股份有限公司",
-        "short": "力山"
-      },
-      "entityInMops": "Power Tool Specialists Inc.",
-      "effectivePct": 96.0,
-      "path": [
-        {
-          "investor": "力山工業股份有限公司",
-          "investee": "Power Tool Specialists Inc.",
-          "pct": 96.0
-        }
-      ],
-      "method": "mops-echo-subsidiary",
-      "confidence": "high"
-    },
-    {
-      "source": "EPA ECHO",
       "key": "1301|3601731156",
       "entity": "FORMOSA RAIL LINE AND MARSHALLING YARDS",
       "companyCode": "1301",
@@ -8099,40 +8056,6 @@
         {
           "investor": "EMC SPECIAL APPLICATION INCORPORATED",
           "investee": "EMD SPECIALTY\nMATERIALS,LLC",
-          "pct": 100.0
-        }
-      ],
-      "method": "mops-echo-subsidiary",
-      "confidence": "high"
-    },
-    {
-      "source": "EPA ECHO",
-      "key": "2027|3601061039",
-      "entity": "PRIMUS PIPE & TUBE BUILDING ADDITION",
-      "companyCode": "2027",
-      "facilityId": "3601061039",
-      "responsible": {
-        "kind": "listed",
-        "code": "2027",
-        "name": "大成不銹鋼工業股份有限公司",
-        "short": "大成鋼"
-      },
-      "entityInMops": "Primus Pipe and Tube, Inc.",
-      "effectivePct": 100.0,
-      "path": [
-        {
-          "investor": "大成不銹鋼工業股份有限公司",
-          "investee": "Ta Chen International, Inc.",
-          "pct": 100.0
-        },
-        {
-          "investor": "Ta Chen International, Inc.",
-          "investee": "Primus Pipe and Tube Holdings, Inc.",
-          "pct": 100.0
-        },
-        {
-          "investor": "Primus Pipe and Tube Holdings, Inc.",
-          "investee": "Primus Pipe and Tube, Inc.",
           "pct": 100.0
         }
       ],
@@ -8284,126 +8207,6 @@
         {
           "investor": "Upsher-Smith America LLC",
           "investee": "Upsher-Smith Laboratories, LLC",
-          "pct": 100.0
-        }
-      ],
-      "method": "mops-echo-subsidiary",
-      "confidence": "high"
-    },
-    {
-      "source": "EPA ECHO",
-      "key": "2908|3601047630",
-      "entity": "TEST RITE DISTRIBUTION",
-      "companyCode": "2908",
-      "facilityId": "3601047630",
-      "responsible": {
-        "kind": "listed",
-        "code": "2908",
-        "name": "特力股份有限公司",
-        "short": "特力"
-      },
-      "entityInMops": "Test-Rite International (U.S.) Co., Ltd.",
-      "effectivePct": 100.0,
-      "path": [
-        {
-          "investor": "特力股份有限公司",
-          "investee": "Test-Rite International (U.S.) Co., Ltd.",
-          "pct": 100.0
-        }
-      ],
-      "method": "mops-echo-subsidiary",
-      "confidence": "high"
-    },
-    {
-      "source": "EPA ECHO",
-      "key": "2330|3602078942",
-      "entity": "APS - TSMC PHASE 2",
-      "companyCode": "2330",
-      "facilityId": "3602078942",
-      "responsible": {
-        "kind": "listed",
-        "code": "2330",
-        "name": "台灣積體電路製造股份有限公司",
-        "short": "台積電"
-      },
-      "entityInMops": "TSMC Arizona",
-      "effectivePct": 100.0,
-      "path": [
-        {
-          "investor": "台灣積體電路製造股份有限公司",
-          "investee": "TSMC Arizona",
-          "pct": 100.0
-        }
-      ],
-      "method": "mops-echo-subsidiary",
-      "confidence": "high"
-    },
-    {
-      "source": "EPA ECHO",
-      "key": "2330|3602086362",
-      "entity": "TSMC ARIZONA - PARKING AREA",
-      "companyCode": "2330",
-      "facilityId": "3602086362",
-      "responsible": {
-        "kind": "listed",
-        "code": "2330",
-        "name": "台灣積體電路製造股份有限公司",
-        "short": "台積電"
-      },
-      "entityInMops": "TSMC Arizona",
-      "effectivePct": 100.0,
-      "path": [
-        {
-          "investor": "台灣積體電路製造股份有限公司",
-          "investee": "TSMC Arizona",
-          "pct": 100.0
-        }
-      ],
-      "method": "mops-echo-subsidiary",
-      "confidence": "high"
-    },
-    {
-      "source": "EPA ECHO",
-      "key": "2330|3602079003",
-      "entity": "TAIWAN SEMICONDUCTOR MANUFACTURING COMPANY",
-      "companyCode": "2330",
-      "facilityId": "3602079003",
-      "responsible": {
-        "kind": "listed",
-        "code": "2330",
-        "name": "台灣積體電路製造股份有限公司",
-        "short": "台積電"
-      },
-      "entityInMops": "TSMC Arizona",
-      "effectivePct": 100.0,
-      "path": [
-        {
-          "investor": "台灣積體電路製造股份有限公司",
-          "investee": "TSMC Arizona",
-          "pct": 100.0
-        }
-      ],
-      "method": "mops-echo-subsidiary",
-      "confidence": "high"
-    },
-    {
-      "source": "EPA ECHO",
-      "key": "2330|3602078546",
-      "entity": "TSMC ARIZONA - MAIN OFFICE",
-      "companyCode": "2330",
-      "facilityId": "3602078546",
-      "responsible": {
-        "kind": "listed",
-        "code": "2330",
-        "name": "台灣積體電路製造股份有限公司",
-        "short": "台積電"
-      },
-      "entityInMops": "TSMC Arizona",
-      "effectivePct": 100.0,
-      "path": [
-        {
-          "investor": "台灣積體電路製造股份有限公司",
-          "investee": "TSMC Arizona",
           "pct": 100.0
         }
       ],
@@ -8695,35 +8498,6 @@
         {
           "investor": "FG INC.",
           "investee": "FG LA LLC",
-          "pct": 100.0
-        }
-      ],
-      "method": "mops-echo-subsidiary",
-      "confidence": "high"
-    },
-    {
-      "source": "EPA ECHO",
-      "key": "2027|3601330163",
-      "entity": "TCI TEXARKANA",
-      "companyCode": "2027",
-      "facilityId": "3601330163",
-      "responsible": {
-        "kind": "listed",
-        "code": "2027",
-        "name": "大成不銹鋼工業股份有限公司",
-        "short": "大成鋼"
-      },
-      "entityInMops": "TCI Texarkana, Inc.",
-      "effectivePct": 100.0,
-      "path": [
-        {
-          "investor": "大成不銹鋼工業股份有限公司",
-          "investee": "Ta Chen International, Inc.",
-          "pct": 100.0
-        },
-        {
-          "investor": "Ta Chen International, Inc.",
-          "investee": "TCI Texarkana, Inc.",
           "pct": 100.0
         }
       ],

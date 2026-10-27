@@ -1,6 +1,6 @@
 # EPA 資料來源盤點：ECHO Exporter 列到的每個來源
 
-狀態：2026-10-25 全部下載並逐一確認。資料版本是 EPA 2026-10-17／18 的全量檔。
+狀態：2026-10-25 全部下載並逐一確認。資料版本是 EPA 2026-10-17／18 的全量檔。2026-10-27 補上缺口（第 4 節），並逐張查證既有設施的許可證持證人（第 5 節）。
 
 ECHO Exporter 每個 EPA 設施登記（FRS 廠區）一列，把各個法規系統的編號與近 5 年合規摘要彙整在一起。欄位說明 `echo_exporter_columns.xlsx`（EPA 2012 版）寫出每一欄來自哪個系統。本文件逐一下載那些系統的全量檔，確認內容、怎麼對到我們的廠區、我們的廠區在裡面有多少筆紀錄，以及網站目前有沒有用到。
 
@@ -167,7 +167,7 @@ TRI 申報者會填外國母公司。用 MOPS 上市櫃公司英文名稱比對�
 | 大成不銹鋼 2027 | Ta Chen Long Beach（5855 Obispo Ave、5860 Paramount Ave）、Gardena CA、Morrow GA、Duluth GA | TCI 經營期間沒有任何執法紀錄；Paramount 的營建雨水許可持證人是地主 CenterPoint，喬治亞兩張營建雨水許可持證人無法確認；Obispo 1987–1989 的 TRI 屬前業主 REDA Camco |
 | 鴻海 2317 | Sharp Manufacturing Co，Jamestown TN | 1985 年的針織外衣廠（NAICS 315191），與夏普無關 |
 
-**鴻海–夏普**：鴻海自己的合併財報從 2016 年起把夏普列為權益法關聯企業（2025 年直接及間接 34.12%，判斷「不具控制，僅具重大影響」），不是子公司，所以 MOPS 子公司表沒有夏普。夏普依日本法把鴻海認定為母公司。網站照台塑對 FPC USA（權益法 22.66%）的先例，以集團最大股東歸屬，依據寫明這一點。
+**鴻海–夏普**：鴻海自己的合併財報從 2016 年起把夏普列為權益法關聯企業（2025 年直接及間接 34.12%，判斷「不具控制，僅具重大影響」），不是子公司，所以 MOPS 子公司表沒有夏普。夏普依日本法把鴻海認定為母公司。網站的歸屬門檻是有效持股 ≥ 20%（IFRS 重大影響門檻，`docs/pollution-news-spec.md` 第 4 節，與 ECHO 設施歸屬一致），34% 符合，與台塑對 FPC USA（權益法 22.66%）同一標準，所以歸鴻海，依據寫明這一點。
 
 主要來源：
 - KEMET：合併完成 8-K（2020-06-15）；各廠關閉或出售見 KEMET 10-K／10-Q：Fountain Inn（FY2008 10-K、SAATI 2010-08-18 公告 tradeandindustrydev.com/…/sc-saati-americas-announces-new-facility-greenville-county-4207）、Carson City（sec.gov/Archives/edgar/data/887730/000088773020000032）、Knoxville（…/000088773019000033）、Shelby（…/000110465907009160）、Greenwood（…/000110465906007327）。
@@ -177,3 +177,44 @@ TRI 申報者會填外國母公司。用 MOPS 上市櫃公司英文名稱比對�
 - 東元：tecowestinghouse.com/company/company-profile；西屋 FY1993 10-K（sec.gov/Archives/edgar/data/106413/0000950128-94-000049.txt）。
 - 夏普：global.sharp/corporate/ir/topics/pdf/160812-4.pdf；鴻海 2025 合併財報 p.50、p.53（image.honhai.com/upload/202603/financy_by_quarterly/2025Q4_consolidared_report(c)_20260316_8056.pdf）；FIFRA 案件 echo.epa.gov/enforcement-case-report?id=04-2026-3677。
 - 大成不銹鋼：大成 2000 年報（TCI 1989-11 設立）；長堤營建許可持證人 centerpoint.com/media/west-region-team-wraps-up-ta-chens-long-beach-redevelopment/；據點 tachen.com/location_US.asp。
+
+## 5. 逐張查持證人：既有 ECHO 匹配的歸屬查證（2026-10-27）
+
+網站的 EPA 設施原本是用公司英文名在 ECHO 搜尋配出來的（GCS 的 `facilities.csv`），再由 `resolve-ownership.py` 依「名稱與 MOPS 美國子公司有沒有共同字」分 `high`／`medium`／`weak`／`unverified`／`suspect`。這個分級只看名稱，`high` 也會錯：例如盛餘的英文簡稱 SYSCO 配到食品通路商 Sysco，遠東新的 Phoenix Technologies 配到馬里蘭的 Phenix Technologies。所以這次不看分級，把網站上全部 199 個設施的每一張許可證都查一次。
+
+**做法**：每張 NPDES 許可證查 ICIS-NPDES 全量檔的持證人（`ICIS_PERMITS.PERMIT_NAME`）、設施地址（`ICIS_FACILITIES`）、行業代碼（`NPDES_SICS`、ECHO Exporter 的 SIC／NAICS），對照 MOPS 該公司的美國子公司名稱與業務性質（`subsidiaries_union.csv`）。對不上又沒有明顯答案的，再查公開資料（公司網站、FMCSA、海關紀錄、產業媒體）。
+
+**規則**：
+
+1. 持證人就是該子公司（或收購前的前業主，前業主期間的紀錄由 `CONTROL_SINCE` 排除）：歸屬成立。名稱比對不出、但持證人查證無誤的，寫進 `resolve-ownership.py` 的 `ECHO_VERIFIED`，信心改為 `high`。
+2. 持證人是別家公司、個人、市鎮或建案，名稱、業別、地點都跟該公司的美國子公司對不上：同名誤配，列進 `build-echo-programs.py` 的 `NOT_OWNED`，建置時拿掉。
+3. 地點確實是台灣公司的，但持證人是承包商、公用事業或地主：違規是持證人的，不歸台灣公司，同樣列進 `NOT_OWNED`（與 §4.4 不收承包商許可證同一規則）。原本在 `build-echo-supplement.py` 補進來的這類許可證直接從 `CONFIRMED` 拿掉。
+4. 查不出結論的：維持顯示（2026-09-30 決定）。這次查不出的都沒有任何違規紀錄。
+5. 歸屬門檻是有效持股 ≥ 20%（`docs/pollution-news-spec.md` 第 4 節）。夏普 34%、FPC USA 22.66% 都符合。
+
+**結果**：
+
+- 網站原本 110 家公司、199 個設施。查完後 107 個設施不歸台灣母公司：77 個同名誤配、30 個持證人是承包商、公用事業或地主。網站上的紀錄少了 1,639 筆，幾乎都是同名誤配的水污染違規。
+- 剩下 92 個設施，信心都是 `high`。
+- 46 家公司的 EPA 設施全是誤配，從網站拿掉。其中華碩 2357、長榮航 2618 有 Violation Tracker 罰款紀錄，改當成不在 EPA 資料裡的公司保留（`build-company-info.py`），所以網站剩 64 家公司（含 22 家不在 EPA 資料裡的）。
+- 原本 `suspect`／`weak`／`unverified` 的 50 個設施：47 個拿掉，3 個查證成立。原本 `high`、`medium` 的也有 60 個拿掉，例如盛餘 SYSCO、遠東新 Phenix Technologies、力成 PowerTech、華碩 ACI，以及台積電亞利桑那工地的承包商許可證。
+
+**同名誤配**（規則 2，依據逐筆寫在 `NOT_OWNED`）：
+
+| 公司 | 被配到的設施 | 實際 |
+|---|---|---|
+| 榮運 2607 | Evergreen Transport, LLC，Calera AL（841 筆） | 阿拉巴馬的貨運公司（USDOT 1980141），與長榮集團無關 |
+| 耿鼎 1524 | Gordon's，Semmes AL（361 筆）；Gordon Facility，Gordon TX | 廢料回收場；黏土開採場。耿鼎沒有美國子公司 |
+| 豆府 2752 | To-Fu Restaurant，Smithtown NY（248 筆） | 紐約長島的餐廳，持證人 WDH Realty |
+| 台達電 2308 | Delta Electronics Mfg. Corp.（Beverly MA）、Delta Group Electronics（3 個）、Delta Plant（Conroe TX） | 1955 年創立的麻州射頻連接器廠；新墨西哥州的電子代工廠；預拌混凝土廠 |
+| 大詠城 4538 | Winston Machinery，Lynn AL | 阿拉巴馬的木工機械廠；大詠城英文名是 WINSON |
+| 恩德 1528 | 6 個 ANDERSON | 木作廠、油氣井、養豬場、個人與建案 |
+| 慶騰 4534 | 3 個 TRINITY | 北卡農藥廠、兩個建案 |
+| 裕慶-KY 6957 | 7 個 HORIZON | 建商工地 |
+| 其他 | 盛餘 SYSCO、遠東新 Phenix Technologies、台積電 TSMC Group（洛杉磯二手汽車零件）、華碩 ACI、光洋科 Solar Inc（美屬薩摩亞）、力成 PowerTech（紐澤西）、安鈦克 ANTEC（電話設備）、達運 Darwin 與穩得 Wendell（明尼蘇達的市鎮污水塘）、華東 Walton 村等 | 見 `NOT_OWNED` |
+
+**持證人是承包商、公用事業或地主**（規則 3）：台積電亞利桑那工地 22 張（Okland、Austin Commercial、Buesing、Sundt 等承包商，以及電力公司 APS、瓦斯公司 Southwest Gas 的管線工程）、台達 Plano 新園區 2 張（Sunflower Construction）、台塑 2 張（Benchmark Houston Builders、SB Construction）、長榮航 DFW 1 張（地勤 Worldwide Flight Services）、特力 Oakwood GA（開發商 Oakwood Industrial BTS）、大成不銹鋼 TCI 與 Primus 各 1 張（H And M Construction、Arco Design/Build）。台積電亞利桑那保留持證人是 TSMC Arizona Corporation 的 2 張（AZMS97089、AZI108677）。
+
+**查證成立、信心改為 `high`**（規則 1）：南亞 Batchelor LA（LA0082279，持證人 Nan Ya Plastics Corp., America）、南亞 Lake City SC（SCR10Z93M）、建大 Marshfield MO（MORA12333，持證人 American Kenda Rubber Industrial）。
+
+**查不出結論、維持顯示**（規則 4，都沒有違規紀錄）：中環 MFLLC（Cumberland MD；中環的 MFLLC 是投資公司 Media Factory LLC，地址查不到）、Verbatim Site（Sunnyvale，Verbatim 早年的舊址，持證人與年份不明）、國巨 Ferroxcube（NY，沒有地址）、英濟 Megaforce Corporation（San Jose；英濟的美國子公司是 Megaforce International Corporation）、致伸 LA Polaris Inc（Brea）與 Polaris（Edgerton KS，營建許可持證人 Clayco 後轉 POLARIS）、威剛 ADATA Technology USA（Brea，名稱與 MOPS 子公司相同）。

@@ -552,6 +552,14 @@ ECHO_STOP = GENERIC | {'site', 'plant', 'facility', 'campus', 'mfg', 'manufactur
                        'utilities', 'channel', 'exc', 'kv', 'oh', 'la', 'm'}
 
 
+# 名稱比對不出、但 ICIS-NPDES 持證人查證就是該子公司的許可證（2026-10-27 逐張查持證人，docs/echo-data-sources.md §5）
+ECHO_VERIFIED = {
+    'LA0082279': dict(node=('1303', '南亞塑膠美洲'), confidence='high', note='持證人 Nan Ya Plastics Corp., America；Batchelor LA 塑膠膜廠'),
+    'SCR10Z93M': dict(node=('1303', '南亞塑膠美洲'), confidence='high', note='持證人 Nan Ya Plastics Corp America；Lake City SC 廠'),
+    'MORA12333': dict(node=('2106', '建大美國'), confidence='high', note='持證人 American Kenda Rubber Industrial（建大美國）'),
+}
+
+
 def echo_fallback(r, g, us_subs, code, f):
     """既有 ECHO 名稱匹配在 MOPS 找不到持股路徑時，用「該公司有沒有美國子公司、名稱有沒有共同字」判斷可信度。"""
     name = f['facility_name']
@@ -631,9 +639,12 @@ def main():
         seen.add((code, fid))
         # ECHO 的台塑美國設施：沿用 US 版 curated 規則
         parent_slug = {'1301': 'formosa-plastics', '1303': 'nan-ya-plastics', '2317': 'foxconn-technology-group-hon-hai-precisi'}.get(code)
-        res = r.resolve(SRC_US if parent_slug else SRC_ECHO, parent_slug, f['facility_name'], [code], echo_sub=f['境外子公司名稱'] or None)
-        if res['responsible'].get('kind') in ('unresolved',) or res.get('method') == 'vt-parent-mapping':
-            res = echo_fallback(r, g, us_subs, code, f)
+        if f['npdes_id'].strip() in ECHO_VERIFIED:
+            res = r.apply_spec(ECHO_VERIFIED[f['npdes_id'].strip()])
+        else:
+            res = r.resolve(SRC_US if parent_slug else SRC_ECHO, parent_slug, f['facility_name'], [code], echo_sub=f['境外子公司名稱'] or None)
+            if res['responsible'].get('kind') in ('unresolved',) or res.get('method') == 'vt-parent-mapping':
+                res = echo_fallback(r, g, us_subs, code, f)
         entities.append({'source': SRC_ECHO, 'key': f'{code}|{fid}', 'entity': f['facility_name'], 'companyCode': code, 'facilityId': fid, **res})
 
     stats = collections.Counter()

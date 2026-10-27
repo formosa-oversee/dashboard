@@ -1,6 +1,6 @@
 # 越南省級處分決定書：同奈省（2026-10-27）
 
-spec 第 7 節「其他公司」O5–O8 的查證紀錄，以及兩筆待補來源的越南案件。資料管線、名稱對照與原始檔在 repo 外的 `formosa-oversee/overseas-enforcement/`（`map_vn/`、`vn_reverse/`），這裡只記個別事件的依據。
+spec 第 7 節「其他公司」O5–O11 的查證紀錄，以及兩筆待補來源的越南案件。資料管線、名稱對照與原始檔在 repo 外的 `formosa-oversee/overseas-enforcement/`（`map_vn/`、`vn_reverse/`），這裡只記個別事件的依據。
 
 ## 怎麼找到的
 
@@ -54,6 +54,25 @@ spec 第 7 節「其他公司」O5–O8 的查證紀錄，以及兩筆待補來�
 - 行為：廠區 1、2、4 各兩項。取得環保設施完工確認書前就正式運轉，以無環境許可證論處（第 14 條第 3 項 c 點，各 3 億）；未申報比核准環評多裝的機器與粉塵、廢氣處理設施（第 10 條第 1 項 d 點，各 0.6 億）。合計 10.8 億越南盾。
 - 減輕情節：主動申報、坦承違規；已依 2020 年環保法申請環境許可證並納入變更內容；當地沒有收到環境陳情。同樣理由不加處停止排放源；廠址符合工業區規劃，不要求遷廠。
 
+## O9：1128/QĐ-XPHC（2025-04-11），三陽 VMEP
+
+- 受罰：Công ty Hữu hạn Chế tạo Công nghiệp và Gia công Chế biến hàng xuất khẩu Việt Nam（VMEP），一人有限公司，稅號 0100113864，總公司同奈省 Tam Hiệp，違規地點 Nhơn Trạch II 工業區 Lô 4 đường 5C，1992-03-25 首次登記。國家工商登記英文名 VIETNAM MANUFACTURING & EXPORT PROCESSING COMPANY LIMITED，Nhơn Trạch 2 那一址登記為機車與汽車零件組裝廠分公司（-010）。
+- 持股：MOPS 2025Q1 三陽子公司表 SYI（100%）→ VMEPH 67.07% → VMEP 100%，effectivePct 67.07。VMEPH 是存託憑證 9110 越南控-DR 的發行公司；依 spec 決策 30 不另掛 9110，只寫在持股路徑。
+- 經過：工業區管理委員會 2025-04-02 違規筆錄 28/BB-VPHC。
+- 行為 1：環評 349/QĐ-KCNĐN（2019-10-18）要求的環保設施完工確認書未核發就正式運轉，以無環境許可證論處，第 45/2022/NĐ-CP 第 14 條第 3 項 c 點，1.6 億 × 2 = 3.2 億越南盾。行為 2：未通報廢棄物處理設施試運轉計畫，第 12 條第 2 項 a 點，0.175 億 × 2 = 0.35 億。合計 3.55 億。
+- 不加處停止排放源：已主動申請環境許可證、營運穩定、未接獲陳情、近 600 名員工；決定書並依第 118/2021/NĐ-CP 第 5 條第 3 項認定違規性質單純、未對人體健康與環境造成嚴重後果。不要求遷廠。
+- 另有 VnEconomy 2025-04-15 報導同一筆 3.55 億處分，這次沒有收進來源。
+
+## O10、O11：3365/QĐ-XPHC（2024-11-12）、1776/QĐ-XPHC（2025-06-02），明安越南
+
+- 受罰：Công ty TNHH Advanced Multitech (Việt Nam)，稅號 3600711988，總公司 Nhơn Trạch III 工業區（Formosa 分區）4 號路，2004-12-17 首次登記。國家工商登記英文名 ADVANCED INTERNATIONAL MULTITECH (VIETNAM) CORPORATION LTD，與 MOPS 2025Q2 明安直接持有 100% 的子公司同名（MOPS 公司名多了「International」，越南文名沒有，以登記英文名對上）。
+- O10：工業區管理委員會 2024-11-04 違規筆錄 19/BB-VPHC。2024 年 8 月起在 Nhơn Trạch II 工業區第二期 2 號路動工擴建，超出環境許可證 68/GPMT-KCNĐN（2024-05-21）範圍，未取得重新核發的許可證；第 45/2022/NĐ-CP 第 11 條第 2 項 e 點，3.2 億越南盾。無附加處分、無補救措施。第 1 條的受罰人名稱與稅號都是 Advanced Multitech；第 3 條有一處誤植為「Công ty TNHH Hyosung Việt Nam」，應為套用範本的筆誤，只記在 note。
+- O11：2025-05-22 違規筆錄 53/BB-VPHC。環評 354/QĐ-KCNĐN（2021-08-05）的工廠沒有環境許可證就運轉；第 14 條第 3 項 c 點、第 6 條第 2 項，1.6 億 × 2 = 3.2 億越南盾。決定書說公司在 Nhơn Trạch II 第一期營運穩定，所以 plantSite 寫第一期，與 O10 的第二期擴建工地分開。不加處停止排放源：違規主要屬許可程序、已主動申請許可、未接獲陳情、5,000 名員工；不要求遷廠。
+
+## 不收
+
+- 信錦 Syncmold Đồng Nai 2026-04-29 罰 0.85 億越南盾：投資登記違規，不是環保事件。
+
 ## 待補來源
 
 | 案件 | 現有來源 | 缺什麼 |
@@ -78,3 +97,9 @@ spec 第 7 節「其他公司」O5–O8 的查證紀錄，以及兩筆待補來�
 | https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-moi-truong-doi-voi-cong-ty-tnhh-electronic-tripod-viet-nam-bien-hoa-54172.html | https://web.archive.org/web/20261027025128/https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-moi-truong-doi-voi-cong-ty-tnhh-electronic-tripod-viet-nam-bien-hoa-54172.html |
 | https://dongnai.gov.vn/uploads/binhphuoc/news/2024/12/2024-qd-3573.pdf | https://web.archive.org/web/20261027025206/https://dongnai.gov.vn/uploads/binhphuoc/news/2024/12/2024-qd-3573.pdf |
 | https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-doi-voi-cong-ty-tnhh-giay-dona-standard-viet-nam-49301.html | https://web.archive.org/web/20261027025231/https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-doi-voi-cong-ty-tnhh-giay-dona-standard-viet-nam-49301.html |
+| https://dongnai.gov.vn/uploads/binhphuoc/news/2025/04/2025-qd-1128.pdf | https://web.archive.org/web/20261027030002/https://dongnai.gov.vn/uploads/binhphuoc/news/2025/04/2025-qd-1128.pdf |
+| https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-hanh-chinh-trong-linh-vuc-bao-ve-moi-truong-doi-voi-cong-ty-huu-han-che-tao-cong-nghiep-va-gia-cong-che-bien-hang-xuat-khau-viet-nam-vmep-52495.html | https://web.archive.org/web/20261027030027/https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-hanh-chinh-trong-linh-vuc-bao-ve-moi-truong-doi-voi-cong-ty-huu-han-che-tao-cong-nghiep-va-gia-cong-che-bien-hang-xuat-khau-viet-nam-vmep-52495.html |
+| https://dongnai.gov.vn/uploads/binhphuoc/news/2024/11/2024-qd-3365.pdf | https://web.archive.org/web/20261027030106/https://dongnai.gov.vn/uploads/binhphuoc/news/2024/11/2024-qd-3365.pdf |
+| https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-doi-voi-cong-ty-tnhh-advanced-multitech-viet-nam-48645.html | https://web.archive.org/web/20261027030136/https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-doi-voi-cong-ty-tnhh-advanced-multitech-viet-nam-48645.html |
+| https://dongnai.gov.vn/uploads/binhphuoc/news/2025/07/1776_qd_qd_2025.pdf | https://web.archive.org/web/20261027030233/https://dongnai.gov.vn/uploads/binhphuoc/news/2025/07/1776_qd_qd_2025.pdf |
+| https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-moi-truong-doi-voi-cong-ty-tnhh-advanced-multitech-viet-nam-54071.html | https://web.archive.org/web/20261027030333/https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-moi-truong-doi-voi-cong-ty-tnhh-advanced-multitech-viet-nam-54071.html |

@@ -133,6 +133,138 @@
       ]
     },
     {
+      "id": "multitech-vietnam-nhontrach-2025-no-environmental-permit-fine",
+      "title": "明安越南廠無環境許可證運轉，同奈省處罰款",
+      "summary": "同奈省人民委員會主席 2025 年 6 月 2 日處分明安子公司 Advanced International Multitech (Vietnam)：仁澤第二工業區第一期的工廠（環評 2021 年核准）沒有環境許可證就運轉，依第 45/2022 號議定處罰款 3.2 億越南盾（議定罰額以個人計為 1.6 億，對組織加倍）。決定書以違規主要屬許可程序、公司已主動申請環境許可證、沒有陳情、5,000 名員工為由，不加處停止排放源，也不要求遷廠。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2025-06-02",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "越南",
+          "plantSite": "仁澤第二工業區第一期（Nhơn Trạch II）, 同奈省, 越南"
+        }
+      ],
+      "entities": [
+        {
+          "name": "Advanced International Multitech (Vietnam) Corporation Ltd.",
+          "country": "越南"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [
+          "multitech-vietnam-nhontrach-2024-expansion-without-permit-fine"
+        ],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "outlet": "同奈省人民委員會（入口網 dongnai.gov.vn「Khen thưởng - Xử phạt」>「Xử phạt」分類公告，附決定書）",
+          "outletRegion": "local",
+          "language": "vi",
+          "title": "Quyết định số 1776/QĐ-XPHC ngày 02/6/2025 xử phạt vi phạm hành chính trong lĩnh vực môi trường đối với Công ty TNHH Advanced Multitech (Việt Nam)",
+          "date": "2025-06-02",
+          "url": "https://dongnai.gov.vn/uploads/binhphuoc/news/2025/07/1776_qd_qd_2025.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261027030233/https://dongnai.gov.vn/uploads/binhphuoc/news/2025/07/1776_qd_qd_2025.pdf",
+          "verified": "opened",
+          "note": "同奈省人民委員會電子簽章的決定書副本（簽章時間 2025-06-02）。受罰：Công ty TNHH Advanced Multitech (Việt Nam)，稅號 3600711988。依 2025-05-22 違規筆錄 53/BB-VPHC。行為：環評 354/QĐ-KCNĐN（2021-08-05）的工廠沒有環境許可證就運轉；第 45/2022/NĐ-CP 第 14 條第 3 項 c 點、第 6 條第 2 項，1.6 億 × 2 = 3.2 億越南盾。加重、減輕情節皆無。不加處停止排放源：違規主要屬環境許可程序、已主動申請環境許可證、在 Nhơn Trạch II 第一期營運穩定、未接獲陳情、5,000 名員工；廠址符合工業區規劃，不要求遷廠。公告頁：https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-moi-truong-doi-voi-cong-ty-tnhh-advanced-multitech-viet-nam-54071.html（封存 https://web.archive.org/web/20261027030333/https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-moi-truong-doi-voi-cong-ty-tnhh-advanced-multitech-viet-nam-54071.html）。"
+        }
+      ],
+      "addedAt": "2026-10-27",
+      "attribution": [
+        {
+          "companyCode": "8938",
+          "entity": "Advanced International Multitech (Vietnam) Corporation Ltd.（Công ty TNHH Advanced Multitech (Việt Nam)，稅號 3600711988）",
+          "kind": "listed",
+          "effectivePct": 100,
+          "controlSince": 2004,
+          "path": [
+            "明安",
+            "Advanced International Multitech (Vietnam) Corporation Ltd.（100%）"
+          ],
+          "basis": "MOPS 114 年第 2 季（2025Q2）明安子公司表：明安國際企業直接持有 ADVANCED INTERNATIONAL MULTITECH (VIETNAM) CORPORATION LTD. 100%（高爾夫球頭、球桿）。越南國家工商登記（bocaodientu.dkkd.gov.vn，2026-10-27 查）：稅號 3600711988，英文名 ADVANCED INTERNATIONAL MULTITECH (VIETNAM) CORPORATION LTD，總公司 Nhơn Trạch III 工業區（Formosa 分區）4 號路，與決定書相同。決定書記載 2004-12-17 首次登記，controlSince 取這一年，早於事件。",
+          "companyName": "明安國際企業股份有限公司",
+          "companyShort": "明安",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "8938"
+      ]
+    },
+    {
+      "id": "sym-vmep-nhontrach-2025-no-environmental-permit-fine",
+      "title": "三陽越南 VMEP 仁澤廠未取得環保完工確認即運轉，同奈省處罰款",
+      "summary": "同奈省工業區管理委員會 2025 年 4 月查核三陽工業子公司 VMEP 位於仁澤第二工業區的機車零件與組裝廠，認定該廠在 2019 年環評要求的環保設施完工確認書核發前就正式運轉（以無環境許可證論處），也沒有通報廢棄物處理設施的試運轉計畫。同奈省人民委員會主席 2025 年 4 月 11 日處罰款 3.55 億越南盾（無環境許可 3.2 億、未通報 0.35 億）。決定書以公司已主動申請環境許可證、營運穩定、沒有陳情、近 600 名員工為由不加處停止排放源，並寫明這項違規性質單純、沒有對人體健康與環境造成嚴重後果。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2025-04-11",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "越南",
+          "plantSite": "仁澤第二工業區（Nhơn Trạch II）, 同奈省, 越南"
+        }
+      ],
+      "entities": [
+        {
+          "name": "Vietnam Manufacturing and Export Processing Co., Ltd. (VMEP)",
+          "country": "越南"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "outlet": "同奈省人民委員會（入口網 dongnai.gov.vn「Khen thưởng - Xử phạt」>「Xử phạt」分類公告，附決定書）",
+          "outletRegion": "local",
+          "language": "vi",
+          "title": "Quyết định số 1128/QĐ-XPHC ngày 11/4/2025 xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường đối với Công ty Hữu hạn Chế tạo Công nghiệp và Gia công Chế biến hàng xuất khẩu Việt Nam (VMEP)",
+          "date": "2025-04-11",
+          "url": "https://dongnai.gov.vn/uploads/binhphuoc/news/2025/04/2025-qd-1128.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261027030002/https://dongnai.gov.vn/uploads/binhphuoc/news/2025/04/2025-qd-1128.pdf",
+          "verified": "opened",
+          "note": "同奈省人民委員會電子簽章的決定書副本（簽章時間 2025-04-11），號碼與日期為手寫，經影像核對。受罰：VMEP，稅號 0100113864，違規地點 Nhơn Trạch II 工業區 Lô 4 đường 5C。依工業區管理委員會 2025-04-02 違規筆錄 28/BB-VPHC。行為 1：環評 349/QĐ-KCNĐN（2019-10-18）要求的環保設施完工確認書（現為環境許可證）未核發就正式運轉，第 45/2022/NĐ-CP 第 14 條第 3 項 c 點，1.6 億 × 2 = 3.2 億越南盾；行為 2：未通報廢棄物處理設施試運轉計畫，第 12 條第 2 項 a 點，0.175 億 × 2 = 0.35 億（議定罰額以個人計，第 6 條第 2 項對組織加倍）。合計 3.55 億越南盾。加重、減輕情節皆無。不加處停止排放源：已主動申請環境許可證、營運穩定、未接獲陳情、近 600 名員工；並依第 118/2021/NĐ-CP 第 5 條第 3 項認定違規性質單純、未對人體健康與環境造成嚴重後果。不要求遷廠。公告頁：https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-hanh-chinh-trong-linh-vuc-bao-ve-moi-truong-doi-voi-cong-ty-huu-han-che-tao-cong-nghiep-va-gia-cong-che-bien-hang-xuat-khau-viet-nam-vmep-52495.html（封存 https://web.archive.org/web/20261027030027/https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-hanh-chinh-trong-linh-vuc-bao-ve-moi-truong-doi-voi-cong-ty-huu-han-che-tao-cong-nghiep-va-gia-cong-che-bien-hang-xuat-khau-viet-nam-vmep-52495.html）。"
+        }
+      ],
+      "addedAt": "2026-10-27",
+      "attribution": [
+        {
+          "companyCode": "2206",
+          "entity": "Vietnam Manufacturing and Export Processing Co., Ltd.（VMEP；Công ty Hữu hạn Chế tạo Công nghiệp và Gia công Chế biến hàng xuất khẩu Việt Nam，稅號 0100113864）",
+          "kind": "listed",
+          "effectivePct": 67.07,
+          "controlSince": 1992,
+          "path": [
+            "三陽工業",
+            "SYI（100%）",
+            "Vietnam Manufacturing and Export Processing (Holdings) Ltd.（VMEP Holdings，9110 越南控-DR 的發行公司，67.07%）",
+            "VMEP（100%）"
+          ],
+          "basis": "MOPS 114 年第 1 季（2025Q1）三陽工業子公司表：SYI 持有 VMEPH 67.07%，VMEPH 持有 VMEP 100%；三陽持有 SYI 100%。越南國家工商登記（bocaodientu.dkkd.gov.vn，2026-10-27 查）：稅號 0100113864，英文名 VIETNAM MANUFACTURING & EXPORT PROCESSING COMPANY LIMITED，總公司同奈省 Tam Hiệp，另有 Nhơn Trạch 2 工業區 Lô 4 đường 5C 的機車與汽車零件組裝廠分公司，與決定書相同。決定書記載 1992-03-25 首次登記，controlSince 取這一年（VMEP 為三陽在越南設立的機車廠；2005 年後改經 VMEPH 持有），早於事件。VMEPH 是存託憑證 9110 越南控-DR 的發行公司，依決策 30 不另掛 9110。",
+          "companyName": "三陽工業股份有限公司",
+          "companyShort": "三陽工業",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "2206"
+      ]
+    },
+    {
       "id": "walsin-dmv-france-montbard-2026-mise-en-demeure",
       "title": "法國省政府命 DMV France 蒙巴爾廠限期改善酸鹼化學品儲存",
       "summary": "法國 DREAL 勃艮第－法蘭琪－康堤大區分局 2025 年 4 月 2 日稽查華新麗華孫公司 DMV France SAS 的蒙巴爾（Montbard）不銹鋼管廠，發現酸、鹼等互不相容的化學品共用同一個防漏承接槽（rétention），要求 4 個月內改善；11 月 12 日複查時仍未改善，且硝酸、硫酸槽車卸料區結構損壞、無法確保不滲漏。Côte-d'Or 省長據此於 2026 年 1 月 8 日發布第 60 號省令（mise en demeure），依《環境法》L.171-8 條限 DMV France 在 1 個月（包裝化學品）、2 個月（卸料區）及 2026 年 8 月 31 日前（散裝儲槽）改正，省令稱這些缺失可能危及土壤與水體，但未記載實際外洩；截至 2026-10-25，Géorisques 尚未公布後續複查結果。",
@@ -557,6 +689,72 @@
       ],
       "companyCodes": [
         "9910"
+      ]
+    },
+    {
+      "id": "multitech-vietnam-nhontrach-2024-expansion-without-permit-fine",
+      "title": "明安越南廠擴建超出環境許可範圍未重新申請，同奈省處罰款",
+      "summary": "同奈省工業區管理委員會 2024 年 11 月查核明安子公司 Advanced International Multitech (Vietnam) 的高爾夫球頭廠，認定公司自 2024 年 8 月起在仁澤第二工業區第二期動工擴建，規模超出同年 5 月核發的環境許可證，卻沒有申請重新核發。同奈省人民委員會主席 2024 年 11 月 12 日依環保行政罰則（第 45/2022 號議定）處罰款 3.2 億越南盾，沒有加處其他處分或要求補救措施。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2024-11-12",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "越南",
+          "plantSite": "仁澤第二工業區第二期（Nhơn Trạch II）, 同奈省, 越南"
+        }
+      ],
+      "entities": [
+        {
+          "name": "Advanced International Multitech (Vietnam) Corporation Ltd.",
+          "country": "越南"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [
+          "multitech-vietnam-nhontrach-2025-no-environmental-permit-fine"
+        ],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "outlet": "同奈省人民委員會（入口網 dongnai.gov.vn「Khen thưởng - Xử phạt」>「Xử phạt」分類公告，附決定書）",
+          "outletRegion": "local",
+          "language": "vi",
+          "title": "Quyết định số 3365/QĐ-XPHC ngày 12/11/2024 xử phạt vi phạm hành chính đối với Công ty TNHH Advanced Multitech (Việt Nam)",
+          "date": "2024-11-12",
+          "url": "https://dongnai.gov.vn/uploads/binhphuoc/news/2024/11/2024-qd-3365.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261027030106/https://dongnai.gov.vn/uploads/binhphuoc/news/2024/11/2024-qd-3365.pdf",
+          "verified": "opened",
+          "note": "同奈省人民委員會電子簽章的決定書副本（簽章時間 2024-11-12），號碼與日期為手寫，經影像核對。受罰：Công ty TNHH Advanced Multitech (Việt Nam)，稅號 3600711988。依工業區管理委員會 2024-11-04 違規筆錄 19/BB-VPHC。行為：2024 年 8 月起在 Nhơn Trạch II 工業區第二期 2 號路動工擴建，超出環境許可證 68/GPMT-KCNĐN（2024-05-21）的範圍，未取得重新核發的環境許可證；第 45/2022/NĐ-CP 第 11 條第 2 項 e 點，3.2 億越南盾。加重、減輕情節皆無；無附加處分、無補救措施。決定書第 3 條有一處把受罰公司誤植為「Công ty TNHH Hyosung Việt Nam」，其餘各處（含第 1 條、繳款條款）都是 Advanced Multitech，應為套用範本的筆誤。公告頁：https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-doi-voi-cong-ty-tnhh-advanced-multitech-viet-nam-48645.html（封存 https://web.archive.org/web/20261027030136/https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-doi-voi-cong-ty-tnhh-advanced-multitech-viet-nam-48645.html）。"
+        }
+      ],
+      "addedAt": "2026-10-27",
+      "attribution": [
+        {
+          "companyCode": "8938",
+          "entity": "Advanced International Multitech (Vietnam) Corporation Ltd.（Công ty TNHH Advanced Multitech (Việt Nam)，稅號 3600711988）",
+          "kind": "listed",
+          "effectivePct": 100,
+          "controlSince": 2004,
+          "path": [
+            "明安",
+            "Advanced International Multitech (Vietnam) Corporation Ltd.（100%）"
+          ],
+          "basis": "MOPS 114 年第 2 季（2025Q2）明安子公司表：明安國際企業直接持有 ADVANCED INTERNATIONAL MULTITECH (VIETNAM) CORPORATION LTD. 100%（高爾夫球頭、球桿）。越南國家工商登記（bocaodientu.dkkd.gov.vn，2026-10-27 查）：稅號 3600711988，英文名 ADVANCED INTERNATIONAL MULTITECH (VIETNAM) CORPORATION LTD，總公司 Nhơn Trạch III 工業區（Formosa 分區）4 號路，與決定書相同。決定書記載 2004-12-17 首次登記，controlSince 取這一年，早於事件。",
+          "companyName": "明安國際企業股份有限公司",
+          "companyShort": "明安",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "8938"
       ]
     },
     {

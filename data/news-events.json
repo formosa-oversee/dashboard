@@ -2614,5 +2614,135 @@
       }
     ],
     "addedAt": "2026-10-25"
+  },
+  {
+    "id": "kenda-vietnam-dongnai-2024-eia-deviation-fine",
+    "title": "建大越南江田廠廢氣與廢棄物處理設施未依環評施工，同奈省處罰款",
+    "summary": "同奈省工業區管理委員會 2024 年 4 月查核建大子公司建大橡膠（越南）有限公司的江田工業區輪胎廠，認定鍋爐改燒 FO 重油並加裝廢氣處理系統，但核准的環評登記燃料是 DO 柴油；另有多項製程與廢棄物處理設施沒有照核准的環評施工。同奈省人民委員會主席 2024 年 5 月 9 日依環保行政罰則（第 45/2022 號議定）處罰款 2.1 億越南盾（兩項分別 0.7 億、1.4 億）；決定書沒有加處其他處分，也沒有要求補救措施。",
+    "type": "enforcement",
+    "status": "penalized",
+    "dateStart": "2024-05-09",
+    "dateEnd": null,
+    "datePrecision": "day",
+    "locations": [
+      {
+        "country": "越南",
+        "plantSite": "江田工業區（Giang Điền）, 同奈省, 越南"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Kenda Rubber (Vietnam) Co., Ltd.",
+        "country": "越南"
+      }
+    ],
+    "attributionOverride": [
+      {
+        "companyCode": "2106",
+        "entity": "建大橡膠（越南）有限公司（Công ty Cao su Kenda (Việt Nam)，稅號 3600248720）",
+        "kind": "listed",
+        "effectivePct": 100,
+        "controlSince": 2007,
+        "path": [
+          "建大",
+          "建大橡膠（越南）有限公司（100%）"
+        ],
+        "basis": "MOPS 114 年第 2 季（2025Q2）建大子公司表：本公司直接持有建大橡膠（越南）有限公司 100%。越南國家工商登記（bocaodientu.dkkd.gov.vn，2026-10-27 查）：英文名 KENDA RUBBER (VIETNAM) CO., LTD.，稅號 3600248720，總公司在同奈省 Hố Nai 工業區，另有 Giang Điền 工業區營業地點；與兩份處分決定書記載的稅號、地址相同。決定書記載為一人有限公司、2007 年首次登記，controlSince 取這一年（實際投資可能更早），早於兩個事件。"
+      }
+    ],
+    "groupControl": [],
+    "related": {
+      "eventIds": [
+        "kenda-vietnam-dongnai-2025-no-environmental-permit-fine"
+      ],
+      "echoFacilityIds": [],
+      "enforcementCaseIds": []
+    },
+    "sources": [
+      {
+        "kind": "official",
+        "outlet": "同奈省人民委員會（入口網 dongnai.gov.vn「Khen thưởng - Xử phạt」>「Xử phạt」分類公告，附決定書）",
+        "outletRegion": "local",
+        "language": "vi",
+        "title": "Quyết định số 1335/QĐ-XPHC ngày 09/5/2024 xử phạt vi phạm hành chính đối với Công ty Cao su Kenda (Việt Nam)",
+        "date": "2024-05-09",
+        "url": "https://dongnai.gov.vn/uploads/binhphuoc/news/2024/05/2024qd1335.pdf",
+        "archiveUrl": "https://web.archive.org/web/20261027023128/https://dongnai.gov.vn/uploads/binhphuoc/news/2024/05/2024qd1335.pdf",
+        "verified": "opened",
+        "note": "同奈省人民委員會電子簽章的決定書副本（簽章時間 2024-05-10），號碼與日期為手寫，經影像核對。受罰：Công ty Cao su Kenda (Việt Nam)，稅號 3600248720，廠址 Giang Điền 工業區。依 2024-04-09 工業區管理委員會的違規筆錄 02/BB-VPHC。行為 1：鍋爐燒 FO 重油的廢氣處理系統不在 2022-11-21 核准的環評（378/QĐ-KCNĐN，登記燃料為 DO）內，第 45/2022/NĐ-CP 第 10 條第 1 項 d 點，0.7 億越南盾；行為 2：未依核准環評施作廢棄物處理設施，同條 g 點，1.4 億越南盾。合計 2.1 億越南盾。加重、減輕情節皆無；無附加處分、無補救措施。公告頁：https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-ve-viec-xu-phat-vi-pham-hanh-chinh-doi-voi-cong-ty-cao-su-kenda-viet-nam-43568.html（封存 https://web.archive.org/web/20261027023052/https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-ve-viec-xu-phat-vi-pham-hanh-chinh-doi-voi-cong-ty-cao-su-kenda-viet-nam-43568.html）。"
+      },
+      {
+        "kind": "media",
+        "outlet": "Tạp chí Điện tử Thanh tra（thanhtravietnam.vn，許可證 282/GP-BTTTT）",
+        "outletRegion": "local",
+        "language": "vi",
+        "title": "Xử phạt Công ty Cao su Kenda (Việt Nam) 210 triệu đồng",
+        "date": "2024-11-20",
+        "url": "https://thanhtravietnam.vn/xa-hoi/xu-phat-cong-ty-cao-su-kenda-viet-nam-210-trieu-dong-211402.html",
+        "archiveUrl": "http://web.archive.org/web/20241126202418/https://thanhtravietnam.vn/xa-hoi/xu-phat-cong-ty-cao-su-kenda-viet-nam-210-trieu-dong-211402.html",
+        "verified": "opened",
+        "note": "報導同奈省人民委員會對建大越南處罰 2.1 億越南盾，違規內容與決定書 1335 相同，文中沒有決定號。原站回 522，從 Wayback 快照讀取。"
+      }
+    ],
+    "addedAt": "2026-10-27"
+  },
+  {
+    "id": "kenda-vietnam-dongnai-2025-no-environmental-permit-fine",
+    "title": "建大越南江田廠投產多年未取得環保完工確認，同奈省以無環境許可處罰款",
+    "summary": "同奈省人民委員會主席 2025 年 7 月 4 日處分建大子公司建大橡膠（越南）有限公司：江田工業區廠的環評在 2018 年核准、2019 年投產，但一直沒有取得環保設施完工確認書（依 2020 年環保法視同環境許可證），認定為沒有環境許可證，依第 45/2022 號議定處罰款 3.2 億越南盾（議定罰額以個人計為 1.6 億，對組織加倍）。決定書說明不加處停止排放源，理由是公司 2024 年 4 月 22 日已取得環境許可證，工業區管理委員會也已通知廢棄物處理設施試運轉完成，且停業會影響 1,600 多名員工。",
+    "type": "enforcement",
+    "status": "penalized",
+    "dateStart": "2025-07-04",
+    "dateEnd": null,
+    "datePrecision": "day",
+    "locations": [
+      {
+        "country": "越南",
+        "plantSite": "江田工業區（Giang Điền）, 同奈省, 越南"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Kenda Rubber (Vietnam) Co., Ltd.",
+        "country": "越南"
+      }
+    ],
+    "attributionOverride": [
+      {
+        "companyCode": "2106",
+        "entity": "建大橡膠（越南）有限公司（Công ty Cao su Kenda (Việt Nam)，稅號 3600248720）",
+        "kind": "listed",
+        "effectivePct": 100,
+        "controlSince": 2007,
+        "path": [
+          "建大",
+          "建大橡膠（越南）有限公司（100%）"
+        ],
+        "basis": "MOPS 114 年第 2 季（2025Q2）建大子公司表：本公司直接持有建大橡膠（越南）有限公司 100%。越南國家工商登記（bocaodientu.dkkd.gov.vn，2026-10-27 查）：英文名 KENDA RUBBER (VIETNAM) CO., LTD.，稅號 3600248720，總公司在同奈省 Hố Nai 工業區，另有 Giang Điền 工業區營業地點；與兩份處分決定書記載的稅號、地址相同。決定書記載為一人有限公司、2007 年首次登記，controlSince 取這一年（實際投資可能更早），早於兩個事件。"
+      }
+    ],
+    "groupControl": [],
+    "related": {
+      "eventIds": [
+        "kenda-vietnam-dongnai-2024-eia-deviation-fine"
+      ],
+      "echoFacilityIds": [],
+      "enforcementCaseIds": []
+    },
+    "sources": [
+      {
+        "kind": "official",
+        "outlet": "同奈省人民委員會（入口網 dongnai.gov.vn「Khen thưởng - Xử phạt」>「Xử phạt」分類公告，附決定書）",
+        "outletRegion": "local",
+        "language": "vi",
+        "title": "Quyết định số 296/QĐ-XPHC ngày 04/7/2025 xử phạt vi phạm hành chính trong lĩnh vực môi trường đối với Công ty Cao su Kenda (Việt Nam)",
+        "date": "2025-07-04",
+        "url": "https://dongnai.gov.vn/uploads/binhphuoc/news/2025/07/296_qd_qdub_2025.pdf",
+        "archiveUrl": "https://web.archive.org/web/20261027023233/https://dongnai.gov.vn/uploads/binhphuoc/news/2025/07/296_qd_qdub_2025.pdf",
+        "verified": "opened",
+        "note": "同奈省人民委員會電子簽章的決定書副本（簽章時間 2025-07-04），號碼與日期為手寫，經影像核對。受罰：CÔNG TY CAO SU KENDA (VIỆT NAM)，稅號 3600248720。依 2025-06-23 違規筆錄 69/BB-VPHC。行為：環評 2018-10-16 核准（232/QĐ-KCNĐN），2019 年投產但未取得環保設施完工確認書，依 2020 年環保法第 42 條第 2 項 d 點視同環境許可證，屬第 45/2022/NĐ-CP 第 14 條第 3 項 c 點（議定罰額以個人計，第 6 條第 2 項對組織加倍）：1.6 億 × 2 = 3.2 億越南盾。不加處停止排放源：公司已取得環境許可證 33/GPMT-KCNĐN（2024-04-22，2025-04-04 換發 32/GPMT-KCNĐN），工業區管理委員會 2025-02-18 已通知廢棄物處理設施試運轉完成，且停業影響 1,600 多名員工；不要求遷廠。公告頁：https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-moi-truong-doi-voi-cong-ty-cao-su-kenda-viet-nam-54210.html（封存 https://web.archive.org/web/20261027023155/https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-moi-truong-doi-voi-cong-ty-cao-su-kenda-viet-nam-54210.html）。"
+      }
+    ],
+    "addedAt": "2026-10-27"
   }
 ]

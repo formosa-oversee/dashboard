@@ -156,11 +156,15 @@ export const Compare = ({ headers, rows, tone }) => {
 
 // 照片：圖說放在圖下方，逐字取自定稿（含「資料來源：…」）。wide 時在寬螢幕往右外凸。
 // Chakra Image 的 width/height 是樣式屬性，要用 htmlWidth/htmlHeight 才會輸出 <img> 的寬高，
-// 瀏覽器才能在圖片載入前先按比例留好位置，不會載入後把下面的內文往下推
+// 瀏覽器才能在圖片載入前先按比例留好位置，不會載入後把下面的內文往下推。
+// 不放大超過原圖寬度；直式照片最寬 480px，免得一張圖佔掉整個畫面
+const PORTRAIT_MAX_W = 480;
+
 export const Photo = ({ src, alt, caption, width, height, wide }) => (
   <Box as="figure" my={{ base: 10, md: 12 }} mx={0} mr={wide ? { xl: '-200px' } : 0}>
     <Image src={src} alt={alt || caption} htmlWidth={width} htmlHeight={height} loading="lazy"
-      w="100%" h="auto" display="block" bg={R.paperDeep} />
+      w="100%" maxW={`${height > width ? Math.min(width, PORTRAIT_MAX_W) : width}px`} h="auto" display="block"
+      bg={R.paperDeep} />
     {caption && (
       <Text as="figcaption" fontSize="13.5px" lineHeight={1.7} color={R.muted} mt={3} pl={3}
         borderLeftWidth="2px" borderColor={R.rule}>

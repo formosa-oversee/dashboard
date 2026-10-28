@@ -3,6 +3,196 @@
   "note": "由 scripts/build-news.py 從 data/news-events.json 產生，規格見 docs/pollution-news-spec.md。attribution[].shown 表示事件是否出現在該公司頁；reason：own 有效持股 ≥ 20%｜group 集團合計 ≥ 50% 且本身有持股。",
   "events": [
     {
+      "id": "chp-dingfeng-zhaoqing-2026-desulfurization-bypass-fine",
+      "title": "華紙廣東鼎豐紙廠鍋爐間歇使用脫硫塔，肇慶市生態環境局以逃避監管處罰款",
+      "summary": "肇慶市生態環境局（廣寧分局辦理）2026 年 6 月 23 日檢查發現，廣東鼎豐紙業有限公司 90 蒸噸鍋爐間歇使用半乾法脫硫塔（環評要求經 SNCR 脫硝、脫硫、靜電與布袋除塵後排放），最後一次使用是 6 月 19 日，認定 6 月 19 日至 23 日以逃避監管方式排放大氣污染物；7 月 6 日整改檢查時脫硫塔正在運行。2026 年 8 月 31 日處罰款人民幣 12 萬元（肇环宁罚字〔2026〕19号）；公司未陳述申辯或申請聽證。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2026-08-31",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "肇慶廣寧, 中國大陸",
+          "coordinates": {
+            "lat": 23.6341,
+            "lng": 112.4348,
+            "precision": "city",
+            "source": "https://www.openstreetmap.org/relation/20346073",
+            "note": "OSM 南街街道（relation 20346073）中心點。地址是廣寧縣南街街道首約村，OSM 沒有這家廠，只定位到街道"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "廣東鼎豐紙業有限公司",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [
+          "chp-dingfeng-zhaoqing-2022-odour-exceedance-fine",
+          "chp-dingfeng-zhaoqing-2024-illegal-outfall-fine"
+        ],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "廣東省企業環境信息依法披露系統（企業依法填報，附生態環境局行政處罰決定書）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "行政处罚决定书（广东省企业环境信息依法披露系统附件）",
+          "date": "2026-09-08",
+          "url": "https://www-app.gdeei.cn/stfw/api/1/attachment/download?id=27b8f315-0cec-4c5a-9d86-60ab53fb938f",
+          "archiveUrl": "https://web.archive.org/web/20261028075403/https://www-app.gdeei.cn/stfw/api/1/attachment/download?id=27b8f315-0cec-4c5a-9d86-60ab53fb938f",
+          "verified": "opened",
+          "note": "肇庆市生态环境局（广宁分局办理），肇环宁罚字〔2026〕19号。決定書是生態環境局作成的官方文件，但經由企業在披露系統填報上傳，依第 3 節第 5 條標為公司文件。"
+        },
+        {
+          "kind": "company",
+          "outlet": "廣東省企業環境信息依法披露系統（企業依法填報，附生態環境局行政處罰決定書）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "2026年企业环境信息依法披露临时报告",
+          "date": "2026-09-08",
+          "url": "https://www-app.gdeei.cn/stfw/preview/2026/1c6c7786-ad4e-4ce2-a203-e0d6f017df56/temp/f16d35b4-a5df-4f1d-ba6a-0d70bb12d5da/f16d35b4-a5df-4f1d-ba6a-0d70bb12d5da.html",
+          "archiveUrl": "https://web.archive.org/web/20261028074703/https://www-app.gdeei.cn/stfw/preview/2026/1c6c7786-ad4e-4ce2-a203-e0d6f017df56/temp/f16d35b4-a5df-4f1d-ba6a-0d70bb12d5da/f16d35b4-a5df-4f1d-ba6a-0d70bb12d5da.html",
+          "verified": "opened",
+          "note": "企業在這份報告登記了上面的決定書（文號相同）。"
+        }
+      ],
+      "addedAt": "2026-10-28",
+      "attribution": [
+        {
+          "companyCode": "1905",
+          "entity": "廣東鼎豐紙業有限公司（广东鼎丰纸业有限公司）",
+          "kind": "listed",
+          "effectivePct": 60.0,
+          "controlSince": 2021,
+          "path": [
+            "華紙",
+            "CHP International (BVI)（100%）",
+            "廣東鼎豐紙業有限公司（60%）"
+          ],
+          "basis": "中華紙漿 115 年第 2 季合併財報（https://www.chp.com.tw/files/quarterly_financial_report/1786690911123.pdf）PDF p21 合併報表子公司表：本公司→CHP International (BVI) 100%→廣東鼎豐紙業 60%（另 40% 由永豐餘國際持有）；中華紙漿 110 年度合併財報（https://www.chp.com.tw/files/quarterly_financial_report/20220318042051319.pdf）PDF p36 已列，controlSince 取 2021，早於事件；華紙 104 年報大事紀（https://www.chp.com.tw/files/shareholder_file/104%E5%B9%B4%E5%A0%B1.pdf）p9：「89年08月18日：投資中國大陸廣東省鼎豐紙業有限公司成立」，作補充。",
+          "companyName": "中華紙漿股份有限公司",
+          "companyShort": "華紙",
+          "shown": true,
+          "reason": "own"
+        },
+        {
+          "companyCode": "1907",
+          "entity": "廣東鼎豐紙業有限公司（广东鼎丰纸业有限公司）",
+          "kind": "listed",
+          "effectivePct": 74.6,
+          "controlSince": 2021,
+          "path": [
+            "永豐餘",
+            "永豐餘國際（100%）→ 廣東鼎豐紙業（40%）",
+            "中華紙漿（2026Q2 56.9%）→ CHP International (BVI)（100%）→ 廣東鼎豐紙業（60%）"
+          ],
+          "basis": "永豐餘投資控股 115 年第 2 季合併財報（https://www.yfy.com/album/tw_inv_table05/6a7eaeff6ee80.pdf）PDF p23 子公司表：永豐餘國際→廣東鼎豐紙業 40%，中華紙漿→CHP International (BVI) 100%→廣東鼎豐紙業 60%，永豐餘持有中華紙漿 56.9%；p81 大陸投資表載本公司直接或間接持股 74.6%（自算 40 ＋ 60×56.9% ＝ 74.1%，差約 0.5 個百分點，原因未核，取文件值）。事件前的依據：永豐餘 115 年第 2 季合併財報（https://www.yfy.com/album/tw_inv_table05/6a7eaeff6ee80.pdf）PDF p23 已列同一路徑；永豐餘 110 年度合併財報（https://www.yfy.com/album/tw_inv_table05/62328a90d0dd0.pdf）PDF p44 已列（2021-12-31），controlSince 取 2021，早於事件。華紙 104 年報大事紀載民國 89 年（2000）投資鼎豐並同日成立，作補充。",
+          "companyName": "永豐餘投資控股股份有限公司",
+          "companyShort": "永豐餘",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "1905",
+        "1907"
+      ]
+    },
+    {
+      "id": "spt-huizuan-shenzhen-2026-expired-discharge-permit-fine",
+      "title": "匯鑽科深圳廠排污許可證過期仍排放，深圳寶安管理局處罰款",
+      "summary": "深圳市生態環境局寶安管理局 2026 年 3 月 9 日檢查匯鑽科持有的匯鑽實業（深圳）有限公司，發現重點管理排污許可證已在 2025 年 12 月 25 日屆滿、延續申請未獲批准，電鍍、清洗等工序仍在生產，酸性廢氣處理設施排放口有廢氣排出；現場負責人表示知道許可證過期，因有少量樣品需要打樣而沒有停產。4 月 1 日複查時已停產。公司陳述申辯（同類企業獲緩衝期、排放達標、初次違法、已停排）未獲採納；2026 年 8 月 7 日依《排污許可管理條例》第三十三條第（一）項處罰款人民幣 33 萬元（深环宝安罚字〔2026〕170号）。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2026-08-07",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "深圳寶安, 中國大陸",
+          "coordinates": {
+            "lat": 22.777,
+            "lng": 113.8118,
+            "precision": "city",
+            "source": "https://www.openstreetmap.org/node/2065845387",
+            "note": "OSM 江边社区（node 2065845387）。決定書地址是寶安區松崗街道江邊社區創傑路 5 號廠房三 101，OSM 沒有這家廠，只定位到社區"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "匯鑽實業（深圳）有限公司",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "廣東省企業環境信息依法披露系統（企業依法填報，附生態環境局行政處罰決定書）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "行政处罚决定书（广东省企业环境信息依法披露系统附件）",
+          "date": "2026-08-15",
+          "url": "https://www-app.gdeei.cn/stfw/api/1/attachment/download?id=068d323f-0a4e-4e6d-b479-6e90c97e204d",
+          "archiveUrl": "https://web.archive.org/web/20261028075304/https://www-app.gdeei.cn/stfw/api/1/attachment/download?id=068d323f-0a4e-4e6d-b479-6e90c97e204d",
+          "verified": "opened",
+          "note": "深圳市生态环境局宝安管理局，深环宝安罚字〔2026〕170号。決定書是生態環境局作成的官方文件，但經由企業在披露系統填報上傳，依第 3 節第 5 條標為公司文件。"
+        },
+        {
+          "kind": "company",
+          "outlet": "廣東省企業環境信息依法披露系統（企業依法填報，附生態環境局行政處罰決定書）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "2026年企业环境信息依法披露临时报告",
+          "date": "2026-08-15",
+          "url": "https://www-app.gdeei.cn/stfw/preview/2026/d2a84984-bbc2-44ae-a497-c02eee3c5de0/temp/f3d8435d-3fb7-492d-9358-5abb80d05001/f3d8435d-3fb7-492d-9358-5abb80d05001.html",
+          "archiveUrl": "https://web.archive.org/web/20261028074830/https://www-app.gdeei.cn/stfw/preview/2026/d2a84984-bbc2-44ae-a497-c02eee3c5de0/temp/f3d8435d-3fb7-492d-9358-5abb80d05001/f3d8435d-3fb7-492d-9358-5abb80d05001.html",
+          "verified": "opened",
+          "note": "企業在這份報告登記了上面的決定書（文號相同）。"
+        }
+      ],
+      "addedAt": "2026-10-28",
+      "attribution": [
+        {
+          "companyCode": "8431",
+          "entity": "匯鑽實業（深圳）有限公司（汇钻实业（深圳）有限公司，統一社會信用代碼 91440300758618357N）",
+          "kind": "listed",
+          "effectivePct": 100.0,
+          "controlSince": 2025,
+          "path": [
+            "匯鑽科",
+            "Superior Plating Corp.（100%）",
+            "匯鑽實業（香港）有限公司（100%）",
+            "匯鑽實業（深圳）有限公司（100%）"
+          ],
+          "basis": "MOPS 114 年第 1 季（2025Q1）匯鑽科子公司表：本公司→Superior Plating Corp. 100%→匯鑽實業（香港）100%→匯鑽實業（深圳）100%，2025-03-31 已列，controlSince 取 2025（最晚已是子公司的年份），早於事件；匯鑽 2024 年永續報告書與官網沿革稱深圳廠 1999 年設立，作補充。",
+          "companyName": "匯鑽科技股份有限公司",
+          "companyShort": "匯鑽科",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "8431"
+      ]
+    },
+    {
       "id": "cftc-hexin-jiashan-2026-eia-unapproved-construction-fine",
       "title": "和勤嘉興廠環評未獲審批即開工建設，嘉興市生態環境局處罰款",
       "summary": "嘉興市生態環境局 2026 年 8 月 3 日認定，和勤經和勤國際全資持有的嘉興和新精沖科技有限公司（五金、機械與模具零件）在環境影響評價文件未經審批的情況下，於 2026 年 5 月 20 日擅自開工建設，違反《環境影響評價法》第二十二條第一款、第二十五條，依同法第三十一條第一款處罰款人民幣 63,080 元（嘉环善罚〔2026〕32号）。公開的決定摘要沒有說明建設的是哪一項工程。",
@@ -585,6 +775,90 @@
       ],
       "companyCodes": [
         "8938"
+      ]
+    },
+    {
+      "id": "ways-dgweisu-dongguan-2025-vocs-treatment-idle-fine",
+      "title": "位速東莞廠注塑廢氣處理設施未運轉，東莞市生態環境局處罰款",
+      "summary": "東莞市生態環境局 2025 年 2 月 27 日檢查位速持有的東莞位速電子科技有限公司，注塑等工序正在生產，配套的廢氣處理設施卻沒有運轉，車間也沒有密閉，含揮發性有機物的廢氣未經處理，經車間大門與抽氣扁管無組織排放（《大氣污染防治法》第四十五條）。2025 年 4 月 21 日處罰款人民幣 7 萬元（东环罚字〔2025〕157号）；公司未陳述申辯。決定書掃描件上的金額字跡不清，7 萬元取自公司的披露報告，並在決定書所載的 6 萬至 8 萬元裁量區間內。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2025-04-21",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "東莞長安, 中國大陸",
+          "coordinates": {
+            "lat": 22.8158,
+            "lng": 113.7976,
+            "precision": "city",
+            "source": "https://www.openstreetmap.org/relation/5664999",
+            "note": "OSM 长安镇（relation 5664999）中心點。地址是長安鎮廈邊銀城工業區，OSM 沒有這家廠，只定位到鎮"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "東莞位速電子科技有限公司",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "廣東省企業環境信息依法披露系統（企業依法填報，附生態環境局行政處罰決定書）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "行政处罚决定书（广东省企业环境信息依法披露系统附件）",
+          "date": "2025-06-24",
+          "url": "https://www-app.gdeei.cn/stfw/api/1/attachment/download?id=7014059e-7a2b-4550-b711-aa06ef4a2d6f",
+          "archiveUrl": "https://web.archive.org/web/20261028074905/https://www-app.gdeei.cn/stfw/api/1/attachment/download?id=7014059e-7a2b-4550-b711-aa06ef4a2d6f",
+          "verified": "opened",
+          "note": "东莞市生态环境局，东环罚字〔2025〕157号。決定書是生態環境局作成的官方文件，但經由企業在披露系統填報上傳，依第 3 節第 5 條標為公司文件。"
+        },
+        {
+          "kind": "company",
+          "outlet": "廣東省企業環境信息依法披露系統（企業依法填報，附生態環境局行政處罰決定書）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "2025年企业环境信息依法披露临时报告",
+          "date": "2025-06-24",
+          "url": "https://www-app.gdeei.cn/stfw/preview/2025/b2e7a096-7e91-4d7e-9a01-e9f31ffd82d8/temp/0d4d961c-2d80-4ab0-9aaa-0424d73512c0/0d4d961c-2d80-4ab0-9aaa-0424d73512c0.html",
+          "archiveUrl": "https://web.archive.org/web/20261028074210/https://www-app.gdeei.cn/stfw/preview/2025/b2e7a096-7e91-4d7e-9a01-e9f31ffd82d8/temp/0d4d961c-2d80-4ab0-9aaa-0424d73512c0/0d4d961c-2d80-4ab0-9aaa-0424d73512c0.html",
+          "verified": "opened",
+          "note": "企業在這份報告登記了上面的決定書（文號相同）。"
+        }
+      ],
+      "addedAt": "2026-10-28",
+      "attribution": [
+        {
+          "companyCode": "3508",
+          "entity": "東莞位速電子科技有限公司（东莞位速电子科技有限公司）",
+          "kind": "listed",
+          "effectivePct": 100.0,
+          "controlSince": 2012,
+          "path": [
+            "位速",
+            "Ways Tech International Holdings Corp., Limited（100%）",
+            "東莞位速電子科技有限公司（100%）"
+          ],
+          "basis": "位速 102 年度合併財報（https://www.waystech.net/upload/media/investors/2013Q4.pdf，掃描檔，經 OCR 與影像核對）PDF p11–12：本公司→Ways Holdings 100%→東莞位速 100%（102.12.31、101.12.31、101.1.1），controlSince 取 2012，早於事件；MOPS 114 年第 2 季（2025Q2）子公司表路徑相同（期末晚於事件，只作對照）。",
+          "companyName": "位速科技股份有限公司",
+          "companyShort": "位速",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "3508"
       ]
     },
     {
@@ -1516,6 +1790,283 @@
       ]
     },
     {
+      "id": "chp-dingfeng-zhaoqing-2024-illegal-outfall-fine",
+      "title": "華紙廣東鼎豐紙廠在圍牆設排污口致廢水流入綏江，肇慶廣寧分局處罰款",
+      "summary": "肇慶市生態環境局廣寧分局 2024 年 8 月 19 日接獲公安部門轉來的投訴線索，檢查發現廣東鼎豐紙業有限公司在廢水初沉池外約 30 公尺的圍牆設了排污口，初沉池溢流的廢水與雨水混合，經排洪渠流入綏江（《水污染防治法》第二十二條）；8 月 21 日複查，排水孔已封閉。2024 年 10 月 15 日處罰款人民幣 4 萬元（肇环宁罚字〔2024〕5号）；裁量考量未對生態環境造成嚴重影響、積極配合調查、及時整改，以及當天廣寧縣有暴雨。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2024-10-15",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "肇慶廣寧, 中國大陸",
+          "coordinates": {
+            "lat": 23.6341,
+            "lng": 112.4348,
+            "precision": "city",
+            "source": "https://www.openstreetmap.org/relation/20346073",
+            "note": "OSM 南街街道（relation 20346073）中心點。地址是廣寧縣南街街道首約村，OSM 沒有這家廠，只定位到街道"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "廣東鼎豐紙業有限公司",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [
+          "chp-dingfeng-zhaoqing-2022-odour-exceedance-fine",
+          "chp-dingfeng-zhaoqing-2026-desulfurization-bypass-fine"
+        ],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "廣東省企業環境信息依法披露系統（企業依法填報，附生態環境局行政處罰決定書）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "行政处罚决定书（广东省企业环境信息依法披露系统附件）",
+          "date": "2024-11-06",
+          "url": "https://www-app.gdeei.cn/stfw/api/1/attachment/download?id=cf09eff4-6be7-4b98-b78a-b9c417fb75c0",
+          "archiveUrl": "https://web.archive.org/web/20261028075342/https://www-app.gdeei.cn/stfw/api/1/attachment/download?id=cf09eff4-6be7-4b98-b78a-b9c417fb75c0",
+          "verified": "opened",
+          "note": "肇庆市生态环境局广宁分局（决定书落款：肇庆市生态环境局），肇环宁罚字〔2024〕5号。決定書是生態環境局作成的官方文件，但經由企業在披露系統填報上傳，依第 3 節第 5 條標為公司文件。"
+        },
+        {
+          "kind": "company",
+          "outlet": "廣東省企業環境信息依法披露系統（企業依法填報，附生態環境局行政處罰決定書）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "2024年企业环境信息依法披露临时报告",
+          "date": "2024-11-06",
+          "url": "https://www-app.gdeei.cn/stfw/preview/2024/3c9d5c5d-d56e-4b04-8930-cf0f961e887c/temp/bc8a50fb-207f-44de-8596-28ea0814eb85/bc8a50fb-207f-44de-8596-28ea0814eb85.html",
+          "archiveUrl": "https://web.archive.org/web/20261028074528/https://www-app.gdeei.cn/stfw/preview/2024/3c9d5c5d-d56e-4b04-8930-cf0f961e887c/temp/bc8a50fb-207f-44de-8596-28ea0814eb85/bc8a50fb-207f-44de-8596-28ea0814eb85.html",
+          "verified": "opened",
+          "note": "企業在這份報告登記了上面的決定書（文號相同）。"
+        }
+      ],
+      "addedAt": "2026-10-28",
+      "attribution": [
+        {
+          "companyCode": "1905",
+          "entity": "廣東鼎豐紙業有限公司（广东鼎丰纸业有限公司）",
+          "kind": "listed",
+          "effectivePct": 60.0,
+          "controlSince": 2021,
+          "path": [
+            "華紙",
+            "CHP International (BVI)（100%）",
+            "廣東鼎豐紙業有限公司（60%）"
+          ],
+          "basis": "中華紙漿 113 年第 2 季合併財報（https://www.chp.com.tw/files/quarterly_financial_report/1723621576210.pdf）PDF p20 合併報表子公司表：本公司→CHP International (BVI) 100%→廣東鼎豐紙業 60%（另 40% 由永豐餘國際持有）；中華紙漿 110 年度合併財報（https://www.chp.com.tw/files/quarterly_financial_report/20220318042051319.pdf）PDF p36 已列，controlSince 取 2021，早於事件；華紙 104 年報大事紀（https://www.chp.com.tw/files/shareholder_file/104%E5%B9%B4%E5%A0%B1.pdf）p9：「89年08月18日：投資中國大陸廣東省鼎豐紙業有限公司成立」，作補充。",
+          "companyName": "中華紙漿股份有限公司",
+          "companyShort": "華紙",
+          "shown": true,
+          "reason": "own"
+        },
+        {
+          "companyCode": "1907",
+          "entity": "廣東鼎豐紙業有限公司（广东鼎丰纸业有限公司）",
+          "kind": "listed",
+          "effectivePct": 74.6,
+          "controlSince": 2021,
+          "path": [
+            "永豐餘",
+            "永豐餘國際（100%）→ 廣東鼎豐紙業（40%）",
+            "中華紙漿（2026Q2 56.9%）→ CHP International (BVI)（100%）→ 廣東鼎豐紙業（60%）"
+          ],
+          "basis": "永豐餘投資控股 115 年第 2 季合併財報（https://www.yfy.com/album/tw_inv_table05/6a7eaeff6ee80.pdf）PDF p23 子公司表：永豐餘國際→廣東鼎豐紙業 40%，中華紙漿→CHP International (BVI) 100%→廣東鼎豐紙業 60%，永豐餘持有中華紙漿 56.9%；p81 大陸投資表載本公司直接或間接持股 74.6%（自算 40 ＋ 60×56.9% ＝ 74.1%，差約 0.5 個百分點，原因未核，取文件值）。事件前的依據：永豐餘 113 年第 2 季合併財報（https://www.yfy.com/album/tw_inv_table05/66bc4fee4f904.pdf）PDF p22 已列同一路徑；永豐餘 110 年度合併財報（https://www.yfy.com/album/tw_inv_table05/62328a90d0dd0.pdf）PDF p44 已列（2021-12-31），controlSince 取 2021，早於事件。華紙 104 年報大事紀載民國 89 年（2000）投資鼎豐並同日成立，作補充。",
+          "companyName": "永豐餘投資控股股份有限公司",
+          "companyShort": "永豐餘",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "1905",
+        "1907"
+      ]
+    },
+    {
+      "id": "sanfang-dgbaoliang-dongguan-2024-vocs-cems-fault-fine",
+      "title": "三芳東莞寶亮廠 VOCs 自動監測設備故障未報告，東莞市生態環境局處罰款",
+      "summary": "東莞市生態環境局 2024 年 7 月至 9 月多次檢查重點排污單位東莞寶亮材料科技有限公司（三芳持有），發現 DA001 廢氣排放口的 VOCs 自動監測設備壓力感測器故障，2024 年 7 月 4 日至 8 月 28 日的流量、壓力等數據異常，卻沒有在規定時間內報告並恢復；7 月 15 日塗布工序排氣口的線上監測比對也不合格（《大氣污染防治法》第二十四條第一款）。2024 年 10 月 9 日處罰款人民幣 4 萬元（东环罚字〔2024〕231号）；裁量依據是已聯網但未正常使用、違法持續 1 個月以下、限期內改正；公司未陳述申辯。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2024-10-09",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "東莞黃江, 中國大陸",
+          "coordinates": {
+            "lat": 22.9184,
+            "lng": 113.9986,
+            "precision": "city",
+            "source": "https://www.openstreetmap.org/relation/5665673",
+            "note": "OSM 黄江镇（relation 5665673）中心點。地址是黃江鎮富元二路 1 號（決定書掃描件字跡為「窗元二路」），OSM 沒有這家廠與門牌，只定位到鎮"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "東莞寶亮材料科技有限公司",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "廣東省企業環境信息依法披露系統（企業依法填報，附生態環境局行政處罰決定書）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "行政处罚决定书（广东省企业环境信息依法披露系统附件）",
+          "date": "2024-12-24",
+          "url": "https://www-app.gdeei.cn/stfw/api/1/attachment/download?id=3dbb173f-6da3-4787-add8-88aa57e7265c",
+          "archiveUrl": "https://web.archive.org/web/20261028075041/https://www-app.gdeei.cn/stfw/api/1/attachment/download?id=3dbb173f-6da3-4787-add8-88aa57e7265c",
+          "verified": "opened",
+          "note": "东莞市生态环境局，东环罚字〔2024〕231号。決定書是生態環境局作成的官方文件，但經由企業在披露系統填報上傳，依第 3 節第 5 條標為公司文件。"
+        },
+        {
+          "kind": "company",
+          "outlet": "廣東省企業環境信息依法披露系統（企業依法填報，附生態環境局行政處罰決定書）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "2024年企业环境信息依法披露临时报告",
+          "date": "2024-12-24",
+          "url": "https://www-app.gdeei.cn/stfw/preview/2024/0ec685d1-1801-405b-bac4-edfd268cb54c/temp/413337f1-62c9-4142-bccd-fceb95319c68/413337f1-62c9-4142-bccd-fceb95319c68.html",
+          "archiveUrl": "https://web.archive.org/web/20261028074247/https://www-app.gdeei.cn/stfw/preview/2024/0ec685d1-1801-405b-bac4-edfd268cb54c/temp/413337f1-62c9-4142-bccd-fceb95319c68/413337f1-62c9-4142-bccd-fceb95319c68.html",
+          "verified": "opened",
+          "note": "企業在這份報告登記了上面的決定書（文號相同）。"
+        }
+      ],
+      "addedAt": "2026-10-28",
+      "attribution": [
+        {
+          "companyCode": "1307",
+          "entity": "東莞寶亮材料科技有限公司（东莞宝亮材料科技有限公司）",
+          "kind": "listed",
+          "effectivePct": 100.0,
+          "controlSince": 2021,
+          "path": [
+            "三芳",
+            "三芳發展（100%）",
+            "三芳國際（100%）→ MPL（100%）、GTL（100%）；BBH（100%）",
+            "東莞寶亮材料科技有限公司（MPL 36.84% ＋ GTL 7.02% ＋ BBH 56.14% ＝ 100%）"
+          ],
+          "basis": "三芳 111 年度合併財報（https://cms.sanfang.com/media/fdlpyizj/111年度三芳合併財報.pdf）PDF p31–32 附註十二 子公司：MPL 36.84%、GTL 7.02%、BBH 56.14% 合計 100%（111.12.31、110.12.31），controlSince 取 2021，早於事件；110 年度年報沿革載民國 106 年 10 月購入 GTL 並間接取得東莞裕國、107 年 4 月東莞寶亮與東莞裕國合併，作補充。",
+          "companyName": "三芳化學工業股份有限公司",
+          "companyShort": "三芳",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "1307"
+      ]
+    },
+    {
+      "id": "kenda-kendatianjin-tianjin-2024-09-vocs-cems-malfunction-fine",
+      "title": "建大天津廠 VOCs 自動監測設施故障，靜海區生態環境局處罰款",
+      "summary": "天津市靜海區生態環境局 2024 年 6 月 6 日與生態環境部強化監督幫扶組檢查建大橡膠（天津）有限公司，一廠區內胎硫化工段的 6 套 VOCs 自動監測設施中，2 號設施第一次通標準氣後頻繁故障、無法持續點火，後續兩次通標氣無法完成，屬未保證大氣污染物排放自動監測設備正常運行（《大氣污染防治法》第二十四條第一款）。2024 年 9 月 3 日依第一百條第三項處罰款人民幣 3.5 萬元（津静环罚字〔2024〕047号）；公司逾期未陳述申辯。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2024-09-03",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "天津靜海, 中國大陸",
+          "coordinates": {
+            "lat": 38.902,
+            "lng": 116.983,
+            "precision": "industrial-park",
+            "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=5&q=%E5%A4%A9%E5%AE%87%E7%A7%91%E6%8A%80%E5%9B%AD%E5%8C%BA",
+            "note": "OSM「天宇科技园区」place 節點，沿用既有建大天津事件（2021 VOCs 直排）的座標。決定書地址是靜海經濟開發區南區泰安道 6、8 號，與該事件引用的「天宇科技園泰安道 6、8 號」同一門牌；OSM 沒有建大廠區，只定位到園區"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "建大橡膠（天津）有限公司",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [
+          "kenda-kendatianjin-tianjin-2024-02-cems-data-gap-fine",
+          "kenda-kendatianjin-tianjin-2021-vocs-direct-emission"
+        ],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "天津市企業環境信息依法披露系統（企業依法填報，附行政處罰決定書）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "2024.06.06中央督查组检查行政处罚决定书--3.5万.pdf（天津市企业环境信息依法披露系统附件）",
+          "date": "2024-09-03",
+          "url": "https://hjxxpl.sthj.tj.gov.cn:10800/jeeStudio/gtoa/a/system/sysFile/fileDownload?fileId=e2f7c521a5874993923d582234658c85",
+          "archiveUrl": null,
+          "verified": "opened",
+          "note": "天津市静海区生态环境局，津静环罚字〔2024〕047号。決定書是生態環境局作成的官方文件，但經由企業在披露系統填報上傳，依第 3 節第 5 條標為公司文件。 Wayback Save Page Now 回 523（Internet Archive 連不到這台主機），沒有封存。"
+        },
+        {
+          "kind": "company",
+          "outlet": "天津市企業環境信息依法披露系統（企業依法填報，附行政處罰決定書）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "企业环境信息依法披露年度报告（企业详情页）",
+          "date": "2024-09-03",
+          "url": "https://hjxxpl.sthj.tj.gov.cn:10800/#/gkwz/ndpl/qyxq?id=2024-3522F3A0E6884C90BDB6582B6F0A03E1",
+          "archiveUrl": null,
+          "verified": "opened",
+          "note": "單頁應用程式，開啟後要點「9、生态环境违法信息」才看得到這筆，企業在這一欄登記了上面的決定書；網址是前端路由，沒有封存。"
+        }
+      ],
+      "addedAt": "2026-10-28",
+      "attribution": [
+        {
+          "companyCode": "2106",
+          "entity": "建大橡膠（天津）有限公司（建大橡胶（天津）有限公司）",
+          "kind": "listed",
+          "effectivePct": 100.0,
+          "controlSince": 2012,
+          "path": [
+            "建大",
+            "建大國際控股有限公司（100%）→ 建大環宇控股有限公司（100%）→ 建大環宇（中國）投資有限公司（100%）→ 建大橡膠（天津）有限公司（86.36%）",
+            "建大工業股份（香港）有限公司（100%）→ 建大橡膠（天津）有限公司（13.64%）"
+          ],
+          "basis": "MOPS 114 年第 2 季（2025Q2）建大子公司表：本公司持有建大國際 100%，建大國際→建大環宇控股 100%→建大環宇中國 100%，建大環宇中國持有建大天津 86.36%；本公司另持有建大香港 100%，建大香港持有建大天津 13.64%；合計 100%。建大 102 年度年報（含 102、101 年合併財報，https://www.kendatire.com/media/1811/kenda-2013_2.pdf）PDF 第 73 頁列入合併財報之子公司：建大香港→建大橡膠(天津) 102.12.31 為 50%、101.12.31 為 76.92%、101.1.1 為 100%，建大環宇控股→建大橡膠(天津) 50%、23.08%、「-」，兩條路徑合計皆 100%；第 140 頁載設立日期 2007-12-06。controlSince 取 2012（101.1.1 已列 100%），早於事件起始的 2021 年；工商時報 2009-07-20（https://www.ctee.com.tw/news/20090720700030-439901）報導建大以建大工業（香港）名義任董事、購地，作補充。",
+          "companyName": "建大工業股份有限公司",
+          "companyShort": "建大",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "2106"
+      ]
+    },
+    {
       "id": "formosa-point-comfort-2024-unreported-emissions-judgment",
       "title": "台塑美國德州廠9起排放事件未及時通報，與德州州政府和解罰款475,000美元",
       "summary": "德州總檢察長辦公室於 2024 年 7 月 19 日在《德州公報》（Texas Register）刊登和解通知：州政府在 Travis 郡第 459 地方法院控告 Formosa Plastics Corporation, Texas（案號 D-1-GN-21-007088），指 Point Comfort 廠 2019 年 6 月至 2021 年 9 月間發生 9 起排放事件（含維修、開停車作業），排放空氣污染物且未及時通報德州環境品質委員會（TCEQ），違反德州空氣清淨法及州、聯邦許可。雙方擬議的合意判決暨永久禁制令（Agreed Final Judgment and Permanent Injunction）要求公司找出程序缺失並採取矯正措施，確保及時通報 TCEQ，另判給州政府民事罰款 475,000 美元與律師費 75,000 美元，並開放 30 天書面意見。EPA 的 ECHO 執法資料庫記載本案於 2021 年 9 月 16 日移送州總檢察長、2024 年 8 月 21 日登錄最終命令（Final Order Entered），州罰款 475,000 美元。",
@@ -1908,6 +2459,93 @@
       ]
     },
     {
+      "id": "kenda-kendatianjin-tianjin-2024-02-cems-data-gap-fine",
+      "title": "建大天津廠排氣筒自動監控數據缺失，天津市生態環境局處罰款",
+      "summary": "天津市生態環境局 2023 年 11 月 9 日調查大氣類重點排污單位建大橡膠（天津）有限公司，發現 P4 排氣筒自 2023 年 8 月 18 日起，非甲烷總烴與煙氣流量、溫度等自動監控小時數據缺失，未依規定聯網並保證設備正常運行（《大氣污染防治法》第二十四條第一款）。公司多次陳述申辯，稱設備編號被占用屬意外、已更換恢復，並以經營壓力請求免罰；市局認定意外的說法不成立，但部分採納整改情況與經營壓力，依《行政處罰法》第三十二條第一項從輕，責令改正並處罰款人民幣 2.5 萬元（津市环罚字〔2024〕29号；披露系統登記的下達日期是 2024 年 2 月 20 日）。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2024-02-20",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "天津靜海, 中國大陸",
+          "coordinates": {
+            "lat": 38.902,
+            "lng": 116.983,
+            "precision": "industrial-park",
+            "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=5&q=%E5%A4%A9%E5%AE%87%E7%A7%91%E6%8A%80%E5%9B%AD%E5%8C%BA",
+            "note": "OSM「天宇科技园区」place 節點，沿用既有建大天津事件（2021 VOCs 直排）的座標。決定書地址是靜海經濟開發區南區泰安道 6、8 號，與該事件引用的「天宇科技園泰安道 6、8 號」同一門牌；OSM 沒有建大廠區，只定位到園區"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "建大橡膠（天津）有限公司",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [
+          "kenda-kendatianjin-tianjin-2024-09-vocs-cems-malfunction-fine",
+          "kenda-kendatianjin-tianjin-2021-vocs-direct-emission"
+        ],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "天津市企業環境信息依法披露系統（企業依法填報，附行政處罰決定書）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "2023.11.09天津市生态环境局行政处罚决定书.pdf（天津市企业环境信息依法披露系统附件）",
+          "date": "2024-02-20",
+          "url": "https://hjxxpl.sthj.tj.gov.cn:10800/jeeStudio/gtoa/a/system/sysFile/fileDownload?fileId=4870ead95fc8498e9359bbb868dcec9f",
+          "archiveUrl": null,
+          "verified": "opened",
+          "note": "天津市生态环境局，津市环罚字〔2024〕29号（系统登记为“津是环罚字【2024】29号”）。決定書是生態環境局作成的官方文件，但經由企業在披露系統填報上傳，依第 3 節第 5 條標為公司文件。 Wayback Save Page Now 回 523（Internet Archive 連不到這台主機），沒有封存。"
+        },
+        {
+          "kind": "company",
+          "outlet": "天津市企業環境信息依法披露系統（企業依法填報，附行政處罰決定書）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "企业环境信息依法披露年度报告（企业详情页）",
+          "date": "2024-02-20",
+          "url": "https://hjxxpl.sthj.tj.gov.cn:10800/#/gkwz/ndpl/qyxq?id=2024-3522F3A0E6884C90BDB6582B6F0A03E1",
+          "archiveUrl": null,
+          "verified": "opened",
+          "note": "單頁應用程式，開啟後要點「9、生态环境违法信息」才看得到這筆，企業在這一欄登記了上面的決定書；網址是前端路由，沒有封存。"
+        }
+      ],
+      "addedAt": "2026-10-28",
+      "attribution": [
+        {
+          "companyCode": "2106",
+          "entity": "建大橡膠（天津）有限公司（建大橡胶（天津）有限公司）",
+          "kind": "listed",
+          "effectivePct": 100.0,
+          "controlSince": 2012,
+          "path": [
+            "建大",
+            "建大國際控股有限公司（100%）→ 建大環宇控股有限公司（100%）→ 建大環宇（中國）投資有限公司（100%）→ 建大橡膠（天津）有限公司（86.36%）",
+            "建大工業股份（香港）有限公司（100%）→ 建大橡膠（天津）有限公司（13.64%）"
+          ],
+          "basis": "MOPS 114 年第 2 季（2025Q2）建大子公司表：本公司持有建大國際 100%，建大國際→建大環宇控股 100%→建大環宇中國 100%，建大環宇中國持有建大天津 86.36%；本公司另持有建大香港 100%，建大香港持有建大天津 13.64%；合計 100%。建大 102 年度年報（含 102、101 年合併財報，https://www.kendatire.com/media/1811/kenda-2013_2.pdf）PDF 第 73 頁列入合併財報之子公司：建大香港→建大橡膠(天津) 102.12.31 為 50%、101.12.31 為 76.92%、101.1.1 為 100%，建大環宇控股→建大橡膠(天津) 50%、23.08%、「-」，兩條路徑合計皆 100%；第 140 頁載設立日期 2007-12-06。controlSince 取 2012（101.1.1 已列 100%），早於事件起始的 2021 年；工商時報 2009-07-20（https://www.ctee.com.tw/news/20090720700030-439901）報導建大以建大工業（香港）名義任董事、購地，作補充。",
+          "companyName": "建大工業股份有限公司",
+          "companyShort": "建大",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "2106"
+      ]
+    },
+    {
       "id": "tgi-tgtaicang-taicang-2024-nonroad-machinery-emission-fine",
       "title": "台玻太倉廠非道路移動機械超標排放，太倉生態環境局處罰款",
       "summary": "太倉生態環境局 2024 年 2 月公示，台玻太倉工程玻璃有限公司的非道路移動機械超過標準排放大氣污染物，違反《大氣污染防治法》第一百一十四條第一款，2024 年 1 月 30 日被責令立即改正，並處罰款人民幣 5,000 元（苏环行罚字85〔2024〕9号）。公示沒有載明機械種類與檢測數值。同一廠 2023 年 6 月曾因工業固體廢物貯存未採取防護措施受罰。",
@@ -2051,6 +2689,91 @@
       ],
       "companyCodes": [
         "5306"
+      ]
+    },
+    {
+      "id": "ichiun-yiquan-jiangmen-2024-screen-printing-vocs-fine",
+      "title": "一詮江門廠絲印工序未密閉、有機廢氣未收集處理，江門市生態環境局處罰款",
+      "summary": "江門市生態環境局江海分局 2023 年 11 月 29 日檢查一詮持有的一詮科技（中國）有限公司，發現三個車間的絲印工序沒有在密閉空間進行，部分絲印台沒有廢氣治理設施，洗網房的廢氣收集管道脫落，部分調墨機和烤箱也沒有配套治理設施（《大氣污染防治法》第四十五條）。2024 年 1 月 25 日處罰款人民幣 17.5 萬元（江江环罚〔2024〕9号）。公司申請道歉承諾從輕，但 1 月 4 日複查時尚未完成整改，所以未獲適用；裁量已計入積極配合調查、近兩年無處罰兩項從輕因素。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2024-01-25",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "江門江海, 中國大陸",
+          "coordinates": {
+            "lat": 22.5513,
+            "lng": 113.125,
+            "precision": "city",
+            "source": "https://www.openstreetmap.org/relation/3463956",
+            "note": "OSM 江海区（relation 3463956）中心點。地址是江門市江海區金輝路 9 號，OSM 沒有門牌與廠區，只定位到區。區中心點，不是廠區"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "一詮科技（中國）有限公司",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "廣東省企業環境信息依法披露系統（企業依法填報，附生態環境局行政處罰決定書）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "行政处罚决定书（广东省企业环境信息依法披露系统附件）",
+          "date": "2024-03-05",
+          "url": "https://www-app.gdeei.cn/stfw/api/1/attachment/download?id=7ab41f51-f3d5-4782-91d0-dc1b27d63b95",
+          "archiveUrl": "https://web.archive.org/web/20261028075143/https://www-app.gdeei.cn/stfw/api/1/attachment/download?id=7ab41f51-f3d5-4782-91d0-dc1b27d63b95",
+          "verified": "opened",
+          "note": "江门市生态环境局（江海分局），江江环罚〔2024〕9号。決定書是生態環境局作成的官方文件，但經由企業在披露系統填報上傳，依第 3 節第 5 條標為公司文件。"
+        },
+        {
+          "kind": "company",
+          "outlet": "廣東省企業環境信息依法披露系統（企業依法填報，附生態環境局行政處罰決定書）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "2024年企业环境信息依法披露临时报告",
+          "date": "2024-03-05",
+          "url": "https://www-app.gdeei.cn/stfw/preview/2024/b22cbb5d-132c-436f-848b-f37e610c2c7e/temp/ee96fca4-fa7c-40b8-a11a-6d2c9ea8f924/ee96fca4-fa7c-40b8-a11a-6d2c9ea8f924.html",
+          "archiveUrl": "https://web.archive.org/web/20261028074632/https://www-app.gdeei.cn/stfw/preview/2024/b22cbb5d-132c-436f-848b-f37e610c2c7e/temp/ee96fca4-fa7c-40b8-a11a-6d2c9ea8f924/ee96fca4-fa7c-40b8-a11a-6d2c9ea8f924.html",
+          "verified": "opened",
+          "note": "企業在這份報告登記了上面的決定書（文號相同）。"
+        }
+      ],
+      "addedAt": "2026-10-28",
+      "attribution": [
+        {
+          "companyCode": "2486",
+          "entity": "一詮科技（中國）有限公司（一诠科技（中国）有限公司）",
+          "kind": "listed",
+          "effectivePct": 100.0,
+          "controlSince": 2021,
+          "path": [
+            "一詮",
+            "MORE FORTUNE PROFITS LTD（100%）",
+            "I-CHIUN (CAYMAN) PRECISION INDUSTRY（100%）",
+            "I-CHIUN TECHNOLOGY CO., LTD.（100%）→ 一詮科技（中國）（65.23%）；一詮精密電子工業（中國）（100%）→ 一詮科技（中國）（34.77%）"
+          ],
+          "basis": "一詮 112 年第 3 季合併財報（https://www.i-chiun.com.tw/rwd1809/store/F4/112_Q3.pdf）PDF p15：I-CHIUN TECHNOLOGY→一詮科技（中國）65.23%、一詮精密電子工業（中國）→34.77%，合計 100%（112.9.30、111.12.31）；110 年度合併財報 p20 已列 100%（110.12.31），controlSince 取 2021，早於事件。官網沿革 2010 年於江門成立，作補充。",
+          "companyName": "一詮精密工業股份有限公司",
+          "companyShort": "一詮",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "2486"
       ]
     },
     {
@@ -2425,6 +3148,154 @@
       ]
     },
     {
+      "id": "acc-hubeiyadong-wuhan-2023-sludge-silo-odour-fan-fine",
+      "title": "亞泥湖北廠水泥窯污泥倉異味引風機未開，武漢新洲分局處罰款",
+      "summary": "武漢市生態環境局新洲區分局 2023 年 5 月 9 日檢查亞泥持有的湖北亞東水泥有限公司，發現水泥窯協同處置車間的污泥倉內存有污泥，異味引風機卻沒有使用，屬未依排污許可管理規定控制大氣污染物無組織排放（《排污許可管理條例》第十七條第二款）。2023 年 9 月 4 日處罰款人民幣 5 萬元（新环罚〔2023〕0021号）；決定書寫明依裁量基準算出 2 萬元，但低於法定最低額，所以按 5 萬元處罰；公司沒有陳述申辯或申請聽證。同日另有一張罰單針對煤倉除塵器未開啟。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2023-09-04",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "武漢新洲, 中國大陸",
+          "coordinates": {
+            "lat": 30.6521,
+            "lng": 114.5639,
+            "precision": "city",
+            "source": "https://www.openstreetmap.org/node/8774823740",
+            "note": "OSM 阳逻街道（place=town，node 8774823740）。地址是武漢市新洲區陽邏經濟開發區，OSM 沒有這家廠，只定位到街道"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "湖北亞東水泥有限公司",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [
+          "acc-hubeiyadong-wuhan-2023-coal-silo-dust-collector-fine"
+        ],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "湖北省企業環境信息依法披露系統（企業依法填報，附行政處罰決定書）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "行政处罚决定书 0021号.pdf（湖北省企业环境信息依法披露系统 2023年度报告附件）",
+          "date": "2024-02-23",
+          "url": "http://219.140.164.18:8007/hbyfpl/platform/file/filemanagecontroller/getpdffilestream/1708653042306025907200",
+          "archiveUrl": null,
+          "verified": "opened",
+          "note": "武汉市生态环境局新洲区分局，新环罚〔2023〕0021号。決定書是生態環境局作成的官方文件，但經由企業在披露系統填報上傳，依第 3 節第 5 條標為公司文件。 Wayback Save Page Now 回 523（Internet Archive 連不到這台主機），沒有封存。"
+        }
+      ],
+      "addedAt": "2026-10-28",
+      "attribution": [
+        {
+          "companyCode": "1102",
+          "entity": "湖北亞東水泥有限公司",
+          "kind": "listed",
+          "effectivePct": 73.07,
+          "controlSince": 2021,
+          "path": [
+            "亞泥",
+            "亞洲水泥（中國）控股公司（香港上市 0743；亞泥直接 67.73%，連同其他受控法團合計 73.07%）",
+            "湖北亞東水泥有限公司（100%）"
+          ],
+          "basis": "亞洲水泥（中國）控股 2022 年報（HKEXnews https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0425/2023042502357.pdf）PDF p189 附註 43：湖北亞東水泥 2022、2021 年皆 100%；同年報 p58 股東表：亞泥直接持有 67.73%，連同受控法團權益合計 73.07%。這份年報 2023-04-25 公告，早於事件，controlSince 取 2021（表上最早的年度），早於事件。2008 年全球發售售股章程附錄一會計師報告（https://www.hkexnews.hk/listedco/listconews/sehk/2008/0505/00743_332657/c130.pdf）載湖北亞東 2005-06-23 設立、2005–2007 年底集團應佔 99.99%，作補充。港股上市子集團只寫在路徑（決策 30、36）。",
+          "companyName": "亞洲水泥股份有限公司",
+          "companyShort": "亞泥",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "1102"
+      ]
+    },
+    {
+      "id": "acc-hubeiyadong-wuhan-2023-coal-silo-dust-collector-fine",
+      "title": "亞泥湖北廠煤倉除塵器未開啟，武漢新洲分局處罰款",
+      "summary": "同一次 2023 年 5 月 9 日的檢查發現，湖北亞東水泥有限公司的煤倉出料裝置正在運行，配套的兩台布袋除塵器卻沒有開啟，屬未依排污許可管理規定控制大氣污染物無組織排放（《排污許可管理條例》第十七條第二款）。武漢市生態環境局新洲區分局 2023 年 9 月 4 日處罰款人民幣 5 萬元（新环罚〔2023〕0022号）；同樣是裁量基準算出的 2 萬元低於法定最低額，按 5 萬元處罰。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2023-09-04",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "武漢新洲, 中國大陸",
+          "coordinates": {
+            "lat": 30.6521,
+            "lng": 114.5639,
+            "precision": "city",
+            "source": "https://www.openstreetmap.org/node/8774823740",
+            "note": "OSM 阳逻街道（place=town，node 8774823740）。地址是武漢市新洲區陽邏經濟開發區，OSM 沒有這家廠，只定位到街道"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "湖北亞東水泥有限公司",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [
+          "acc-hubeiyadong-wuhan-2023-sludge-silo-odour-fan-fine"
+        ],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "湖北省企業環境信息依法披露系統（企業依法填報，附行政處罰決定書）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "行政处罚决定书 0022号.pdf（湖北省企业环境信息依法披露系统 2023年度报告附件）",
+          "date": "2024-02-23",
+          "url": "http://219.140.164.18:8007/hbyfpl/platform/file/filemanagecontroller/getpdffilestream/1708653050450027426816",
+          "archiveUrl": null,
+          "verified": "opened",
+          "note": "武汉市生态环境局新洲区分局，新环罚〔2023〕0022号。決定書是生態環境局作成的官方文件，但經由企業在披露系統填報上傳，依第 3 節第 5 條標為公司文件。 Wayback Save Page Now 回 523（Internet Archive 連不到這台主機），沒有封存。"
+        }
+      ],
+      "addedAt": "2026-10-28",
+      "attribution": [
+        {
+          "companyCode": "1102",
+          "entity": "湖北亞東水泥有限公司",
+          "kind": "listed",
+          "effectivePct": 73.07,
+          "controlSince": 2021,
+          "path": [
+            "亞泥",
+            "亞洲水泥（中國）控股公司（香港上市 0743；亞泥直接 67.73%，連同其他受控法團合計 73.07%）",
+            "湖北亞東水泥有限公司（100%）"
+          ],
+          "basis": "亞洲水泥（中國）控股 2022 年報（HKEXnews https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0425/2023042502357.pdf）PDF p189 附註 43：湖北亞東水泥 2022、2021 年皆 100%；同年報 p58 股東表：亞泥直接持有 67.73%，連同受控法團權益合計 73.07%。這份年報 2023-04-25 公告，早於事件，controlSince 取 2021（表上最早的年度），早於事件。2008 年全球發售售股章程附錄一會計師報告（https://www.hkexnews.hk/listedco/listconews/sehk/2008/0505/00743_332657/c130.pdf）載湖北亞東 2005-06-23 設立、2005–2007 年底集團應佔 99.99%，作補充。港股上市子集團只寫在路徑（決策 30、36）。",
+          "companyName": "亞洲水泥股份有限公司",
+          "companyShort": "亞泥",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "1102"
+      ]
+    },
+    {
       "id": "tgi-tgtaicang-taicang-2023-solid-waste-storage-fine",
       "title": "台玻太倉廠貯存工業固體廢物未採取防護措施，太倉生態環境局處罰款",
       "summary": "太倉生態環境局 2023 年 6 月公示，台玻經台灣玻璃中國控股持有的台玻太倉工程玻璃有限公司（低輻射玻璃）貯存工業固體廢物，未採取符合國家環境保護標準的防護措施，依《固體廢物污染環境防治法》第一百一十二條第一款第（六）項及第二款，2023 年 6 月 20 日被責令立即停止違法行為，並處罰款人民幣 10 萬元（苏环行罚字（2023）85第39号）。公示沒有說明是哪一類廢物。",
@@ -2658,6 +3529,164 @@
       ]
     },
     {
+      "id": "eternal-eternaltianjin-tianjin-2022-tank-vent-no-eia-fine",
+      "title": "長興化學天津廠原料儲罐排氣口無環評手續，濱海新區生態環境局處罰款",
+      "summary": "天津市濱海新區生態環境局 2022 年 9 月 19 日檢查長興化學（天津）有限公司，發現 T-20 原料儲罐頂部有一個彎狀排氣口，閥門開著並有不明氣體排出，公司也拿不出這個排氣口的環評審批手續（《大氣污染防治法》第四十五條）。2022 年 12 月 7 日依第一百零八條第一項處罰款人民幣 3 萬元，並責令改正（津滨环罚字〔2022〕第69号）；公司未陳述申辯。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2022-12-07",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "天津濱海新區, 中國大陸",
+          "coordinates": {
+            "lat": 38.8498,
+            "lng": 117.4527,
+            "precision": "city",
+            "source": "https://www.openstreetmap.org/node/11990276482",
+            "note": "OSM 大港街道（node 11990276482）。地址是濱海新區大港石化產業園區金源路 652 號，OSM 沒有這家廠與門牌，只定位到街道"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "長興化學（天津）有限公司",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "天津市企業環境信息依法披露系統（企業依法填報，附行政處罰決定書）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "行政处罚决定书.pdf（天津市企业环境信息依法披露系统附件）",
+          "date": "2022-12-07",
+          "url": "https://hjxxpl.sthj.tj.gov.cn:10800/jeeStudio/gtoa/a/system/sysFile/fileDownload?fileId=03590a07c859439eb36fe85574b9dd08",
+          "archiveUrl": null,
+          "verified": "opened",
+          "note": "天津市滨海新区生态环境局，津滨环罚字〔2022〕第69号。決定書是生態環境局作成的官方文件，但經由企業在披露系統填報上傳，依第 3 節第 5 條標為公司文件。 Wayback Save Page Now 回 523（Internet Archive 連不到這台主機），沒有封存。"
+        },
+        {
+          "kind": "company",
+          "outlet": "天津市企業環境信息依法披露系統（企業依法填報，附行政處罰決定書）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "企业环境信息依法披露年度报告（企业详情页）",
+          "date": "2022-12-07",
+          "url": "https://hjxxpl.sthj.tj.gov.cn:10800/#/gkwz/ndpl/qyxq?id=2022-2ED4846A07024644AF483B7565D7969F",
+          "archiveUrl": null,
+          "verified": "opened",
+          "note": "單頁應用程式，開啟後要點「9、生态环境违法信息」才看得到這筆，企業在這一欄登記了上面的決定書；網址是前端路由，沒有封存。"
+        }
+      ],
+      "addedAt": "2026-10-28",
+      "attribution": [
+        {
+          "companyCode": "1717",
+          "entity": "長興化學（天津）有限公司（长兴化学（天津）有限公司）",
+          "kind": "listed",
+          "effectivePct": 100.0,
+          "controlSince": 2015,
+          "path": [
+            "長興",
+            "Eternal Holdings Inc.（100%）",
+            "Eternal International (BVI) Co., Ltd.（100%）",
+            "長興（中國）投資有限公司（100%）",
+            "長興化學（天津）有限公司（100%）"
+          ],
+          "basis": "長興 105 年第 3 季合併財報（https://www.eternal-group.com/Docs/Upload/WC2023060200794/912d5c63-02db-bd6f-6452-92b1103b5172_201603_1717_AI1_20161114_135051.pdf）PDF p20–22 附註十二(一)：上層各 100%，長興（中國）投資→長興化學（天津）100%（105.9.30、104.12.31、104.9.30），controlSince 取 2015，早於事件；MOPS 114 年第 2 季（2025Q2）路徑相同。",
+          "companyName": "長興材料工業股份有限公司",
+          "companyShort": "長興",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "1717"
+      ]
+    },
+    {
+      "id": "guic-szchenglin-shenzhen-2022-total-chromium-exceedance-fine",
+      "title": "成霖深圳廠廢水總鉻超標，深圳寶安管理局處罰款",
+      "summary": "深圳市生態環境局寶安管理局 2022 年 4 月 25 日採樣成霖持有的深圳成霖實業有限公司廢水總排口，總鉻 0.64 mg/L，超過排污許可證限值 0.5 mg/L 0.28 倍（日均排水約 160 噸）；6 月 10 日複查總鉻低於檢出限，已改正。公司 6 月申請聽證；2022 年 8 月 30 日依《深圳經濟特區生態環境保護條例》第五十五條第一款處罰款人民幣 30 萬元（深环宝安罚字〔2022〕114号）。公司在 2022 年度披露報告註明本案「申請行政復議中」，復議結果未查到。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2022-08-30",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "深圳寶安, 中國大陸",
+          "coordinates": {
+            "lat": 22.6742,
+            "lng": 113.8177,
+            "precision": "city",
+            "source": "https://www.openstreetmap.org/relation/10490913",
+            "note": "OSM 福永街道（relation 10490913）中心點。地址是寶安區福永街道橋頭社區福山工業區，OSM 沒有這家廠，只定位到街道"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "深圳成霖實業有限公司",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "廣東省企業環境信息依法披露系統（企業依法填報，附生態環境局行政處罰決定書）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "行政处罚决定书（广东省企业环境信息依法披露系统附件）",
+          "date": "2022-08-30",
+          "url": "https://www-app.gdeei.cn/stfw/api/1/attachment/download?id=f1fc0d8f-44c1-4f91-b1bf-9b55f629b12c",
+          "archiveUrl": "https://web.archive.org/web/20261028075123/https://www-app.gdeei.cn/stfw/api/1/attachment/download?id=f1fc0d8f-44c1-4f91-b1bf-9b55f629b12c",
+          "verified": "opened",
+          "note": "深圳市生态环境局宝安管理局，深环宝安罚字〔2022〕114号。決定書是生態環境局作成的官方文件，但經由企業在披露系統填報上傳，依第 3 節第 5 條標為公司文件。"
+        }
+      ],
+      "addedAt": "2026-10-28",
+      "attribution": [
+        {
+          "companyCode": "9934",
+          "entity": "深圳成霖實業有限公司（深圳成霖实业有限公司）",
+          "kind": "listed",
+          "effectivePct": 100.0,
+          "controlSince": 2021,
+          "path": [
+            "成霖",
+            "Globe Union Industrial (B.V.I.) Corp.（100%）",
+            "深圳成霖實業有限公司（100%）"
+          ],
+          "basis": "成霖 111 年股東常會年報（https://tw.globeunion.com/wp-content/uploads/2023/09/111年股東會年報股東會後修訂本.pdf，PDF 文字層亂碼，經 OCR 與影像核對）PDF p151（印刷頁 146）合併財報編製主體：G.U.I.(B.V.I.)→深圳成霖實業 100%（111.12.31、110.12.31），controlSince 取 2021，早於事件；同年報沿革 p11 載民國 102 年重大資產置換後持有 100%，作補充。",
+          "companyName": "成霖企業股份有限公司",
+          "companyShort": "成霖",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "9934"
+      ]
+    },
+    {
       "id": "patec-presisi-bekasi-proper-red-2022-2024",
       "title": "百達印尼孫公司 PT Patec Presisi 連續兩期 PROPER 環境評等列紅色",
       "summary": "印尼環境部 PROPER 企業環境績效評等把百達-KY 孫公司 PT Patec Presisi Engineering（西爪哇 Bekasi 縣，汽機車零件廠）2022–2023 年度（SK.1353/2023，2023-12 與 2024-05 兩次更正後仍維持）與 2023–2024 年度（SK.129/2025）都列為紅色（MERAH）。依 Permen LHK 1/2021 第 33 條第 2 項，紅色是指企業的環境管理不符合法規要求；決定書只列評等，沒有寫出具體不合規項目。已解析的 2014–15、2016–17、2018–19 年度名單沒有這家公司，2019–2022 與 2024–25 年度的完整名單官網沒有公開，查無其他年度評等。",
@@ -2764,6 +3793,111 @@
       ],
       "companyCodes": [
         "2236"
+      ]
+    },
+    {
+      "id": "chp-dingfeng-zhaoqing-2022-odour-exceedance-fine",
+      "title": "華紙廣東鼎豐紙廠多個排氣口臭氣濃度超標，肇慶廣寧分局處罰款",
+      "summary": "肇慶市生態環境局廣寧分局 2022 年 2 月 16 日監督監測廣東鼎豐紙業有限公司，熱電、廢水預處理、鹼回收爐與製漿車間等排氣口的臭氣濃度，分別超標 0.21 倍、50.5 倍、2.82 倍與 5.51 倍，決定書認定對周圍環境造成影響（《大氣污染防治法》第九十九條第二項）。2022 年 3 月 30 日處罰款人民幣 48 萬元（肇环宁罚字〔2022〕1号）；決定書記載近二年同類違法含本次共 2 次。公司在披露報告中說明已繳罰款並整改，複測臭氣濃度達標。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2022-03-30",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "肇慶廣寧, 中國大陸",
+          "coordinates": {
+            "lat": 23.6341,
+            "lng": 112.4348,
+            "precision": "city",
+            "source": "https://www.openstreetmap.org/relation/20346073",
+            "note": "OSM 南街街道（relation 20346073）中心點。地址是廣寧縣南街街道首約村，OSM 沒有這家廠，只定位到街道"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "廣東鼎豐紙業有限公司",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [
+          "chp-dingfeng-zhaoqing-2024-illegal-outfall-fine",
+          "chp-dingfeng-zhaoqing-2026-desulfurization-bypass-fine"
+        ],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "廣東省企業環境信息依法披露系統（企業依法填報，附生態環境局行政處罰決定書）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "行政处罚决定书（广东省企业环境信息依法披露系统附件）",
+          "date": "2023-05-09",
+          "url": "https://www-app.gdeei.cn/stfw/api/1/attachment/download?id=a799678b-8814-4c72-9e00-bf24eb9d6233",
+          "archiveUrl": "https://web.archive.org/web/20261028075323/https://www-app.gdeei.cn/stfw/api/1/attachment/download?id=a799678b-8814-4c72-9e00-bf24eb9d6233",
+          "verified": "opened",
+          "note": "肇庆市生态环境局广宁分局，肇环宁罚字〔2022〕1号。決定書是生態環境局作成的官方文件，但經由企業在披露系統填報上傳，依第 3 節第 5 條標為公司文件。"
+        },
+        {
+          "kind": "company",
+          "outlet": "廣東省企業環境信息依法披露系統（企業依法填報，附生態環境局行政處罰決定書）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "2022年企业环境信息依法披露年度报告",
+          "date": "2023-05-09",
+          "url": "https://www-app.gdeei.cn/stfw/preview/2022/d473567c-b29a-4058-9bc5-63dbf286410c/year/5968ac0e-e1fd-4397-abab-57de2c0b90f6/5968ac0e-e1fd-4397-abab-57de2c0b90f6.html",
+          "archiveUrl": "https://web.archive.org/web/20261028074402/https://www-app.gdeei.cn/stfw/preview/2022/d473567c-b29a-4058-9bc5-63dbf286410c/year/5968ac0e-e1fd-4397-abab-57de2c0b90f6/5968ac0e-e1fd-4397-abab-57de2c0b90f6.html",
+          "verified": "opened",
+          "note": "企業在這份報告登記了上面的決定書（文號相同）。"
+        }
+      ],
+      "addedAt": "2026-10-28",
+      "attribution": [
+        {
+          "companyCode": "1905",
+          "entity": "廣東鼎豐紙業有限公司（广东鼎丰纸业有限公司）",
+          "kind": "listed",
+          "effectivePct": 60.0,
+          "controlSince": 2021,
+          "path": [
+            "華紙",
+            "CHP International (BVI)（100%）",
+            "廣東鼎豐紙業有限公司（60%）"
+          ],
+          "basis": "中華紙漿 110 年度合併財報（https://www.chp.com.tw/files/quarterly_financial_report/20220318042051319.pdf）PDF p36 合併報表子公司表：本公司→CHP International (BVI) 100%→廣東鼎豐紙業 60%（另 40% 由永豐餘國際持有）；中華紙漿 110 年度合併財報（https://www.chp.com.tw/files/quarterly_financial_report/20220318042051319.pdf）PDF p36 已列，controlSince 取 2021，早於事件；華紙 104 年報大事紀（https://www.chp.com.tw/files/shareholder_file/104%E5%B9%B4%E5%A0%B1.pdf）p9：「89年08月18日：投資中國大陸廣東省鼎豐紙業有限公司成立」，作補充。",
+          "companyName": "中華紙漿股份有限公司",
+          "companyShort": "華紙",
+          "shown": true,
+          "reason": "own"
+        },
+        {
+          "companyCode": "1907",
+          "entity": "廣東鼎豐紙業有限公司（广东鼎丰纸业有限公司）",
+          "kind": "listed",
+          "effectivePct": 74.6,
+          "controlSince": 2021,
+          "path": [
+            "永豐餘",
+            "永豐餘國際（100%）→ 廣東鼎豐紙業（40%）",
+            "中華紙漿（2026Q2 56.9%）→ CHP International (BVI)（100%）→ 廣東鼎豐紙業（60%）"
+          ],
+          "basis": "永豐餘投資控股 115 年第 2 季合併財報（https://www.yfy.com/album/tw_inv_table05/6a7eaeff6ee80.pdf）PDF p23 子公司表：永豐餘國際→廣東鼎豐紙業 40%，中華紙漿→CHP International (BVI) 100%→廣東鼎豐紙業 60%，永豐餘持有中華紙漿 56.9%；p81 大陸投資表載本公司直接或間接持股 74.6%（自算 40 ＋ 60×56.9% ＝ 74.1%，差約 0.5 個百分點，原因未核，取文件值）。事件前的依據：永豐餘 110 年度合併財報（https://www.yfy.com/album/tw_inv_table05/62328a90d0dd0.pdf）PDF p44 已列同一路徑；永豐餘 110 年度合併財報（https://www.yfy.com/album/tw_inv_table05/62328a90d0dd0.pdf）PDF p44 已列（2021-12-31），controlSince 取 2021，早於事件。華紙 104 年報大事紀載民國 89 年（2000）投資鼎豐並同日成立，作補充。",
+          "companyName": "永豐餘投資控股股份有限公司",
+          "companyShort": "永豐餘",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "1905",
+        "1907"
       ]
     },
     {
@@ -3006,7 +4140,10 @@
       ],
       "groupControl": [],
       "related": {
-        "eventIds": [],
+        "eventIds": [
+          "kenda-kendatianjin-tianjin-2024-02-cems-data-gap-fine",
+          "kenda-kendatianjin-tianjin-2024-09-vocs-cems-malfunction-fine"
+        ],
         "echoFacilityIds": [],
         "enforcementCaseIds": []
       },

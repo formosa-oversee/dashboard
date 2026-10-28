@@ -637,6 +637,79 @@
       ]
     },
     {
+      "id": "klb-le-long-ducmy-2025-wastewater-exceedance-fine",
+      "title": "廣隆越南利隆德和廠排放廢水超標，再遭罰款",
+      "summary": "廣隆 2025 年永續報告書揭露，子公司利隆越南的德和廠（隆安省德和縣 Đức Mỹ 工業聚落，2025 年 7 月起屬西寧省）2025 年因排放廢水超過標準遭罰款 351,000,000 越南盾（約 3.51 億越南盾），是同一廠繼 2023 年後再因廢水受罰；報告書寫明技術單位已完成廢水系統改善。廣隆把這件列為當年唯一一件重大違規，依廣隆自訂標準，罰款達新台幣 10 萬元以上即列為重大。報告書沒有寫出處分機關、決定書字號、日期與超標項目，本次查詢也沒有找到對應的官方文件或媒體報導。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2025",
+      "dateEnd": null,
+      "datePrecision": "year",
+      "locations": [
+        {
+          "country": "越南",
+          "plantSite": "Đức Mỹ 工業聚落（Đức Hòa）, 隆安省, 越南",
+          "coordinates": {
+            "lat": 10.8049775,
+            "lng": 106.4960365,
+            "precision": "facility",
+            "source": "https://www.openstreetmap.org/way/1183609945",
+            "note": "OSM「Khu công nghiệp Lê Long」（xã Mỹ Hạnh）範圍的中心點；範圍約 35.4 萬平方公尺，與環境許可證記載的德和廠總面積 35 萬平方公尺相符"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "Le Long Việt Nam Company Limited（德和廠）",
+          "country": "越南"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [
+          "klb-le-long-ducmy-2023-wastewater-exceedance-fine"
+        ],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "廣隆光電科技（1537）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "廣隆光電科技 2025 永續報告書",
+          "date": "2026-08-31",
+          "url": "https://www.klb.com.tw/download/139/",
+          "archiveUrl": "https://web.archive.org/web/20261028041658id_/https://www.klb.com.tw/download/139/",
+          "verified": "opened",
+          "note": "PDF 第 59 頁：2025 年僅發生 1 件與環境衛生相關之違反法規事件（越南利隆德和廠排放廢水超過標準罰款，後續技術單位已進行廢水系統相關處理改善作業完成）。第 87 頁重大違反法規事件表：發生據點越南利隆德和廠，違反法規條文「越南廢水環境法規」，事由「排放廢水超過標準」，金錢裁罰 VND 351,000,000（2025 年平均匯率 834，約 NTD 420,863），改善措施同上；處分機關、決定書字號與日期未載。封存連結是 Wayback 保存的原檔（id_）：Wayback 正常重播頁回 500。"
+        }
+      ],
+      "addedAt": "2026-10-28",
+      "attribution": [
+        {
+          "companyCode": "1537",
+          "entity": "Le Long Việt Nam（Công ty TNHH Le Long Việt Nam，稅號 1100102656）德和分公司（Chi nhánh Công ty TNHH Le Long Việt Nam – Nhà máy sản xuất tại Đức Hòa）",
+          "kind": "listed",
+          "effectivePct": 100,
+          "controlSince": 2008,
+          "path": [
+            "廣隆",
+            "利隆（越南）責任有限公司（Le Long Việt Nam，100%）"
+          ],
+          "basis": "MOPS 114 年第 2 季（2025Q2）廣隆子公司表：本公司直接持有利隆（越南）責任有限公司 100%（家庭及工業用蓄電池之製造及銷售）。越南農業與環境部環境許可證 560/GPMT-BNNMT（2025-12-22，廣隆官網 https://www.klb.com.tw/download/127/ 第 1–2 頁）：受許可人 Công ty TNHH Le Long Việt Nam，稅號 1100102656，設施為其德和分公司工廠，位於 Cụm công nghiệp Đức Mỹ（xã Mỹ Hạnh），生產鉛酸電池並回收鉛（24,000 噸／年），2008-06-30 首次登記；廣隆 2025 永續報告書第 59 頁寫「越南利隆德和廠」。controlSince 取首次登記的 2008 年（廣隆報告書記載德和廠 2007 年設立），早於事件。",
+          "companyName": "廣隆光電科技股份有限公司",
+          "companyShort": "廣隆",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "1537"
+      ]
+    },
+    {
       "id": "tsmc-jasm-kumamoto-pfas",
       "title": "JASM 熊本第 1 工場量產後，坪井川 PFBS、PFBA 濃度上升",
       "summary": "熊本縣因應台積電進駐而實施的水質調查顯示，JASM 熊本第 1 工場 2024 年 12 月量產後，熊本市北區坪井川的兩種 PFAS（PFBS、PFBA）濃度上升；縣環境監測委員會認為毒性低、尚無問題，但建議從預防角度促請企業因應，並指出 2025 年 5、7 月的濃度已轉為下降或持平。JASM 社長堀田祐一於 2025 年 10 月 24 日證實工場排水含有微量這兩種物質，JASM 另稱排水以嚴於法規的標準全天候監測。日本目前沒有 PFAS 的排水基準，熊本縣於 2026 年 6 月 11 日在縣議會表示，不掌握興建中的 TSMC 熊本第 2 工場等新廠會排出多少 PFAS。",
@@ -1577,6 +1650,91 @@
       ]
     },
     {
+      "id": "klb-kung-tay-ducmy-2024-emissions-waste-fine",
+      "title": "廣隆越南廣泰廠廢氣與廢棄物違規，德和縣處罰款",
+      "summary": "廣隆 2024、2025 年永續報告書揭露，廣隆經薩摩亞控股公司持有的廣泰廠（隆安省德和縣 Đức Mỹ 工業聚落，塑膠製品）2024 年遭德和縣環保單位罰款 65,000,000 越南盾（約 0.65 億越南盾）。報告書列的事由是「環安執照」，裁罰內容是依第 45/2022/NĐ-CP 號議定（環保行政罰則）就廢氣與廢棄物行政違規處罰，並寫明已繳罰金並改善完成。報告書沒有寫出決定書字號、日期與具體違反項目，本次查詢也沒有找到對應的官方文件或媒體報導。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2024",
+      "dateEnd": null,
+      "datePrecision": "year",
+      "locations": [
+        {
+          "country": "越南",
+          "plantSite": "Đức Mỹ 工業聚落（Đức Hòa）, 隆安省, 越南",
+          "coordinates": {
+            "lat": 10.8416449,
+            "lng": 106.4791906,
+            "precision": "city",
+            "source": "https://www.openstreetmap.org/relation/9507785",
+            "note": "OSM Xã Mỹ Hạnh 行政區的中心點，不是廠址；登記地址為 Cụm công nghiệp Đức Mỹ, xã Mỹ Hạnh，OSM 沒有這個工業聚落的範圍，也沒有廣泰廠"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "Kung Tay Việt Nam Co., Ltd.（廣泰廠）",
+          "country": "越南"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "廣隆光電科技（1537）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "廣隆光電科技 2024 永續報告書",
+          "date": "2025-08",
+          "url": "https://www.klb.com.tw/download/78/",
+          "archiveUrl": "https://web.archive.org/web/20261028040450id_/https://www.klb.com.tw/download/78/",
+          "verified": "opened",
+          "note": "PDF 第 72 頁越南廠區裁罰統計：2024 年廣泰廠，事由「環安執照」，裁罰內容「罰行政違規 45/2022/NĐ-CP - Ngày 7/7/2022（關於環保領域）（廢氣+廢棄物）」，裁罰單位德和縣環保單位，改善結果「已繳罰金並改善完成」；第 73 頁金額表：2024 年罰款 1 件，VND 65,000,000（NTD 82,908）。封存連結是 Wayback 保存的原檔（id_）：Wayback 正常重播頁回 500。"
+        },
+        {
+          "kind": "company",
+          "outlet": "廣隆光電科技（1537）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "廣隆光電科技 2025 永續報告書",
+          "date": "2026-08-31",
+          "url": "https://www.klb.com.tw/download/139/",
+          "archiveUrl": "https://web.archive.org/web/20261028041658id_/https://www.klb.com.tw/download/139/",
+          "verified": "opened",
+          "note": "PDF 第 87 頁附註：2024 年越南廣泰廠發生 1 件廢氣+廢棄物行政違規罰款，VND 65,000,000，當年度已支付罰款完成。封存連結是 Wayback 保存的原檔（id_）：Wayback 正常重播頁回 500。"
+        }
+      ],
+      "addedAt": "2026-10-28",
+      "attribution": [
+        {
+          "companyCode": "1537",
+          "entity": "Kung Tay Việt Nam（Công ty TNHH Kung Tay Việt Nam，稅號 1100831867）",
+          "kind": "listed",
+          "effectivePct": 100,
+          "controlSince": 2017,
+          "path": [
+            "廣隆",
+            "Kung Long International Ltd.（100%）",
+            "Kung Tay Plastic Co., Ltd.（100%）",
+            "廣泰（越南）責任有限公司（100%）"
+          ],
+          "basis": "廣隆 2024 永續報告書第 72 頁把受罰據點寫為自家的「廣泰廠」（第 3、12、13 頁列越南三廠：濱瀝廠 1996 年、德和廠 2007 年、廣泰廠 2017 年），歸屬廣隆 1537 以此為主要依據。MOPS 114 年第 2 季（2025Q2）廣隆子公司表：本公司 → Kung Long International Ltd.（100%）→ Kung Tay Plastic Co., Ltd.（100%）→ 廣泰（越南）責任有限公司（100%，塑膠製品生產製造及銷售）。實體名稱與地點：越南國家工商登記（bocaodientu.dkkd.gov.vn，2026-10-28 查）Công ty TNHH Kung Tay Việt Nam，英文名 KUNG TAY VIET NAM CO., LTD，稅號 1100831867，地址 Cụm công nghiệp Đức Mỹ, xã Mỹ Hạnh；以 MOPS 母層英文名 Kung Tay Plastic 與地點對上廣泰（越南），登記資料沒有股東欄，這一段對應的信心中等。controlSince 取報告書記載的廣泰廠設立年 2017，早於事件。",
+          "companyName": "廣隆光電科技股份有限公司",
+          "companyShort": "廣隆",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "1537"
+      ]
+    },
+    {
       "id": "memc-korea-cheonan-2023-air-change-report-fine",
       "title": "環球晶韓國天安廠排放設施變更未申報，忠清南道處罰鍰",
       "summary": "環球晶子公司 MEMC Korea Company 依法向韓國環境資訊公開系統申報：忠清南道廳 2023 年 10 月 13 日認定天安廠未依大氣環境保全法第 23 條第 2 項辦理排放設施變更申報，處罰鍰（과태료）；公司表示已補辦變更申報。申報沒有寫出金額。",
@@ -1739,6 +1897,91 @@
       ],
       "companyCodes": [
         "3711"
+      ]
+    },
+    {
+      "id": "klb-le-long-ducmy-2023-wastewater-exceedance-fine",
+      "title": "廣隆越南利隆德和廠廢水三項指標超標，隆安省處罰款",
+      "summary": "廣隆 2024、2025 年永續報告書揭露，子公司利隆越南（Le Long Việt Nam）位於隆安省德和縣 Đức Mỹ 工業聚落的德和廠（鉛酸電池與鉛回收）2023 年經隆安省環保檢查，廢水處理系統排放的廢水有三項指標超標，被隆安省人民委員會處罰款 459,964,947 越南盾（約 4.6 億越南盾）；報告書寫明罰款當年已繳清，技術單位已改善廢水處理系統。報告書沒有寫出決定書字號、日期與超標項目，本次查詢也沒有找到對應的官方文件或媒體報導。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2023",
+      "dateEnd": null,
+      "datePrecision": "year",
+      "locations": [
+        {
+          "country": "越南",
+          "plantSite": "Đức Mỹ 工業聚落（Đức Hòa）, 隆安省, 越南",
+          "coordinates": {
+            "lat": 10.8049775,
+            "lng": 106.4960365,
+            "precision": "facility",
+            "source": "https://www.openstreetmap.org/way/1183609945",
+            "note": "OSM「Khu công nghiệp Lê Long」（xã Mỹ Hạnh）範圍的中心點；範圍約 35.4 萬平方公尺，與環境許可證記載的德和廠總面積 35 萬平方公尺相符"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "Le Long Việt Nam Company Limited（德和廠）",
+          "country": "越南"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [
+          "klb-le-long-ducmy-2025-wastewater-exceedance-fine"
+        ],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "廣隆光電科技（1537）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "廣隆光電科技 2024 永續報告書",
+          "date": "2025-08",
+          "url": "https://www.klb.com.tw/download/78/",
+          "archiveUrl": "https://web.archive.org/web/20261028040450id_/https://www.klb.com.tw/download/78/",
+          "verified": "opened",
+          "note": "PDF 第 72 頁「2022~2024 年度越南廠區違規遭受裁罰事件統計（無論金額，有發生皆列入）」：2023 年德和廠，事由「隆安環保檢查德和廠環保相關作業」，裁罰內容「廢水處理系統排放的廢水有三項指標超標」，裁罰單位隆安省人委會，改善結果「技術單位已進行廢水系統相關處理改善作業」；第 73 頁金額表：2023 年罰款 1 件，VND 459,964,947（NTD 601,262）。報告書 2025 年 8 月發行（第 1 頁）；決定書字號、日期未載。封存連結是 Wayback 保存的原檔（id_）：Wayback 正常重播頁回 500。"
+        },
+        {
+          "kind": "company",
+          "outlet": "廣隆光電科技（1537）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "廣隆光電科技 2025 永續報告書",
+          "date": "2026-08-31",
+          "url": "https://www.klb.com.tw/download/139/",
+          "archiveUrl": "https://web.archive.org/web/20261028041658id_/https://www.klb.com.tw/download/139/",
+          "verified": "opened",
+          "note": "PDF 第 87 頁附註：2023 年越南利隆德和廠發生 1 件廢水處理系統排放廢水指標超標罰款，VND 459,964,947，當年度已支付罰款完成。同一廠 2025 年再因排放廢水超標受罰，見另一事件。封存連結是 Wayback 保存的原檔（id_）：Wayback 正常重播頁回 500。"
+        }
+      ],
+      "addedAt": "2026-10-28",
+      "attribution": [
+        {
+          "companyCode": "1537",
+          "entity": "Le Long Việt Nam（Công ty TNHH Le Long Việt Nam，稅號 1100102656）德和分公司（Chi nhánh Công ty TNHH Le Long Việt Nam – Nhà máy sản xuất tại Đức Hòa）",
+          "kind": "listed",
+          "effectivePct": 100,
+          "controlSince": 2008,
+          "path": [
+            "廣隆",
+            "利隆（越南）責任有限公司（Le Long Việt Nam，100%）"
+          ],
+          "basis": "MOPS 114 年第 2 季（2025Q2）廣隆子公司表：本公司直接持有利隆（越南）責任有限公司 100%（家庭及工業用蓄電池之製造及銷售）。越南農業與環境部環境許可證 560/GPMT-BNNMT（2025-12-22，廣隆官網 https://www.klb.com.tw/download/127/ 第 1–2 頁）：受許可人 Công ty TNHH Le Long Việt Nam，稅號 1100102656，設施為其德和分公司工廠，位於 Cụm công nghiệp Đức Mỹ（xã Mỹ Hạnh），生產鉛酸電池並回收鉛（24,000 噸／年），2008-06-30 首次登記；廣隆 2025 永續報告書第 59 頁寫「越南利隆德和廠」。controlSince 取首次登記的 2008 年（廣隆報告書記載德和廠 2007 年設立），早於事件。",
+          "companyName": "廣隆光電科技股份有限公司",
+          "companyShort": "廣隆",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "1537"
       ]
     },
     {

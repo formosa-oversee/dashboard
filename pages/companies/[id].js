@@ -13,6 +13,7 @@ import { ECHO_PROGRAMS, ECHO_PROGRAMS_NOTE, RECORD_KINDS, programInfo } from '..
 import Layout from '../../components/Layout';
 import { CompanyReports, EventReportLinks } from '../../components/report/CompanyReports';
 import Link from 'next/link';
+import { EVENT_TYPES, EVENT_STATUSES, eventPeriod } from '../../lib/news-labels';
 
 const FacilityCard = ({ facility, companyId }) => {
   const getProgramBadges = () => {
@@ -61,27 +62,6 @@ const FacilityCard = ({ facility, companyId }) => {
 // 污染事件（data/news.json，規格見 docs/pollution-news-spec.md）
 const NEWS_SPEC_URL = 'https://github.com/formosa-oversee/dashboard/blob/main/docs/pollution-news-spec.md';
 
-const EVENT_TYPES = {
-  'pollution-incident': { label: '污染事故', color: 'red' },
-  'enforcement': { label: '環境執法', color: 'purple' },
-  'litigation': { label: '訴訟', color: 'blue' },
-  'eia-dispute': { label: '環評爭議', color: 'cyan' },
-  'industrial-accident': { label: '化學品事故', color: 'orange' },
-  'community-health': { label: '社區健康', color: 'pink' }
-};
-
-// 指控與已確定的事實要分得出來
-const EVENT_STATUSES = {
-  alleged: { label: '指控', color: 'yellow' },
-  investigating: { label: '調查中', color: 'yellow' },
-  concluded: { label: '官方調查已有結論', color: 'gray' },
-  penalized: { label: '已裁罰', color: 'red' },
-  settled: { label: '已和解', color: 'green' },
-  ruled: { label: '已判決', color: 'red' },
-  ongoing: { label: '持續中', color: 'orange' }
-};
-const OPEN_ENDED = new Set(['alleged', 'investigating', 'ongoing']);
-
 const SOURCE_KINDS = { official: '官方文件', court: '法院', company: '公司文件' };
 const MEDIA_REGIONS = { taiwan: '台灣媒體', local: '當地媒體', international: '國際媒體' };
 
@@ -89,12 +69,6 @@ const sourceLabel = (source) => {
   if (source.kind === 'media') return MEDIA_REGIONS[source.outletRegion] || '媒體';
   if (source.kind === 'ngo') return source.outletRegion === 'taiwan' ? '台灣 NGO' : 'NGO';
   return SOURCE_KINDS[source.kind] || source.kind;
-};
-
-const eventPeriod = (event) => {
-  if (event.dateEnd && event.dateEnd !== event.dateStart) return `${event.dateStart} – ${event.dateEnd}`;
-  if (!event.dateEnd && OPEN_ENDED.has(event.status)) return `${event.dateStart} 起`;
-  return event.dateStart;
 };
 
 const EventCard = ({ event, companyData, events }) => {

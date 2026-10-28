@@ -160,6 +160,7 @@ data/epa-data.json           company.news[]；只有新聞、沒有 EPA 設施�
 | `pages/companies/index.js` 卡片 | 事件數 > 0 時多一行「污染事件：N」；只有新聞的公司不顯示「廠區數量: 0／違規記錄: 0」，改顯示「不在 EPA 資料範圍」 |
 | 沒有 logo | 目前退回 `via.placeholder.com`，這個服務已停用，會變成破圖。改成公司簡稱字首的文字頭像（既有公司也一起受惠） |
 | 地圖頁 | `getMapData` 的 `summary.companyCount` 改成只算有設施的公司，否則地圖頁的「N 家上市公司」會被只有新聞的公司灌大 |
+| 地圖頁事件圖層（2026-10-28） | `/map` 加污染事件圖層，讀 `news.json`（`lib/gcs-api-server.js` 的 `getMapEvents`，不讀 epa-data.json，否則同一事件會依掛到的公司數重複）。每個地點一支藍色定位針，一個事件有幾個地點就畫幾支；同座標的事件併成一支並標數字，點開列出全部。精度：facility 實心針；industrial-park 實心針加虛線示意圈（半徑 1.5 公里，只是示意）；city、region 空心針，彈出視窗註明「不是廠房位置」。縮小時相距 40 像素內的地點併成圓形群組，點選放大。事件統計與 EPA 統計分兩列，不加總。美國事件的座標取自 EPA 廠區，定位針尖端對準該點，彈出視窗列出 3 公里內同址的 EPA 廠區。顯示字典在 `lib/news-labels.js`，公司頁共用 |
 | 清理 | 刪掉整個 `lib/api.js`（`getRelatedNews` 等假資料沒有任何地方 import，多數連結是 `'#'`）、`axios` 依賴，以及 `[id].js` 寫死的空 `newsData`；同步更新 `CLAUDE.md` 與 `docs/violation-tracker-data-access.md` 提到它的地方 |
 
 排序：依 `dateStart` 新到舊。

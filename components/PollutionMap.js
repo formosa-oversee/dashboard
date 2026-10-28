@@ -4,6 +4,7 @@ import { Box, Text, Badge, HStack, Wrap, WrapItem, Divider, Button } from '@chak
 import Link from 'next/link';
 import 'leaflet/dist/leaflet.css';
 import MapResizeHandler from './MapResizeHandler';
+import MapEventLayer from './MapEventLayer';
 import { getPollutionLevel, getMarkerRadius } from '../lib/pollution-scale';
 import { BASEMAP_URL, BASEMAP_ATTRIBUTION } from '../lib/basemap';
 
@@ -21,7 +22,8 @@ const PROGRAM_LABELS = {
 };
 
 /**
- * 讓外部元件（熱點清單）能驅動地圖飛到指定廠區。
+ * 讓外部元件（熱點清單、事件清單、區域視角按鈕）能驅動地圖移動。
+ * target 可以是 { lat, lng, zoom } 或 { bounds }。
  * react-leaflet 的 map instance 只能在 MapContainer 內部透過 useMap 取得，
  * 所以包一層沒有畫面的 controller。
  */
@@ -32,7 +34,11 @@ const FlyToController = ({ target }) => {
     if (!target) return;
     // 先收掉已開的 popup，否則飛走後舊 popup 會空著卡在畫面邊緣
     map.closePopup();
-    map.flyTo([target.lat, target.lng], 9, { duration: 1.2 });
+    if (target.bounds) {
+      map.flyToBounds(target.bounds, { duration: 1.2, padding: [24, 24] });
+    } else {
+      map.flyTo([target.lat, target.lng], target.zoom ?? 9, { duration: 1.2 });
+    }
   }, [target, map]);
 
   return null;
@@ -100,7 +106,7 @@ const FacilityPopup = ({ facility }) => {
   );
 };
 
-const PollutionMap = ({ facilities = [], flyToTarget = null }) => {
+const PollutionMap = ({ facilities = [], eventPoints = [], showFacilities = true, showEvents = true, flyToTarget = null }) => {
   return (
     <MapContainer
       center={DEFAULT_CENTER}
@@ -114,7 +120,7 @@ const PollutionMap = ({ facilities = [], flyToTarget = null }) => {
       <MapResizeHandler />
       <FlyToController target={flyToTarget} />
 
-      {facilities.map((facility) => {
+      {showFacilities && facilities.map((facility) => {
         const level = getPollutionLevel(facility.violationCount);
 
         return (
@@ -141,6 +147,9 @@ const PollutionMap = ({ facilities = [], flyToTarget = null }) => {
           </CircleMarker>
         );
       })}
+
+      {/* 事件圖層在 EPA 圓點之後畫：定位針在 marker pane，本來就在圓點上層 */}
+      {showEvents && <MapEventLayer points={eventPoints} />}
     </MapContainer>
   );
 };

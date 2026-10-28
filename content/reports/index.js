@@ -9,4 +9,5 @@ export const ARTICLES = {
   'kumamoto-jasm': dynamic(() => import('./kumamoto-jasm')),
   'kumamoto-notes-1': dynamic(() => import('./kumamoto-notes-1')),
   'kumamoto-notes-2': dynamic(() => import('./kumamoto-notes-2')),
+  'kumamoto-notes-3': dynamic(() => import('./kumamoto-notes-3')),
 };

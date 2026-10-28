@@ -3125,6 +3125,18 @@
         "archiveUrl": "https://web.archive.org/web/20261027030002/https://dongnai.gov.vn/uploads/binhphuoc/news/2025/04/2025-qd-1128.pdf",
         "verified": "opened",
         "note": "同奈省人民委員會電子簽章的決定書副本（簽章時間 2025-04-11），號碼與日期為手寫，經影像核對。受罰：VMEP，稅號 0100113864，違規地點 Nhơn Trạch II 工業區 Lô 4 đường 5C。依工業區管理委員會 2025-04-02 違規筆錄 28/BB-VPHC。行為 1：環評 349/QĐ-KCNĐN（2019-10-18）要求的環保設施完工確認書（現為環境許可證）未核發就正式運轉，第 45/2022/NĐ-CP 第 14 條第 3 項 c 點，1.6 億 × 2 = 3.2 億越南盾；行為 2：未通報廢棄物處理設施試運轉計畫，第 12 條第 2 項 a 點，0.175 億 × 2 = 0.35 億（議定罰額以個人計，第 6 條第 2 項對組織加倍）。合計 3.55 億越南盾。加重、減輕情節皆無。不加處停止排放源：已主動申請環境許可證、營運穩定、未接獲陳情、近 600 名員工；並依第 118/2021/NĐ-CP 第 5 條第 3 項認定違規性質單純、未對人體健康與環境造成嚴重後果。不要求遷廠。公告頁：https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-hanh-chinh-trong-linh-vuc-bao-ve-moi-truong-doi-voi-cong-ty-huu-han-che-tao-cong-nghiep-va-gia-cong-che-bien-hang-xuat-khau-viet-nam-vmep-52495.html（封存 https://web.archive.org/web/20261027030027/https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-hanh-chinh-trong-linh-vuc-bao-ve-moi-truong-doi-voi-cong-ty-huu-han-che-tao-cong-nghiep-va-gia-cong-che-bien-hang-xuat-khau-viet-nam-vmep-52495.html）。"
+      },
+      {
+        "kind": "media",
+        "outlet": "Báo Nông nghiệp và Môi trường（越南農業與環境部機關報）",
+        "outletRegion": "local",
+        "language": "vi",
+        "title": "Đồng Nai xử phạt hàng loạt doanh nghiệp vi phạm bảo vệ môi trường",
+        "date": "2025-04-17",
+        "url": "https://nongnghiepmoitruong.vn/dong-nai-xu-phat-hang-loat-doanh-nghiep-vi-pham-bao-ve-moi-truong-d748876.html",
+        "archiveUrl": null,
+        "verified": "opened",
+        "note": "報導同奈省 2025-04 的四張環保處分決定，其中寫明 2025-04-11 第 1128/QĐ-XPHC 號決定處分 Công ty Hữu hạn Chế tạo Công nghiệp và Gia công Chế biến hàng xuất khẩu Việt Nam (VMEP)。網站在 Cloudflare 後面，Wayback Save Page Now 回 520，所以沒有封存；2026-10-28 用一般瀏覽器開啟核對。"
       }
     ],
     "addedAt": "2026-10-27"
@@ -3545,6 +3557,809 @@
         "archiveUrl": "https://web.archive.org/web/20261028041658id_/https://www.klb.com.tw/download/139/",
         "verified": "opened",
         "note": "PDF 第 59 頁：2025 年僅發生 1 件與環境衛生相關之違反法規事件（越南利隆德和廠排放廢水超過標準罰款，後續技術單位已進行廢水系統相關處理改善作業完成）。第 87 頁重大違反法規事件表：發生據點越南利隆德和廠，違反法規條文「越南廢水環境法規」，事由「排放廢水超過標準」，金錢裁罰 VND 351,000,000（2025 年平均匯率 834，約 NTD 420,863），改善措施同上；處分機關、決定書字號與日期未載。封存連結是 Wayback 保存的原檔（id_）：Wayback 正常重播頁回 500。"
+      }
+    ],
+    "addedAt": "2026-10-28"
+  },
+  {
+    "id": "fuhsing-ziyong-taicang-2020-09-wastewater-exceedance-fine",
+    "title": "福興太倉廠廢水超標排放，太倉生態環境局處罰款",
+    "summary": "蘇州市太倉生態環境局 2020 年 9 月公示的行政處罰信息顯示，福興經 MASTER UNITED 全資持有的資勇五金製品（太倉）有限公司（金屬壓鑄製品與表面烤漆）廢水超標排放，違反《水污染防治法》第八十三條第二項，2020 年 9 月 8 日被責令立即停止違法行為，並處罰款人民幣 10 萬元（苏环行罚字〔2020〕85第24号）。公示只列違法類別與處罰內容，沒有檢測數值或超標倍數。",
+    "type": "enforcement",
+    "status": "penalized",
+    "dateStart": "2020-09-08",
+    "dateEnd": null,
+    "datePrecision": "day",
+    "locations": [
+      {
+        "country": "中國大陸",
+        "plantSite": "太倉, 中國大陸",
+        "coordinates": {
+          "lat": 31.45,
+          "lng": 121.1,
+          "precision": "city",
+          "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E5%9F%8E%E5%8E%A2%E9%95%87%2C%20%E5%A4%AA%E4%BB%93%E5%B8%82",
+          "note": "OSM 城厢镇（relation 7802264）中心點，取到小數兩位。福興年報地址只到「城廂鎮南郊區 204 國道旁」，沒有門牌，OSM 也沒有這家廠，所以只定位到鎮"
+        }
+      }
+    ],
+    "entities": [
+      {
+        "name": "資勇五金製品(太倉)有限公司",
+        "country": "中國大陸"
+      }
+    ],
+    "attributionOverride": [
+      {
+        "companyCode": "9924",
+        "entity": "資勇五金製品(太倉)有限公司（资勇五金制品（太仓）有限公司）",
+        "kind": "listed",
+        "effectivePct": 100.0,
+        "controlSince": 1998,
+        "path": [
+          "福興",
+          "MASTER UNITED INVESTMENT GROUP LTD.（100%）",
+          "資勇五金製品(太倉)有限公司（100%）"
+        ],
+        "basis": "MOPS 114 年第 2 季（2025Q2）福興子公司表：本公司持有 MASTER UNITED INVESTMENT GROUP LTD. 100%，MASTER UNITED 持有資勇五金製品(太倉)有限公司 100%（金屬壓鑄製品及表面烤漆）。福興 109 年報（https://www.fuhsing.com.tw/files/pdf/ANNUAL%20REPORT/109%E5%B9%B4%E5%A0%B1%E7%B7%A8%E5%88%B6%E7%89%880421(%E5%AE%8C%E6%95%B4%E7%89%88).pdf）子公司明細：設立日期民國 87 年 3 月 27 日（1998-03-27），108、109 年底持股皆 100%，地址太倉市城廂鎮南郊區 204 國道旁；controlSince 取 1998，早於事件。"
+      }
+    ],
+    "groupControl": [],
+    "related": {
+      "eventIds": [
+        "fuhsing-ziyong-taicang-2020-12-wastewater-exceedance-fine"
+      ],
+      "echoFacilityIds": [],
+      "enforcementCaseIds": []
+    },
+    "sources": [
+      {
+        "kind": "official",
+        "outlet": "苏州市太仓生态环境局（太仓市人民政府网站「公示公告」每月行政处罚信息公开，附 xls）",
+        "outletRegion": "local",
+        "language": "zh",
+        "title": "【环保行政处罚】2020年9月苏州市太仓生态环境局行政处罚信息公开",
+        "date": "2020-09-30",
+        "url": "https://www.taicang.gov.cn/taicang/hjbhgsgg/202009/03061281420a4ae3be05c4046ec0cd65.shtml",
+        "archiveUrl": "https://web.archive.org/web/20261028040112/https://www.taicang.gov.cn/taicang/hjbhgsgg/202009/03061281420a4ae3be05c4046ec0cd65.shtml",
+        "verified": "opened",
+        "note": "公示頁附件 xls（https://www.taicang.gov.cn/taicang/hjbhgsgg/202009/03061281420a4ae3be05c4046ec0cd65/files/865576702c3c43a4aee220fee0a89e73.xls，封存 https://web.archive.org/web/20261028040159/https://www.taicang.gov.cn/taicang/hjbhgsgg/202009/03061281420a4ae3be05c4046ec0cd65/files/865576702c3c43a4aee220fee0a89e73.xls）第 5 列（序號 2）：苏环行罚字〔2020〕85第24号，废水超标排放，2020.9.8，资勇五金制品（太仓）有限公司，《中华人民共和国水污染防治法》第八十三条第二项，1、立即停止违法行为 2、罚款人民币壹拾万元整。欄位為決定書文號、違法事實、處罰時間、被處罰者、依據、處罰內容，沒有檢測數值或地址。"
+      }
+    ],
+    "addedAt": "2026-10-28"
+  },
+  {
+    "id": "fuhsing-ziyong-taicang-2020-12-wastewater-exceedance-fine",
+    "title": "福興太倉廠三個月內再因廢水超標排放，太倉生態環境局處罰款",
+    "summary": "同一廠三個月內第二次因廢水超標排放受罰。太倉生態環境局 2020 年 12 月公示，資勇五金製品（太倉）有限公司 2020 年 12 月 3 日再因廢水超標排放（《水污染防治法》第八十三條第二項）被責令立即停止違法行為，並處罰款人民幣 51 萬元（苏环行罚字〔2020〕85第68号）。公示沒有列出檢測數值。",
+    "type": "enforcement",
+    "status": "penalized",
+    "dateStart": "2020-12-03",
+    "dateEnd": null,
+    "datePrecision": "day",
+    "locations": [
+      {
+        "country": "中國大陸",
+        "plantSite": "太倉, 中國大陸",
+        "coordinates": {
+          "lat": 31.45,
+          "lng": 121.1,
+          "precision": "city",
+          "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E5%9F%8E%E5%8E%A2%E9%95%87%2C%20%E5%A4%AA%E4%BB%93%E5%B8%82",
+          "note": "OSM 城厢镇（relation 7802264）中心點，取到小數兩位。福興年報地址只到「城廂鎮南郊區 204 國道旁」，沒有門牌，OSM 也沒有這家廠，所以只定位到鎮"
+        }
+      }
+    ],
+    "entities": [
+      {
+        "name": "資勇五金製品(太倉)有限公司",
+        "country": "中國大陸"
+      }
+    ],
+    "attributionOverride": [
+      {
+        "companyCode": "9924",
+        "entity": "資勇五金製品(太倉)有限公司（资勇五金制品（太仓）有限公司）",
+        "kind": "listed",
+        "effectivePct": 100.0,
+        "controlSince": 1998,
+        "path": [
+          "福興",
+          "MASTER UNITED INVESTMENT GROUP LTD.（100%）",
+          "資勇五金製品(太倉)有限公司（100%）"
+        ],
+        "basis": "MOPS 114 年第 2 季（2025Q2）福興子公司表：本公司持有 MASTER UNITED INVESTMENT GROUP LTD. 100%，MASTER UNITED 持有資勇五金製品(太倉)有限公司 100%（金屬壓鑄製品及表面烤漆）。福興 109 年報（https://www.fuhsing.com.tw/files/pdf/ANNUAL%20REPORT/109%E5%B9%B4%E5%A0%B1%E7%B7%A8%E5%88%B6%E7%89%880421(%E5%AE%8C%E6%95%B4%E7%89%88).pdf）子公司明細：設立日期民國 87 年 3 月 27 日（1998-03-27），108、109 年底持股皆 100%，地址太倉市城廂鎮南郊區 204 國道旁；controlSince 取 1998，早於事件。"
+      }
+    ],
+    "groupControl": [],
+    "related": {
+      "eventIds": [
+        "fuhsing-ziyong-taicang-2020-09-wastewater-exceedance-fine"
+      ],
+      "echoFacilityIds": [],
+      "enforcementCaseIds": []
+    },
+    "sources": [
+      {
+        "kind": "official",
+        "outlet": "苏州市太仓生态环境局（太仓市人民政府网站「公示公告」每月行政处罚信息公开，附 xls）",
+        "outletRegion": "local",
+        "language": "zh",
+        "title": "【环保行政处罚】2020年12月苏州市太仓生态环境局行政处罚信息公开",
+        "date": "2020-12-30",
+        "url": "https://www.taicang.gov.cn/taicang/hjbhgsgg/202012/aa51a1bb2ec74c4dbd008bd2631d54e4.shtml",
+        "archiveUrl": "https://web.archive.org/web/20261028040235/https://www.taicang.gov.cn/taicang/hjbhgsgg/202012/aa51a1bb2ec74c4dbd008bd2631d54e4.shtml",
+        "verified": "opened",
+        "note": "公示頁附件 xls（https://www.taicang.gov.cn/taicang/hjbhgsgg/202012/aa51a1bb2ec74c4dbd008bd2631d54e4/files/84533472de694f29939b465a0a228af2.xls，封存 https://web.archive.org/web/20261028040321/https://www.taicang.gov.cn/taicang/hjbhgsgg/202012/aa51a1bb2ec74c4dbd008bd2631d54e4/files/84533472de694f29939b465a0a228af2.xls）第 11 列（序號 8）：苏环行罚字〔2020〕85第68号，废水超标排放，2020.12.3，资勇五金制品（太仓）有限公司，《中华人民共和国水污染防治法》第八十三条第二项，1、立即停止违法行为 2、罚款人民币伍拾壹万元整。欄位為決定書文號、違法事實、處罰時間、被處罰者、依據、處罰內容，沒有檢測數值或地址。"
+      }
+    ],
+    "addedAt": "2026-10-28"
+  },
+  {
+    "id": "tgi-tgtaicang-taicang-2023-solid-waste-storage-fine",
+    "title": "台玻太倉廠貯存工業固體廢物未採取防護措施，太倉生態環境局處罰款",
+    "summary": "太倉生態環境局 2023 年 6 月公示，台玻經台灣玻璃中國控股持有的台玻太倉工程玻璃有限公司（低輻射玻璃）貯存工業固體廢物，未採取符合國家環境保護標準的防護措施，依《固體廢物污染環境防治法》第一百一十二條第一款第（六）項及第二款，2023 年 6 月 20 日被責令立即停止違法行為，並處罰款人民幣 10 萬元（苏环行罚字（2023）85第39号）。公示沒有說明是哪一類廢物。",
+    "type": "enforcement",
+    "status": "penalized",
+    "dateStart": "2023-06-20",
+    "dateEnd": null,
+    "datePrecision": "day",
+    "locations": [
+      {
+        "country": "中國大陸",
+        "plantSite": "太倉, 中國大陸",
+        "coordinates": {
+          "lat": 31.62,
+          "lng": 121.19,
+          "precision": "city",
+          "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E6%B5%AE%E6%A1%A5%E9%95%87%2C%20%E5%A4%AA%E4%BB%93%E5%B8%82&limit=5",
+          "note": "OSM 浮桥镇（relation 7810857）中心點。地址太倉經濟開發區申江路 9 號（楠梓電 2023 年公告，鉅亨網 https://news.cnyes.com/news/id/5225703），OSM 的申江路兩段都在浮桥镇，但沒有 9 號門牌，也沒有台玻廠區，所以只定位到鎮"
+        }
+      }
+    ],
+    "entities": [
+      {
+        "name": "台玻太倉工程玻璃有限公司",
+        "country": "中國大陸"
+      }
+    ],
+    "attributionOverride": [
+      {
+        "companyCode": "1802",
+        "entity": "台玻太倉工程玻璃有限公司（台玻太仓工程玻璃有限公司）",
+        "kind": "listed",
+        "effectivePct": 93.98,
+        "controlSince": 2010,
+        "path": [
+          "台玻",
+          "台灣玻璃中國控股有限公司（93.98%）",
+          "台玻太倉工程玻璃有限公司（100%）"
+        ],
+        "basis": "MOPS 114 年第 1 季（2025Q1）台玻子公司表：本公司持有台灣玻璃中國控股有限公司 93.98%，台灣玻璃中國控股持有台玻太倉工程玻璃有限公司 100%（低輻射玻璃）。台玻官網（https://www.taiwanglass.com/factory_detail.php?langeno=tw&sid=88&id=2249、公司沿革 https://www.taiwanglass.com/about.php?langeno=tw&sid=3）：台玻集團 2010 年在太倉投資設立，2010 創立動土；controlSince 取 2010，早於事件。"
+      }
+    ],
+    "groupControl": [],
+    "related": {
+      "eventIds": [
+        "tgi-tgtaicang-taicang-2024-nonroad-machinery-emission-fine"
+      ],
+      "echoFacilityIds": [],
+      "enforcementCaseIds": []
+    },
+    "sources": [
+      {
+        "kind": "official",
+        "outlet": "苏州市太仓生态环境局（太仓市人民政府网站「公示公告」每月行政处罚信息公开，附 xls）",
+        "outletRegion": "local",
+        "language": "zh",
+        "title": "【环保行政处罚】2023年6月苏州市太仓生态环境局行政处罚信息公开",
+        "date": "2023-06-29",
+        "url": "https://www.taicang.gov.cn/taicang/hjbhgsgg/202306/2f82832ac0a04b5c839ab7522e7b0bfa.shtml",
+        "archiveUrl": "https://web.archive.org/web/20261028040343/https://www.taicang.gov.cn/taicang/hjbhgsgg/202306/2f82832ac0a04b5c839ab7522e7b0bfa.shtml",
+        "verified": "opened",
+        "note": "公示頁附件 xls（https://www.taicang.gov.cn/taicang/hjbhgsgg/202306/2f82832ac0a04b5c839ab7522e7b0bfa/files/69de122aed114494b40ee3afeb0c90f8.xls，封存 https://web.archive.org/web/20261028040421/https://www.taicang.gov.cn/taicang/hjbhgsgg/202306/2f82832ac0a04b5c839ab7522e7b0bfa/files/69de122aed114494b40ee3afeb0c90f8.xls）第 10 列（序號 7）：苏环行罚字（2023）85第39号，贮存工业固体废物未采取符合国家环境保护标准的防护措施，2023.6.20，台玻太仓工程玻璃有限公司，根据《中华人民共和国固体废物污染环境防治法》第一百一十二条第一款第（六）项及第二款，1、立即停止违法行为 2、罚款人民币壹拾万元整。欄位為決定書文號、違法事實、處罰時間、被處罰者、依據、處罰內容，沒有檢測數值或地址。"
+      }
+    ],
+    "addedAt": "2026-10-28"
+  },
+  {
+    "id": "tgi-tgtaicang-taicang-2024-nonroad-machinery-emission-fine",
+    "title": "台玻太倉廠非道路移動機械超標排放，太倉生態環境局處罰款",
+    "summary": "太倉生態環境局 2024 年 2 月公示，台玻太倉工程玻璃有限公司的非道路移動機械超過標準排放大氣污染物，違反《大氣污染防治法》第一百一十四條第一款，2024 年 1 月 30 日被責令立即改正，並處罰款人民幣 5,000 元（苏环行罚字85〔2024〕9号）。公示沒有載明機械種類與檢測數值。同一廠 2023 年 6 月曾因工業固體廢物貯存未採取防護措施受罰。",
+    "type": "enforcement",
+    "status": "penalized",
+    "dateStart": "2024-01-30",
+    "dateEnd": null,
+    "datePrecision": "day",
+    "locations": [
+      {
+        "country": "中國大陸",
+        "plantSite": "太倉, 中國大陸",
+        "coordinates": {
+          "lat": 31.62,
+          "lng": 121.19,
+          "precision": "city",
+          "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E6%B5%AE%E6%A1%A5%E9%95%87%2C%20%E5%A4%AA%E4%BB%93%E5%B8%82&limit=5",
+          "note": "OSM 浮桥镇（relation 7810857）中心點。地址太倉經濟開發區申江路 9 號（楠梓電 2023 年公告，鉅亨網 https://news.cnyes.com/news/id/5225703），OSM 的申江路兩段都在浮桥镇，但沒有 9 號門牌，也沒有台玻廠區，所以只定位到鎮"
+        }
+      }
+    ],
+    "entities": [
+      {
+        "name": "台玻太倉工程玻璃有限公司",
+        "country": "中國大陸"
+      }
+    ],
+    "attributionOverride": [
+      {
+        "companyCode": "1802",
+        "entity": "台玻太倉工程玻璃有限公司（台玻太仓工程玻璃有限公司）",
+        "kind": "listed",
+        "effectivePct": 93.98,
+        "controlSince": 2010,
+        "path": [
+          "台玻",
+          "台灣玻璃中國控股有限公司（93.98%）",
+          "台玻太倉工程玻璃有限公司（100%）"
+        ],
+        "basis": "MOPS 114 年第 1 季（2025Q1）台玻子公司表：本公司持有台灣玻璃中國控股有限公司 93.98%，台灣玻璃中國控股持有台玻太倉工程玻璃有限公司 100%（低輻射玻璃）。台玻官網（https://www.taiwanglass.com/factory_detail.php?langeno=tw&sid=88&id=2249、公司沿革 https://www.taiwanglass.com/about.php?langeno=tw&sid=3）：台玻集團 2010 年在太倉投資設立，2010 創立動土；controlSince 取 2010，早於事件。"
+      }
+    ],
+    "groupControl": [],
+    "related": {
+      "eventIds": [
+        "tgi-tgtaicang-taicang-2023-solid-waste-storage-fine"
+      ],
+      "echoFacilityIds": [],
+      "enforcementCaseIds": []
+    },
+    "sources": [
+      {
+        "kind": "official",
+        "outlet": "苏州市太仓生态环境局（太仓市人民政府网站「公示公告」每月行政处罚信息公开，附 xls）",
+        "outletRegion": "local",
+        "language": "zh",
+        "title": "【环保行政处罚】2024年2月苏州市太仓生态环境局行政处罚信息公开",
+        "date": "2024-02-21",
+        "url": "https://www.taicang.gov.cn/taicang/hjbhgsgg/202402/6a4589be05d741fe82e41bd86448d5f1.shtml",
+        "archiveUrl": "https://web.archive.org/web/20261028040538/https://www.taicang.gov.cn/taicang/hjbhgsgg/202402/6a4589be05d741fe82e41bd86448d5f1.shtml",
+        "verified": "opened",
+        "note": "公示頁附件 xls（https://www.taicang.gov.cn/taicang/hjbhgsgg/202402/6a4589be05d741fe82e41bd86448d5f1/files/7a64974401bd4addb12a0943369130d9.xls，封存 https://web.archive.org/web/20261028040623/https://www.taicang.gov.cn/taicang/hjbhgsgg/202402/6a4589be05d741fe82e41bd86448d5f1/files/7a64974401bd4addb12a0943369130d9.xls）第 9 列（序號 6）：苏环行罚字85〔2024〕9号，非道路移动机械超过标准排放大气污染物，2024.1.30，台玻太仓工程玻璃有限公司，《中华人民共和国大气污染防治法》第一百一十四条第一款，1、立即改正违法行为 2、罚款人民币伍仟元整。欄位為決定書文號、違法事實、處罰時間、被處罰者、依據、處罰內容，沒有檢測數值或地址。"
+      }
+    ],
+    "addedAt": "2026-10-28"
+  },
+  {
+    "id": "tgi-tgqingdao-qingdao-2025-kiln-particulate-exceedance-fine",
+    "title": "台玻青島廠玻璃熔窯顆粒物超標排放，青島市生態環境局處罰款",
+    "summary": "青島市生態環境局 2025 年 7 月 27 日依生態環境部推送的督辦線索，到台玻經台灣玻璃中國控股持有的台玻青島玻璃有限公司（平板玻璃）檢查，委託檢測玻璃熔窯的有組織廢氣：顆粒物實測濃度與折算濃度都是「>50 mg/m³」，超過山東省《建材工業大氣污染物排放標準》玻璃熔窯重點控制區限值 10 mg/m³。決定書只寫「>50」，沒有確切數值，裁量依據則列為「超標 3 倍以上不足 5 倍」。2025 年 10 月 27 日依《大氣污染防治法》第十八條、第九十九條第二項處罰款人民幣 198,437 元（青环罚〔2025〕004号）。決定書也記載：公司立即整改、依法配合調查，兩年內（含本次）是第一次受罰；2025 年 9 月 11 日西海岸新區分局複測，確認已完成整改；公司在期限內沒有提出陳述申辯或聽證。",
+    "type": "enforcement",
+    "status": "penalized",
+    "dateStart": "2025-10-27",
+    "dateEnd": null,
+    "datePrecision": "day",
+    "locations": [
+      {
+        "country": "中國大陸",
+        "plantSite": "青島, 中國大陸",
+        "coordinates": {
+          "lat": 36.1,
+          "lng": 120.11,
+          "precision": "city",
+          "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E7%BA%A2%E7%9F%B3%E5%B4%96%E8%A1%97%E9%81%93%2C%20%E9%BB%84%E5%B2%9B%E5%8C%BA&limit=5",
+          "note": "OSM 红石崖街道（relation 17544792）中心點。決定書地址青島市黃島區紅柳河路 69 號；OSM 的紅柳河路約 7 公里長，都在紅石崖街道，但沒有 69 號門牌，也沒有台玻廠區，所以只定位到街道"
+        }
+      }
+    ],
+    "entities": [
+      {
+        "name": "台玻青島玻璃有限公司",
+        "country": "中國大陸"
+      }
+    ],
+    "attributionOverride": [
+      {
+        "companyCode": "1802",
+        "entity": "台玻青島玻璃有限公司（台玻青岛玻璃有限公司，统一社会信用代码 91370211718039326X）",
+        "kind": "listed",
+        "effectivePct": 93.98,
+        "controlSince": 1993,
+        "path": [
+          "台玻",
+          "台灣玻璃中國控股有限公司（93.98%）",
+          "台玻青島玻璃有限公司（100%）"
+        ],
+        "basis": "MOPS 114 年第 1 季（2025Q1）台玻子公司表：本公司持有台灣玻璃中國控股有限公司 93.98%，台灣玻璃中國控股持有台玻青島玻璃有限公司 100%（平板玻璃）。台玻官網（https://www.taiwanglass.com/factory_detail.php?langeno=tw&sid=88&id=240）：青島玻璃有限公司成立於 1993 年，是台灣玻璃中國控股成立後在大陸的第二家子公司；controlSince 取 1993，早於事件。決定書所載法定代表人與地址（青島市黃島區紅柳河路 69 號）與公司名、信用代碼一致。"
+      }
+    ],
+    "groupControl": [],
+    "related": {
+      "eventIds": [],
+      "echoFacilityIds": [],
+      "enforcementCaseIds": []
+    },
+    "sources": [
+      {
+        "kind": "official",
+        "outlet": "青岛市生态环境局（行政处罚结果公开）",
+        "outletRegion": "local",
+        "language": "zh",
+        "title": "青岛市生态环境局行政处罚决定书 青环罚〔2025〕004号",
+        "date": "2025-10-27",
+        "url": "http://mbee.qingdao.gov.cn:8082/uploadfile/202510/%2820251029155934167%29%E8%A1%8C%E6%94%BF%E5%A4%84%E7%BD%9A%E5%86%B3%E5%AE%9A%E4%B9%A6%EF%BC%88%E5%8F%B0%E7%8E%BB%EF%BC%89.pdf",
+        "archiveUrl": null,
+        "verified": "opened",
+        "note": "決定書 PDF（5 頁），當事人台玻青岛玻璃有限公司，統一社會信用代碼 91370211718039326X。公示頁：http://mbee.qingdao.gov.cn:8082/m2/zwgk/xzcf/view.aspx?n=fdef17fb-098d-4e27-ab00-b696a9bd0d83。Wayback Save Page Now 對 PDF 與公示頁各試兩次都回 523（Internet Archive 連不到 mbee.qingdao.gov.cn:8082），所以沒有封存；決定書副本存在 repo 外的 overseas-enforcement/cn_city/heavy/raw/qd/taiboqd.pdf。PDF 的數字有排版錯字（例如 4 印成單引號），金額以中文大寫「壹拾玖万捌仟肆佰叁拾柒元整」為準。"
+      }
+    ],
+    "addedAt": "2026-10-28"
+  },
+  {
+    "id": "cysteel-zhongyou-taicang-2024-air-emission-exceedance-fine",
+    "title": "嘉鋼太倉中佑廠超標排放大氣污染物，太倉生態環境局處罰款",
+    "summary": "太倉生態環境局 2024 年 12 月公示，嘉鋼經 Elite Star（80%）持有的太倉中佑機械工業有限公司（汽車零件與機械配件製造）超過大氣污染物排放標準排放大氣污染物，依《大氣污染防治法》第九十九條第二項，2024 年 11 月 25 日被處罰款人民幣 19 萬元（苏环行罚字85〔2024〕65号）。公示沒有列出超標的污染物與數值。",
+    "type": "enforcement",
+    "status": "penalized",
+    "dateStart": "2024-11-25",
+    "dateEnd": null,
+    "datePrecision": "day",
+    "locations": [
+      {
+        "country": "中國大陸",
+        "plantSite": "太倉, 中國大陸",
+        "coordinates": {
+          "lat": 31.52,
+          "lng": 121.27,
+          "precision": "city",
+          "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E6%B5%8F%E6%B2%B3%E9%95%87%2C%20%E5%A4%AA%E4%BB%93%E5%B8%82",
+          "note": "OSM 浏河镇（relation 7802777）中心點。嘉鋼官網地址太倉市瀏河鎮新塘區新港路，沒有門牌，OSM 也沒有這家廠，所以只定位到鎮"
+        }
+      }
+    ],
+    "entities": [
+      {
+        "name": "太倉中佑機械工業有限公司",
+        "country": "中國大陸"
+      }
+    ],
+    "attributionOverride": [
+      {
+        "companyCode": "2067",
+        "entity": "太倉中佑機械工業有限公司（太仓中佑机械工业有限公司，YOW BELL CASTING (TAI CANG)）",
+        "kind": "listed",
+        "effectivePct": 80.0,
+        "controlSince": 2008,
+        "path": [
+          "嘉鋼",
+          "Elite Star International Ltd.（80%）",
+          "太倉中佑機械工業有限公司（100%）"
+        ],
+        "basis": "MOPS 114 年第 2 季（2025Q2）嘉鋼子公司表：本公司持有 Elite Star International Ltd. 80%，Elite Star 持有太倉中佑機械工業有限公司 100%。嘉鋼官網大事記（http://ch.cysteel.com.tw/about.aspx?getId=4937&pID=5296）：民國 97 年（2008）「投資大陸太倉中佑機械工業有限公司並取得經營權」；controlSince 取 2008，早於事件。"
+      }
+    ],
+    "groupControl": [],
+    "related": {
+      "eventIds": [],
+      "echoFacilityIds": [],
+      "enforcementCaseIds": []
+    },
+    "sources": [
+      {
+        "kind": "official",
+        "outlet": "苏州市太仓生态环境局（太仓市人民政府网站「公示公告」每月行政处罚信息公开，附 xls）",
+        "outletRegion": "local",
+        "language": "zh",
+        "title": "【环保行政处罚】2024年12月苏州市太仓生态环境局行政处罚信息公开",
+        "date": "2024-12-23",
+        "url": "https://www.taicang.gov.cn/taicang/hjbhgsgg/202412/0ef3b38b658b4ba59a094ee6369d64c6.shtml",
+        "archiveUrl": "https://web.archive.org/web/20261028040644/https://www.taicang.gov.cn/taicang/hjbhgsgg/202412/0ef3b38b658b4ba59a094ee6369d64c6.shtml",
+        "verified": "opened",
+        "note": "公示頁附件 xls（https://www.taicang.gov.cn/taicang/hjbhgsgg/202412/0ef3b38b658b4ba59a094ee6369d64c6/files/1c175396116d49a1af31de3905ba7eb1.xls，封存 https://web.archive.org/web/20261028040725/https://www.taicang.gov.cn/taicang/hjbhgsgg/202412/0ef3b38b658b4ba59a094ee6369d64c6/files/1c175396116d49a1af31de3905ba7eb1.xls）第 4 列（序號 2）：苏环行罚字85〔2024〕65号，超过大气污染物排放标准排放大气污染物，2024.11.25，太仓中佑机械工业有限公司，《中华人民共和国大气污染防治法》第九十九条第二项，1、罚款拾玖万元整。欄位為決定書文號、違法事實、處罰時間、被處罰者、依據、處罰內容，沒有檢測數值或地址。"
+      }
+    ],
+    "addedAt": "2026-10-28"
+  },
+  {
+    "id": "kmc-kmcsuzhou-taicang-2024-solid-waste-dumping-fine",
+    "title": "桂盟蘇州廠擅自傾倒固體廢物，太倉生態環境局處罰款",
+    "summary": "太倉生態環境局 2024 年 2 月公示，桂盟經桂盟投資（中國）全資持有的超匯桂盟傳動（蘇州）有限公司（鏈條製造）擅自傾倒固體廢物，違反《固體廢物污染環境防治法》第一百零二條第一款第七項，2024 年 1 月 30 日被責令立即改正，並處罰款人民幣 10 萬元（苏环行罚字85〔2024〕12号）。公示沒有說明傾倒的廢物種類、數量與地點。",
+    "type": "enforcement",
+    "status": "penalized",
+    "dateStart": "2024-01-30",
+    "dateEnd": null,
+    "datePrecision": "day",
+    "locations": [
+      {
+        "country": "中國大陸",
+        "plantSite": "太倉, 中國大陸",
+        "coordinates": {
+          "lat": 31.459,
+          "lng": 121.1265,
+          "precision": "city",
+          "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E5%A4%AA%E4%BB%93%E5%B8%82&limit=3&countrycodes=cn",
+          "note": "OSM 太仓市（relation 4591593）中心點。處罰機關是太倉生態環境局；桂盟 2025 年報的蘇州廠地址是「太倉港經濟技術開發區新區富達路 68 號」，但 OSM 沒有門牌，也無法確認 OSM 上的富达路就是年報寫的那一條，所以只定位到太倉市"
+        }
+      }
+    ],
+    "entities": [
+      {
+        "name": "超匯桂盟傳動（蘇州）有限公司",
+        "country": "中國大陸"
+      }
+    ],
+    "attributionOverride": [
+      {
+        "companyCode": "5306",
+        "entity": "超匯桂盟傳動（蘇州）有限公司（超汇桂盟传动（苏州）有限公司）",
+        "kind": "listed",
+        "effectivePct": 100.0,
+        "controlSince": 2016,
+        "path": [
+          "桂盟",
+          "桂盟投資（中國）有限公司（100%）",
+          "超匯桂盟傳動（蘇州）有限公司（100%）"
+        ],
+        "basis": "MOPS 114 年第 1 季（2025Q1）桂盟子公司表：本公司持有桂盟投資（中國）有限公司 100%，中國桂盟持有超匯桂盟傳動（蘇州）有限公司 100%（鏈條及配件製造）。桂盟 2016-03-10 董事會重大訊息：以現金 16 億元向桂盟企業（香港）（與桂盟同一董事長，關係人交易）購買超匯桂盟傳動（蘇州）等三家 100% 股權（Yahoo 奇摩轉載 MoneyDJ）；工商時報 2016-06-25 稱當年第 3 季整併。交割日沒找到，controlSince 取 2016，早於事件。"
+      }
+    ],
+    "groupControl": [],
+    "related": {
+      "eventIds": [],
+      "echoFacilityIds": [],
+      "enforcementCaseIds": []
+    },
+    "sources": [
+      {
+        "kind": "official",
+        "outlet": "苏州市太仓生态环境局（太仓市人民政府网站「公示公告」每月行政处罚信息公开，附 xls）",
+        "outletRegion": "local",
+        "language": "zh",
+        "title": "【环保行政处罚】2024年2月苏州市太仓生态环境局行政处罚信息公开",
+        "date": "2024-02-21",
+        "url": "https://www.taicang.gov.cn/taicang/hjbhgsgg/202402/6a4589be05d741fe82e41bd86448d5f1.shtml",
+        "archiveUrl": "https://web.archive.org/web/20261028040538/https://www.taicang.gov.cn/taicang/hjbhgsgg/202402/6a4589be05d741fe82e41bd86448d5f1.shtml",
+        "verified": "opened",
+        "note": "公示頁附件 xls（https://www.taicang.gov.cn/taicang/hjbhgsgg/202402/6a4589be05d741fe82e41bd86448d5f1/files/7a64974401bd4addb12a0943369130d9.xls，封存 https://web.archive.org/web/20261028040623/https://www.taicang.gov.cn/taicang/hjbhgsgg/202402/6a4589be05d741fe82e41bd86448d5f1/files/7a64974401bd4addb12a0943369130d9.xls）第 12 列（序號 9）：苏环行罚字85〔2024〕12号，擅自倾倒固体废物，2024.1.30，超汇桂盟传动（苏州）有限公司，《中华人民共和国固体废物污染环境防治法》第一百零二条第一款第七项，1、立即改正违法行为 2、罚款人民币壹拾万元整。欄位為決定書文號、違法事實、處罰時間、被處罰者、依據、處罰內容，沒有檢測數值或地址。"
+      }
+    ],
+    "addedAt": "2026-10-28"
+  },
+  {
+    "id": "syncmold-gatech-taicang-2023-wastewater-exceedance-fine",
+    "title": "信錦敬得蘇州廠廢水超標排放，太倉生態環境局處罰款",
+    "summary": "太倉生態環境局 2023 年 11 月公示，信錦經敬得科技（75.94%）間接持有的敬得（蘇州）科技有限公司（鋁鎂合金壓鑄）廢水超標排放，依《排污許可管理條例》第三十四條第一項（超過許可排放濃度、許可排放量排放污染物），2023 年 10 月 23 日被責令立即停止違法行為，並處罰款人民幣 20 萬元（苏环行罚字85〔2023〕67号）。公示沒有列出超標的項目與數值。",
+    "type": "enforcement",
+    "status": "penalized",
+    "dateStart": "2023-10-23",
+    "dateEnd": null,
+    "datePrecision": "day",
+    "locations": [
+      {
+        "country": "中國大陸",
+        "plantSite": "太倉, 中國大陸",
+        "coordinates": {
+          "lat": 31.45,
+          "lng": 121.1,
+          "precision": "city",
+          "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E5%9F%8E%E5%8E%A2%E9%95%87%2C%20%E5%A4%AA%E4%BB%93%E5%B8%82",
+          "note": "OSM 城厢镇（relation 7802264）中心點。敬得科技官網的太倉廠地址是城廂工業區弇山西路 130 號，OSM 的弇山西路分成 20 多段，沒有門牌，也沒有這家廠，所以只定位到鎮"
+        }
+      }
+    ],
+    "entities": [
+      {
+        "name": "敬得（蘇州）科技有限公司",
+        "country": "中國大陸"
+      }
+    ],
+    "attributionOverride": [
+      {
+        "companyCode": "1582",
+        "entity": "敬得（蘇州）科技有限公司（敬得（苏州）科技有限公司）",
+        "kind": "listed",
+        "effectivePct": 75.94,
+        "controlSince": 2019,
+        "path": [
+          "信錦",
+          "敬得科技股份有限公司（75.94%）",
+          "Gatech Holding Ltd.（100%）",
+          "Gatech International Ltd.（100%）",
+          "敬得（蘇州）科技有限公司（100%）"
+        ],
+        "basis": "MOPS 114 年第 2 季（2025Q2）信錦子公司表：信錦持有敬得科技股份有限公司 75.94%，經 Gatech Holding、Gatech International（各 100%）持有敬得（蘇州）科技有限公司 100%（鋁鎂合金鑄造）。信錦官網公司沿革（https://www.syncmold.com.tw/item_history_2018.html）：2019.11「投資取得敬得科技」；信錦 2020 年股東會議事手冊（108 年度合併財報）轉投資大陸表已列敬得（蘇州），持股 72.81%。controlSince 取 2019，早於事件。"
+      }
+    ],
+    "groupControl": [],
+    "related": {
+      "eventIds": [],
+      "echoFacilityIds": [],
+      "enforcementCaseIds": []
+    },
+    "sources": [
+      {
+        "kind": "official",
+        "outlet": "苏州市太仓生态环境局（太仓市人民政府网站「公示公告」每月行政处罚信息公开，附 xls）",
+        "outletRegion": "local",
+        "language": "zh",
+        "title": "【环保行政处罚】2023年11月苏州市太仓生态环境局行政处罚信息公开",
+        "date": "2023-11-20",
+        "url": "https://www.taicang.gov.cn/taicang/hjbhgsgg/202311/bde4789a3c954c0994e9954d3f706751.shtml",
+        "archiveUrl": "https://web.archive.org/web/20261028040816/https://www.taicang.gov.cn/taicang/hjbhgsgg/202311/bde4789a3c954c0994e9954d3f706751.shtml",
+        "verified": "opened",
+        "note": "公示頁附件 xls（https://www.taicang.gov.cn/taicang/hjbhgsgg/202311/bde4789a3c954c0994e9954d3f706751/files/4d38018b13da40af8919d09971a5ec62.xls，封存 https://web.archive.org/web/20261028040940/https://www.taicang.gov.cn/taicang/hjbhgsgg/202311/bde4789a3c954c0994e9954d3f706751/files/4d38018b13da40af8919d09971a5ec62.xls）第 5 列（序號 2）：苏环行罚字85〔2023〕67号，废水超标排放，2023.10.23，敬得（苏州）科技有限公司，《排污许可管理条例》第三十四条第一项，1、立即停止违法行为 2、罚款人民币贰拾万元整。欄位為決定書文號、違法事實、處罰時間、被處罰者、依據、處罰內容，沒有檢測數值或地址。"
+      }
+    ],
+    "addedAt": "2026-10-28"
+  },
+  {
+    "id": "cftc-hexin-jiashan-2026-eia-unapproved-construction-fine",
+    "title": "和勤嘉興廠環評未獲審批即開工建設，嘉興市生態環境局處罰款",
+    "summary": "嘉興市生態環境局 2026 年 8 月 3 日認定，和勤經和勤國際全資持有的嘉興和新精沖科技有限公司（五金、機械與模具零件）在環境影響評價文件未經審批的情況下，於 2026 年 5 月 20 日擅自開工建設，違反《環境影響評價法》第二十二條第一款、第二十五條，依同法第三十一條第一款處罰款人民幣 63,080 元（嘉环善罚〔2026〕32号）。公開的決定摘要沒有說明建設的是哪一項工程。",
+    "type": "enforcement",
+    "status": "penalized",
+    "dateStart": "2026-08-03",
+    "dateEnd": null,
+    "datePrecision": "day",
+    "locations": [
+      {
+        "country": "中國大陸",
+        "plantSite": "嘉善, 中國大陸",
+        "coordinates": {
+          "lat": 30.8642,
+          "lng": 120.9653,
+          "precision": "industrial-park",
+          "source": "https://www.openstreetmap.org/way/1497954334",
+          "note": "OSM landuse=industrial「惠民经济技术开发区」多邊形面積重心（已確認在多邊形內）。和勤官網地址嘉善縣惠民街道天山路 1 號；天山路也在這個園區內，但 OSM 沒有和新的廠區，1 號位置定位不到，園區約 5×6 公里"
+        }
+      }
+    ],
+    "entities": [
+      {
+        "name": "嘉興和新精沖科技有限公司",
+        "country": "中國大陸"
+      }
+    ],
+    "attributionOverride": [
+      {
+        "companyCode": "1586",
+        "entity": "嘉興和新精沖科技有限公司（嘉兴和新精冲科技有限公司）",
+        "kind": "listed",
+        "effectivePct": 100.0,
+        "controlSince": 2002,
+        "path": [
+          "和勤",
+          "China Fineblanking Group Co., Ltd.（和勤集團公司，100%）",
+          "China Fineblanking International Co., Ltd.（和勤國際公司，100%）",
+          "嘉興和新精沖科技有限公司（100%）"
+        ],
+        "basis": "MOPS 114 年第 2 季（2025Q2）和勤子公司表：本公司持有和勤集團公司 100%，和勤集團持有和勤國際公司 100%，和勤國際持有嘉興和新精沖科技有限公司 100%。和勤 98 年 11 月上櫃申請書財報附註（https://www.cftc.tw/upload-files/investors/public-prospectus/9811-initial-listing-application-1.pdf）：91 年（2002）11 月經和勤國際轉投資設立嘉興和新；controlSince 取 2002，早於事件。"
+      }
+    ],
+    "groupControl": [],
+    "related": {
+      "eventIds": [],
+      "echoFacilityIds": [],
+      "enforcementCaseIds": []
+    },
+    "sources": [
+      {
+        "kind": "official",
+        "outlet": "浙江省行政处罚结果信息公开（嘉兴市生态环境局）",
+        "outletRegion": "local",
+        "language": "zh",
+        "title": "案件信息：嘉兴和新精冲科技有限公司环评文件未经审批擅自开工建设案（嘉环善罚〔2026〕32号）",
+        "date": "2026-08-03",
+        "url": "https://xzcf.zjzwfw.gov.cn/punishment/#/punishdetails?unid=%E5%98%89%E7%8E%AF%E5%96%84%E7%AB%8B%E5%AE%A1%E3%80%942026%E3%80%9518%E5%8F%B7&guid=8446260d3a6a41f38c35d2191a5ebedb&deptId=001008004006013",
+        "archiveUrl": null,
+        "verified": "opened",
+        "note": "平台詳情頁（hash 路由的單頁應用）在瀏覽器直接開啟會顯示這筆紀錄：處罰決定文號嘉环善罚〔2026〕32号（立案編號嘉环善立审〔2026〕18号），執法部門嘉興市生態環境局，處罰日期 2026-08-03，罰款「人民陆万叁仟零捌拾元」，依據《環境影響評價法》第三十一條第一款。Wayback 只會存到空殼（資料由頁面另外呼叫 API 取得），Save Page Now 也回 520，所以沒有封存。"
+      }
+    ],
+    "addedAt": "2026-10-28"
+  },
+  {
+    "id": "gcm-unitedcan-shanghai-2026-air-pollution-control-fine",
+    "title": "大華上海聯合製罐廠未按規定採取大氣污染防治措施，松江區生態環境局處罰款",
+    "summary": "上海市生態環境局 2026 年 2 月公布的「本市環保系統查處違法企業名單」列出，大華經 HAI HWA 全資持有的上海聯合製罐有限公司（鋁易拉罐與蓋）有「未按規定採取污染防治措施或者設施排放、處置、貯存污染物」的違法行為，依《大氣污染防治法》第一百零八條第一項，由松江區生態環境局於 2026 年 2 月 6 日處以「其他，並罰款」（沪0117环罚〔2026〕06）。這一項規範的是產生含揮發性有機物廢氣的生產活動，未在密閉空間或設備中進行、未按規定安裝或使用污染防治設施等情形；名單沒有列出具體事實與罰款金額。",
+    "type": "enforcement",
+    "status": "penalized",
+    "dateStart": "2026-02-06",
+    "dateEnd": null,
+    "datePrecision": "day",
+    "locations": [
+      {
+        "country": "中國大陸",
+        "plantSite": "上海松江, 中國大陸",
+        "coordinates": {
+          "lat": 31.0174,
+          "lng": 121.3104,
+          "precision": "city",
+          "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E8%BD%A6%E5%A2%A9%E9%95%87%2C%20%E6%9D%BE%E6%B1%9F%E5%8C%BA&limit=3&countrycodes=cn",
+          "note": "OSM 车墩镇（relation 17191450）中心點。大華官網地址是松江區車墩鎮車新公路 89 號；OSM 有一個以公司命名的點（node 12526281601，只有名稱、沒有地址），但它方圓 1.5 公里內只有「新车公路」，沒有「车新公路」，也沒有 89 號門牌，對不上地址，所以照決策 31 只定位到鎮"
+        }
+      }
+    ],
+    "entities": [
+      {
+        "name": "上海聯合製罐有限公司",
+        "country": "中國大陸"
+      }
+    ],
+    "attributionOverride": [
+      {
+        "companyCode": "9905",
+        "entity": "上海聯合製罐有限公司（上海联合制罐有限公司）",
+        "kind": "listed",
+        "effectivePct": 100.0,
+        "controlSince": 1995,
+        "path": [
+          "大華",
+          "HAI HWA INVESTMENT CO.,LTD.（100%）",
+          "上海聯合製罐有限公司（100%）"
+        ],
+        "basis": "MOPS 114 年第 2 季（2025Q2）大華子公司表：本公司持有 HAI HWA INVESTMENT CO.,LTD. 100%，HAI HWA 持有上海聯合製罐有限公司 100%（鋁易拉罐及蓋）。大華官網（https://www.greatchina.com.tw/history/）：1995 年於上海投資成立；controlSince 取 1995，早於事件。"
+      }
+    ],
+    "groupControl": [],
+    "related": {
+      "eventIds": [],
+      "echoFacilityIds": [],
+      "enforcementCaseIds": []
+    },
+    "sources": [
+      {
+        "kind": "official",
+        "outlet": "上海市生态环境局（「本市环保系统查处违法企业名单」）",
+        "outletRegion": "local",
+        "language": "zh",
+        "title": "2026年2月本市环保系统查处违法企业名单",
+        "date": "2026-02-06",
+        "url": "https://link.sthj.sh.gov.cn/sh/xzcf/law_enforce_sublist.jsp?year=2026&season=2&schCompany=%E4%B8%8A%E6%B5%B7%E8%81%94%E5%90%88%E5%88%B6%E7%BD%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "archiveUrl": "https://web.archive.org/web/20261028041432/https://link.sthj.sh.gov.cn/sh/xzcf/law_enforce_sublist.jsp?year=2026&season=2&schCompany=%E4%B8%8A%E6%B5%B7%E8%81%94%E5%90%88%E5%88%B6%E7%BD%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "verified": "opened",
+        "note": "網址是名單頁帶 schCompany 參數的查詢，只回這一列。名單欄位：被處罰人（單位）名稱、處罰措施「其他,并罚款」、作出處罰單位松江区生态环境局、處罰決定書文號沪0117环罚〔2026〕06、處罰依據【中华人民共和国大气污染防治法】第一百零八条第一项、違法行為類別、決定日期 2026-02-06。名單不列罰款金額。封存版本已核對有這一列與文號。2026 年 2 月名單共 62 家，這筆在第 3 頁。"
+      }
+    ],
+    "addedAt": "2026-10-28"
+  },
+  {
+    "id": "qisda-felt-shanghai-2026-discharge-registration-fine",
+    "title": "佳世達上海子公司費爾特未依規定填報排污登記，浦東新區生態環境局處罰款",
+    "summary": "佳世達持有明基生物技術（上海）70%，再經它持有上海費爾特科技有限公司 70%（有效持股 49%）。上海市生態環境局 2026 年 6 月公布的「本市環保系統查處違法企業名單」列出，上海費爾特未依規定填報排污登記信息，違法類別為「未落實日常運行管理和台帳規定」；浦東新區生態環境局依《排污許可管理條例》第四十三條，於 2026 年 6 月 4 日處以「其他，並罰款」（普2608150061）。名單未列罰款金額；MOPS 把這家公司的業務列為醫療器材銷售。",
+    "type": "enforcement",
+    "status": "penalized",
+    "dateStart": "2026-06-04",
+    "dateEnd": null,
+    "datePrecision": "day",
+    "locations": [
+      {
+        "country": "中國大陸",
+        "plantSite": "上海浦東, 中國大陸",
+        "coordinates": {
+          "lat": 31.21,
+          "lng": 121.65,
+          "precision": "city",
+          "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=8&q=%E5%94%90%E9%95%87%20%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%20%E4%B8%8A%E6%B5%B7",
+          "note": "OSM 唐镇（relation 14179148）中心點。地址是浦東新區泰華路 613、713 號 4 幢（勝品 6556 於 2023-08-25 發布的重大訊息，MoneyDJ 轉載）；泰華路在 OSM 屬於唐镇，但沒有門牌與建築，這個點距離泰華路約 3 公里，只代表在唐镇"
+        }
+      }
+    ],
+    "entities": [
+      {
+        "name": "上海費爾特科技有限公司",
+        "country": "中國大陸"
+      }
+    ],
+    "attributionOverride": [
+      {
+        "companyCode": "2352",
+        "entity": "上海費爾特科技有限公司（上海费尔特科技有限公司）",
+        "kind": "listed",
+        "effectivePct": 49.0,
+        "controlSince": 2020,
+        "path": [
+          "佳世達",
+          "明基生物技術(上海)有限公司（BBC，70%）",
+          "上海費爾特科技有限公司（70%）"
+        ],
+        "basis": "MOPS 114 年第 1 季（2025Q1）佳世達子公司表：本公司持有明基生物技術(上海)有限公司（BBC）70%，BBC 持有上海費爾特科技有限公司 70%（醫療器材之銷售），有效持股 49%。確切的取得或設立日期沒找到；明基醫院集團 2026 年股東會通函附錄一（https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0427/2026042702522.pdf，第 I-1 頁）記載佳世達體系高管自 2020 年 12 月起任上海費爾特董事長，controlSince 取 2020（間接證據），MOPS 2025Q1 也已列為子公司，兩者都早於事件。"
+      }
+    ],
+    "groupControl": [],
+    "related": {
+      "eventIds": [],
+      "echoFacilityIds": [],
+      "enforcementCaseIds": []
+    },
+    "sources": [
+      {
+        "kind": "official",
+        "outlet": "上海市生态环境局（「本市环保系统查处违法企业名单」）",
+        "outletRegion": "local",
+        "language": "zh",
+        "title": "2026年6月本市环保系统查处违法企业名单",
+        "date": "2026-06-04",
+        "url": "https://link.sthj.sh.gov.cn/sh/xzcf/law_enforce_sublist.jsp?year=2026&season=6&schCompany=%E4%B8%8A%E6%B5%B7%E8%B4%B9%E5%B0%94%E7%89%B9%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "archiveUrl": "https://web.archive.org/web/20261028041502/https://link.sthj.sh.gov.cn/sh/xzcf/law_enforce_sublist.jsp?year=2026&season=6&schCompany=%E4%B8%8A%E6%B5%B7%E8%B4%B9%E5%B0%94%E7%89%B9%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "verified": "opened",
+        "note": "網址是名單頁帶 schCompany 參數的查詢，只回這一列。名單欄位：處罰措施「其他,并罚款」、作出處罰單位浦东新区生态环境局、文號普2608150061、處罰依據【排污许可管理条例】第四十三条（需要填報排污登記表的企業事業單位和其他生產經營者，未依照本條例規定填報排污信息的，由生態環境主管部門責令改正，可以處 5 萬元以下的罰款）、違法行為類別「未落实日常运行管理和台账规定」、決定日期 2026-06-04。名單不列罰款金額。封存版本已核對有這一列與文號。2026 年 6 月名單共 79 家，這筆在第 5 頁。"
+      }
+    ],
+    "addedAt": "2026-10-28"
+  },
+  {
+    "id": "kenda-kendatianjin-tianjin-2021-vocs-direct-emission",
+    "title": "建大天津廠密煉工序多年直排有機廢氣，中央生態環境保護督察點名",
+    "summary": "中央第二生態環境保護督察組 2025 年 11 月督察天津市，生態環境部中央生態環境保護督察協調局 12 月 1 日通報：建大橡膠（天津）公司煉膠車間的密煉工序 10 多年前投產，2025 年 5 月才建成揮發性有機物（VOCs）治理設施，2021 年以來直排有機廢氣 200 餘噸。這是通報「重點行業揮發性有機物治理不力」一節所舉的例子，通報全文最後表示，督察組將進一步調查核實有關情況。另外，天津市生態環境局 2023 年 4 月 18 日公告，應建大橡膠（天津）的要求，於 5 月 9 日就其「涉嫌產生含揮發性有機物廢氣的生產和服務活動，未按照規定使用污染防治設施」一案舉行聽證；最終處罰決定沒有找到。",
+    "type": "enforcement",
+    "status": "investigating",
+    "dateStart": "2021",
+    "dateEnd": null,
+    "datePrecision": "year",
+    "locations": [
+      {
+        "country": "中國大陸",
+        "plantSite": "天津靜海, 中國大陸",
+        "coordinates": {
+          "lat": 38.902,
+          "lng": 116.983,
+          "precision": "industrial-park",
+          "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=5&q=%E5%A4%A9%E5%AE%87%E7%A7%91%E6%8A%80%E5%9B%AD%E5%8C%BA",
+          "note": "OSM「天宇科技园区」place 節點。地址是靜海區天宇科技園泰安道 6、8 號（NHTSA 製造商登錄、維基百科建大工業條目）；OSM 沒有建大廠區，只有泰安道上名為「建大橡胶」的公車站（node 7937434886，距園區點約 1.4 公里），公車站不是廠區，所以沒有採用"
+        }
+      }
+    ],
+    "entities": [
+      {
+        "name": "建大橡膠（天津）有限公司",
+        "country": "中國大陸"
+      }
+    ],
+    "attributionOverride": [
+      {
+        "companyCode": "2106",
+        "entity": "建大橡膠（天津）有限公司（建大橡胶（天津）有限公司）",
+        "kind": "listed",
+        "effectivePct": 100.0,
+        "controlSince": 2009,
+        "path": [
+          "建大",
+          "建大國際控股有限公司（100%）→ 建大環宇控股有限公司（100%）→ 建大環宇（中國）投資有限公司（100%）→ 建大橡膠（天津）有限公司（86.36%）",
+          "建大工業股份（香港）有限公司（100%）→ 建大橡膠（天津）有限公司（13.64%）"
+        ],
+        "basis": "MOPS 114 年第 2 季（2025Q2）建大子公司表：本公司持有建大國際 100%，建大國際→建大環宇控股 100%→建大環宇中國 100%，建大環宇中國持有建大天津 86.36%；本公司另持有建大香港 100%，建大香港持有建大天津 13.64%；合計 100%。工商時報 2009-07-20（https://www.ctee.com.tw/news/20090720700030-439901）：建大董事長、副董事長以建大工業（香港）代表人身分任建大橡膠（天津）董事，以該名義購地 700 畝；controlSince 取 2009（最晚），早於事件起始的 2021 年。"
+      }
+    ],
+    "groupControl": [],
+    "related": {
+      "eventIds": [],
+      "echoFacilityIds": [],
+      "enforcementCaseIds": []
+    },
+    "sources": [
+      {
+        "kind": "official",
+        "outlet": "生态环境部 中央生态环境保护督察协调局",
+        "outletRegion": "local",
+        "language": "zh",
+        "title": "天津市一些重点领域大气污染防治推进不够有力",
+        "date": "2025-12-01",
+        "url": "https://www.mee.gov.cn/ywgz/zysthjbhdc/dcjl/202512/t20251201_1135428.shtml",
+        "archiveUrl": "https://web.archive.org/web/20261028041128/https://www.mee.gov.cn/ywgz/zysthjbhdc/dcjl/202512/t20251201_1135428.shtml",
+        "verified": "opened",
+        "note": "第三輪第五批中央生態環境保護督察集中公開的典型案例。原文：「建大橡胶（天津）公司炼胶车间密炼工序10多年前投产，2025年5月才建成VOCs治理设施，2021年以来直排有机废气200余吨。」通報最後一句「督察组将进一步调查核实有关情况，并按要求做好后续督察工作」是針對整篇通報。"
+      },
+      {
+        "kind": "official",
+        "outlet": "天津市生态环境局（政务公开 > 行政处罚、强制）",
+        "outletRegion": "local",
+        "language": "zh",
+        "title": "建大橡胶（天津）有限公司听证公告",
+        "date": "2023-04-18",
+        "url": "https://sthj.tj.gov.cn/ZWGK4828/ZFXXGK8438/FDZDGK27/XZCFQZXZCFXX7581/202304/t20230426_6216912.html",
+        "archiveUrl": null,
+        "verified": "opened",
+        "note": "原文：「应 建大橡胶（天津）有限公司 的要求，我局定于 2023 年 5 月 9 日 9：00 在天津市生态环境局……就 其涉嫌产生含挥发性有机物废气的生产和服务活动，未按照规定使用污染防治设施案 举行听证会。」天津市生態環境局「行政處罰、強制」欄目裡找不到後續的處罰決定書；舊決定書頁面部分已下架（404）。Wayback Save Page Now 兩次都回 520（Internet Archive 連不到 sthj.tj.gov.cn），所以沒有封存。"
       }
     ],
     "addedAt": "2026-10-28"

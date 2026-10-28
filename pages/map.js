@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import dynamic from 'next/dynamic';
 import Head from 'next/head';
 import {
@@ -9,9 +9,10 @@ import {
 } from '@chakra-ui/react';
 import { FaMapMarkedAlt, FaIndustry, FaExclamationTriangle, FaFlag, FaMapMarkerAlt, FaBuilding, FaGlobeAsia } from 'react-icons/fa';
 import Layout from '../components/Layout';
+import CompanyMultiSelect from '../components/CompanyMultiSelect';
 import { getMapData, getMapEvents } from '../lib/gcs-api-server';
 import { POLLUTION_LEVELS, getPollutionLevel } from '../lib/pollution-scale';
-import { LOCATION_PRECISIONS, MAP_EVENT_COLOR } from '../lib/news-labels';
+import { LOCATION_PRECISIONS, MAP_EVENT_COLOR, PRECISION_ORDER } from '../lib/news-labels';
 
 // Leaflet 直接碰 window，靜態匯出時不能參與 SSR，只能在瀏覽器端載入
 const PollutionMap = dynamic(() => import('../components/PollutionMap'), {
@@ -38,6 +39,12 @@ const VIEWS = [
 
 // 點選事件時的縮放：定位越粗，拉得越遠，免得把城鎮中心看成廠址
 const PRECISION_ZOOM = { facility: 12, 'industrial-park': 12, city: 10, region: 7 };
+
+// 選公司後框住結果時的最大縮放：只有一個點也停在城市尺度
+const COMPANY_FIT_MAX_ZOOM = 9;
+
+// EPA 資料只有公司全名，篩選選單裡去掉「股份有限公司」比較好讀
+const trimCompanyName = (name = '') => name.replace(/股份有限公司$/, '');
 
 // 圖例用的定位針，與地圖上的 MapEventLayer 同一個外形
 const PinGlyph = ({ hollow = false, count = null, ring = false }) => (
@@ -192,6 +199,7 @@ export default function MapPage({ facilities, summary, eventPoints, eventSummary
   const [flyToTarget, setFlyToTarget] = useState(null);
   const [showFacilities, setShowFacilities] = useState(true);
   const [showEvents, setShowEvents] = useState(true);
+  const [companyCodes, setCompanyCodes] = useState([]);
   const mapRef = useRef(null);
 
   // 手機版清單在地圖下方，點清單後要捲回地圖才看得到移動
@@ -203,10 +211,58 @@ export default function MapPage({ facilities, summary, eventPoints, eventSummary
     }
   };
 
+  // 公司篩選的選項：EPA 廠區的公司與事件掛到的公司合併；名稱優先用事件資料裡的簡稱
+  const companyOptions = useMemo(() => {
+    const byCode = new Map();
+    const entry = (code) => {
+      if (!byCode.has(code)) byCode.set(code, { code, short: '', name: '', facilityCount: 0, eventIds: new Set() });
+      return byCode.get(code);
+    };
+    facilities.forEach((f) => {
+      const c = entry(f.companyCode);
+      c.name = f.companyName;
+      c.facilityCount += 1;
+    });
+    eventPoints.forEach((point) => point.items.forEach((item) => item.companies.forEach((company) => {
+      const c = entry(company.code);
+      c.short = company.short;
+      c.eventIds.add(item.eventId);
+    })));
+    return [...byCode.values()]
+      .sort((a, b) => a.code.localeCompare(b.code))
+      .map((c) => ({
+        code: c.code,
+        label: c.short || trimCompanyName(c.name),
+        name: c.name,
+        hint: [
+          c.facilityCount > 0 && `EPA 廠區 ${c.facilityCount} 座`,
+          c.eventIds.size > 0 && `污染事件 ${c.eventIds.size} 個`,
+        ].filter(Boolean).join(' · '),
+      }));
+  }, [facilities, eventPoints]);
+
+  const companySet = useMemo(() => new Set(companyCodes), [companyCodes]);
+
+  // 事件可能掛在多家公司，只要有一家被選就顯示；同座標剩下的事件重新決定標記精度（取最粗）
+  const visibleEventPoints = useMemo(() => {
+    if (companySet.size === 0) return eventPoints;
+    return eventPoints
+      .map((point) => {
+        const items = point.items.filter((item) => item.companies.some((c) => companySet.has(c.code)));
+        if (items.length === 0) return null;
+        const precision = items.reduce(
+          (coarsest, item) => (PRECISION_ORDER.indexOf(item.precision) > PRECISION_ORDER.indexOf(coarsest) ? item.precision : coarsest),
+          'facility'
+        );
+        return { ...point, items, precision };
+      })
+      .filter(Boolean);
+  }, [eventPoints, companySet]);
+
   // 地圖上一個座標一個標記；清單要一個事件一列，所以從標記反推回事件，地點各自保留
   const eventList = useMemo(() => {
     const byId = new Map();
-    eventPoints.forEach((point) => {
+    visibleEventPoints.forEach((point) => {
       point.items.forEach((item) => {
         if (!byId.has(item.eventId)) {
           byId.set(item.eventId, { id: item.eventId, title: item.title, period: item.period, dateStart: item.dateStart, companies: item.companies, locations: [] });
@@ -215,7 +271,7 @@ export default function MapPage({ facilities, summary, eventPoints, eventSummary
       });
     });
     return [...byId.values()].sort((a, b) => String(b.dateStart).localeCompare(String(a.dateStart)));
-  }, [eventPoints]);
+  }, [visibleEventPoints]);
 
   // 州別選單：附上各州廠區數，方便判斷哪些州值得看
   const stateOptions = useMemo(() => {
@@ -231,9 +287,21 @@ export default function MapPage({ facilities, summary, eventPoints, eventSummary
     return facilities.filter((f) => {
       if (scope === 'violations' && f.violationCount === 0) return false;
       if (stateFilter !== 'all' && (f.state || '未知') !== stateFilter) return false;
+      if (companySet.size > 0 && !companySet.has(f.companyCode)) return false;
       return true;
     });
-  }, [facilities, scope, stateFilter]);
+  }, [facilities, scope, stateFilter, companySet]);
+
+  // 選了公司就把地圖移到結果（例：選台玻時人還在美國視角會什麼都看不到）；清空時不動，留在原本的視角。
+  // 只在選擇改變時移動，切換圖層或州別不會把地圖拉走
+  useEffect(() => {
+    if (companyCodes.length === 0) return;
+    const bounds = [
+      ...(showFacilities ? visibleFacilities.map((f) => [f.lat, f.lng]) : []),
+      ...(showEvents ? visibleEventPoints.map((p) => [p.lat, p.lng]) : []),
+    ];
+    if (bounds.length > 0) setFlyToTarget({ bounds, maxZoom: COMPANY_FIT_MAX_ZOOM, nonce: Date.now() });
+  }, [companyCodes]);
 
   const visibleViolationCount = useMemo(
     () => visibleFacilities.reduce((sum, f) => sum + f.violationCount, 0),
@@ -367,6 +435,23 @@ export default function MapPage({ facilities, summary, eventPoints, eventSummary
           </WrapItem>
         </Wrap>
 
+        {/* 公司篩選（兩個圖層都套用） */}
+        <Wrap spacing={4} align="center" mb={3}>
+          <WrapItem>
+            <Text fontSize="sm" color="gray.600" pt={1}>公司：</Text>
+          </WrapItem>
+          <WrapItem>
+            <CompanyMultiSelect options={companyOptions} value={companyCodes} onChange={setCompanyCodes} />
+          </WrapItem>
+          {companyCodes.length > 0 && (
+            <WrapItem>
+              <Text fontSize="sm" color="gray.500" pt={1}>
+                符合 {visibleFacilities.length} 座 EPA 廠區、{eventList.length} 個污染事件
+              </Text>
+            </WrapItem>
+          )}
+        </Wrap>
+
         {/* EPA 廠區篩選（不影響污染事件） */}
         <Wrap spacing={4} align="center" mb={4} opacity={showFacilities ? 1 : 0.5}>
           <WrapItem>
@@ -427,7 +512,7 @@ export default function MapPage({ facilities, summary, eventPoints, eventSummary
             >
               <PollutionMap
                 facilities={visibleFacilities}
-                eventPoints={eventPoints}
+                eventPoints={visibleEventPoints}
                 showFacilities={showFacilities}
                 showEvents={showEvents}
                 flyToTarget={flyToTarget}
@@ -471,6 +556,9 @@ export default function MapPage({ facilities, summary, eventPoints, eventSummary
                         {eventList.map((event) => (
                           <EventListItem key={event.id} event={event} onFocus={focusEvent} />
                         ))}
+                        {eventList.length === 0 && (
+                          <Text fontSize="sm" color="gray.500">選取的公司沒有污染事件。</Text>
+                        )}
                       </VStack>
                     </TabPanel>
                     <TabPanel p={0}>

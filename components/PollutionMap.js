@@ -23,7 +23,7 @@ const PROGRAM_LABELS = {
 
 /**
  * 讓外部元件（熱點清單、事件清單、區域視角按鈕）能驅動地圖移動。
- * target 可以是 { lat, lng, zoom } 或 { bounds }。
+ * target 可以是 { lat, lng, zoom } 或 { bounds, maxZoom }；maxZoom 免得只有一個點時一路放大到街道。
  * react-leaflet 的 map instance 只能在 MapContainer 內部透過 useMap 取得，
  * 所以包一層沒有畫面的 controller。
  */
@@ -35,7 +35,7 @@ const FlyToController = ({ target }) => {
     // 先收掉已開的 popup，否則飛走後舊 popup 會空著卡在畫面邊緣
     map.closePopup();
     if (target.bounds) {
-      map.flyToBounds(target.bounds, { duration: 1.2, padding: [24, 24] });
+      map.flyToBounds(target.bounds, { duration: 1.2, padding: [24, 24], ...(target.maxZoom ? { maxZoom: target.maxZoom } : {}) });
     } else {
       map.flyTo([target.lat, target.lng], target.zoom ?? 9, { duration: 1.2 });
     }

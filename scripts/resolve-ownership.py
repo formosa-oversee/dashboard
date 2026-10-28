@@ -251,6 +251,9 @@ class OwnershipGraph:
     def lookup(self, key, codes=None):
         """key -> [(code, node, effective or None, path)]"""
         out, seen = [], set()
+        # 只剩法人字尾的英文名（例：「GmbH」）正規化後是空字串，會把不相干的節點都收在 ('en', '') 底下；空鍵一律不比對
+        if not key or not key[1]:
+            return out
         for code, node in self.index.get(key, []):
             if codes and code not in codes: continue
             if (code, node) in seen: continue
@@ -481,6 +484,12 @@ class Resolver:
         cands = []
         for code, node, eff, path in self.g.lookup(('en', ek)):
             cands.append((1.0, code, node, eff, path, 'mops-exact'))
+        # 沒有英文的實體名（例：中國子公司的中文登記名）en_key 是空字串，改用 MOPS 的中文節點名比對
+        if not ek:
+            for key in name_keys(entity):
+                if key[0] == 'zh':
+                    for code, node, eff, path in self.g.lookup(key):
+                        cands.append((1.0, code, node, eff, path, 'mops-exact'))
         if not cands and len(et) >= 2:
             for key, nt in self.en_nodes:
                 if len(nt) >= 2 and nt <= et and not nt <= GENERIC:

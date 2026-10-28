@@ -161,7 +161,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.736Z"
+      "lastUpdated": "2026-10-30T08:11:18.423Z"
     },
     "inEpaData": true,
     "news": [],
@@ -368,7 +368,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [
@@ -104848,7 +104848,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [
@@ -163928,7 +163928,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [
@@ -166557,10 +166557,197 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
-    "news": [],
+    "news": [
+      {
+        "id": "fenc-fefcsh-shanghai-2025-nmhc-permit-exceedance-fine",
+        "title": "遠東新遠紡上海廠燃燒爐排口非甲烷總烴超過許可限值，奉賢區生態環境局處罰款",
+        "summary": "奉賢區環境監測站審核線上監測數據：2025 年 4 月 8 日遠紡工業（上海）有限公司 DA002 排放口（聚合三科燃燒爐）的非甲烷總烴，10 時至 12 時的小時均值為 103.3、80.8、73.1 mg/m³，都超過排污許可證的 60 mg/m³（《排污許可管理條例》第十七條第二款）。公司承認數據，聽證時表示處理塔要停工才能修復，已降低負荷運行以確保達標；奉賢區生態環境局考量公司積極配合調查、已採取整改措施，2025 年 7 月 3 日從輕處罰款人民幣 20 萬元（沪0120环罚〔2025〕41号）。",
+        "type": "enforcement",
+        "status": "penalized",
+        "dateStart": "2025-07-03",
+        "dateEnd": null,
+        "datePrecision": "day",
+        "locations": [
+          {
+            "country": "中國大陸",
+            "plantSite": "上海奉賢, 中國大陸",
+            "coordinates": {
+              "lat": 30.8466,
+              "lng": 121.5513,
+              "precision": "facility",
+              "source": "https://www.openstreetmap.org/way/636973060",
+              "note": "OSM「远纺工业公司」工業用地（way 636973060，website 標 feis.com.cn）的中心點。決定書地址是奉賢區星火開發區白沙路 198 號；OSM 沒有白沙路的線段，但這塊用地旁就是「白沙路惠州路」公車站"
+            }
+          }
+        ],
+        "entities": [
+          {
+            "name": "遠紡工業（上海）有限公司",
+            "country": "中國大陸"
+          }
+        ],
+        "groupControl": [],
+        "related": {
+          "eventIds": [
+            "fenc-fefcsh-shanghai-2022-total-phosphorus-exceedance-fine"
+          ],
+          "echoFacilityIds": [],
+          "enforcementCaseIds": []
+        },
+        "sources": [
+          {
+            "kind": "company",
+            "outlet": "上海市企業環境信息依法披露系統（企業依法填報，附行政處罰決定書）",
+            "outletRegion": "local",
+            "language": "zh",
+            "title": "沪0120环罚〔2025〕41号 行政处罚决定书（远纺工业（上海）有限公司 2025 年临时报告附件，文件名「聚三VOCS在线连续3小时超标行政处罚决定书20万.pdf」）",
+            "date": "2025-07-03",
+            "url": "https://e2.sthj.sh.gov.cn/jsp/view/hjpl/lsbg/getXzcfFile.do?dlId=3b008c82-3c2f-4bfb-a353-26d49331e534",
+            "archiveUrl": "https://web.archive.org/web/20261028102859/https://e2.sthj.sh.gov.cn/jsp/view/hjpl/lsbg/getXzcfFile.do?dlId=3b008c82-3c2f-4bfb-a353-26d49331e534",
+            "verified": "opened",
+            "note": "上海市奉贤区生态环境局，沪0120环罚〔2025〕41号。決定書是生態環境局作成的官方文件，經由企業在披露系統填報上傳，依第 3 節第 5 條標為公司文件。披露頁本身要 POST，附件下載網址可以 GET 開啟；系統裡另一個附件與這份 MD5 相同，不重複列。"
+          }
+        ],
+        "addedAt": "2026-10-28",
+        "attribution": [
+          {
+            "companyCode": "1402",
+            "entity": "遠紡工業（上海）有限公司（远纺工业（上海）有限公司）",
+            "kind": "listed",
+            "effectivePct": 90.03,
+            "controlSince": 2006,
+            "path": [
+              "遠東新",
+              "Far Eastern Polychem Industries Ltd.（100%）",
+              "遠紡工業（上海）有限公司（90.03%）"
+            ],
+            "basis": "MOPS 114 年第 1 季（2025Q1）遠東新子公司表：Far Eastern Polychem Industries Ltd.→遠紡工業（上海）公司 90.03%（MOPS 用簡稱，全名見年報）。遠東紡織（今遠東新）95 年度年報（https://www.fenc.com/upload/ir/ir_20170901001.pdf）PDF p288 關係企業表：遠紡工業(上海)有限公司 由遠東化聚工業持有 100.00%；同年報 p9 沿革載民國 85 年 7 月核准出資設立。controlSince 取 2006（決策 38 第 1 條），早於事件。事件前最近一期：113 年度合併財報（https://www.fenc.com/upload/ir/ir_20250319003.pdf）p51 為 90.03%。",
+            "companyName": "遠東新世紀股份有限公司",
+            "companyShort": "遠東新",
+            "shown": true,
+            "reason": "own"
+          }
+        ],
+        "companyCodes": [
+          "1402"
+        ],
+        "holdings": [
+          {
+            "companyCode": "1402",
+            "entity": "遠紡工業（上海）有限公司（远纺工业（上海）有限公司）",
+            "kind": "listed",
+            "effectivePct": 90.03,
+            "controlSince": 2006,
+            "path": [
+              "遠東新",
+              "Far Eastern Polychem Industries Ltd.（100%）",
+              "遠紡工業（上海）有限公司（90.03%）"
+            ],
+            "basis": "MOPS 114 年第 1 季（2025Q1）遠東新子公司表：Far Eastern Polychem Industries Ltd.→遠紡工業（上海）公司 90.03%（MOPS 用簡稱，全名見年報）。遠東紡織（今遠東新）95 年度年報（https://www.fenc.com/upload/ir/ir_20170901001.pdf）PDF p288 關係企業表：遠紡工業(上海)有限公司 由遠東化聚工業持有 100.00%；同年報 p9 沿革載民國 85 年 7 月核准出資設立。controlSince 取 2006（決策 38 第 1 條），早於事件。事件前最近一期：113 年度合併財報（https://www.fenc.com/upload/ir/ir_20250319003.pdf）p51 為 90.03%。",
+            "companyName": "遠東新世紀股份有限公司",
+            "companyShort": "遠東新",
+            "shown": true,
+            "reason": "own"
+          }
+        ]
+      },
+      {
+        "id": "fenc-fefcsh-shanghai-2022-total-phosphorus-exceedance-fine",
+        "title": "遠東新遠紡上海廠廢水總磷超標，奉賢區生態環境局處罰款",
+        "summary": "上海市奉賢區環境監測站 2021 年 12 月 16 日採樣遠東新持有的遠紡工業（上海）有限公司廢水排放口，2022 年 1 月 20 日的檢測報告顯示總磷濃度超過《合成樹脂工業污染物排放標準》1 mg/L 的限值（決定書沒有寫實測值；《水污染防治法》第十條）。公司申請聽證，主張 2021 年 12 月 31 日與 2022 年 6 月 21 日的檢測報告、自行監測與內部管控數據都達標；奉賢區生態環境局複核後決定從輕，2022 年 12 月 2 日處罰款人民幣 10 萬元（沪0120环罚〔2022〕115号）。",
+        "type": "enforcement",
+        "status": "penalized",
+        "dateStart": "2022-12-02",
+        "dateEnd": null,
+        "datePrecision": "day",
+        "locations": [
+          {
+            "country": "中國大陸",
+            "plantSite": "上海奉賢, 中國大陸",
+            "coordinates": {
+              "lat": 30.8466,
+              "lng": 121.5513,
+              "precision": "facility",
+              "source": "https://www.openstreetmap.org/way/636973060",
+              "note": "OSM「远纺工业公司」工業用地（way 636973060，website 標 feis.com.cn）的中心點。決定書地址是奉賢區星火開發區白沙路 198 號；OSM 沒有白沙路的線段，但這塊用地旁就是「白沙路惠州路」公車站"
+            }
+          }
+        ],
+        "entities": [
+          {
+            "name": "遠紡工業（上海）有限公司",
+            "country": "中國大陸"
+          }
+        ],
+        "groupControl": [],
+        "related": {
+          "eventIds": [
+            "fenc-fefcsh-shanghai-2025-nmhc-permit-exceedance-fine"
+          ],
+          "echoFacilityIds": [],
+          "enforcementCaseIds": []
+        },
+        "sources": [
+          {
+            "kind": "company",
+            "outlet": "上海市企業環境信息依法披露系統（企業依法填報，附行政處罰決定書）",
+            "outletRegion": "local",
+            "language": "zh",
+            "title": "沪0120环罚〔2022〕115号 行政处罚决定书（远纺工业（上海）有限公司 2022 年临时报告附件，文件名「总P超标处罚决定书-20221202.pdf」）",
+            "date": "2022-12-02",
+            "url": "https://e2.sthj.sh.gov.cn/jsp/view/hjpl/lsbg/getXzcfFile.do?dlId=c02f9870-a26c-414f-b51b-74c99890306e",
+            "archiveUrl": "https://web.archive.org/web/20261028102841/https://e2.sthj.sh.gov.cn/jsp/view/hjpl/lsbg/getXzcfFile.do?dlId=c02f9870-a26c-414f-b51b-74c99890306e",
+            "verified": "opened",
+            "note": "上海市奉贤区生态环境局，沪0120环罚〔2022〕115号。決定書是生態環境局作成的官方文件，經由企業在披露系統填報上傳，依第 3 節第 5 條標為公司文件。披露頁本身要 POST，附件下載網址可以 GET 開啟。"
+          }
+        ],
+        "addedAt": "2026-10-28",
+        "attribution": [
+          {
+            "companyCode": "1402",
+            "entity": "遠紡工業（上海）有限公司（远纺工业（上海）有限公司）",
+            "kind": "listed",
+            "effectivePct": 90.03,
+            "controlSince": 2006,
+            "path": [
+              "遠東新",
+              "Far Eastern Polychem Industries Ltd.（100%）",
+              "遠紡工業（上海）有限公司（90.03%）"
+            ],
+            "basis": "MOPS 114 年第 1 季（2025Q1）遠東新子公司表：Far Eastern Polychem Industries Ltd.→遠紡工業（上海）公司 90.03%（MOPS 用簡稱，全名見年報）。遠東紡織（今遠東新）95 年度年報（https://www.fenc.com/upload/ir/ir_20170901001.pdf）PDF p288 關係企業表：遠紡工業(上海)有限公司 由遠東化聚工業持有 100.00%；同年報 p9 沿革載民國 85 年 7 月核准出資設立。controlSince 取 2006（決策 38 第 1 條），早於事件。事件當時的持股：110 年度合併財報（https://www.fenc.com/upload/ir/ir_20220401002.pdf）p48 為 100%；111 年度合併財報（https://www.fenc.com/upload/ir/ir_20230317003.pdf）p47 與附註三一載 2022 年 12 月吸收合併亞東石化（上海），合併基準日 2022-12-31，之後為 90.03%。所以 2022-12-02 處罰時是 100%，卡片顯示的是現值。",
+            "companyName": "遠東新世紀股份有限公司",
+            "companyShort": "遠東新",
+            "shown": true,
+            "reason": "own"
+          }
+        ],
+        "companyCodes": [
+          "1402"
+        ],
+        "holdings": [
+          {
+            "companyCode": "1402",
+            "entity": "遠紡工業（上海）有限公司（远纺工业（上海）有限公司）",
+            "kind": "listed",
+            "effectivePct": 90.03,
+            "controlSince": 2006,
+            "path": [
+              "遠東新",
+              "Far Eastern Polychem Industries Ltd.（100%）",
+              "遠紡工業（上海）有限公司（90.03%）"
+            ],
+            "basis": "MOPS 114 年第 1 季（2025Q1）遠東新子公司表：Far Eastern Polychem Industries Ltd.→遠紡工業（上海）公司 90.03%（MOPS 用簡稱，全名見年報）。遠東紡織（今遠東新）95 年度年報（https://www.fenc.com/upload/ir/ir_20170901001.pdf）PDF p288 關係企業表：遠紡工業(上海)有限公司 由遠東化聚工業持有 100.00%；同年報 p9 沿革載民國 85 年 7 月核准出資設立。controlSince 取 2006（決策 38 第 1 條），早於事件。事件當時的持股：110 年度合併財報（https://www.fenc.com/upload/ir/ir_20220401002.pdf）p48 為 100%；111 年度合併財報（https://www.fenc.com/upload/ir/ir_20230317003.pdf）p47 與附註三一載 2022 年 12 月吸收合併亞東石化（上海），合併基準日 2022-12-31，之後為 90.03%。所以 2022-12-02 處罰時是 100%，卡片顯示的是現值。",
+            "companyName": "遠東新世紀股份有限公司",
+            "companyShort": "遠東新",
+            "shown": true,
+            "reason": "own"
+          }
+        ]
+      }
+    ],
     "enforcementSummary": {
       "count": 0,
       "penaltyTotalUSD": 0,
@@ -166715,10 +166902,102 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
-    "news": [],
+    "news": [
+      {
+        "id": "everest-hongyuan-shanghai-2022-particulate-exceedance-fine",
+        "title": "宏遠上海廠定型機排口顆粒物超標，奉賢區生態環境局處罰款",
+        "summary": "上海市奉賢區環境監測站 2020 年 10 月 13 日採樣宏遠持有的宏遠發展（上海）有限公司 2 號烘乾定型設備排放口（DA025），檢測報告顯示顆粒物濃度超過上海《大氣污染物綜合排放標準》30 mg/m³ 的限值（決定書沒有寫實測值；《大氣污染防治法》第十八條）。公司申請聽證，表示該排口與其他 5 個類似排口歷年監測都未超標，並提出最近的檢測報告；奉賢區生態環境局複核後從輕，2022 年 11 月 18 日處罰款人民幣 10 萬元（沪0120环罚〔2022〕94号）。",
+        "type": "enforcement",
+        "status": "penalized",
+        "dateStart": "2022-11-18",
+        "dateEnd": null,
+        "datePrecision": "day",
+        "locations": [
+          {
+            "country": "中國大陸",
+            "plantSite": "上海奉賢, 中國大陸",
+            "coordinates": {
+              "lat": 30.8629,
+              "lng": 121.5632,
+              "precision": "city",
+              "source": "https://www.openstreetmap.org/relation/17885597",
+              "note": "OSM 海湾镇（relation 17885597）中心點。決定書地址是奉賢區星火開發區白沙路 197 號，OSM 沒有這家廠與門牌，只定位到鎮"
+            }
+          }
+        ],
+        "entities": [
+          {
+            "name": "宏遠發展（上海）有限公司",
+            "country": "中國大陸"
+          }
+        ],
+        "groupControl": [],
+        "related": {
+          "eventIds": [],
+          "echoFacilityIds": [],
+          "enforcementCaseIds": []
+        },
+        "sources": [
+          {
+            "kind": "company",
+            "outlet": "上海市企業環境信息依法披露系統（企業依法填報，附行政處罰決定書）",
+            "outletRegion": "local",
+            "language": "zh",
+            "title": "生态局行政处罚决定书【沪0120环罚[2022]94号】.pdf（宏远发展（上海）有限公司 2022 年度报告附件）",
+            "date": "2022-11-18",
+            "url": "https://e2.sthj.sh.gov.cn/jsp/view/hjpl/xzcf/getXzcfFile.do?dlId=69e35489-43da-49e4-9b0f-987728239ed3",
+            "archiveUrl": "https://web.archive.org/web/20261028102945/https://e2.sthj.sh.gov.cn/jsp/view/hjpl/xzcf/getXzcfFile.do?dlId=69e35489-43da-49e4-9b0f-987728239ed3",
+            "verified": "opened",
+            "note": "上海市奉贤区生态环境局，沪0120环罚〔2022〕94号。決定書是生態環境局作成的官方文件，經由企業在披露系統填報上傳，依第 3 節第 5 條標為公司文件。披露頁本身要 POST，附件下載網址可以 GET 開啟。"
+          }
+        ],
+        "addedAt": "2026-10-28",
+        "attribution": [
+          {
+            "companyCode": "1460",
+            "entity": "宏遠發展（上海）有限公司（宏远发展（上海）有限公司）",
+            "kind": "listed",
+            "effectivePct": 100,
+            "controlSince": 2006,
+            "path": [
+              "宏遠",
+              "Everest Investment (Holding) Limited（百慕達宏遠控股有限公司，100%）",
+              "宏遠發展（上海）有限公司（100%）"
+            ],
+            "basis": "MOPS 114 年第 2 季（2025Q2）宏遠子公司表：Everest Investment (Holding) Limited→宏遠發展（上海）有限公司 100%。宏遠 95 年度年報（https://www.everest.com.tw/uploads/images/investor/95Y.pdf）p81 關係人：宏遠發展（上海）有限公司「子公司－間接持股 100%」；p69 載 95 年 5 月核准經百慕達宏遠控股間接投資、年底全數匯出。controlSince 取 2006，早於 2020-10-13 的採樣與 2022-11-18 的處罰（決策 38 第 1 條）。違法年度附近：2020 年度英文年報（https://www.everest.com.tw/uploads/images/investor/109YE.pdf）p115 列 Everest Textile (Shanghai) Ltd. 2019、2020 年皆 100%（英文名與中文名的對應，依 107 年度年報 p66 關係企業表的成立日、地址、資本額相同判定）。",
+            "companyName": "宏遠興業股份有限公司",
+            "companyShort": "宏遠",
+            "shown": true,
+            "reason": "own"
+          }
+        ],
+        "companyCodes": [
+          "1460"
+        ],
+        "holdings": [
+          {
+            "companyCode": "1460",
+            "entity": "宏遠發展（上海）有限公司（宏远发展（上海）有限公司）",
+            "kind": "listed",
+            "effectivePct": 100,
+            "controlSince": 2006,
+            "path": [
+              "宏遠",
+              "Everest Investment (Holding) Limited（百慕達宏遠控股有限公司，100%）",
+              "宏遠發展（上海）有限公司（100%）"
+            ],
+            "basis": "MOPS 114 年第 2 季（2025Q2）宏遠子公司表：Everest Investment (Holding) Limited→宏遠發展（上海）有限公司 100%。宏遠 95 年度年報（https://www.everest.com.tw/uploads/images/investor/95Y.pdf）p81 關係人：宏遠發展（上海）有限公司「子公司－間接持股 100%」；p69 載 95 年 5 月核准經百慕達宏遠控股間接投資、年底全數匯出。controlSince 取 2006，早於 2020-10-13 的採樣與 2022-11-18 的處罰（決策 38 第 1 條）。違法年度附近：2020 年度英文年報（https://www.everest.com.tw/uploads/images/investor/109YE.pdf）p115 列 Everest Textile (Shanghai) Ltd. 2019、2020 年皆 100%（英文名與中文名的對應，依 107 年度年報 p66 關係企業表的成立日、地址、資本額相同判定）。",
+            "companyName": "宏遠興業股份有限公司",
+            "companyShort": "宏遠",
+            "shown": true,
+            "reason": "own"
+          }
+        ]
+      }
+    ],
     "enforcementSummary": {
       "count": 0,
       "penaltyTotalUSD": 0,
@@ -166788,7 +167067,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [],
@@ -167000,7 +167279,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [],
@@ -167690,7 +167969,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [
@@ -169011,7 +169290,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [],
@@ -172021,7 +172300,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [],
@@ -172094,7 +172373,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [
@@ -172875,7 +173154,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [],
@@ -173257,7 +173536,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [
@@ -173572,7 +173851,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [],
@@ -174056,7 +174335,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [],
@@ -176622,7 +176901,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [
@@ -177075,7 +177354,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [],
@@ -177152,7 +177431,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [],
@@ -177365,7 +177644,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [],
@@ -177757,7 +178036,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [],
@@ -178093,7 +178372,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [],
@@ -178166,7 +178445,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [],
@@ -178243,7 +178522,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [],
@@ -178354,7 +178633,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [],
@@ -178470,7 +178749,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [],
@@ -178581,7 +178860,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [],
@@ -178706,7 +178985,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [],
@@ -178794,7 +179073,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [],
@@ -179136,7 +179415,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [],
@@ -179530,7 +179809,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [],
@@ -184518,7 +184797,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [
@@ -184735,7 +185014,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [],
@@ -185065,7 +185344,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [],
@@ -185412,7 +185691,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [],
@@ -186022,7 +186301,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [],
@@ -201101,7 +201380,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [],
@@ -201451,7 +201730,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [
@@ -201696,7 +201975,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [],
@@ -201876,7 +202155,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [
@@ -202158,7 +202437,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.424Z"
     },
     "inEpaData": true,
     "news": [
@@ -203130,7 +203409,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-30T08:02:23.737Z"
+      "lastUpdated": "2026-10-30T08:11:18.425Z"
     },
     "inEpaData": true,
     "news": [],
@@ -203350,7 +203629,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.467Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -203487,7 +203766,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.467Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -204321,7 +204600,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）、污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 2,
@@ -204458,7 +204737,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -205293,7 +205572,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）、污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 2,
@@ -205624,7 +205903,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -205751,7 +206030,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -205876,7 +206155,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -206709,7 +206988,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -206848,7 +207127,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -206907,7 +207186,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -208313,7 +208592,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -208717,7 +208996,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -209121,7 +209400,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -209717,7 +209996,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）、污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 2,
@@ -210049,7 +210328,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -210172,7 +210451,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -210309,7 +210588,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -210470,7 +210749,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -210529,7 +210808,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -210652,7 +210931,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -210777,7 +211056,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -210836,7 +211115,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -211168,7 +211447,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 11,
@@ -211227,7 +211506,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -211475,7 +211754,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 8,
@@ -211612,7 +211891,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -211922,7 +212201,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 10,
@@ -211981,7 +212260,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -212202,7 +212481,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 7,
@@ -212262,7 +212541,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -212321,7 +212600,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -212409,7 +212688,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 2,
@@ -212469,7 +212748,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -212529,7 +212808,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -212650,7 +212929,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -212898,7 +213177,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 8,
@@ -213033,7 +213312,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -213255,7 +213534,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -213575,7 +213854,142 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
+    },
+    "enforcementSummary": {
+      "count": 0,
+      "penaltyTotalUSD": 0,
+      "latestYear": null
+    }
+  },
+  {
+    "id": "tw-4763",
+    "name": "濟南大自然新材料股份有限公司",
+    "englishName": "Jinan Acetate Chemical Co., LTD.",
+    "chairman": "王克璋",
+    "foundedDate": "2014/09/25",
+    "listedDate": "2015/11/09",
+    "capital": "989146670",
+    "website": "https://www.acetekgroup.com",
+    "address": "台北市信義區光復南路419巷18號6樓",
+    "industry": "化學工業",
+    "logoUrl": "",
+    "shortName": "材料*-KY",
+    "parentCompany": null,
+    "companyType": "台灣上市公司",
+    "companyCode": "4763",
+    "facilities": [],
+    "violations": [],
+    "enforcement": [],
+    "news": [
+      {
+        "id": "ace-zhongfeng-tengzhou-2025-unaccepted-production-unit-fine",
+        "title": "材料*-KY 中峰化學滕州廠新生產單元環保設施未驗收即投產，棗莊市生態環境局滕州分局處罰款",
+        "summary": "棗莊市生態環境局滕州分局依信訪舉報，2025 年 8 月 21 日檢查材料*-KY 持有的中峰化學有限公司，第 7 套醋酸酯纖維素生產單元正在生產，現場提不出環評驗收手續；這套裝置 2023 年初開始建設、2023 年 6 月 5 日投入使用，配套的環境保護設施未經驗收就投入生產（《建設項目環境保護管理條例》第十九條第一款）。裁量考量違法持續 2 年以上、在規定期限內改正、小微型企業、兩年內第 1 次；公司未陳述申辯或申請聽證。2025 年 11 月 3 日處罰款人民幣 25.1562 萬元（滕环罚〔2025〕33-1号）。",
+        "type": "enforcement",
+        "status": "penalized",
+        "dateStart": "2025-11-03",
+        "dateEnd": null,
+        "datePrecision": "day",
+        "locations": [
+          {
+            "country": "中國大陸",
+            "plantSite": "棗莊滕州, 中國大陸",
+            "coordinates": {
+              "lat": 35.0843,
+              "lng": 117.1554,
+              "precision": "city",
+              "source": "https://www.openstreetmap.org/relation/3246759",
+              "note": "OSM 滕州市（relation 3246759）中心點。決定書地址是「兖矿国泰化工有限公司南側、國泰大道東側」，所屬園區為魯南高科技化工園區；OSM 沒有這家廠與園區，只定位到縣級市。市中心點，不是廠區"
+            }
+          }
+        ],
+        "entities": [
+          {
+            "name": "中峰化學有限公司",
+            "country": "中國大陸"
+          }
+        ],
+        "groupControl": [],
+        "related": {
+          "eventIds": [],
+          "echoFacilityIds": [],
+          "enforcementCaseIds": []
+        },
+        "sources": [
+          {
+            "kind": "company",
+            "outlet": "山東省企業環境信息依法披露系統（企業依法填報，附行政處罰決定書）",
+            "outletRegion": "local",
+            "language": "zh",
+            "title": "滕环罚〔2025〕33-1号 行政处罚决定书（中峰化学有限公司 2025 年度报告附件）",
+            "date": "2026-01-28",
+            "url": "http://221.214.62.226:8090/files/202601281049/file_1893ec1c-a748-4ae8-aaa4-51ba6af9aef7.pdf",
+            "archiveUrl": null,
+            "verified": "opened",
+            "note": "枣庄市生态环境局滕州分局，滕环罚〔2025〕33-1号。決定書是生態環境局作成的官方文件，經由企業在披露系統填報上傳，依第 3 節第 5 條標為公司文件。系統把附件登記為 33-2 號；這份 PDF 內含兩份同日決定書，33-1 號（第 1、2、6 頁）的當事人是公司（「對你單位作出」），33-2 號是對個人，不收。Wayback Save Page Now 回 523（Internet Archive 連不到這台主機），沒有封存。"
+          },
+          {
+            "kind": "company",
+            "outlet": "山東省企業環境信息依法披露系統（企業依法填報，附行政處罰決定書）",
+            "outletRegion": "local",
+            "language": "zh",
+            "title": "企业环境信息依法披露报告（企业详情页）",
+            "date": "2026-01-28",
+            "url": "http://221.214.62.226:8090/EnvironmentDisclosure/publicReportDetail/lookReportDetail?pageFrom=2&reportId=53214&reportType=1&batchYear=2025",
+            "archiveUrl": null,
+            "verified": "opened",
+            "note": "報告頁的內容由 JavaScript 載入，企業在這份報告登記了上面的決定書（文號相同）；Internet Archive 連不到這台主機（523），沒有封存。"
+          }
+        ],
+        "addedAt": "2026-10-28",
+        "attribution": [
+          {
+            "companyCode": "4763",
+            "entity": "中峰化學有限公司（中峰化学有限公司）",
+            "kind": "listed",
+            "effectivePct": 88,
+            "controlSince": 2017,
+            "path": [
+              "材料*-KY",
+              "慈嚴生活科技有限公司（100%）→ 中峰化學有限公司（37.66%）",
+              "慈嚴生活科技有限公司（100%）→ 濟南大自然新材料有限公司（100%）→ 中峰化學有限公司（50.34%）"
+            ],
+            "basis": "MOPS 114 年第 1 季（2025Q1）材料*-KY 子公司表：慈嚴公司→中峰化學 37.66%，濟南大自然→中峰化學 50.34%，合計 88%。材料-KY 民國 107 及 106 年度合併財務報告（https://www.acetekgroup.com/pdf/2018Q4.pdf，掃描檔，OCR 後對照影像）PDF 第 33 頁「列入合併財務報告之子公司」：濟南大自然→中峰化學有限公司 52.80%、慈嚴公司→27.20%，106.12.31 已列，controlSince 取 2017，早於 2023 年 6 月起的違法行為與事件（決策 38 第 1 條）。2022 年度英文合併財報（https://www.acetekgroup.com/pdf/2022ywcb.pdf）p27 為 80%（2021-11 慈嚴把 27.2% 轉給濟南大自然）；2022 年以前的文件合計都是 80%，與 MOPS 2025 的 88% 不同，差異原因官網文件沒有說明。取得中峰的日期查不到。",
+            "companyName": "濟南大自然新材料股份有限公司",
+            "companyShort": "材料*-KY",
+            "shown": true,
+            "reason": "own"
+          }
+        ],
+        "companyCodes": [
+          "4763"
+        ],
+        "holdings": [
+          {
+            "companyCode": "4763",
+            "entity": "中峰化學有限公司（中峰化学有限公司）",
+            "kind": "listed",
+            "effectivePct": 88,
+            "controlSince": 2017,
+            "path": [
+              "材料*-KY",
+              "慈嚴生活科技有限公司（100%）→ 中峰化學有限公司（37.66%）",
+              "慈嚴生活科技有限公司（100%）→ 濟南大自然新材料有限公司（100%）→ 中峰化學有限公司（50.34%）"
+            ],
+            "basis": "MOPS 114 年第 1 季（2025Q1）材料*-KY 子公司表：慈嚴公司→中峰化學 37.66%，濟南大自然→中峰化學 50.34%，合計 88%。材料-KY 民國 107 及 106 年度合併財務報告（https://www.acetekgroup.com/pdf/2018Q4.pdf，掃描檔，OCR 後對照影像）PDF 第 33 頁「列入合併財務報告之子公司」：濟南大自然→中峰化學有限公司 52.80%、慈嚴公司→27.20%，106.12.31 已列，controlSince 取 2017，早於 2023 年 6 月起的違法行為與事件（決策 38 第 1 條）。2022 年度英文合併財報（https://www.acetekgroup.com/pdf/2022ywcb.pdf）p27 為 80%（2021-11 慈嚴把 27.2% 轉給濟南大自然）；2022 年以前的文件合計都是 80%，與 MOPS 2025 的 88% 不同，差異原因官網文件沒有說明。取得中峰的日期查不到。",
+            "companyName": "濟南大自然新材料股份有限公司",
+            "companyShort": "材料*-KY",
+            "shown": true,
+            "reason": "own"
+          }
+        ]
+      }
+    ],
+    "inEpaData": false,
+    "metadata": {
+      "dataSource": "污染事件（官方文件與新聞報導）",
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -213698,7 +214112,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -213841,7 +214255,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -213903,7 +214317,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -214151,12 +214565,362 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 8,
       "penaltyTotalUSD": 111433511,
       "latestYear": "2019"
+    }
+  },
+  {
+    "id": "tw-8411",
+    "name": "福貞控股股份有限公司",
+    "englishName": "KINGCAN HOLDINGS LIMITED",
+    "chairman": "李榮福",
+    "foundedDate": "2009/08/26",
+    "listedDate": "2011/11/01",
+    "capital": "2184043190",
+    "website": "https://www.kingcanholdings.com",
+    "address": "The Grand Pavilion Commercial Centre, Oleander Way, 802 West",
+    "industry": "其他",
+    "logoUrl": "",
+    "shortName": "福貞-KY",
+    "parentCompany": null,
+    "companyType": "台灣上市公司",
+    "companyCode": "8411",
+    "facilities": [],
+    "violations": [],
+    "enforcement": [],
+    "news": [
+      {
+        "id": "kingcan-sdfuzhen-zhangqiu-2024-hazardous-waste-storage-fine",
+        "title": "福貞山東章丘廠危險廢物貯存不合規、廢乳化液洩漏，濟南市生態環境局處罰款",
+        "summary": "濟南市生態環境局 2024 年 6 月 17 日檢查福貞-KY 持有的山東福貞金屬包裝有限公司，6 號倉庫貯存廢乳化液與污水處理站污泥等危險廢物，暫存場所沒有設液體洩漏堵截設施，現場有 4 處廢乳化液洩漏、1 處污泥灑落，屬未依國家環境保護標準貯存危險廢物（《固體廢物污染環境防治法》第八十一條第二款）。公司陳述申辯並申請聽證，提出整改照片、危險廢物轉移聯單與圍堰施工報價；市局認定公司明知 6 號倉庫暫存的是危險廢物，仍長時間未依貯存標準貯存，檢查時也已有洩漏灑落，不採納。2024 年 12 月 16 日處罰款人民幣 26.875 萬元（济环罚〔2024〕J017号）。",
+        "type": "enforcement",
+        "status": "penalized",
+        "dateStart": "2024-12-16",
+        "dateEnd": null,
+        "datePrecision": "day",
+        "locations": [
+          {
+            "country": "中國大陸",
+            "plantSite": "濟南章丘, 中國大陸",
+            "coordinates": {
+              "lat": 36.7142,
+              "lng": 117.5423,
+              "precision": "city",
+              "source": "https://www.openstreetmap.org/relation/12332528",
+              "note": "OSM 明水街道（relation 12332528）中心點。決定書地址是章丘明水經濟開發區工業五路中段，OSM 沒有這條路與廠區，只定位到街道"
+            }
+          }
+        ],
+        "entities": [
+          {
+            "name": "山東福貞金屬包裝有限公司",
+            "country": "中國大陸"
+          }
+        ],
+        "groupControl": [],
+        "related": {
+          "eventIds": [
+            "kingcan-sdfuzhen-zhangqiu-2024-printing-vocs-untreated-fine",
+            "kingcan-sdfuzhen-zhangqiu-2024-can-lines-no-eia-fine"
+          ],
+          "echoFacilityIds": [],
+          "enforcementCaseIds": []
+        },
+        "sources": [
+          {
+            "kind": "company",
+            "outlet": "山東省企業環境信息依法披露系統（企業依法填報，附行政處罰決定書）",
+            "outletRegion": "local",
+            "language": "zh",
+            "title": "济环罚〔2024〕J017号 行政处罚决定书（山东福贞金属包装有限公司临时报告附件）",
+            "date": "2025-02-21",
+            "url": "http://221.214.62.226:8090/files/202502211449/file_6199c2ce-4541-441e-a733-94c481b82a5b.pdf",
+            "archiveUrl": null,
+            "verified": "opened",
+            "note": "济南市生态环境局，济环罚〔2024〕J017号。決定書是生態環境局作成的官方文件，經由企業在披露系統填報上傳，依第 3 節第 5 條標為公司文件。Wayback Save Page Now 回 523（Internet Archive 連不到這台主機），沒有封存。"
+          },
+          {
+            "kind": "company",
+            "outlet": "山東省企業環境信息依法披露系統（企業依法填報，附行政處罰決定書）",
+            "outletRegion": "local",
+            "language": "zh",
+            "title": "企业环境信息依法披露报告（企业详情页）",
+            "date": "2025-02-21",
+            "url": "http://221.214.62.226:8090/EnvironmentDisclosure/publicReportDetail/lookReportDetail?pageFrom=2&reportId=36273&reportType=2&batchYear=2024",
+            "archiveUrl": null,
+            "verified": "opened",
+            "note": "報告頁的內容由 JavaScript 載入，企業在這份報告登記了上面的決定書（文號相同）；Internet Archive 連不到這台主機（523），沒有封存。"
+          }
+        ],
+        "addedAt": "2026-10-28",
+        "attribution": [
+          {
+            "companyCode": "8411",
+            "entity": "山東福貞金屬包裝有限公司（山东福贞金属包装有限公司）",
+            "kind": "listed",
+            "effectivePct": 100,
+            "controlSince": 2011,
+            "path": [
+              "福貞-KY",
+              "Joubert Holdings Limited（100%）",
+              "山東福貞金屬包裝有限公司（100%）"
+            ],
+            "basis": "MOPS 114 年第 1 季（2025Q1）福貞-KY 子公司表：本公司→Joubert Holdings Limited 100%→山東福貞金屬包裝有限公司 100%。福貞 101 年第一季合併財務季報表（官網原址 http://www.kingcanholdings.com/ponet/ezcatfiles/kingcan/img/img/10565/2012Q1.pdf；官網現在轉址到 tw.kingcan.net，2026-10-30 測試時只回安全檢測頁、取不到財報，引用 Internet Archive 2012-08-13 既有封存 https://web.archive.org/web/20120813032314/http://www.kingcanholdings.com:80/ponet/ezcatfiles/kingcan/img/img/10565/2012Q1.pdf）PDF 第 7 頁「列入合併財務季報表之子公司」：Joubert→山東福貞金屬包裝有限公司 101.3.31、100.3.31 皆 100%，controlSince 取 2011，早於事件（決策 38 第 1 條）。同報表附註載山東福貞的土地使用權位於章丘市明水經濟開發區，與決定書地址相同。",
+            "companyName": "福貞控股股份有限公司",
+            "companyShort": "福貞-KY",
+            "shown": true,
+            "reason": "own"
+          }
+        ],
+        "companyCodes": [
+          "8411"
+        ],
+        "holdings": [
+          {
+            "companyCode": "8411",
+            "entity": "山東福貞金屬包裝有限公司（山东福贞金属包装有限公司）",
+            "kind": "listed",
+            "effectivePct": 100,
+            "controlSince": 2011,
+            "path": [
+              "福貞-KY",
+              "Joubert Holdings Limited（100%）",
+              "山東福貞金屬包裝有限公司（100%）"
+            ],
+            "basis": "MOPS 114 年第 1 季（2025Q1）福貞-KY 子公司表：本公司→Joubert Holdings Limited 100%→山東福貞金屬包裝有限公司 100%。福貞 101 年第一季合併財務季報表（官網原址 http://www.kingcanholdings.com/ponet/ezcatfiles/kingcan/img/img/10565/2012Q1.pdf；官網現在轉址到 tw.kingcan.net，2026-10-30 測試時只回安全檢測頁、取不到財報，引用 Internet Archive 2012-08-13 既有封存 https://web.archive.org/web/20120813032314/http://www.kingcanholdings.com:80/ponet/ezcatfiles/kingcan/img/img/10565/2012Q1.pdf）PDF 第 7 頁「列入合併財務季報表之子公司」：Joubert→山東福貞金屬包裝有限公司 101.3.31、100.3.31 皆 100%，controlSince 取 2011，早於事件（決策 38 第 1 條）。同報表附註載山東福貞的土地使用權位於章丘市明水經濟開發區，與決定書地址相同。",
+            "companyName": "福貞控股股份有限公司",
+            "companyShort": "福貞-KY",
+            "shown": true,
+            "reason": "own"
+          }
+        ]
+      },
+      {
+        "id": "kingcan-sdfuzhen-zhangqiu-2024-printing-vocs-untreated-fine",
+        "title": "福貞山東章丘廠印刷廢氣未經焚燒爐處理，濟南市生態環境局處罰款",
+        "summary": "濟南市生態環境局 2024 年 6 月 16 日檢查山東福貞金屬包裝有限公司，8 號車間印刷機的彩印上光廢氣經油霧過濾器後以軟管排進車間，沒有依環評經 RTO 蓄熱式焚燒爐處理；2 號車間六色彩印線 6 個集氣罩的收集管道全部斷開，印刷廢氣未經收集處理就直接排放。市局原本另以涉嫌逃避監管立案，公司申請聽證後，市局認定逃避監管的主觀故意證據不足，併案依《大氣污染防治法》第一百零八條第一項（含揮發性有機物廢氣的生產活動未依規定使用污染防治設施）處理；7 月 5 日複查已改正。2024 年 12 月 16 日處罰款人民幣 3.8 萬元（济环罚〔2024〕J021号）。",
+        "type": "enforcement",
+        "status": "penalized",
+        "dateStart": "2024-12-16",
+        "dateEnd": null,
+        "datePrecision": "day",
+        "locations": [
+          {
+            "country": "中國大陸",
+            "plantSite": "濟南章丘, 中國大陸",
+            "coordinates": {
+              "lat": 36.7142,
+              "lng": 117.5423,
+              "precision": "city",
+              "source": "https://www.openstreetmap.org/relation/12332528",
+              "note": "OSM 明水街道（relation 12332528）中心點。決定書地址是章丘明水經濟開發區工業五路中段，OSM 沒有這條路與廠區，只定位到街道"
+            }
+          }
+        ],
+        "entities": [
+          {
+            "name": "山東福貞金屬包裝有限公司",
+            "country": "中國大陸"
+          }
+        ],
+        "groupControl": [],
+        "related": {
+          "eventIds": [
+            "kingcan-sdfuzhen-zhangqiu-2024-hazardous-waste-storage-fine",
+            "kingcan-sdfuzhen-zhangqiu-2024-can-lines-no-eia-fine"
+          ],
+          "echoFacilityIds": [],
+          "enforcementCaseIds": []
+        },
+        "sources": [
+          {
+            "kind": "company",
+            "outlet": "山東省企業環境信息依法披露系統（企業依法填報，附行政處罰決定書）",
+            "outletRegion": "local",
+            "language": "zh",
+            "title": "济环罚〔2024〕J021号 行政处罚决定书（山东福贞金属包装有限公司临时报告附件）",
+            "date": "2025-02-21",
+            "url": "http://221.214.62.226:8090/files/202502211452/file_7567ea53-e7cf-452d-b2c9-855331c4aba2.pdf",
+            "archiveUrl": null,
+            "verified": "opened",
+            "note": "济南市生态环境局，济环罚〔2024〕J021号。決定書是生態環境局作成的官方文件，經由企業在披露系統填報上傳，依第 3 節第 5 條標為公司文件。Wayback Save Page Now 回 523（Internet Archive 連不到這台主機），沒有封存。"
+          },
+          {
+            "kind": "company",
+            "outlet": "山東省企業環境信息依法披露系統（企業依法填報，附行政處罰決定書）",
+            "outletRegion": "local",
+            "language": "zh",
+            "title": "企业环境信息依法披露报告（企业详情页）",
+            "date": "2025-02-21",
+            "url": "http://221.214.62.226:8090/EnvironmentDisclosure/publicReportDetail/lookReportDetail?pageFrom=2&reportId=36276&reportType=2&batchYear=2024",
+            "archiveUrl": null,
+            "verified": "opened",
+            "note": "報告頁的內容由 JavaScript 載入，企業在這份報告登記了上面的決定書（文號相同）；Internet Archive 連不到這台主機（523），沒有封存。"
+          }
+        ],
+        "addedAt": "2026-10-28",
+        "attribution": [
+          {
+            "companyCode": "8411",
+            "entity": "山東福貞金屬包裝有限公司（山东福贞金属包装有限公司）",
+            "kind": "listed",
+            "effectivePct": 100,
+            "controlSince": 2011,
+            "path": [
+              "福貞-KY",
+              "Joubert Holdings Limited（100%）",
+              "山東福貞金屬包裝有限公司（100%）"
+            ],
+            "basis": "MOPS 114 年第 1 季（2025Q1）福貞-KY 子公司表：本公司→Joubert Holdings Limited 100%→山東福貞金屬包裝有限公司 100%。福貞 101 年第一季合併財務季報表（官網原址 http://www.kingcanholdings.com/ponet/ezcatfiles/kingcan/img/img/10565/2012Q1.pdf；官網現在轉址到 tw.kingcan.net，2026-10-30 測試時只回安全檢測頁、取不到財報，引用 Internet Archive 2012-08-13 既有封存 https://web.archive.org/web/20120813032314/http://www.kingcanholdings.com:80/ponet/ezcatfiles/kingcan/img/img/10565/2012Q1.pdf）PDF 第 7 頁「列入合併財務季報表之子公司」：Joubert→山東福貞金屬包裝有限公司 101.3.31、100.3.31 皆 100%，controlSince 取 2011，早於事件（決策 38 第 1 條）。同報表附註載山東福貞的土地使用權位於章丘市明水經濟開發區，與決定書地址相同。",
+            "companyName": "福貞控股股份有限公司",
+            "companyShort": "福貞-KY",
+            "shown": true,
+            "reason": "own"
+          }
+        ],
+        "companyCodes": [
+          "8411"
+        ],
+        "holdings": [
+          {
+            "companyCode": "8411",
+            "entity": "山東福貞金屬包裝有限公司（山东福贞金属包装有限公司）",
+            "kind": "listed",
+            "effectivePct": 100,
+            "controlSince": 2011,
+            "path": [
+              "福貞-KY",
+              "Joubert Holdings Limited（100%）",
+              "山東福貞金屬包裝有限公司（100%）"
+            ],
+            "basis": "MOPS 114 年第 1 季（2025Q1）福貞-KY 子公司表：本公司→Joubert Holdings Limited 100%→山東福貞金屬包裝有限公司 100%。福貞 101 年第一季合併財務季報表（官網原址 http://www.kingcanholdings.com/ponet/ezcatfiles/kingcan/img/img/10565/2012Q1.pdf；官網現在轉址到 tw.kingcan.net，2026-10-30 測試時只回安全檢測頁、取不到財報，引用 Internet Archive 2012-08-13 既有封存 https://web.archive.org/web/20120813032314/http://www.kingcanholdings.com:80/ponet/ezcatfiles/kingcan/img/img/10565/2012Q1.pdf）PDF 第 7 頁「列入合併財務季報表之子公司」：Joubert→山東福貞金屬包裝有限公司 101.3.31、100.3.31 皆 100%，controlSince 取 2011，早於事件（決策 38 第 1 條）。同報表附註載山東福貞的土地使用權位於章丘市明水經濟開發區，與決定書地址相同。",
+            "companyName": "福貞控股股份有限公司",
+            "companyShort": "福貞-KY",
+            "shown": true,
+            "reason": "own"
+          }
+        ]
+      },
+      {
+        "id": "kingcan-sdfuzhen-zhangqiu-2024-can-lines-no-eia-fine",
+        "title": "福貞山東章丘廠製蓋、製罐線無環評，防治設施未建成即生產，濟南市生態環境局處罰款",
+        "summary": "濟南市生態環境局 2024 年 6 月 16 日檢查發現，山東福貞金屬包裝有限公司 3 號車間的兩條製蓋生產線（2014 年投用）與製罐生產線（2015 年建成投用）沒有建設項目備案與環評審批，需配套的污染防治設施也沒有建成、驗收就投入生產，投用以來生產馬口鐵底蓋約 16 億片、罐 2,200 萬個；市局委託山東省環境保護科學研究設計院評估，結論是生產廢氣需配套密閉收集與有機廢氣末端處理設施（《建設項目環境保護管理條例》第十五、十九條）。公司申請聽證，提出備案證明、環保設施工程報價與技術服務合約、承諾書，要求從輕或減輕；市局認為計算罰款時已考慮立即改正與補救措施，不採納。2024 年 12 月 16 日處罰款人民幣 28.75 萬元（济环罚〔2024〕J024号）。",
+        "type": "enforcement",
+        "status": "penalized",
+        "dateStart": "2024-12-16",
+        "dateEnd": null,
+        "datePrecision": "day",
+        "locations": [
+          {
+            "country": "中國大陸",
+            "plantSite": "濟南章丘, 中國大陸",
+            "coordinates": {
+              "lat": 36.7142,
+              "lng": 117.5423,
+              "precision": "city",
+              "source": "https://www.openstreetmap.org/relation/12332528",
+              "note": "OSM 明水街道（relation 12332528）中心點。決定書地址是章丘明水經濟開發區工業五路中段，OSM 沒有這條路與廠區，只定位到街道"
+            }
+          }
+        ],
+        "entities": [
+          {
+            "name": "山東福貞金屬包裝有限公司",
+            "country": "中國大陸"
+          }
+        ],
+        "groupControl": [],
+        "related": {
+          "eventIds": [
+            "kingcan-sdfuzhen-zhangqiu-2024-hazardous-waste-storage-fine",
+            "kingcan-sdfuzhen-zhangqiu-2024-printing-vocs-untreated-fine"
+          ],
+          "echoFacilityIds": [],
+          "enforcementCaseIds": []
+        },
+        "sources": [
+          {
+            "kind": "company",
+            "outlet": "山東省企業環境信息依法披露系統（企業依法填報，附行政處罰決定書）",
+            "outletRegion": "local",
+            "language": "zh",
+            "title": "济环罚〔2024〕J024号 行政处罚决定书（山东福贞金属包装有限公司临时报告附件）",
+            "date": "2025-02-21",
+            "url": "http://221.214.62.226:8090/files/202502211454/file_2093bf4c-ab33-46e8-8488-413478a699d5.pdf",
+            "archiveUrl": null,
+            "verified": "opened",
+            "note": "济南市生态环境局，济环罚〔2024〕J024号。決定書是生態環境局作成的官方文件，經由企業在披露系統填報上傳，依第 3 節第 5 條標為公司文件。Wayback Save Page Now 回 523（Internet Archive 連不到這台主機），沒有封存。"
+          },
+          {
+            "kind": "company",
+            "outlet": "山東省企業環境信息依法披露系統（企業依法填報，附行政處罰決定書）",
+            "outletRegion": "local",
+            "language": "zh",
+            "title": "企业环境信息依法披露报告（企业详情页）",
+            "date": "2025-02-21",
+            "url": "http://221.214.62.226:8090/EnvironmentDisclosure/publicReportDetail/lookReportDetail?pageFrom=2&reportId=36279&reportType=2&batchYear=2024",
+            "archiveUrl": null,
+            "verified": "opened",
+            "note": "報告頁的內容由 JavaScript 載入，企業在這份報告登記了上面的決定書（文號相同）；Internet Archive 連不到這台主機（523），沒有封存。"
+          }
+        ],
+        "addedAt": "2026-10-28",
+        "attribution": [
+          {
+            "companyCode": "8411",
+            "entity": "山東福貞金屬包裝有限公司（山东福贞金属包装有限公司）",
+            "kind": "listed",
+            "effectivePct": 100,
+            "controlSince": 2011,
+            "path": [
+              "福貞-KY",
+              "Joubert Holdings Limited（100%）",
+              "山東福貞金屬包裝有限公司（100%）"
+            ],
+            "basis": "MOPS 114 年第 1 季（2025Q1）福貞-KY 子公司表：本公司→Joubert Holdings Limited 100%→山東福貞金屬包裝有限公司 100%。福貞 101 年第一季合併財務季報表（官網原址 http://www.kingcanholdings.com/ponet/ezcatfiles/kingcan/img/img/10565/2012Q1.pdf；官網現在轉址到 tw.kingcan.net，2026-10-30 測試時只回安全檢測頁、取不到財報，引用 Internet Archive 2012-08-13 既有封存 https://web.archive.org/web/20120813032314/http://www.kingcanholdings.com:80/ponet/ezcatfiles/kingcan/img/img/10565/2012Q1.pdf）PDF 第 7 頁「列入合併財務季報表之子公司」：Joubert→山東福貞金屬包裝有限公司 101.3.31、100.3.31 皆 100%，controlSince 取 2011，早於事件（決策 38 第 1 條）。同報表附註載山東福貞的土地使用權位於章丘市明水經濟開發區，與決定書地址相同。",
+            "companyName": "福貞控股股份有限公司",
+            "companyShort": "福貞-KY",
+            "shown": true,
+            "reason": "own"
+          }
+        ],
+        "companyCodes": [
+          "8411"
+        ],
+        "holdings": [
+          {
+            "companyCode": "8411",
+            "entity": "山東福貞金屬包裝有限公司（山东福贞金属包装有限公司）",
+            "kind": "listed",
+            "effectivePct": 100,
+            "controlSince": 2011,
+            "path": [
+              "福貞-KY",
+              "Joubert Holdings Limited（100%）",
+              "山東福貞金屬包裝有限公司（100%）"
+            ],
+            "basis": "MOPS 114 年第 1 季（2025Q1）福貞-KY 子公司表：本公司→Joubert Holdings Limited 100%→山東福貞金屬包裝有限公司 100%。福貞 101 年第一季合併財務季報表（官網原址 http://www.kingcanholdings.com/ponet/ezcatfiles/kingcan/img/img/10565/2012Q1.pdf；官網現在轉址到 tw.kingcan.net，2026-10-30 測試時只回安全檢測頁、取不到財報，引用 Internet Archive 2012-08-13 既有封存 https://web.archive.org/web/20120813032314/http://www.kingcanholdings.com:80/ponet/ezcatfiles/kingcan/img/img/10565/2012Q1.pdf）PDF 第 7 頁「列入合併財務季報表之子公司」：Joubert→山東福貞金屬包裝有限公司 101.3.31、100.3.31 皆 100%，controlSince 取 2011，早於事件（決策 38 第 1 條）。同報表附註載山東福貞的土地使用權位於章丘市明水經濟開發區，與決定書地址相同。",
+            "companyName": "福貞控股股份有限公司",
+            "companyShort": "福貞-KY",
+            "shown": true,
+            "reason": "own"
+          }
+        ]
+      }
+    ],
+    "inEpaData": false,
+    "metadata": {
+      "dataSource": "污染事件（官方文件與新聞報導）",
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
+    },
+    "enforcementSummary": {
+      "count": 0,
+      "penaltyTotalUSD": 0,
+      "latestYear": null
     }
   },
   {
@@ -214288,7 +215052,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -214502,7 +215266,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -214627,7 +215391,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -214750,7 +215514,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -214873,7 +215637,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -215091,7 +215855,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -215119,6 +215883,109 @@
     "violations": [],
     "enforcement": [],
     "news": [
+      {
+        "id": "guic-sdmeilin-weifang-2024-domestic-sewage-storm-drain-fine",
+        "title": "成霖山東美林衛浴廠生活污水經雨水管外排，濰坊市生態環境局處罰款",
+        "summary": "濰坊市生態環境局依信訪舉報，2024 年 2 月 1 日檢查成霖持有的山東美林衛浴有限公司，排污許可證規定生活污水不得外排，公司卻經雨水管道排到廠外，污染物排放方式與去向不符合排污許可證（《排污許可管理條例》第三十六條第二項）。裁量考量立即改正、環境影響未擴大、依法配合調查；公司在法定期限內未陳述申辯或要求聽證。2024 年 4 月 22 日處罰款人民幣 6.8 萬元（潍环罚字〔2024〕FZ3号）。",
+        "type": "enforcement",
+        "status": "penalized",
+        "dateStart": "2024-04-22",
+        "dateEnd": null,
+        "datePrecision": "day",
+        "locations": [
+          {
+            "country": "中國大陸",
+            "plantSite": "濰坊坊子, 中國大陸",
+            "coordinates": {
+              "lat": 36.5432,
+              "lng": 119.1413,
+              "precision": "facility",
+              "source": "https://www.openstreetmap.org/relation/10826980",
+              "note": "OSM「山东美林卫浴有限公司」工業用地範圍（relation 10826980）的中心點。決定書地址只寫到坊子區經濟發展區，這塊用地旁有「坊子区经济发展区中心小学」，地名對得上"
+            }
+          }
+        ],
+        "entities": [
+          {
+            "name": "山東美林衛浴有限公司",
+            "country": "中國大陸"
+          }
+        ],
+        "groupControl": [],
+        "related": {
+          "eventIds": [],
+          "echoFacilityIds": [],
+          "enforcementCaseIds": []
+        },
+        "sources": [
+          {
+            "kind": "company",
+            "outlet": "山東省企業環境信息依法披露系統（企業依法填報，附行政處罰決定書）",
+            "outletRegion": "local",
+            "language": "zh",
+            "title": "潍环罚字〔2024〕FZ3号 行政处罚决定书（山东美林卫浴有限公司临时报告附件）",
+            "date": "2025-12-19",
+            "url": "http://221.214.62.226:8090/files/202512191548/file_2d61905e-c008-48ed-af25-95a1f9a2fd10.pdf",
+            "archiveUrl": null,
+            "verified": "opened",
+            "note": "潍坊市生态环境局，潍环罚字〔2024〕FZ3号。決定書是生態環境局作成的官方文件，經由企業在披露系統填報上傳，依第 3 節第 5 條標為公司文件。決定書是手機掃描件，抬頭文號模糊，文號依系統登記與告知書（潍环罚告字〔2024〕FZ3号）。Wayback Save Page Now 回 523（Internet Archive 連不到這台主機），沒有封存。"
+          },
+          {
+            "kind": "company",
+            "outlet": "山東省企業環境信息依法披露系統（企業依法填報，附行政處罰決定書）",
+            "outletRegion": "local",
+            "language": "zh",
+            "title": "企业环境信息依法披露报告（企业详情页）",
+            "date": "2025-12-19",
+            "url": "http://221.214.62.226:8090/EnvironmentDisclosure/publicReportDetail/lookReportDetail?pageFrom=2&reportId=31676&reportType=2&batchYear=2024",
+            "archiveUrl": null,
+            "verified": "opened",
+            "note": "報告頁的內容由 JavaScript 載入，企業在這份報告登記了上面的決定書（文號相同）；Internet Archive 連不到這台主機（523），沒有封存。"
+          }
+        ],
+        "addedAt": "2026-10-28",
+        "attribution": [
+          {
+            "companyCode": "9934",
+            "entity": "山東美林衛浴有限公司（山东美林卫浴有限公司）",
+            "kind": "listed",
+            "effectivePct": 100,
+            "controlSince": 2012,
+            "path": [
+              "成霖",
+              "Globe Union (Bermuda) Ltd.（100%）→ 山東美林衛浴有限公司（89.29%）",
+              "Globe Union Industrial (B.V.I.) Corp.（100%）→ 山東美林衛浴有限公司（10.71%）"
+            ],
+            "basis": "MOPS 114 年第 1 季（2025Q1）成霖子公司表：G.U.L.(Bermuda) 89.29% ＋ G.U.I.(B.V.I.) 10.71%，合計 100%。成霖 102 年第一季合併財務報告（https://tw.globeunion.com/wp-content/uploads/2019/10/1369364613.pdf）PDF 第 18 頁：G.U.L.(Bermuda)→山東美林衛浴有限公司，101.01.01 起 100%，controlSince 取 2012，早於事件（決策 38 第 1 條）。108 年第二季合併財報（https://tw.globeunion.com/wp-content/uploads/2019/10/1566205982.pdf）p18 註一載 2018 年增資後比例調為 89.29%／10.71%；事件前的 2023 年度英文合併財報 p19（Milim G&G Ceramics Co., Ltd.）同為 89.29%／10.71%。",
+            "companyName": "成霖企業股份有限公司",
+            "companyShort": "成霖",
+            "shown": true,
+            "reason": "own"
+          }
+        ],
+        "companyCodes": [
+          "9934"
+        ],
+        "holdings": [
+          {
+            "companyCode": "9934",
+            "entity": "山東美林衛浴有限公司（山东美林卫浴有限公司）",
+            "kind": "listed",
+            "effectivePct": 100,
+            "controlSince": 2012,
+            "path": [
+              "成霖",
+              "Globe Union (Bermuda) Ltd.（100%）→ 山東美林衛浴有限公司（89.29%）",
+              "Globe Union Industrial (B.V.I.) Corp.（100%）→ 山東美林衛浴有限公司（10.71%）"
+            ],
+            "basis": "MOPS 114 年第 1 季（2025Q1）成霖子公司表：G.U.L.(Bermuda) 89.29% ＋ G.U.I.(B.V.I.) 10.71%，合計 100%。成霖 102 年第一季合併財務報告（https://tw.globeunion.com/wp-content/uploads/2019/10/1369364613.pdf）PDF 第 18 頁：G.U.L.(Bermuda)→山東美林衛浴有限公司，101.01.01 起 100%，controlSince 取 2012，早於事件（決策 38 第 1 條）。108 年第二季合併財報（https://tw.globeunion.com/wp-content/uploads/2019/10/1566205982.pdf）p18 註一載 2018 年增資後比例調為 89.29%／10.71%；事件前的 2023 年度英文合併財報 p19（Milim G&G Ceramics Co., Ltd.）同為 89.29%／10.71%。",
+            "companyName": "成霖企業股份有限公司",
+            "companyShort": "成霖",
+            "shown": true,
+            "reason": "own"
+          }
+        ]
+      },
       {
         "id": "guic-szchenglin-shenzhen-2022-total-chromium-exceedance-fine",
         "title": "成霖深圳廠廢水總鉻超標，深圳寶安管理局處罰款",
@@ -215214,7 +216081,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-30T08:02:23.796Z"
+      "lastUpdated": "2026-10-30T08:11:18.468Z"
     },
     "enforcementSummary": {
       "count": 0,

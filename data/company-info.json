@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27",
+  "generatedAt": "2026-10-28",
   "note": "由 scripts/build-company-info.py 產生：污染事件或 Violation Tracker 紀錄掛到、但不在 EPA 資料裡的上市公司基本資料（MOPS）。sources：news 污染事件｜enforcement Violation Tracker。",
   "companies": {
     "1326": {

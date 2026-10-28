@@ -2922,7 +2922,7 @@
   {
     "id": "multitech-vietnam-nhontrach-2024-expansion-without-permit-fine",
     "title": "明安越南廠擴建超出環境許可範圍未重新申請，同奈省處罰款",
-    "summary": "同奈省工業區管理委員會 2024 年 11 月查核明安子公司 Advanced International Multitech (Vietnam) 的高爾夫球頭廠，認定公司自 2024 年 8 月起在仁澤第二工業區第二期動工擴建，規模超出同年 5 月核發的環境許可證，卻沒有申請重新核發。同奈省人民委員會主席 2024 年 11 月 12 日依環保行政罰則（第 45/2022 號議定）處罰款 3.2 億越南盾，沒有加處其他處分或要求補救措施。",
+    "summary": "同奈省工業區管理委員會 2024 年 11 月查核明安子公司 Advanced International Multitech (Vietnam) 的高爾夫球頭廠，認定公司自 2024 年 8 月起在仁澤第三工業區第二期動工擴建，規模超出同年 5 月核發的環境許可證，卻沒有申請重新核發。同奈省人民委員會主席 2024 年 11 月 12 日依環保行政罰則（第 45/2022 號議定）處罰款 3.2 億越南盾，沒有加處其他處分或要求補救措施。",
     "type": "enforcement",
     "status": "penalized",
     "dateStart": "2024-11-12",
@@ -2931,7 +2931,7 @@
     "locations": [
       {
         "country": "越南",
-        "plantSite": "仁澤第二工業區第二期（Nhơn Trạch II）, 同奈省, 越南"
+        "plantSite": "仁澤第三工業區第二期（Nhơn Trạch III）, 同奈省, 越南"
       }
     ],
     "entities": [
@@ -2973,7 +2973,7 @@
         "url": "https://dongnai.gov.vn/uploads/binhphuoc/news/2024/11/2024-qd-3365.pdf",
         "archiveUrl": "https://web.archive.org/web/20261027030106/https://dongnai.gov.vn/uploads/binhphuoc/news/2024/11/2024-qd-3365.pdf",
         "verified": "opened",
-        "note": "同奈省人民委員會電子簽章的決定書副本（簽章時間 2024-11-12），號碼與日期為手寫，經影像核對。受罰：Công ty TNHH Advanced Multitech (Việt Nam)，稅號 3600711988。依工業區管理委員會 2024-11-04 違規筆錄 19/BB-VPHC。行為：2024 年 8 月起在 Nhơn Trạch II 工業區第二期 2 號路動工擴建，超出環境許可證 68/GPMT-KCNĐN（2024-05-21）的範圍，未取得重新核發的環境許可證；第 45/2022/NĐ-CP 第 11 條第 2 項 e 點，3.2 億越南盾。加重、減輕情節皆無；無附加處分、無補救措施。決定書第 3 條有一處把受罰公司誤植為「Công ty TNHH Hyosung Việt Nam」，其餘各處（含第 1 條、繳款條款）都是 Advanced Multitech，應為套用範本的筆誤。公告頁：https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-doi-voi-cong-ty-tnhh-advanced-multitech-viet-nam-48645.html（封存 https://web.archive.org/web/20261027030136/https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-doi-voi-cong-ty-tnhh-advanced-multitech-viet-nam-48645.html）。"
+        "note": "同奈省人民委員會電子簽章的決定書副本（簽章時間 2024-11-12），號碼與日期為手寫，經影像核對。受罰：Công ty TNHH Advanced Multitech (Việt Nam)，稅號 3600711988。依工業區管理委員會 2024-11-04 違規筆錄 19/BB-VPHC。行為：2024 年 8 月起在 Nhơn Trạch III 工業區第二期 2 號路（Long Thọ 社）動工擴建，超出環境許可證 68/GPMT-KCNĐN（2024-05-21）的範圍，未取得重新核發的環境許可證；第 45/2022/NĐ-CP 第 11 條第 2 項 e 點，3.2 億越南盾。加重、減輕情節皆無；無附加處分、無補救措施。決定書第 3 條有一處把受罰公司誤植為「Công ty TNHH Hyosung Việt Nam」，其餘各處（含第 1 條、繳款條款）都是 Advanced Multitech，應為套用範本的筆誤。公告頁：https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-doi-voi-cong-ty-tnhh-advanced-multitech-viet-nam-48645.html（封存 https://web.archive.org/web/20261027030136/https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-doi-voi-cong-ty-tnhh-advanced-multitech-viet-nam-48645.html）。"
       }
     ],
     "addedAt": "2026-10-27"
@@ -2981,7 +2981,7 @@
   {
     "id": "multitech-vietnam-nhontrach-2025-no-environmental-permit-fine",
     "title": "明安越南廠無環境許可證運轉，同奈省處罰款",
-    "summary": "同奈省人民委員會主席 2025 年 6 月 2 日處分明安子公司 Advanced International Multitech (Vietnam)：仁澤第二工業區第一期的工廠（環評 2021 年核准）沒有環境許可證就運轉，依第 45/2022 號議定處罰款 3.2 億越南盾（議定罰額以個人計為 1.6 億，對組織加倍）。決定書以違規主要屬許可程序、公司已主動申請環境許可證、沒有陳情、5,000 名員工為由，不加處停止排放源，也不要求遷廠。",
+    "summary": "同奈省人民委員會主席 2025 年 6 月 2 日處分明安子公司 Advanced International Multitech (Vietnam)：仁澤第三工業區第一期的工廠（環評 2021 年核准）沒有環境許可證就運轉，依第 45/2022 號議定處罰款 3.2 億越南盾（議定罰額以個人計為 1.6 億，對組織加倍）。決定書以違規主要屬許可程序、公司已主動申請環境許可證、沒有陳情、5,000 名員工為由，不加處停止排放源，也不要求遷廠。",
     "type": "enforcement",
     "status": "penalized",
     "dateStart": "2025-06-02",
@@ -2990,7 +2990,7 @@
     "locations": [
       {
         "country": "越南",
-        "plantSite": "仁澤第二工業區第一期（Nhơn Trạch II）, 同奈省, 越南"
+        "plantSite": "仁澤第三工業區第一期（Nhơn Trạch III）, 同奈省, 越南"
       }
     ],
     "entities": [
@@ -3032,7 +3032,7 @@
         "url": "https://dongnai.gov.vn/uploads/binhphuoc/news/2025/07/1776_qd_qd_2025.pdf",
         "archiveUrl": "https://web.archive.org/web/20261027030233/https://dongnai.gov.vn/uploads/binhphuoc/news/2025/07/1776_qd_qd_2025.pdf",
         "verified": "opened",
-        "note": "同奈省人民委員會電子簽章的決定書副本（簽章時間 2025-06-02）。受罰：Công ty TNHH Advanced Multitech (Việt Nam)，稅號 3600711988。依 2025-05-22 違規筆錄 53/BB-VPHC。行為：環評 354/QĐ-KCNĐN（2021-08-05）的工廠沒有環境許可證就運轉；第 45/2022/NĐ-CP 第 14 條第 3 項 c 點、第 6 條第 2 項，1.6 億 × 2 = 3.2 億越南盾。加重、減輕情節皆無。不加處停止排放源：違規主要屬環境許可程序、已主動申請環境許可證、在 Nhơn Trạch II 第一期營運穩定、未接獲陳情、5,000 名員工；廠址符合工業區規劃，不要求遷廠。公告頁：https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-moi-truong-doi-voi-cong-ty-tnhh-advanced-multitech-viet-nam-54071.html（封存 https://web.archive.org/web/20261027030333/https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-moi-truong-doi-voi-cong-ty-tnhh-advanced-multitech-viet-nam-54071.html）。"
+        "note": "同奈省人民委員會電子簽章的決定書副本（簽章時間 2025-06-02）。受罰：Công ty TNHH Advanced Multitech (Việt Nam)，稅號 3600711988。依 2025-05-22 違規筆錄 53/BB-VPHC。行為：環評 354/QĐ-KCNĐN（2021-08-05）的工廠沒有環境許可證就運轉；第 45/2022/NĐ-CP 第 14 條第 3 項 c 點、第 6 條第 2 項，1.6 億 × 2 = 3.2 億越南盾。加重、減輕情節皆無。不加處停止排放源：違規主要屬環境許可程序、已主動申請環境許可證、在 Nhơn Trạch III 第一期營運穩定、未接獲陳情、5,000 名員工；廠址符合工業區規劃，不要求遷廠。公告頁：https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-moi-truong-doi-voi-cong-ty-tnhh-advanced-multitech-viet-nam-54071.html（封存 https://web.archive.org/web/20261027030333/https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-moi-truong-doi-voi-cong-ty-tnhh-advanced-multitech-viet-nam-54071.html）。"
       }
     ],
     "addedAt": "2026-10-27"

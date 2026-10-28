@@ -72,8 +72,9 @@ spec 第 7 節「其他公司」O5–O12 的查證紀錄，以及兩筆待補來
 ## O10、O11：3365/QĐ-XPHC（2024-11-12）、1776/QĐ-XPHC（2025-06-02），明安越南
 
 - 受罰：Công ty TNHH Advanced Multitech (Việt Nam)，稅號 3600711988，總公司 Nhơn Trạch III 工業區（Formosa 分區）4 號路，2004-12-17 首次登記。國家工商登記英文名 ADVANCED INTERNATIONAL MULTITECH (VIETNAM) CORPORATION LTD，與 MOPS 2025Q2 明安直接持有 100% 的子公司同名（MOPS 公司名多了「International」，越南文名沒有，以登記英文名對上）。
-- O10：工業區管理委員會 2024-11-04 違規筆錄 19/BB-VPHC。2024 年 8 月起在 Nhơn Trạch II 工業區第二期 2 號路動工擴建，超出環境許可證 68/GPMT-KCNĐN（2024-05-21）範圍，未取得重新核發的許可證；第 45/2022/NĐ-CP 第 11 條第 2 項 e 點，3.2 億越南盾。無附加處分、無補救措施。第 1 條的受罰人名稱與稅號都是 Advanced Multitech；第 3 條有一處誤植為「Công ty TNHH Hyosung Việt Nam」，應為套用範本的筆誤，只記在 note。
-- O11：2025-05-22 違規筆錄 53/BB-VPHC。環評 354/QĐ-KCNĐN（2021-08-05）的工廠沒有環境許可證就運轉；第 14 條第 3 項 c 點、第 6 條第 2 項，1.6 億 × 2 = 3.2 億越南盾。決定書說公司在 Nhơn Trạch II 第一期營運穩定，所以 plantSite 寫第一期，與 O10 的第二期擴建工地分開。不加處停止排放源：違規主要屬許可程序、已主動申請許可、未接獲陳情、5,000 名員工；不要求遷廠。
+- O10：工業區管理委員會 2024-11-04 違規筆錄 19/BB-VPHC。2024 年 8 月起在 Nhơn Trạch III 工業區第二期 2 號路（Long Thọ 社）動工擴建，超出環境許可證 68/GPMT-KCNĐN（2024-05-21）範圍，未取得重新核發的許可證；第 45/2022/NĐ-CP 第 11 條第 2 項 e 點，3.2 億越南盾。無附加處分、無補救措施。第 1 條的受罰人名稱與稅號都是 Advanced Multitech；第 3 條有一處誤植為「Công ty TNHH Hyosung Việt Nam」，應為套用範本的筆誤，只記在 note。
+- O11：2025-05-22 違規筆錄 53/BB-VPHC。環評 354/QĐ-KCNĐN（2021-08-05）的工廠沒有環境許可證就運轉；第 14 條第 3 項 c 點、第 6 條第 2 項，1.6 億 × 2 = 3.2 億越南盾。決定書說公司在 Nhơn Trạch III 第一期營運穩定，所以 plantSite 寫第一期，與 O10 的第二期擴建工地分開。
+- 工業區更正（2026-10-28）：O10、O11 原本寫成 Nhơn Trạch II（仁澤第二工業區），是 OCR 把「III」讀成「II」。回頭看兩份決定書影像，違規地點都是 Nhơn Trạch III（3365 號：第二期 2 號路、Long Thọ 社；1776 號：第一期），與總公司地址、moitruong.net.vn 對 3365 號的報導一致。同一輪也看了 O9 VMEP（Lô 4 đường 5C，確為 Nhơn Trạch II）、Gold Long John（確為 Nhơn Trạch II）、Kuang Tai（確為 Nhơn Trạch III）的影像。不加處停止排放源：違規主要屬許可程序、已主動申請許可、未接獲陳情、5,000 名員工；不要求遷廠。
 
 ## O12：255/QĐ-XPHC（2025-07-01），寶成 Pou Sung Vietnam
 

@@ -75,8 +75,8 @@ const Reveal = ({ delay, children, ...rest }) => (
   </Box>
 );
 
-// 主標在「，」或「：」後換行（不用 lookbehind，舊版 Safari 不支援）；最長一行超過 10 字就縮一級字
-const headlineLines = (headline) => headline.replace(/([，：])/g, '$1\n').split('\n');
+// 主標在「，」或「：」後、「——」前換行（不用 lookbehind，舊版 Safari 不支援）；最長一行超過 10 字就縮一級字
+export const headlineLines = (headline) => headline.replace(/([，：])/g, '$1\n').replace(/——/g, '\n——').split('\n');
 const HEADLINE_SIZE = { base: '2.4rem', sm: '3rem', md: '4.2rem', xl: '4.8rem' };
 const LONG_HEADLINE_SIZE = { base: '2rem', sm: '2.5rem', md: '3.2rem', xl: '3.6rem' };
 

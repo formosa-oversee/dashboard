@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { Box, Container, SimpleGrid, Heading, Text, Flex, Button, Link as ChakraLink } from '@chakra-ui/react';
 import Layout from '../../components/Layout';
-import { StrataArt } from '../../components/report/ReportHero';
+import { StrataArt, headlineLines } from '../../components/report/ReportHero';
 import { R, SERIF_FONT_URL } from '../../components/report/tokens';
 import { listReports, reportPath, formatMonth, publishedLabel } from '../../lib/reports';
 
@@ -15,19 +15,27 @@ const Meta = ({ report }) => (
   </Flex>
 );
 
-// 封面固定高度、主標最多三行，並排的卡片下方文字才會對齊
-const Cover = ({ report, h, headlineSize, artH }) => (
-  <Flex direction="column" justify="space-between" bg={R.deep} color="#fff" h={h} flexShrink={0} position="relative" overflow="hidden">
-    <Box p={{ base: 6, md: 8 }} position="relative">
-      <Text fontSize="12px" fontWeight={700} letterSpacing="0.2em" color={R.onDeep}>{report.kicker}</Text>
-      <Text className="cover-headline" fontFamily={R.serif} fontWeight={900} fontSize={headlineSize}
-        lineHeight={1.35} mt={4} transition="transform .3s" noOfLines={3} sx={{ textWrap: 'balance' }}>
-        {report.headline}
-      </Text>
-    </Box>
-    <Box h={artH}><StrataArt /></Box>
-  </Flex>
-);
+// 封面固定高度，並排的卡片下方文字才會對齊。主標跟單篇封面一樣在「：」「——」等處分行（寬螢幕）；
+// 超過 24 字的長標題縮一級字、放寬到四行，才不會在手機上被截掉
+const LONG_HEADLINE = 24;
+
+const Cover = ({ report, h, headlineSize, longHeadlineSize, artH }) => {
+  const long = report.headline.length > LONG_HEADLINE;
+  return (
+    <Flex direction="column" justify="space-between" bg={R.deep} color="#fff" h={h} flexShrink={0} position="relative" overflow="hidden">
+      <Box p={{ base: 6, md: 8 }} position="relative">
+        <Text fontSize="12px" fontWeight={700} letterSpacing="0.2em" color={R.onDeep}>{report.kicker}</Text>
+        <Text className="cover-headline" fontFamily={R.serif} fontWeight={900} fontSize={long ? longHeadlineSize : headlineSize}
+          lineHeight={1.35} mt={4} transition="transform .3s" noOfLines={long ? 4 : 3} sx={{ textWrap: 'balance' }}>
+          {headlineLines(report.headline).map((part, i) => (
+            <Box as="span" key={i} display={{ base: 'inline', md: 'block' }}>{part}</Box>
+          ))}
+        </Text>
+      </Box>
+      <Box h={artH}><StrataArt /></Box>
+    </Flex>
+  );
+};
 
 const cardHover = { textDecoration: 'none', borderColor: R.accent, '.cover-headline': { transform: 'translateY(-3px)' } };
 
@@ -36,7 +44,8 @@ const ReportCard = ({ report, latest }) => (
   <Link href={reportPath(report)} legacyBehavior passHref>
     <ChakraLink display="flex" flexDirection="column" bg="#ffffff" borderWidth="1px" borderColor={R.rule} _hover={cardHover}>
       <Cover report={report} h={{ base: '250px', md: '300px' }}
-        headlineSize={{ base: '1.5rem', md: '1.75rem' }} artH={{ base: '100px', md: '120px' }} />
+        headlineSize={{ base: '1.5rem', md: '1.75rem' }} longHeadlineSize={{ base: '1.25rem', md: '1.45rem' }}
+        artH={{ base: '100px', md: '120px' }} />
       <Flex direction="column" flex="1" p={{ base: 6, md: 8 }}>
         {latest && <Text fontSize="12px" fontWeight={700} letterSpacing="0.16em" color={R.accentText} mb={2}>最新專題</Text>}
         <Heading as="h2" fontFamily={R.serif} fontWeight={900} fontSize={{ base: '1.25rem', md: '1.4rem' }}

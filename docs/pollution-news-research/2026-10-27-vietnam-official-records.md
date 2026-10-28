@@ -1,6 +1,6 @@
 # 越南省級處分決定書：同奈省（2026-10-27）
 
-spec 第 7 節「其他公司」O5–O12 的查證紀錄，以及兩筆待補來源的越南案件。資料管線、名稱對照與原始檔在 repo 外的 `formosa-oversee/overseas-enforcement/`（`map_vn/`、`vn_reverse/`），這裡只記個別事件的依據。
+spec 第 7 節「其他公司」O5–O12、O16 的查證紀錄，以及兩筆待補來源的越南案件。資料管線、名稱對照與原始檔在 repo 外的 `formosa-oversee/overseas-enforcement/`（`map_vn/`、`vn_reverse/`），這裡只記個別事件的依據。
 
 ## 怎麼找到的
 
@@ -91,6 +91,19 @@ spec 第 7 節「其他公司」O5–O12 的查證紀錄，以及兩筆待補來
   - 裕元 2025 年報（HKEXnews 2026-04-21）：附註 1 寫最終母公司是寶成；主要股東表寫寶成經兩家全資子公司 Wealthplus Holdings（48.18%）、Win Fortune Investments（3.18%）合計持有 51.36%（2025-12-31）。兩個來源的拆法不同，合計相同，effectivePct 取 51.36。附註 45 主要子公司（PDF 第 203 頁、年報頁碼 201）：Pou Sung Vietnam Co., Ltd，越南，註冊資本 US$117,000,000，2025、2024 年皆 100%，製造及銷售鞋類。
   - 只掛寶成 9904。裕元在香港上市、不在台灣上市；第 4 節本來就只算台灣上市公司，所以只寫在持股路徑。
 - 地點：plantSite「Bàu Xéo 工業區, 同奈省, 越南」。coordinates 取 OSM way 321136900（Khu công nghiệp Bàu Xéo）的中心點，precision 為 industrial-park；OSM 沒有這家的廠房。
+
+## O16：海陽省 3076/QĐ-XPVPHC（2020-10-12），台翰永翰精密
+
+- **怎麼找到的**：2026-10-28 讀越南農業與環境部機關報 nongnghiepmoitruong.vn 2020–2024 年的文章。sitemap 共列 193,494 篇（robots 允許 sitemap，不允許站內搜尋），按網址關鍵字篩出 1,406 篇裁罰類，用一般 Chrome 逐篇讀取（間隔 1.5 秒）。用越南名稱與稅號對照（`vn_names`，另加鴻海體系的越南名稱）比對，只命中這一家的 3 篇；其餘提到台資的都是投資新聞，或受罰公司不在任何台灣上市公司的子公司表裡。
+- **受罰法人**：報導寫 Công ty TNHH Công nghệ Vĩnh Hàn Precision，海陽省 Cẩm Giàng 縣 Cẩm Phúc 社福田工業區 B7、B8 地塊。越南國家工商登記的英文名 YONGHAN PRECISION TECHNOLOGY CO., LTD.，稅號 0800340799，與 MOPS 台翰子公司表同名（業務為精密模具與塑膠製品）。
+- **持股與 controlSince**：MOPS 114 年第 2 季：台翰 → TAIHAN PRECISION TECHNOLOGY (SAMOA) 100% → YONGHAN HOLDING (SAMOA) 100% → YONGHAN PRECISION TECHNOLOGY 100%。台翰 109 年第 2 季合併財報（掃描檔，OCR 後對照影像）PDF 第 16 頁，同一路徑在 108.6.30 已列 100%，取 2019（決策 38 第 1 條）。報導與第三方名錄的 2006 設立只當補充。
+- **來源與門檻**：
+  - Báo Nông nghiệp và Môi trường（2020 年時是 Báo Tài nguyên & Môi trường）2020-10-23：寫明第 3076/QĐ-XPVPHC 號決定、罰款 3.25 億越南盾、停止該項目 120 天與補救措施。同報 11-02 報導停工期間仍照常運轉（決定依第 155/2016/NĐ-CP 第 9 條第 4 項 a 點），11-06 報導資源環境廳預定 11 月 9 至 13 日查封機器設備。同一報社算 1 家。
+  - Báo Hải Dương（海陽省黨報，2025 年省份合併後併入 Báo Hải Phòng，網址已改到 baohaiphong.vn）2020-11-11：依海陽省資源環境廳，公司已繳清罰款，省人委會 11-04 核准該項目的環評報告，違規後果已補救完成。
+  - 兩家是不同主管機關的報社，各自引述省政府的決定與省廳說法，沒有轉載彼此，算 2 家獨立媒體（第 3 節第 1 條）。
+- **沒拿到原件**：海陽省（今海防市）入口網從台灣連線逾時；沒有用代理或第三方伺服器代抓。
+- **封存**：兩個網站的 Wayback Save Page Now 都回 520，沒有封存；2026-10-28 用一般瀏覽器開啟核對。
+- **座標**：OSM「Khu công nghiệp Phúc Điền」工業區範圍（way 597885883）的中心點，industrial-park。OSM 沒有這家廠。
 
 ## 不收
 

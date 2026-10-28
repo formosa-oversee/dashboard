@@ -6821,5 +6821,345 @@
       }
     ],
     "addedAt": "2026-10-28"
+  },
+  {
+    "id": "tachen-shijiazhuang-dachengjitai-2018-abnormal-pollution-control-notice",
+    "title": "大成鋼石家莊大成冀台廠治污設施不正常運行，生態環境部強化督查點名",
+    "summary": "生態環境部 2018 年 6 月 14 日通報藍天保衛戰重點區域強化督查進展：6 月 13 日在京津冀及周邊地區發現涉氣環境問題 192 個，附件清單第 24 項是河北石家莊市藁城區的石家莊大成冀台機械有限公司，問題類型為「治污設施不正常運行」。通報只列問題類別，沒有寫具體事實、處罰或整改。",
+    "type": "enforcement",
+    "status": "concluded",
+    "dateStart": "2018-06-13",
+    "dateEnd": null,
+    "datePrecision": "day",
+    "locations": [
+      {
+        "country": "中國大陸",
+        "plantSite": "石家莊藁城, 中國大陸",
+        "coordinates": {
+          "lat": 38.0236,
+          "lng": 114.8406,
+          "precision": "city",
+          "source": "https://www.openstreetmap.org/relation/3290455",
+          "note": "OSM 藁城区（relation 3290455）中心點。通報只寫到藁城區；大成鋼 112 年年報所載地址是石家莊市經濟技術開發區豐產路 26 號，OSM 定位不到門牌，只定位到區。區中心點，不是廠區"
+        }
+      }
+    ],
+    "entities": [
+      {
+        "name": "石家莊大成冀台機械有限公司",
+        "country": "中國大陸"
+      }
+    ],
+    "attributionOverride": [
+      {
+        "companyCode": "2027",
+        "entity": "石家莊大成冀台機械有限公司（石家庄大成冀台机械有限公司）",
+        "kind": "listed",
+        "effectivePct": 93.14,
+        "controlSince": 1995,
+        "path": [
+          "大成鋼",
+          "大成維京控股有限公司（100%）",
+          "石家莊大成冀台機械有限公司（93.14%）"
+        ],
+        "basis": "大成鋼 112 年度年報（http://www.tachen.com.tw/download/AnnualReport/%E5%A4%A7%E6%88%90112%E5%B9%B4%E5%B9%B4%E5%A0%B1.pdf）p11 沿革：「民國84年 轉投資大陸石家庄冀台精密鑄造有限公司(石家庄大成冀台機械有限公司)」；p114 關係企業表載設立 84 年 8 月，與轉投資同年（決策 38 第 2 條）；p119、p166：大成維京控股→石家莊大成冀台 93.14%。controlSince 取 1995，早於事件；1995 年當時的持股比例文件未載。"
+      }
+    ],
+    "groupControl": [],
+    "related": {
+      "eventIds": [],
+      "echoFacilityIds": [],
+      "enforcementCaseIds": []
+    },
+    "sources": [
+      {
+        "kind": "official",
+        "outlet": "生态环境部网站",
+        "outletRegion": "local",
+        "language": "zh",
+        "title": "生态环境部通报2018-2019蓝天保卫战重点区域强化督查工作进展",
+        "date": "2018-06-14",
+        "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk15/201806/t20180614_630259.html",
+        "archiveUrl": "https://web.archive.org/web/20261028085752/https://www.mee.gov.cn/xxgk2018/xxgk/xxgk15/201806/t20180614_630259.html",
+        "verified": "opened",
+        "note": "生态环境部（2018-2019年蓝天保卫战重点区域强化督查）。"
+      }
+    ],
+    "addedAt": "2026-10-28"
+  },
+  {
+    "id": "honhai-fujin-jincheng-2020-vehicle-control-supervision-letter",
+    "title": "鴻海富晉精密晉城廠未落實運輸車輛管控，生態環境部督辦",
+    "summary": "生態環境部辦公廳 2020 年 2 月 17 日公開的督辦函指出，2019 年 12 月 4 日至 17 日藍天保衛戰重點區域強化監督定點幫扶工作組在晉城發現，富晉精密工業（晉城）有限公司「未按要求落實運輸車輛管控措施」，決定督辦，要求限期整治、依法查處。函中沒有處罰金額。後續有沒有處罰，未查到。",
+    "type": "enforcement",
+    "status": "concluded",
+    "dateStart": "2020-02-17",
+    "dateEnd": null,
+    "datePrecision": "day",
+    "locations": [
+      {
+        "country": "中國大陸",
+        "plantSite": "山西晉城, 中國大陸",
+        "coordinates": {
+          "lat": 35.4913,
+          "lng": 112.8454,
+          "precision": "city",
+          "source": "https://www.openstreetmap.org/relation/3237073",
+          "note": "OSM 晋城市（relation 3237073）中心點。督辦函只寫晉城市，沒有地址，OSM 也沒有這家廠，只定位到市。地級市中心點，不是廠區"
+        }
+      }
+    ],
+    "entities": [
+      {
+        "name": "富晉精密工業（晉城）有限公司",
+        "country": "中國大陸"
+      }
+    ],
+    "attributionOverride": [
+      {
+        "companyCode": "2317",
+        "entity": "富晉精密工業（晉城）有限公司（富晋精密工业（晋城）有限公司）",
+        "kind": "listed",
+        "effectivePct": 100.0,
+        "controlSince": 2019,
+        "path": [
+          "鴻海",
+          "（經第三地區公司間接投資，附表註1）",
+          "富晉精密工業（晉城）有限公司（100%）"
+        ],
+        "basis": "鴻海 108 年度（2019Q4）合併財報大陸被投資公司資訊附表（https://image.honhai.com/financy_by_quarterly/2019Q4_consolidated_report(c).pdf）PDF p195：富晉精密工業（晉城）本公司直接或間接投資持股比例 100%，投資方式為經第三地區公司（附表只列合計比例，決策 36）；2019-12-31 已列，controlSince 取 2019，早於 2020-02-17 的督辦函。"
+      }
+    ],
+    "groupControl": [],
+    "related": {
+      "eventIds": [],
+      "echoFacilityIds": [],
+      "enforcementCaseIds": []
+    },
+    "sources": [
+      {
+        "kind": "official",
+        "outlet": "生态环境部网站",
+        "outletRegion": "local",
+        "language": "zh",
+        "title": "关于对强化监督定点帮扶发现问题进行督办的函(晋城)",
+        "date": "2020-03-04",
+        "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk12/202003/t20200304_767245.html",
+        "archiveUrl": "https://web.archive.org/web/20261028091433/https://www.mee.gov.cn/xxgk2018/xxgk/xxgk12/202003/t20200304_767245.html",
+        "verified": "opened",
+        "note": "生态环境部，生态环境部办公厅督办函（晋城）。"
+      }
+    ],
+    "addedAt": "2026-10-28"
+  },
+  {
+    "id": "honhai-fuding-zhengzhou-2018-no-pollution-control-notice",
+    "title": "鴻海富鼎精密鄭州廠未安裝治污設施，生態環境部強化監督點名",
+    "summary": "生態環境部通報 2018 年 11 月 4 日藍天保衛戰重點區域強化監督發現的 21 個涉氣環境問題，附表第 15 項是鄭州市鄭東新區的富鼎精密工業（鄭州）有限公司，問題類型為「未安裝治污設施」。通報沒有寫具體事實、處罰或整改。",
+    "type": "enforcement",
+    "status": "concluded",
+    "dateStart": "2018-11-04",
+    "dateEnd": null,
+    "datePrecision": "day",
+    "locations": [
+      {
+        "country": "中國大陸",
+        "plantSite": "鄭州鄭東新區, 中國大陸",
+        "coordinates": {
+          "lat": 34.794,
+          "lng": 113.7501,
+          "precision": "city",
+          "source": "https://www.openstreetmap.org/node/12757120003",
+          "note": "OSM 郑东新区（node 12757120003）。通報只寫到鄭東新區，OSM 沒有這家廠，只定位到區"
+        }
+      }
+    ],
+    "entities": [
+      {
+        "name": "富鼎精密工業（鄭州）有限公司",
+        "country": "中國大陸"
+      }
+    ],
+    "attributionOverride": [
+      {
+        "companyCode": "2317",
+        "entity": "富鼎精密工業（鄭州）有限公司（富鼎精密工业（郑州）有限公司）",
+        "kind": "listed",
+        "effectivePct": 70.92,
+        "controlSince": 2017,
+        "path": [
+          "鴻海",
+          "Foxconn (Far East) Limited（Cayman，100%）",
+          "Foxconn (Far East) Limited（HK）→ 鴻騰精密科技（FIT，香港上市 6088）",
+          "富鼎精密工業（鄭州）有限公司（100%）"
+        ],
+        "basis": "鴻海 106 年度（2017Q4）合併財報大陸被投資公司資訊附表（https://image.honhai.com/financy_by_quarterly_reports/2017Q4_consolidated_report(c).pdf）PDF p193：富鼎精密工業（鄭州）持股比例 76.92%；FIT 鴻騰 2017 年報附註（PDF p104）子公司表列富鼎精密工業（鄭州）100%；FIT 2017 年報 p27：Foxconn (Far East) Limited 持有 FIT 76.92%（2018 年報為 76.81%）。controlSince 取 2017，早於事件。effectivePct 70.92% 是補充名單依 2025 年 FIT 持股計算的現值（cn_city 補充名單，鴻海 2025 合併財報附表八、FIT 年報附註 18），2017 年為 76.92%。港股上市子集團只寫在路徑（決策 30、36）。"
+      }
+    ],
+    "groupControl": [],
+    "related": {
+      "eventIds": [],
+      "echoFacilityIds": [],
+      "enforcementCaseIds": []
+    },
+    "sources": [
+      {
+        "kind": "official",
+        "outlet": "生态环境部网站",
+        "outletRegion": "local",
+        "language": "zh",
+        "title": "生态环境部通报2018-2019年蓝天保卫战重点区域强化监督涉气环境问题检查情况",
+        "date": "2018-11-05",
+        "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk15/201811/t20181105_672588.html",
+        "archiveUrl": "https://web.archive.org/web/20261028091229/https://www.mee.gov.cn/xxgk2018/xxgk/xxgk15/201811/t20181105_672588.html",
+        "verified": "opened",
+        "note": "生态环境部。"
+      }
+    ],
+    "addedAt": "2026-10-28"
+  },
+  {
+    "id": "unipresident-shanxiupc-qixian-2018-vocs-remediation-notice",
+    "title": "統一山西廠未落實 VOCs 整治要求，生態環境部強化督查點名",
+    "summary": "生態環境部通報 2018 年 9 月 26 日藍天保衛戰重點區域強化督查汾渭平原發現的 65 個涉氣環境問題，附件清單第 28 項是山西晉中市祁縣的山西統一企業有限公司，問題類型為「未落實 VOCs 整治要求」。通報沒有寫具體事實、處罰或整改。",
+    "type": "enforcement",
+    "status": "concluded",
+    "dateStart": "2018-09-26",
+    "dateEnd": null,
+    "datePrecision": "day",
+    "locations": [
+      {
+        "country": "中國大陸",
+        "plantSite": "晉中祁縣, 中國大陸",
+        "coordinates": {
+          "lat": 37.2757,
+          "lng": 112.4701,
+          "precision": "city",
+          "source": "https://www.openstreetmap.org/relation/3441290",
+          "note": "OSM 祁县（relation 3441290）中心點。通報只寫到祁縣，OSM 沒有這家廠，只定位到縣。縣中心點，不是廠區"
+        }
+      }
+    ],
+    "entities": [
+      {
+        "name": "山西統一企業有限公司",
+        "country": "中國大陸"
+      }
+    ],
+    "attributionOverride": [
+      {
+        "companyCode": "1216",
+        "entity": "山西統一企業有限公司",
+        "kind": "listed",
+        "effectivePct": 72.93,
+        "controlSince": 2017,
+        "path": [
+          "統一",
+          "Cayman President Holdings Ltd.（100%）",
+          "統一企業中國控股有限公司（香港上市 0220；2017 年統一合計 70.54%）",
+          "山西統一企業有限公司（100%）"
+        ],
+        "basis": "統一企業中國控股 2017 年報（HKEXnews https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0416/ltn20180416532.pdf）PDF p237 附註 37：子公司表列山西統一企業 100%；同年報 p36：統一經 Cayman President Holdings 等合計持有 70.54%（2018 年報為 70.63%）。這份年報 2018-04-16 公告，controlSince 取 2017，早於事件。effectivePct 72.93% 是補充名單依統一中國 2025 年報計算的現值。港股上市子集團只寫在路徑（決策 30、36）。"
+      }
+    ],
+    "groupControl": [],
+    "related": {
+      "eventIds": [],
+      "echoFacilityIds": [],
+      "enforcementCaseIds": []
+    },
+    "sources": [
+      {
+        "kind": "official",
+        "outlet": "生态环境部网站",
+        "outletRegion": "local",
+        "language": "zh",
+        "title": "生态环境部通报2018-2019年蓝天保卫战重点区域强化督查汾渭平原工作进展（9月26日）",
+        "date": "2018-09-27",
+        "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk15/201809/t20180927_661937.html",
+        "archiveUrl": "https://web.archive.org/web/20261028091344/https://www.mee.gov.cn/xxgk2018/xxgk/xxgk15/201809/t20180927_661937.html",
+        "verified": "opened",
+        "note": "生态环境部。"
+      }
+    ],
+    "addedAt": "2026-10-28"
+  },
+  {
+    "id": "taihan-yonghan-haiduong-2020-eia-suspension-fine",
+    "title": "台翰越南海陽廠未重新辦理環評，海陽省處罰款並停工 120 天",
+    "summary": "台翰經兩層薩摩亞控股公司全資持有的越南 Vĩnh Hàn Precision（YONGHAN PRECISION TECHNOLOGY，海陽省福田工業區），沒有為「塑膠與精密模具綜合廠」投資項目重新編製環境影響評估報告。據越南農業與環境報（時為資源環境報）報導，海陽省人民委員會 2020 年 10 月 12 日以第 3076/QĐ-XPVPHC 號決定處罰款 3.25 億越南盾，附加停止該項目生產經營 120 天，並要求補建、運轉環保設施並報請確認。同報 11 月 2 日報導公司在停工期間仍照常運轉，省資源環境廳表示將於 11 月 9 至 13 日查封機器設備；海陽省報 11 月 11 日則報導，依資源環境廳，公司已繳清罰款，省人民委員會 11 月 4 日核准了該項目的環評報告，違規後果已補救完成。決定書原件從台灣連不到，沒有取得。",
+    "type": "enforcement",
+    "status": "penalized",
+    "dateStart": "2020-10-12",
+    "dateEnd": null,
+    "datePrecision": "day",
+    "locations": [
+      {
+        "country": "越南",
+        "plantSite": "福田工業區（海陽省，今海防市）, 越南",
+        "coordinates": {
+          "lat": 20.9304,
+          "lng": 106.1912,
+          "precision": "industrial-park",
+          "source": "https://www.openstreetmap.org/way/597885883",
+          "note": "OSM「Khu công nghiệp Phúc Điền」工業區範圍（way 597885883），Nominatim 回傳的中心點。報導地址為福田工業區 B7、B8 地塊（Cẩm Giàng 縣 Cẩm Phúc 社），OSM 沒有這家廠，只定位到工業區"
+        }
+      }
+    ],
+    "entities": [
+      {
+        "name": "YONGHAN PRECISION TECHNOLOGY CO., LTD.",
+        "country": "越南"
+      }
+    ],
+    "attributionOverride": [
+      {
+        "companyCode": "1336",
+        "entity": "YONGHAN PRECISION TECHNOLOGY CO., LTD.（Công ty TNHH Công nghệ Vĩnh Hàn Precision，稅號 0800340799）",
+        "kind": "listed",
+        "effectivePct": 100.0,
+        "controlSince": 2019,
+        "path": [
+          "台翰",
+          "TAIHAN PRECISION TECHNOLOGY (SAMOA) CO., LTD.（100%）",
+          "YONGHAN HOLDING (SAMOA) CO., LTD.（100%）",
+          "YONGHAN PRECISION TECHNOLOGY CO., LTD.（100%）"
+        ],
+        "basis": "MOPS 114 年第 2 季（2025Q2）台翰子公司表：本公司→TAIHAN PRECISION TECHNOLOGY (SAMOA) 100%→YONGHAN HOLDING (SAMOA) 100%→YONGHAN PRECISION TECHNOLOGY（越南，生產和銷售各種精密模具及塑膠製品）100%。台翰 109 年第 2 季合併財報（http://www.thpt.com.tw/wp-content/uploads/2022/08/2020%E5%B9%B4%E7%AC%AC%E4%BA%8C%E5%AD%A3%E5%90%88%E4%BD%B5%E8%B2%A1%E5%8B%99%E5%A0%B1%E5%91%8A.pdf，掃描檔，經 OCR 與影像核對）PDF 第 16 頁「列入合併財務報告之子公司」：同一路徑在 109.6.30、108.12.31、108.6.30 皆 100%，所以最晚 2019 年已是子公司，controlSince 取 2019，早於事件（決策 38 第 1 條）。越南國家工商登記的英文名與 MOPS 相同，稅號 0800340799（vn_names 名稱對照）；報導與第三方名錄載 2006-08-28 設立，作補充。"
+      }
+    ],
+    "groupControl": [],
+    "related": {
+      "eventIds": [],
+      "echoFacilityIds": [],
+      "enforcementCaseIds": []
+    },
+    "sources": [
+      {
+        "kind": "media",
+        "outlet": "Báo Nông nghiệp và Môi trường（越南農業與環境部機關報，2020 年時為 Báo Tài nguyên & Môi trường）",
+        "outletRegion": "local",
+        "language": "vi",
+        "title": "Hải Dương: Xử phạt Công ty không lập Báo cáo đánh giá tác động môi trường",
+        "date": "2020-10-23",
+        "url": "https://nongnghiepmoitruong.vn/hai-duong-xu-phat-cong-ty-khong-lap-bao-cao-danh-gia-tac-dong-moi-truong-d672834.html",
+        "archiveUrl": null,
+        "verified": "opened",
+        "note": "寫明第 3076/QĐ-XPVPHC 號決定、罰款 3.25 億越南盾、停工 120 天與補救措施。同報另有 2020-11-02〈Hải Dương: Công ty bị đình chỉ vẫn “vô tư” hoạt động?〉（https://nongnghiepmoitruong.vn/hai-duong-cong-ty-bi-dinh-chi-van-vo-tu-hoat-dong-d673455.html，報導停工期間仍運轉、決定依第 155/2016/NĐ-CP 第 9 條第 4 項 a 點）與 2020-11-06〈Sở TN &MT Hải Dương: Sẽ niêm phong máy móc...〉（https://nongnghiepmoitruong.vn/so-tn-mt-hai-duong-se-niem-phong-may-moc-trang-thiet-bi-cong-ty-vi-pham-moi-truong-d673665.html，預定 11 月 9–13 日查封），同一報社算 1 家。網站在 Cloudflare 後面，Wayback Save Page Now 回 520，沒有封存；2026-10-28 用一般瀏覽器開啟核對。"
+      },
+      {
+        "kind": "media",
+        "outlet": "Báo Hải Phòng（原 Báo Hải Dương，海陽省黨報；2025 年省份合併後併入）",
+        "outletRegion": "local",
+        "language": "vi",
+        "title": "Công ty TNHH Công nghệ Vĩnh Hàn Precision khắc phục xong hậu quả vi phạm",
+        "date": "2020-11-11",
+        "url": "https://baohaiphong.vn/cong-ty-tnhh-cong-nghe-vinh-han-precision-khac-phuc-xong-hau-qua-vi-pham-205874.html",
+        "archiveUrl": null,
+        "verified": "opened",
+        "note": "依海陽省資源環境廳：公司已繳清 3.25 億越南盾罰款，申請重新核發環評，省人民委員會 2020-11-04 核准該項目的環評報告，違規後果已補救完成。Wayback Save Page Now 回 520，沒有封存。"
+      }
+    ],
+    "addedAt": "2026-10-28"
   }
 ]

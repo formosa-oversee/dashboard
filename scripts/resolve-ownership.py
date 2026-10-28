@@ -336,6 +336,12 @@ CURATED = [
     (SRC_US, 'innolux-corporation', r'^chi ?mei', dict(self='3481', confidence='high', controlSince=2010,
         note='奇美電子 2010 年與群創合併（存續更名奇美電、2012 年再更名群創）；2010 年以前的罰款為合併前責任，由群創承繼')),
     (SRC_G, 'innolux-corporation', r'^chimei innolux', dict(self='3481', confidence='high', note='奇美電為群創前名')),
+    (SRC_G, 'innolux-corporation', r'^chi ?mei', dict(self='3481', confidence='high', controlSince=2010,
+        note='奇美電子 2010 年與群創合併（存續更名奇美電、2012 年再更名群創）；2010 年以前的罰款為合併前責任，由群創承繼')),
+    (SRC_US, 'innolux-corporation', r'^pioneer', dict(foreign='日本先鋒 Pioneer Corporation 的美國子公司，與群創無持股關係', confidence='high',
+        note='VT 把 Pioneer Electronics (USA) 的光碟機聯合定價和解（In re Optical Disk Drive Products Antitrust Litigation，N.D. Cal. 3:10-md-2143）'
+             '掛在群創名下；該案和解的是 Pioneer Corporation 與 Pioneer Electronics 等先鋒集團被告（Courthouse News 報導），不歸群創')),
+    (None, 'hannstar-display', r'^hannstar', dict(self='6116', confidence='high', note='瀚宇彩晶 6116 本身')),
     # ---- 國巨：KEMET 2020、TOKIN（2017 併入 KEMET）
     (None, 'yageo', r'kemet blue pow', dict(node=('2327', 'KEMET Corporation'), confidence='medium', controlSince=2020,
         note='KEMET Blue Powder 為 KEMET 子公司（MOPS 未列此層），掛到 KEMET Corporation 節點；國巨 2020-06 完成收購 KEMET')),
@@ -346,7 +352,27 @@ CURATED = [
     (SRC_US, 'tatung', r'chunghwa picture tubes', dict(self='2371', confidence='medium',
         note='中華映管為大同集團關係企業、大同為最大股東（非過半持股）；華映 2019 年重整下市，MOPS 無持股資料')),
     (SRC_US, 'tatung', r'^tatung.*\bamerica\b', dict(node=('2371', '大同美國電機'), confidence='high', note='Tatung Company of America ＝ MOPS 大同美國電機(股)公司')),
+    (SRC_G, 'tatung', r'chunghwa picture tubes', dict(self='2371', confidence='medium',
+        note='中華映管為大同集團關係企業、大同為最大股東（非過半持股）；華映 2019 年重整下市，MOPS 無持股資料')),
     (SRC_G, 'tatung', r'^tatung', dict(self='2371', confidence='high', note='大同本身（含桃園電線電纜廠）')),
+    # ---- Global 境外紀錄（2026-10-28 補抓）的母公司本身與子公司
+    (SRC_G, 'nanya-technology-corp', r'^nanya technology', dict(self='2408', confidence='high', note='南亞科技 2408 本身')),
+    (SRC_G, 'evergreen-marine', r'^evergreen marine', dict(self='2603', confidence='high', note='長榮海運 2603 本身')),
+    (SRC_G, 'wan-hai-lines', r'^wan hai', dict(self='2615', confidence='high', note='萬海航運 2615 本身')),
+    (SRC_G, 'yang-ming-marine-transport', r'yang ming italy', dict(node=('2609', '陽明義大利'), confidence='high',
+        note='Yang Ming Italy S.p.A. ＝ MOPS 陽明荷蘭控股 → 陽明（義大利）股份有限公司')),
+    (SRC_G, 'yang-ming-marine-transport', r'^yang ming$', dict(self='2609', confidence='high', note='陽明海運本身')),
+    (SRC_G, 'hua-nan-financial-holdings-co-ltd', r'hua nan commercial bank', dict(node=('2880', '華南商業銀行'), confidence='high',
+        note='華南商業銀行（香港分行受罰），華南金 2880 持股 100%')),
+    (SRC_G, 'shanghai-commercial-and-savings-bank', r'^shanghai commercial bank', dict(node=('5876', '香港上海商業銀行'), confidence='high',
+        note='香港上海商業銀行（Shanghai Commercial Bank Limited），上海商銀 5876 經兩家投資公司合計持股 57.6%（MOPS）')),
+    (SRC_G, 'gourmet-master-co-ltd', r'85 degrees coffee australia', dict(node=('2723', '85 Degrees Coffee Australia Pty. Ltd.'), confidence='high',
+        note='美食-KY 2723 → 85 Degrees Cafe International Pty. Ltd.（51%）→ 85 Degrees Coffee Australia Pty. Ltd.（100%）')),
+    (SRC_G, 'formosa-plastics', r'formosa ha tinh', dict(group=['1301', '1303', '1326', '6505', '2002', '1434'], basis='group-affiliate',
+        groupName='台塑河靜鋼鐵（台塑集團與中鋼合資）', confidence='high', controlSince=2008,
+        note='Formosa Ha Tinh Steel（越南河靜鋼廠）由 Formosa Ha Tinh (Cayman) Limited 持有：中鋼 2002 20.45%（中鋼官網 FHS 頁，2011 投資）、'
+             '台塑 1301、南亞 1303、台化 1326、台塑化 6505 各 11.43%、福懋 1434 3.85%（各公司 2026Q2 財報與 Fubon 轉投資資料）；'
+             '台塑集團 2008 年設立。與網站污染事件「河靜鋼廠」的持股歸屬相同（docs/pollution-news-spec.md）')),
     # ---- 陽明
     (SRC_US, 'yang-ming-marine-transport', r'yang ming america', dict(node=('2609', '陽明(美洲)'), confidence='high',
         note='Yang Ming (America) Corp. ＝ MOPS 陽明德拉瓦控股 → 陽明（美洲）')),
@@ -526,18 +552,28 @@ def load_vt_entities():
     d = DATA / 'violation-tracker'
     if not d.exists():
         return None
-    files = sorted(d.glob('*-p*.tsv'))
+    # 三種快照各自取最新日期（與 build-enforcement.js 相同）：US 版、Global 台灣國內、Global 總部在台灣的境外紀錄
+    families = {'-us-hq-taiwan-p': SRC_US, '-global-taiwan-p': SRC_G, '-global-hq-taiwan-abroad': SRC_G}
+    files = []
+    for marker in families:
+        fs_ = sorted(f for f in d.glob('*.tsv') if marker in f.name)
+        if fs_:
+            latest = max(f.name[:10] for f in fs_)
+            files += [f for f in fs_ if f.name.startswith(latest)]
     if not files:
         return None
-    date = max(re.match(r'(\d{4}-\d{2}-\d{2})', f.name).group(1) for f in files)
+    date = max(f.name[:10] for f in files if '-us-hq-taiwan-p' in f.name) if any('-us-hq-taiwan-p' in f.name for f in files) else None
     agg = {}
     for f in files:
-        if not f.name.startswith(date): continue
         source = SRC_G if '-global-' in f.name else SRC_US
         for line in open(f, encoding='utf-8'):
             c = line.rstrip('\n').split('\t')
-            if len(c) != 8: continue
-            if source == SRC_US:
+            if '-global-hq-taiwan-abroad' in f.name:
+                if len(c) != 9: continue
+                _, company, slug, _, _, _, year, _, pen = c
+            elif len(c) != 8:
+                continue
+            elif source == SRC_US:
                 _, company, slug, _, _, year, _, pen = c
             else:
                 _, company, slug, _, _, _, year, pen = c

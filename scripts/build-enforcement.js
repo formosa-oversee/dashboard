@@ -5,6 +5,9 @@
  * 輸入：data/violation-tracker/<date>-us-hq-taiwan-p*.tsv
  *   欄位：recordSlug, company, parentSlug, industry, offenseType, year, agencyCode, penaltyText
  * 輸入：data/violation-tracker/<date>-us-hq-taiwan-parents.json  （parentSlug → parent 名稱）
+ * 輸入：data/violation-tracker/<date>-global-taiwan-p*.tsv（Global 版 jurisdiction=Taiwan，台灣國內案件）
+ * 輸入：data/violation-tracker/<date>-global-hq-taiwan-abroad.tsv（Global 版總部在台灣的母公司，在台灣、美國以外的紀錄）
+ *   三種快照各自取最新日期，不必同一天。
  * 輸入：data/company-mapping.json（可選；vtSlug → companyCodes）
  *
  * Good Jobs First 以書信同意本專案（非營利）使用並公開 VT 資料（2026-10-25 使用者轉述："Yes you're allow to use without profit"）。
@@ -15,13 +18,11 @@ const path = require('path');
 
 const DATA = path.join(__dirname, '../data');
 const VT_DIR = path.join(DATA, 'violation-tracker');
-const SNAPSHOT_DATE = process.argv[2] || latestSnapshotDate();
-
-function latestSnapshotDate() {
-  const dates = fs.readdirSync(VT_DIR).map(f => f.match(/^(\d{4}-\d{2}-\d{2})-us-hq-taiwan-p\d+\.tsv$/)?.[1]).filter(Boolean);
-  if (!dates.length) throw new Error('data/violation-tracker/ 內沒有 *-us-hq-taiwan-p*.tsv');
-  return dates.sort().at(-1);
-}
+const latestDate = (re) => fs.readdirSync(VT_DIR).map(f => f.match(re)?.[1]).filter(Boolean).sort().at(-1) || null;
+const SNAPSHOT_DATE = process.argv[2] || latestDate(/^(\d{4}-\d{2}-\d{2})-us-hq-taiwan-p\d+\.tsv$/);
+if (!SNAPSHOT_DATE) throw new Error('data/violation-tracker/ 內沒有 *-us-hq-taiwan-p*.tsv');
+const GLOBAL_TW_DATE = latestDate(/^(\d{4}-\d{2}-\d{2})-global-taiwan-p\d+\.tsv$/);
+const GLOBAL_ABROAD_DATE = latestDate(/^(\d{4}-\d{2}-\d{2})-global-hq-taiwan-abroad\.tsv$/);
 
 // 列表頁 Agency 代碼 → 政府層級（VT 慣例：州碼-機關；純大寫為聯邦；private lawsuit 另計）
 function agencyLevel(code) {
@@ -83,7 +84,7 @@ for (const f of fs.readdirSync(VT_DIR).filter(f => f.startsWith(`${SNAPSHOT_DATE
 
 // ---- Global 版：jurisdiction=Taiwan 列表頁 ----
 // 欄位：recordSlug, company, parentSlug, parentName, industry, offenseCategory, year, penaltyUSDText
-for (const f of fs.readdirSync(VT_DIR).filter(f => f.startsWith(`${SNAPSHOT_DATE}-global-taiwan-p`) && f.endsWith('.tsv')).sort()) {
+for (const f of fs.readdirSync(VT_DIR).filter(f => f.startsWith(`${GLOBAL_TW_DATE}-global-taiwan-p`) && f.endsWith('.tsv')).sort()) {
   for (const line of fs.readFileSync(path.join(VT_DIR, f), 'utf8').split('\n')) {
     if (!line.trim()) continue;
     const [recordSlug, company, parentSlug, parentName, industry, offenseCategory, year, penaltyText] = line.split('\t');
@@ -111,6 +112,35 @@ for (const f of fs.readdirSync(VT_DIR).filter(f => f.startsWith(`${SNAPSHOT_DATE
   }
 }
 
+// ---- Global 版：總部在台灣的母公司，在台灣、美國以外的紀錄（38 家母公司頁逐一瀏覽；美國紀錄 US 版都有）----
+// 欄位：recordSlug, company, parentSlug, parentName, industry, offenseCategory, year, jurisdiction, penaltyUSDText
+const abroadFile = GLOBAL_ABROAD_DATE && path.join(VT_DIR, `${GLOBAL_ABROAD_DATE}-global-hq-taiwan-abroad.tsv`);
+for (const line of abroadFile ? fs.readFileSync(abroadFile, 'utf8').split('\n') : []) {
+  if (!line.trim()) continue;
+  const [recordSlug, company, parentSlug, parentName, industry, offenseCategory, year, jurisdiction, penaltyText] = line.split('\t');
+  const m = gMap[parentSlug];
+  records.push({
+    caseId: `VTG-${recordSlug}`,
+    source: 'Violation Tracker Global',
+    sourceUrl: `https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/${recordSlug}`,
+    parentUrl: `https://violationtrackerglobal.goodjobsfirst.org/parent/${parentSlug}`,
+    primarySourceUrl: null, archivedSourceUrl: null,
+    jurisdiction,
+    facilityId: null,
+    companyNameInSource: company,
+    parentInSource: parentName,
+    parentSlug, parentIndustry: industry,
+    companyCodes: m?.companyCodes || [], matchLevel: m?.level || null, matchConfidence: m ? 'manual' : 'unmatched',
+    date: `${year}-01-01`, datePrecision: 'year',
+    agency: null, agencyCode: null, agencyLevel: 'foreign', // 列表頁無機關欄；各國機關需紀錄頁
+    actionType: null, civilOrCriminal: null,
+    offenseGroup: null, offenseType: offenseCategory, description: null,
+    ...parsePenalty(penaltyText),
+    penaltyAmountOriginal: null, penaltyCurrency: null, // 原幣金額需紀錄頁；列表頁只有 USD 換算
+    facilityCity: null, facilityState: null, plantSite: null,
+  });
+}
+
 // ---- 資金鏈歸屬：data/ownership-resolution.json（scripts/resolve-ownership.py 產生）----
 // 把「VT 母公司層級」換成「受罰實體 → MOPS 持股鏈 → 負責的台灣母公司」。
 const resolutionPath = path.join(DATA, 'ownership-resolution.json');
@@ -136,7 +166,8 @@ for (const r of records) {
     note: e.note || e.pathNote || null,
   };
   if (resp.kind === 'listed' || resp.kind === 'group-affiliate' || resp.kind === 'group-assumed' || resp.kind === 'merger') {
-    const codes = [resp.code, ...(e.ultimateParent ? [e.ultimateParent.code] : [])].filter(Boolean);
+    // 集團合資（例：台塑河靜鋼廠由台塑四寶與中鋼、福懋共同持有）掛到 groupCodes 的每一家
+    const codes = [resp.code, ...(e.groupCodes || []), ...(e.ultimateParent ? [e.ultimateParent.code] : [])].filter(Boolean);
     r.companyCodes = [...new Set(codes)];
     r.matchLevel = resp.kind === 'listed' ? 'entity' : resp.kind;
     r.matchConfidence = e.confidence || 'low';
@@ -166,7 +197,8 @@ for (const r of records.filter(r => r.companyCodes.length === 0)) {
   unmatched[k] ||= { source: r.source, slug: r.parentSlug, parent: r.parentInSource, records: 0, penaltyUSD: 0 };
   unmatched[k].records++; if (!r.isDuplicateFlagged) unmatched[k].penaltyUSD += r.penaltyAmountUSD;
 }
-fs.writeFileSync(path.join(DATA, 'enforcement.json'), JSON.stringify({ snapshotDate: SNAPSHOT_DATE, source: 'Violation Tracker / Violation Tracker Global (Good Jobs First)；經 Good Jobs First 書信同意非營利使用', count: records.length, records }, null, 2));
+fs.writeFileSync(path.join(DATA, 'enforcement.json'), JSON.stringify({ snapshotDate: SNAPSHOT_DATE,
+  snapshots: { us: SNAPSHOT_DATE, globalTaiwan: GLOBAL_TW_DATE, globalAbroad: GLOBAL_ABROAD_DATE }, source: 'Violation Tracker / Violation Tracker Global (Good Jobs First)；經 Good Jobs First 書信同意非營利使用', count: records.length, records }, null, 2));
 fs.writeFileSync(path.join(VT_DIR, 'unmatched.json'), JSON.stringify(Object.values(unmatched).sort((a, b) => b.penaltyUSD - a.penaltyUSD), null, 2));
 
 for (const src of ['Violation Tracker', 'Violation Tracker Global']) {

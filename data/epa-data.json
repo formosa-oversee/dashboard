@@ -161,7 +161,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.724Z"
+      "lastUpdated": "2026-10-28T03:24:01.283Z"
     },
     "inEpaData": true,
     "news": [],
@@ -368,7 +368,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -102461,7 +102461,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-24",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation, Texas",
         "parentInSource": "Formosa Plastics",
@@ -102488,7 +102488,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/la-formosa-plastics-la",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS LA",
         "parentInSource": "Formosa Plastics",
@@ -102515,7 +102515,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-32",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CORPORATION, TEXAS",
         "parentInSource": "Formosa Plastics",
@@ -102538,11 +102538,11 @@
         }
       },
       {
-        "caseId": "VT-tx-formosa-plastics-corporation-texas-25",
+        "caseId": "VT-tx-formosa-plastics-corporation-texas-28",
         "source": "Violation Tracker",
-        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-25",
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-28",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CORPORATION, TEXAS",
         "parentInSource": "Formosa Plastics",
@@ -102569,7 +102569,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-formosa-plastics-corporation-lp-formos",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation, LP - Formosa Plastics Corporation, Texas",
         "parentInSource": "Formosa Plastics",
@@ -102596,7 +102596,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-formosa-petrochemical-point-comfort",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Petrochemical Point Comfort",
         "parentInSource": "Formosa Plastics",
@@ -102619,11 +102619,11 @@
         }
       },
       {
-        "caseId": "VT-tx-formosa-plastics-corporation-texas-37",
+        "caseId": "VT-tx-formosa-plastics-corporation-texas-31",
         "source": "Violation Tracker",
-        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-37",
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-31",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CORPORATION, TEXAS",
         "parentInSource": "Formosa Plastics",
@@ -102650,7 +102650,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-22",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CORPORATION, TEXAS",
         "parentInSource": "Formosa Plastics",
@@ -102677,7 +102677,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation",
         "parentInSource": "Formosa Plastics",
@@ -102704,7 +102704,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-21",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation, Texas",
         "parentInSource": "Formosa Plastics",
@@ -102731,7 +102731,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-23",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CORPORATION, TEXAS",
         "parentInSource": "Formosa Plastics",
@@ -102758,7 +102758,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation, Texas",
         "parentInSource": "Formosa Plastics",
@@ -102785,7 +102785,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-formosa-plastics-co-10",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Co.",
         "parentInSource": "Formosa Plastics",
@@ -102812,7 +102812,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-formosa-plastics-corp-0",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corp.",
         "parentInSource": "Formosa Plastics",
@@ -102839,7 +102839,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-0",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation, Texas",
         "parentInSource": "Formosa Plastics",
@@ -102862,11 +102862,11 @@
         }
       },
       {
-        "caseId": "VT-de-formosa-plastics-corporation-0",
+        "caseId": "VT-de-formosa-plastics-corporation-1",
         "source": "Violation Tracker",
-        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/de-formosa-plastics-corporation-0",
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/de-formosa-plastics-corporation-1",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CORPORATION",
         "parentInSource": "Formosa Plastics",
@@ -102893,7 +102893,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-1",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation, Texas",
         "parentInSource": "Formosa Plastics",
@@ -102920,7 +102920,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/la-formosa-plastics-corp",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corp.",
         "parentInSource": "Formosa Plastics",
@@ -102947,7 +102947,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-2",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation, Texas",
         "parentInSource": "Formosa Plastics",
@@ -102974,7 +102974,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-formosa-plastics-corporation-1",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation",
         "parentInSource": "Formosa Plastics",
@@ -103001,7 +103001,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-3",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation, Texas",
         "parentInSource": "Formosa Plastics",
@@ -103024,11 +103024,38 @@
         }
       },
       {
+        "caseId": "VTG-vietnam-formosa-ha-tinh-steel",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/vietnam-formosa-ha-tinh-steel",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/formosa-plastics",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "Vietnam",
+        "companyNameInSource": "Formosa Ha Tinh Steel",
+        "parentInSource": "Formosa Plastics",
+        "year": "2017",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "hazardous waste violation",
+        "penaltyAmountUSD": 25000,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "responsible",
+          "effectivePct": null,
+          "path": [
+            "台塑"
+          ],
+          "method": "curated-group-affiliate",
+          "confidence": "high",
+          "note": "Formosa Ha Tinh Steel（越南河靜鋼廠）由 Formosa Ha Tinh (Cayman) Limited 持有：中鋼 2002 20.45%（中鋼官網 FHS 頁，2011 投資）、台塑 1301、南亞 1303、台化 1326、台塑化 6505 各 11.43%、福懋 1434 3.85%（各公司 2026Q2 財報與 Fubon 轉投資資料）；台塑集團 2008 年設立。與網站污染事件「河靜鋼廠」的持股歸屬相同（docs/pollution-news-spec.md）"
+        }
+      },
+      {
         "caseId": "VT-de-formosa-plastics-corporation-de",
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/de-formosa-plastics-corporation-de",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CORPORATION DE",
         "parentInSource": "Formosa Plastics",
@@ -103055,7 +103082,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-4",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation, Texas",
         "parentInSource": "Formosa Plastics",
@@ -103082,7 +103109,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-formosa-plastics-co-9",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CO.",
         "parentInSource": "Formosa Plastics",
@@ -103105,11 +103132,38 @@
         }
       },
       {
+        "caseId": "VTG-vietnam-formosa-ha-tinh-steel-0",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/vietnam-formosa-ha-tinh-steel-0",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/formosa-plastics",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "Vietnam",
+        "companyNameInSource": "Formosa Ha Tinh Steel",
+        "parentInSource": "Formosa Plastics",
+        "year": "2016",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "water pollution violation",
+        "penaltyAmountUSD": 500000000,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "responsible",
+          "effectivePct": null,
+          "path": [
+            "台塑"
+          ],
+          "method": "curated-group-affiliate",
+          "confidence": "high",
+          "note": "Formosa Ha Tinh Steel（越南河靜鋼廠）由 Formosa Ha Tinh (Cayman) Limited 持有：中鋼 2002 20.45%（中鋼官網 FHS 頁，2011 投資）、台塑 1301、南亞 1303、台化 1326、台塑化 6505 各 11.43%、福懋 1434 3.85%（各公司 2026Q2 財報與 Fubon 轉投資資料）；台塑集團 2008 年設立。與網站污染事件「河靜鋼廠」的持股歸屬相同（docs/pollution-news-spec.md）"
+        }
+      },
+      {
         "caseId": "VT-de-formosa-plastics",
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/de-formosa-plastics",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics",
         "parentInSource": "Formosa Plastics",
@@ -103136,7 +103190,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-formosa-plastics-corporation",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation",
         "parentInSource": "Formosa Plastics",
@@ -103159,11 +103213,11 @@
         }
       },
       {
-        "caseId": "VT-de-formosa-plastics-corporation-1",
+        "caseId": "VT-de-formosa-plastics-corporation-0",
         "source": "Violation Tracker",
-        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/de-formosa-plastics-corporation-1",
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/de-formosa-plastics-corporation-0",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CORPORATION",
         "parentInSource": "Formosa Plastics",
@@ -103190,7 +103244,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-formosa-plastics-co-7",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CO.",
         "parentInSource": "Formosa Plastics",
@@ -103217,7 +103271,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-formosa-plastics-co-8",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CO.",
         "parentInSource": "Formosa Plastics",
@@ -103244,7 +103298,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/de-formosa-plastics-corporation-delaware-ci",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CORPORATION (DELAWARE CITY)",
         "parentInSource": "Formosa Plastics",
@@ -103271,7 +103325,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-5",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation, Texas",
         "parentInSource": "Formosa Plastics",
@@ -103298,7 +103352,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-formosa-plastics-co-2",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CO.",
         "parentInSource": "Formosa Plastics",
@@ -103321,11 +103375,11 @@
         }
       },
       {
-        "caseId": "VT-tx-formosa-plastics-corporation-texas-28",
+        "caseId": "VT-tx-formosa-plastics-corporation-texas-26",
         "source": "Violation Tracker",
-        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-28",
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-26",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CORPORATION, TEXAS",
         "parentInSource": "Formosa Plastics",
@@ -103352,7 +103406,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-formosa-plastics-co-3",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CO.",
         "parentInSource": "Formosa Plastics",
@@ -103375,11 +103429,11 @@
         }
       },
       {
-        "caseId": "VT-tx-formosa-plastics-corporation-texas-27",
+        "caseId": "VT-tx-formosa-plastics-corporation-texas-34",
         "source": "Violation Tracker",
-        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-27",
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-34",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CORPORATION, TEXAS",
         "parentInSource": "Formosa Plastics",
@@ -103402,11 +103456,11 @@
         }
       },
       {
-        "caseId": "VT-tx-formosa-plastics-corporation-texas-30",
+        "caseId": "VT-tx-formosa-plastics-corporation-texas-38",
         "source": "Violation Tracker",
-        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-30",
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-38",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CORPORATION, TEXAS",
         "parentInSource": "Formosa Plastics",
@@ -103429,11 +103483,11 @@
         }
       },
       {
-        "caseId": "VT-tx-formosa-plastics-corporation-texas-34",
+        "caseId": "VT-tx-formosa-plastics-corporation-texas-33",
         "source": "Violation Tracker",
-        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-34",
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-33",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CORPORATION, TEXAS",
         "parentInSource": "Formosa Plastics",
@@ -103460,7 +103514,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-6",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation, Texas",
         "parentInSource": "Formosa Plastics",
@@ -103483,11 +103537,11 @@
         }
       },
       {
-        "caseId": "VT-tx-formosa-plastics-corporation-texas-29",
+        "caseId": "VT-tx-formosa-plastics-corporation-texas-25",
         "source": "Violation Tracker",
-        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-29",
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-25",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CORPORATION, TEXAS",
         "parentInSource": "Formosa Plastics",
@@ -103514,7 +103568,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-formosa-plastics-tx-la-ldar-multi-media-",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics-TX LA-LDAR Multi Media Consent Decree (R6 Lead)-2010",
         "parentInSource": "Formosa Plastics",
@@ -103541,7 +103595,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/de-formosa-plastics-0",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics",
         "parentInSource": "Formosa Plastics",
@@ -103564,11 +103618,11 @@
         }
       },
       {
-        "caseId": "VT-tx-formosa-plastics-corporation-texas-33",
+        "caseId": "VT-tx-formosa-plastics-corporation-texas-30",
         "source": "Violation Tracker",
-        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-33",
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-30",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CORPORATION, TEXAS",
         "parentInSource": "Formosa Plastics",
@@ -103591,11 +103645,11 @@
         }
       },
       {
-        "caseId": "VT-tx-formosa-plastics-corporation-texas-26",
+        "caseId": "VT-tx-formosa-plastics-corporation-texas-37",
         "source": "Violation Tracker",
-        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-26",
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-37",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CORPORATION, TEXAS",
         "parentInSource": "Formosa Plastics",
@@ -103618,11 +103672,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-12",
+        "caseId": "VT-de-formosa-plastics-corporationusa-1",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/de-formosa-plastics-corporationusa-1",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CORPORATION,U.S.A.",
         "parentInSource": "Formosa Plastics",
@@ -103632,7 +103686,7 @@
         "offenseType": "workplace safety or health violation",
         "penaltyAmountUSD": 97060,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "DE",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -103645,11 +103699,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-5",
+        "caseId": "VT-de-formosa-plastics-1",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/de-formosa-plastics-1",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics",
         "parentInSource": "Formosa Plastics",
@@ -103659,7 +103713,7 @@
         "offenseType": "environmental violation",
         "penaltyAmountUSD": 69575,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "DE",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -103672,11 +103726,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-6",
+        "caseId": "VT-tx-formosa-plastics-corporation-texas-7",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-7",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation, Texas",
         "parentInSource": "Formosa Plastics",
@@ -103686,7 +103740,7 @@
         "offenseType": "environmental violation",
         "penaltyAmountUSD": 8000,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "TX",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -103699,11 +103753,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-25",
+        "caseId": "VT-tx-formosa-plastics-corporation-texas-8",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-8",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation, Texas",
         "parentInSource": "Formosa Plastics",
@@ -103713,7 +103767,7 @@
         "offenseType": "environmental violation",
         "penaltyAmountUSD": 54140,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "TX",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -103726,11 +103780,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-17",
+        "caseId": "VT--formosa-plastics-co-1",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-formosa-plastics-co-1",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CO.",
         "parentInSource": "Formosa Plastics",
@@ -103753,11 +103807,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-34",
+        "caseId": "VT-tx-formosa-plastics-corporation-texas-9",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-9",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation, Texas",
         "parentInSource": "Formosa Plastics",
@@ -103767,7 +103821,7 @@
         "offenseType": "environmental violation",
         "penaltyAmountUSD": 14360,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "TX",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -103780,11 +103834,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-36",
+        "caseId": "VT-tx-formosa-plastics-corporation-texas-35",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-35",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CORPORATION, TEXAS",
         "parentInSource": "Formosa Plastics",
@@ -103794,7 +103848,7 @@
         "offenseType": "workplace safety or health violation",
         "penaltyAmountUSD": 11981,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "TX",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -103807,11 +103861,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-29",
+        "caseId": "VT--formosa-plastics-co",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-formosa-plastics-co",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CO.",
         "parentInSource": "Formosa Plastics",
@@ -103834,11 +103888,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-30",
+        "caseId": "VT--formosa-plastics-co-0",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-formosa-plastics-co-0",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CO.",
         "parentInSource": "Formosa Plastics",
@@ -103861,11 +103915,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-38",
+        "caseId": "VT--formosa-plastics-corp",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-formosa-plastics-corp",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corp.",
         "parentInSource": "Formosa Plastics",
@@ -103888,11 +103942,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-45",
+        "caseId": "VT-de-formosa-plastics-corporationusa",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/de-formosa-plastics-corporationusa",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CORPORATION,U.S.A.",
         "parentInSource": "Formosa Plastics",
@@ -103902,7 +103956,7 @@
         "offenseType": "workplace safety or health violation",
         "penaltyAmountUSD": 67925,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "DE",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -103915,11 +103969,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-41",
+        "caseId": "VT-tx-formosa-plastics-corporation-texas-10",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-10",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation, Texas",
         "parentInSource": "Formosa Plastics",
@@ -103929,7 +103983,7 @@
         "offenseType": "environmental violation",
         "penaltyAmountUSD": 50044,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "TX",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -103942,11 +103996,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-44",
+        "caseId": "VT-de-formosa-plastics-corporationusa-0",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/de-formosa-plastics-corporationusa-0",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CORPORATION,U.S.A.",
         "parentInSource": "Formosa Plastics",
@@ -103956,7 +104010,7 @@
         "offenseType": "workplace safety or health violation",
         "penaltyAmountUSD": 18850,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "DE",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -103969,11 +104023,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-43",
+        "caseId": "VT-tx-formosa-plastics-corporation-texas-12",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-12",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation, Texas",
         "parentInSource": "Formosa Plastics",
@@ -103983,7 +104037,7 @@
         "offenseType": "environmental violation",
         "penaltyAmountUSD": 8814,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "TX",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -103996,11 +104050,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-42",
+        "caseId": "VT-tx-formosa-plastics-corporation-texas-11",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-11",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation, Texas",
         "parentInSource": "Formosa Plastics",
@@ -104010,7 +104064,7 @@
         "offenseType": "environmental violation",
         "penaltyAmountUSD": 7425,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "TX",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -104023,11 +104077,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-51",
+        "caseId": "VT-tx-formosa-plastics-corporation-texas-13",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-13",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation, Texas",
         "parentInSource": "Formosa Plastics",
@@ -104037,7 +104091,7 @@
         "offenseType": "environmental violation",
         "penaltyAmountUSD": 121443,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "TX",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -104050,11 +104104,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-54",
+        "caseId": "VT-tx-formosa-plastics-corporation-texas-16",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-16",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation, Texas",
         "parentInSource": "Formosa Plastics",
@@ -104064,7 +104118,7 @@
         "offenseType": "environmental violation",
         "penaltyAmountUSD": 20000,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "TX",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -104077,11 +104131,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-52",
+        "caseId": "VT-tx-formosa-plastics-corporation-texas-14",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-14",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation, Texas",
         "parentInSource": "Formosa Plastics",
@@ -104091,7 +104145,7 @@
         "offenseType": "environmental violation",
         "penaltyAmountUSD": 9880,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "TX",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -104104,11 +104158,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-53",
+        "caseId": "VT-tx-formosa-plastics-corporation-texas-15",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-15",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation, Texas",
         "parentInSource": "Formosa Plastics",
@@ -104118,7 +104172,7 @@
         "offenseType": "environmental violation",
         "penaltyAmountUSD": 6422,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "TX",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -104131,11 +104185,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-60",
+        "caseId": "VT-de-formosa-plastics-2",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/de-formosa-plastics-2",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics",
         "parentInSource": "Formosa Plastics",
@@ -104145,7 +104199,7 @@
         "offenseType": "environmental violation",
         "penaltyAmountUSD": 46000,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "DE",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -104158,11 +104212,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-63",
+        "caseId": "VT-tx-formosa-plastics-corporation-texas-17",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-17",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation, Texas",
         "parentInSource": "Formosa Plastics",
@@ -104172,7 +104226,7 @@
         "offenseType": "environmental violation",
         "penaltyAmountUSD": 27634,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "TX",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -104185,11 +104239,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-64",
+        "caseId": "VT-tx-formosa-plastics-corporation-texas-39",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-39",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CORPORATION, TEXAS",
         "parentInSource": "Formosa Plastics",
@@ -104199,7 +104253,7 @@
         "offenseType": "workplace safety or health violation",
         "penaltyAmountUSD": 7000,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "TX",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -104212,11 +104266,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-73",
+        "caseId": "VT-de-formosa-plastic-corporation",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/de-formosa-plastic-corporation",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTIC CORPORATION",
         "parentInSource": "Formosa Plastics",
@@ -104226,7 +104280,7 @@
         "offenseType": "environmental violation",
         "penaltyAmountUSD": 1292847,
         "isDuplicateFlagged": true,
-        "facilityState": null,
+        "facilityState": "DE",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -104239,11 +104293,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-68",
+        "caseId": "VT-de-formosa-plastics-corporation",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/de-formosa-plastics-corporation",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation",
         "parentInSource": "Formosa Plastics",
@@ -104253,7 +104307,7 @@
         "offenseType": "environmental violation",
         "penaltyAmountUSD": 1290000,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "DE",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -104266,11 +104320,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-69",
+        "caseId": "VT-de-formosa-plastics-3",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/de-formosa-plastics-3",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics",
         "parentInSource": "Formosa Plastics",
@@ -104280,7 +104334,7 @@
         "offenseType": "environmental violation",
         "penaltyAmountUSD": 1067847,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "DE",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -104293,11 +104347,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-74",
+        "caseId": "VT-tx-formosa-plastics-corporation-texas-36",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-36",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CORPORATION, TEXAS",
         "parentInSource": "Formosa Plastics",
@@ -104307,7 +104361,7 @@
         "offenseType": "workplace safety or health violation",
         "penaltyAmountUSD": 75000,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "TX",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -104320,11 +104374,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-71",
+        "caseId": "VT-tx-formosa-plastics-corporation-texas-19",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-19",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation, Texas",
         "parentInSource": "Formosa Plastics",
@@ -104334,7 +104388,7 @@
         "offenseType": "environmental violation",
         "penaltyAmountUSD": 24600,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "TX",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -104347,11 +104401,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-70",
+        "caseId": "VT-tx-formosa-plastics-corporation-texas-18",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-18",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation, Texas",
         "parentInSource": "Formosa Plastics",
@@ -104361,7 +104415,7 @@
         "offenseType": "environmental violation",
         "penaltyAmountUSD": 20916,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "TX",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -104374,11 +104428,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-75",
+        "caseId": "VT-tx-formosa-plastics-corporation-texas-27",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-27",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CORPORATION, TEXAS",
         "parentInSource": "Formosa Plastics",
@@ -104388,7 +104442,7 @@
         "offenseType": "workplace safety or health violation",
         "penaltyAmountUSD": 5000,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "TX",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -104401,11 +104455,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-79",
+        "caseId": "VT-il-formosa-plastics-corporation",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/il-formosa-plastics-corporation",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CORPORATION",
         "parentInSource": "Formosa Plastics",
@@ -104415,7 +104469,7 @@
         "offenseType": "workplace safety or health violation",
         "penaltyAmountUSD": 300000,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "IL",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -104428,11 +104482,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-77",
+        "caseId": "VT-tx-formosa-plastics-corporation-texas-20",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-20",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation, Texas",
         "parentInSource": "Formosa Plastics",
@@ -104442,7 +104496,7 @@
         "offenseType": "environmental violation",
         "penaltyAmountUSD": 150000,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "TX",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -104455,11 +104509,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-76",
+        "caseId": "VT-de-formosa-plastics-4",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/de-formosa-plastics-4",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics",
         "parentInSource": "Formosa Plastics",
@@ -104469,7 +104523,7 @@
         "offenseType": "environmental violation",
         "penaltyAmountUSD": 23100,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "DE",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -104482,11 +104536,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-78",
+        "caseId": "VT--formosa-plastics-corporation-2",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-formosa-plastics-corporation-2",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation",
         "parentInSource": "Formosa Plastics",
@@ -104509,11 +104563,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-81",
+        "caseId": "VT--formosa-plastics-co-6",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-formosa-plastics-co-6",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Co.",
         "parentInSource": "Formosa Plastics",
@@ -104536,11 +104590,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-90",
+        "caseId": "VT-la-formosa-plastics-corp-0",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/la-formosa-plastics-corp-0",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corp.",
         "parentInSource": "Formosa Plastics",
@@ -104550,7 +104604,7 @@
         "offenseType": "environmental violation",
         "penaltyAmountUSD": 4350000,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "LA",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -104563,11 +104617,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-92",
+        "caseId": "VT--formosa-plastics-corp-1",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-formosa-plastics-corp-1",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CORP.",
         "parentInSource": "Formosa Plastics",
@@ -104590,11 +104644,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-91",
+        "caseId": "VT--formosa-plastics-corporation-0",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-formosa-plastics-corporation-0",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Corporation",
         "parentInSource": "Formosa Plastics",
@@ -104617,11 +104671,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-89",
+        "caseId": "VT--formosa-plastics-co-5",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-formosa-plastics-co-5",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Co.",
         "parentInSource": "Formosa Plastics",
@@ -104644,11 +104698,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-88",
+        "caseId": "VT--formosa-plastics-co-4",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-formosa-plastics-co-4",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Formosa Plastics Co.",
         "parentInSource": "Formosa Plastics",
@@ -104671,11 +104725,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-101",
+        "caseId": "VT-tx-formosa-plastics-corporation-texas-29",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-formosa-plastics-corporation-texas-29",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/formosa-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FORMOSA PLASTICS CORPORATION, TEXAS",
         "parentInSource": "Formosa Plastics",
@@ -104685,7 +104739,7 @@
         "offenseType": "workplace safety or health violation",
         "penaltyAmountUSD": 14500,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "TX",
         "holding": {
           "role": "responsible",
           "effectivePct": 24.82,
@@ -104700,7 +104754,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [
@@ -106544,8 +106598,8 @@
       }
     ],
     "enforcementSummary": {
-      "count": 83,
-      "penaltyTotalUSD": 75962017,
+      "count": 85,
+      "penaltyTotalUSD": 575987017,
       "latestYear": "2024"
     }
   },
@@ -163395,7 +163449,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-nan-ya-plastics-corporation-usa-0",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/nan-ya-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "NAN YA PLASTICS CORPORATION USA",
         "parentInSource": "Nan Ya Plastics",
@@ -163423,7 +163477,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-nan-ya-plastics-corporation-usa",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/nan-ya-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "NAN YA PLASTICS CORPORATION U.S.A.",
         "parentInSource": "Nan Ya Plastics",
@@ -163451,7 +163505,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-nan-ya-plastics-corporation-usa-2",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/nan-ya-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "NAN YA PLASTICS CORPORATION USA",
         "parentInSource": "Nan Ya Plastics",
@@ -163479,7 +163533,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/sc-nan-ya-plastics-corporation-america",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/nan-ya-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Nan Ya Plastics Corporation, America",
         "parentInSource": "Nan Ya Plastics",
@@ -163507,7 +163561,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-nan-ya-plastics-corporation-usa-1",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/nan-ya-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "NAN YA PLASTICS CORPORATION USA",
         "parentInSource": "Nan Ya Plastics",
@@ -163535,7 +163589,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/la-nan-ya-plastics-corporation",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/nan-ya-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Nan Ya Plastics Corporation",
         "parentInSource": "Nan Ya Plastics",
@@ -163558,11 +163612,65 @@
         }
       },
       {
-        "caseId": "VT-noslug-72",
+        "caseId": "VTG-vietnam-formosa-ha-tinh-steel",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/vietnam-formosa-ha-tinh-steel",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/formosa-plastics",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "Vietnam",
+        "companyNameInSource": "Formosa Ha Tinh Steel",
+        "parentInSource": "Formosa Plastics",
+        "year": "2017",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "hazardous waste violation",
+        "penaltyAmountUSD": 25000,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "ultimate-parent",
+          "effectivePct": null,
+          "path": [
+            "台塑"
+          ],
+          "method": "curated-group-affiliate",
+          "confidence": "high",
+          "note": "Formosa Ha Tinh Steel（越南河靜鋼廠）由 Formosa Ha Tinh (Cayman) Limited 持有：中鋼 2002 20.45%（中鋼官網 FHS 頁，2011 投資）、台塑 1301、南亞 1303、台化 1326、台塑化 6505 各 11.43%、福懋 1434 3.85%（各公司 2026Q2 財報與 Fubon 轉投資資料）；台塑集團 2008 年設立。與網站污染事件「河靜鋼廠」的持股歸屬相同（docs/pollution-news-spec.md）"
+        }
+      },
+      {
+        "caseId": "VTG-vietnam-formosa-ha-tinh-steel-0",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/vietnam-formosa-ha-tinh-steel-0",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/formosa-plastics",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "Vietnam",
+        "companyNameInSource": "Formosa Ha Tinh Steel",
+        "parentInSource": "Formosa Plastics",
+        "year": "2016",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "water pollution violation",
+        "penaltyAmountUSD": 500000000,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "ultimate-parent",
+          "effectivePct": null,
+          "path": [
+            "台塑"
+          ],
+          "method": "curated-group-affiliate",
+          "confidence": "high",
+          "note": "Formosa Ha Tinh Steel（越南河靜鋼廠）由 Formosa Ha Tinh (Cayman) Limited 持有：中鋼 2002 20.45%（中鋼官網 FHS 頁，2011 投資）、台塑 1301、南亞 1303、台化 1326、台塑化 6505 各 11.43%、福懋 1434 3.85%（各公司 2026Q2 財報與 Fubon 轉投資資料）；台塑集團 2008 年設立。與網站污染事件「河靜鋼廠」的持股歸屬相同（docs/pollution-news-spec.md）"
+        }
+      },
+      {
+        "caseId": "VT--nan-ya-plastics-corporation",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-nan-ya-plastics-corporation",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/nan-ya-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Nan Ya Plastics Corporation",
         "parentInSource": "Nan Ya Plastics",
@@ -163585,11 +163693,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-80",
+        "caseId": "VT-la-nan-ya-plastics-corporation-america",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/la-nan-ya-plastics-corporation-america",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/nan-ya-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "NAN YA PLASTICS CORPORATION, AMERICA",
         "parentInSource": "Nan Ya Plastics",
@@ -163599,7 +163707,7 @@
         "offenseType": "workplace safety or health violation",
         "penaltyAmountUSD": 12500,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "LA",
         "holding": {
           "role": "responsible",
           "effectivePct": 100,
@@ -163613,11 +163721,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-83",
+        "caseId": "VT-tx-nan-ya-plastics",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-nan-ya-plastics",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/nan-ya-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Nan Ya Plastics",
         "parentInSource": "Nan Ya Plastics",
@@ -163627,7 +163735,7 @@
         "offenseType": "environmental violation",
         "penaltyAmountUSD": 80000,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "TX",
         "holding": {
           "role": "responsible",
           "effectivePct": 100,
@@ -163640,11 +163748,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-82",
+        "caseId": "VT-sc-nan-ya-plastics-corp-america",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/sc-nan-ya-plastics-corp-america",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/nan-ya-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "NAN YA PLASTICS CORP. - AMERICA",
         "parentInSource": "Nan Ya Plastics",
@@ -163654,7 +163762,7 @@
         "offenseType": "air pollution violation",
         "penaltyAmountUSD": 20000,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "SC",
         "holding": {
           "role": "responsible",
           "effectivePct": 100,
@@ -163668,11 +163776,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-94",
+        "caseId": "VT-la-nan-ya-plastics-corporation-america-1",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/la-nan-ya-plastics-corporation-america-1",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/nan-ya-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "NAN YA PLASTICS CORPORATION, AMERICA",
         "parentInSource": "Nan Ya Plastics",
@@ -163682,7 +163790,7 @@
         "offenseType": "workplace safety or health violation",
         "penaltyAmountUSD": 204300,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "LA",
         "holding": {
           "role": "responsible",
           "effectivePct": 100,
@@ -163696,11 +163804,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-93",
+        "caseId": "VT-la-nan-ya-plastics-corporation-america-0",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/la-nan-ya-plastics-corporation-america-0",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/nan-ya-plastics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "NAN YA PLASTICS CORPORATION, AMERICA",
         "parentInSource": "Nan Ya Plastics",
@@ -163710,7 +163818,7 @@
         "offenseType": "workplace safety or health violation",
         "penaltyAmountUSD": 77850,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "LA",
         "holding": {
           "role": "responsible",
           "effectivePct": 100,
@@ -163726,7 +163834,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [
@@ -164480,8 +164588,8 @@
       }
     ],
     "enforcementSummary": {
-      "count": 12,
-      "penaltyTotalUSD": 5460440,
+      "count": 14,
+      "penaltyTotalUSD": 505485440,
       "latestYear": "2021"
     }
   },
@@ -166355,7 +166463,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -166513,7 +166621,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -166586,7 +166694,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -166798,7 +166906,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -167488,7 +167596,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -168687,7 +168795,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/la-tsrc-specialty-materials-llc",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/tsrc-corp",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "TSRC Specialty Materials LLC",
         "parentInSource": "TSRC Corp.",
@@ -168717,7 +168825,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -171294,7 +171402,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-continental-carbon-company-0",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/international-csrc-investment-holdings",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Continental Carbon Company",
         "parentInSource": "International CSRC Investment Holdings",
@@ -171323,7 +171431,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-continental-carbon-company-1",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/international-csrc-investment-holdings",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Continental Carbon Company",
         "parentInSource": "International CSRC Investment Holdings",
@@ -171352,7 +171460,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-continental-carbon-company-3",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/international-csrc-investment-holdings",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Continental Carbon Company",
         "parentInSource": "International CSRC Investment Holdings",
@@ -171381,7 +171489,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-continental-carbon",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/international-csrc-investment-holdings",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Continental Carbon",
         "parentInSource": "International CSRC Investment Holdings",
@@ -171410,7 +171518,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-continental-carbon-company-2",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/international-csrc-investment-holdings",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Continental Carbon Company",
         "parentInSource": "International CSRC Investment Holdings",
@@ -171439,7 +171547,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/al-continental-carbon-company-inc",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/international-csrc-investment-holdings",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "CONTINENTAL CARBON COMPANY, INC.",
         "parentInSource": "International CSRC Investment Holdings",
@@ -171468,7 +171576,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-continental-carbon-company-0",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/international-csrc-investment-holdings",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Continental Carbon Company",
         "parentInSource": "International CSRC Investment Holdings",
@@ -171497,7 +171605,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-continental-carbon-company",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/international-csrc-investment-holdings",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Continental Carbon Company",
         "parentInSource": "International CSRC Investment Holdings",
@@ -171526,7 +171634,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/oh-continental-carbon-company",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/international-csrc-investment-holdings",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "CONTINENTAL CARBON COMPANY",
         "parentInSource": "International CSRC Investment Holdings",
@@ -171555,7 +171663,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-continental-carbon-company",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/international-csrc-investment-holdings",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "CONTINENTAL CARBON COMPANY",
         "parentInSource": "International CSRC Investment Holdings",
@@ -171580,11 +171688,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-35",
+        "caseId": "VT-al-continental-carbon-company-1",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/al-continental-carbon-company-1",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/international-csrc-investment-holdings",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "CONTINENTAL CARBON COMPANY",
         "parentInSource": "International CSRC Investment Holdings",
@@ -171594,7 +171702,7 @@
         "offenseType": "workplace safety or health violation",
         "penaltyAmountUSD": 10000,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "AL",
         "holding": {
           "role": "responsible",
           "effectivePct": 66.67,
@@ -171609,11 +171717,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-55",
+        "caseId": "VT-ga-continental-carbon-inc",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/ga-continental-carbon-inc",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/international-csrc-investment-holdings",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Continental Carbon Inc.",
         "parentInSource": "International CSRC Investment Holdings",
@@ -171623,7 +171731,7 @@
         "offenseType": "environmental violation",
         "penaltyAmountUSD": 20709000,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "GA",
         "holding": {
           "role": "responsible",
           "effectivePct": 66.67,
@@ -171638,11 +171746,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-59",
+        "caseId": "VT-al-continental-carbon-company",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/al-continental-carbon-company",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/international-csrc-investment-holdings",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Continental Carbon Company",
         "parentInSource": "International CSRC Investment Holdings",
@@ -171652,7 +171760,7 @@
         "offenseType": "air pollution violation",
         "penaltyAmountUSD": 15000,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "AL",
         "holding": {
           "role": "responsible",
           "effectivePct": 66.67,
@@ -171667,11 +171775,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-62",
+        "caseId": "VT-al-continental-carbon-company-0",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/al-continental-carbon-company-0",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/international-csrc-investment-holdings",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Continental Carbon Company",
         "parentInSource": "International CSRC Investment Holdings",
@@ -171681,7 +171789,7 @@
         "offenseType": "air pollution violation",
         "penaltyAmountUSD": 10000,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "AL",
         "holding": {
           "role": "responsible",
           "effectivePct": 66.67,
@@ -171696,11 +171804,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-98",
+        "caseId": "VT-ok-continental-carbon",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/ok-continental-carbon",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/international-csrc-investment-holdings",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Continental Carbon",
         "parentInSource": "International CSRC Investment Holdings",
@@ -171710,7 +171818,7 @@
         "offenseType": "labor relations violation",
         "penaltyAmountUSD": 9000,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "OK",
         "holding": {
           "role": "responsible",
           "effectivePct": 66.67,
@@ -171727,7 +171835,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -171800,7 +171908,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [
@@ -172263,7 +172371,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -172512,7 +172620,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/oh-foxconn",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/foxconn-technology-group-hon-hai-precisi",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "FOXCONN",
         "parentInSource": "Foxconn Technology Group (Hon Hai Precision Industry Company)",
@@ -172539,7 +172647,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/pa-sharp-corporations-dba-sharp-packaging-s",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/foxconn-technology-group-hon-hai-precisi",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "SHARP CORPORATIONS DBA SHARP PACKAGING SOLUTIONS",
         "parentInSource": "Foxconn Technology Group (Hon Hai Precision Industry Company)",
@@ -172562,19 +172670,19 @@
         }
       },
       {
-        "caseId": "VT-noslug-39",
-        "source": "Violation Tracker",
-        "sourceUrl": null,
-        "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/foxconn-technology-group-hon-hai-precisi",
-        "snapshotDate": "2026-09-10",
-        "jurisdiction": "United States",
-        "companyNameInSource": "Hon Hai Precision Industry Company",
+        "caseId": "VTG-india-hon-hai-precision-industry-co-limi",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/india-hon-hai-precision-industry-co-limi",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/foxconn-technology-group-hon-hai-precisi",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "India",
+        "companyNameInSource": "Hon Hai Precision Industry Co. Limited",
         "parentInSource": "Foxconn Technology Group (Hon Hai Precision Industry Company)",
-        "year": "2009",
-        "agencyCode": "WHD",
-        "agencyLevel": "federal",
-        "offenseType": "wage and hour violation",
-        "penaltyAmountUSD": 96267,
+        "year": "2017",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "investor protection violation",
+        "penaltyAmountUSD": 30486,
         "isDuplicateFlagged": false,
         "facilityState": null,
         "holding": {
@@ -172589,11 +172697,38 @@
         }
       },
       {
-        "caseId": "VT-noslug-58",
+        "caseId": "VT-tx-hon-hai-precision-industry-company",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/tx-hon-hai-precision-industry-company",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/foxconn-technology-group-hon-hai-precisi",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "United States",
+        "companyNameInSource": "Hon Hai Precision Industry Company",
+        "parentInSource": "Foxconn Technology Group (Hon Hai Precision Industry Company)",
+        "year": "2009",
+        "agencyCode": "WHD",
+        "agencyLevel": "federal",
+        "offenseType": "wage and hour violation",
+        "penaltyAmountUSD": 96267,
+        "isDuplicateFlagged": false,
+        "facilityState": "TX",
+        "holding": {
+          "role": "responsible",
+          "effectivePct": 100,
+          "path": [
+            "鴻海"
+          ],
+          "method": "curated-self",
+          "confidence": "high",
+          "note": "鴻海精密 2317 本身或其美國據點"
+        }
+      },
+      {
+        "caseId": "VT--hon-hai-precision-industry-company-ltd-a",
+        "source": "Violation Tracker",
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-hon-hai-precision-industry-company-ltd-a",
+        "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/foxconn-technology-group-hon-hai-precisi",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Hon Hai Precision Industry Company Ltd. And E-Star Inc.",
         "parentInSource": "Foxconn Technology Group (Hon Hai Precision Industry Company)",
@@ -172618,13 +172753,13 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
     "enforcementSummary": {
-      "count": 4,
-      "penaltyTotalUSD": 42112928,
+      "count": 5,
+      "penaltyTotalUSD": 42143414,
       "latestYear": "2022"
     }
   },
@@ -172748,7 +172883,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -173205,7 +173340,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-kemet-corporation",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/yageo",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "KEMET Corporation",
         "parentInSource": "Yageo",
@@ -173232,7 +173367,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -175772,7 +175907,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/az-urx2024xt3633x0163-tsmc-arizona-corpor",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/taiwan-semiconductor-manufacturing-compa",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "URX2024XT3633X0163 - TSMC ARIZONA CORPORATION",
         "parentInSource": "Taiwan Semiconductor Manufacturing Company",
@@ -175798,7 +175933,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [
@@ -176251,7 +176386,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -176328,7 +176463,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -176483,17 +176618,72 @@
         "valueReceivedDate": null
       }
     ],
-    "enforcement": [],
+    "enforcement": [
+      {
+        "caseId": "VTG-south-korea-evergreen-marine",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/south-korea-evergreen-marine",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/evergreen-marine",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "South Korea",
+        "companyNameInSource": "Evergreen Marine",
+        "parentInSource": "Evergreen Marine",
+        "year": "2022",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "anti-competitive practices",
+        "penaltyAmountUSD": 2825818,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "responsible",
+          "effectivePct": 100,
+          "path": [
+            "長榮"
+          ],
+          "method": "curated-self",
+          "confidence": "high",
+          "note": "長榮海運 2603 本身"
+        }
+      },
+      {
+        "caseId": "VTG-united-kingdom-evergreen-marine",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/united-kingdom-evergreen-marine",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/evergreen-marine",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "United Kingdom",
+        "companyNameInSource": "Evergreen Marine",
+        "parentInSource": "Evergreen Marine",
+        "year": "2014",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "environmental violation",
+        "penaltyAmountUSD": 29133,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "responsible",
+          "effectivePct": 100,
+          "path": [
+            "長榮"
+          ],
+          "method": "curated-self",
+          "confidence": "high",
+          "note": "長榮海運 2603 本身"
+        }
+      }
+    ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
     "enforcementSummary": {
-      "count": 0,
-      "penaltyTotalUSD": 0,
-      "latestYear": null
+      "count": 2,
+      "penaltyTotalUSD": 2854951,
+      "latestYear": "2022"
     }
   },
   {
@@ -176556,7 +176746,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-china-airlines-ltd-10",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/china-airlines",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "China Airlines, Ltd.",
         "parentInSource": "China Airlines",
@@ -176583,7 +176773,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-china-airlines-ltd-9",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/china-airlines",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "China Airlines, Ltd.",
         "parentInSource": "China Airlines",
@@ -176606,11 +176796,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-19",
+        "caseId": "VT--china-airlines-ltd-6",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-china-airlines-ltd-6",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/china-airlines",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "China Airlines, Ltd.",
         "parentInSource": "China Airlines",
@@ -176633,11 +176823,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-31",
+        "caseId": "VT--china-airlines-ltd",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-china-airlines-ltd",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/china-airlines",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "China Airlines Ltd.",
         "parentInSource": "China Airlines",
@@ -176660,11 +176850,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-47",
+        "caseId": "VT--china-airlines-ltd-0",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-china-airlines-ltd-0",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/china-airlines",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "CHINA AIRLINES LTD",
         "parentInSource": "China Airlines",
@@ -176687,11 +176877,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-56",
+        "caseId": "VT--china-airlines-ltd-1",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-china-airlines-ltd-1",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/china-airlines",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "CHINA AIRLINES LTD",
         "parentInSource": "China Airlines",
@@ -176714,11 +176904,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-57",
+        "caseId": "VT--china-airlines-ltd-2",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-china-airlines-ltd-2",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/china-airlines",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "CHINA AIRLINES LTD",
         "parentInSource": "China Airlines",
@@ -176741,11 +176931,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-61",
+        "caseId": "VT--china-airlines-ltd-7",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-china-airlines-ltd-7",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/china-airlines",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "China Airlines, Ltd.",
         "parentInSource": "China Airlines",
@@ -176768,11 +176958,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-66",
+        "caseId": "VT--china-airlines-ltd-3",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-china-airlines-ltd-3",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/china-airlines",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "CHINA AIRLINES LTD",
         "parentInSource": "China Airlines",
@@ -176795,11 +176985,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-67",
+        "caseId": "VT--china-airlines-ltd-4",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-china-airlines-ltd-4",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/china-airlines",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "CHINA AIRLINES LTD",
         "parentInSource": "China Airlines",
@@ -176822,11 +177012,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-87",
+        "caseId": "VT--china-airlines-ltd-8",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-china-airlines-ltd-8",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/china-airlines",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "China Airlines, Ltd.",
         "parentInSource": "China Airlines",
@@ -176849,11 +177039,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-97",
+        "caseId": "VT--china-airlines-ltd-5",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-china-airlines-ltd-5",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/china-airlines",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "CHINA AIRLINES LTD",
         "parentInSource": "China Airlines",
@@ -176878,7 +177068,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -177181,17 +177371,47 @@
         "programLabel": "水污染"
       }
     ],
-    "enforcement": [],
+    "enforcement": [
+      {
+        "caseId": "VTG-australia-85-degrees-coffee-australia-pt",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/australia-85-degrees-coffee-australia-pt",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/gourmet-master-co-ltd",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "Australia",
+        "companyNameInSource": "85 Degrees Coffee Australia Pty Ltd",
+        "parentInSource": "Gourmet Master Co. Ltd",
+        "year": "2022",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "labor standards violation",
+        "penaltyAmountUSD": 307183,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "responsible",
+          "effectivePct": 51,
+          "path": [
+            "美食-KY",
+            "85 Degrees Cafe International Pty. Ltd.（51%）",
+            "85 Degrees Coffee Australia Pty. Ltd.（100%）"
+          ],
+          "method": "curated-mops-node",
+          "confidence": "high",
+          "note": "美食-KY 2723 → 85 Degrees Cafe International Pty. Ltd.（51%）→ 85 Degrees Coffee Australia Pty. Ltd.（100%）"
+        }
+      }
+    ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
     "enforcementSummary": {
-      "count": 0,
-      "penaltyTotalUSD": 0,
-      "latestYear": null
+      "count": 1,
+      "penaltyTotalUSD": 307183,
+      "latestYear": "2022"
     }
   },
   {
@@ -177257,7 +177477,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -177334,7 +177554,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -177445,7 +177665,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -177561,7 +177781,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -177672,7 +177892,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -177797,7 +178017,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -177885,7 +178105,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -178227,7 +178447,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -178621,7 +178841,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -183609,7 +183829,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [
@@ -183826,7 +184046,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -184156,7 +184376,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -184503,7 +184723,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -185113,7 +185333,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -200192,7 +200412,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -200542,7 +200762,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -200695,7 +200915,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -200875,7 +201095,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -201007,10 +201227,65 @@
       }
     ],
     "violations": [],
-    "enforcement": [],
+    "enforcement": [
+      {
+        "caseId": "VTG-vietnam-formosa-ha-tinh-steel",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/vietnam-formosa-ha-tinh-steel",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/formosa-plastics",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "Vietnam",
+        "companyNameInSource": "Formosa Ha Tinh Steel",
+        "parentInSource": "Formosa Plastics",
+        "year": "2017",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "hazardous waste violation",
+        "penaltyAmountUSD": 25000,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "ultimate-parent",
+          "effectivePct": null,
+          "path": [
+            "台塑"
+          ],
+          "method": "curated-group-affiliate",
+          "confidence": "high",
+          "note": "Formosa Ha Tinh Steel（越南河靜鋼廠）由 Formosa Ha Tinh (Cayman) Limited 持有：中鋼 2002 20.45%（中鋼官網 FHS 頁，2011 投資）、台塑 1301、南亞 1303、台化 1326、台塑化 6505 各 11.43%、福懋 1434 3.85%（各公司 2026Q2 財報與 Fubon 轉投資資料）；台塑集團 2008 年設立。與網站污染事件「河靜鋼廠」的持股歸屬相同（docs/pollution-news-spec.md）"
+        }
+      },
+      {
+        "caseId": "VTG-vietnam-formosa-ha-tinh-steel-0",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/vietnam-formosa-ha-tinh-steel-0",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/formosa-plastics",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "Vietnam",
+        "companyNameInSource": "Formosa Ha Tinh Steel",
+        "parentInSource": "Formosa Plastics",
+        "year": "2016",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "water pollution violation",
+        "penaltyAmountUSD": 500000000,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "ultimate-parent",
+          "effectivePct": null,
+          "path": [
+            "台塑"
+          ],
+          "method": "curated-group-affiliate",
+          "confidence": "high",
+          "note": "Formosa Ha Tinh Steel（越南河靜鋼廠）由 Formosa Ha Tinh (Cayman) Limited 持有：中鋼 2002 20.45%（中鋼官網 FHS 頁，2011 投資）、台塑 1301、南亞 1303、台化 1326、台塑化 6505 各 11.43%、福懋 1434 3.85%（各公司 2026Q2 財報與 Fubon 轉投資資料）；台塑集團 2008 年設立。與網站污染事件「河靜鋼廠」的持股歸屬相同（docs/pollution-news-spec.md）"
+        }
+      }
+    ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [
@@ -201763,9 +202038,9 @@
       }
     ],
     "enforcementSummary": {
-      "count": 0,
-      "penaltyTotalUSD": 0,
-      "latestYear": null
+      "count": 2,
+      "penaltyTotalUSD": 500025000,
+      "latestYear": "2017"
     }
   },
   {
@@ -201982,7 +202257,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-28T02:12:25.725Z"
+      "lastUpdated": "2026-10-28T03:24:01.284Z"
     },
     "inEpaData": true,
     "news": [],
@@ -202010,7 +202285,62 @@
     "companyCode": "1326",
     "facilities": [],
     "violations": [],
-    "enforcement": [],
+    "enforcement": [
+      {
+        "caseId": "VTG-vietnam-formosa-ha-tinh-steel",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/vietnam-formosa-ha-tinh-steel",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/formosa-plastics",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "Vietnam",
+        "companyNameInSource": "Formosa Ha Tinh Steel",
+        "parentInSource": "Formosa Plastics",
+        "year": "2017",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "hazardous waste violation",
+        "penaltyAmountUSD": 25000,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "ultimate-parent",
+          "effectivePct": null,
+          "path": [
+            "台塑"
+          ],
+          "method": "curated-group-affiliate",
+          "confidence": "high",
+          "note": "Formosa Ha Tinh Steel（越南河靜鋼廠）由 Formosa Ha Tinh (Cayman) Limited 持有：中鋼 2002 20.45%（中鋼官網 FHS 頁，2011 投資）、台塑 1301、南亞 1303、台化 1326、台塑化 6505 各 11.43%、福懋 1434 3.85%（各公司 2026Q2 財報與 Fubon 轉投資資料）；台塑集團 2008 年設立。與網站污染事件「河靜鋼廠」的持股歸屬相同（docs/pollution-news-spec.md）"
+        }
+      },
+      {
+        "caseId": "VTG-vietnam-formosa-ha-tinh-steel-0",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/vietnam-formosa-ha-tinh-steel-0",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/formosa-plastics",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "Vietnam",
+        "companyNameInSource": "Formosa Ha Tinh Steel",
+        "parentInSource": "Formosa Plastics",
+        "year": "2016",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "water pollution violation",
+        "penaltyAmountUSD": 500000000,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "ultimate-parent",
+          "effectivePct": null,
+          "path": [
+            "台塑"
+          ],
+          "method": "curated-group-affiliate",
+          "confidence": "high",
+          "note": "Formosa Ha Tinh Steel（越南河靜鋼廠）由 Formosa Ha Tinh (Cayman) Limited 持有：中鋼 2002 20.45%（中鋼官網 FHS 頁，2011 投資）、台塑 1301、南亞 1303、台化 1326、台塑化 6505 各 11.43%、福懋 1434 3.85%（各公司 2026Q2 財報與 Fubon 轉投資資料）；台塑集團 2008 年設立。與網站污染事件「河靜鋼廠」的持股歸屬相同（docs/pollution-news-spec.md）"
+        }
+      }
+    ],
     "news": [
       {
         "id": "fg-la-sunshine-project-permits",
@@ -202762,13 +203092,13 @@
     ],
     "inEpaData": false,
     "metadata": {
-      "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-28T02:12:25.765Z"
+      "dataSource": "Violation Tracker（Good Jobs First）、污染事件（官方文件與新聞報導）",
+      "lastUpdated": "2026-10-28T03:24:01.327Z"
     },
     "enforcementSummary": {
-      "count": 0,
-      "penaltyTotalUSD": 0,
-      "latestYear": null
+      "count": 2,
+      "penaltyTotalUSD": 500025000,
+      "latestYear": "2017"
     }
   },
   {
@@ -202789,7 +203119,62 @@
     "companyCode": "1434",
     "facilities": [],
     "violations": [],
-    "enforcement": [],
+    "enforcement": [
+      {
+        "caseId": "VTG-vietnam-formosa-ha-tinh-steel",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/vietnam-formosa-ha-tinh-steel",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/formosa-plastics",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "Vietnam",
+        "companyNameInSource": "Formosa Ha Tinh Steel",
+        "parentInSource": "Formosa Plastics",
+        "year": "2017",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "hazardous waste violation",
+        "penaltyAmountUSD": 25000,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "ultimate-parent",
+          "effectivePct": null,
+          "path": [
+            "台塑"
+          ],
+          "method": "curated-group-affiliate",
+          "confidence": "high",
+          "note": "Formosa Ha Tinh Steel（越南河靜鋼廠）由 Formosa Ha Tinh (Cayman) Limited 持有：中鋼 2002 20.45%（中鋼官網 FHS 頁，2011 投資）、台塑 1301、南亞 1303、台化 1326、台塑化 6505 各 11.43%、福懋 1434 3.85%（各公司 2026Q2 財報與 Fubon 轉投資資料）；台塑集團 2008 年設立。與網站污染事件「河靜鋼廠」的持股歸屬相同（docs/pollution-news-spec.md）"
+        }
+      },
+      {
+        "caseId": "VTG-vietnam-formosa-ha-tinh-steel-0",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/vietnam-formosa-ha-tinh-steel-0",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/formosa-plastics",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "Vietnam",
+        "companyNameInSource": "Formosa Ha Tinh Steel",
+        "parentInSource": "Formosa Plastics",
+        "year": "2016",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "water pollution violation",
+        "penaltyAmountUSD": 500000000,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "ultimate-parent",
+          "effectivePct": null,
+          "path": [
+            "台塑"
+          ],
+          "method": "curated-group-affiliate",
+          "confidence": "high",
+          "note": "Formosa Ha Tinh Steel（越南河靜鋼廠）由 Formosa Ha Tinh (Cayman) Limited 持有：中鋼 2002 20.45%（中鋼官網 FHS 頁，2011 投資）、台塑 1301、南亞 1303、台化 1326、台塑化 6505 各 11.43%、福懋 1434 3.85%（各公司 2026Q2 財報與 Fubon 轉投資資料）；台塑集團 2008 年設立。與網站污染事件「河靜鋼廠」的持股歸屬相同（docs/pollution-news-spec.md）"
+        }
+      }
+    ],
     "news": [
       {
         "id": "fg-la-sunshine-project-permits",
@@ -203542,13 +203927,13 @@
     ],
     "inEpaData": false,
     "metadata": {
-      "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-28T02:12:25.765Z"
+      "dataSource": "Violation Tracker（Good Jobs First）、污染事件（官方文件與新聞報導）",
+      "lastUpdated": "2026-10-28T03:24:01.327Z"
     },
     "enforcementSummary": {
-      "count": 0,
-      "penaltyTotalUSD": 0,
-      "latestYear": null
+      "count": 2,
+      "penaltyTotalUSD": 500025000,
+      "latestYear": "2017"
     }
   },
   {
@@ -204376,7 +204761,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-28T02:12:25.765Z"
+      "lastUpdated": "2026-10-28T03:24:01.327Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -204408,7 +204793,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-johnson-health-tech-co-ltd",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/johnson-health-tech",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Johnson Health Tech Co. Ltd",
         "parentInSource": "Johnson Health Tech",
@@ -204435,7 +204820,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-28T02:12:25.765Z"
+      "lastUpdated": "2026-10-28T03:24:01.327Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -204461,7 +204846,62 @@
     "companyCode": "2002",
     "facilities": [],
     "violations": [],
-    "enforcement": [],
+    "enforcement": [
+      {
+        "caseId": "VTG-vietnam-formosa-ha-tinh-steel",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/vietnam-formosa-ha-tinh-steel",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/formosa-plastics",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "Vietnam",
+        "companyNameInSource": "Formosa Ha Tinh Steel",
+        "parentInSource": "Formosa Plastics",
+        "year": "2017",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "hazardous waste violation",
+        "penaltyAmountUSD": 25000,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "ultimate-parent",
+          "effectivePct": null,
+          "path": [
+            "台塑"
+          ],
+          "method": "curated-group-affiliate",
+          "confidence": "high",
+          "note": "Formosa Ha Tinh Steel（越南河靜鋼廠）由 Formosa Ha Tinh (Cayman) Limited 持有：中鋼 2002 20.45%（中鋼官網 FHS 頁，2011 投資）、台塑 1301、南亞 1303、台化 1326、台塑化 6505 各 11.43%、福懋 1434 3.85%（各公司 2026Q2 財報與 Fubon 轉投資資料）；台塑集團 2008 年設立。與網站污染事件「河靜鋼廠」的持股歸屬相同（docs/pollution-news-spec.md）"
+        }
+      },
+      {
+        "caseId": "VTG-vietnam-formosa-ha-tinh-steel-0",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/vietnam-formosa-ha-tinh-steel-0",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/formosa-plastics",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "Vietnam",
+        "companyNameInSource": "Formosa Ha Tinh Steel",
+        "parentInSource": "Formosa Plastics",
+        "year": "2016",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "water pollution violation",
+        "penaltyAmountUSD": 500000000,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "ultimate-parent",
+          "effectivePct": null,
+          "path": [
+            "台塑"
+          ],
+          "method": "curated-group-affiliate",
+          "confidence": "high",
+          "note": "Formosa Ha Tinh Steel（越南河靜鋼廠）由 Formosa Ha Tinh (Cayman) Limited 持有：中鋼 2002 20.45%（中鋼官網 FHS 頁，2011 投資）、台塑 1301、南亞 1303、台化 1326、台塑化 6505 各 11.43%、福懋 1434 3.85%（各公司 2026Q2 財報與 Fubon 轉投資資料）；台塑集團 2008 年設立。與網站污染事件「河靜鋼廠」的持股歸屬相同（docs/pollution-news-spec.md）"
+        }
+      }
+    ],
     "news": [
       {
         "id": "formosa-ha-tinh-taipei-lawsuit",
@@ -204975,13 +205415,13 @@
     ],
     "inEpaData": false,
     "metadata": {
-      "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-28T02:12:25.765Z"
+      "dataSource": "Violation Tracker（Good Jobs First）、污染事件（官方文件與新聞報導）",
+      "lastUpdated": "2026-10-28T03:24:01.327Z"
     },
     "enforcementSummary": {
-      "count": 0,
-      "penaltyTotalUSD": 0,
-      "latestYear": null
+      "count": 2,
+      "penaltyTotalUSD": 500025000,
+      "latestYear": "2017"
     }
   },
   {
@@ -205101,7 +205541,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-28T02:12:25.765Z"
+      "lastUpdated": "2026-10-28T03:24:01.327Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -205262,7 +205702,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-28T02:12:25.765Z"
+      "lastUpdated": "2026-10-28T03:24:01.327Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -205294,7 +205734,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-united-microelectronics-corporation-inc",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/united-microelectronics-corporation",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "United Microelectronics Corporation, Inc.",
         "parentInSource": "United Microelectronics Corporation",
@@ -205321,7 +205761,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-28T02:12:25.765Z"
+      "lastUpdated": "2026-10-28T03:24:01.327Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -205353,7 +205793,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-asustek-computer-inc",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/asustek-computer-inc",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "ASUSTeK Computer, Inc.",
         "parentInSource": "ASUSTeK Computer Inc.",
@@ -205380,7 +205820,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-28T02:12:25.765Z"
+      "lastUpdated": "2026-10-28T03:24:01.327Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -205412,7 +205852,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/wa-chunghwa-picture-tubes",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/tatung",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Chunghwa Picture Tubes",
         "parentInSource": "Tatung",
@@ -205435,11 +205875,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-9",
+        "caseId": "VT--chunghwa-picture-tubes-ltd-2",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-chunghwa-picture-tubes-ltd-2",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/tatung",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Chunghwa Picture Tubes, Ltd.",
         "parentInSource": "Tatung",
@@ -205462,11 +205902,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-10",
+        "caseId": "VT--chunghwa-picture-tubes-ltd-3",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-chunghwa-picture-tubes-ltd-3",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/tatung",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Chunghwa Picture Tubes, Ltd.",
         "parentInSource": "Tatung",
@@ -205489,11 +205929,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-8",
+        "caseId": "VT--chunghwa-picture-tubes-ltd-1",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-chunghwa-picture-tubes-ltd-1",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/tatung",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Chunghwa Picture Tubes, Ltd.",
         "parentInSource": "Tatung",
@@ -205516,11 +205956,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-21",
+        "caseId": "VT--chunghwa-picture-tubes-ltd-0",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-chunghwa-picture-tubes-ltd-0",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/tatung",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Chunghwa Picture Tubes Ltd.",
         "parentInSource": "Tatung",
@@ -205543,11 +205983,65 @@
         }
       },
       {
-        "caseId": "VT-noslug-48",
+        "caseId": "VTG-european-commission-chunghwa-picture-tub",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/european-commission-chunghwa-picture-tub",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/tatung",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "European Commission",
+        "companyNameInSource": "Chunghwa Picture Tubes",
+        "parentInSource": "Tatung",
+        "year": "2010",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "anti-competitive practices",
+        "penaltyAmountUSD": 12031137,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "responsible",
+          "effectivePct": 100,
+          "path": [
+            "大同"
+          ],
+          "method": "curated-self",
+          "confidence": "medium",
+          "note": "中華映管為大同集團關係企業、大同為最大股東（非過半持股）；華映 2019 年重整下市，MOPS 無持股資料"
+        }
+      },
+      {
+        "caseId": "VTG-czech-republic-chunghwa-picture-tubes-lt",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/czech-republic-chunghwa-picture-tubes-lt",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/tatung",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "Czech Republic",
+        "companyNameInSource": "Chunghwa Picture Tubes, Ltd.",
+        "parentInSource": "Tatung",
+        "year": "2010",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "anti-competitive practices",
+        "penaltyAmountUSD": 345765,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "responsible",
+          "effectivePct": 100,
+          "path": [
+            "大同"
+          ],
+          "method": "curated-self",
+          "confidence": "medium",
+          "note": "中華映管為大同集團關係企業、大同為最大股東（非過半持股）；華映 2019 年重整下市，MOPS 無持股資料"
+        }
+      },
+      {
+        "caseId": "VT--chunghwa-picture-tubes-ltd",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-chunghwa-picture-tubes-ltd",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/tatung",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Chunghwa Picture Tubes Ltd.",
         "parentInSource": "Tatung",
@@ -205570,11 +206064,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-65",
+        "caseId": "VT-ca-tatung-company-of-america-inc-0",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/ca-tatung-company-of-america-inc-0",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/tatung",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "TATUNG COMPANY OF AMERICA INC",
         "parentInSource": "Tatung",
@@ -205584,7 +206078,7 @@
         "offenseType": "workplace safety or health violation",
         "penaltyAmountUSD": 18690,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "CA",
         "holding": {
           "role": "responsible",
           "effectivePct": 100,
@@ -205598,11 +206092,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-86",
+        "caseId": "VT--tatung-co-of-america-inc-ps-plan",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-tatung-co-of-america-inc-ps-plan",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/tatung",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Tatung Co. of America, Inc. p/s plan",
         "parentInSource": "Tatung",
@@ -205626,11 +206120,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-99",
+        "caseId": "VT-ca-tatung-company-of-america-inc",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/ca-tatung-company-of-america-inc",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/tatung",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "TATUNG COMPANY OF AMERICA, INC.",
         "parentInSource": "Tatung",
@@ -205640,7 +206134,7 @@
         "offenseType": "labor relations violation",
         "penaltyAmountUSD": 7200,
         "isDuplicateFlagged": false,
-        "facilityState": null,
+        "facilityState": "CA",
         "holding": {
           "role": "responsible",
           "effectivePct": 100,
@@ -205658,12 +206152,71 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-28T02:12:25.765Z"
+      "lastUpdated": "2026-10-28T03:24:01.327Z"
     },
     "enforcementSummary": {
-      "count": 9,
-      "penaltyTotalUSD": 95996603,
+      "count": 11,
+      "penaltyTotalUSD": 108373505,
       "latestYear": "2015"
+    }
+  },
+  {
+    "id": "tw-2408",
+    "name": "南亞科技股份有限公司",
+    "englishName": "NANYA TECHNOLOGY CORPORATION",
+    "chairman": "鄒明仁",
+    "foundedDate": "1995/03/04",
+    "listedDate": "2000/08/17",
+    "capital": "30986278940",
+    "website": "https://www.nanya.com",
+    "address": "新北市泰山區大科里南林路98號",
+    "industry": "半導體業",
+    "logoUrl": "",
+    "shortName": "南亞科",
+    "parentCompany": null,
+    "companyType": "台灣上市公司",
+    "companyCode": "2408",
+    "facilities": [],
+    "violations": [],
+    "enforcement": [
+      {
+        "caseId": "VTG-european-commission-nanya-technology-cor",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/european-commission-nanya-technology-cor",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/nanya-technology-corp",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "European Commission",
+        "companyNameInSource": "Nanya Technology Corp.",
+        "parentInSource": "Nanya Technology Corp.",
+        "year": "2010",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "anti-competitive practices",
+        "penaltyAmountUSD": 2223270,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "responsible",
+          "effectivePct": 100,
+          "path": [
+            "南亞科"
+          ],
+          "method": "curated-self",
+          "confidence": "high",
+          "note": "南亞科技 2408 本身"
+        }
+      }
+    ],
+    "news": [],
+    "inEpaData": false,
+    "metadata": {
+      "dataSource": "Violation Tracker（Good Jobs First）",
+      "lastUpdated": "2026-10-28T03:24:01.327Z"
+    },
+    "enforcementSummary": {
+      "count": 1,
+      "penaltyTotalUSD": 2223270,
+      "latestYear": "2010"
     }
   },
   {
@@ -205690,7 +206243,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/wa-au-optronics",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/au-optronics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "AU Optronics",
         "parentInSource": "AU Optronics",
@@ -205717,7 +206270,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-au-optronics-corporation-1",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/au-optronics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "AU Optronics Corporation",
         "parentInSource": "AU Optronics",
@@ -205740,11 +206293,38 @@
         }
       },
       {
-        "caseId": "VT-noslug-2",
+        "caseId": "VTG-china-au-optronics",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/china-au-optronics",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/au-optronics",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "China",
+        "companyNameInSource": "AU Optronics",
+        "parentInSource": "AU Optronics",
+        "year": "2013",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "anti-competitive practices",
+        "penaltyAmountUSD": 3475902,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "responsible",
+          "effectivePct": 100,
+          "path": [
+            "友達"
+          ],
+          "method": "curated-self",
+          "confidence": "high",
+          "note": "友達光電 AUO（MOPS 英文名 AUO Corporation）"
+        }
+      },
+      {
+        "caseId": "VT--au-optronics-corporation",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-au-optronics-corporation",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/au-optronics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "AU Optronics Corporation",
         "parentInSource": "AU Optronics",
@@ -205767,11 +206347,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-3",
+        "caseId": "VT--au-optronics-corporation-0",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-au-optronics-corporation-0",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/au-optronics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "AU Optronics Corporation",
         "parentInSource": "AU Optronics",
@@ -205794,11 +206374,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-7",
+        "caseId": "VT--au-optronics-corporation-2",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-au-optronics-corporation-2",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/au-optronics",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "AU Optronics Corporation",
         "parentInSource": "AU Optronics",
@@ -205819,17 +206399,71 @@
           "confidence": "high",
           "note": "友達光電 AUO（MOPS 英文名 AUO Corporation）"
         }
+      },
+      {
+        "caseId": "VTG-south-korea-au-optronics-corp",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/south-korea-au-optronics-corp",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/au-optronics",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "South Korea",
+        "companyNameInSource": "AU Optronics Corp.",
+        "parentInSource": "AU Optronics",
+        "year": "2011",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "anti-competitive practices",
+        "penaltyAmountUSD": 25545762,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "responsible",
+          "effectivePct": 100,
+          "path": [
+            "友達"
+          ],
+          "method": "curated-self",
+          "confidence": "high",
+          "note": "友達光電 AUO（MOPS 英文名 AUO Corporation）"
+        }
+      },
+      {
+        "caseId": "VTG-european-commission-au-optronics-corp",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/european-commission-au-optronics-corp",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/au-optronics",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "European Commission",
+        "companyNameInSource": "AU Optronics Corp.",
+        "parentInSource": "AU Optronics",
+        "year": "2010",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "anti-competitive practices",
+        "penaltyAmountUSD": 155704912,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "responsible",
+          "effectivePct": 100,
+          "path": [
+            "友達"
+          ],
+          "method": "curated-self",
+          "confidence": "high",
+          "note": "友達光電 AUO（MOPS 英文名 AUO Corporation）"
+        }
       }
     ],
     "news": [],
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-28T02:12:25.765Z"
+      "lastUpdated": "2026-10-28T03:24:01.327Z"
     },
     "enforcementSummary": {
-      "count": 5,
-      "penaltyTotalUSD": 682500000,
+      "count": 8,
+      "penaltyTotalUSD": 867226576,
       "latestYear": "2015"
     }
   },
@@ -205853,11 +206487,38 @@
     "violations": [],
     "enforcement": [
       {
+        "caseId": "VTG-south-korea-yang-ming",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/south-korea-yang-ming",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/yang-ming-marine-transport",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "South Korea",
+        "companyNameInSource": "Yang Ming",
+        "parentInSource": "Yang Ming Marine Transport",
+        "year": "2022",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "anti-competitive practices",
+        "penaltyAmountUSD": 2028385,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "responsible",
+          "effectivePct": 100,
+          "path": [
+            "陽明"
+          ],
+          "method": "curated-self",
+          "confidence": "high",
+          "note": "陽明海運本身"
+        }
+      },
+      {
         "caseId": "VT--yang-ming-america-corporation",
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-yang-ming-america-corporation",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/yang-ming-marine-transport",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Yang Ming America Corporation",
         "parentInSource": "Yang Ming Marine Transport",
@@ -205886,7 +206547,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-yang-ming-marine-lines",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/yang-ming-marine-transport",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Yang Ming Marine Lines",
         "parentInSource": "Yang Ming Marine Transport",
@@ -205913,7 +206574,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/ca-yang-ming-marine-transport-corp",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/yang-ming-marine-transport",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Yang Ming Marine Transport Corp.",
         "parentInSource": "Yang Ming Marine Transport",
@@ -205940,7 +206601,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-yang-ming-america-corporation-0",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/yang-ming-marine-transport",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Yang Ming America Corporation",
         "parentInSource": "Yang Ming Marine Transport",
@@ -205969,7 +206630,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/ca-yang-ming-marine-transport-corp-0",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/yang-ming-marine-transport",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Yang Ming Marine Transport Corp.",
         "parentInSource": "Yang Ming Marine Transport",
@@ -205996,7 +206657,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/ca-yang-ming-marine-transport-corp-1",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/yang-ming-marine-transport",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Yang Ming Marine Transport Corp.",
         "parentInSource": "Yang Ming Marine Transport",
@@ -206023,7 +206684,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-yang-ming-america-corporation-1",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/yang-ming-marine-transport",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Yang Ming America Corporation",
         "parentInSource": "Yang Ming Marine Transport",
@@ -206048,11 +206709,38 @@
         }
       },
       {
-        "caseId": "VT-noslug-11",
+        "caseId": "VTG-italy-yang-ming-italy-spa",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/italy-yang-ming-italy-spa",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/yang-ming-marine-transport",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "Italy",
+        "companyNameInSource": "Yang Ming Italy S.p.A.",
+        "parentInSource": "Yang Ming Marine Transport",
+        "year": "2012",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "anti-competitive practices",
+        "penaltyAmountUSD": 622764,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "responsible",
+          "effectivePct": null,
+          "path": [
+            "陽明"
+          ],
+          "method": "curated-mops-node",
+          "confidence": "high",
+          "note": "Yang Ming Italy S.p.A. ＝ MOPS 陽明荷蘭控股 → 陽明（義大利）股份有限公司"
+        }
+      },
+      {
+        "caseId": "VT--yang-ming-america-corp",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-yang-ming-america-corp",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/yang-ming-marine-transport",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Yang Ming America Corp.",
         "parentInSource": "Yang Ming Marine Transport",
@@ -206081,11 +206769,70 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-28T02:12:25.765Z"
+      "lastUpdated": "2026-10-28T03:24:01.327Z"
     },
     "enforcementSummary": {
-      "count": 8,
-      "penaltyTotalUSD": 76303,
+      "count": 10,
+      "penaltyTotalUSD": 2727452,
+      "latestYear": "2022"
+    }
+  },
+  {
+    "id": "tw-2615",
+    "name": "萬海航運股份有限公司",
+    "englishName": "WAN HAI LINES LTD.",
+    "chairman": "久福花園股份有限公司",
+    "foundedDate": "1965/02/24",
+    "listedDate": "1996/05/16",
+    "capital": "28061462930",
+    "website": "http://tw.wanhai.com/",
+    "address": "台北市松江路136號10樓",
+    "industry": "航運業",
+    "logoUrl": "",
+    "shortName": "萬海",
+    "parentCompany": null,
+    "companyType": "台灣上市公司",
+    "companyCode": "2615",
+    "facilities": [],
+    "violations": [],
+    "enforcement": [
+      {
+        "caseId": "VTG-south-korea-wan-hai",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/south-korea-wan-hai",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/wan-hai-lines",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "South Korea",
+        "companyNameInSource": "Wan Hai",
+        "parentInSource": "Wan Hai Lines",
+        "year": "2022",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "anti-competitive practices",
+        "penaltyAmountUSD": 9651388,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "responsible",
+          "effectivePct": 100,
+          "path": [
+            "萬海"
+          ],
+          "method": "curated-self",
+          "confidence": "high",
+          "note": "萬海航運 2615 本身"
+        }
+      }
+    ],
+    "news": [],
+    "inEpaData": false,
+    "metadata": {
+      "dataSource": "Violation Tracker（Good Jobs First）",
+      "lastUpdated": "2026-10-28T03:24:01.327Z"
+    },
+    "enforcementSummary": {
+      "count": 1,
+      "penaltyTotalUSD": 9651388,
       "latestYear": "2022"
     }
   },
@@ -206113,7 +206860,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-eva-airways-corporation-1",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/eva-airways-corporation",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "EVA Airways Corporation",
         "parentInSource": "EVA Airways Corporation",
@@ -206140,7 +206887,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-eva-airways-corporation-0",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/eva-airways-corporation",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "EVA Airways Corporation",
         "parentInSource": "EVA Airways Corporation",
@@ -206163,11 +206910,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-18",
+        "caseId": "VT--eva-airways-corporation",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-eva-airways-corporation",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/eva-airways-corporation",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "EVA Airways Corporation",
         "parentInSource": "EVA Airways Corporation",
@@ -206190,11 +206937,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-16",
+        "caseId": "VT--eva-airways-corp",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-eva-airways-corp",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/eva-airways-corporation",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "EVA AIRWAYS CORP",
         "parentInSource": "EVA Airways Corporation",
@@ -206217,11 +206964,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-46",
+        "caseId": "VT--eva-airways-corp-0",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-eva-airways-corp-0",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/eva-airways-corporation",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "EVA AIRWAYS CORP",
         "parentInSource": "EVA Airways Corporation",
@@ -206244,11 +206991,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-85",
+        "caseId": "VT--eva-airways-corp-2",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-eva-airways-corp-2",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/eva-airways-corporation",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "EVA AIRWAYS CORP",
         "parentInSource": "EVA Airways Corporation",
@@ -206271,11 +207018,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-84",
+        "caseId": "VT--eva-airways-corp-1",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-eva-airways-corp-1",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/eva-airways-corporation",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "EVA AIRWAYS CORP",
         "parentInSource": "EVA Airways Corporation",
@@ -206302,12 +207049,131 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-28T02:12:25.765Z"
+      "lastUpdated": "2026-10-28T03:24:01.327Z"
     },
     "enforcementSummary": {
       "count": 7,
       "penaltyTotalUSD": 133626500,
       "latestYear": "2018"
+    }
+  },
+  {
+    "id": "tw-2880",
+    "name": "華南金融控股股份有限公司",
+    "englishName": "HUA NAN FINANCIAL HOLDINGS CO., LTD.",
+    "chairman": "陳芬蘭",
+    "foundedDate": "2001/12/19",
+    "listedDate": "2001/12/19",
+    "capital": "139169650890",
+    "website": "https://www.hnfhc.com.tw",
+    "address": "台北市信義區松仁路123號",
+    "industry": "金融保險業",
+    "logoUrl": "",
+    "shortName": "華南金",
+    "parentCompany": null,
+    "companyType": "台灣上市公司",
+    "companyCode": "2880",
+    "facilities": [],
+    "violations": [],
+    "enforcement": [
+      {
+        "caseId": "VTG-hong-kong-hua-nan-commercial-bank-ltd",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/hong-kong-hua-nan-commercial-bank-ltd",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/hua-nan-financial-holdings-co-ltd",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "Hong Kong",
+        "companyNameInSource": "Hua Nan Commercial Bank, Ltd.",
+        "parentInSource": "Hua Nan Financial Holdings Co., Ltd.",
+        "year": "2024",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "anti-money-laundering deficiencies",
+        "penaltyAmountUSD": 1149246,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "responsible",
+          "effectivePct": 100,
+          "path": [
+            "華南金",
+            "華南商業銀行股份有限公司（100%）"
+          ],
+          "method": "curated-mops-node",
+          "confidence": "high",
+          "note": "華南商業銀行（香港分行受罰），華南金 2880 持股 100%"
+        }
+      }
+    ],
+    "news": [],
+    "inEpaData": false,
+    "metadata": {
+      "dataSource": "Violation Tracker（Good Jobs First）",
+      "lastUpdated": "2026-10-28T03:24:01.327Z"
+    },
+    "enforcementSummary": {
+      "count": 1,
+      "penaltyTotalUSD": 1149246,
+      "latestYear": "2024"
+    }
+  },
+  {
+    "id": "tw-2882",
+    "name": "國泰金融控股股份有限公司",
+    "englishName": "CATHAY FINANCIAL HOLDING CO., LTD.",
+    "chairman": "蔡宏圖",
+    "foundedDate": "2001/12/31",
+    "listedDate": "2001/12/31",
+    "capital": "162025101280",
+    "website": "https://www.cathayholdings.com",
+    "address": "台北市仁愛路四段296號",
+    "industry": "金融保險業",
+    "logoUrl": "",
+    "shortName": "國泰金",
+    "parentCompany": null,
+    "companyType": "台灣上市公司",
+    "companyCode": "2882",
+    "facilities": [],
+    "violations": [],
+    "enforcement": [
+      {
+        "caseId": "VTG-hong-kong-cathay-united-bank-company-lim",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/hong-kong-cathay-united-bank-company-lim",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/cathay-financial",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "Hong Kong",
+        "companyNameInSource": "Cathay United Bank Company, Limited",
+        "parentInSource": "Cathay Financial",
+        "year": "2022",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "anti-money-laundering deficiencies",
+        "penaltyAmountUSD": 1401345,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "responsible",
+          "effectivePct": null,
+          "path": [
+            "國泰金"
+          ],
+          "method": "curated-mops-node",
+          "confidence": "medium",
+          "note": "國泰世華銀行；MOPS 國泰金子公司清單不完整，只有國泰世華作為投資人的紀錄，持股比例未列"
+        }
+      }
+    ],
+    "news": [],
+    "inEpaData": false,
+    "metadata": {
+      "dataSource": "Violation Tracker（Good Jobs First）",
+      "lastUpdated": "2026-10-28T03:24:01.328Z"
+    },
+    "enforcementSummary": {
+      "count": 1,
+      "penaltyTotalUSD": 1401345,
+      "latestYear": "2022"
     }
   },
   {
@@ -206334,7 +207200,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-mega-international-commercial-bank-co-lt",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/mega-financial-holding",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Mega International Commercial Bank Co., Ltd.",
         "parentInSource": "Mega Financial Holding",
@@ -206362,7 +207228,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/ny-mega-international-commercial-bank",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/mega-financial-holding",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Mega International Commercial Bank",
         "parentInSource": "Mega Financial Holding",
@@ -206390,7 +207256,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-28T02:12:25.765Z"
+      "lastUpdated": "2026-10-28T03:24:01.328Z"
     },
     "enforcementSummary": {
       "count": 2,
@@ -206422,7 +207288,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-taishin-securities-co-ltd",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/taishin-financial-holdings",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Taishin Securities Co., Ltd.",
         "parentInSource": "Taishin Financial Holdings",
@@ -206450,12 +207316,72 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-28T02:12:25.765Z"
+      "lastUpdated": "2026-10-28T03:24:01.328Z"
     },
     "enforcementSummary": {
       "count": 1,
       "penaltyTotalUSD": 200000,
       "latestYear": "2024"
+    }
+  },
+  {
+    "id": "tw-2891",
+    "name": "中國信託金融控股股份有限公司",
+    "englishName": "CTBC FINANCIAL HOLDING CO., LTD.",
+    "chairman": "顏文隆",
+    "foundedDate": "2002/05/17",
+    "listedDate": "2002/05/17",
+    "capital": "201497561140",
+    "website": "https://www.ctbcholding.com",
+    "address": "臺北市南港區經貿二路168號27樓、29樓",
+    "industry": "金融保險業",
+    "logoUrl": "",
+    "shortName": "中信金",
+    "parentCompany": null,
+    "companyType": "台灣上市公司",
+    "companyCode": "2891",
+    "facilities": [],
+    "violations": [],
+    "enforcement": [
+      {
+        "caseId": "VTG-hong-kong-ctbc-bank-co-ltd",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/hong-kong-ctbc-bank-co-ltd",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/ctbc-financial",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "Hong Kong",
+        "companyNameInSource": "CTBC Bank Co., Ltd.",
+        "parentInSource": "CTBC Financial",
+        "year": "2021",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "anti-money-laundering deficiencies",
+        "penaltyAmountUSD": 770316,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "responsible",
+          "effectivePct": 100,
+          "path": [
+            "中信金",
+            "中國信託商業銀行(股)公司（100%）"
+          ],
+          "method": "curated-mops-node",
+          "confidence": "high",
+          "note": "中國信託商業銀行"
+        }
+      }
+    ],
+    "news": [],
+    "inEpaData": false,
+    "metadata": {
+      "dataSource": "Violation Tracker（Good Jobs First）",
+      "lastUpdated": "2026-10-28T03:24:01.328Z"
+    },
+    "enforcementSummary": {
+      "count": 1,
+      "penaltyTotalUSD": 770316,
+      "latestYear": "2021"
     }
   },
   {
@@ -206571,7 +207497,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-28T02:12:25.765Z"
+      "lastUpdated": "2026-10-28T03:24:01.328Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -206599,11 +207525,38 @@
     "violations": [],
     "enforcement": [
       {
+        "caseId": "VTG-brazil-chimei-innolux-corporation",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/brazil-chimei-innolux-corporation",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/innolux-corporation",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "Brazil",
+        "companyNameInSource": "Chimei Innolux Corporation",
+        "parentInSource": "Innolux Corporation",
+        "year": "2019",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "anti-competitive practices",
+        "penaltyAmountUSD": 3526257,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "responsible",
+          "effectivePct": 100,
+          "path": [
+            "群創"
+          ],
+          "method": "curated-self",
+          "confidence": "high",
+          "note": "奇美電為群創前名"
+        }
+      },
+      {
         "caseId": "VT-wa-chi-mei-optoelectronics",
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/wa-chi-mei-optoelectronics",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/innolux-corporation",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Chi Mei Optoelectronics",
         "parentInSource": "Innolux Corporation",
@@ -206630,7 +207583,7 @@
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-chi-mei-corporation-0",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/innolux-corporation",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Chi Mei Corporation",
         "parentInSource": "Innolux Corporation",
@@ -206653,11 +207606,38 @@
         }
       },
       {
-        "caseId": "VT-noslug-20",
+        "caseId": "VTG-china-chimei-innolux-corporation",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/china-chimei-innolux-corporation",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/innolux-corporation",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "China",
+        "companyNameInSource": "Chimei Innolux Corporation",
+        "parentInSource": "Innolux Corporation",
+        "year": "2013",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "anti-competitive practices",
+        "penaltyAmountUSD": 14919398,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "responsible",
+          "effectivePct": 100,
+          "path": [
+            "群創"
+          ],
+          "method": "curated-self",
+          "confidence": "high",
+          "note": "奇美電為群創前名"
+        }
+      },
+      {
+        "caseId": "VT--chimei-innolux-corp",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-chimei-innolux-corp",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/innolux-corporation",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Chimei Innolux Corp.",
         "parentInSource": "Innolux Corporation",
@@ -206680,11 +207660,11 @@
         }
       },
       {
-        "caseId": "VT-noslug-26",
+        "caseId": "VT--chi-mei-corporation",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-chi-mei-corporation",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/innolux-corporation",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "Chi Mei Corporation",
         "parentInSource": "Innolux Corporation",
@@ -206705,18 +207685,72 @@
           "confidence": "high",
           "note": "奇美電子 2010 年與群創合併（存續更名奇美電、2012 年再更名群創）；2010 年以前的罰款為合併前責任，由群創承繼"
         }
+      },
+      {
+        "caseId": "VTG-south-korea-chi-mei-innolux-display-corp",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/south-korea-chi-mei-innolux-display-corp",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/innolux-corporation",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "South Korea",
+        "companyNameInSource": "Chi Mei Innolux Display Corporation",
+        "parentInSource": "Innolux Corporation",
+        "year": "2011",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "anti-competitive practices",
+        "penaltyAmountUSD": 1387870,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "responsible",
+          "effectivePct": 100,
+          "path": [
+            "群創"
+          ],
+          "method": "curated-self",
+          "confidence": "high",
+          "note": "奇美電子 2010 年與群創合併（存續更名奇美電、2012 年再更名群創）；2010 年以前的罰款為合併前責任，由群創承繼"
+        }
+      },
+      {
+        "caseId": "VTG-european-commission-chimei-innolux-corpo",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/european-commission-chimei-innolux-corpo",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/innolux-corporation",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "European Commission",
+        "companyNameInSource": "Chimei InnoLux Corporation",
+        "parentInSource": "Innolux Corporation",
+        "year": "2010",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "anti-competitive practices",
+        "penaltyAmountUSD": 395184960,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "responsible",
+          "effectivePct": 100,
+          "path": [
+            "群創"
+          ],
+          "method": "curated-self",
+          "confidence": "high",
+          "note": "奇美電為群創前名"
+        }
       }
     ],
     "news": [],
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-28T02:12:25.765Z"
+      "lastUpdated": "2026-10-28T03:24:01.328Z"
     },
     "enforcementSummary": {
-      "count": 4,
-      "penaltyTotalUSD": 307296636,
-      "latestYear": "2015"
+      "count": 8,
+      "penaltyTotalUSD": 722315121,
+      "latestYear": "2019"
     }
   },
   {
@@ -206933,7 +207967,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-28T02:12:25.765Z"
+      "lastUpdated": "2026-10-28T03:24:01.328Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -207076,12 +208110,74 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-28T02:12:25.765Z"
+      "lastUpdated": "2026-10-28T03:24:01.328Z"
     },
     "enforcementSummary": {
       "count": 0,
       "penaltyTotalUSD": 0,
       "latestYear": null
+    }
+  },
+  {
+    "id": "tw-5876",
+    "name": "上海商業儲蓄銀行股份有限公司",
+    "englishName": "THE SHANGHAI COMMERCIAL & SAVINGS BANK, LTD.",
+    "chairman": "李慶言",
+    "foundedDate": "1954/09/09",
+    "listedDate": "2018/10/19",
+    "capital": "48616031400",
+    "website": "https://www.scsb.com.tw",
+    "address": "台北市中山區民權東路一段2號",
+    "industry": "金融保險業",
+    "logoUrl": "",
+    "shortName": "上海商銀",
+    "parentCompany": null,
+    "companyType": "台灣上市公司",
+    "companyCode": "5876",
+    "facilities": [],
+    "violations": [],
+    "enforcement": [
+      {
+        "caseId": "VTG-hong-kong-shanghai-commercial-bank-limit",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/hong-kong-shanghai-commercial-bank-limit",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/shanghai-commercial-and-savings-bank",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "Hong Kong",
+        "companyNameInSource": "Shanghai Commercial Bank Limited",
+        "parentInSource": "Shanghai Commercial & Savings Bank",
+        "year": "2018",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "anti-money-laundering deficiencies",
+        "penaltyAmountUSD": 641825,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "responsible",
+          "effectivePct": 57.6,
+          "path": [
+            "上海商銀",
+            "上商復興股份有限公司（100%）",
+            "Empresa Inversiones Generales,S.A.（100%）",
+            "香港上海商業銀行（48%）"
+          ],
+          "method": "curated-mops-node",
+          "confidence": "high",
+          "note": "香港上海商業銀行（Shanghai Commercial Bank Limited），上海商銀 5876 經兩家投資公司合計持股 57.6%（MOPS）"
+        }
+      }
+    ],
+    "news": [],
+    "inEpaData": false,
+    "metadata": {
+      "dataSource": "Violation Tracker（Good Jobs First）",
+      "lastUpdated": "2026-10-28T03:24:01.328Z"
+    },
+    "enforcementSummary": {
+      "count": 1,
+      "penaltyTotalUSD": 641825,
+      "latestYear": "2018"
     }
   },
   {
@@ -207104,11 +208200,38 @@
     "violations": [],
     "enforcement": [
       {
+        "caseId": "VTG-brazil-hannstar-display",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/brazil-hannstar-display",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/hannstar-display",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "Brazil",
+        "companyNameInSource": "Hannstar Display",
+        "parentInSource": "HannStar Display",
+        "year": "2019",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "anti-competitive practices",
+        "penaltyAmountUSD": 3618392,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "responsible",
+          "effectivePct": 100,
+          "path": [
+            "彩晶"
+          ],
+          "method": "curated-self",
+          "confidence": "high",
+          "note": "瀚宇彩晶 6116 本身"
+        }
+      },
+      {
         "caseId": "VT--hannstar-display-corporation-2",
         "source": "Violation Tracker",
         "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-hannstar-display-corporation-2",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/hannstar-display",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "HannStar Display Corporation",
         "parentInSource": "HannStar Display",
@@ -207125,17 +208248,44 @@
           "path": [
             "彩晶"
           ],
-          "method": "self",
+          "method": "curated-self",
           "confidence": "high",
-          "note": null
+          "note": "瀚宇彩晶 6116 本身"
         }
       },
       {
-        "caseId": "VT-noslug-22",
+        "caseId": "VTG-china-hannstar-display",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/china-hannstar-display",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/hannstar-display",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "China",
+        "companyNameInSource": "Hannstar Display",
+        "parentInSource": "HannStar Display",
+        "year": "2013",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "anti-competitive practices",
+        "penaltyAmountUSD": 38092,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "responsible",
+          "effectivePct": 100,
+          "path": [
+            "彩晶"
+          ],
+          "method": "curated-self",
+          "confidence": "high",
+          "note": "瀚宇彩晶 6116 本身"
+        }
+      },
+      {
+        "caseId": "VT--hannstar-display-corporation-0",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-hannstar-display-corporation-0",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/hannstar-display",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "HannStar Display Corporation",
         "parentInSource": "HannStar Display",
@@ -207152,17 +208302,17 @@
           "path": [
             "彩晶"
           ],
-          "method": "self",
+          "method": "curated-self",
           "confidence": "high",
-          "note": null
+          "note": "瀚宇彩晶 6116 本身"
         }
       },
       {
-        "caseId": "VT-noslug-27",
+        "caseId": "VT--hannstar-display-corporation-1",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-hannstar-display-corporation-1",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/hannstar-display",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "HannStar Display Corporation",
         "parentInSource": "HannStar Display",
@@ -207179,17 +208329,44 @@
           "path": [
             "彩晶"
           ],
-          "method": "self",
+          "method": "curated-self",
           "confidence": "high",
-          "note": null
+          "note": "瀚宇彩晶 6116 本身"
         }
       },
       {
-        "caseId": "VT-noslug-32",
+        "caseId": "VTG-south-korea-hannstar-display-corp",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/south-korea-hannstar-display-corp",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/hannstar-display",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "South Korea",
+        "companyNameInSource": "HannStar Display Corp.",
+        "parentInSource": "HannStar Display",
+        "year": "2011",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "anti-competitive practices",
+        "penaltyAmountUSD": 778998,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "responsible",
+          "effectivePct": 100,
+          "path": [
+            "彩晶"
+          ],
+          "method": "curated-self",
+          "confidence": "high",
+          "note": "瀚宇彩晶 6116 本身"
+        }
+      },
+      {
+        "caseId": "VT--hannstar-display-corporation",
         "source": "Violation Tracker",
-        "sourceUrl": null,
+        "sourceUrl": "https://violationtracker.goodjobsfirst.org/violation-tracker/-hannstar-display-corporation",
         "parentUrl": "https://violationtracker.goodjobsfirst.org/parent/hannstar-display",
-        "snapshotDate": "2026-09-10",
+        "snapshotDate": "2026-10-28",
         "jurisdiction": "United States",
         "companyNameInSource": "HannStar Display Corporation",
         "parentInSource": "HannStar Display",
@@ -207206,9 +208383,36 @@
           "path": [
             "彩晶"
           ],
-          "method": "self",
+          "method": "curated-self",
           "confidence": "high",
-          "note": null
+          "note": "瀚宇彩晶 6116 本身"
+        }
+      },
+      {
+        "caseId": "VTG-european-commission-hannstar-display-cor",
+        "source": "Violation Tracker Global",
+        "sourceUrl": "https://violationtrackerglobal.goodjobsfirst.org/violation-tracker-global/european-commission-hannstar-display-cor",
+        "parentUrl": "https://violationtrackerglobal.goodjobsfirst.org/parent/hannstar-display",
+        "snapshotDate": "2026-10-28",
+        "jurisdiction": "European Commission",
+        "companyNameInSource": "HannStar Display Corporation",
+        "parentInSource": "HannStar Display",
+        "year": "2010",
+        "agencyCode": null,
+        "agencyLevel": "foreign",
+        "offenseType": "anti-competitive practices",
+        "penaltyAmountUSD": 10798029,
+        "isDuplicateFlagged": false,
+        "facilityState": null,
+        "holding": {
+          "role": "responsible",
+          "effectivePct": 100,
+          "path": [
+            "彩晶"
+          ],
+          "method": "curated-self",
+          "confidence": "high",
+          "note": "瀚宇彩晶 6116 本身"
         }
       }
     ],
@@ -207216,12 +208420,12 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-28T02:12:25.765Z"
+      "lastUpdated": "2026-10-28T03:24:01.328Z"
     },
     "enforcementSummary": {
-      "count": 4,
-      "penaltyTotalUSD": 96200000,
-      "latestYear": "2013"
+      "count": 8,
+      "penaltyTotalUSD": 111433511,
+      "latestYear": "2019"
     }
   },
   {
@@ -207430,7 +208634,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-28T02:12:25.765Z"
+      "lastUpdated": "2026-10-28T03:24:01.328Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -207555,7 +208759,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-28T02:12:25.765Z"
+      "lastUpdated": "2026-10-28T03:24:01.328Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -207678,7 +208882,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-28T02:12:25.765Z"
+      "lastUpdated": "2026-10-28T03:24:01.328Z"
     },
     "enforcementSummary": {
       "count": 0,

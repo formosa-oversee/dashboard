@@ -36,7 +36,11 @@ npm run download-epa                          # 已內建該環境變數
 - **授權**：Good Jobs First 以書信同意本專案（非營利組織）使用 VT 資料（"Yes you're allow to use without profit"，使用者 2026-10-25 轉述）。VT 快照、`data/enforcement.json` 都進 git，公司頁「罰款紀錄」分頁公開顯示。網站上要標示來源（Violation Tracker, Good Jobs First）、快照日期與「經同意非營利使用」。不得用於營利。
 - **不要寫任何繞過 Cloudflare 的爬蟲**抓 violationtracker.goodjobsfirst.org 或 Global 站。其 Terms of Service §5.2 明文禁止，見 `docs/violation-tracker-data-access.md` 第 5 節。授權只涵蓋使用資料，不涵蓋規避技術阻擋。
 - 原始資料由人工瀏覽、訂閱下載或向 Good Jobs First 申請取得，放在 `data/violation-tracker/`。
-- 2026-09-10 的列表頁快照在 `data/violation-tracker/*.tsv`：US 版 `hq_id=Taiwan` 201 筆、Global `jurisdiction=Taiwan` 428 筆。透過使用者自己的 Chrome（claude-in-chrome 擴充）正常瀏覽讀取，未繞過任何阻擋。JavaScript 抓取的頁面有紀錄 slug，`get_page_text` 抓的只有純文字、無 slug（US p2–3、Global p4–5）。Global 分頁真實網址是 `/?jurisdiction_sum=Taiwan&page=N`，`/jurisdiction/Taiwan?page=N` 會被忽略。
+- 列表頁快照在 `data/violation-tracker/`，三種各自取最新日期（`build-enforcement.js`、`resolve-ownership.py` 都這樣讀），都是透過使用者自己的 Chrome（claude-in-chrome 擴充）正常瀏覽讀取，未繞過任何阻擋：
+  - US 版 `hq_id=Taiwan`：`<date>-us-hq-taiwan-p*.tsv`。2026-10-28 共 203 筆、每筆都有紀錄 slug（比 2026-09-10 的 201 筆多兩筆 Pioneer Electronics (USA)，VT 誤掛群創，`resolve-ownership.py` 改判為日本先鋒、不顯示）。
+  - Global 版 `jurisdiction=Taiwan`（台灣國內案件，網站不顯示）：`2026-09-10-global-taiwan-p*.tsv` 428 筆，p4–p5 由 `get_page_text` 抓、無 slug。分頁真實網址是 `/?jurisdiction_sum=Taiwan&page=N`。
+  - Global 版總部在台灣的母公司在台灣、美國以外的紀錄：`<date>-global-hq-taiwan-abroad.tsv`（多一欄 jurisdiction）。Global 的 HQ 國家查詢參數無效，改從 `/top-hq-parents` 的 Taiwan 段（38 家）逐一開 `/parent/{slug}`，記錄表有 Jurisdiction 欄。2026-10-28 共 28 筆（歐盟、南韓、中國、巴西、香港、英國、捷克、越南、義大利、印度、澳洲）。美國紀錄 US 版都有且較多，不重複收。
+  - 抓法：`javascript_tool` 回傳約 1,000 字就截斷，且含 `?=&%` 的輸出會被擋。先把整頁列存進 `sessionStorage`、分段讀出，並在頁面上算 djb2 checksum，寫成檔後在本機重算比對（VT 的 `(*)` 後面是不換行空白 U+00A0）。
 - `node scripts/build-enforcement.js [YYYY-MM-DD]` 將快照轉成 `data/enforcement.json`。每筆標 `shown`：要掛得到上市公司、不是國內案件（jurisdiction Taiwan，「國內都不用」）、不是台灣母公司取得控制前的罰款，才顯示在網站；不顯示的留在檔案裡，`hiddenReason` 說明原因。前端字典（違規類型中文、類別、機關名稱）在 `lib/enforcement.js`。
 - 母公司對照表 `data/company-mapping.json`（進 git）由 `npm run mapping:seed` 產生，依腳本內 `OVERRIDES`（人工確認）與 `FOREIGN`（外資母公司排除）決定。
 - **資金鏈歸屬**：`npm run attribution`（resolve-ownership → build-enforcement → build-company-info → fetch-data）。`scripts/resolve-ownership.py` 把受罰實體沿 MOPS 子公司持股鏈追到負責的台灣母公司，輸出 `data/ownership-resolution.json`（進 git，只含實體名稱與持股鏈，不含 VT 金額）。規格見 `docs/enforcement-data-interface.md` 第 8 節。

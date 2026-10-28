@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-27",
-  "vtSnapshotDate": "2026-09-10",
+  "generatedAt": "2026-10-28",
+  "vtSnapshotDate": "2026-10-28",
   "mopsSource": "formosa-oversee/scripts mops_company（公開資訊觀測站，2025Q1–Q2 子公司持股）",
   "note": "由 scripts/resolve-ownership.py 產生。responsible.kind：listed 上市公司｜group-affiliate 集團關係企業（無上市公司持股路徑）｜merger 合併承繼｜private／state-owned 台灣非上市母公司｜foreign 外資母公司｜unresolved。path 為 MOPS 持股鏈，effectivePct 為沿路持股相乘。",
   "entities": [
@@ -732,8 +732,9 @@
       },
       "effectivePct": 100.0,
       "path": [],
-      "method": "self",
-      "confidence": "high"
+      "method": "curated-self",
+      "confidence": "high",
+      "note": "瀚宇彩晶 6116 本身"
     },
     {
       "source": "Violation Tracker",
@@ -788,6 +789,19 @@
       "confidence": "high",
       "note": "奇美電子 2010 年與群創合併（存續更名奇美電、2012 年再更名群創）；2010 年以前的罰款為合併前責任，由群創承繼",
       "controlSince": 2010
+    },
+    {
+      "source": "Violation Tracker",
+      "key": "Violation Tracker|Pioneer Electronics (USA) Inc.",
+      "entity": "Pioneer Electronics (USA) Inc.",
+      "parentSlug": "innolux-corporation",
+      "responsible": {
+        "kind": "foreign",
+        "name": "日本先鋒 Pioneer Corporation 的美國子公司，與群創無持股關係"
+      },
+      "method": "curated-foreign",
+      "confidence": "high",
+      "note": "VT 把 Pioneer Electronics (USA) 的光碟機聯合定價和解（In re Optical Disk Drive Products Antitrust Litigation，N.D. Cal. 3:10-md-2143）掛在群創名下；該案和解的是 Pioneer Corporation 與 Pioneer Electronics 等先鋒集團被告（Courthouse News 報導），不歸群創"
     },
     {
       "source": "Violation Tracker",
@@ -1858,6 +1872,40 @@
     },
     {
       "source": "Violation Tracker Global",
+      "key": "Violation Tracker Global|AU Optronics",
+      "entity": "AU Optronics",
+      "parentSlug": "au-optronics",
+      "responsible": {
+        "kind": "listed",
+        "code": "2409",
+        "name": "友達光電股份有限公司",
+        "short": "友達"
+      },
+      "effectivePct": 100.0,
+      "path": [],
+      "method": "curated-self",
+      "confidence": "high",
+      "note": "友達光電 AUO（MOPS 英文名 AUO Corporation）"
+    },
+    {
+      "source": "Violation Tracker Global",
+      "key": "Violation Tracker Global|AU Optronics Corp.",
+      "entity": "AU Optronics Corp.",
+      "parentSlug": "au-optronics",
+      "responsible": {
+        "kind": "listed",
+        "code": "2409",
+        "name": "友達光電股份有限公司",
+        "short": "友達"
+      },
+      "effectivePct": 100.0,
+      "path": [],
+      "method": "curated-self",
+      "confidence": "high",
+      "note": "友達光電 AUO（MOPS 英文名 AUO Corporation）"
+    },
+    {
+      "source": "Violation Tracker Global",
       "key": "Violation Tracker Global|AU Optronics Corporation",
       "entity": "AU Optronics Corporation",
       "parentSlug": "au-optronics",
@@ -2035,6 +2083,25 @@
       "source": "Violation Tracker Global",
       "key": "Violation Tracker Global|Cathay United Bank",
       "entity": "Cathay United Bank",
+      "parentSlug": "cathay-financial",
+      "responsible": {
+        "kind": "listed",
+        "code": "2882",
+        "name": "國泰金融控股股份有限公司",
+        "short": "國泰金"
+      },
+      "entityInMops": "國泰世華商業銀行(股)公司",
+      "effectivePct": null,
+      "path": [],
+      "method": "curated-mops-node",
+      "confidence": "medium",
+      "pathNote": "MOPS 有此節點但未列出從母公司到此節點的持股（清單不完整），持股比例未知",
+      "note": "國泰世華銀行；MOPS 國泰金子公司清單不完整，只有國泰世華作為投資人的紀錄，持股比例未列"
+    },
+    {
+      "source": "Violation Tracker Global",
+      "key": "Violation Tracker Global|Cathay United Bank Company, Limited",
+      "entity": "Cathay United Bank Company, Limited",
       "parentSlug": "cathay-financial",
       "responsible": {
         "kind": "listed",
@@ -2373,6 +2440,30 @@
     },
     {
       "source": "Violation Tracker Global",
+      "key": "Violation Tracker Global|CTBC Bank Co., Ltd.",
+      "entity": "CTBC Bank Co., Ltd.",
+      "parentSlug": "ctbc-financial",
+      "responsible": {
+        "kind": "listed",
+        "code": "2891",
+        "name": "中國信託金融控股股份有限公司",
+        "short": "中信金"
+      },
+      "entityInMops": "中國信託商業銀行(股)公司",
+      "effectivePct": 100.0,
+      "path": [
+        {
+          "investor": "中國信託金融控股股份有限公司",
+          "investee": "中國信託商業銀行(股)公司",
+          "pct": 100.0
+        }
+      ],
+      "method": "curated-mops-node",
+      "confidence": "high",
+      "note": "中國信託商業銀行"
+    },
+    {
+      "source": "Violation Tracker Global",
       "key": "Violation Tracker Global|CTBC Financial Holding Co., Ltd.",
       "entity": "CTBC Financial Holding Co., Ltd.",
       "parentSlug": "ctbc-financial",
@@ -2494,6 +2585,23 @@
     },
     {
       "source": "Violation Tracker Global",
+      "key": "Violation Tracker Global|Evergreen Marine",
+      "entity": "Evergreen Marine",
+      "parentSlug": "evergreen-marine",
+      "responsible": {
+        "kind": "listed",
+        "code": "2603",
+        "name": "長榮海運股份有限公司",
+        "short": "長榮"
+      },
+      "effectivePct": 100.0,
+      "path": [],
+      "method": "curated-self",
+      "confidence": "high",
+      "note": "長榮海運 2603 本身"
+    },
+    {
+      "source": "Violation Tracker Global",
       "key": "Violation Tracker Global|First Commercial Bank",
       "entity": "First Commercial Bank",
       "parentSlug": "first-financial-holding",
@@ -2587,6 +2695,33 @@
       "path": [],
       "method": "self",
       "confidence": "high"
+    },
+    {
+      "source": "Violation Tracker Global",
+      "key": "Violation Tracker Global|Formosa Ha Tinh Steel",
+      "entity": "Formosa Ha Tinh Steel",
+      "parentSlug": "formosa-plastics",
+      "responsible": {
+        "kind": "group-affiliate",
+        "code": "1301",
+        "name": "台灣塑膠工業股份有限公司",
+        "short": "台塑"
+      },
+      "groupCodes": [
+        "1301",
+        "1303",
+        "1326",
+        "6505",
+        "2002",
+        "1434"
+      ],
+      "groupName": "台塑河靜鋼鐵（台塑集團與中鋼合資）",
+      "effectivePct": null,
+      "path": [],
+      "method": "curated-group-affiliate",
+      "confidence": "high",
+      "note": "Formosa Ha Tinh Steel（越南河靜鋼廠）由 Formosa Ha Tinh (Cayman) Limited 持有：中鋼 2002 20.45%（中鋼官網 FHS 頁，2011 投資）、台塑 1301、南亞 1303、台化 1326、台塑化 6505 各 11.43%、福懋 1434 3.85%（各公司 2026Q2 財報與 Fubon 轉投資資料）；台塑集團 2008 年設立。與網站污染事件「河靜鋼廠」的持股歸屬相同（docs/pollution-news-spec.md）",
+      "controlSince": 2008
     },
     {
       "source": "Violation Tracker Global",
@@ -2688,6 +2823,23 @@
       "source": "Violation Tracker Global",
       "key": "Violation Tracker Global|Foxconn",
       "entity": "Foxconn",
+      "parentSlug": "foxconn-technology-group-hon-hai-precisi",
+      "responsible": {
+        "kind": "listed",
+        "code": "2317",
+        "name": "鴻海精密工業股份有限公司",
+        "short": "鴻海"
+      },
+      "effectivePct": 100.0,
+      "path": [],
+      "method": "curated-self",
+      "confidence": "high",
+      "note": "鴻海精密 2317 本身或其美國據點"
+    },
+    {
+      "source": "Violation Tracker Global",
+      "key": "Violation Tracker Global|Hon Hai Precision Industry Co. Limited",
+      "entity": "Hon Hai Precision Industry Co. Limited",
       "parentSlug": "foxconn-technology-group-hon-hai-precisi",
       "responsible": {
         "kind": "listed",
@@ -2847,6 +2999,35 @@
     },
     {
       "source": "Violation Tracker Global",
+      "key": "Violation Tracker Global|85 Degrees Coffee Australia Pty Ltd",
+      "entity": "85 Degrees Coffee Australia Pty Ltd",
+      "parentSlug": "gourmet-master-co-ltd",
+      "responsible": {
+        "kind": "listed",
+        "code": "2723",
+        "name": "開曼美食達人股份有限公司",
+        "short": "美食-KY"
+      },
+      "entityInMops": "85 Degrees Coffee Australia Pty. Ltd.",
+      "effectivePct": 51.0,
+      "path": [
+        {
+          "investor": "開曼美食達人股份有限公司",
+          "investee": "85 Degrees Cafe International Pty. Ltd.",
+          "pct": 51.0
+        },
+        {
+          "investor": "85 Degrees Cafe International Pty. Ltd.",
+          "investee": "85 Degrees Coffee Australia Pty. Ltd.",
+          "pct": 100.0
+        }
+      ],
+      "method": "curated-mops-node",
+      "confidence": "high",
+      "note": "美食-KY 2723 → 85 Degrees Cafe International Pty. Ltd.（51%）→ 85 Degrees Coffee Australia Pty. Ltd.（100%）"
+    },
+    {
+      "source": "Violation Tracker Global",
       "key": "Violation Tracker Global|GlaxoSmithKline Pharmaceutical Co., Ltd.",
       "entity": "GlaxoSmithKline Pharmaceutical Co., Ltd.",
       "parentSlug": "gsk-plc",
@@ -2857,6 +3038,23 @@
       "method": "foreign-parent",
       "confidence": "high",
       "candidates": null
+    },
+    {
+      "source": "Violation Tracker Global",
+      "key": "Violation Tracker Global|HannStar Display Corp.",
+      "entity": "HannStar Display Corp.",
+      "parentSlug": "hannstar-display",
+      "responsible": {
+        "kind": "listed",
+        "code": "6116",
+        "name": "瀚宇彩晶股份有限公司",
+        "short": "彩晶"
+      },
+      "effectivePct": 100.0,
+      "path": [],
+      "method": "curated-self",
+      "confidence": "high",
+      "note": "瀚宇彩晶 6116 本身"
     },
     {
       "source": "Violation Tracker Global",
@@ -2871,8 +3069,26 @@
       },
       "effectivePct": 100.0,
       "path": [],
-      "method": "self",
-      "confidence": "high"
+      "method": "curated-self",
+      "confidence": "high",
+      "note": "瀚宇彩晶 6116 本身"
+    },
+    {
+      "source": "Violation Tracker Global",
+      "key": "Violation Tracker Global|Hannstar Display",
+      "entity": "Hannstar Display",
+      "parentSlug": "hannstar-display",
+      "responsible": {
+        "kind": "listed",
+        "code": "6116",
+        "name": "瀚宇彩晶股份有限公司",
+        "short": "彩晶"
+      },
+      "effectivePct": 100.0,
+      "path": [],
+      "method": "curated-self",
+      "confidence": "high",
+      "note": "瀚宇彩晶 6116 本身"
     },
     {
       "source": "Violation Tracker Global",
@@ -2941,6 +3157,30 @@
     },
     {
       "source": "Violation Tracker Global",
+      "key": "Violation Tracker Global|Hua Nan Commercial Bank, Ltd.",
+      "entity": "Hua Nan Commercial Bank, Ltd.",
+      "parentSlug": "hua-nan-financial-holdings-co-ltd",
+      "responsible": {
+        "kind": "listed",
+        "code": "2880",
+        "name": "華南金融控股股份有限公司",
+        "short": "華南金"
+      },
+      "entityInMops": "華南商業銀行股份有限公司",
+      "effectivePct": 100.0,
+      "path": [
+        {
+          "investor": "華南金融控股股份有限公司",
+          "investee": "華南商業銀行股份有限公司",
+          "pct": 100.0
+        }
+      ],
+      "method": "curated-mops-node",
+      "confidence": "high",
+      "note": "華南商業銀行（香港分行受罰），華南金 2880 持股 100%"
+    },
+    {
+      "source": "Violation Tracker Global",
       "key": "Violation Tracker Global|Grand Hyatt International Hotels Co., Ltd.",
       "entity": "Grand Hyatt International Hotels Co., Ltd.",
       "parentSlug": "hyatt-hotels",
@@ -2951,6 +3191,41 @@
       "method": "foreign-parent",
       "confidence": "high",
       "candidates": null
+    },
+    {
+      "source": "Violation Tracker Global",
+      "key": "Violation Tracker Global|Chi Mei Innolux Display Corporation",
+      "entity": "Chi Mei Innolux Display Corporation",
+      "parentSlug": "innolux-corporation",
+      "responsible": {
+        "kind": "listed",
+        "code": "3481",
+        "name": "群創光電股份有限公司",
+        "short": "群創"
+      },
+      "effectivePct": 100.0,
+      "path": [],
+      "method": "curated-self",
+      "confidence": "high",
+      "note": "奇美電子 2010 年與群創合併（存續更名奇美電、2012 年再更名群創）；2010 年以前的罰款為合併前責任，由群創承繼",
+      "controlSince": 2010
+    },
+    {
+      "source": "Violation Tracker Global",
+      "key": "Violation Tracker Global|Chimei InnoLux Corporation",
+      "entity": "Chimei InnoLux Corporation",
+      "parentSlug": "innolux-corporation",
+      "responsible": {
+        "kind": "listed",
+        "code": "3481",
+        "name": "群創光電股份有限公司",
+        "short": "群創"
+      },
+      "effectivePct": 100.0,
+      "path": [],
+      "method": "curated-self",
+      "confidence": "high",
+      "note": "奇美電為群創前名"
     },
     {
       "source": "Violation Tracker Global",
@@ -3179,6 +3454,23 @@
       "path": [],
       "method": "self",
       "confidence": "high"
+    },
+    {
+      "source": "Violation Tracker Global",
+      "key": "Violation Tracker Global|Nanya Technology Corp.",
+      "entity": "Nanya Technology Corp.",
+      "parentSlug": "nanya-technology-corp",
+      "responsible": {
+        "kind": "listed",
+        "code": "2408",
+        "name": "南亞科技股份有限公司",
+        "short": "南亞科"
+      },
+      "effectivePct": 100.0,
+      "path": [],
+      "method": "curated-self",
+      "confidence": "high",
+      "note": "南亞科技 2408 本身"
     },
     {
       "source": "Violation Tracker Global",
@@ -3503,6 +3795,40 @@
     },
     {
       "source": "Violation Tracker Global",
+      "key": "Violation Tracker Global|Shanghai Commercial Bank Limited",
+      "entity": "Shanghai Commercial Bank Limited",
+      "parentSlug": "shanghai-commercial-and-savings-bank",
+      "responsible": {
+        "kind": "listed",
+        "code": "5876",
+        "name": "上海商業儲蓄銀行股份有限公司",
+        "short": "上海商銀"
+      },
+      "entityInMops": "香港上海商業銀行",
+      "effectivePct": 57.6,
+      "path": [
+        {
+          "investor": "上海商業儲蓄銀行股份有限公司",
+          "investee": "上商復興股份有限公司",
+          "pct": 100.0
+        },
+        {
+          "investor": "上商復興股份有限公司",
+          "investee": "Empresa Inversiones Generales,S.A.",
+          "pct": 100.0
+        },
+        {
+          "investor": "Empresa Inversiones Generales,S.A.",
+          "investee": "香港上海商業銀行",
+          "pct": 48.0
+        }
+      ],
+      "method": "curated-mops-node",
+      "confidence": "high",
+      "note": "香港上海商業銀行（Shanghai Commercial Bank Limited），上海商銀 5876 經兩家投資公司合計持股 57.6%（MOPS）"
+    },
+    {
+      "source": "Violation Tracker Global",
       "key": "Violation Tracker Global|Shanghai Commercial and Savings Bank",
       "entity": "Shanghai Commercial and Savings Bank",
       "parentSlug": "shanghai-commercial-and-savings-bank",
@@ -3659,6 +3985,40 @@
     },
     {
       "source": "Violation Tracker Global",
+      "key": "Violation Tracker Global|Chunghwa Picture Tubes",
+      "entity": "Chunghwa Picture Tubes",
+      "parentSlug": "tatung",
+      "responsible": {
+        "kind": "listed",
+        "code": "2371",
+        "name": "大同股份有限公司",
+        "short": "大同"
+      },
+      "effectivePct": 100.0,
+      "path": [],
+      "method": "curated-self",
+      "confidence": "medium",
+      "note": "中華映管為大同集團關係企業、大同為最大股東（非過半持股）；華映 2019 年重整下市，MOPS 無持股資料"
+    },
+    {
+      "source": "Violation Tracker Global",
+      "key": "Violation Tracker Global|Chunghwa Picture Tubes, Ltd.",
+      "entity": "Chunghwa Picture Tubes, Ltd.",
+      "parentSlug": "tatung",
+      "responsible": {
+        "kind": "listed",
+        "code": "2371",
+        "name": "大同股份有限公司",
+        "short": "大同"
+      },
+      "effectivePct": 100.0,
+      "path": [],
+      "method": "curated-self",
+      "confidence": "medium",
+      "note": "中華映管為大同集團關係企業、大同為最大股東（非過半持股）；華映 2019 年重整下市，MOPS 無持股資料"
+    },
+    {
+      "source": "Violation Tracker Global",
       "key": "Violation Tracker Global|Tatung Co. Taoyuan Electric Wire & Cable Co.",
       "entity": "Tatung Co. Taoyuan Electric Wire & Cable Co.",
       "parentSlug": "tatung",
@@ -3787,6 +4147,23 @@
     },
     {
       "source": "Violation Tracker Global",
+      "key": "Violation Tracker Global|Wan Hai",
+      "entity": "Wan Hai",
+      "parentSlug": "wan-hai-lines",
+      "responsible": {
+        "kind": "listed",
+        "code": "2615",
+        "name": "萬海航運股份有限公司",
+        "short": "萬海"
+      },
+      "effectivePct": 100.0,
+      "path": [],
+      "method": "curated-self",
+      "confidence": "high",
+      "note": "萬海航運 2615 本身"
+    },
+    {
+      "source": "Violation Tracker Global",
       "key": "Violation Tracker Global|WH Group Corporation",
       "entity": "WH Group Corporation",
       "parentSlug": "wh-group",
@@ -3828,6 +4205,46 @@
       "source": "Violation Tracker Global",
       "key": "Violation Tracker Global|NEC TOKIN Corporation",
       "entity": "NEC TOKIN Corporation",
+      "parentSlug": "yageo",
+      "responsible": {
+        "kind": "listed",
+        "code": "2327",
+        "name": "國巨股份有限公司",
+        "short": "國巨*"
+      },
+      "entityInMops": "TOKIN Corporation",
+      "effectivePct": 100.0,
+      "path": [
+        {
+          "investor": "國巨股份有限公司",
+          "investee": "Yageo Holding Hungary LLC",
+          "pct": 100.0
+        },
+        {
+          "investor": "Yageo Holding Hungary LLC",
+          "investee": "KEMET Corporation",
+          "pct": 100.0
+        },
+        {
+          "investor": "KEMET Corporation",
+          "investee": "KEMET Electronics Corporation",
+          "pct": 100.0
+        },
+        {
+          "investor": "KEMET Electronics Corporation",
+          "investee": "TOKIN Corporation",
+          "pct": 100.0
+        }
+      ],
+      "method": "curated-mops-node",
+      "confidence": "high",
+      "note": "TOKIN（原 NEC TOKIN）2017 年成為 KEMET 全資子公司，2020 年隨 KEMET 併入國巨",
+      "controlSince": 2020
+    },
+    {
+      "source": "Violation Tracker Global",
+      "key": "Violation Tracker Global|NEC Tokin",
+      "entity": "NEC Tokin",
       "parentSlug": "yageo",
       "responsible": {
         "kind": "listed",
@@ -3929,6 +4346,42 @@
       "method": "foreign-parent",
       "confidence": "high",
       "candidates": null
+    },
+    {
+      "source": "Violation Tracker Global",
+      "key": "Violation Tracker Global|Yang Ming",
+      "entity": "Yang Ming",
+      "parentSlug": "yang-ming-marine-transport",
+      "responsible": {
+        "kind": "listed",
+        "code": "2609",
+        "name": "陽明海運股份有限公司",
+        "short": "陽明"
+      },
+      "effectivePct": 100.0,
+      "path": [],
+      "method": "curated-self",
+      "confidence": "high",
+      "note": "陽明海運本身"
+    },
+    {
+      "source": "Violation Tracker Global",
+      "key": "Violation Tracker Global|Yang Ming Italy S.p.A.",
+      "entity": "Yang Ming Italy S.p.A.",
+      "parentSlug": "yang-ming-marine-transport",
+      "responsible": {
+        "kind": "listed",
+        "code": "2609",
+        "name": "陽明海運股份有限公司",
+        "short": "陽明"
+      },
+      "entityInMops": "陽明（義大利）股份有限公司（陽明義大利）",
+      "effectivePct": null,
+      "path": [],
+      "method": "curated-mops-node",
+      "confidence": "high",
+      "pathNote": "MOPS 有此節點但未列出從母公司到此節點的持股（清單不完整），持股比例未知",
+      "note": "Yang Ming Italy S.p.A. ＝ MOPS 陽明荷蘭控股 → 陽明（義大利）股份有限公司"
     },
     {
       "source": "Violation Tracker Global",

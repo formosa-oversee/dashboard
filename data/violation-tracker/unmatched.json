@@ -28,6 +28,13 @@
     "penaltyUSD": 25226044
   },
   {
+    "source": "Violation Tracker",
+    "slug": "innolux-corporation",
+    "parent": "Innolux Corporation",
+    "records": 2,
+    "penaltyUSD": 14700000
+  },
+  {
     "source": "Violation Tracker Global",
     "slug": "tdk-corporation",
     "parent": "TDK Corporation",

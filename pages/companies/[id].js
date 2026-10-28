@@ -8,7 +8,7 @@ import {
 } from '@chakra-ui/react';
 import { FaExternalLinkAlt, FaCalendarAlt, FaNewspaper, FaBuilding, FaChevronRight, FaFilter, FaChevronDown, FaCheck, FaMapMarkerAlt, FaArchive } from 'react-icons/fa';
 import { getCompanyData, getAllCompanyIds } from '../../lib/gcs-api-server';
-import { OFFENSE_CATEGORIES, VT_SNAPSHOT_NOTE, offenseInfo, agencyLabel, formatUSD } from '../../lib/enforcement';
+import { OFFENSE_CATEGORIES, VT_SNAPSHOT_NOTE, offenseInfo, authorityLabel, formatUSD } from '../../lib/enforcement';
 import { ECHO_PROGRAMS, ECHO_PROGRAMS_NOTE, RECORD_KINDS, programInfo } from '../../lib/echo-programs';
 import Layout from '../../components/Layout';
 import { CompanyReports, EventReportLinks } from '../../components/report/CompanyReports';
@@ -192,13 +192,14 @@ const holdingText = (h) => {
   if (h.path?.length > 1) parts.push(h.path.join(' → '));
   else if (h.effectivePct != null && h.effectivePct < 100) parts.push(`${h.path?.[0] || ''} 有效持股 ${h.effectivePct}%`);
   if (h.method === 'curated-associate') parts.push('關聯企業');
+  if (h.method === 'curated-group-affiliate') parts.push('集團合資，與其他台灣上市公司共同持有');
   if (h.confidence === 'medium') parts.push('歸屬信心中等');
   return parts.join('，') || null;
 };
 
 const EnforcementPanel = ({ records }) => {
   const [category, setCategory] = useState('all');
-  if (records.length === 0) return <Text>目前沒有這家公司在美國的罰款紀錄。</Text>;
+  if (records.length === 0) return <Text>目前沒有這家公司在台灣以外的罰款紀錄。</Text>;
 
   const rows = records.map(r => ({ ...r, offense: offenseInfo(r.offenseType) }));
   const counts = rows.reduce((m, r) => ({ ...m, [r.offense.category]: (m[r.offense.category] || 0) + 1 }), {});
@@ -212,8 +213,8 @@ const EnforcementPanel = ({ records }) => {
   return (
     <VStack align="stretch" spacing={4}>
       <Text fontSize="sm" color="gray.600">
-        美國聯邦與州政府對這家公司，以及依持股歸屬到它的子公司、關聯企業的執法與罰款紀錄。
-        資料來自 Good Jobs First 整理的 Violation Tracker（{records[0].snapshotDate} 快照），{VT_SNAPSHOT_NOTE}。
+        美國聯邦與州政府，以及歐盟、南韓、香港等其他國家主管機關，對這家公司和依持股歸屬到它的子公司、關聯企業的執法與罰款紀錄。
+        資料來自 Good Jobs First 整理的 Violation Tracker 與 Violation Tracker Global（{records[0].snapshotDate} 快照），{VT_SNAPSHOT_NOTE}。
         只收錄有罰款或和解金額的案件，沒有紀錄不代表沒有違規；台灣母公司取得控制以前的罰款不列入。
       </Text>
       <Text fontSize="sm" color="gray.600">
@@ -221,7 +222,9 @@ const EnforcementPanel = ({ records }) => {
         {parents.map(([url, name], i) => (
           <span key={url}>
             {i > 0 && '、'}
-            <ChakraLink href={url} isExternal color="teal.600">{name} <Icon as={FaExternalLinkAlt} mx="2px" boxSize={3} /></ChakraLink>
+            <ChakraLink href={url} isExternal color="teal.600">
+              {name}{url.includes('violationtrackerglobal') && '（Global）'} <Icon as={FaExternalLinkAlt} mx="2px" boxSize={3} />
+            </ChakraLink>
           </span>
         ))}
       </Text>
@@ -243,7 +246,7 @@ const EnforcementPanel = ({ records }) => {
               <Th>年份</Th>
               <Th>受罰實體</Th>
               <Th>違規類型</Th>
-              <Th>機關</Th>
+              <Th>機關／地區</Th>
               <Th isNumeric>罰款</Th>
               <Th>來源</Th>
             </Tr>
@@ -260,7 +263,7 @@ const EnforcementPanel = ({ records }) => {
                   <Badge colorScheme={r.offense.color} mr={1}>{r.offense.categoryLabel}</Badge>
                   <Text as="span" fontSize="sm">{r.offense.label}</Text>
                 </Td>
-                <Td minW="160px">{agencyLabel(r.agencyCode)}</Td>
+                <Td minW="160px">{authorityLabel(r)}</Td>
                 <Td isNumeric whiteSpace="nowrap">
                   US${r.penaltyAmountUSD.toLocaleString()}
                   {r.isDuplicateFlagged && <Text fontSize="xs" color="gray.500">重複計算</Text>}

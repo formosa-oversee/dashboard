@@ -3426,6 +3426,79 @@
       ]
     },
     {
+      "id": "ftc-qdhaiyuan-qingdao-2019-cutting-fluid-waste-outdoor-storage-fine",
+      "title": "鴻準青島海源合金廠含廢切削液鋁屑露天堆放，青島市生態環境綜合行政執法支隊處罰款",
+      "summary": "鴻準持有的青島海源合金新材料有限公司沒有採取防滲防漏等防範措施，把含廢切削液的廢鋁屑用編織袋裝著，露天堆放在廠區草地上；青島市生態環境綜合行政執法支隊 2019 年 10 月 21 日處罰款人民幣 3 萬元（青环罚字〔2019〕033号），執行情況為「已履行」。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2019-10-21",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "青島膠州, 中國大陸",
+          "coordinates": {
+            "lat": 36.3527,
+            "lng": 120.1536,
+            "precision": "city",
+            "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E6%9D%8E%E5%93%A5%E5%BA%84%E9%95%87%2C%20%E8%83%B6%E5%B7%9E%E5%B8%82&limit=3&countrycodes=cn",
+            "note": "鎮級；廠區無 OSM 要素。地址：山東省青島市膠州市李哥莊鎮（鴻準重大訊息 2023-02-01 轉載，「膠州市李哥莊鎮內之廠房、土地」）；無街道門牌（MoneyDJ 轉載 MOPS 重大訊息 https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=04401c17-2204-40b3-94e5-1770521b3ec5）"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "青島海源合金新材料有限公司",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "outlet": "青岛市生态环境局（行政处罚决定书全文公开，mbee.qingdao.gov.cn:8082）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "行政处罚决定书全文公开：青岛海源合金新材料有限公司（青环罚字〔2019〕033号）",
+          "date": "2019-10-21",
+          "url": "http://mbee.qingdao.gov.cn:8082/m2/zwgk/xzcf/view.aspx?n=5c3eac6a-1985-4ef1-a8e5-d2558c6ae0ba",
+          "archiveUrl": null,
+          "verified": "opened",
+          "note": "青岛市生态环境综合行政执法支队，青环罚字〔2019〕033号，處罰：罚款人民币叁万元。原文違法事實：未采取防渗防漏等相应防范措施，将含废切削液的废铝屑用编织袋盛装，露天堆放于厂区草地上。（原文「执行情况」：已履行）。網頁只摘錄處罰日期、文號、違法事實、處罰內容、執法單位、執行情況，沒有決定書全文。Wayback Save Page Now 回 523（Internet Archive 連不到 mbee.qingdao.gov.cn:8082），所以沒有封存。"
+        }
+      ],
+      "addedAt": "2026-10-28",
+      "attribution": [
+        {
+          "companyCode": "2354",
+          "entity": "青島海源合金新材料有限公司（青岛海源合金新材料有限公司）",
+          "kind": "listed",
+          "effectivePct": 70.0,
+          "controlSince": 2017,
+          "path": [
+            "鴻準",
+            "Q-Run Holdings（100%）→ Q-Run Far East（100%）→ Eastern Star（100%）→ 鴻富晉精密工業(太原)（87.63%）",
+            "Foxconn Precision Components Holding（100%）→ Atkinson Holdings（100%）→ Precious Star（100%）→ 鴻富晉精密工業(太原)（12.37%）",
+            "青島海源合金新材料有限公司（70%）"
+          ],
+          "basis": "MOPS 114 年第 2 季（2025Q2）鴻準子公司表：鴻準經兩條路徑合計持有鴻富晉精密工業(太原) 100%（Eastern Star 87.63% ＋ Precious Star 12.37%，上游各層皆 100%），鴻富晉持有青島海源合金新材料 70%。鴻準 107 年第 1 季合併財報子公司表（https://www.foxconntech.com.tw/media/quarterly_reports/201801.pdf）在 2017-03-31、2017-12-31、2018-03-31 三個比較期都列 70%，取得日查不到；controlSince 取 2017（最晚已是子公司的年份），早於事件。",
+          "companyName": "鴻準精密工業股份有限公司",
+          "companyShort": "鴻準",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "2354"
+      ]
+    },
+    {
       "id": "formosa-ha-tinh-taipei-lawsuit",
       "title": "越南居民在台北地院向台塑集團等求償河靜污染損害",
       "summary": "2019 年 6 月 11 日，7,875 名越南居民在台北地方法院控告台塑、南亞、台化、台塑化、中鋼、JFE 等 24 名 FHS 直接或間接股東及董事，求償約新台幣 1.4 億元；台塑回應 FHS 已於 2016 年 8 月支付 5 億美元，並依越南政府要求由其統籌發放。台北地院 2019 年 10 月以無國際管轄權裁定駁回，最高法院 2020 年 11 月廢棄高院維持駁回的裁定；之後法院要求原告補正經我國駐外機構認證的委任書，高等法院 2024 年 5 月裁定 4 名完成認證的原告可在台灣續行訴訟，其餘 7,861 人的抗告因未補正而駁回。Mongabay 2026 年 4 月報導，原告團體指越南警方曾攔阻原告前往河內辦理認證，在美國提起的相關訴訟則等待台灣審理結果。",
@@ -3743,6 +3816,154 @@
       ],
       "companyCodes": [
         "1802"
+      ]
+    },
+    {
+      "id": "strongh-haoqiang-qingdao-2018-hazardous-waste-labeling-fine",
+      "title": "強信-KY 青島浩強廠危險廢物貯存場所未設識別標誌，城陽環保分局處罰款",
+      "summary": "浩強精密機械（青島）有限公司危險廢物管理不規範，貯存場所未設置危險廢物識別標誌，城陽環保分局 2018 年 6 月 5 日處罰款人民幣 3 萬元（青环城罚字〔2018〕139号）。公示的執行情況為「未履行」。同一廠 2015 年也曾因危險廢物貯存場所未設識別標誌受罰。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2018-06-05",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "青島城陽, 中國大陸",
+          "coordinates": {
+            "lat": 36.3042,
+            "lng": 120.3914,
+            "precision": "region",
+            "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E5%9F%8E%E9%98%B3%E5%8C%BA%2C%20%E9%9D%92%E5%B2%9B%E5%B8%82&limit=3&countrycodes=cn",
+            "note": "地址查不到；區級座標，不是廠區。地址：查不到門牌（決定書與官網均未列）（—）"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "浩強精密機械（青島）有限公司",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [
+          "strongh-haoqiang-qingdao-2015-hazardous-waste-storage-fine",
+          "strongh-haoqiang-qingdao-2017-boiler-so2-nox-exceedance-fine"
+        ],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "outlet": "青岛市生态环境局（行政处罚决定书全文公开，mbee.qingdao.gov.cn:8082）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "行政处罚决定书全文公开：浩强精密机械（青岛）有限公司（青环城罚字〔2018〕139号）",
+          "date": "2018-06-05",
+          "url": "http://mbee.qingdao.gov.cn:8082/m2/zwgk/xzcf/view.aspx?n=9968903e-c77d-4a92-9bf2-956eb3afeb79",
+          "archiveUrl": null,
+          "verified": "opened",
+          "note": "城阳环保分局，青环城罚字〔2018〕139号，處罰：罚款人民币叁万元整。。原文違法事實：危险废物管理不规范，危险废物贮存场所未设置危险废物识别标志。（原文「执行情况」：未履行）。網頁只摘錄處罰日期、文號、違法事實、處罰內容、執法單位、執行情況，沒有決定書全文。Wayback Save Page Now 回 523（Internet Archive 連不到 mbee.qingdao.gov.cn:8082），所以沒有封存。"
+        }
+      ],
+      "addedAt": "2026-10-28",
+      "attribution": [
+        {
+          "companyCode": "4560",
+          "entity": "浩強精密機械（青島）有限公司（浩强精密机械（青岛）有限公司）",
+          "kind": "listed",
+          "effectivePct": 100.0,
+          "controlSince": 2014,
+          "path": [
+            "強信-KY",
+            "VANDEN（100%）→ 強信(萊州)（80.59%）",
+            "FAITH LIGHT（100%）→ 強信(萊州)（19.41%）",
+            "浩強精密機械（青島）有限公司（100%）"
+          ],
+          "basis": "MOPS 114 年第 1 季（2025Q1）強信-KY 子公司表：強信(萊州)持有浩強精密機械（青島）100%，強信(萊州)由 VANDEN、FAITH LIGHT 持有。強信-KY 官網公司及集團歷史沿革（https://www.strongh.tw/template/shop/images/%E5%85%AC%E5%8F%B8%E5%8F%8A%E9%9B%86%E5%9C%98%E6%B2%BF%E9%9D%A920231211.png）：浩強（青島）2005 年設立；強信機械科技 2014-10 在開曼設立，2014-12-15 完成組織重組，以股份交換取得 VANDEN 與 Faith Light 100%，間接取得浩強（青島）；2016 年 Faith Light 把浩強（青島）100% 股權作價出資給萊州強信。controlSince 取 2014（2014-12-15），早於三筆處罰；最早一筆的違法日 2015-01-12 只晚於重組約 4 週。MOPS 2025 的路徑是 2016 年以後的結構，2015 年時浩強由 Faith Light 持有。",
+          "companyName": "強信機械科技股份有限公司",
+          "companyShort": "強信-KY",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "4560"
+      ]
+    },
+    {
+      "id": "teco-qdtecoprecision-qingdao-2018-hazardous-waste-manifest-fine",
+      "title": "東元青島東元精密機電廠轉移危險廢物未填聯單，黃島環保分局處罰款",
+      "summary": "黃島環保分局 2017 年 10 月 18 日檢查發現，東元持有的青島東元精密機電有限公司轉移危險廢物時，沒有依規定申領、填寫聯單；2018 年 1 月 22 日處罰款人民幣 4 萬元（青环黄岛罚字〔2017〕560号），執行情況為「已履行」。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2018-01-22",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "青島黃島, 中國大陸",
+          "coordinates": {
+            "lat": 35.959,
+            "lng": 120.1931,
+            "precision": "region",
+            "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E9%BB%84%E5%B2%9B%E5%8C%BA%2C%20%E9%9D%92%E5%B2%9B%E5%B8%82&limit=3&countrycodes=cn",
+            "note": "OSM 黄岛区（relation 5655345）中心點。地址黃島區膠南朝陽山路 2179 號；OSM 的朝陽山路分成多段，2179 號定位不到，也無法確認它屬於哪個街道，所以只定位到區"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "青島東元精密機電有限公司",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "outlet": "青岛市生态环境局（行政处罚决定书全文公开，mbee.qingdao.gov.cn:8082）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "行政处罚决定书全文公开：青岛东元精密机电有限公司（青环黄岛罚字〔2017〕560号）",
+          "date": "2018-01-22",
+          "url": "http://mbee.qingdao.gov.cn:8082/m2/zwgk/xzcf/view.aspx?n=cd2727d5-803a-4a53-82b0-87f13d78a1aa",
+          "archiveUrl": null,
+          "verified": "opened",
+          "note": "黄岛环保分局，青环黄岛罚字〔2017〕560号，處罰：罚款人民币肆万元。原文違法事實：2017年10月18日，我局检查发现，青岛东元精密机电有限公司转移危险废物，未按规定申领、填写联单。（原文「执行情况」：已履行）。網頁只摘錄處罰日期、文號、違法事實、處罰內容、執法單位、執行情況，沒有決定書全文。Wayback Save Page Now 回 523（Internet Archive 連不到 mbee.qingdao.gov.cn:8082），所以沒有封存。"
+        }
+      ],
+      "addedAt": "2026-10-28",
+      "attribution": [
+        {
+          "companyCode": "1504",
+          "entity": "青島東元精密機電有限公司（青岛东元精密机电有限公司）",
+          "kind": "listed",
+          "effectivePct": 88.33,
+          "controlSince": 2006,
+          "path": [
+            "東元",
+            "（經 United View Global 等第三地區公司間接投資）",
+            "青島東元精密機電有限公司（直接或間接合計 88.33%）"
+          ],
+          "basis": "東元 114 年度合併財報附表八「大陸投資資訊」（PDF p.109）：本公司直接或間接投資青島東元精密機電之持股比例 88.33%（附表只列合計比例，未逐層列出中間公司）；東元 109 年度關係企業報告書（年報第 346 頁起，https://www.teco.com.tw/Upload/att/2025-11/202511141553153498020068.pdf）：設立日期民國 95 年 12 月，地址黃島區膠南朝陽山路 2179 號，生產精沖模等；controlSince 取 2006（設立當時的持股比例沒查到），早於事件。",
+          "companyName": "東元電機股份有限公司",
+          "companyShort": "東元",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "1504"
       ]
     },
     {
@@ -4135,6 +4356,154 @@
       ],
       "companyCodes": [
         "1301"
+      ]
+    },
+    {
+      "id": "shinih-qdtaishin-jiaozhou-2017-eia-unapproved-production-fine",
+      "title": "新麗青島台新纖維廠特種紡織品項目未批先產，膠州市環保局處罰款",
+      "summary": "膠州市環保局查實，新麗持有的青島台新纖維製品有限公司在膠州市的特種紡織品項目，環評未經審批就投入生產，2017 年 6 月 2 日處罰款人民幣 3 萬元（胶环罚字【2017】047号），執行情況為「已履行」。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2017-06-02",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "青島膠州, 中國大陸",
+          "coordinates": {
+            "lat": 36.3623,
+            "lng": 119.9595,
+            "precision": "city",
+            "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E8%83%B6%E5%8C%97%E8%A1%97%E9%81%93%2C%20%E8%83%B6%E5%B7%9E%E5%B8%82&limit=3&countrycodes=cn",
+            "note": "建銓路6號在 OSM 查不到（查「建铨路 胶州」無結果），降為街道級。地址：山東省膠州市膠北鎮建銓路6號（新麗111年度年報 PDF p.80）"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "青島台新纖維製品有限公司",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "outlet": "青岛市生态环境局（行政处罚决定书全文公开，mbee.qingdao.gov.cn:8082）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "行政处罚决定书全文公开：青岛台新纤维制品有限公司（胶环罚字【2017】047号）",
+          "date": "2017-06-02",
+          "url": "http://mbee.qingdao.gov.cn:8082/m2/zwgk/xzcf/view.aspx?n=abdacc6b-4f0a-43f4-b388-015dd12c575b",
+          "archiveUrl": null,
+          "verified": "opened",
+          "note": "胶州市环保局，胶环罚字【2017】047号，處罰：罚款30000元。原文違法事實：经查实该公司在胶州市未批先产特种纺织品项目。（原文「执行情况」：已履行）。網頁只摘錄處罰日期、文號、違法事實、處罰內容、執法單位、執行情況，沒有決定書全文。Wayback Save Page Now 回 523（Internet Archive 連不到 mbee.qingdao.gov.cn:8082），所以沒有封存。"
+        }
+      ],
+      "addedAt": "2026-10-28",
+      "attribution": [
+        {
+          "companyCode": "9944",
+          "entity": "青島台新纖維製品有限公司（青岛台新纤维制品有限公司）",
+          "kind": "listed",
+          "effectivePct": 100.0,
+          "controlSince": 2007,
+          "path": [
+            "新麗",
+            "SHINIH HOLDING CO., LTD.（100%）",
+            "青島台新纖維製品有限公司（100%）"
+          ],
+          "basis": "MOPS 114 年第 1 季（2025Q1）新麗子公司表：本公司→SHINIH HOLDING 100%→青島台新纖維製品 100%。新麗 111 年度年報 PDF p.80「關係企業基本資料」（https://www.shinih.com/wp-content/uploads/2022_annual-report-1.pdf）：設立日期 2007-06-22，地址膠州市膠北鎮建銓路 6 號；controlSince 取 2007，早於事件。",
+          "companyName": "新麗企業股份有限公司",
+          "companyShort": "新麗",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "9944"
+      ]
+    },
+    {
+      "id": "strongh-haoqiang-qingdao-2017-boiler-so2-nox-exceedance-fine",
+      "title": "強信-KY 青島浩強廠鍋爐煙氣二氧化硫、氮氧化物超標，城陽環保分局處罰款",
+      "summary": "浩強精密機械（青島）有限公司的鍋爐煙氣中二氧化硫、氮氧化物濃度超標，城陽環保分局 2017 年 2 月 15 日處罰款人民幣 15 萬元（青环城罚字〔2017〕23号），執行情況為「已履行」。公示沒有列出監測數值。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2017-02-15",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "青島城陽, 中國大陸",
+          "coordinates": {
+            "lat": 36.3042,
+            "lng": 120.3914,
+            "precision": "region",
+            "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E5%9F%8E%E9%98%B3%E5%8C%BA%2C%20%E9%9D%92%E5%B2%9B%E5%B8%82&limit=3&countrycodes=cn",
+            "note": "地址查不到；區級座標，不是廠區。地址：查不到門牌（決定書與官網均未列）（—）"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "浩強精密機械（青島）有限公司",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [
+          "strongh-haoqiang-qingdao-2015-hazardous-waste-storage-fine",
+          "strongh-haoqiang-qingdao-2018-hazardous-waste-labeling-fine"
+        ],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "outlet": "青岛市生态环境局（行政处罚决定书全文公开，mbee.qingdao.gov.cn:8082）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "行政处罚决定书全文公开：浩强精密机械（青岛）有限公司（青环城罚字〔2017〕23号）",
+          "date": "2017-02-15",
+          "url": "http://mbee.qingdao.gov.cn:8082/m2/zwgk/xzcf/view.aspx?n=4e5f448c-97de-45f6-84ab-020575312609",
+          "archiveUrl": null,
+          "verified": "opened",
+          "note": "城阳环保分局，青环城罚字〔2017〕23号，處罰：罚款人民币壹拾伍万元整。。原文違法事實：锅炉烟气中二氧化硫、氮氧化物浓度超标。（原文「执行情况」：已履行）。網頁只摘錄處罰日期、文號、違法事實、處罰內容、執法單位、執行情況，沒有決定書全文。Wayback Save Page Now 回 523（Internet Archive 連不到 mbee.qingdao.gov.cn:8082），所以沒有封存。"
+        }
+      ],
+      "addedAt": "2026-10-28",
+      "attribution": [
+        {
+          "companyCode": "4560",
+          "entity": "浩強精密機械（青島）有限公司（浩强精密机械（青岛）有限公司）",
+          "kind": "listed",
+          "effectivePct": 100.0,
+          "controlSince": 2014,
+          "path": [
+            "強信-KY",
+            "VANDEN（100%）→ 強信(萊州)（80.59%）",
+            "FAITH LIGHT（100%）→ 強信(萊州)（19.41%）",
+            "浩強精密機械（青島）有限公司（100%）"
+          ],
+          "basis": "MOPS 114 年第 1 季（2025Q1）強信-KY 子公司表：強信(萊州)持有浩強精密機械（青島）100%，強信(萊州)由 VANDEN、FAITH LIGHT 持有。強信-KY 官網公司及集團歷史沿革（https://www.strongh.tw/template/shop/images/%E5%85%AC%E5%8F%B8%E5%8F%8A%E9%9B%86%E5%9C%98%E6%B2%BF%E9%9D%A920231211.png）：浩強（青島）2005 年設立；強信機械科技 2014-10 在開曼設立，2014-12-15 完成組織重組，以股份交換取得 VANDEN 與 Faith Light 100%，間接取得浩強（青島）；2016 年 Faith Light 把浩強（青島）100% 股權作價出資給萊州強信。controlSince 取 2014（2014-12-15），早於三筆處罰；最早一筆的違法日 2015-01-12 只晚於重組約 4 週。MOPS 2025 的路徑是 2016 年以後的結構，2015 年時浩強由 Faith Light 持有。",
+          "companyName": "強信機械科技股份有限公司",
+          "companyShort": "強信-KY",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "4560"
       ]
     },
     {
@@ -4855,6 +5224,82 @@
       ],
       "companyCodes": [
         "1802"
+      ]
+    },
+    {
+      "id": "strongh-haoqiang-qingdao-2015-hazardous-waste-storage-fine",
+      "title": "強信-KY 青島浩強廠危險廢物未設識別標誌並混入一般廢物，城陽環保分局處罰款",
+      "summary": "青島市環境保護局城陽分局 2015 年 1 月 12 日檢查強信-KY 持有的浩強精密機械（青島）有限公司，認定危險廢物管理不規範：收集、貯存場所未設置危險廢物識別標誌，並將危險廢物混入非危險廢物中貯存。2015 年 2 月 4 日處罰款人民幣 4 萬元（青环城罚字〔2015〕22号），執行情況為「已履行」。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2015-02-04",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "青島城陽, 中國大陸",
+          "coordinates": {
+            "lat": 36.3042,
+            "lng": 120.3914,
+            "precision": "region",
+            "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E5%9F%8E%E9%98%B3%E5%8C%BA%2C%20%E9%9D%92%E5%B2%9B%E5%B8%82&limit=3&countrycodes=cn",
+            "note": "地址查不到；區級座標，不是廠區。地址：查不到門牌（決定書與官網均未列）（—）"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "浩強精密機械（青島）有限公司",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [
+          "strongh-haoqiang-qingdao-2017-boiler-so2-nox-exceedance-fine",
+          "strongh-haoqiang-qingdao-2018-hazardous-waste-labeling-fine"
+        ],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "outlet": "青岛市生态环境局（行政处罚决定书全文公开，mbee.qingdao.gov.cn:8082）",
+          "outletRegion": "local",
+          "language": "zh",
+          "title": "行政处罚决定书全文公开：浩强精密机械（青岛）有限公司（青环城罚字〔2015〕22号）",
+          "date": "2015-02-04",
+          "url": "http://mbee.qingdao.gov.cn:8082/m2/zwgk/xzcf/view.aspx?n=fd3d0a9c-ace4-4f66-9c64-acb2ea0efdcb",
+          "archiveUrl": null,
+          "verified": "opened",
+          "note": "城阳环保分局，青环城罚字〔2015〕22号，處罰：罚款人民币肆万元整。。原文違法事實：2015年1月12日，青岛市环境保护局城阳分局环境执法人员对该单位现场检查时发现，该单位危险废物管理不规范，存在以下环境违法行为：1、危险废物的收集、贮存场所未设置危险废物识别标志；2、将危险废物混入非危险废物中贮存。（原文「执行情况」：已履行）。網頁只摘錄處罰日期、文號、違法事實、處罰內容、執法單位、執行情況，沒有決定書全文。Wayback Save Page Now 回 523（Internet Archive 連不到 mbee.qingdao.gov.cn:8082），所以沒有封存。"
+        }
+      ],
+      "addedAt": "2026-10-28",
+      "attribution": [
+        {
+          "companyCode": "4560",
+          "entity": "浩強精密機械（青島）有限公司（浩强精密机械（青岛）有限公司）",
+          "kind": "listed",
+          "effectivePct": 100.0,
+          "controlSince": 2014,
+          "path": [
+            "強信-KY",
+            "VANDEN（100%）→ 強信(萊州)（80.59%）",
+            "FAITH LIGHT（100%）→ 強信(萊州)（19.41%）",
+            "浩強精密機械（青島）有限公司（100%）"
+          ],
+          "basis": "MOPS 114 年第 1 季（2025Q1）強信-KY 子公司表：強信(萊州)持有浩強精密機械（青島）100%，強信(萊州)由 VANDEN、FAITH LIGHT 持有。強信-KY 官網公司及集團歷史沿革（https://www.strongh.tw/template/shop/images/%E5%85%AC%E5%8F%B8%E5%8F%8A%E9%9B%86%E5%9C%98%E6%B2%BF%E9%9D%A920231211.png）：浩強（青島）2005 年設立；強信機械科技 2014-10 在開曼設立，2014-12-15 完成組織重組，以股份交換取得 VANDEN 與 Faith Light 100%，間接取得浩強（青島）；2016 年 Faith Light 把浩強（青島）100% 股權作價出資給萊州強信。controlSince 取 2014（2014-12-15），早於三筆處罰；最早一筆的違法日 2015-01-12 只晚於重組約 4 週。MOPS 2025 的路徑是 2016 年以後的結構，2015 年時浩強由 Faith Light 持有。",
+          "companyName": "強信機械科技股份有限公司",
+          "companyShort": "強信-KY",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "4560"
       ]
     },
     {

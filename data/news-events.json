@@ -11,7 +11,14 @@
     "locations": [
       {
         "country": "柬埔寨",
-        "plantSite": "施亞努港, 柬埔寨"
+        "plantSite": "施亞努港, 柬埔寨",
+        "coordinates": {
+          "lat": 10.61,
+          "lng": 103.62,
+          "precision": "city",
+          "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Bet%20Trang&limit=5&countrycodes=kh",
+          "note": "Nominatim centroid of OSM relation 18020853 (Bet Trang quarter/commune, Kampong Som, Preah Sihanouk). Taipei Times 1999-12-04 puts the dump ~15 km out on National Route 4, adjacent to Bettrang commune and Koki village; the dump parcel itself was not verifiable, so commune point at city precision."
+        }
       }
     ],
     "entities": [
@@ -127,7 +134,14 @@
     "locations": [
       {
         "country": "美國",
-        "plantSite": "Illiopolis, Illinois, 美國"
+        "plantSite": "Illiopolis, Illinois, 美國",
+        "coordinates": {
+          "lat": 39.846694,
+          "lng": -89.276694,
+          "precision": "facility",
+          "source": "https://formosaoversee.com/companies/tw-1301/facilities/800000669",
+          "note": "EPA ECHO 設施 800000669（FORMOSA PLASTICS CORP-ILLIOPLS）的座標"
+        }
       }
     ],
     "entities": [
@@ -237,7 +251,14 @@
     "locations": [
       {
         "country": "美國",
-        "plantSite": "Point Comfort, Texas, 美國"
+        "plantSite": "Point Comfort, Texas, 美國",
+        "coordinates": {
+          "lat": 28.6888,
+          "lng": -96.5472,
+          "precision": "facility",
+          "source": "https://formosaoversee.com/companies/tw-1301/facilities/3601368154",
+          "note": "EPA ECHO 設施 3601368154（FORMOSA POINT COMFORT PLANT）的座標"
+        }
       }
     ],
     "entities": [
@@ -268,7 +289,6 @@
         "3601104956",
         "3601368154",
         "1600028209",
-        "3601073914",
         "3601731156"
       ],
       "enforcementCaseIds": []
@@ -349,11 +369,25 @@
     "locations": [
       {
         "country": "美國",
-        "plantSite": "Point Comfort, Texas, 美國"
+        "plantSite": "Point Comfort, Texas, 美國",
+        "coordinates": {
+          "lat": 28.6888,
+          "lng": -96.5472,
+          "precision": "facility",
+          "source": "https://formosaoversee.com/companies/tw-1301/facilities/3601368154",
+          "note": "EPA ECHO 設施 3601368154（FORMOSA POINT COMFORT PLANT）的座標"
+        }
       },
       {
         "country": "美國",
-        "plantSite": "Baton Rouge, Louisiana, 美國"
+        "plantSite": "Baton Rouge, Louisiana, 美國",
+        "coordinates": {
+          "lat": 30.501111,
+          "lng": -91.185833,
+          "precision": "facility",
+          "source": "https://formosaoversee.com/companies/tw-1301/facilities/3411996",
+          "note": "EPA ECHO 設施 3411996（FORMOSA PLASTICS CORPORATION, LOUISIANA）的座標"
+        }
       }
     ],
     "entities": [
@@ -401,7 +435,6 @@
         "3601104956",
         "3601368154",
         "1600028209",
-        "3601073914",
         "3601731156",
         "3411996"
       ],
@@ -482,7 +515,14 @@
     "locations": [
       {
         "country": "美國",
-        "plantSite": "Point Comfort, Texas, 美國"
+        "plantSite": "Point Comfort, Texas, 美國",
+        "coordinates": {
+          "lat": 28.6888,
+          "lng": -96.5472,
+          "precision": "facility",
+          "source": "https://formosaoversee.com/companies/tw-1301/facilities/3601368154",
+          "note": "EPA ECHO 設施 3601368154（FORMOSA POINT COMFORT PLANT）的座標"
+        }
       }
     ],
     "entities": [
@@ -513,7 +553,6 @@
         "3601104956",
         "3601368154",
         "1600028209",
-        "3601073914",
         "3601731156"
       ],
       "enforcementCaseIds": []
@@ -605,7 +644,14 @@
     "locations": [
       {
         "country": "越南",
-        "plantSite": "河靜省, 越南"
+        "plantSite": "河靜省, 越南",
+        "coordinates": {
+          "lat": 18.03788,
+          "lng": 106.42154,
+          "precision": "facility",
+          "source": "https://www.openstreetmap.org/way/630749161",
+          "note": "Polygon centroid of OSM way 630749161 'Công ty TNHH Gang Thép Hưng Nghiệp Formosa Hà Tĩnh' (name:en Formosa Ha Tinh Steel Corporation, wikidata Q24027740), landuse=industrial."
+        }
       }
     ],
     "entities": [
@@ -790,7 +836,14 @@
     "locations": [
       {
         "country": "越南",
-        "plantSite": "河靜省, 越南"
+        "plantSite": "河靜省, 越南",
+        "coordinates": {
+          "lat": 18.03788,
+          "lng": 106.42154,
+          "precision": "facility",
+          "source": "https://www.openstreetmap.org/way/630749161",
+          "note": "Polygon centroid of OSM way 630749161 'Công ty TNHH Gang Thép Hưng Nghiệp Formosa Hà Tĩnh' (name:en Formosa Ha Tinh Steel Corporation, wikidata Q24027740), landuse=industrial."
+        }
       }
     ],
     "entities": [
@@ -988,7 +1041,14 @@
     "locations": [
       {
         "country": "美國",
-        "plantSite": "Point Comfort, Texas, 美國"
+        "plantSite": "Point Comfort, Texas, 美國",
+        "coordinates": {
+          "lat": 28.6888,
+          "lng": -96.5472,
+          "precision": "facility",
+          "source": "https://formosaoversee.com/companies/tw-1301/facilities/3601368154",
+          "note": "EPA ECHO 設施 3601368154（FORMOSA POINT COMFORT PLANT）的座標"
+        }
       }
     ],
     "entities": [
@@ -1035,7 +1095,6 @@
         "3601104956",
         "3601368154",
         "1600028209",
-        "3601073914",
         "3601731156"
       ],
       "enforcementCaseIds": []
@@ -1127,11 +1186,25 @@
     "locations": [
       {
         "country": "印尼",
-        "plantSite": "Morowali（IMIP）, 印尼"
+        "plantSite": "Morowali（IMIP）, 印尼",
+        "coordinates": {
+          "lat": -2.841,
+          "lng": 122.165,
+          "precision": "industrial-park",
+          "source": "https://www.openstreetmap.org/way/299975400",
+          "note": "Polygon centroid of OSM way 299975400 'Indonesia Morowali Industrial Park' (Bahodopi). No OSM, GEM or other public feature for the WNII plant itself was found inside the park."
+        }
       },
       {
         "country": "印尼",
-        "plantSite": "Weda Bay（IWIP）, 印尼"
+        "plantSite": "Weda Bay（IWIP）, 印尼",
+        "coordinates": {
+          "lat": 0.478,
+          "lng": 127.984,
+          "precision": "industrial-park",
+          "source": "https://www.wikidata.org/wiki/Q108749425",
+          "note": "Wikidata Q108749425 (Weda Bay Industrial Park) P625 = 0.47832, 127.98363, same as the en.wikipedia article. OSM has no park polygon or Sunny Metal feature; GEM puts all IWIP captive units (incl. Sunny Metal's Unit 7) at one point."
+        }
       }
     ],
     "entities": [
@@ -1265,7 +1338,14 @@
     "locations": [
       {
         "country": "美國",
-        "plantSite": "Phoenix, Arizona, 美國"
+        "plantSite": "Phoenix, Arizona, 美國",
+        "coordinates": {
+          "lat": 33.77514,
+          "lng": -112.16055,
+          "precision": "facility",
+          "source": "https://formosaoversee.com/companies/tw-2330/facilities/3601820587",
+          "note": "EPA ECHO 設施 3601820587（TAIWAN SEMICONDUCTOR MANUFACTURING COMPANY）的座標"
+        }
       }
     ],
     "entities": [
@@ -1293,9 +1373,7 @@
       "eventIds": [],
       "echoFacilityIds": [
         "3601487739",
-        "3601833672",
-        "3601820587",
-        "3602079003"
+        "3601820587"
       ],
       "enforcementCaseIds": []
     },
@@ -1363,7 +1441,14 @@
     "locations": [
       {
         "country": "日本",
-        "plantSite": "熊本縣菊陽町, 日本"
+        "plantSite": "熊本縣菊陽町, 日本",
+        "coordinates": {
+          "lat": 32.88606,
+          "lng": 130.84309,
+          "precision": "facility",
+          "source": "https://www.openstreetmap.org/way/1178207154",
+          "note": "Polygon centroid of OSM way 1178207154 'JASM' (official_name Japan Advanced Semiconductor Manufacturing, wikidata Q111362867, website tsmc.com/jasm)."
+        }
       }
     ],
     "entities": [
@@ -1468,7 +1553,14 @@
     "locations": [
       {
         "country": "美國",
-        "plantSite": "Point Comfort, Texas, 美國"
+        "plantSite": "Point Comfort, Texas, 美國",
+        "coordinates": {
+          "lat": 28.6888,
+          "lng": -96.5472,
+          "precision": "facility",
+          "source": "https://formosaoversee.com/companies/tw-1301/facilities/3601368154",
+          "note": "EPA ECHO 設施 3601368154（FORMOSA POINT COMFORT PLANT）的座標"
+        }
       }
     ],
     "entities": [
@@ -1499,7 +1591,6 @@
         "3601104956",
         "3601368154",
         "1600028209",
-        "3601073914",
         "3601731156"
       ],
       "enforcementCaseIds": []
@@ -1544,7 +1635,14 @@
     "locations": [
       {
         "country": "美國",
-        "plantSite": "Baton Rouge, Louisiana, 美國"
+        "plantSite": "Baton Rouge, Louisiana, 美國",
+        "coordinates": {
+          "lat": 30.501111,
+          "lng": -91.185833,
+          "precision": "facility",
+          "source": "https://formosaoversee.com/companies/tw-1301/facilities/3411996",
+          "note": "EPA ECHO 設施 3411996（FORMOSA PLASTICS CORPORATION, LOUISIANA）的座標"
+        }
       }
     ],
     "entities": [
@@ -1640,7 +1738,14 @@
     "locations": [
       {
         "country": "美國",
-        "plantSite": "Baton Rouge, Louisiana, 美國"
+        "plantSite": "Baton Rouge, Louisiana, 美國",
+        "coordinates": {
+          "lat": 30.501111,
+          "lng": -91.185833,
+          "precision": "facility",
+          "source": "https://formosaoversee.com/companies/tw-1301/facilities/3411996",
+          "note": "EPA ECHO 設施 3411996（FORMOSA PLASTICS CORPORATION, LOUISIANA）的座標"
+        }
       }
     ],
     "entities": [
@@ -1724,7 +1829,14 @@
     "locations": [
       {
         "country": "美國",
-        "plantSite": "St. James Parish, Louisiana, 美國"
+        "plantSite": "St. James Parish, Louisiana, 美國",
+        "coordinates": {
+          "lat": 30.029978,
+          "lng": -90.919703,
+          "precision": "facility",
+          "source": "https://formosaoversee.com/companies/tw-6505/facilities/3601242192",
+          "note": "EPA ECHO 設施 3601242192（FG LA, LLC - SUNSHINE PROJECT EARLY WORKS）的座標"
+        }
       }
     ],
     "entities": [
@@ -1910,7 +2022,14 @@
     "locations": [
       {
         "country": "法國",
-        "plantSite": "Montbard, 法國"
+        "plantSite": "Montbard, 法國",
+        "coordinates": {
+          "lat": 47.62125,
+          "lng": 4.32671,
+          "precision": "facility",
+          "source": "https://www.openstreetmap.org/way/1553638518",
+          "note": "Polygon centroid of OSM way 1553638518 'DMV France' (man_made=works, Route de Semur, SIRET 41035111800022). French registry (recherche-entreprises.api.gouv.fr) confirms SIRET 41035111800022 = DMV FRANCE, Route de Semur 21500 Montbard; registry point falls inside the OSM polygon."
+        }
       }
     ],
     "entities": [
@@ -2007,7 +2126,14 @@
     "locations": [
       {
         "country": "義大利",
-        "plantSite": "Aosta, 義大利"
+        "plantSite": "Aosta, 義大利",
+        "coordinates": {
+          "lat": 45.73422,
+          "lng": 7.33142,
+          "precision": "facility",
+          "source": "https://www.openstreetmap.org/way/81823894",
+          "note": "Polygon centroid of OSM way 81823894 'Cogne Acciai Speciali' (landuse=industrial, Strada Paravera 16, Aosta; contact cogne.com)."
+        }
       }
     ],
     "entities": [
@@ -2114,7 +2240,14 @@
     "locations": [
       {
         "country": "義大利",
-        "plantSite": "Calusco d'Adda, 義大利"
+        "plantSite": "Calusco d'Adda, 義大利",
+        "coordinates": {
+          "lat": 45.68,
+          "lng": 9.48,
+          "precision": "city",
+          "source": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Calusco_d%27Adda",
+          "note": "Town coordinates of Calusco d'Adda from en.wikipedia (45.6833, 9.4833). Com.Steel Inox's own site gives Via Vittorio Emanuele II 815, but that house number does not geocode in OSM, and the OSM 'Com.steel Spa' node belongs to the separate parent company Com.steel S.p.A. (Via Rivalotto)."
+        }
       }
     ],
     "entities": [
@@ -2174,7 +2307,14 @@
     "locations": [
       {
         "country": "瑞典",
-        "plantSite": "Degerfors, 瑞典"
+        "plantSite": "Degerfors, 瑞典",
+        "coordinates": {
+          "lat": 59.24,
+          "lng": 14.43,
+          "precision": "city",
+          "source": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Degerfors",
+          "note": "Degerfors town coordinates from en.wikipedia (59.2361, 14.4297). DLP's registered address (Bruksparken 2) does not geocode. The only OSM industrial polygon nearby is unnamed. The national emissions-register point (59.2258, 14.4312) is for Outokumpu Stainless AB's plate mill, which is a different operator."
+        }
       }
     ],
     "entities": [
@@ -2246,7 +2386,14 @@
     "locations": [
       {
         "country": "中國大陸",
-        "plantSite": "煙台, 中國大陸"
+        "plantSite": "煙台, 中國大陸",
+        "coordinates": {
+          "lat": 37.54832,
+          "lng": 121.27693,
+          "precision": "facility",
+          "source": "https://www.openstreetmap.org/way/668294293",
+          "note": "Polygon centroid of OSM way 668294293 '华新不锈钢' (landuse=industrial) beside 五指山路. Matches the address 烟台开发区五指山路2号 (YTU recruitment page) and GEM's exact point 37.548627, 121.277488, which is about 50 m away."
+        }
       }
     ],
     "entities": [
@@ -2340,7 +2487,14 @@
     "locations": [
       {
         "country": "南韓",
-        "plantSite": "坡州, 南韓"
+        "plantSite": "坡州, 南韓",
+        "coordinates": {
+          "lat": 37.72,
+          "lng": 126.7,
+          "precision": "city",
+          "source": "https://www.openstreetmap.org/node/3830221577",
+          "note": "OSM place node 'Munbal-dong' (문발동). The official address on asekr.com is 10878 경기도 파주시 산업단지길 76 (문발동). Nominatim matches only the street, not house no. 76, and Overpass found no ASE building or Munbal industrial-complex polygon, so the point is at dong level."
+        }
       }
     ],
     "entities": [
@@ -2400,7 +2554,14 @@
     "locations": [
       {
         "country": "南韓",
-        "plantSite": "坡州, 南韓"
+        "plantSite": "坡州, 南韓",
+        "coordinates": {
+          "lat": 37.72,
+          "lng": 126.7,
+          "precision": "city",
+          "source": "https://www.openstreetmap.org/node/3830221577",
+          "note": "OSM place node 'Munbal-dong' (문발동). The official address on asekr.com is 10878 경기도 파주시 산업단지길 76 (문발동). Nominatim matches only the street, not house no. 76, and Overpass found no ASE building or Munbal industrial-complex polygon, so the point is at dong level."
+        }
       }
     ],
     "entities": [
@@ -2460,7 +2621,14 @@
     "locations": [
       {
         "country": "南韓",
-        "plantSite": "天安, 南韓"
+        "plantSite": "天安, 南韓",
+        "coordinates": {
+          "lat": 36.88,
+          "lng": 127.2,
+          "precision": "city",
+          "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%EC%84%B1%EA%B1%B0%EC%9D%8D%2C%20%EC%B2%9C%EC%95%88%EC%8B%9C&limit=5&countrycodes=kr",
+          "note": "Nominatim centroid of OSM relation 2561572 (Seonggeo-eup, Seobuk-gu, Cheonan). GlobalWafers' site gives the plant address as 854 Manghyang-ro, Seonggeo-eup. That house number does not geocode in OSM, and Overpass found no MEMC feature near Manghyang-ro."
+        }
       }
     ],
     "entities": [
@@ -2532,7 +2700,14 @@
     "locations": [
       {
         "country": "印尼",
-        "plantSite": "Bekasi, 印尼"
+        "plantSite": "Bekasi, 印尼",
+        "coordinates": {
+          "lat": -6.315,
+          "lng": 107.125,
+          "precision": "industrial-park",
+          "source": "https://www.openstreetmap.org/way/566764482",
+          "note": "Polygon centroid of OSM way 566764482 'Delta Silicon 1' (Sukaresmi). patec.co.id gives Jl. Angsana Raya Blok L3-01, Delta Silicon Industrial Park, Lippo Cikarang; trade records say Delta Silicon I, Desa Sukaresmi. The block or street is not in OSM."
+        }
       }
     ],
     "entities": [
@@ -2627,7 +2802,14 @@
     "locations": [
       {
         "country": "越南",
-        "plantSite": "江田工業區（Giang Điền）, 同奈省, 越南"
+        "plantSite": "江田工業區（Giang Điền）, 同奈省, 越南",
+        "coordinates": {
+          "lat": 10.896,
+          "lng": 106.985,
+          "precision": "industrial-park",
+          "source": "https://www.openstreetmap.org/way/793350526",
+          "note": "Polygon centroid of OSM way 793350526 'Khu công nghiệp Giang Điền'. Daibieunhandan.vn (Dong Nai penalty report) puts Kenda's plant in KCN Giang Điền; no lot number or company feature found."
+        }
       }
     ],
     "entities": [
@@ -2698,7 +2880,14 @@
     "locations": [
       {
         "country": "越南",
-        "plantSite": "江田工業區（Giang Điền）, 同奈省, 越南"
+        "plantSite": "江田工業區（Giang Điền）, 同奈省, 越南",
+        "coordinates": {
+          "lat": 10.896,
+          "lng": 106.985,
+          "precision": "industrial-park",
+          "source": "https://www.openstreetmap.org/way/793350526",
+          "note": "Polygon centroid of OSM way 793350526 'Khu công nghiệp Giang Điền'. Daibieunhandan.vn (Dong Nai penalty report) puts Kenda's plant in KCN Giang Điền; no lot number or company feature found."
+        }
       }
     ],
     "entities": [
@@ -2757,7 +2946,14 @@
     "locations": [
       {
         "country": "越南",
-        "plantSite": "邊和第二工業區（Biên Hòa 2）, 同奈省, 越南"
+        "plantSite": "邊和第二工業區（Biên Hòa 2）, 同奈省, 越南",
+        "coordinates": {
+          "lat": 10.92,
+          "lng": 106.869,
+          "precision": "industrial-park",
+          "source": "https://www.openstreetmap.org/way/306132369",
+          "note": "Polygon centroid of OSM way 306132369 'Khu công nghiệp Biên Hòa 2'. Tripod Vietnam (Bien Hoa), the former FICT/Fujitsu Vietnam plant, is in Bien Hoa 2 IP (LHU and TDTU pages). The only street address found (No. 31, Road 3A) comes from one job-board aggregator, so it was not used."
+        }
       }
     ],
     "entities": [
@@ -2814,7 +3010,14 @@
     "locations": [
       {
         "country": "越南",
-        "plantSite": "春祿工業區（Xuân Lộc）, 同奈省, 越南"
+        "plantSite": "春祿工業區（Xuân Lộc）, 同奈省, 越南",
+        "coordinates": {
+          "lat": 10.908,
+          "lng": 107.413,
+          "precision": "industrial-park",
+          "source": "https://www.openstreetmap.org/way/924383400",
+          "note": "Polygon centroid of OSM way 924383400 'Khu công nghiệp Xuân Lộc'. The company is recorded as 'Vietnam Dona Standard Footwear Co., Ltd. Xuan Loc I.Z' in shipping records (Panjiva); no lot or company feature found."
+        }
       }
     ],
     "entities": [
@@ -2872,7 +3075,14 @@
     "locations": [
       {
         "country": "越南",
-        "plantSite": "仁澤第二工業區（Nhơn Trạch II）, 同奈省, 越南"
+        "plantSite": "仁澤第二工業區（Nhơn Trạch II）, 同奈省, 越南",
+        "coordinates": {
+          "lat": 10.74,
+          "lng": 106.95,
+          "precision": "city",
+          "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Nh%C6%A1n%20Tr%E1%BA%A1ch%202&limit=5&countrycodes=vn",
+          "note": "Nominatim centroid of OSM relation 9806927 (Phường Nhơn Trạch). Thanhtra.com.vn (penalty decision 1128/QĐ-XPHC) gives Lô 4, đường 5C, KCN Nhơn Trạch II. OSM has only one undivided 'Khu công nghiệp Nhơn Trạch' polygon, with no Nhơn Trạch II boundary and no road 5C. The OSM 'VMEP SYM' works (way 977161171) is VMEP's Biên Hòa plant, not this site."
+        }
       }
     ],
     "entities": [
@@ -2931,7 +3141,14 @@
     "locations": [
       {
         "country": "越南",
-        "plantSite": "仁澤第三工業區第二期（Nhơn Trạch III）, 同奈省, 越南"
+        "plantSite": "仁澤第三工業區第二期（Nhơn Trạch III）, 同奈省, 越南",
+        "coordinates": {
+          "lat": 10.74,
+          "lng": 106.95,
+          "precision": "city",
+          "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Nh%C6%A1n%20Tr%E1%BA%A1ch%202&limit=5&countrycodes=vn",
+          "note": "Nominatim centroid of OSM relation 9806927 (Phường Nhơn Trạch). Moitruong.net.vn (decision 3365/QĐ-XPHC) places the expansion at đường số 2, KCN Nhơn Trạch III – Giai đoạn 2, xã Long Thọ, which is Nhơn Trạch III, not II. Neither that sub-park nor the pre-2025 commune Long Thọ is in OSM."
+        }
       }
     ],
     "entities": [
@@ -2990,7 +3207,14 @@
     "locations": [
       {
         "country": "越南",
-        "plantSite": "仁澤第三工業區第一期（Nhơn Trạch III）, 同奈省, 越南"
+        "plantSite": "仁澤第三工業區第一期（Nhơn Trạch III）, 同奈省, 越南",
+        "coordinates": {
+          "lat": 10.7237,
+          "lng": 106.9358,
+          "precision": "facility",
+          "source": "https://www.openstreetmap.org/way/638294999",
+          "note": "Polygon centroid of OSM way 638294999 'TNHH Advanced Multitech' (man_made=works). Official address is đường số 4, KCN Nhơn Trạch III (moitruong.net.vn); Panjiva gives Nhon Trach 3 IP, Hung Nghiep Formosa. The polygon is a coarse 2018 trace (v1, about 51 ha), so 4 decimals."
+        }
       }
     ],
     "entities": [

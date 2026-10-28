@@ -90,6 +90,12 @@ data/epa-data.json           company.news[]；只有新聞、沒有 EPA 設施�
     {
       country: '越南',
       plantSite: '河靜省, 越南',      // '地點, 國家'；美國寫 'City, State, 美國'
+      coordinates: {                  // 給地圖用；查不到可靠座標就先不填（build-news.py 會列警告）
+        lat: 18.03788, lng: 106.42154, // WGS84
+        precision: 'facility',        // 'facility' 廠區本身 | 'industrial-park' 工業區 | 'city' 城鎮 | 'region' 省份或更大範圍
+        source: 'https://www.openstreetmap.org/way/630749161', // 看得到這個座標或地址的頁面：OSM、Wikidata、官方地址頁；美國廠區用本站 EPA 廠區頁
+        note: 'OSM 廠區範圍（Formosa Ha Tinh Steel Corporation）的中心點',
+      },
     },
   ],
   entities: [                  // 營運實體，給 resolver 追持股鏈；名稱要和國家一起比對（見第 4 節撞名）
@@ -139,6 +145,7 @@ data/epa-data.json           company.news[]；只有新聞、沒有 EPA 設施�
 - 第 3 節的來源門檻；網址不是 `'#'`、有 `archiveUrl`。
 - 事件起始日早於 `controlSince` → 錯誤。
 - 解析不出任何上市公司歸屬 → 錯誤（要補 `attributionOverride`）。
+- `coordinates` 有填時：經緯度在合法範圍、`precision` 是四種之一、`source` 是網址。沒填只列警告，不擋產出。
 
 ## 6. 前端
 
@@ -319,3 +326,4 @@ data/epa-data.json           company.news[]；只有新聞、沒有 EPA 設施�
 | 28 | 多家媒體轉述同一位消息來源的說法，算幾個來源 | 算 1 個 | TSMC Arizona 氣體外洩說法：三家報導都引同一位工會人士的一句話，不算獨立查證 |
 | 29 | PROPER 紅色（MERAH）沒有列出不合規項目，要不要上線（PT Patec Presisi，O4） | 上線，類型 enforcement／concluded；摘要寫 Permen LHK 1/2021 第 33 條第 2 項的定義、決定書沒有列出具體項目，以及該公司其他年度的評等（決策 26） | 與決策 25 不同：暫緩只證明「有處分」，看不到結論；紅色本身就是官方結論（環境管理不符法規要求），讀者看得到是誰、根據什麼法規做的判定 |
 | 30 | 存託憑證（91xx，例：9110 越南控-DR）出現在持股鏈時，要不要掛事件、開公司頁（三陽 VMEP，O9） | 不掛、不產生公司頁；在持股路徑寫出「9110 越南控-DR 的發行公司」 | 第 4 節的對象是股票在台灣上市的公司（KY 第一上市算在內）；TDR 的發行公司股票不在台灣上市。VMEP Holdings 只是三陽持股鏈中間的控股公司，兩家都掛等於同一筆集團持股算兩次；與 MEMC 掛 6488、5483 不同（6488 本身上市且實際經營）。日後要 DR 頁再改 |
+| 31 | 事件地點要不要有經緯度、怎麼標精度 | 每個地點加 `coordinates`（lat、lng、precision、source、note），精度分廠區、工業區、城鎮、省份四級；只採用打開過的來源（OSM、Wikidata、官方地址頁，美國用 EPA 廠區座標），確認不到廠區就降一級，不估算 | 地圖要能畫境外事件；只知道工業區的點畫得像廠址，會讓讀者誤以為我們知道確切位置 |

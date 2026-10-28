@@ -27,6 +27,7 @@ DATE_RE = {'day': r'^\d{4}-\d{2}-\d{2}$', 'month': r'^\d{4}-\d{2}$', 'year': r'^
 ANY_DATE = r'^\d{4}(-\d{2}(-\d{2})?)?$'
 OWN_MIN, GROUP_MIN = 20, 50                       # 有效持股、集團合計（%）
 SRC_NEWS = 'News'
+COORD_PRECISIONS = {'facility', 'industrial-park', 'city', 'region'}  # 座標精度，地圖依此決定要不要畫誤差範圍
 
 
 def check_event(ev, ids):
@@ -46,8 +47,18 @@ def check_event(ev, ids):
         err.append(f"dateStart 與 datePrecision 不符：{ev.get('dateStart')} / {prec}")
     if ev.get('dateEnd') and (not re.fullmatch(ANY_DATE, ev['dateEnd']) or ev['dateEnd'] < (ev.get('dateStart') or '')):
         err.append(f"dateEnd 不合法：{ev['dateEnd']}")
+    warn = []
     for loc in ev.get('locations') or []:
         if not loc.get('country') or not loc.get('plantSite'): err.append('locations 每筆要有 country 與 plantSite')
+        co = loc.get('coordinates')
+        if not co:
+            warn.append(f"地點沒有座標：{loc.get('plantSite')}")
+            continue
+        lat, lng = co.get('lat'), co.get('lng')
+        if not all(isinstance(v, (int, float)) for v in (lat, lng)) or not (-90 <= lat <= 90 and -180 <= lng <= 180):
+            err.append(f"座標不合法：{loc.get('plantSite')} {lat}, {lng}")
+        if co.get('precision') not in COORD_PRECISIONS: err.append(f"座標 precision 不合法：{loc.get('plantSite')} {co.get('precision')}")
+        if not re.match(r'^https?://', co.get('source') or ''): err.append(f"座標要附來源網址：{loc.get('plantSite')}")
     for s in ev.get('sources') or []:
         tag = s.get('outlet') or s.get('url')
         if s.get('kind') not in SOURCE_KINDS: err.append(f'來源 kind 不合法：{tag}')
@@ -59,7 +70,7 @@ def check_event(ev, ids):
     media = {re.sub(r'\W', '', s['outlet'].lower()) for s in srcs if s.get('kind') == 'media' and s.get('outlet')}
     if not any(s.get('kind') in DOC_KINDS for s in srcs) and len(media) < 2:
         err.append('未達來源門檻：要有 1 份官方／法院／公司文件，或 2 家獨立媒體')
-    warn = [f"來源沒有封存網址：{s.get('outlet')}（{s.get('note') or '未說明原因'}）" for s in srcs if not s.get('archiveUrl')]
+    warn += [f"來源沒有封存網址：{s.get('outlet')}（{s.get('note') or '未說明原因'}）" for s in srcs if not s.get('archiveUrl')]
     return err, warn
 
 

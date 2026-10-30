@@ -3947,6 +3947,126 @@
       ]
     },
     {
+      "id": "wistron-wmmi-kolar-2023-eia-violation-category-clearance",
+      "title": "緯創印度 Kolar 廠未取得環境許可就完成擴建，卡納塔克邦以「違規類別」審查並要求繳罰款",
+      "summary": "緯創持有的 Wistron InfoComm Manufacturing (India)（WMMI）在卡納塔克邦 Kolar 縣 Narasapura 的手機與電路板廠，原有建築面積 92,064.19 平方公尺；依 2006 年環評通知，工業廠房建築面積 15 萬平方公尺以下免環境許可。公司 2020 年 6 月申請擴建到 184,567.03 平方公尺，但在取得環境許可前就完成擴建。邦專家評估委員會（SEAC）2022 年 10 月 13 日的會議紀錄記載，公司表示因不了解規定，多蓋了超過門檻的約 3.46 萬平方公尺，承認違反環評通知；案件改依環境部 2021 年 7 月 7 日的違規案件處理程序，以「違規類別」審查。公司具結未取得許可的新建築尚未運轉，表示擴建沒有造成損害；委員會認定環境基線數據在標準內，建議核發許可。邦環評主管機關（SEIAA）2023 年 3 月 10 日決議核發環境許可，條件是依 1986 年《環境（保護）法》第 19 條向管轄法院提出違規告訴、向邦污染控制委員會提交 18.30 lakh 盧比（183 萬）的銀行保證金與補救及社區資源增益計畫，並向邦污染控制委員會繳納罰款 16,390,334 盧比（約 1,639 萬，超出門檻部分建造成本的 1%）；環境許可 2023 年 4 月 18 日以違規類別核發。會議紀錄沒有寫罰款是否已繳、告訴是否已提出。緯創 2023 年 10 月董事會決議把 WMMI 全部股權出售給 Tata Electronics。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2023-03-10",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "印度",
+          "plantSite": "Kolar 縣 Narasapura（卡納塔克邦）, 印度",
+          "coordinates": {
+            "lat": 13.1383,
+            "lng": 78.0044,
+            "precision": "city",
+            "source": "https://www.openstreetmap.org/node/245618402",
+            "note": "OSM Narasapura 村（node 245618402）。會議紀錄的地址是 Kolar 縣 Narasapura Hobli 的 Achchathanahalli 村，OSM 沒有這個村名與廠區，只定位到 hobli 同名的 Narasapura 村"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "Wistron InfoComm Manufacturing (India) Private Limited",
+          "country": "印度"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "outlet": "卡納塔克邦環評主管機關（SEIAA），印度環境部環評系統 environmentclearance.nic.in",
+          "outletRegion": "local",
+          "language": "en",
+          "title": "Proceedings of 231st SEIAA Meeting dated 10th March 2023",
+          "date": "2023-03-10",
+          "url": "https://environmentclearance.nic.in/writereaddata/FormB/agenda/2103202371718475231stfinalproceeding.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261030094958/https://environmentclearance.nic.in/writereaddata/FormB/agenda/2103202371718475231stfinalproceeding.pdf",
+          "verified": "opened",
+          "note": "PDF 第 59–65 頁議程 231.1.11（Online Proposal SIA/KA/INFRA2/416856/2023，SEIAA 151 CON (VIOL) 2022）。第 65 頁：「The Authority after discussion decided to clear the proposal for issue of Environmental Clearance subject to following」，條件為依 Environment (Protection) Act 1986 第 19 條向管轄法院提出告訴、向 KSPCB 提交 Rs.18.30 Lakhs 銀行保證金與補救及社區資源增益計畫、依 SOP 第 12(b)(i) 條向 KSPCB 繳罰款 Rs. 1,63,90,334/-。"
+        },
+        {
+          "kind": "official",
+          "outlet": "卡納塔克邦專家評估委員會（SEAC），印度環境部環評系統 environmentclearance.nic.in",
+          "outletRegion": "local",
+          "language": "en",
+          "title": "Proceedings of the 286th SEAC Meeting",
+          "date": "2022-10-13",
+          "url": "https://environmentclearance.nic.in/writereaddata/FormB/agenda/2710202218763084286thSEACMeetingMinutes.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261030094832/https://environmentclearance.nic.in/writereaddata/FormB/agenda/2710202218763084286thSEACMeetingMinutes.pdf",
+          "verified": "opened",
+          "note": "PDF 第 55 頁議程 286.30（當時的 ToR 申請 SIA/KA/NCP/53806/2020，SEIAA 87 CON 2020）：營運中的建築 92,064.19 平方公尺、施工中尚未營運 92,502.84 平方公尺；公司表示「due to lack of knowledge they had constructed an additional BUA of 34,567 Sqm above the permissible limit of 1,50,000 Sqm for industrial sheds」並承認違反 EIA Notification 2006。"
+        },
+        {
+          "kind": "official",
+          "outlet": "卡納塔克邦專家評估委員會（SEAC），印度環境部環評系統 environmentclearance.nic.in",
+          "outletRegion": "local",
+          "language": "en",
+          "title": "Proceedings of the 291st SEAC Meeting",
+          "date": "2023-02-14",
+          "url": "https://environmentclearance.nic.in/writereaddata/FormB/agenda/0603202387420750291STFinalMoM.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261030094937/https://environmentclearance.nic.in/writereaddata/FormB/agenda/0603202387420750291STFinalMoM.pdf",
+          "verified": "opened",
+          "note": "PDF 第 107–111 頁議程 291.60：2020-06-11 申請 ToR、取得許可前已完成 184,567.03 平方公尺的建築；SEIAA 2023-01-19 以違規類別核發 ToR；公司具結未取得許可的建築尚未運轉，依 SOP 第 12(b)(i) 條以超出門檻的 34,568 平方公尺（建造成本 Rs. 1,63,90,33,439）計算罰款 Rs. 1,63,90,334；公司表示沒有造成損害；委員會認定基線數據在標準內，建議核發許可。"
+        },
+        {
+          "kind": "official",
+          "outlet": "卡納塔克邦專家評估委員會（SEAC），印度環境部環評系統 environmentclearance.nic.in",
+          "outletRegion": "local",
+          "language": "en",
+          "title": "Proceedings of the 309th SEAC Meeting held on 17th November 2023",
+          "date": "2023-11-17",
+          "url": "https://environmentclearance.nic.in/writereaddata/FormB/agenda/1811202391871501309thSEACminutes.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261030081803/https://environmentclearance.nic.in/writereaddata/FormB/agenda/1811202391871501309thSEACminutes.pdf",
+          "verified": "opened",
+          "note": "PDF 第 6 頁議程 309.5（Online Proposal SIA/KA/INFRA2/406710/2022）：「SEIAA had issued EC on date: 18/04/2023 under schedule 8(b) of EIA Notification, 2006 in vilation category」（原文把 violation 拼成 vilation）。本次議程是公司申請修改許可，只用來確認許可核發日期。"
+        },
+        {
+          "kind": "official",
+          "outlet": "印度環境、森林與氣候變遷部（MoEFCC）",
+          "outletRegion": "local",
+          "language": "en",
+          "title": "Office Memorandum F. No. 22-21/2020-IA.III：Standard Operating Procedure for identification and handling of violation cases under EIA Notification 2006",
+          "date": "2021-07-07",
+          "url": "https://environmentclearance.nic.in/writereaddata/OM/135319091%241._OM_07_07_2021.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261030082752/https://environmentclearance.nic.in/writereaddata/OM/135319091$1._OM_07_07_2021.pdf",
+          "verified": "opened",
+          "note": "只用來說明「違規」的定義（PDF 第 5 頁，定義 i：未取得事前環境許可就動工，或擴大產能／面積超出許可）與罰款算法（PDF 第 8 頁第 12(b)(i) 條：擴建產能尚未投產者，罰擴建成本的 1%）。這份備忘錄後來在法院遭到挑戰，這裡不引用它的其他程序。"
+        }
+      ],
+      "addedAt": "2026-10-30",
+      "attribution": [
+        {
+          "companyCode": "3231",
+          "entity": "Wistron InfoComm Manufacturing (India) Private Limited（WMMI）",
+          "kind": "listed",
+          "effectivePct": 100.0,
+          "controlSince": 2020,
+          "path": [
+            "緯創",
+            "SMS InfoComm (Singapore) Pte. Ltd.（WSSG，100%）、Wistron Hong Kong Limited（WHK，100%）",
+            "Wistron InfoComm Manufacturing (India) Private Limited（100%，2023 年 10 月董事會決議出售）"
+          ],
+          "basis": "緯創 110 年度年報（https://www.wistron.com/file/d83f1c36-23ed-4156-a6fe-ae1e330a1a61/2021_WistronAnnualReport_CH.pdf）PDF 第 70 頁合併財報子公司表：WSSG/WHK → Wistron InfoComm Manufacturing (India) Private Limited (WMMI，印度) 110.12.31、109.12.31 皆 100%，controlSince 取 2020，早於事件（決策 38 第 1 條）。處分：緯創 112 年度年報（https://www.wistron.com/file/68173a96-ff3e-418a-bbef-2794c9fdc443/2023_WistronAnnualReport_CH.pdf）PDF 第 42 頁董事會重要決議載 112.10.27 通過 WSSG、WHK 擬出售 WMMI 100% 股權；第 89 頁合併財報附註載出售對象為 Tata Electronics Private Ltd.，WMMI 112.12.31 列為待出售非流動資產（處分群組）；第 78 頁子公司表 112.12.31 仍為 100%。卡片顯示處分前的 100%（決策 37）；MOPS 2025 子公司表已無此列。",
+          "companyName": "緯創資通股份有限公司",
+          "companyShort": "緯創",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "3231"
+      ]
+    },
+    {
       "id": "klb-le-long-ducmy-2023-wastewater-exceedance-fine",
       "title": "廣隆越南利隆德和廠廢水三項指標超標，隆安省處罰款",
       "summary": "廣隆 2024、2025 年永續報告書揭露，子公司利隆越南（Le Long Việt Nam）位於隆安省德和縣 Đức Mỹ 工業聚落的德和廠（鉛酸電池與鉛回收）2023 年經隆安省環保檢查，廢水處理系統排放的廢水有三項指標超標，被隆安省人民委員會處罰款 459,964,947 越南盾（約 4.6 億越南盾）；報告書寫明罰款當年已繳清，技術單位已改善廢水處理系統。報告書沒有寫出決定書字號、日期與超標項目，本次查詢也沒有找到對應的官方文件或媒體報導。",

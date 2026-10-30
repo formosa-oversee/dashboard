@@ -102,7 +102,7 @@ spec 第 7 節「其他公司」O5–O12、O16 的查證紀錄，以及兩筆待
   - Báo Hải Dương（海陽省黨報，2025 年省份合併後併入 Báo Hải Phòng，網址已改到 baohaiphong.vn）2020-11-11：依海陽省資源環境廳，公司已繳清罰款，省人委會 11-04 核准該項目的環評報告，違規後果已補救完成。
   - 兩家是不同主管機關的報社，各自引述省政府的決定與省廳說法，沒有轉載彼此，算 2 家獨立媒體（第 3 節第 1 條）。
 - **沒拿到原件**：海陽省（今海防市）入口網從台灣連線逾時；沒有用代理或第三方伺服器代抓。
-- **封存**：兩個網站的 Wayback Save Page Now 都回 520，沒有封存；2026-10-28 用一般瀏覽器開啟核對。
+- **封存**：2026-10-28 兩個網站的 Wayback Save Page Now 都回 520。2026-10-30 重試，海陽省報那篇封存成功（https://web.archive.org/web/20261030080122/https://baohaiphong.vn/cong-ty-tnhh-cong-nghe-vinh-han-precision-khac-phuc-xong-hau-qua-vi-pham-205874.html，內容已核對）；農業與環境報仍回 520，沒有封存，2026-10-28 用一般瀏覽器開啟核對。
 - **座標**：OSM「Khu công nghiệp Phúc Điền」工業區範圍（way 597885883）的中心點，industrial-park。OSM 沒有這家廠。
 
 ## 不收

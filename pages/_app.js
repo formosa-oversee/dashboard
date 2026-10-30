@@ -23,8 +23,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider theme={theme}>
       <Head>
-        <title>Formosa Oversee - 企業環境監測平台</title>
-        <meta name="description" content="追蹤企業環境績效和違規紀錄的平台" />
+        <title>Formosa Oversee - 台資企業海外永續資訊揭露平台</title>
+        <meta name="description" content="追蹤台灣上市公司在海外工廠的環境違規與污染事件：各國政府裁罰、美國 EPA、法院、公司文件與媒體報導，逐筆查證並歸屬到台灣母公司" />
         <link rel="icon" href="/favicon.ico" />
         {/* Preconnect to Google Fonts for faster loading */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />

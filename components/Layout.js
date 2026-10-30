@@ -1,6 +1,7 @@
 import { Box, Flex, Container, Heading, Text, HStack, Link as ChakraLink, Button, VStack, Icon } from '@chakra-ui/react';
-import { FaLeaf, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaLeaf, FaGithub, FaInstagram, FaEnvelope } from 'react-icons/fa';
 import Link from 'next/link';
+import { SITE } from '../lib/site';
 
 // 導航欄組件
 const Navbar = () => {
@@ -25,7 +26,9 @@ const Navbar = () => {
             <Link href="/reports" legacyBehavior passHref>
               <Button as="a" variant="ghost" colorScheme="green" size={{ base: 'sm', md: 'md' }}>專題報導</Button>
             </Link>
-            <Button variant="ghost" colorScheme="green" size={{ base: 'sm', md: 'md' }}>關於我們</Button>
+            <Link href="/about" legacyBehavior passHref>
+              <Button as="a" variant="ghost" colorScheme="green" size={{ base: 'sm', md: 'md' }}>關於我們</Button>
+            </Link>
           </HStack>
         </Flex>
       </Container>
@@ -41,23 +44,28 @@ const Footer = () => {
         <VStack spacing={6}>
           <Flex w="100%" justifyContent="space-between" flexDir={{ base: 'column', md: 'row' }} gap={4}>
             <Box>
-              <Heading size="md" mb={4} color="green.600">Formosa Oversee</Heading>
-              <Text color="gray.600">企業環境監測平台</Text>
+              <Heading size="md" mb={4} color="green.600">{SITE.name}</Heading>
+              <Text color="gray.600">{SITE.tagline}</Text>
               <Text color="gray.600" maxW="md" mt={2}>
-                幫助投資者、消費者和公眾了解企業的環境表現和違規記錄
+                追蹤台灣上市公司在海外工廠的環境違規與污染事件，讓企業在海外的表現也被看見。
               </Text>
+              <Link href="/about" legacyBehavior passHref>
+                <ChakraLink color="green.600" fontSize="sm" mt={3} display="inline-block">關於我們 →</ChakraLink>
+              </Link>
             </Box>
             <Box>
               <Heading size="sm" mb={4} color="green.600">聯絡我們</Heading>
-              <Text color="gray.600">Email: contact@formosa-oversee.org</Text>
-              <HStack mt={4} spacing={4}>
-                <ChakraLink href="#" isExternal>
-                  <Icon as={FaGithub} boxSize={5} color="gray.600" />
+              <VStack align="flex-start" spacing={2}>
+                <ChakraLink href={SITE.instagramUrl} isExternal color="gray.600" display="flex" alignItems="center" gap={2}>
+                  <Icon as={FaInstagram} boxSize={5} />@{SITE.instagramHandle}
                 </ChakraLink>
-                <ChakraLink href="#" isExternal>
-                  <Icon as={FaLinkedin} boxSize={5} color="gray.600" />
+                <ChakraLink href={`mailto:${SITE.email}`} color="gray.600" display="flex" alignItems="center" gap={2}>
+                  <Icon as={FaEnvelope} boxSize={5} />{SITE.email}
                 </ChakraLink>
-              </HStack>
+                <ChakraLink href={SITE.githubUrl} isExternal color="gray.600" display="flex" alignItems="center" gap={2}>
+                  <Icon as={FaGithub} boxSize={5} />原始碼與收錄規格
+                </ChakraLink>
+              </VStack>
             </Box>
           </Flex>
           <Box w="100%" borderTopWidth={1} borderColor="gray.200" pt={6}>

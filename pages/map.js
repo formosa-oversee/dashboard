@@ -7,7 +7,7 @@ import {
   Badge, Center, Spinner, Divider, Icon, Grid, GridItem, Card, CardBody, Checkbox, Link as ChakraLink,
   Tabs, TabList, TabPanels, Tab, TabPanel
 } from '@chakra-ui/react';
-import { FaMapMarkedAlt, FaIndustry, FaExclamationTriangle, FaFlag, FaMapMarkerAlt, FaBuilding, FaGlobeAsia } from 'react-icons/fa';
+import { FaMapMarkedAlt, FaIndustry, FaExclamationTriangle, FaFlag, FaMapMarkerAlt, FaBuilding, FaGlobeAsia, FaExpand, FaCompress, FaTimes } from 'react-icons/fa';
 import Layout from '../components/Layout';
 import CompanyMultiSelect from '../components/CompanyMultiSelect';
 import { getMapData, getMapEvents } from '../lib/gcs-api-server';
@@ -193,6 +193,29 @@ const EventListItem = ({ event, onFocus }) => (
   </Box>
 );
 
+// 圖層勾選與視角按鈕：頁面上與劇院模式的浮動工具列共用
+const MapControls = ({ showFacilities, setShowFacilities, showEvents, setShowEvents, onView, size = 'sm' }) => (
+  <Wrap spacing={4} align="center">
+    <WrapItem>
+      <HStack spacing={4}>
+        <Checkbox colorScheme="green" isChecked={showFacilities} onChange={(e) => setShowFacilities(e.target.checked)}>
+          <Text fontSize="sm">美國 EPA 廠區</Text>
+        </Checkbox>
+        <Checkbox colorScheme="blue" isChecked={showEvents} onChange={(e) => setShowEvents(e.target.checked)}>
+          <Text fontSize="sm">污染事件</Text>
+        </Checkbox>
+      </HStack>
+    </WrapItem>
+    <WrapItem>
+      <ButtonGroup size={size} isAttached variant="outline" bg="white">
+        {VIEWS.map((view) => (
+          <Button key={view.key} onClick={() => onView(view.target)}>{view.label}</Button>
+        ))}
+      </ButtonGroup>
+    </WrapItem>
+  </Wrap>
+);
+
 export default function MapPage({ facilities, summary, eventPoints, eventSummary }) {
   const [scope, setScope] = useState('all');
   const [stateFilter, setStateFilter] = useState('all');
@@ -201,10 +224,50 @@ export default function MapPage({ facilities, summary, eventPoints, eventSummary
   const [showEvents, setShowEvents] = useState(true);
   const [companyCodes, setCompanyCodes] = useState([]);
   const mapRef = useRef(null);
+  // 劇院模式：地圖撐滿整個視窗（蓋過導覽列），Esc 離開；支援的瀏覽器可再切成真正的全螢幕
+  const [theater, setTheater] = useState(false);
+  const [fullscreen, setFullscreen] = useState(false);
+  const [canFullscreen, setCanFullscreen] = useState(false);
+
+  useEffect(() => {
+    setCanFullscreen(Boolean(document.fullscreenEnabled));
+    const onChange = () => setFullscreen(Boolean(document.fullscreenElement));
+    document.addEventListener('fullscreenchange', onChange);
+    return () => document.removeEventListener('fullscreenchange', onChange);
+  }, []);
+
+  useEffect(() => {
+    if (!theater) return undefined;
+    const onKey = (e) => { if (e.key === 'Escape' && !document.fullscreenElement) setTheater(false); };
+    const { overflow } = document.body.style;
+    document.body.style.overflow = 'hidden';
+    window.addEventListener('keydown', onKey);
+    return () => {
+      document.body.style.overflow = overflow;
+      window.removeEventListener('keydown', onKey);
+    };
+  }, [theater]);
+
+  // Leaflet 只在 resize 時重新量容器尺寸（MapResizeHandler），切換模式後補發一次
+  useEffect(() => {
+    const raf = requestAnimationFrame(() => window.dispatchEvent(new Event('resize')));
+    return () => cancelAnimationFrame(raf);
+  }, [theater, fullscreen]);
+
+  const exitTheater = () => {
+    if (document.fullscreenElement) document.exitFullscreen();
+    setTheater(false);
+  };
+
+  const toggleFullscreen = () => {
+    if (document.fullscreenElement) document.exitFullscreen();
+    else mapRef.current?.requestFullscreen?.();
+  };
 
   // 手機版清單在地圖下方，點清單後要捲回地圖才看得到移動
   const flyTo = (target) => {
     setFlyToTarget({ ...target, nonce: Date.now() });
+    if (theater) return;
     const rect = mapRef.current?.getBoundingClientRect();
     if (rect && (rect.top < 0 || rect.bottom > window.innerHeight)) {
       mapRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -413,27 +476,11 @@ export default function MapPage({ facilities, summary, eventPoints, eventSummary
         </SimpleGrid>
 
         {/* 圖層與視角 */}
-        <Wrap spacing={4} align="center" mb={3}>
-          <WrapItem>
-            <HStack spacing={4}>
-              <Checkbox colorScheme="green" isChecked={showFacilities} onChange={(e) => setShowFacilities(e.target.checked)}>
-                <Text fontSize="sm">美國 EPA 廠區</Text>
-              </Checkbox>
-              <Checkbox colorScheme="blue" isChecked={showEvents} onChange={(e) => setShowEvents(e.target.checked)}>
-                <Text fontSize="sm">污染事件</Text>
-              </Checkbox>
-            </HStack>
-          </WrapItem>
-          <WrapItem>
-            <ButtonGroup size="sm" isAttached variant="outline">
-              {VIEWS.map((view) => (
-                <Button key={view.key} onClick={() => setFlyToTarget({ ...view.target, nonce: Date.now() })}>
-                  {view.label}
-                </Button>
-              ))}
-            </ButtonGroup>
-          </WrapItem>
-        </Wrap>
+        <Box mb={3}>
+          <MapControls showFacilities={showFacilities} setShowFacilities={setShowFacilities}
+            showEvents={showEvents} setShowEvents={setShowEvents}
+            onView={(target) => setFlyToTarget({ ...target, nonce: Date.now() })} />
+        </Box>
 
         {/* 公司篩選（兩個圖層都套用） */}
         <Wrap spacing={4} align="center" mb={3}>
@@ -503,13 +550,50 @@ export default function MapPage({ facilities, summary, eventPoints, eventSummary
           <GridItem>
             <Box
               ref={mapRef}
-              h={{ base: '420px', md: '600px' }}
-              borderRadius="lg"
+              position={theater ? 'fixed' : 'relative'}
+              inset={theater ? 0 : undefined}
+              zIndex={theater ? 1400 : undefined}
+              bg="white"
+              h={theater ? '100dvh' : { base: '420px', md: '600px' }}
+              borderRadius={theater ? 0 : 'lg'}
               overflow="hidden"
-              borderWidth="1px"
+              borderWidth={theater ? 0 : '1px'}
               borderColor="gray.200"
               shadow="sm"
+              role={theater ? 'dialog' : undefined}
+              aria-label={theater ? '污染地圖（劇院模式）' : undefined}
             >
+              {/* 地圖右上角：一般模式只有「劇院模式」按鈕；劇院模式是圖層、視角與離開的浮動工具列 */}
+              {theater ? (
+                <Box position="absolute" top={3} right={3} left={{ base: 14, md: 'auto' }} zIndex={1000}
+                  bg="whiteAlpha.900" borderRadius="md" shadow="md" px={3} py={2}>
+                  <Wrap spacing={3} align="center" justify="flex-end">
+                    <WrapItem>
+                      <MapControls showFacilities={showFacilities} setShowFacilities={setShowFacilities}
+                        showEvents={showEvents} setShowEvents={setShowEvents}
+                        onView={(target) => setFlyToTarget({ ...target, nonce: Date.now() })} size="xs" />
+                    </WrapItem>
+                    <WrapItem>
+                      <HStack spacing={2}>
+                        {canFullscreen && (
+                          <Button size="xs" variant="outline" bg="white" leftIcon={<Icon as={fullscreen ? FaCompress : FaExpand} />}
+                            onClick={toggleFullscreen}>
+                            {fullscreen ? '結束全螢幕' : '全螢幕'}
+                          </Button>
+                        )}
+                        <Button size="xs" colorScheme="green" leftIcon={<Icon as={FaTimes} />} onClick={exitTheater}>
+                          離開（Esc）
+                        </Button>
+                      </HStack>
+                    </WrapItem>
+                  </Wrap>
+                </Box>
+              ) : (
+                <Button position="absolute" top={3} right={3} zIndex={1000} size="sm" bg="white" shadow="md"
+                  variant="outline" leftIcon={<Icon as={FaExpand} />} onClick={() => setTheater(true)}>
+                  劇院模式
+                </Button>
+              )}
               <PollutionMap
                 facilities={visibleFacilities}
                 eventPoints={visibleEventPoints}

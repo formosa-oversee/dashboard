@@ -1,6 +1,11 @@
 import { Fragment, useState } from 'react';
 import L from 'leaflet';
 import { Marker, Circle, Popup, Tooltip, useMap, useMapEvents } from 'react-leaflet';
+
+// 滑過定位針的提示框與點開的明細：中文標題長，太窄會變成細長一條（Leaflet 預設 popup 最寬 300px）。
+// 寬度用 max-content，短標題不會被撐大；手機上不超過畫面八成
+const TOOLTIP_MAX_W = 'min(360px, 80vw)';
+const POPUP_MAX_W = 380;
 import { Box, Text, Badge, HStack, Wrap, WrapItem, Divider, VStack } from '@chakra-ui/react';
 import Link from 'next/link';
 import { EVENT_TYPES, EVENT_STATUSES, LOCATION_PRECISIONS, MAP_EVENT_COLOR as EVENT_COLOR } from '../lib/news-labels';
@@ -80,7 +85,7 @@ const ClusterMarker = ({ points }) => {
       }}
     >
       <Tooltip direction="top" opacity={0.95}>
-        <Box fontSize="xs" maxW="240px" whiteSpace="normal">
+        <Box fontSize="xs" w="max-content" maxW={TOOLTIP_MAX_W} whiteSpace="normal" lineHeight={1.5}>
           <Text as="div" fontWeight="bold">{points.length} 個地點、{events} 個污染事件</Text>
           <Text as="div">{sites.slice(0, 4).join('；')}{sites.length > 4 ? '……' : ''}</Text>
           <Text as="div" color="gray.500">點選放大</Text>
@@ -132,7 +137,7 @@ const EventPopup = ({ point }) => {
   const precision = LOCATION_PRECISIONS[point.precision];
 
   return (
-    <Box minW="250px" maxW="300px" fontFamily="body">
+    <Box minW="280px" maxW={`${POPUP_MAX_W}px`} fontFamily="body">
       <Text as="div" fontSize="xs" color="gray.500">{sites.join('；')}</Text>
       <Text as="div" fontSize="xs" color={point.precision === 'facility' ? 'gray.500' : 'orange.600'} mb={2}>
         {precision.label}{point.precision === 'facility' ? '' : `：${precision.note}`}
@@ -180,7 +185,7 @@ const PointMarker = ({ point }) => {
       )}
       <Marker position={[point.lat, point.lng]} icon={pinIcon(count, isCoarse(point.precision))}>
         <Tooltip direction="top" opacity={0.95}>
-          <Box fontSize="xs" maxW="240px" whiteSpace="normal">
+          <Box fontSize="xs" w="max-content" maxW={TOOLTIP_MAX_W} whiteSpace="normal" lineHeight={1.5}>
             <Text as="div" fontWeight="bold">{tooltipTitle}</Text>
             <Text as="div">{sites.join('；')}</Text>
             {point.precision !== 'facility' && (
@@ -188,7 +193,7 @@ const PointMarker = ({ point }) => {
             )}
           </Box>
         </Tooltip>
-        <Popup>
+        <Popup minWidth={280} maxWidth={POPUP_MAX_W}>
           <EventPopup point={point} />
         </Popup>
       </Marker>

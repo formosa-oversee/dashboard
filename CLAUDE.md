@@ -58,3 +58,9 @@ npm run download-epa                          # 已內建該環境變數
 - 路由 `/reports`（列表）與 `/reports/<slug>`（單篇）。清單與關聯在 `lib/reports.js`：`companies` 決定哪些公司頁掛專題卡，`relatedEventIds` 對應 `data/news-events.json` 的事件 id，公司頁的事件卡會連回專題。
 - 內文在 `content/reports/<slug>.js`。`<Chapter>` 內的段落、清單、表格**逐字取自定稿，不改寫**；圖表、大事記、引言框、編按是網頁版加的，數字只能取自報告內文，例外要在程式註解寫依據。版面元件在 `components/report/`，主題色跟全站一樣用 Chakra green（`tokens.js`），水藍只給跟水有關的圖（`BarChart`／`Compare` 加 `tone="water"`）。圖表配色已用 dataviz `validate_palette.js` 驗證，改色要重驗；綠跟超標紅色盲難分，不要同圖並用。
 - 第一篇 `kumamoto-jasm`（台積電進駐熊本田野調查，來源 `Report_中文_2026-10定稿.docx`）。docx 內含內部審稿留言，不要把 docx 放上網站。
+
+## 關於我們與聯絡資訊
+
+- `/about`（`pages/about.js`）的內容取自 Young飛全球行動計畫的「行動方案 3.0」與「行動方案 2.0 國際聯結行動成果」（團隊 Google Drive 的 `04_行動方案3.0` 資料夾）；數字由 `getSiteStats()`（`lib/gcs-api-server.js`）在 build 時計算，不手寫。
+- IG、email、GitHub 等聯絡資訊集中在 `lib/site.js`，頁尾與關於我們共用。
+- 首頁的專題輪播在 `components/report/ReportCarousel.js`（原生水平捲動加 scroll-snap，沒有用輪播套件）；地圖頁的劇院模式與全螢幕在 `pages/map.js`。

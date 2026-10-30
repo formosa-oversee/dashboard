@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30",
+  "generatedAt": "2026-10-31",
   "note": "由 scripts/build-news.py 從 data/news-events.json 產生，規格見 docs/pollution-news-spec.md。attribution[].shown 表示事件是否出現在該公司頁；reason：own 有效持股 ≥ 20%｜group 集團合計 ≥ 50% 且本身有持股。",
   "events": [
     {
@@ -3873,6 +3873,116 @@
       ]
     },
     {
+      "id": "honhai-fih-india-developer-sriperumbudur-2023-eia-violation-category-tor",
+      "title": "鴻海旗下富智康的 Sriperumbudur 經濟特區未取得事前環境許可就施工，坦米爾納德邦列為「違規類別」",
+      "summary": "鴻海經富智康（FIH Mobile，香港上市，持股 64%）持有的 FIH India Developer，開發坦米爾納德邦 Sriperumbudur SIPCOT 工業區第二期內一座 63.03 公頃的經濟特區，區內是鴻海關係企業 Bharat FIH 與 Foxconn Hon Hai Technology India Mega Development 的廠房。依 2006 年環評通知，這個規模的區域開發須事前取得環境許可。邦專家評估委員會（SEAC）記載既有建築 319,102 平方公尺、加上擬增建合計 434,558 平方公尺，開發時砍了 3,600 棵樹。邦環評主管機關（SEIAA）2023 年 6 月 6 日以「違規類別」核發環評範圍（ToR），要求提出補種 10 倍樹木的計畫、違規期間的生態損害評估與補救計畫，並寫明將依 1986 年《環境（保護）法》第 15、19 條對違規提起程序。SEAC 2025 年 2 月 7 日的紀錄寫明違規內容是「未取得事前環境許可就開始施工」。環境部的違規案件處理程序在坦米爾納德邦自 2021 年 7 月起因訴訟暫停適用，最高法院 2025 年 1 月 6 日也裁定這類案件在另有裁定前不得核發最後許可；到 2026 年 10 月為止公開的會議紀錄，沒有看到環境許可、罰款或起訴的結果。",
+      "type": "enforcement",
+      "status": "concluded",
+      "dateStart": "2023-06-06",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "印度",
+          "plantSite": "Kancheepuram 縣 Sriperumbudur，SIPCOT 工業區第二期 Sunguvarchatram（坦米爾納德邦）, 印度",
+          "coordinates": {
+            "lat": 12.9227,
+            "lng": 79.8898,
+            "precision": "facility",
+            "source": "https://www.openstreetmap.org/way/660317482",
+            "note": "OSM 標為 Foxconn 的廠區（way 660317482，Sunguvarchatram），取其中心。會議紀錄的地址是 SIPCOT 工業區第二期 Mambakkam 與 Sunguvarchatram 村；鴻海年報列的 FIH India Developer 地址是 Sipcot High-Tech SEZ, Plot No. M2A & M2B, Sunguvarchatram。OSM 沒有標出經濟特區本身的範圍"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "FIH India Developer Private Limited",
+          "country": "印度"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "outlet": "坦米爾納德邦環評主管機關（SEIAA），印度環境部環評系統 environmentclearance.nic.in",
+          "outletRegion": "local",
+          "language": "en",
+          "title": "Minutes of the 627th Meeting of the State Level Environment Impact Assessment Authority – Tamil Nadu",
+          "date": "2023-06-06",
+          "url": "https://environmentclearance.nic.in/writereaddata/FormB/agenda/1406202370101116627thseiaaminutes.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261030220210/https://environmentclearance.nic.in/writereaddata/FormB/agenda/1406202370101116627thseiaaminutes.pdf",
+          "verified": "opened",
+          "note": "PDF 第 3–4 頁議程 3（File No. 10001）：「the Authority accepts the recommendation of SEAC and decided to grant Terms of Reference (ToR) under violation category」，條件 1 要求一年內依 S.O. 804(E) 提出違規期間生態損害評估、補救與自然及社區資源增益計畫；條件 2：「the action will be initiated by the competent authority under section 15 read with section 19 of the Environment (Protection) Act, 1986 against violation」。"
+        },
+        {
+          "kind": "official",
+          "outlet": "坦米爾納德邦專家評估委員會（SEAC），印度環境部環評系統 environmentclearance.nic.in",
+          "outletRegion": "local",
+          "language": "en",
+          "title": "Minutes of the 380th Meeting of the State Expert Appraisal Committee (SEAC) held on 17.05.2023",
+          "date": "2023-05-17",
+          "url": "https://environmentclearance.nic.in/writereaddata/FormB/agenda/1406202382575937380seacminutes.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261030220145/https://environmentclearance.nic.in/writereaddata/FormB/agenda/1406202382575937380seacminutes.pdf",
+          "verified": "opened",
+          "note": "PDF 第 6–7 頁：總面積 63.03 公頃，既有建築 319,102 平方公尺（BFIH 142,815.1、FHHI 176,286.49），FHHI 擬增建 115,456 平方公尺，合計 434,558 平方公尺；SEAC 建議以違規類別核發 ToR；ToR 第 2 條：補種「10 times to the trees cut-off」以彌補「3600 Nos. of trees cut-off during development of the existing site」。"
+        },
+        {
+          "kind": "official",
+          "outlet": "坦米爾納德邦專家評估委員會（SEAC），印度環境部環評系統 environmentclearance.nic.in",
+          "outletRegion": "local",
+          "language": "en",
+          "title": "Minutes of the 531st Meeting of the State Expert Appraisal Committee (SEAC) held on 07.02.2025",
+          "date": "2025-02-07",
+          "url": "https://environmentclearance.nic.in/writereaddata/FormB/agenda/0603202526041962531stSEACSignedMinutes.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261030234449/https://environmentclearance.nic.in/writereaddata/FormB/agenda/0603202526041962531stSEACSignedMinutes.pdf",
+          "verified": "opened",
+          "note": "PDF 第 89–91 頁議程 531-20（File No. 11477/2024，ToR 修正申請 SIA/TN/INFRA2/505870/2024）：「The construction work was started without obtaining Prior EC. Hence, ToR under violation category was issued earlier vide Letter No. SEIAA-TN/F.No.10001/Violation/ToR-1474/2023 dated:06.06.2023」；建築面積擬由 434,558 增為 479,036.52 平方公尺；引述最高法院 2025-01-06 裁定（事後許可申請可審查，但不得核發最後許可）；公司要求延後補件，案件延後。"
+        },
+        {
+          "kind": "official",
+          "outlet": "印度環境、森林與氣候變遷部（MoEFCC）",
+          "outletRegion": "local",
+          "language": "en",
+          "title": "Office Memorandum F. No. 22-21/2020-IA.III：Standard Operating Procedure for identification and handling of violation cases under EIA Notification 2006",
+          "date": "2021-07-07",
+          "url": "https://environmentclearance.nic.in/writereaddata/OM/135319091%241._OM_07_07_2021.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261030082752/https://environmentclearance.nic.in/writereaddata/OM/135319091$1._OM_07_07_2021.pdf",
+          "verified": "opened",
+          "note": "只用來說明「違規類別」的定義（PDF 第 5 頁，定義 i：未取得事前環境許可就動工，或擴大產能／面積超出許可）。坦米爾納德邦的會議紀錄寫明，這份備忘錄在馬德拉斯高等法院 Madurai 分院 W.P.(MD) No. 11757 of 2021 遭到挑戰，2021-07-15 起暫停適用；這裡不引用它的其他程序。"
+        }
+      ],
+      "addedAt": "2026-10-31",
+      "attribution": [
+        {
+          "companyCode": "2317",
+          "entity": "FIH India Developer Private Limited",
+          "kind": "listed",
+          "effectivePct": 64.0,
+          "controlSince": 2018,
+          "path": [
+            "鴻海",
+            "Foxconn (Far East) Limited（Cayman，100%）",
+            "FIH Mobile Limited（富智康，香港上市，64%）",
+            "Executstar International、Excel True Holdings、Eastern Source Investments、Wise Excel（各 100%）",
+            "FIH India Developer Private Limited（Wise Excel 99.999997%、Eastern Source 0.000003%）"
+          ],
+          "basis": "鴻海 111 年度年報（https://image.honhai.com/financy_by_year/R1205000194%E9%B4%BB%E6%B5%B7%E7%B2%BE%E5%AF%86%E5%B9%B4%E5%A0%B1(%E4%B8%8A%E5%82%B3%E7%89%881).pdf，Wayback 20261030220729）PDF 第 560 頁（印刷頁 556）關係企業組織圖 6-2-1-6-2：鴻海 → Foxconn (Far East) Limited → FIH Mobile Limited 64% → Executstar International Limited → Excel True Holdings Limited → Eastern Source Investments Limited → Wise Excel Limited → FIH India Developer Private Limited 99.999997%，Eastern Source 另直接持有 0.000003%；圖上未標比例者為 100%。同圖列出 Bharat FIH Limited；同年報 PDF 第 575 頁關係企業基本資料列出 Foxconn Hon Hai Technology India Mega Development Private Limited。鴻海 107 年度年報（https://image.honhai.com/financy_by_year/2018_annual_rpt_c1_1592655280_1594174023.pdf，Wayback 20261030220632）PDF 第 575 頁關係企業基本資料已列 FIH India Developer Private Limited（設立 2006/7/7，地址 Sipcot High-Tech Sez, Plot No.M2A & M2B, Sipcot Industrial Park, Sunguvarchatram），controlSince 取 2018，早於事件（決策 38 第 1 條）；110 年度年報（Wayback 20261030220650）PDF 第 534 頁組織圖同一路徑。富智康是香港上市公司，依決策 30、36 只列在路徑中。有效持股 64%。最新一期相同：富智康 2026 年中期報告（https://www.fihmobile.com/assets/upload/images/2026/09/17/77e80926f8bcb88bf4b83e13.pdf，Wayback 20261031000241）PDF 第 60 頁主要股東表，2026-06-30 Foxconn (Far East) Limited 持有 508,103,452 股、64.443%（2025 年報 https://www.fihmobile.com/assets/upload/images/2026/04/16/b2cc350d2f1eff3df057b4be.pdf，Wayback 20261031000300，PDF 第 49 頁，2025-12-31 相同）。鴻海 113 年度年報（上冊）沒有關係企業資料，2025 年報第 149 頁改指向 MOPS 關係企業三書表（mopsov，robots 禁止抓取，未讀），所以 FIH India Developer 最後一次逐家列名是 111 年度年報；SEAC 2025-02-07 第 531 次會議紀錄仍以它為申請人。",
+          "companyName": "鴻海精密工業股份有限公司",
+          "companyShort": "鴻海",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "2317"
+      ]
+    },
+    {
       "id": "ase-korea-paju-2023-air-improvement-orders",
       "title": "日月光韓國坡州廠違反大氣環境保全法，京畿道兩度下改善命令",
       "summary": "ASE (Korea) Inc. 依法向韓國環境資訊公開系統申報：京畿道廳 2023 年 3 月 17 日認定坡州廠空污防制設施的煙囪採樣口位置不合規定，違反大氣環境保全法第 40 條；3 月 22 日認定特定有害物質的排放設施變更未依法申報，違反同法第 23 條，兩次都處以改善命令（警告）。公司申報已延長煙囪、改善採樣口，並補辦變更申報。",
@@ -3949,7 +4059,7 @@
     {
       "id": "wistron-wmmi-kolar-2023-eia-violation-category-clearance",
       "title": "緯創印度 Kolar 廠未取得環境許可就完成擴建，卡納塔克邦以「違規類別」審查並要求繳罰款",
-      "summary": "緯創持有的 Wistron InfoComm Manufacturing (India)（WMMI）在卡納塔克邦 Kolar 縣 Narasapura 的手機與電路板廠，原有建築面積 92,064.19 平方公尺；依 2006 年環評通知，工業廠房建築面積 15 萬平方公尺以下免環境許可。公司 2020 年 6 月申請擴建到 184,567.03 平方公尺，但在取得環境許可前就完成擴建。邦專家評估委員會（SEAC）2022 年 10 月 13 日的會議紀錄記載，公司表示因不了解規定，多蓋了超過門檻的約 3.46 萬平方公尺，承認違反環評通知；案件改依環境部 2021 年 7 月 7 日的違規案件處理程序，以「違規類別」審查。公司具結未取得許可的新建築尚未運轉，表示擴建沒有造成損害；委員會認定環境基線數據在標準內，建議核發許可。邦環評主管機關（SEIAA）2023 年 3 月 10 日決議核發環境許可，條件是依 1986 年《環境（保護）法》第 19 條向管轄法院提出違規告訴、向邦污染控制委員會提交 18.30 lakh 盧比（183 萬）的銀行保證金與補救及社區資源增益計畫，並向邦污染控制委員會繳納罰款 16,390,334 盧比（約 1,639 萬，超出門檻部分建造成本的 1%）；環境許可 2023 年 4 月 18 日以違規類別核發。會議紀錄沒有寫罰款是否已繳、告訴是否已提出。緯創 2023 年 10 月董事會決議把 WMMI 全部股權出售給 Tata Electronics。",
+      "summary": "緯創持有的 Wistron InfoComm Manufacturing (India)（WMMI）在卡納塔克邦 Kolar 縣 Narasapura 的手機與電路板廠，原有建築面積 92,064.19 平方公尺；依 2006 年環評通知，工業廠房建築面積 15 萬平方公尺以下免環境許可。公司 2020 年 6 月申請擴建到 184,567.03 平方公尺，但在取得環境許可前就完成擴建。邦專家評估委員會（SEAC）2022 年 10 月 13 日的會議紀錄記載，公司表示因不了解規定，多蓋了超過門檻的約 3.46 萬平方公尺，承認違反環評通知；案件改依環境部 2021 年 7 月 7 日的違規案件處理程序，以「違規類別」審查。公司具結未取得許可的新建築尚未運轉，表示擴建沒有造成損害；委員會認定環境基線數據在標準內，建議核發許可。邦環評主管機關（SEIAA）2023 年 3 月 10 日決議核發環境許可，條件是依 1986 年《環境（保護）法》第 19 條向管轄法院提出違規告訴、向邦污染控制委員會提交 18.30 lakh 盧比（183 萬盧比）的銀行保證金與補救及社區資源增益計畫，並向邦污染控制委員會繳納罰款 16,390,334 盧比（約 1,639 萬盧比，超出門檻部分建造成本的 1%）；環境許可 2023 年 4 月 18 日以違規類別核發。會議紀錄沒有寫罰款是否已繳、告訴是否已提出。緯創 2023 年 10 月董事會決議把 WMMI 全部股權出售給 Tata Electronics。",
       "type": "enforcement",
       "status": "penalized",
       "dateStart": "2023-03-10",

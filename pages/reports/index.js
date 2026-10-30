@@ -9,7 +9,7 @@ import { listReports, reportPath, formatMonth, publishedLabel } from '../../lib/
 
 const Meta = ({ report }) => (
   <Flex wrap="wrap" columnGap={4} rowGap={1} fontSize="13px" color={R.muted}>
-    <Text>田野調查　{formatMonth(report.fieldworkAt)}</Text>
+    {report.fieldworkAt && <Text>田野調查　{formatMonth(report.fieldworkAt)}</Text>}
     <Text>發布　{publishedLabel(report)}</Text>
     <Text>閱讀約 {report.readingMinutes} 分鐘</Text>
   </Flex>

@@ -6,6 +6,10 @@ import dynamic from 'next/dynamic';
  * 靜態匯出時仍會把全文輸出進 HTML（ssr 預設開啟）。
  */
 export const ARTICLES = {
+  'walsin-indonesia-nickel': dynamic(() => import('./walsin-indonesia-nickel')),
+  'formosa-plastics-overseas-pollution': dynamic(() => import('./formosa-plastics-overseas-pollution')),
+  'formosa-plastics-community-voices': dynamic(() => import('./formosa-plastics-community-voices')),
+
   'kumamoto-jasm': dynamic(() => import('./kumamoto-jasm')),
   'kumamoto-notes-1': dynamic(() => import('./kumamoto-notes-1')),
   'kumamoto-notes-2': dynamic(() => import('./kumamoto-notes-2')),

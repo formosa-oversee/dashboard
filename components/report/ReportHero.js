@@ -118,7 +118,7 @@ const ReportHero = ({ report, companies }) => {
             {/* 手機一項一行：三項自動換行時，第三項可能剛好卡在換行邊緣，字型載入或重排時會在兩行、三行之間跳 */}
             <Flex direction={{ base: 'column', sm: 'row' }} wrap="wrap" columnGap={5} rowGap={1} mt={8}
               fontSize="13.5px" color="rgba(255,255,255,0.7)">
-              <Text>田野調查　{formatMonth(report.fieldworkAt)}</Text>
+              {report.fieldworkAt && <Text>田野調查　{formatMonth(report.fieldworkAt)}</Text>}
               <Text>發布　{publishedLabel(report)}</Text>
               <Text>閱讀約 {report.readingMinutes} 分鐘</Text>
             </Flex>

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31",
+  "generatedAt": "2026-11-01",
   "note": "由 scripts/build-news.py 從 data/news-events.json 產生，規格見 docs/pollution-news-spec.md。attribution[].shown 表示事件是否出現在該公司頁；reason：own 有效持股 ≥ 20%｜group 集團合計 ≥ 50% 且本身有持股。",
   "events": [
     {
@@ -835,6 +835,18 @@
           "archiveUrl": "https://web.archive.org/web/20261027091301/https://dongnai.gov.vn/uploads/binhphuoc/news/2025/07/255_qd_qdub_2025.pdf",
           "verified": "opened",
           "note": "同奈省人民委員會主席簽發的電子簽章副本（「SAO Y」，簽章時間 2025-07-01），號碼與日期為手寫，經影像核對。受罰：Công ty trách nhiệm hữu hạn Pou Sung Việt Nam，稅號 3600710751，Bàu Xéo 工業區（Trảng Bom），2005-01-12 首次登記。依農業與環境廳稽查違規筆錄 99/BB-VPHC（2025-06-20）與廳稽查長公文 269/TT（2025-06-20）。四項：（1）2023 年環保報告危險廢棄物申報 328,976 公斤，轉移聯單 330,337 公斤，認定為申報不正確（khai báo không đúng；第 45/2022/NĐ-CP 第 29 條第 3 項 d 點，0.9 億越南盾）；（2）未依環境許可證 531/GPMT-BTNMT（資源環境部 2024-02-12）申請文件，在生產線部分位置裝設集氣罩（第 11 條第 3 項 đ 點，3.5 億）；（3）向稽查團提供的 2023 年廢水處理、回用與排入 Thao 河水量與水表統計、日誌不符，認定為資料不實（không trung thực；第 43 條第 4 項 b 點，2.5 億）；（4）向稽查團回報的取水量不實（không trung thực），2025-01-03 提供的日誌記水表累計讀數（chỉ số đồng hồ nước）5,820,115、現場 5,820,122，決定書未載單位（第 36/2020/NĐ-CP 第 10 條第 2 項 b 點，經第 04/2022/NĐ-CP 修正，0.15 億）。前三項依第 45/2022/NĐ-CP 第 6 條第 2 項對組織加倍。合計 7.05 億越南盾。加重、減輕情節皆無，無附加處分；補救措施只有更正 2023 年廢水量資料。公告頁：https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-doi-voi-cong-ty-tnhh-pou-sung-viet-nam-54160.html（封存 https://web.archive.org/web/20261027091434/https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-doi-voi-cong-ty-tnhh-pou-sung-viet-nam-54160.html）。"
+        },
+        {
+          "kind": "company",
+          "outlet": "寶成工業（9904）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "寶成工業 2025 永續報告書",
+          "date": "2026",
+          "url": "https://www.pouchen.com/download/corp-governance/2025%20PCC%20Sustainability%20Report-CH.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261028100100id_/https://www.pouchen.com/download/corp-governance/2025%20PCC%20Sustainability%20Report-CH.pdf",
+          "verified": "opened",
+          "note": "PDF 第 43 頁「罰款未達新臺幣壹佰萬元的違規案件」表：區域越南、違規類型環保，「同奈省環境廳到越南寶崧公司進行環境清查，檢出下列缺失：年度環保報告廢棄物數據錯誤、生產線抽風罩未依照環境證照內容執行、處理汙水與回收水與外排水量不符、外河水開採日誌數據與實際不符」，罰款越南盾 705,000,000（約新台幣 85 萬），後續改善「加強數據檢查核實及強化變更審核機制及例行巡檢」。報告書沒有寫處分日期與字號，金額與四項缺失和 255/QĐ-XPHC 一致。"
         }
       ],
       "addedAt": "2026-10-27",
@@ -860,6 +872,91 @@
       ],
       "companyCodes": [
         "9904"
+      ]
+    },
+    {
+      "id": "nanpao-resins-vietnam-dian-2025-no-environmental-permit-fine",
+      "title": "南寶越南廠未取得縣級環境許可證，罰款 6,500 萬越南盾",
+      "summary": "南寶 2025 年度年報「環保支出資訊」列出，子公司 Nan Pao Resins (Vietnam) Enterprise Ltd. 未依規定取得屬於縣級人民委員會核發權限之環境許可證，違反第 45/2022/NĐ-CP 號法令第 14 條第 5 款 a 點與第 118/2021/NĐ-CP 號法令第 9 條第 7 款 b 點，2025 年 6 月 12 日被處越南盾 6,500 萬元罰鍰（處分字號 240/QD-XPHC）；環境許可證已於 2025 年 6 月 24 日取得。南寶 2025 年報告書（永續報告書）也列了這筆，地區「越南」、據點「越南南寳」，處分日期寫 2025/03/14，並寫明已完成罰款繳納，將強化海外子公司環境許可證與申報資料的管理。年報與報告書都沒有寫處分機關；本次查詢沒有找到官方決定書。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2025-06-12",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "越南",
+          "plantSite": "Sóng Thần 2 工業區, Dĩ An（原平陽省，今胡志明市）, 越南",
+          "coordinates": {
+            "lat": 10.900361,
+            "lng": 106.764397,
+            "precision": "city",
+            "source": "https://www.openstreetmap.org/relation/8448992",
+            "note": "OSM Phường Dĩ An（relation 8448992）的中心點。南寶官網與財報的地址是 No. 10 Thong Nhat Avenue, Song Than II Industrial Park；OSM 沒有這家廠，而 OSM 標為 Sóng Thần 2 工業區的範圍（way 496910231）與同一條路上另一處以 Sóng Thần 2 為地址的倉庫（node 11546206751）位置不一致，無法確認廠在哪個範圍內，所以降到坊"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "Nan Pao Resins (Vietnam) Enterprise Ltd.（越南南寳）",
+          "country": "越南"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "南寶樹脂化學工廠（4766）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "南寶樹脂 2025 年度年報",
+          "date": "2026-05-08",
+          "url": "https://www.nanpao.com.tw/img/investor/1150508-%E5%8D%97%E5%AF%B6%E4%B8%AD%E6%96%87%E5%B9%B4%E5%A0%B1.pdf",
+          "archiveUrl": "https://web.archive.org/web/20260609111546id_/https://www.nanpao.com.tw/img/investor/1150508-%E5%8D%97%E5%AF%B6%E4%B8%AD%E6%96%87%E5%B9%B4%E5%A0%B1.pdf",
+          "verified": "opened",
+          "note": "PDF 第 109 頁（印刷頁 105）「四、環保支出資訊」表：處分對象 Nan Pao Resins (Vietnam) Enterprise Ltd.；處分日期 2025年6月12日；處分字號 240/QD-XPHC；違反法規條文 第45/2022/ND-CP號法令第14條第5款a點、第118/2021/ND-CP號法令第9條第7款b點；違反法規內容「未依規定取得屬於縣級人民委員會核發權限之環境許可證」；處分內容「越盾6仟5百萬元罰鍰(約新台幣7.8萬元)」；因應措施「環境許可證已於2025/06/24取得」。表格的罰款金額欄寫 780（表頭單位新台幣仟元），與同表文字「約新台幣7.8萬元」不一致，本事件以越南盾金額為準。"
+        },
+        {
+          "kind": "company",
+          "outlet": "南寶樹脂化學工廠（4766）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "南寶樹脂 2025 報告書（永續報告書）",
+          "date": "2026-08-31",
+          "url": "https://www.nanpao.com.tw/img/CSR/Nan%20Pao_2025%20ESG%20Report%200831(final1.1).pdf",
+          "archiveUrl": "https://web.archive.org/web/20261028100547id_/https://www.nanpao.com.tw/img/CSR/Nan%20Pao_2025%20ESG%20Report%200831(final1.1).pdf",
+          "verified": "opened",
+          "note": "PDF 第 168 頁（印刷頁 167）「違規紀錄與合規管理」表：越南／環保／處分日期 2025/03/14／未取得環境許可證（已於 2025/06/24 取證）／越南盾 65,000,000／環境許可證已補辦完成。PDF 第 106 頁（印刷頁 105）：「2025 年，南寳樹脂集團新增 1 件環保法規裁罰事件，發生於越南南寳，主要係因環境許可證相關行政程序未完整取得，罰鍰金額為 6,500 萬越南盾」。處分日期與年報不同。"
+        }
+      ],
+      "addedAt": "2026-10-29",
+      "attribution": [
+        {
+          "companyCode": "4766",
+          "entity": "Nan Pao Resins (Vietnam) Enterprise Ltd.",
+          "kind": "listed",
+          "effectivePct": 100.0,
+          "controlSince": 2024,
+          "path": [
+            "南寶",
+            "Ongoing Profits Ltd.（南寶 32.18%，經 Nan Pao Overseas Holdings、Nan Pao Group Holdings 67.82%，合計 100%）",
+            "Rising Sun Associates Ltd.（100%）",
+            "Nan Pao Resins (Vietnam) Enterprise Ltd.（100%）"
+          ],
+          "basis": "南寶 2025 年度合併財報（英文）PDF p.33、p.82：Rising Sun Associates 持有 Nan Pao Resins (Vietnam) Enterprise Ltd. 100%（2025、2024 年底皆 100%），地址 10 Thong Nhat Boulevard, Song Than 2 Industrial Park；南寶 2025 年度年報 PDF p.87 綜合持股表：Ongoing Profits Ltd. 本公司 32.18% 加間接 67.82%，合計 100%。南寶官網據點頁（https://www.nanpao.com.tw/office.aspx?id=23）「越南南寳」即南寳樹脂越南有限公司，地址 Song Than II Industrial Park, Di An；報告書另列的越南大登、越南寧平、越南 NNV 分別是 Nan Pao Materials Vietnam、Nan Pao Advanced Materials Vietnam 與 Noroo-Nan Pao Paints & Coatings。controlSince 取事件前一年的合併財報（2024 年底已持有 100%）。",
+          "companyName": "南寶樹脂化學工廠股份有限公司",
+          "companyShort": "南寶",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "4766"
       ]
     },
     {
@@ -1831,7 +1928,7 @@
     {
       "id": "fengtay-dona-standard-xuanloc-2024-no-environmental-permit-fine",
       "title": "豐泰越南 Dona Standard 鞋廠三個廠區無環境許可運轉，同奈省處罰款",
-      "summary": "同奈省工業區管理委員會 2024 年 10 月查核豐泰子公司 Vietnam Dona Standard Footwear 位於春祿工業區的鞋廠，認定三個廠區在取得環保設施完工確認書前就正式運轉（以無環境許可證論處），也沒有申報比核准環評多裝的機器與粉塵、廢氣處理設施。同奈省人民委員會主席 2024 年 11 月 26 日處罰款：三個廠區各罰無環境許可 3 億、未申報設備 0.6 億越南盾，合計 10.8 億越南盾。決定書以公司主動申報並坦承違規、已自行申請環境許可證、當地沒有收到環境陳情為減輕情節，也因此不加處停止排放源；廠址符合工業區規劃，不要求遷廠。",
+      "summary": "同奈省工業區管理委員會 2024 年 10 月查核豐泰子公司 Vietnam Dona Standard Footwear 位於春祿工業區的鞋廠，認定三個廠區在取得環保設施完工確認書前就正式運轉（以無環境許可證論處），也沒有申報比核准環評多裝的機器與粉塵、廢氣處理設施。同奈省人民委員會主席 2024 年 11 月 26 日處罰款：三個廠區各罰無環境許可 3 億、未申報設備 0.6 億越南盾，合計 10.8 億越南盾。決定書以公司主動申報並坦承違規、已自行申請環境許可證、當地沒有收到環境陳情為減輕情節，也因此不加處停止排放源；廠址符合工業區規劃，不要求遷廠。豐泰 2024 永續報告書稱，工廠並未影響當地環境，只是缺乏行政報告程序。",
       "type": "enforcement",
       "status": "penalized",
       "dateStart": "2024-11-26",
@@ -1874,6 +1971,18 @@
           "archiveUrl": "https://web.archive.org/web/20261027025206/https://dongnai.gov.vn/uploads/binhphuoc/news/2024/12/2024-qd-3573.pdf",
           "verified": "opened",
           "note": "同奈省人民委員會電子簽章的決定書副本（簽章時間 2024-11-26），號碼與日期為手寫，經影像核對（OCR 誤讀為 2572，公告標題為 3573）。受罰：Công ty TNHH Giày Dona Standard Việt Nam，稅號 3600834796，春祿工業區。依工業區管理委員會 2024-10-29 違規筆錄 15/BB-VPHC。廠區 1、2、4 各兩項：未取得環保設施完工確認書就正式運轉，以無環境許可證論處（第 45/2022/NĐ-CP 第 14 條第 3 項 c 點，3 億越南盾）；未申報比核准環評（22/QĐ-KCNĐN 2021-01-21、118/QĐ-KCNĐN 2019-05-17、93/QĐ-KCNĐN 2019-04-16）多裝的機器與粉塵、廢氣處理設施（第 10 條第 1 項 d 點，0.6 億越南盾）。每區 3.6 億，合計 10.8 億越南盾。減輕情節：主動申報、坦承違規；已依 2020 年環保法申請環境許可證，並把變更內容納入申請；當地沒有收到環境陳情。同樣理由不加處停止排放源；廠址符合工業區規劃，不要求遷廠。公告頁：https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-doi-voi-cong-ty-tnhh-giay-dona-standard-viet-nam-49301.html（封存 https://web.archive.org/web/20261027025231/https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-doi-voi-cong-ty-tnhh-giay-dona-standard-viet-nam-49301.html）。"
+        },
+        {
+          "kind": "company",
+          "outlet": "豐泰企業（9910）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "豐泰企業 2024 永續報告書",
+          "date": "2025",
+          "url": "https://www.fengtay.com/uploads/images/csr/report/2024ESGreport_cn.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261028100031id_/https://www.fengtay.com/uploads/images/csr/report/2024ESGreport_cn.pdf",
+          "verified": "opened",
+          "note": "PDF 第 40 頁（印刷頁 39）：處分日期 2024 年 11 月 26 日；違反法規 越南地區《環境保護法》第 72／2020 號規定；事由：工廠收到同奈省人民委員會環境行政違規處罰決定，工廠尚未在正式運營前取得環境保護項目完成確認書、未正確或未完整執行環評批准決定中的要求（增加機台設備與粉塵、廢氣處理工程）；處分內容：「因工廠並無影響當地的環境，僅缺乏行政報告程序，故最後裁罰10.8億越南盾（約4.2萬美元）」；因應措施：每月更新報告機台設備與粉塵、廢氣處理工程，若有變動向同奈省工業區管理局報告。報告書沒有寫廠名與決定書字號，日期、金額、事由與 3573/QĐ-XPHC 一致。"
         }
       ],
       "addedAt": "2026-10-27",
@@ -2486,6 +2595,93 @@
       ]
     },
     {
+      "id": "fenc-yadong-suzhou-2024-08-air-emission-exceedance-fine",
+      "title": "亞東工業（蘇州）廢氣排放及檢測超出標準，8 月處分（同年兩案合計罰款人民幣 33.2 萬元）",
+      "summary": "遠東新 113 年度（2024）年報「環保支出資訊」列出，亞東工業（蘇州）有限公司廢氣排放及檢測超出標準，違反排污許可管理條例，於 2024 年 5 月 20 日及 8 月 20 日共裁罰人民幣 33.2 萬元（蘇環責改字06[2024]5號及6號）；年報沒有分別列出兩案金額。因應措施為增設廢氣處理設備、減少廢氣排放量、更新排污許可證，並依許可證進行廢氣檢測、加強教育訓練。遠東新 2024 年永續報告書寫「廢氣排放及檢測未符合標準共 2 案」，罰鍰以新台幣列示約 145 萬元。本事件是 8 月 20 日那一案，5 月 20 日那一案另列一個事件。年報與報告書都沒有寫處分機關；本次查詢沒有找到官方文件。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2024-08-20",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "蘇州吳中經濟開發區河東工業園（郭巷街道）, 江蘇蘇州, 中國大陸",
+          "coordinates": {
+            "note": "OSM 郭巷街道（relation 7760655）的中心點。年報地址是蘇州吳中經濟開發區河東工業園尹中南路 1588 號（與遠紡織染（蘇州）同址）；OSM 沒有這家廠、門牌與河東工業園範圍，OSM 的尹中南路在郭巷街道內",
+            "lat": 31.2405,
+            "lng": 120.693337,
+            "precision": "city",
+            "source": "https://www.openstreetmap.org/relation/7760655"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "亞東工業（蘇州）有限公司",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [
+          "fenc-yadong-suzhou-2024-05-air-emission-exceedance-fine"
+        ],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "遠東新世紀（1402）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "遠東新世紀 113 年度年報",
+          "date": "2025",
+          "url": "https://www.fenc.com/upload/ir/FENC_AR_2024_TW.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261028101514id_/https://www.fenc.com/upload/ir/FENC_AR_2024_TW.pdf",
+          "verified": "opened",
+          "note": "PDF 第 82 頁（印刷頁 78）「四、環保支出資訊」：亞東工業(蘇州)有限公司廢氣排放及檢測超出標準，違反排汙許可管理條例，於 113 年 5 月 20 日及 113 年 8 月 20 日共裁罰人民幣 33.2 萬元（蘇環責改字06[2024]5號及6號）。"
+        },
+        {
+          "kind": "company",
+          "outlet": "遠東新世紀（1402）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "遠東新世紀 2024 永續報告書",
+          "date": "2025",
+          "url": "https://esg.fenc.com/upload/csr/FENC_2024_Sustainability_Report_CH.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261028100346id_/https://esg.fenc.com/upload/csr/FENC_2024_Sustainability_Report_CH.pdf",
+          "verified": "opened",
+          "note": "PDF 第 47 頁「近二年重大違規事項統計」（單一事件罰鍰累計達新台幣 100 萬元以上）：2024 年亞東工業（蘇州），缺失「廢氣排放及檢測未符合標準共 2 案」，罰鍰（新台幣）145 萬元，改善方案增設廢氣處理設備、申請增加廢氣排放量並更新排污許可證、依許可證進行廢氣檢測並加強教育訓練。"
+        }
+      ],
+      "addedAt": "2026-10-29",
+      "attribution": [
+        {
+          "companyCode": "1402",
+          "entity": "亞東工業（蘇州）有限公司",
+          "kind": "listed",
+          "effectivePct": 99.4,
+          "controlSince": 2023,
+          "path": [
+            "遠東新",
+            "遠鼎投資(股)公司（99.40%）",
+            "Oriental Textile (Holding) Ltd.（100%）",
+            "亞東工業（蘇州）有限公司（100%）"
+          ],
+          "basis": "遠東新 112 年度年報 PDF p.407 關係企業基本資料：亞東工業(蘇州)有限公司，2005/6/24 設立，工程用特種紡織品製造；p.412 由亞東紡纖(控股)公司 83.84%、遠東服裝(控股)公司 16.16% 持有；p.394 遠東新持有遠鼎投資(股)公司 99.40%（111 年度年報）。MOPS 114 年第 2 季（2025Q2）：遠鼎投資 → Oriental Textile (Holding) Ltd. 100% → 亞東工業（蘇州）100%。controlSince 取事件前一年的年報。",
+          "companyName": "遠東新世紀股份有限公司",
+          "companyShort": "遠東新",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "1402"
+      ]
+    },
+    {
       "id": "formosa-point-comfort-2024-unreported-emissions-judgment",
       "title": "台塑美國德州廠9起排放事件未及時通報，與德州州政府和解罰款475,000美元",
       "summary": "德州總檢察長辦公室於 2024 年 7 月 19 日在《德州公報》（Texas Register）刊登和解通知：州政府在 Travis 郡第 459 地方法院控告 Formosa Plastics Corporation, Texas（案號 D-1-GN-21-007088），指 Point Comfort 廠 2019 年 6 月至 2021 年 9 月間發生 9 起排放事件（含維修、開停車作業），排放空氣污染物且未及時通報德州環境品質委員會（TCEQ），違反德州空氣清淨法及州、聯邦許可。雙方擬議的合意判決暨永久禁制令（Agreed Final Judgment and Permanent Injunction）要求公司找出程序缺失並採取矯正措施，確保及時通報 TCEQ，另判給州政府民事罰款 475,000 美元與律師費 75,000 美元，並開放 30 天書面意見。EPA 的 ECHO 執法資料庫記載本案於 2021 年 9 月 16 日移送州總檢察長、2024 年 8 月 21 日登錄最終命令（Final Order Entered），州罰款 475,000 美元。",
@@ -2572,6 +2768,93 @@
       ],
       "companyCodes": [
         "1301"
+      ]
+    },
+    {
+      "id": "fenc-yadong-suzhou-2024-05-air-emission-exceedance-fine",
+      "title": "亞東工業（蘇州）廢氣排放及檢測超出標準，5 月處分（同年兩案合計罰款人民幣 33.2 萬元）",
+      "summary": "遠東新 113 年度（2024）年報「環保支出資訊」列出，亞東工業（蘇州）有限公司廢氣排放及檢測超出標準，違反排污許可管理條例，於 2024 年 5 月 20 日及 8 月 20 日共裁罰人民幣 33.2 萬元（蘇環責改字06[2024]5號及6號）；年報沒有分別列出兩案金額。因應措施為增設廢氣處理設備、減少廢氣排放量、更新排污許可證，並依許可證進行廢氣檢測、加強教育訓練。遠東新 2024 年永續報告書寫「廢氣排放及檢測未符合標準共 2 案」，罰鍰以新台幣列示約 145 萬元。本事件是 5 月 20 日那一案，8 月 20 日那一案另列一個事件。年報與報告書都沒有寫處分機關；本次查詢沒有找到官方文件。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2024-05-20",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "蘇州吳中經濟開發區河東工業園（郭巷街道）, 江蘇蘇州, 中國大陸",
+          "coordinates": {
+            "note": "OSM 郭巷街道（relation 7760655）的中心點。年報地址是蘇州吳中經濟開發區河東工業園尹中南路 1588 號（與遠紡織染（蘇州）同址）；OSM 沒有這家廠、門牌與河東工業園範圍，OSM 的尹中南路在郭巷街道內",
+            "lat": 31.2405,
+            "lng": 120.693337,
+            "precision": "city",
+            "source": "https://www.openstreetmap.org/relation/7760655"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "亞東工業（蘇州）有限公司",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [
+          "fenc-yadong-suzhou-2024-08-air-emission-exceedance-fine"
+        ],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "遠東新世紀（1402）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "遠東新世紀 113 年度年報",
+          "date": "2025",
+          "url": "https://www.fenc.com/upload/ir/FENC_AR_2024_TW.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261028101514id_/https://www.fenc.com/upload/ir/FENC_AR_2024_TW.pdf",
+          "verified": "opened",
+          "note": "PDF 第 82 頁（印刷頁 78）「四、環保支出資訊」：亞東工業(蘇州)有限公司廢氣排放及檢測超出標準，違反排汙許可管理條例，於 113 年 5 月 20 日及 113 年 8 月 20 日共裁罰人民幣 33.2 萬元（蘇環責改字06[2024]5號及6號）。"
+        },
+        {
+          "kind": "company",
+          "outlet": "遠東新世紀（1402）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "遠東新世紀 2024 永續報告書",
+          "date": "2025",
+          "url": "https://esg.fenc.com/upload/csr/FENC_2024_Sustainability_Report_CH.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261028100346id_/https://esg.fenc.com/upload/csr/FENC_2024_Sustainability_Report_CH.pdf",
+          "verified": "opened",
+          "note": "PDF 第 47 頁「近二年重大違規事項統計」（單一事件罰鍰累計達新台幣 100 萬元以上）：2024 年亞東工業（蘇州），缺失「廢氣排放及檢測未符合標準共 2 案」，罰鍰（新台幣）145 萬元，改善方案增設廢氣處理設備、申請增加廢氣排放量並更新排污許可證、依許可證進行廢氣檢測並加強教育訓練。"
+        }
+      ],
+      "addedAt": "2026-10-29",
+      "attribution": [
+        {
+          "companyCode": "1402",
+          "entity": "亞東工業（蘇州）有限公司",
+          "kind": "listed",
+          "effectivePct": 99.4,
+          "controlSince": 2023,
+          "path": [
+            "遠東新",
+            "遠鼎投資(股)公司（99.40%）",
+            "Oriental Textile (Holding) Ltd.（100%）",
+            "亞東工業（蘇州）有限公司（100%）"
+          ],
+          "basis": "遠東新 112 年度年報 PDF p.407 關係企業基本資料：亞東工業(蘇州)有限公司，2005/6/24 設立，工程用特種紡織品製造；p.412 由亞東紡纖(控股)公司 83.84%、遠東服裝(控股)公司 16.16% 持有；p.394 遠東新持有遠鼎投資(股)公司 99.40%（111 年度年報）。MOPS 114 年第 2 季（2025Q2）：遠鼎投資 → Oriental Textile (Holding) Ltd. 100% → 亞東工業（蘇州）100%。controlSince 取事件前一年的年報。",
+          "companyName": "遠東新世紀股份有限公司",
+          "companyShort": "遠東新",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "1402"
       ]
     },
     {
@@ -3486,6 +3769,375 @@
       ]
     },
     {
+      "id": "cst-xiamen-2024-outlets-not-match-permit-fine",
+      "title": "廈門正新廢氣排放口實際數量與排污許可證規定不符，罰款人民幣 135,563 元",
+      "summary": "正新 2024 年永續報告書「2024年台灣與大陸地區環保法規違反情形」表列出，廈門正新（廈門正新橡膠工業有限公司）違反《排汙授權管理條例》，事由「廢氣排放口實際數量與排汙許可證規定不相符」，罰款人民幣 135,563 元；改善作法為「變更排汙許可證」。報告書沒有寫處分日期、處分機關與字號，所以日期只到年。正新年報的「環保支出資訊」只涵蓋台灣本公司，沒有這筆；廈門市生態環境局與集美區局公開的處罰資料中也沒有找到。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2024",
+      "dateEnd": null,
+      "datePrecision": "year",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "廈門市集美區杏林西濱路（杏濱街道）, 福建廈門, 中國大陸",
+          "coordinates": {
+            "lat": 24.577376,
+            "lng": 118.019235,
+            "precision": "city",
+            "source": "https://www.openstreetmap.org/relation/17667631",
+            "note": "OSM 杏滨街道（relation 17667631）的中心點。年報地址是廈門市集美區杏林西濱路 15 號；OSM 沒有這家廠與門牌，OSM 的集美區西滨路（way 606392814 等）在杏滨街道內"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "廈門正新橡膠工業有限公司（廈門正新）",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "正新橡膠工業（2105）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "正新 2024 永續報告書（2024 CST ESG）",
+          "date": "2025-08",
+          "url": "https://www.cst.com.tw/upload/edm/2508271016290000002.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261028100744id_/https://www.cst.com.tw/upload/edm/2508271016290000002.pdf",
+          "verified": "opened",
+          "note": "PDF 第 80 頁（印刷頁 79）「2024年台灣與大陸地區環保法規違反情形」表（地區欄只有廈門正新 5 列）；內文「2024年大陸地區正新仍有五件違反環保法規」；表註「除廈門正新外，其他台灣與海外廠區皆無發生環保法違反情形」。 本列：地區 廈門正新／違反法規 《排汙授權管理條例》／違反事由 廢氣排放口實際數量與排汙許可證規定不相符／罰款 人民幣135,563元／改善作法 變更排汙許可證。"
+        }
+      ],
+      "addedAt": "2026-10-29",
+      "attribution": [
+        {
+          "companyCode": "2105",
+          "entity": "廈門正新橡膠工業有限公司",
+          "kind": "listed",
+          "effectivePct": 100.0,
+          "controlSince": 2022,
+          "path": [
+            "正新",
+            "MAXXIS International Co., Ltd.（100%）",
+            "MAXXIS International (HK) Ltd.（100%）",
+            "廈門正新橡膠工業有限公司（100%）"
+          ],
+          "basis": "正新 113 年股東會年報（FY2023，https://www.cst.com.tw/upload/year_report/2405091339300000001.pdf）PDF p.130 子公司表：MAXXIS International (HK) Ltd. 持有廈門正新橡膠工業有限公司 100%（112、111 年底）；p.291 關係企業基本資料：1989.05.26 設立，廈門市集美區杏林西濱路 15 號；p.294 持股 100%。112 年股東會年報（FY2022）p.121、p.281、p.284 同列。MOPS 114 年第 2 季（2025Q2）路徑相同。年報 p.11–13 沿革以「廈門正新」稱這家公司，與「廈門正新海燕」「廈門正新實業」分開；永續報告書全球生產基地也分列廈門正新、廈門海燕、正新實業。controlSince 取事件前一年的年報。",
+          "companyName": "正新橡膠工業股份有限公司",
+          "companyShort": "正新",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "2105"
+      ]
+    },
+    {
+      "id": "cst-xiamen-2024-air-emission-exceedance-fine",
+      "title": "廈門正新超過大氣污染物排放標準，罰款人民幣 555,458 元",
+      "summary": "正新 2024 年永續報告書「2024年台灣與大陸地區環保法規違反情形」表列出，廈門正新（廈門正新橡膠工業有限公司）違反《中華人民共和國大氣污染防治法》，事由「超過大氣污染物排放標準」，罰款人民幣 555,458 元；改善作法為「廢氣併入硫化廢氣治理設備，變更排汙許可證，將1台擠出機列入排汙許可證」。報告書沒有寫處分日期、處分機關與字號，所以日期只到年。正新年報的「環保支出資訊」只涵蓋台灣本公司，沒有這筆；廈門市生態環境局與集美區局公開的處罰資料中也沒有找到。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2024",
+      "dateEnd": null,
+      "datePrecision": "year",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "廈門市集美區杏林西濱路（杏濱街道）, 福建廈門, 中國大陸",
+          "coordinates": {
+            "lat": 24.577376,
+            "lng": 118.019235,
+            "precision": "city",
+            "source": "https://www.openstreetmap.org/relation/17667631",
+            "note": "OSM 杏滨街道（relation 17667631）的中心點。年報地址是廈門市集美區杏林西濱路 15 號；OSM 沒有這家廠與門牌，OSM 的集美區西滨路（way 606392814 等）在杏滨街道內"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "廈門正新橡膠工業有限公司（廈門正新）",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "正新橡膠工業（2105）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "正新 2024 永續報告書（2024 CST ESG）",
+          "date": "2025-08",
+          "url": "https://www.cst.com.tw/upload/edm/2508271016290000002.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261028100744id_/https://www.cst.com.tw/upload/edm/2508271016290000002.pdf",
+          "verified": "opened",
+          "note": "PDF 第 80 頁（印刷頁 79）「2024年台灣與大陸地區環保法規違反情形」表（地區欄只有廈門正新 5 列）；內文「2024年大陸地區正新仍有五件違反環保法規」；表註「除廈門正新外，其他台灣與海外廠區皆無發生環保法違反情形」。 本列：地區 廈門正新／違反法規 《中華人民共和國大氣污染防治法》／違反事由 超過大氣污染物排放標準／罰款 人民幣555,458元／改善作法 廢氣併入硫化廢氣治理設備，變更排汙許可證，將1台擠出機列入排汙許可證。"
+        }
+      ],
+      "addedAt": "2026-10-29",
+      "attribution": [
+        {
+          "companyCode": "2105",
+          "entity": "廈門正新橡膠工業有限公司",
+          "kind": "listed",
+          "effectivePct": 100.0,
+          "controlSince": 2022,
+          "path": [
+            "正新",
+            "MAXXIS International Co., Ltd.（100%）",
+            "MAXXIS International (HK) Ltd.（100%）",
+            "廈門正新橡膠工業有限公司（100%）"
+          ],
+          "basis": "正新 113 年股東會年報（FY2023，https://www.cst.com.tw/upload/year_report/2405091339300000001.pdf）PDF p.130 子公司表：MAXXIS International (HK) Ltd. 持有廈門正新橡膠工業有限公司 100%（112、111 年底）；p.291 關係企業基本資料：1989.05.26 設立，廈門市集美區杏林西濱路 15 號；p.294 持股 100%。112 年股東會年報（FY2022）p.121、p.281、p.284 同列。MOPS 114 年第 2 季（2025Q2）路徑相同。年報 p.11–13 沿革以「廈門正新」稱這家公司，與「廈門正新海燕」「廈門正新實業」分開；永續報告書全球生產基地也分列廈門正新、廈門海燕、正新實業。controlSince 取事件前一年的年報。",
+          "companyName": "正新橡膠工業股份有限公司",
+          "companyShort": "正新",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "2105"
+      ]
+    },
+    {
+      "id": "cst-xiamen-2024-calender-door-open-fine",
+      "title": "廈門正新 102 壓延車間 3B 工序作業間門未關閉，罰款人民幣 140,625 元",
+      "summary": "正新 2024 年永續報告書「2024年台灣與大陸地區環保法規違反情形」表列出，廈門正新（廈門正新橡膠工業有限公司）違反《排汙授權管理條例》，事由「查102壓延車間3B工序作業間門未關閉」，罰款人民幣 140,625 元；改善作法為「與線上檢測協力廠商與確認參數，並於省生態環境廳平臺進行報備」。這筆的事由與 2023 年報告書所列的一筆相同，金額不同。報告書沒有寫處分日期、處分機關與字號，所以日期只到年。正新年報的「環保支出資訊」只涵蓋台灣本公司，沒有這筆；廈門市生態環境局與集美區局公開的處罰資料中也沒有找到。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2024",
+      "dateEnd": null,
+      "datePrecision": "year",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "廈門市集美區杏林西濱路（杏濱街道）, 福建廈門, 中國大陸",
+          "coordinates": {
+            "lat": 24.577376,
+            "lng": 118.019235,
+            "precision": "city",
+            "source": "https://www.openstreetmap.org/relation/17667631",
+            "note": "OSM 杏滨街道（relation 17667631）的中心點。年報地址是廈門市集美區杏林西濱路 15 號；OSM 沒有這家廠與門牌，OSM 的集美區西滨路（way 606392814 等）在杏滨街道內"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "廈門正新橡膠工業有限公司（廈門正新）",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [
+          "cst-xiamen-2023-calender-door-open-fine"
+        ],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "正新橡膠工業（2105）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "正新 2024 永續報告書（2024 CST ESG）",
+          "date": "2025-08",
+          "url": "https://www.cst.com.tw/upload/edm/2508271016290000002.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261028100744id_/https://www.cst.com.tw/upload/edm/2508271016290000002.pdf",
+          "verified": "opened",
+          "note": "PDF 第 80 頁（印刷頁 79）「2024年台灣與大陸地區環保法規違反情形」表（地區欄只有廈門正新 5 列）；內文「2024年大陸地區正新仍有五件違反環保法規」；表註「除廈門正新外，其他台灣與海外廠區皆無發生環保法違反情形」。 本列：地區 廈門正新／違反法規 《排汙授權管理條例》／違反事由 查102壓延車間3B工序作業間門未關閉／罰款 人民幣140,625元／改善作法 與線上檢測協力廠商與確認參數，並於省生態環境廳平臺進行報備。本列依報告書原文，事由與改善作法照列（已對照頁面影像，同一列）。"
+        }
+      ],
+      "addedAt": "2026-10-29",
+      "attribution": [
+        {
+          "companyCode": "2105",
+          "entity": "廈門正新橡膠工業有限公司",
+          "kind": "listed",
+          "effectivePct": 100.0,
+          "controlSince": 2022,
+          "path": [
+            "正新",
+            "MAXXIS International Co., Ltd.（100%）",
+            "MAXXIS International (HK) Ltd.（100%）",
+            "廈門正新橡膠工業有限公司（100%）"
+          ],
+          "basis": "正新 113 年股東會年報（FY2023，https://www.cst.com.tw/upload/year_report/2405091339300000001.pdf）PDF p.130 子公司表：MAXXIS International (HK) Ltd. 持有廈門正新橡膠工業有限公司 100%（112、111 年底）；p.291 關係企業基本資料：1989.05.26 設立，廈門市集美區杏林西濱路 15 號；p.294 持股 100%。112 年股東會年報（FY2022）p.121、p.281、p.284 同列。MOPS 114 年第 2 季（2025Q2）路徑相同。年報 p.11–13 沿革以「廈門正新」稱這家公司，與「廈門正新海燕」「廈門正新實業」分開；永續報告書全球生產基地也分列廈門正新、廈門海燕、正新實業。controlSince 取事件前一年的年報。",
+          "companyName": "正新橡膠工業股份有限公司",
+          "companyShort": "正新",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "2105"
+      ]
+    },
+    {
+      "id": "cst-xiamen-2024-stack-height-fine",
+      "title": "廈門正新 101A 混煉廢氣排氣筒高度不符法規要求，罰款人民幣 127,607 元",
+      "summary": "正新 2024 年永續報告書「2024年台灣與大陸地區環保法規違反情形」表列出，廈門正新（廈門正新橡膠工業有限公司）違反《中華人民共和國大氣污染防治法》，事由「101A混煉廢氣排氣筒高度不符法規要求」，罰款人民幣 127,607 元；改善作法為「排氣筒改造」。這筆的事由與 2023 年報告書所列的一筆相同，金額不同。報告書沒有寫處分日期、處分機關與字號，所以日期只到年。正新年報的「環保支出資訊」只涵蓋台灣本公司，沒有這筆；廈門市生態環境局與集美區局公開的處罰資料中也沒有找到。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2024",
+      "dateEnd": null,
+      "datePrecision": "year",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "廈門市集美區杏林西濱路（杏濱街道）, 福建廈門, 中國大陸",
+          "coordinates": {
+            "lat": 24.577376,
+            "lng": 118.019235,
+            "precision": "city",
+            "source": "https://www.openstreetmap.org/relation/17667631",
+            "note": "OSM 杏滨街道（relation 17667631）的中心點。年報地址是廈門市集美區杏林西濱路 15 號；OSM 沒有這家廠與門牌，OSM 的集美區西滨路（way 606392814 等）在杏滨街道內"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "廈門正新橡膠工業有限公司（廈門正新）",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [
+          "cst-xiamen-2023-stack-height-fine"
+        ],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "正新橡膠工業（2105）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "正新 2024 永續報告書（2024 CST ESG）",
+          "date": "2025-08",
+          "url": "https://www.cst.com.tw/upload/edm/2508271016290000002.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261028100744id_/https://www.cst.com.tw/upload/edm/2508271016290000002.pdf",
+          "verified": "opened",
+          "note": "PDF 第 80 頁（印刷頁 79）「2024年台灣與大陸地區環保法規違反情形」表（地區欄只有廈門正新 5 列）；內文「2024年大陸地區正新仍有五件違反環保法規」；表註「除廈門正新外，其他台灣與海外廠區皆無發生環保法違反情形」。 本列：地區 廈門正新／違反法規 《中華人民共和國大氣污染防治法》／違反事由 101A混煉廢氣排氣筒高度不符法規要求／罰款 人民幣127,607元／改善作法 排氣筒改造。"
+        }
+      ],
+      "addedAt": "2026-10-29",
+      "attribution": [
+        {
+          "companyCode": "2105",
+          "entity": "廈門正新橡膠工業有限公司",
+          "kind": "listed",
+          "effectivePct": 100.0,
+          "controlSince": 2022,
+          "path": [
+            "正新",
+            "MAXXIS International Co., Ltd.（100%）",
+            "MAXXIS International (HK) Ltd.（100%）",
+            "廈門正新橡膠工業有限公司（100%）"
+          ],
+          "basis": "正新 113 年股東會年報（FY2023，https://www.cst.com.tw/upload/year_report/2405091339300000001.pdf）PDF p.130 子公司表：MAXXIS International (HK) Ltd. 持有廈門正新橡膠工業有限公司 100%（112、111 年底）；p.291 關係企業基本資料：1989.05.26 設立，廈門市集美區杏林西濱路 15 號；p.294 持股 100%。112 年股東會年報（FY2022）p.121、p.281、p.284 同列。MOPS 114 年第 2 季（2025Q2）路徑相同。年報 p.11–13 沿革以「廈門正新」稱這家公司，與「廈門正新海燕」「廈門正新實業」分開；永續報告書全球生產基地也分列廈門正新、廈門海燕、正新實業。controlSince 取事件前一年的年報。",
+          "companyName": "正新橡膠工業股份有限公司",
+          "companyShort": "正新",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "2105"
+      ]
+    },
+    {
+      "id": "cst-xiamen-2024-cems-not-reaccepted-fine",
+      "title": "廈門正新更換非甲烷總烴自動監測設備後未重新驗收，罰款人民幣 158,346 元",
+      "summary": "正新 2024 年永續報告書「2024年台灣與大陸地區環保法規違反情形」表列出，廈門正新（廈門正新橡膠工業有限公司）違反《福建省固定污染源自動監控管理辦法》，事由「更換非甲烷總烴自動監測設備後未超期重新驗收」，罰款人民幣 158,346 元；改善作法為「立即開展驗收工作並將工作計畫向廈門市集美生態環境局報告」。報告書沒有寫處分日期、處分機關與字號，所以日期只到年。正新年報的「環保支出資訊」只涵蓋台灣本公司，沒有這筆；廈門市生態環境局與集美區局公開的處罰資料中也沒有找到。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2024",
+      "dateEnd": null,
+      "datePrecision": "year",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "廈門市集美區杏林西濱路（杏濱街道）, 福建廈門, 中國大陸",
+          "coordinates": {
+            "lat": 24.577376,
+            "lng": 118.019235,
+            "precision": "city",
+            "source": "https://www.openstreetmap.org/relation/17667631",
+            "note": "OSM 杏滨街道（relation 17667631）的中心點。年報地址是廈門市集美區杏林西濱路 15 號；OSM 沒有這家廠與門牌，OSM 的集美區西滨路（way 606392814 等）在杏滨街道內"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "廈門正新橡膠工業有限公司（廈門正新）",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "正新橡膠工業（2105）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "正新 2024 永續報告書（2024 CST ESG）",
+          "date": "2025-08",
+          "url": "https://www.cst.com.tw/upload/edm/2508271016290000002.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261028100744id_/https://www.cst.com.tw/upload/edm/2508271016290000002.pdf",
+          "verified": "opened",
+          "note": "PDF 第 80 頁（印刷頁 79）「2024年台灣與大陸地區環保法規違反情形」表（地區欄只有廈門正新 5 列）；內文「2024年大陸地區正新仍有五件違反環保法規」；表註「除廈門正新外，其他台灣與海外廠區皆無發生環保法違反情形」。 本列：地區 廈門正新／違反法規 《福建省固定污染源自動監控管理辦法》／違反事由 更換非甲烷總烴自動監測設備後未超期重新驗收／罰款 人民幣158,346元／改善作法 立即開展驗收工作並將工作計畫向廈門市集美生態環境局報告。"
+        }
+      ],
+      "addedAt": "2026-10-29",
+      "attribution": [
+        {
+          "companyCode": "2105",
+          "entity": "廈門正新橡膠工業有限公司",
+          "kind": "listed",
+          "effectivePct": 100.0,
+          "controlSince": 2022,
+          "path": [
+            "正新",
+            "MAXXIS International Co., Ltd.（100%）",
+            "MAXXIS International (HK) Ltd.（100%）",
+            "廈門正新橡膠工業有限公司（100%）"
+          ],
+          "basis": "正新 113 年股東會年報（FY2023，https://www.cst.com.tw/upload/year_report/2405091339300000001.pdf）PDF p.130 子公司表：MAXXIS International (HK) Ltd. 持有廈門正新橡膠工業有限公司 100%（112、111 年底）；p.291 關係企業基本資料：1989.05.26 設立，廈門市集美區杏林西濱路 15 號；p.294 持股 100%。112 年股東會年報（FY2022）p.121、p.281、p.284 同列。MOPS 114 年第 2 季（2025Q2）路徑相同。年報 p.11–13 沿革以「廈門正新」稱這家公司，與「廈門正新海燕」「廈門正新實業」分開；永續報告書全球生產基地也分列廈門正新、廈門海燕、正新實業。controlSince 取事件前一年的年報。",
+          "companyName": "正新橡膠工業股份有限公司",
+          "companyShort": "正新",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "2105"
+      ]
+    },
+    {
       "id": "syncmold-gatech-taicang-2023-wastewater-exceedance-fine",
       "title": "信錦敬得蘇州廠廢水超標排放，太倉生態環境局處罰款",
       "summary": "太倉生態環境局 2023 年 11 月公示，信錦經敬得科技（75.94%）間接持有的敬得（蘇州）科技有限公司（鋁鎂合金壓鑄）廢水超標排放，依《排污許可管理條例》第三十四條第一項（超過許可排放濃度、許可排放量排放污染物），2023 年 10 月 23 日被責令立即停止違法行為，並處罰款人民幣 20 萬元（苏环行罚字85〔2023〕67号）。公示沒有列出超標的項目與數值。",
@@ -4262,6 +4914,302 @@
       ]
     },
     {
+      "id": "cst-xiamen-2023-stacks-not-in-permit-fine",
+      "title": "廈門正新 12 個排氣筒未列入排污許可證，罰款人民幣 30,125 元",
+      "summary": "正新 2023 年永續報告書「2023年台灣與大陸地區環保法規違反情形」表列出，廈門正新（廈門正新橡膠工業有限公司）違反《排汙許可條例》第18條第二款，事由「查12個排氣筒未列入排汙許可證」，罰款人民幣 30,125 元；改善作法為「已完成排氣筒整改和排汙許可證修訂」。報告書沒有寫處分日期、處分機關與字號，所以日期只到年。正新年報的「環保支出資訊」只涵蓋台灣本公司，沒有這筆；廈門市生態環境局與集美區局公開的處罰資料中也沒有找到。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2023",
+      "dateEnd": null,
+      "datePrecision": "year",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "廈門市集美區杏林西濱路（杏濱街道）, 福建廈門, 中國大陸",
+          "coordinates": {
+            "lat": 24.577376,
+            "lng": 118.019235,
+            "precision": "city",
+            "source": "https://www.openstreetmap.org/relation/17667631",
+            "note": "OSM 杏滨街道（relation 17667631）的中心點。年報地址是廈門市集美區杏林西濱路 15 號；OSM 沒有這家廠與門牌，OSM 的集美區西滨路（way 606392814 等）在杏滨街道內"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "廈門正新橡膠工業有限公司（廈門正新）",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "正新橡膠工業（2105）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "正新 2023 永續報告書（2023 CST ESG）",
+          "date": "2024-08",
+          "url": "https://www.cst.com.tw/upload/edm/2408301626220000002.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261028100619id_/https://www.cst.com.tw/upload/edm/2408301626220000002.pdf",
+          "verified": "opened",
+          "note": "PDF 第 81 頁（印刷頁 80）「2023年台灣與大陸地區環保法規違反情形」表（台灣地區「無」，大陸地區廈門正新 4 列）；內文「2023年大陸地區正新仍有四件違反環保法規」。PDF 文字層字型損毀，以頁面影像核對。 本列：地區 廈門正新／違反法規 《排汙許可條例》第18條第二款／違反事由 查12個排氣筒未列入排汙許可證／罰款 人民幣30,125元／改善作法 已完成排氣筒整改和排汙許可證修訂。"
+        }
+      ],
+      "addedAt": "2026-10-29",
+      "attribution": [
+        {
+          "companyCode": "2105",
+          "entity": "廈門正新橡膠工業有限公司",
+          "kind": "listed",
+          "effectivePct": 100.0,
+          "controlSince": 2022,
+          "path": [
+            "正新",
+            "MAXXIS International Co., Ltd.（100%）",
+            "MAXXIS International (HK) Ltd.（100%）",
+            "廈門正新橡膠工業有限公司（100%）"
+          ],
+          "basis": "正新 113 年股東會年報（FY2023，https://www.cst.com.tw/upload/year_report/2405091339300000001.pdf）PDF p.130 子公司表：MAXXIS International (HK) Ltd. 持有廈門正新橡膠工業有限公司 100%（112、111 年底）；p.291 關係企業基本資料：1989.05.26 設立，廈門市集美區杏林西濱路 15 號；p.294 持股 100%。112 年股東會年報（FY2022）p.121、p.281、p.284 同列。MOPS 114 年第 2 季（2025Q2）路徑相同。年報 p.11–13 沿革以「廈門正新」稱這家公司，與「廈門正新海燕」「廈門正新實業」分開；永續報告書全球生產基地也分列廈門正新、廈門海燕、正新實業。controlSince 取事件前一年的年報。",
+          "companyName": "正新橡膠工業股份有限公司",
+          "companyShort": "正新",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "2105"
+      ]
+    },
+    {
+      "id": "cst-xiamen-2023-nmhc-exceedance-fine",
+      "title": "廈門正新 502 車間監測點非甲烷總烴平均濃度超標，罰款人民幣 123,435 元",
+      "summary": "正新 2023 年永續報告書「2023年台灣與大陸地區環保法規違反情形」表列出，廈門正新（廈門正新橡膠工業有限公司）違反《排汙許可條例》第18條，事由「502車間開煉機外1米監測點非甲烷總烴平均濃度超標」，罰款人民幣 123,435 元；改善作法為「已完成風管合併委外監測合格」。報告書沒有寫處分日期、處分機關與字號，所以日期只到年。正新年報的「環保支出資訊」只涵蓋台灣本公司，沒有這筆；廈門市生態環境局與集美區局公開的處罰資料中也沒有找到。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2023",
+      "dateEnd": null,
+      "datePrecision": "year",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "廈門市集美區杏林西濱路（杏濱街道）, 福建廈門, 中國大陸",
+          "coordinates": {
+            "lat": 24.577376,
+            "lng": 118.019235,
+            "precision": "city",
+            "source": "https://www.openstreetmap.org/relation/17667631",
+            "note": "OSM 杏滨街道（relation 17667631）的中心點。年報地址是廈門市集美區杏林西濱路 15 號；OSM 沒有這家廠與門牌，OSM 的集美區西滨路（way 606392814 等）在杏滨街道內"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "廈門正新橡膠工業有限公司（廈門正新）",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "正新橡膠工業（2105）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "正新 2023 永續報告書（2023 CST ESG）",
+          "date": "2024-08",
+          "url": "https://www.cst.com.tw/upload/edm/2408301626220000002.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261028100619id_/https://www.cst.com.tw/upload/edm/2408301626220000002.pdf",
+          "verified": "opened",
+          "note": "PDF 第 81 頁（印刷頁 80）「2023年台灣與大陸地區環保法規違反情形」表（台灣地區「無」，大陸地區廈門正新 4 列）；內文「2023年大陸地區正新仍有四件違反環保法規」。PDF 文字層字型損毀，以頁面影像核對。 本列：地區 廈門正新／違反法規 《排汙許可條例》第18條／違反事由 502車間開煉機外1米監測點非甲烷總烴平均濃度超標／罰款 人民幣123,435元／改善作法 已完成風管合併委外監測合格。"
+        }
+      ],
+      "addedAt": "2026-10-29",
+      "attribution": [
+        {
+          "companyCode": "2105",
+          "entity": "廈門正新橡膠工業有限公司",
+          "kind": "listed",
+          "effectivePct": 100.0,
+          "controlSince": 2022,
+          "path": [
+            "正新",
+            "MAXXIS International Co., Ltd.（100%）",
+            "MAXXIS International (HK) Ltd.（100%）",
+            "廈門正新橡膠工業有限公司（100%）"
+          ],
+          "basis": "正新 113 年股東會年報（FY2023，https://www.cst.com.tw/upload/year_report/2405091339300000001.pdf）PDF p.130 子公司表：MAXXIS International (HK) Ltd. 持有廈門正新橡膠工業有限公司 100%（112、111 年底）；p.291 關係企業基本資料：1989.05.26 設立，廈門市集美區杏林西濱路 15 號；p.294 持股 100%。112 年股東會年報（FY2022）p.121、p.281、p.284 同列。MOPS 114 年第 2 季（2025Q2）路徑相同。年報 p.11–13 沿革以「廈門正新」稱這家公司，與「廈門正新海燕」「廈門正新實業」分開；永續報告書全球生產基地也分列廈門正新、廈門海燕、正新實業。controlSince 取事件前一年的年報。",
+          "companyName": "正新橡膠工業股份有限公司",
+          "companyShort": "正新",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "2105"
+      ]
+    },
+    {
+      "id": "cst-xiamen-2023-calender-door-open-fine",
+      "title": "廈門正新 102 壓延車間 3B 工序作業間門未關閉，罰款人民幣 22,571 元",
+      "summary": "正新 2023 年永續報告書「2023年台灣與大陸地區環保法規違反情形」表列出，廈門正新（廈門正新橡膠工業有限公司）違反《大氣污染防治法》第45條，事由「查102壓延車間3B工序作業間門未關閉」，罰款人民幣 22,571 元；改善作法為「購買安裝自動關閉門，防止再發」。2024 年報告書另列一筆事由相同、金額不同的罰款，見另一事件。報告書沒有寫處分日期、處分機關與字號，所以日期只到年。正新年報的「環保支出資訊」只涵蓋台灣本公司，沒有這筆；廈門市生態環境局與集美區局公開的處罰資料中也沒有找到。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2023",
+      "dateEnd": null,
+      "datePrecision": "year",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "廈門市集美區杏林西濱路（杏濱街道）, 福建廈門, 中國大陸",
+          "coordinates": {
+            "lat": 24.577376,
+            "lng": 118.019235,
+            "precision": "city",
+            "source": "https://www.openstreetmap.org/relation/17667631",
+            "note": "OSM 杏滨街道（relation 17667631）的中心點。年報地址是廈門市集美區杏林西濱路 15 號；OSM 沒有這家廠與門牌，OSM 的集美區西滨路（way 606392814 等）在杏滨街道內"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "廈門正新橡膠工業有限公司（廈門正新）",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [
+          "cst-xiamen-2024-calender-door-open-fine"
+        ],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "正新橡膠工業（2105）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "正新 2023 永續報告書（2023 CST ESG）",
+          "date": "2024-08",
+          "url": "https://www.cst.com.tw/upload/edm/2408301626220000002.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261028100619id_/https://www.cst.com.tw/upload/edm/2408301626220000002.pdf",
+          "verified": "opened",
+          "note": "PDF 第 81 頁（印刷頁 80）「2023年台灣與大陸地區環保法規違反情形」表（台灣地區「無」，大陸地區廈門正新 4 列）；內文「2023年大陸地區正新仍有四件違反環保法規」。PDF 文字層字型損毀，以頁面影像核對。 本列：地區 廈門正新／違反法規 《大氣污染防治法》第45條／違反事由 查102壓延車間3B工序作業間門未關閉／罰款 人民幣22,571元／改善作法 購買安裝自動關閉門，防止再發。"
+        }
+      ],
+      "addedAt": "2026-10-29",
+      "attribution": [
+        {
+          "companyCode": "2105",
+          "entity": "廈門正新橡膠工業有限公司",
+          "kind": "listed",
+          "effectivePct": 100.0,
+          "controlSince": 2022,
+          "path": [
+            "正新",
+            "MAXXIS International Co., Ltd.（100%）",
+            "MAXXIS International (HK) Ltd.（100%）",
+            "廈門正新橡膠工業有限公司（100%）"
+          ],
+          "basis": "正新 113 年股東會年報（FY2023，https://www.cst.com.tw/upload/year_report/2405091339300000001.pdf）PDF p.130 子公司表：MAXXIS International (HK) Ltd. 持有廈門正新橡膠工業有限公司 100%（112、111 年底）；p.291 關係企業基本資料：1989.05.26 設立，廈門市集美區杏林西濱路 15 號；p.294 持股 100%。112 年股東會年報（FY2022）p.121、p.281、p.284 同列。MOPS 114 年第 2 季（2025Q2）路徑相同。年報 p.11–13 沿革以「廈門正新」稱這家公司，與「廈門正新海燕」「廈門正新實業」分開；永續報告書全球生產基地也分列廈門正新、廈門海燕、正新實業。controlSince 取事件前一年的年報。",
+          "companyName": "正新橡膠工業股份有限公司",
+          "companyShort": "正新",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "2105"
+      ]
+    },
+    {
+      "id": "cst-xiamen-2023-stack-height-fine",
+      "title": "廈門正新 101A 混煉廢氣排氣筒高度不符法規要求，罰款人民幣 28,357 元",
+      "summary": "正新 2023 年永續報告書「2023年台灣與大陸地區環保法規違反情形」表列出，廈門正新（廈門正新橡膠工業有限公司）違反《大氣污染防治法》第20條第1款，事由「101A混煉廢氣排氣筒高度不符法規要求」，罰款人民幣 28,357 元；改善作法為「已經制定整改方案按計劃實施整改」。2024 年報告書另列一筆事由相同、金額不同的罰款，見另一事件。報告書沒有寫處分日期、處分機關與字號，所以日期只到年。正新年報的「環保支出資訊」只涵蓋台灣本公司，沒有這筆；廈門市生態環境局與集美區局公開的處罰資料中也沒有找到。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2023",
+      "dateEnd": null,
+      "datePrecision": "year",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "廈門市集美區杏林西濱路（杏濱街道）, 福建廈門, 中國大陸",
+          "coordinates": {
+            "lat": 24.577376,
+            "lng": 118.019235,
+            "precision": "city",
+            "source": "https://www.openstreetmap.org/relation/17667631",
+            "note": "OSM 杏滨街道（relation 17667631）的中心點。年報地址是廈門市集美區杏林西濱路 15 號；OSM 沒有這家廠與門牌，OSM 的集美區西滨路（way 606392814 等）在杏滨街道內"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "廈門正新橡膠工業有限公司（廈門正新）",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [
+          "cst-xiamen-2024-stack-height-fine"
+        ],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "正新橡膠工業（2105）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "正新 2023 永續報告書（2023 CST ESG）",
+          "date": "2024-08",
+          "url": "https://www.cst.com.tw/upload/edm/2408301626220000002.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261028100619id_/https://www.cst.com.tw/upload/edm/2408301626220000002.pdf",
+          "verified": "opened",
+          "note": "PDF 第 81 頁（印刷頁 80）「2023年台灣與大陸地區環保法規違反情形」表（台灣地區「無」，大陸地區廈門正新 4 列）；內文「2023年大陸地區正新仍有四件違反環保法規」。PDF 文字層字型損毀，以頁面影像核對。 本列：地區 廈門正新／違反法規 《大氣污染防治法》第20條第1款／違反事由 101A混煉廢氣排氣筒高度不符法規要求／罰款 人民幣28,357元／改善作法 已經制定整改方案按計劃實施整改。"
+        }
+      ],
+      "addedAt": "2026-10-29",
+      "attribution": [
+        {
+          "companyCode": "2105",
+          "entity": "廈門正新橡膠工業有限公司",
+          "kind": "listed",
+          "effectivePct": 100.0,
+          "controlSince": 2022,
+          "path": [
+            "正新",
+            "MAXXIS International Co., Ltd.（100%）",
+            "MAXXIS International (HK) Ltd.（100%）",
+            "廈門正新橡膠工業有限公司（100%）"
+          ],
+          "basis": "正新 113 年股東會年報（FY2023，https://www.cst.com.tw/upload/year_report/2405091339300000001.pdf）PDF p.130 子公司表：MAXXIS International (HK) Ltd. 持有廈門正新橡膠工業有限公司 100%（112、111 年底）；p.291 關係企業基本資料：1989.05.26 設立，廈門市集美區杏林西濱路 15 號；p.294 持股 100%。112 年股東會年報（FY2022）p.121、p.281、p.284 同列。MOPS 114 年第 2 季（2025Q2）路徑相同。年報 p.11–13 沿革以「廈門正新」稱這家公司，與「廈門正新海燕」「廈門正新實業」分開；永續報告書全球生產基地也分列廈門正新、廈門海燕、正新實業。controlSince 取事件前一年的年報。",
+          "companyName": "正新橡膠工業股份有限公司",
+          "companyShort": "正新",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "2105"
+      ]
+    },
+    {
       "id": "eternal-eternaltianjin-tianjin-2022-tank-vent-no-eia-fine",
       "title": "長興化學天津廠原料儲罐排氣口無環評手續，濱海新區生態環境局處罰款",
       "summary": "天津市濱海新區生態環境局 2022 年 9 月 19 日檢查長興化學（天津）有限公司，發現 T-20 原料儲罐頂部有一個彎狀排氣口，閥門開著並有不明氣體排出，公司也拿不出這個排氣口的環評審批手續（《大氣污染防治法》第四十五條）。2022 年 12 月 7 日依第一百零八條第一項處罰款人民幣 3 萬元，並責令改正（津滨环罚字〔2022〕第69号）；公司未陳述申辯。",
@@ -4291,7 +5239,9 @@
       ],
       "groupControl": [],
       "related": {
-        "eventIds": [],
+        "eventIds": [
+          "eternal-eternaltianjin-tianjin-2022-rto-nmhc-exceedance-fine"
+        ],
         "echoFacilityIds": [],
         "enforcementCaseIds": []
       },
@@ -4319,6 +5269,30 @@
           "archiveUrl": null,
           "verified": "opened",
           "note": "單頁應用程式，開啟後要點「9、生态环境违法信息」才看得到這筆，企業在這一欄登記了上面的決定書；網址是前端路由，沒有封存。"
+        },
+        {
+          "kind": "company",
+          "outlet": "長興材料工業（1717）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "長興材料工業 111 年度年報",
+          "date": "2023-06-05",
+          "url": "https://www.eternal-group.com/Docs/Upload/WC2023082500012/%E5%B9%B4%E5%A0%B1-%E4%B8%AD%E6%96%87%E7%89%88-112.06.05.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261028101322id_/https://www.eternal-group.com/Docs/Upload/WC2023082500012/%E5%B9%B4%E5%A0%B1-%E4%B8%AD%E6%96%87%E7%89%88-112.06.05.pdf",
+          "verified": "opened",
+          "note": "PDF 第 101 頁（印刷頁 97）「四、環保支出資訊」表：日期 111.12，處分字號 津濱環罰字〔2022〕第69號，違反條文 大氣污染防治法，違反內容「廢氣排氣口無提供環評審批文件」，處分內容 罰款 RMB30,000，廠別 天津廠。"
+        },
+        {
+          "kind": "company",
+          "outlet": "長興材料工業（1717）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "長興 2024 永續報告書",
+          "date": "2025-08",
+          "url": "https://www.eternal-group.com/Docs/Upload/WC2025081100002/%E9%95%B7%E8%88%882024%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8%E4%B8%8A%E5%82%B3%E6%AA%94.pdf",
+          "archiveUrl": "https://web.archive.org/web/20260511171358id_/https://www.eternal-group.com/Docs/Upload/WC2025081100002/%E9%95%B7%E8%88%882024%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8%E4%B8%8A%E5%82%B3%E6%AA%94.pdf",
+          "verified": "opened",
+          "note": "PDF 第 60 頁環境違規表：2022 年天津廠，違規裁罰日期 2022/12/7，「苯乙烯排氣口無法提供環評審批手續」，3萬元(CNY)，改善措施「盲封並增設帶阻火器的呼吸閥」「增設苯乙烯儲罐專用的微氧氮封裝置」。長興 2023 永續報告書 PDF 第 65 頁同列。"
         }
       ],
       "addedAt": "2026-10-28",
@@ -4395,6 +5369,30 @@
           "archiveUrl": "https://web.archive.org/web/20261028102841/https://e2.sthj.sh.gov.cn/jsp/view/hjpl/lsbg/getXzcfFile.do?dlId=c02f9870-a26c-414f-b51b-74c99890306e",
           "verified": "opened",
           "note": "上海市奉贤区生态环境局，沪0120环罚〔2022〕115号。決定書是生態環境局作成的官方文件，經由企業在披露系統填報上傳，依第 3 節第 5 條標為公司文件。披露頁本身要 POST，附件下載網址可以 GET 開啟。"
+        },
+        {
+          "kind": "company",
+          "outlet": "遠東新世紀（1402）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "遠東新世紀 111 年度年報",
+          "date": "2023-06",
+          "url": "https://www.fenc.com/upload/ir/ir_20230609001.pdf",
+          "archiveUrl": "https://web.archive.org/web/20230714191256id_/https://www.fenc.com/upload/ir/ir_20230609001.pdf",
+          "verified": "opened",
+          "note": "PDF 第 81 頁（印刷頁 77）「四、環保支出資訊」：遠紡工業（上海）有限公司之廢水排放總磷濃度超出排放限值，於 111 年 11 月 28 日裁罰人民幣 10 萬元（滬0120環罰〔2022〕115號），因應措施為改善油劑降低磷含量，以及加強日常管理措施、每日自測總磷出水濃度。年報的日期與決定書落款日（2022-12-02）不同。"
+        },
+        {
+          "kind": "company",
+          "outlet": "遠東新世紀（1402）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "遠東新世紀 2023 永續報告書",
+          "date": "2024-07",
+          "url": "https://esg.fenc.com/upload/csr/csr_20240718002.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261028100149id_/https://esg.fenc.com/upload/csr/csr_20240718002.pdf",
+          "verified": "opened",
+          "note": "PDF 第 47 頁「近二年重大違規事項統計」（被罰款事件以新台幣 30 萬元為揭露標準）：2022 年遠紡工業（上海），缺失「廢水排放總磷濃度超出排放限值」，罰鍰（新台幣）44.2 萬元，改善方案改善油劑、降低磷含量，加強日常管理、每日自測總磷出水濃度。"
         }
       ],
       "addedAt": "2026-10-28",
@@ -4419,6 +5417,92 @@
       ],
       "companyCodes": [
         "1402"
+      ]
+    },
+    {
+      "id": "eternal-syntheticresins-changshu-2022-voc-exceedance-fine",
+      "title": "長興常熟廠 VOC 濃度超過工業污染物排放標準，罰款人民幣 2.9 萬元",
+      "summary": "長興 111 年度（2022）年報「環保支出資訊」列出，常熟廠 2022 年 11 月違反《大氣污染防治法》，VOC 濃度超過工業污染物排放標準，被處罰款人民幣 29,000 元（蘇環行罰字〔2022〕81第328號）。長興 2023、2024 年永續報告書也列了這筆，違規裁罰日期寫 2022/11/27，違規說明為「設備元件(LDAR) VOC超標」，改善措施包括元件洩漏風險分級自檢、紅外線儀器掃描及檢測、委外檢測機構比對。年報與報告書都沒有寫處分機關；本次查詢沒有找到官方決定書。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2022-11-27",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "常熟經濟技術開發區沿江工業區, 江蘇常熟, 中國大陸",
+          "coordinates": {
+            "lat": 31.748943,
+            "lng": 120.938401,
+            "precision": "industrial-park",
+            "source": "https://www.openstreetmap.org/node/5269702288",
+            "note": "OSM「常熟经济技术开发区」點位（node 5269702288，OSM 沒有開發區範圍）。年報地址是常熟市經濟開發區沿江工業區興港路 15 號，OSM 沒有這家廠與門牌；這個點與 OSM 的興港路都在碧溪街道內"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "長興合成樹脂（常熟）有限公司（常熟廠）",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "長興材料工業（1717）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "長興材料工業 111 年度年報",
+          "date": "2023-06-05",
+          "url": "https://www.eternal-group.com/Docs/Upload/WC2023082500012/%E5%B9%B4%E5%A0%B1-%E4%B8%AD%E6%96%87%E7%89%88-112.06.05.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261028101322id_/https://www.eternal-group.com/Docs/Upload/WC2023082500012/%E5%B9%B4%E5%A0%B1-%E4%B8%AD%E6%96%87%E7%89%88-112.06.05.pdf",
+          "verified": "opened",
+          "note": "PDF 第 101 頁（印刷頁 97）「四、環保支出資訊」表：日期 111.11，處分字號 蘇環行罰字〔2022〕81第328號，違反條文 大氣污染防治法，違反內容「VOC 濃度超過工業污染物排放標準」，處分內容 罰款 RMB29,000，廠別 常熟廠。"
+        },
+        {
+          "kind": "company",
+          "outlet": "長興材料工業（1717）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "長興 2024 永續報告書",
+          "date": "2025-08",
+          "url": "https://www.eternal-group.com/Docs/Upload/WC2025081100002/%E9%95%B7%E8%88%882024%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8%E4%B8%8A%E5%82%B3%E6%AA%94.pdf",
+          "archiveUrl": "https://web.archive.org/web/20260511171358id_/https://www.eternal-group.com/Docs/Upload/WC2025081100002/%E9%95%B7%E8%88%882024%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8%E4%B8%8A%E5%82%B3%E6%AA%94.pdf",
+          "verified": "opened",
+          "note": "PDF 第 60 頁環境違規表：2022 年常熟廠，違規裁罰日期 2022/11/27，「設備元件(LDAR) VOC超標」，2.9萬元(CNY)。第 4 頁全球生產基地，常熟列「常熟廠」「蘇州材料廠」兩處。長興 2023 永續報告書 PDF 第 65 頁同列。"
+        }
+      ],
+      "addedAt": "2026-10-29",
+      "attribution": [
+        {
+          "companyCode": "1717",
+          "entity": "長興合成樹脂（常熟）有限公司",
+          "kind": "listed",
+          "effectivePct": 100.0,
+          "controlSince": 2021,
+          "path": [
+            "長興",
+            "Eternal Holdings Inc.（100%）",
+            "Eternal International (BVI) Co., Ltd.（100%）",
+            "長興（中國）投資有限公司（100%）",
+            "長興合成樹脂（常熟）有限公司（100%）"
+          ],
+          "basis": "長興 111 年度年報 PDF p.297 關係企業基本資料：長興合成樹脂(常熟)有限公司，2006.05.24 設立，江蘇省常熟市經濟開發區沿江工業區興港路 15 號；p.301 持股 100%；MOPS 114 年第 2 季（2025Q2）路徑相同。年報與報告書只寫「常熟廠」：長興在常熟另有長興特殊材料(蘇州)有限公司（興港路 15 號 2 幢，年報 p.297），長興 2024 永續報告書 PDF 第 4 頁全球生產基地把常熟的據點分列為「常熟廠」與「蘇州材料廠」，所以「常熟廠」對到長興合成樹脂(常熟)。controlSince 2021 依長興 111 年第 1 季合併財報（https://www.eternal-group.com/Docs/Upload/WC2023060200824/LAQ4MSEKQX_111Q1%E5%90%88%E4%BD%B5%E8%B2%A1%E5%A0%B1(%E7%94%A8%E5%8D%B0).pdf，封存 https://web.archive.org/web/20261031182334id_/https://www.eternal-group.com/Docs/Upload/WC2023060200824/LAQ4MSEKQX_111Q1%E5%90%88%E4%BD%B5%E8%B2%A1%E5%A0%B1(%E7%94%A8%E5%8D%B0).pdf） PDF p.17–18 附註十二(一)：本公司 → Eternal Holdings 100% → Eternal International (BVI) 100% → 長興（中國）投資 100% → 長興合成樹脂（常熟）100%（111.3.31、110.12.31、110.3.31 皆同），早於事件。",
+          "companyName": "長興材料工業股份有限公司",
+          "companyShort": "長興",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "1717"
       ]
     },
     {
@@ -4566,6 +5650,179 @@
       ]
     },
     {
+      "id": "fenc-fedyeing-suzhou-2022-cod-bod-exceedance-fine",
+      "title": "遠紡織染（蘇州）水樣化學需氧量、生化需氧量超過排污許可證限值，罰款人民幣 22.6 萬元",
+      "summary": "遠東新 111 年度（2022）年報「環保支出資訊」列出，遠紡織染（蘇州）有限公司水樣中化學需氧量濃度、生化需氧量濃度均超過排污許可證規定的限值，2022 年 8 月 18 日被裁罰人民幣 22.6 萬元（蘇環行罰字〔2022〕06第159號）；因應措施為增加廢水緩衝池，使懸浮粒子有充分時間沉澱，年報稱改善後已符合標準。遠東新 2023 年永續報告書「近二年重大違規事項統計」也列了這筆，改善方案另有增加生化需氧量濃度檢測頻率，罰鍰以新台幣列示約 99.9 萬元。年報與報告書都沒有寫處分機關；本次查詢沒有找到官方決定書。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2022-08-18",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "蘇州吳中經濟開發區河東工業園（郭巷街道）, 江蘇蘇州, 中國大陸",
+          "coordinates": {
+            "note": "OSM 郭巷街道（relation 7760655）的中心點。年報地址是蘇州吳中經濟開發區尹中南路 1588 號；OSM 沒有這家廠、門牌與河東工業園範圍，OSM 的尹中南路在郭巷街道內",
+            "lat": 31.2405,
+            "lng": 120.693337,
+            "precision": "city",
+            "source": "https://www.openstreetmap.org/relation/7760655"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "遠紡織染（蘇州）有限公司",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "遠東新世紀（1402）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "遠東新世紀 111 年度年報",
+          "date": "2023-06",
+          "url": "https://www.fenc.com/upload/ir/ir_20230609001.pdf",
+          "archiveUrl": "https://web.archive.org/web/20230714191256id_/https://www.fenc.com/upload/ir/ir_20230609001.pdf",
+          "verified": "opened",
+          "note": "PDF 第 81 頁（印刷頁 77）「四、環保支出資訊」：遠紡織染（蘇州）有限公司之水樣中化學需氧量濃度、生化需氧量濃度均超過排污許可證規定的限值，於 111 年 8 月 18 日裁罰人民幣 22.6 萬元（蘇環行罰字〔2022〕06第159號），因應措施為增加廢水緩衝池。"
+        },
+        {
+          "kind": "company",
+          "outlet": "遠東新世紀（1402）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "遠東新世紀 2023 永續報告書",
+          "date": "2024-07",
+          "url": "https://esg.fenc.com/upload/csr/csr_20240718002.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261028100149id_/https://esg.fenc.com/upload/csr/csr_20240718002.pdf",
+          "verified": "opened",
+          "note": "PDF 第 47 頁「近二年重大違規事項統計」（被罰款事件以新台幣 30 萬元為揭露標準）：2022 年遠紡織染（蘇州），缺失「水樣中化學需氧量濃度、生化需氧量濃度均超過排污許可證規定的限值」，罰鍰（新台幣）99.9 萬元，改善方案增加廢水緩衝池、增加生化需氧量濃度檢測頻率。"
+        }
+      ],
+      "addedAt": "2026-10-29",
+      "attribution": [
+        {
+          "companyCode": "1402",
+          "entity": "遠紡織染（蘇州）有限公司",
+          "kind": "listed",
+          "effectivePct": 99.4,
+          "controlSince": 2020,
+          "path": [
+            "遠東新",
+            "遠鼎投資(股)公司（99.40%）",
+            "Far Eastern Apparel (Holding) Ltd.（100%）",
+            "遠紡織染（蘇州）有限公司（100%）"
+          ],
+          "basis": "遠東新 111 年度年報 PDF p.391 關係企業基本資料：遠紡織染(蘇州)有限公司，2003/10/22 設立，蘇州吳中經濟開發區尹中南路 1588 號；p.396 由遠東服裝(控股)公司持有 100%；p.394 遠東新持有遠鼎投資(股)公司 99.40%。MOPS 114 年第 2 季（2025Q2）：遠鼎投資 → Far Eastern Apparel (Holding) Ltd. 100% → 遠紡織染（蘇州）100%；MOPS 不列台灣子公司，遠鼎投資的比例取 111 年度年報。controlSince 2020 依遠東新 110 年第 3 季合併財報（https://www.fenc.com/upload/ir/ir_20211117001.pdf，封存 https://web.archive.org/web/20261031182408id_/https://www.fenc.com/upload/ir/ir_20211117001.pdf）PDF p.24 子公司表：Far Eastern Apparel (Holding) Ltd. → 遠紡織染（蘇州）公司，合併公司綜合持股 100%（110.9.30、109.12.31、109.9.30），早於事件。",
+          "companyName": "遠東新世紀股份有限公司",
+          "companyShort": "遠東新",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "1402"
+      ]
+    },
+    {
+      "id": "eternal-eternaltianjin-tianjin-2022-rto-nmhc-exceedance-fine",
+      "title": "長興化學天津廠 TO、RTO 系統非甲烷總烴排放濃度超標，罰款人民幣 10 萬元",
+      "summary": "長興 111 年度（2022）年報「環保支出資訊」列出，天津廠 2022 年 8 月違反《大氣污染防治法》，TO、RTO 系統非甲烷總烴排放濃度超標，被處罰款人民幣 100,000 元（津濱環罰字〔2021〕第128號）。長興 2023、2024 年永續報告書也列了這筆，違規裁罰日期寫 2022/8/1，違規說明為「採樣口VOC排放濃度超標」，改善措施是優化 RTO 預處理系統與風閥、增設工藝廢氣深冷裝置。年報與報告書都沒有寫處分機關；本次查詢沒有找到官方決定書。同一廠 2022 年 12 月另有一張處罰決定書，見另一事件。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2022-08-01",
+      "dateEnd": null,
+      "datePrecision": "day",
+      "locations": [
+        {
+          "country": "中國大陸",
+          "plantSite": "天津濱海新區, 中國大陸",
+          "coordinates": {
+            "lat": 38.8498,
+            "lng": 117.4527,
+            "precision": "city",
+            "source": "https://www.openstreetmap.org/node/11990276482",
+            "note": "OSM 大港街道（node 11990276482），與 C45 同一點。年報地址是濱海新區大港石化產業園區金源路 652 號，OSM 沒有這家廠與門牌，只定位到街道"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "長興化學（天津）有限公司",
+          "country": "中國大陸"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [
+          "eternal-eternaltianjin-tianjin-2022-tank-vent-no-eia-fine"
+        ],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "長興材料工業（1717）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "長興材料工業 111 年度年報",
+          "date": "2023-06-05",
+          "url": "https://www.eternal-group.com/Docs/Upload/WC2023082500012/%E5%B9%B4%E5%A0%B1-%E4%B8%AD%E6%96%87%E7%89%88-112.06.05.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261028101322id_/https://www.eternal-group.com/Docs/Upload/WC2023082500012/%E5%B9%B4%E5%A0%B1-%E4%B8%AD%E6%96%87%E7%89%88-112.06.05.pdf",
+          "verified": "opened",
+          "note": "PDF 第 101 頁（印刷頁 97）「四、環保支出資訊」表：日期 111.8，處分字號 津濱環罰字〔2021〕第128號，違反條文 大氣污染防治法，違反內容「TO、RTO 系統非甲烷總烴排放濃度超標」，處分內容 罰款 RMB100,000，廠別 天津廠。"
+        },
+        {
+          "kind": "company",
+          "outlet": "長興材料工業（1717）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "長興 2024 永續報告書",
+          "date": "2025-08",
+          "url": "https://www.eternal-group.com/Docs/Upload/WC2025081100002/%E9%95%B7%E8%88%882024%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8%E4%B8%8A%E5%82%B3%E6%AA%94.pdf",
+          "archiveUrl": "https://web.archive.org/web/20260511171358id_/https://www.eternal-group.com/Docs/Upload/WC2025081100002/%E9%95%B7%E8%88%882024%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8%E4%B8%8A%E5%82%B3%E6%AA%94.pdf",
+          "verified": "opened",
+          "note": "PDF 第 60 頁環境違規表（揭露範圍：臺灣、大陸、馬來西亞廠；表註「此處為揭露違反環境法規致罰款金額10萬元(新台幣)以上之事件」）：2022 年天津廠，違規裁罰日期 2022/8/1，「採樣口VOC排放濃度超標」，10萬元(CNY)，改善措施「優化RTO預處理系統與風閥」「增設工藝廢氣深冷裝置」。長興 2023 永續報告書 PDF 第 65 頁同列。"
+        }
+      ],
+      "addedAt": "2026-10-29",
+      "attribution": [
+        {
+          "companyCode": "1717",
+          "entity": "長興化學（天津）有限公司（长兴化学（天津）有限公司）",
+          "kind": "listed",
+          "effectivePct": 100.0,
+          "controlSince": 2015,
+          "path": [
+            "長興",
+            "Eternal Holdings Inc.（100%）",
+            "Eternal International (BVI) Co., Ltd.（100%）",
+            "長興（中國）投資有限公司（100%）",
+            "長興化學（天津）有限公司（100%）"
+          ],
+          "basis": "長興 111 年度年報 PDF p.297 關係企業基本資料：長興化學(天津)有限公司，2009.08.26 設立，天津市濱海新區大港石化產業園區金源路 652 號；p.301 持股 100%。controlSince 2015 依長興 105 年第 3 季合併財報附註十二(一)（同 C45）；MOPS 114 年第 2 季（2025Q2）路徑相同。年報 p.101 的「廠別」寫天津廠，長興在天津只有這一家子公司。",
+          "companyName": "長興材料工業股份有限公司",
+          "companyShort": "長興",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "1717"
+      ]
+    },
+    {
       "id": "patec-presisi-bekasi-proper-red-2022-2024",
       "title": "百達印尼孫公司 PT Patec Presisi 連續兩期 PROPER 環境評等列紅色",
       "summary": "印尼環境部 PROPER 企業環境績效評等把百達-KY 孫公司 PT Patec Presisi Engineering（西爪哇 Bekasi 縣，汽機車零件廠）2022–2023 年度（SK.1353/2023，2023-12 與 2024-05 兩次更正後仍維持）與 2023–2024 年度（SK.129/2025）都列為紅色（MERAH）。依 Permen LHK 1/2021 第 33 條第 2 項，紅色是指企業的環境管理不符合法規要求；決定書只列評等，沒有寫出具體不合規項目。已解析的 2014–15、2016–17、2018–19 年度名單沒有這家公司，2019–2022 與 2024–25 年度的完整名單官網沒有公開，查無其他年度評等。",
@@ -4672,6 +5929,79 @@
       ],
       "companyCodes": [
         "2236"
+      ]
+    },
+    {
+      "id": "eternal-materials-malaysia-pasirgudang-2022-waste-storage-fine",
+      "title": "長興馬來西亞廠廢棄物不符合儲存規定，依《環境質量法》罰款 7,000 令吉",
+      "summary": "長興 111 年度（2022）年報「環保支出資訊」列出，馬來西亞廠 2022 年 5 月違反《環境質量法》（Environmental Quality Act），廢棄物不符合儲存規定，罰款 7,000 令吉（字號 K18387-9）。年報沒有寫處分機關與違規細節；長興 2023、2024 年永續報告書的環境違規表只列罰款達新台幣 10 萬元以上的事件，沒有這筆。本次查詢沒有找到馬來西亞環境局的官方文件。",
+      "type": "enforcement",
+      "status": "penalized",
+      "dateStart": "2022-05",
+      "dateEnd": null,
+      "datePrecision": "month",
+      "locations": [
+        {
+          "country": "馬來西亞",
+          "plantSite": "Tanjung Langsat 工業區, Pasir Gudang, 柔佛州, 馬來西亞",
+          "coordinates": {
+            "lat": 1.462621,
+            "lng": 103.984516,
+            "precision": "industrial-park",
+            "source": "https://www.openstreetmap.org/way/455175955",
+            "note": "OSM「Kompleks Perindustrian Tanjung Langsat」工業區範圍的中心點。年報地址是 PTD 5044, Jalan Rumbia 2, Tanjung Langsat Industrial Estate；OSM 沒有廠房與 Jalan Rumbia 2，同區的 Jalan Rumbia 4 在這個範圍內"
+          }
+        }
+      ],
+      "entities": [
+        {
+          "name": "Eternal Materials (Malaysia) Sdn. Bhd.（長興材料(馬來西亞)有限公司）",
+          "country": "馬來西亞"
+        }
+      ],
+      "groupControl": [],
+      "related": {
+        "eventIds": [],
+        "echoFacilityIds": [],
+        "enforcementCaseIds": []
+      },
+      "sources": [
+        {
+          "kind": "company",
+          "outlet": "長興材料工業（1717）",
+          "outletRegion": "taiwan",
+          "language": "zh-TW",
+          "title": "長興材料工業 111 年度年報",
+          "date": "2023-06-05",
+          "url": "https://www.eternal-group.com/Docs/Upload/WC2023082500012/%E5%B9%B4%E5%A0%B1-%E4%B8%AD%E6%96%87%E7%89%88-112.06.05.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261028101322id_/https://www.eternal-group.com/Docs/Upload/WC2023082500012/%E5%B9%B4%E5%A0%B1-%E4%B8%AD%E6%96%87%E7%89%88-112.06.05.pdf",
+          "verified": "opened",
+          "note": "PDF 第 101 頁（印刷頁 97）「四、環保支出資訊」表：日期 111.5，處分字號 K18387-9，違反條文 環境質量法，違反內容「廢棄物不符合儲存規定」，處分內容 罰款 MY7,000，廠別 馬來西亞廠。"
+        }
+      ],
+      "addedAt": "2026-10-29",
+      "attribution": [
+        {
+          "companyCode": "1717",
+          "entity": "Eternal Materials (Malaysia) Sdn. Bhd.",
+          "kind": "listed",
+          "effectivePct": 90.0,
+          "controlSince": 2021,
+          "path": [
+            "長興",
+            "Eternal Holdings Inc.（100%）",
+            "Eternal Nanyang Investment Co., Ltd.（90%）",
+            "Eternal Materials (Malaysia) Sdn. Bhd.（100%）"
+          ],
+          "basis": "長興 111 年度年報 PDF p.297 關係企業基本資料：Eternal Materials (Malaysia) Sdn. Bhd.，2015.01.30 設立，PTD 5044, Jalan Rumbia 2, Tanjung Langsat Industrial Estate, Pasir Gudang, Johor；p.300 由 Eternal Nanyang Investment 持有 100%；p.299 Eternal Nanyang Investment 由 Eternal Holdings 持有 90%（另 10% 為 Tong Seng Holdings Pte. Ltd.）。年報 p.30 稱「長興材料(馬來西亞)有限公司(下稱馬來廠)」，長興在馬來西亞只有這一家製造子公司。MOPS 114 年第 2 季（2025Q2）路徑相同，有效持股 90%。controlSince 2021 依長興 111 年第 1 季合併財報（https://www.eternal-group.com/Docs/Upload/WC2023060200824/LAQ4MSEKQX_111Q1%E5%90%88%E4%BD%B5%E8%B2%A1%E5%A0%B1(%E7%94%A8%E5%8D%B0).pdf，封存 https://web.archive.org/web/20261031182334id_/https://www.eternal-group.com/Docs/Upload/WC2023060200824/LAQ4MSEKQX_111Q1%E5%90%88%E4%BD%B5%E8%B2%A1%E5%A0%B1(%E7%94%A8%E5%8D%B0).pdf） PDF p.17–18 附註十二(一)：Eternal Holdings → Eternal Nanyang Investment 90%、Eternal Nanyang Investment → Eternal Materials (Malaysia) 100%（111.3.31、110.12.31、110.3.31 皆同），早於事件。",
+          "companyName": "長興材料工業股份有限公司",
+          "companyShort": "長興",
+          "shown": true,
+          "reason": "own"
+        }
+      ],
+      "companyCodes": [
+        "1717"
       ]
     },
     {

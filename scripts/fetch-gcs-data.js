@@ -76,6 +76,28 @@ function readDataJson(name) {
 const DATA_SOURCE_LABELS = { news: '污染事件（官方文件與新聞報導）', enforcement: 'Violation Tracker（Good Jobs First）' };
 
 /**
+ * 公司 logo：只用 data/company-logos.json 列出、存在 public/logos/ 的檔案（取自公司官網或維基共享資源，每筆記來源）。
+ * facilities.csv 的「LOGO網址」多半外連到圖片搜尋縮圖或第三方網站，有的已失效、有的不是該公司，不再使用；
+ * 沒有核對過的 logo 時留 null，前端改顯示公司名稱。
+ */
+function attachLogos(companies) {
+  const logos = readDataJson('company-logos.json')?.logos || {};
+  let found = 0;
+  for (const c of companies) {
+    const entry = logos[c.companyCode];
+    const file = entry && path.join(__dirname, '..', 'public', 'logos', entry.file);
+    if (entry && fs.existsSync(file)) {
+      c.logoUrl = `/logos/${entry.file}`;
+      found += 1;
+    } else {
+      if (entry) console.warn(`⚠️ company-logos.json 列了 ${c.companyCode}，但 public/logos/${entry.file} 不存在`);
+      c.logoUrl = null;
+    }
+  }
+  console.log(`🖼️ 公司 logo：${found}／${companies.length} 家有核對過的 logo`);
+}
+
+/**
  * 不在 EPA 資料裡、但有污染事件或 Violation Tracker 紀錄的公司（scripts/build-company-info.py 產生的 data/company-info.json）。
  * 另外建立公司物件，標 inEpaData: false，前端不顯示 0 筆違規。
  */
@@ -746,6 +768,7 @@ async function main() {
     addCompaniesOutsideEpa(transformedData);
     attachNews(transformedData);
     attachEnforcement(transformedData);
+    attachLogos(transformedData);
 
     // 儲存為 JSON
     fs.writeFileSync(OUTPUT_FILE, JSON.stringify(transformedData, null, 2));

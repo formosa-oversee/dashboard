@@ -13,7 +13,7 @@
     "website": "http://www.dachan.com",
     "address": "台南市永康區蔦松二街三號",
     "industry": "食品工業",
-    "logoUrl": "https://www.dachan.com/styles/images/static/logo-wb.svg",
+    "logoUrl": "/logos/1210.png",
     "facilities": [
       {
         "facilityId": "3600971993",
@@ -161,7 +161,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.981Z"
+      "lastUpdated": "2026-10-31T18:59:32.545Z"
     },
     "inEpaData": true,
     "news": [],
@@ -185,7 +185,7 @@
     "website": "https://www.uni-president.com.tw",
     "address": "71001台南市永康區中正路301號",
     "industry": "食品工業",
-    "logoUrl": "https://esg.sp88.tw/en/ogp.png",
+    "logoUrl": "/logos/1216.png",
     "facilities": [
       {
         "facilityId": "3600726609",
@@ -368,7 +368,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.981Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [
@@ -486,7 +486,7 @@
     "website": "http://www.fpc.com.tw",
     "address": "高雄市仁武區水管路100號",
     "industry": "塑膠工業",
-    "logoUrl": "https://www.fpcusa.com/content/uploads/2021/04/formosa-logo-stacked.png",
+    "logoUrl": "/logos/1301.png",
     "facilities": [
       {
         "facilityId": "800000669",
@@ -104848,7 +104848,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.981Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [
@@ -106711,7 +106711,7 @@
     "website": "http://www.npc.com.tw",
     "address": "台北市內湖區南京東路六段380號(A1)7樓",
     "industry": "塑膠工業",
-    "logoUrl": "https://www.texsourcing.org.tw/public/company/AL_1596099038.jpg",
+    "logoUrl": "/logos/1303.png",
     "facilities": [
       {
         "facilityId": "3600973093",
@@ -163928,7 +163928,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.981Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [
@@ -164701,7 +164701,7 @@
     "website": "www.fenc.com",
     "address": "台北市大安區敦化南路二段207號36樓",
     "industry": "紡織纖維",
-    "logoUrl": "data:image/png;base64,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",
+    "logoUrl": "/logos/1402.png",
     "facilities": [
       {
         "facilityId": "3200025465",
@@ -166557,7 +166557,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [
@@ -167111,7 +167111,7 @@
     "website": "https://www.everest.com.tw/tw",
     "address": "台南市山上區明和里256號",
     "industry": "紡織纖維",
-    "logoUrl": "https://www.khopang.com/uploads/images/35b9c2e94297a96c42b5501490062aef.jpg",
+    "logoUrl": "/logos/1460.png",
     "facilities": [
       {
         "facilityId": "3600802504",
@@ -167245,7 +167245,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [
@@ -167361,7 +167361,7 @@
     "website": "http://www.chieftek.com/",
     "address": "74145 台南市新市區大利一路3號",
     "industry": "電機機械",
-    "logoUrl": "https://storage.googleapis.com/www.taiwantradeshow.com.tw/exhibitor-logo/202502/T-58938544.png",
+    "logoUrl": "/logos/1597.png",
     "facilities": [
       {
         "facilityId": "3600784323",
@@ -167410,7 +167410,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [],
@@ -167434,7 +167434,7 @@
     "website": "www.rainbowpaint.com.tw",
     "address": "高雄市小港區沿海三路26、28號",
     "industry": "化學工業",
-    "logoUrl": "https://lh4.googleusercontent.com/proxy/EsWHPN_uEhh90rkRtQYs-KwvL6UT-N3Rl7eupT6m870isAfyR3Za-V8nLTLXGiPieKgO5DyzEgar1jqRLiyNNjuYcgvFnysqMmkQtQOFNw",
+    "logoUrl": null,
     "facilities": [
       {
         "facilityId": "3600725948",
@@ -167622,7 +167622,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [],
@@ -167646,7 +167646,7 @@
     "website": "www.tachen.com.tw",
     "address": "台南市仁德區新田二街125號",
     "industry": "鋼鐵工業",
-    "logoUrl": "https://www.fastener-world.com/data/article/Ta_Chen_International_8179_0.png",
+    "logoUrl": null,
     "facilities": [
       {
         "facilityId": "3600256978",
@@ -168312,7 +168312,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [
@@ -168428,7 +168428,7 @@
     "website": "www.tsrc.com.tw",
     "address": "高雄市大社區興工路2號",
     "industry": "橡膠工業",
-    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQBexsLrP0NTHvfJQkfI-LuAI2zIGst1IwpQ&s",
+    "logoUrl": "/logos/2103.png",
     "facilities": [
       {
         "facilityId": "3600082089",
@@ -169633,7 +169633,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [],
@@ -169657,7 +169657,7 @@
     "website": "http://www.csrcgroup.com",
     "address": "台北市中山北路二段113號8樓",
     "industry": "橡膠工業",
-    "logoUrl": "https://images.1111.com.tw/oad/4671.jpg",
+    "logoUrl": "/logos/2104.png",
     "facilities": [
       {
         "facilityId": "2600022112",
@@ -172643,7 +172643,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [
@@ -172773,7 +172773,7 @@
     "website": "http://www.kendatire.com",
     "address": "彰化縣員林市中山路一段一四六號",
     "industry": "橡膠工業",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Kenda_Logo.svg",
+    "logoUrl": "/logos/2106.png",
     "facilities": [
       {
         "facilityId": "3600894942",
@@ -172822,7 +172822,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [
@@ -173359,7 +173359,7 @@
     "website": "https://www.deltaww.com/zh-TW/index",
     "address": "台北市內湖區瑞光路186號",
     "industry": "電子零組件業",
-    "logoUrl": "https://docs.tfai.org.tw/sites/default/files/styles/maker_photo/public/unit/%E5%8F%B0%E9%81%94Foundation%20english%20logo_01.png?itok=2iMpOs1K",
+    "logoUrl": "/logos/2308.png",
     "facilities": [
       {
         "facilityId": "3601596939",
@@ -173603,7 +173603,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [],
@@ -173627,7 +173627,7 @@
     "website": "https://www.honhai.com/zh-tw",
     "address": "新北市土城區自由街2號",
     "industry": "其他電子業",
-    "logoUrl": "https://ntucace.ntu.edu.tw/institution/download.logo/sn/29/key/2024021518592365cdee8b00361/preview/1",
+    "logoUrl": "/logos/2317.png",
     "facilities": [
       {
         "facilityId": "3601370143",
@@ -173985,7 +173985,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [
@@ -174325,7 +174325,7 @@
     "website": "http://www.cmcnet.com.tw",
     "address": "台北市中山區民權西路53號15樓",
     "industry": "光電業",
-    "logoUrl": "https://fileres.synology.com/www-res/case-study/TW_CMC/album/logo.png?v=1569482415",
+    "logoUrl": "/logos/2323.png",
     "facilities": [
       {
         "facilityId": "3600010111",
@@ -174431,7 +174431,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [],
@@ -174455,7 +174455,7 @@
     "website": "WWW.YAGEO.COM",
     "address": "新北市新店區寶橋路233-1號3樓",
     "industry": "電子零組件業",
-    "logoUrl": "https://www.tpcia.org.tw/archive/logo/15_YAGEO.png",
+    "logoUrl": "/logos/2327.png",
     "facilities": [
       {
         "facilityId": "400013847",
@@ -174915,7 +174915,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [],
@@ -174939,7 +174939,7 @@
     "website": "https://www.tsmc.com",
     "address": "新竹科學園區力行六路8號",
     "industry": "半導體業",
-    "logoUrl": "https://hocom.tw/Uploads/Album/199072_372048198094.jpg",
+    "logoUrl": "/logos/2330.png",
     "facilities": [
       {
         "facilityId": "3601487739",
@@ -177481,7 +177481,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [
@@ -177771,7 +177771,7 @@
     "website": "www.quantatw.com",
     "address": "桃園市龜山區文化里文化二路188號",
     "industry": "電腦及週邊設備業",
-    "logoUrl": "https://ntucace.ntu.edu.tw/institution/download.logo/sn/63/key/2024022010044365d408bbcbc82/preview/1",
+    "logoUrl": "/logos/2382.png",
     "facilities": [
       {
         "facilityId": "3601044312",
@@ -177934,7 +177934,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [],
@@ -177958,7 +177958,7 @@
     "website": "www.advantech.com",
     "address": "台北市內湖區瑞光路26巷20弄1號",
     "industry": "電腦及週邊設備業",
-    "logoUrl": "https://news.gbimonthly.com/upload/industry/industry_20210716100022_0.png",
+    "logoUrl": "/logos/2395.png",
     "facilities": [
       {
         "facilityId": "3601123654",
@@ -178011,7 +178011,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [],
@@ -178035,7 +178035,7 @@
     "website": "www.evergreen-marine.com",
     "address": "台北市中山區民生東路二段166號",
     "industry": "航運業",
-    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiXgjcLaeDME3lwc0W8JdXRDpOX9BTIiWfaw&s",
+    "logoUrl": "/logos/2603.png",
     "facilities": [
       {
         "facilityId": "3600734727",
@@ -178224,7 +178224,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [],
@@ -178248,7 +178248,7 @@
     "website": "http://www.china-airlines.com",
     "address": "桃園市大園區航站南路一號",
     "industry": "航運業",
-    "logoUrl": "https://alumnus.pccu.edu.tw/var/file/264/1264/img/342231256.jpg",
+    "logoUrl": "/logos/2610.png",
     "facilities": [
       {
         "facilityId": "3601581251",
@@ -178616,7 +178616,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [],
@@ -178640,7 +178640,7 @@
     "website": "http://www.85cafe.com",
     "address": "台中市南屯區工業23路35號",
     "industry": "觀光餐旅",
-    "logoUrl": "https://www.moneydj.com/kmdj/GetWikiFile.axd?file=217fb84c-437e-4c64-9a74-47415b028298/2723.gif",
+    "logoUrl": "/logos/2723.png",
     "facilities": [
       {
         "facilityId": "3600736432",
@@ -178952,7 +178952,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [],
@@ -178976,7 +178976,7 @@
     "website": "www.adata.com",
     "address": "台北市內湖區潭美街533號25樓",
     "industry": "半導體業",
-    "logoUrl": "https://www.adata.com/statics/csr/tw/_nuxt/img/ADATA_logo.0665129.png",
+    "logoUrl": "/logos/3260.png",
     "facilities": [
       {
         "facilityId": "3601282584",
@@ -179025,7 +179025,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [],
@@ -179049,7 +179049,7 @@
     "website": "www.megaforce.com.tw",
     "address": "新北市中和區建八路16號17樓之4",
     "industry": "電子零組件業",
-    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3K-FMysgD6Zdx2fIJ5QOYSc2ZTEXZivZyoQ&s",
+    "logoUrl": "/logos/3294.png",
     "facilities": [
       {
         "facilityId": "3601048053",
@@ -179102,7 +179102,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [],
@@ -179126,7 +179126,7 @@
     "website": "http://www.avertronics.com",
     "address": "台中市南屯區工業區19路10號",
     "industry": "電子零組件業",
-    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA4esSRWQuqPitf2h3MGPpvuwvhLE3FF1ThQ&s",
+    "logoUrl": "/logos/3597.png",
     "facilities": [
       {
         "facilityId": "3601074307",
@@ -179213,7 +179213,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [],
@@ -179237,7 +179237,7 @@
     "website": "www.mitac.com",
     "address": "桃園市龜山區文化二路202號",
     "industry": "電腦及週邊設備業",
-    "logoUrl": "https://cimg.cnyes.cool/prod/news/5726146/l/a0d3ae36236fad9961e11d06a53df1c5.jpg",
+    "logoUrl": "/logos/3706.png",
     "facilities": [
       {
         "facilityId": "3600735675",
@@ -179329,7 +179329,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [],
@@ -179353,7 +179353,7 @@
     "website": "www.bionime.com",
     "address": "台中市南區大慶街二段100號",
     "industry": "生技醫療業",
-    "logoUrl": "https://expo.taiwan-healthcare.org/data/cht/20230726/20230726bh1tgc.png",
+    "logoUrl": "/logos/4737.webp",
     "facilities": [
       {
         "facilityId": "3600735251",
@@ -179440,7 +179440,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [],
@@ -179464,7 +179464,7 @@
     "website": "www.primax.com.tw",
     "address": "台北市內湖區瑞光路669號",
     "industry": "電子零組件業",
-    "logoUrl": "https://blog.104.com.tw/wp-content/uploads/2023/03/16152951/018.jpg",
+    "logoUrl": "/logos/4915.webp",
     "facilities": [
       {
         "facilityId": "3601280937",
@@ -179565,7 +179565,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [],
@@ -179589,7 +179589,7 @@
     "website": "http://gcsincorp.com",
     "address": "One Nexus Way, Camana Bay, Grand Cayman, KY1-9005, Cayman",
     "industry": "半導體業",
-    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq8qPEGxYQflsfXzL9eJt8POcE0PFR3euAtg&s",
+    "logoUrl": null,
     "facilities": [
       {
         "facilityId": "3600732810",
@@ -179653,7 +179653,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [],
@@ -179677,7 +179677,7 @@
     "website": "www.gmtc.com.tw",
     "address": "台南市新營區新中路35號(總部地址:台南市柳營區工二路10號)",
     "industry": "鋼鐵工業",
-    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLaUU6WzrCsccLZN5pPX6bYB-bnqsaKPjClw&s",
+    "logoUrl": "/logos/5009.png",
     "facilities": [
       {
         "facilityId": "3600731890",
@@ -179995,7 +179995,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [],
@@ -180019,7 +180019,7 @@
     "website": "https://bora-corp.com/",
     "address": "台北市內湖區瑞光路26巷36弄2號6樓",
     "industry": "生技醫療業",
-    "logoUrl": "https://service.moea.gov.tw/EE514/wSite/public/Attachment/00103/f1714355121389.png",
+    "logoUrl": "/logos/6472.png",
     "facilities": [
       {
         "facilityId": "3601222854",
@@ -180389,7 +180389,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [],
@@ -180413,7 +180413,7 @@
     "website": "http://www.sas-globalwafers.com",
     "address": "新竹科學園區新竹市工業東二路八號",
     "industry": "半導體業",
-    "logoUrl": "https://www.sas-globalwafers.com/wp-content/uploads/2019/11/logo-1.png",
+    "logoUrl": "/logos/6488.png",
     "facilities": [
       {
         "facilityId": "2400049760",
@@ -185377,7 +185377,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [
@@ -185512,7 +185512,7 @@
     "website": "www.chbio.com.tw",
     "address": "南投縣南投市內興里文獻路89號",
     "industry": "生技醫療業",
-    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbsIr6D12mZisFMSeVzOohB23HzEBQ3NIj0w&s",
+    "logoUrl": null,
     "facilities": [
       {
         "facilityId": "3600736538",
@@ -185594,7 +185594,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [],
@@ -185618,7 +185618,7 @@
     "website": "https://www.fusheng-precision.com/",
     "address": "台北市中山區南京東路二段172號3樓",
     "industry": "運動休閒",
-    "logoUrl": "https://www.satcom.org.tw/storage/img/3uO8MfaA1DDuzzwMqCx2fxRdPvPqHtrdmQj4QC7S.jpg",
+    "logoUrl": "/logos/6670.png",
     "facilities": [
       {
         "facilityId": "3600726744",
@@ -185924,7 +185924,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [],
@@ -185948,7 +185948,7 @@
     "website": "https://bo-re-tech.group/",
     "address": "台南市柳營區工六路2號",
     "industry": "綠能環保",
-    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0gJ6oWI-jwIDH_JSNdq3GfDXodlDO9_GQ0w&s",
+    "logoUrl": "/logos/6887.png",
     "facilities": [
       {
         "facilityId": "3600731234",
@@ -186271,7 +186271,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [],
@@ -186295,7 +186295,7 @@
     "website": "www.eink.com",
     "address": "新竹市科學園區力行一路3號",
     "industry": "光電業",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/zh/thumb/0/0f/E_Ink_Holdings_Logo.svg/1200px-E_Ink_Holdings_Logo.svg.png",
+    "logoUrl": "/logos/8069.png",
     "facilities": [
       {
         "facilityId": "3600135516",
@@ -186881,7 +186881,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [],
@@ -186905,7 +186905,7 @@
     "website": "https://oceanalexander.com/zh-hans/",
     "address": "高雄市前鎮區金福路1號",
     "industry": "運動休閒",
-    "logoUrl": "https://images.1111.com.tw/oad/9526118.jpg",
+    "logoUrl": "/logos/8478.png",
     "facilities": [
       {
         "facilityId": "3400000702",
@@ -201960,7 +201960,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [],
@@ -201984,7 +201984,7 @@
     "website": "www.shinih.com.tw",
     "address": "桃園市八德區聯華街41號",
     "industry": "其他",
-    "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQHQxfzpX1BKVg/company-logo_200_200/company-logo_200_200/0/1696395667663/shinih_enterprise_logo?e=2147483647&v=beta&t=Pe9lzbscx8QOBq-rm5Sl7D1v_-D_B-M0xDa0Nppb3fE",
+    "logoUrl": null,
     "facilities": [
       {
         "facilityId": "3600980432",
@@ -202310,7 +202310,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [
@@ -202426,7 +202426,7 @@
     "website": "http://www.emctw.com",
     "address": "桃園巿觀音區觀音工業區大同一路18號",
     "industry": "電子零組件業",
-    "logoUrl": "",
+    "logoUrl": "/logos/2383.png",
     "facilities": [
       {
         "facilityId": "3600734765",
@@ -202555,7 +202555,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [],
@@ -202579,7 +202579,7 @@
     "website": "http://www.teco.com.tw",
     "address": "臺北市南港區三重路19-9號5樓",
     "industry": "電機機械",
-    "logoUrl": "",
+    "logoUrl": "/logos/1504.png",
     "facilities": [
       {
         "facilityId": "3602340854",
@@ -202735,7 +202735,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [
@@ -202851,7 +202851,7 @@
     "website": "WWW.FPCC.COM.TW",
     "address": "台北市內湖區南京東路六段380號(A2棟)4樓",
     "industry": "油電燃氣業",
-    "logoUrl": "",
+    "logoUrl": "/logos/6505.png",
     "facilities": [
       {
         "facilityId": "3601242192",
@@ -203017,7 +203017,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [
@@ -203789,7 +203789,7 @@
     "website": "www.testritegroup.com",
     "address": "台北市內湖區新湖三路23號6樓",
     "industry": "貿易百貨",
-    "logoUrl": "",
+    "logoUrl": "/logos/2908.png",
     "facilities": [
       {
         "facilityId": "3600825999",
@@ -203989,7 +203989,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T18:27:12.982Z"
+      "lastUpdated": "2026-10-31T18:59:32.546Z"
     },
     "inEpaData": true,
     "news": [],
@@ -204010,7 +204010,7 @@
     "website": "https://www.acc.com.tw",
     "address": "台北市大安區敦化南路2段207號30、31樓",
     "industry": "水泥工業",
-    "logoUrl": "",
+    "logoUrl": "/logos/1102.jpg",
     "shortName": "亞泥",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -204209,7 +204209,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -204228,7 +204228,7 @@
     "website": "http://www.sanfang.com.tw",
     "address": "高雄市三民區通化街120號",
     "industry": "塑膠工業",
-    "logoUrl": "",
+    "logoUrl": "/logos/1307.png",
     "shortName": "三芳",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -204346,7 +204346,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -204365,7 +204365,7 @@
     "website": "http://www.fcfc.com.tw",
     "address": "彰化市中山路3段359號",
     "industry": "塑膠工業",
-    "logoUrl": "",
+    "logoUrl": "/logos/1326.webp",
     "shortName": "台化",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -205180,7 +205180,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）、污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 2,
@@ -205199,7 +205199,7 @@
     "website": "https://www.thpt.com.tw",
     "address": "桃園市龜山區民生北路一段568號1樓",
     "industry": "電子零組件業",
-    "logoUrl": "",
+    "logoUrl": "/logos/1336.jpg",
     "shortName": "台翰",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -205317,7 +205317,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -205336,7 +205336,7 @@
     "website": "https://www.ftc.com.tw",
     "address": "雲林縣斗六市榴中里石榴路317號",
     "industry": "紡織纖維",
-    "logoUrl": "",
+    "logoUrl": "/logos/1434.png",
     "shortName": "福懋",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -206152,7 +206152,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）、污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 2,
@@ -206171,7 +206171,7 @@
     "website": "https://www.klb.com.tw",
     "address": "南投市自立三路6號",
     "industry": "電機機械",
-    "logoUrl": "",
+    "logoUrl": "/logos/1537.png",
     "shortName": "廣隆",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -206483,7 +206483,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -206502,7 +206502,7 @@
     "website": "https://www.syncmold.com.tw",
     "address": "新北市中和區建康路168號9樓",
     "industry": "電子零組件業",
-    "logoUrl": "",
+    "logoUrl": "/logos/1582.png",
     "shortName": "信錦",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -206610,7 +206610,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -206629,7 +206629,7 @@
     "website": "http://www.cftc.tw",
     "address": "彰化縣伸港鄉興工路40號",
     "industry": "電機機械",
-    "logoUrl": "",
+    "logoUrl": "/logos/1586.png",
     "shortName": "和勤",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -206735,7 +206735,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -206754,7 +206754,7 @@
     "website": "https://www.walsin.com",
     "address": "台北市信義區松智路1號25樓",
     "industry": "電器電纜",
-    "logoUrl": "",
+    "logoUrl": "/logos/1605.png",
     "shortName": "華新",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -207568,7 +207568,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -207587,7 +207587,7 @@
     "website": "https://www.eternal-group.com/Home",
     "address": "高雄市三民區建工路578號",
     "industry": "化學工業",
-    "logoUrl": "",
+    "logoUrl": null,
     "shortName": "長興",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -208042,7 +208042,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -208061,7 +208061,7 @@
     "website": "https://www.johnsonfitness.com",
     "address": "台中市大雅區東大路二段999號",
     "industry": "運動休閒",
-    "logoUrl": "",
+    "logoUrl": "/logos/1736.png",
     "shortName": "喬山",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -208101,7 +208101,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -208120,7 +208120,7 @@
     "website": "https://www.taiwanglass.com",
     "address": "台北市松山區南京東路三段261號台玻大樓11樓",
     "industry": "玻璃陶瓷",
-    "logoUrl": "",
+    "logoUrl": "/logos/1802.gif",
     "shortName": "台玻",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -209507,7 +209507,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -209526,7 +209526,7 @@
     "website": "http://www.chp.com.tw",
     "address": "台北市重慶南路二段51號",
     "industry": "造紙工業",
-    "logoUrl": "",
+    "logoUrl": "/logos/1905.png",
     "shortName": "華紙",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -209911,7 +209911,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -209930,7 +209930,7 @@
     "website": "https://www.yfy.com",
     "address": "台北市重慶南路二段51號",
     "industry": "造紙工業",
-    "logoUrl": "",
+    "logoUrl": "/logos/1907.png",
     "shortName": "永豐餘",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -210315,7 +210315,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -210334,7 +210334,7 @@
     "website": "http://www.csc.com.tw",
     "address": "高雄市小港區中鋼路1號",
     "industry": "鋼鐵工業",
-    "logoUrl": "",
+    "logoUrl": "/logos/2002.png",
     "shortName": "中鋼",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -210911,7 +210911,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）、污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 2,
@@ -210930,7 +210930,7 @@
     "website": "http://www.cysco.com.tw/",
     "address": "台北市復興北路502號7樓",
     "industry": "鋼鐵工業",
-    "logoUrl": "",
+    "logoUrl": "/logos/2010.png",
     "shortName": "春源",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -211243,7 +211243,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -211262,7 +211262,7 @@
     "website": "http://www.cysteel.com.tw/",
     "address": "(62155)嘉義縣民雄鄉民雄工業區成功二街21號",
     "industry": "電機機械",
-    "logoUrl": "",
+    "logoUrl": "/logos/2067.png",
     "shortName": "嘉鋼",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -211366,7 +211366,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -211385,7 +211385,7 @@
     "website": "https://WWW.CST.COM.TW",
     "address": "彰化縣大村鄉黃厝村美港路215號",
     "industry": "橡膠工業",
-    "logoUrl": "",
+    "logoUrl": "/logos/2105.png",
     "shortName": "正新",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -212243,7 +212243,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -212262,7 +212262,7 @@
     "website": "https://www.sanyang.com.tw",
     "address": "新竹縣湖口鄉鳳山村中華路3號",
     "industry": "汽車工業",
-    "logoUrl": "",
+    "logoUrl": "/logos/2206.png",
     "shortName": "三陽工業",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -212380,7 +212380,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -212399,7 +212399,7 @@
     "website": "https://www.patec-intl.com",
     "address": "臺北市松山區敦化北路205號3樓",
     "industry": "汽車工業",
-    "logoUrl": "",
+    "logoUrl": null,
     "shortName": "百達-KY",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -212541,7 +212541,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -212560,7 +212560,7 @@
     "website": "https://WWW.UMC.COM",
     "address": "新竹科學園區新竹市力行二路三號",
     "industry": "半導體業",
-    "logoUrl": "",
+    "logoUrl": "/logos/2303.png",
     "shortName": "聯電",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -212600,7 +212600,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -212619,7 +212619,7 @@
     "website": "https://Qisda.com.tw",
     "address": "桃園市龜山區山鶯路157號",
     "industry": "電腦及週邊設備業",
-    "logoUrl": "",
+    "logoUrl": "/logos/2352.jpg",
     "shortName": "佳世達",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -212723,7 +212723,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -212742,7 +212742,7 @@
     "website": "https://www.foxconntech.com.tw",
     "address": "新北市土城區中山路3-2號",
     "industry": "其他電子業",
-    "logoUrl": "",
+    "logoUrl": "/logos/2354.png",
     "shortName": "鴻準",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -212848,7 +212848,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -212867,7 +212867,7 @@
     "website": "http://www.asus.com.tw",
     "address": "台北市北投區立德路15號",
     "industry": "電腦及週邊設備業",
-    "logoUrl": "",
+    "logoUrl": "/logos/2357.png",
     "shortName": "華碩",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -212907,7 +212907,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -212926,7 +212926,7 @@
     "website": "https://www.tatung.com",
     "address": "台北市中山北路3段22號",
     "industry": "電機機械",
-    "logoUrl": "",
+    "logoUrl": "/logos/2371.png",
     "shortName": "大同",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -213239,7 +213239,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 11,
@@ -213258,7 +213258,7 @@
     "website": "https://www.nanya.com",
     "address": "新北市泰山區大科里南林路98號",
     "industry": "半導體業",
-    "logoUrl": "",
+    "logoUrl": "/logos/2408.png",
     "shortName": "南亞科",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -213298,7 +213298,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -213317,7 +213317,7 @@
     "website": "https://www.auo.com",
     "address": "新竹市科學園區力行二路一號",
     "industry": "光電業",
-    "logoUrl": "",
+    "logoUrl": "/logos/2409.png",
     "shortName": "友達",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -213546,7 +213546,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 8,
@@ -213565,7 +213565,7 @@
     "website": "https://www.i-chiun.com.tw",
     "address": "新北市新莊區五工五路17號",
     "industry": "光電業",
-    "logoUrl": "",
+    "logoUrl": "/logos/2486.png",
     "shortName": "一詮",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -213683,7 +213683,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -213702,7 +213702,7 @@
     "website": "http://www.yangming.com/",
     "address": "基隆市七堵區明德一路271號",
     "industry": "航運業",
-    "logoUrl": "",
+    "logoUrl": "/logos/2609.png",
     "shortName": "陽明",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -213993,7 +213993,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 10,
@@ -214012,7 +214012,7 @@
     "website": "http://tw.wanhai.com/",
     "address": "台北市松江路136號10樓",
     "industry": "航運業",
-    "logoUrl": "",
+    "logoUrl": "/logos/2615.png",
     "shortName": "萬海",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -214052,7 +214052,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -214071,7 +214071,7 @@
     "website": "https://www.evaair.com",
     "address": "桃園市蘆竹區新南路一段376號",
     "industry": "航運業",
-    "logoUrl": "",
+    "logoUrl": "/logos/2618.png",
     "shortName": "長榮航",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -214273,7 +214273,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 7,
@@ -214292,7 +214292,7 @@
     "website": "https://www.hnfhc.com.tw",
     "address": "台北市信義區松仁路123號",
     "industry": "金融保險業",
-    "logoUrl": "",
+    "logoUrl": "/logos/2880.png",
     "shortName": "華南金",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -214333,7 +214333,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -214352,7 +214352,7 @@
     "website": "https://www.cathayholdings.com",
     "address": "台北市仁愛路四段296號",
     "industry": "金融保險業",
-    "logoUrl": "",
+    "logoUrl": "/logos/2882.png",
     "shortName": "國泰金",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -214392,7 +214392,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -214411,7 +214411,7 @@
     "website": "https://www.megaholdings.com.tw",
     "address": "台北市忠孝東路二段123號14至17樓、20至21樓",
     "industry": "金融保險業",
-    "logoUrl": "",
+    "logoUrl": "/logos/2886.png",
     "shortName": "兆豐金",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -214480,7 +214480,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 2,
@@ -214499,7 +214499,7 @@
     "website": "https://www.tsholdings.com.tw/",
     "address": "台北市大安區仁愛路4段118號12、13、15、16、21、22及23樓",
     "industry": "金融保險業",
-    "logoUrl": "",
+    "logoUrl": "/logos/2887.png",
     "shortName": "台新新光金",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -214540,7 +214540,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -214559,7 +214559,7 @@
     "website": "https://www.ctbcholding.com",
     "address": "臺北市南港區經貿二路168號27樓、29樓",
     "industry": "金融保險業",
-    "logoUrl": "",
+    "logoUrl": "/logos/2891.png",
     "shortName": "中信金",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -214600,7 +214600,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -214619,7 +214619,7 @@
     "website": "https://www.tripod-tech.com",
     "address": "桃園市平鎮區平鎮工業區工業五路21號",
     "industry": "電子零組件業",
-    "logoUrl": "",
+    "logoUrl": "/logos/3044.png",
     "shortName": "健鼎",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -214721,7 +214721,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -214740,7 +214740,7 @@
     "website": "https://www.wistron.com",
     "address": "新竹縣竹北市智慧路1號",
     "industry": "電腦及週邊設備業",
-    "logoUrl": "",
+    "logoUrl": "/logos/3231.png",
     "shortName": "緯創",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -214892,7 +214892,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -214911,7 +214911,7 @@
     "website": "http://www.innolux.com",
     "address": "新竹科學園區苗栗縣竹南鎮科學路160號",
     "industry": "光電業",
-    "logoUrl": "",
+    "logoUrl": "/logos/3481.png",
     "shortName": "群創",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -215140,7 +215140,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 8,
@@ -215159,7 +215159,7 @@
     "website": "https://www.waystech.net",
     "address": "桃園市楊梅區高山里5鄰高青路26號",
     "industry": "其他電子業",
-    "logoUrl": "",
+    "logoUrl": "/logos/3508.png",
     "shortName": "位速",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -215275,7 +215275,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -215294,7 +215294,7 @@
     "website": "https://www.aseglobal.com",
     "address": "高雄市楠梓區經三路26號",
     "industry": "半導體業",
-    "logoUrl": "",
+    "logoUrl": "/logos/3711.png",
     "shortName": "日月光投控",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -215497,7 +215497,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -215516,7 +215516,7 @@
     "website": "https://www.strongh.tw",
     "address": "桃園市龜山區建國東路89號",
     "industry": "電機機械",
-    "logoUrl": "",
+    "logoUrl": "/logos/4560.png",
     "shortName": "強信-KY",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -215817,7 +215817,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -215836,7 +215836,7 @@
     "website": "https://www.acetekgroup.com",
     "address": "台北市信義區光復南路419巷18號6樓",
     "industry": "化學工業",
-    "logoUrl": "",
+    "logoUrl": null,
     "shortName": "材料*-KY",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -215952,7 +215952,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -215971,7 +215971,7 @@
     "website": "http://www.nanpao.com.tw",
     "address": "台南市西港區中山路519號",
     "industry": "化學工業",
-    "logoUrl": "",
+    "logoUrl": "/logos/4766.png",
     "shortName": "南寶",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -216089,7 +216089,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -216108,7 +216108,7 @@
     "website": "https://www.kmc-international.com",
     "address": "台南市永康區中華路425號8F-5",
     "industry": "運動休閒",
-    "logoUrl": "",
+    "logoUrl": "/logos/5306.png",
     "shortName": "桂盟",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -216212,7 +216212,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -216231,7 +216231,7 @@
     "website": "http://www.saswafer.com",
     "address": "新竹科學園區新竹市工業東二路八號四樓",
     "industry": "半導體業",
-    "logoUrl": "",
+    "logoUrl": "/logos/5483.png",
     "shortName": "中美晶",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -216355,7 +216355,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -216374,7 +216374,7 @@
     "website": "https://www.scsb.com.tw",
     "address": "台北市中山區民權東路一段2號",
     "industry": "金融保險業",
-    "logoUrl": "",
+    "logoUrl": "/logos/5876.png",
     "shortName": "上海商銀",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -216417,7 +216417,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -216436,7 +216436,7 @@
     "website": "https://www.hannstar.com",
     "address": "台北市內湖區行善路168巷15號4樓",
     "industry": "光電業",
-    "logoUrl": "",
+    "logoUrl": "/logos/6116.png",
     "shortName": "彩晶",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -216665,7 +216665,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 8,
@@ -216684,7 +216684,7 @@
     "website": "https://www.kingcanholdings.com",
     "address": "The Grand Pavilion Commercial Centre, Oleander Way, 802 West",
     "industry": "其他",
-    "logoUrl": "",
+    "logoUrl": null,
     "shortName": "福貞-KY",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -217015,7 +217015,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -217034,7 +217034,7 @@
     "website": "https://thesuperiorplating.com",
     "address": "(114)台北市內湖區新湖一路151號7樓",
     "industry": "其他電子業",
-    "logoUrl": "",
+    "logoUrl": "/logos/8431.png",
     "shortName": "匯鑽科",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -217152,7 +217152,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -217171,7 +217171,7 @@
     "website": "https://www.adgroup.com.tw",
     "address": "高雄市小港區中林路26號",
     "industry": "運動休閒",
-    "logoUrl": "",
+    "logoUrl": "/logos/8938.png",
     "shortName": "明安",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -217366,7 +217366,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -217385,7 +217385,7 @@
     "website": "https://www.pouchen.com",
     "address": "台中市西屯區台灣大道四段600號",
     "industry": "運動休閒",
-    "logoUrl": "",
+    "logoUrl": "/logos/9904.png",
     "shortName": "寶成",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -217503,7 +217503,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -217522,7 +217522,7 @@
     "website": "https://www.greatchina.com.tw",
     "address": "台北市松江路293之805號",
     "industry": "其他",
-    "logoUrl": "",
+    "logoUrl": "/logos/9905.png",
     "shortName": "大華",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -217626,7 +217626,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -217645,7 +217645,7 @@
     "website": "https://www.fengtay.com",
     "address": "雲林縣斗六市科工八路52號",
     "industry": "運動休閒",
-    "logoUrl": "",
+    "logoUrl": "/logos/9910.png",
     "shortName": "豐泰",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -217761,7 +217761,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -217780,7 +217780,7 @@
     "website": "https://www.fuhsing.com.tw",
     "address": "高雄市岡山區本洲里育才路88號",
     "industry": "居家生活",
-    "logoUrl": "",
+    "logoUrl": "/logos/9924.png",
     "shortName": "福興",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -217979,7 +217979,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -217998,7 +217998,7 @@
     "website": "https://tw.globeunion.com/",
     "address": "台中市潭子區建國路22號",
     "industry": "居家生活",
-    "logoUrl": "",
+    "logoUrl": "/logos/9934.png",
     "shortName": "成霖",
     "parentCompany": null,
     "companyType": "台灣上市公司",
@@ -218205,7 +218205,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T18:27:13.049Z"
+      "lastUpdated": "2026-10-31T18:59:32.583Z"
     },
     "enforcementSummary": {
       "count": 0,

@@ -49,6 +49,12 @@ npm run download-epa                          # 已內建該環境變數
 - 這個 repo 是公開的，push 到 main 會觸發 GitHub Pages 部署。
 - **MOPS `mops_company_info.csv` 的「英文全稱」欄有整段錯一列的問題**（詳見 `docs/violation-tracker-data-access.md` 附錄）。做任何名稱匹配請用「英文簡稱」，或兩支腳本內已修正的英文全稱（以英文簡稱字首或縮寫字母順序判斷錯位），不要直接用原始「英文全稱」。
 - **污染事件**（公司頁「污染事件」分頁）：規格見 `docs/pollution-news-spec.md`。人工整理 `data/news-events.json`（每個事件附來源與封存網址）→ `npm run news`（`scripts/build-news.py` 驗證收錄門檻、依持股決定掛在哪些公司頁 → `data/news.json` → build-company-info → fetch-data）。兩個檔都進 git，CI 不需要 MOPS。研究與查證紀錄放 `docs/pollution-news-research/`。地圖頁 `/map` 的事件圖層讀 `news.json`（`getMapEvents`，元件 `components/MapEventLayer.js`），每個地點要有 `coordinates`；事件類型、狀態、精度的中文字典在 `lib/news-labels.js`，公司頁共用。
+- **公司 logo**：只用 `data/company-logos.json` 列的檔案（`public/logos/<代號>.<副檔名>`），`fetch-gcs-data.js` 的 `attachLogos` 依它設定 `logoUrl`，沒列的留 null，前端顯示公司名稱。`facilities.csv` 的「LOGO網址」外連到圖片搜尋縮圖或第三方網站，有的失效或不是該公司，不再使用。2026-11-01 取得 89／98 家：
+  - 來源先用公司官網（MOPS 公司網址）：讀過 robots，禁止的不抓。官網 robots 禁止或只有白字 logo 的，改用維基百科條目資訊框的檔案。
+  - 每筆記 `source`（圖檔網址）、`page`、`method`、`note`。
+  - SVG 一律轉成 PNG（高 240px）：外部 SVG 可能夾帶腳本，直接開檔會在本站網域執行。
+  - 重抓用 `scripts/fetch-company-logos.py`，沒有獨立網址或需要轉檔的會跳過。
+  - 新增公司要人工挑 logo 並核對畫面。
 - **不在 EPA 資料裡的公司**：污染事件或 VT 紀錄掛到、但 `facilities.csv` 沒有的上市公司，由 `scripts/build-company-info.py`（`npm run company-info`）從 MOPS 補基本資料 → `data/company-info.json`（進 git）。這些公司 `inEpaData: false`，前端不顯示 0 筆違規。
 - **海外據點清單**（美國以外的延伸準備）：`python3 scripts/build-overseas-footprint.py` 從 MOPS 2025Q2 產生 `data/overseas-footprint.csv`（每列一個國家／母公司／子公司）與 `data/overseas-countries.csv`（國家摘要，給夥伴認領去找當地的環保裁罰資料來源）。網站不讀這兩個檔。中國大陸子公司只能從合併報表子公司名稱推斷；「類型（推測）」是關鍵字推測，不是官方分類。
 - 專案層 `.claude/settings.local.json` 允許 claude-in-chrome 工具，但 auto mode classifier 仍可能擋 `javascript_tool`，`get_page_text` 較穩定。

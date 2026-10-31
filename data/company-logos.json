@@ -1,0 +1,678 @@
+{
+  "_doc": "公司 logo 的來源紀錄。檔案在 public/logos/，scripts/fetch-gcs-data.js 只用這裡列的；method：official-site（公司官網的圖檔）、css-background（官網 CSS 背景圖）、inline-svg（官網 HTML 內嵌 SVG）、screenshot（官網頁首 logo 元素截圖）、wikipedia（維基百科資訊框的檔案）。重抓用 scripts/fetch-company-logos.py。",
+  "logos": {
+    "1102": {
+      "file": "1102.jpg",
+      "source": "https://www.acc.com.tw/images/logo.jpg",
+      "page": "https://www.acc.com.tw/",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "1210": {
+      "file": "1210.png",
+      "source": "https://www.dachan.com/styles/images/static/logo-wb.svg",
+      "page": "https://www.dachan.com/",
+      "method": "official-site",
+      "retrieved": "2026-11-01",
+      "note": "原檔為 SVG，轉成 PNG（高 240px）"
+    },
+    "1216": {
+      "file": "1216.png",
+      "source": "https://upload.wikimedia.org/wikipedia/zh/a/a2/Uni-President_Taiwan_logo.svg",
+      "page": "https://zh.wikipedia.org/wiki/File:Uni-President_Taiwan_logo.svg",
+      "method": "wikipedia",
+      "note": "https://zh.wikipedia.org/wiki/%E7%B5%B1%E4%B8%80%E4%BC%81%E6%A5%AD 資訊框的 logo；原檔為 SVG，轉成 PNG（高 240px）",
+      "retrieved": "2026-11-01"
+    },
+    "1301": {
+      "file": "1301.png",
+      "source": null,
+      "page": "https://www.fpc.com.tw/fpcw/",
+      "method": "screenshot",
+      "note": "官網頁首 logo 元素的截圖。原圖（https://www.fpc.com.tw/fpcw/images/fpcw_logo.png）是白字，網站放在綠色色塊上，白底卡片看不見，所以連同綠底一起截",
+      "retrieved": "2026-11-01"
+    },
+    "1303": {
+      "file": "1303.png",
+      "source": "https://www.npc.com.tw/j2npc/images/templatemo_logo.png",
+      "page": "https://www.npc.com.tw/j2npc/zhtw/home",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "1307": {
+      "file": "1307.png",
+      "source": null,
+      "page": "http://www.sanfang.com.tw",
+      "method": "screenshot",
+      "note": "官網頁首 logo 元素的截圖（logo 以 CSS 繪製，沒有獨立圖檔）",
+      "retrieved": "2026-11-01"
+    },
+    "1326": {
+      "file": "1326.webp",
+      "source": "https://www.fcfc.com.tw/images/145050/0/0/100",
+      "page": "https://www.fcfc.com.tw/",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "1336": {
+      "file": "1336.jpg",
+      "source": "https://www.thpt.com.tw/wp-content/uploads/2022/08/cropped-THPT-150x48.jpg",
+      "page": "https://www.thpt.com.tw/",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "1402": {
+      "file": "1402.png",
+      "source": "https://www.fenc.com/apple-touch-icon.png",
+      "page": "https://www.fenc.com/zh-TW",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "1434": {
+      "file": "1434.png",
+      "source": "https://www.ftc.com.tw/newftc/en/images/logo.png",
+      "page": "https://www.ftc.com.tw/newftc/en/index.php",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "1460": {
+      "file": "1460.png",
+      "source": "https://www.everest.com.tw/assets/img/icon/logo.svg",
+      "page": "https://www.everest.com.tw/tw",
+      "method": "official-site",
+      "retrieved": "2026-11-01",
+      "note": "原檔為 SVG，轉成 PNG（高 240px）"
+    },
+    "1504": {
+      "file": "1504.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/c/c1/TECO_Electric_and_Machinery_logo_since_2002.svg",
+      "page": "https://zh.wikipedia.org/wiki/File:TECO_Electric_and_Machinery_logo_since_2002.svg",
+      "method": "wikipedia",
+      "note": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E5%85%83%E9%9B%BB%E6%A9%9F 資訊框的 logo；原檔為 SVG，轉成 PNG（高 240px）",
+      "retrieved": "2026-11-01"
+    },
+    "1537": {
+      "file": "1537.png",
+      "source": "https://www.klb.com.tw/images/logo.svg",
+      "page": "https://www.klb.com.tw/",
+      "method": "official-site",
+      "retrieved": "2026-11-01",
+      "note": "原檔為 SVG，轉成 PNG（高 240px）"
+    },
+    "1582": {
+      "file": "1582.png",
+      "source": "https://www.syncmold.com.tw/images_syncmold/syncmold_logo.gif",
+      "page": "https://www.syncmold.com.tw/",
+      "method": "official-site",
+      "retrieved": "2026-11-01",
+      "note": "原檔是動畫 GIF，取最後一格存成 PNG"
+    },
+    "1586": {
+      "file": "1586.png",
+      "source": "https://www.cftc.tw/images/logo.svg",
+      "page": "https://www.cftc.tw/",
+      "method": "official-site",
+      "retrieved": "2026-11-01",
+      "note": "原檔為 SVG，轉成 PNG（高 240px）"
+    },
+    "1597": {
+      "file": "1597.png",
+      "source": "https://chieftek.com/wp-content/uploads/2025/02/logo-1-1.png",
+      "page": "https://chieftek.com/",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "1605": {
+      "file": "1605.png",
+      "source": "https://www.walsin.com/wp-content/themes/walsin-official/css/img/logo.svg",
+      "page": "https://www.walsin.com/",
+      "method": "official-site",
+      "retrieved": "2026-11-01",
+      "note": "原檔為 SVG，轉成 PNG（高 240px）"
+    },
+    "1736": {
+      "file": "1736.png",
+      "source": null,
+      "page": "https://www.johnsonfitness.com/",
+      "method": "screenshot",
+      "note": "官網頁首 logo 元素的截圖（原圖 curl 下載回 403：https://www.johnsonfitness.com/Content/images/svg/jfw-logo-su.svg）",
+      "retrieved": "2026-11-01"
+    },
+    "1802": {
+      "file": "1802.gif",
+      "source": "https://www.taiwanglass.com/image/logo_bnew.gif",
+      "page": "https://www.taiwanglass.com/",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "1905": {
+      "file": "1905.png",
+      "source": "https://upload.wikimedia.org/wikipedia/zh/f/f3/Chung_Hwa_Pulp_logo.svg",
+      "page": "https://zh.wikipedia.org/wiki/File:Chung_Hwa_Pulp_logo.svg",
+      "method": "wikipedia",
+      "note": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E7%B4%99%E6%BC%BF 資訊框的 logo；原檔為 SVG，轉成 PNG（高 240px）",
+      "retrieved": "2026-11-01"
+    },
+    "1907": {
+      "file": "1907.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Yong_Feng_Yu_group_logo.svg",
+      "page": "https://zh.wikipedia.org/wiki/File:Yong_Feng_Yu_group_logo.svg",
+      "method": "wikipedia",
+      "note": "https://zh.wikipedia.org/wiki/%E6%B0%B8%E8%B1%90%E9%A4%98 資訊框的 logo；原檔為 SVG，轉成 PNG（高 240px）",
+      "retrieved": "2026-11-01"
+    },
+    "2002": {
+      "file": "2002.png",
+      "source": "https://upload.wikimedia.org/wikipedia/zh/8/8a/China_Steel.svg",
+      "page": "https://zh.wikipedia.org/wiki/File:China_Steel.svg",
+      "method": "wikipedia",
+      "note": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E9%8B%BC%E9%90%B5 資訊框的 logo；原檔為 SVG，轉成 PNG（高 240px）",
+      "retrieved": "2026-11-01"
+    },
+    "2010": {
+      "file": "2010.png",
+      "source": "https://www.cysco.com.tw/storage/system/logo/ChunYuanSteel.svg",
+      "page": "https://www.cysco.com.tw/",
+      "method": "official-site",
+      "retrieved": "2026-11-01",
+      "note": "原檔為 SVG，轉成 PNG（高 240px）"
+    },
+    "2067": {
+      "file": "2067.png",
+      "source": "http://www.cysteel.com.tw/images/logo.png",
+      "page": "http://www.cysteel.com.tw/",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "2103": {
+      "file": "2103.png",
+      "source": "https://www.tsrc.com.tw/app/themes/theme/assets/imgs/logo.svg",
+      "page": "https://www.tsrc.com.tw/",
+      "method": "official-site",
+      "retrieved": "2026-11-01",
+      "note": "原檔為 SVG，轉成 PNG（高 240px）"
+    },
+    "2104": {
+      "file": "2104.png",
+      "source": "https://www.csrcgroup.com/img/logo.png",
+      "page": "https://www.csrcgroup.com/",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "2105": {
+      "file": "2105.png",
+      "source": "https://www.cst.com.tw/images/logo.png",
+      "page": "https://www.cst.com.tw/",
+      "method": "official-site",
+      "retrieved": "2026-11-01",
+      "note": "官網頁首用的是自家品牌 MAXXIS"
+    },
+    "2106": {
+      "file": "2106.png",
+      "source": "https://www.kendatire.com/favicon/apple-touch-icon.png",
+      "page": "https://www.kendatire.com/en-us/",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "2206": {
+      "file": "2206.png",
+      "source": "https://www.sanyang.com.tw/storage/system/logo/logo.svg",
+      "page": "https://www.sanyang.com.tw/",
+      "method": "official-site",
+      "retrieved": "2026-11-01",
+      "note": "原檔為 SVG，轉成 PNG（高 240px）"
+    },
+    "2303": {
+      "file": "2303.png",
+      "source": "https://www.umc.com/templates/default/images/umc_logo.svg",
+      "page": "https://www.umc.com/zh-TW/home/Index",
+      "method": "official-site",
+      "retrieved": "2026-11-01",
+      "note": "原檔為 SVG，轉成 PNG（高 240px）"
+    },
+    "2308": {
+      "file": "2308.png",
+      "source": "https://www.deltaww.com/_next/image?url=%2Fimages%2Fdelta_logo.png&w=384&q=75",
+      "page": "https://www.deltaww.com/zh-TW/index",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "2317": {
+      "file": "2317.png",
+      "source": "https://upload.wikimedia.org/wikipedia/zh/f/fe/Hon_Hai_Precision_Industry_logo.svg",
+      "page": "https://zh.wikipedia.org/wiki/File:Hon_Hai_Precision_Industry_logo.svg",
+      "method": "wikipedia",
+      "note": "https://zh.wikipedia.org/wiki/%E9%B4%BB%E6%B5%B7%E7%B2%BE%E5%AF%86%E5%B7%A5%E6%A5%AD 資訊框的 logo；原檔為 SVG，轉成 PNG（高 240px）",
+      "retrieved": "2026-11-01"
+    },
+    "2323": {
+      "file": "2323.png",
+      "source": "https://www.cmcnet.com.tw/assets/front/images/logo@2x.png",
+      "page": "https://www.cmcnet.com.tw/",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "2327": {
+      "file": "2327.png",
+      "source": "https://upload.wikimedia.org/wikipedia/zh/2/2c/YAGEO_logo.svg",
+      "page": "https://zh.wikipedia.org/wiki/File:YAGEO_logo.svg",
+      "method": "wikipedia",
+      "note": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E5%B7%A8 資訊框的 logo；原檔為 SVG，轉成 PNG（高 240px）",
+      "retrieved": "2026-11-01"
+    },
+    "2330": {
+      "file": "2330.png",
+      "source": "https://www.tsmc.com/themes/custom/bootstrap_sass/images/logo.png",
+      "page": "https://www.tsmc.com/english",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "2352": {
+      "file": "2352.jpg",
+      "source": "https://www.qisda.com/icon.jpg",
+      "page": "https://www.qisda.com/tw",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "2354": {
+      "file": "2354.png",
+      "source": "https://www.foxconntech.com.tw/static/images/logo-dark.51b38d08f71c.svg",
+      "page": "https://www.foxconntech.com.tw/index/",
+      "method": "official-site",
+      "retrieved": "2026-11-01",
+      "note": "原檔為 SVG，轉成 PNG（高 240px）"
+    },
+    "2357": {
+      "file": "2357.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/2/2e/ASUS_Logo.svg",
+      "page": "https://zh.wikipedia.org/wiki/File:ASUS_Logo.svg",
+      "method": "wikipedia",
+      "note": "https://zh.wikipedia.org/wiki/%E8%8F%AF%E7%A2%A9 資訊框的 logo；原檔為 SVG，轉成 PNG（高 240px）",
+      "retrieved": "2026-11-01"
+    },
+    "2371": {
+      "file": "2371.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Tatung_logo.svg",
+      "page": "https://zh.wikipedia.org/wiki/File:Tatung_logo.svg",
+      "method": "wikipedia",
+      "note": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%90%8C%E5%85%AC%E5%8F%B8 資訊框的 logo；原檔為 SVG，轉成 PNG（高 240px）",
+      "retrieved": "2026-11-01"
+    },
+    "2382": {
+      "file": "2382.png",
+      "source": "https://www.quantatw.com/Quanta/index/img/logo.png",
+      "page": "https://www.quantatw.com/Quanta/chinese/Default.aspx",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "2383": {
+      "file": "2383.png",
+      "source": "https://www.emctw.com/upload/media/index/kv/emc_logo.png",
+      "page": "https://www.emctw.com/zh-TW",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "2395": {
+      "file": "2395.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Advantech_logo.svg",
+      "page": "https://zh.wikipedia.org/wiki/File:Advantech_logo.svg",
+      "method": "wikipedia",
+      "note": "https://zh.wikipedia.org/wiki/%E7%A0%94%E8%8F%AF%E7%A7%91%E6%8A%80 資訊框的 logo；原檔為 SVG，轉成 PNG（高 240px）",
+      "retrieved": "2026-11-01"
+    },
+    "2408": {
+      "file": "2408.png",
+      "source": "https://www.nanya.com/Content/Template/img/layout/logo_nanya.png",
+      "page": "https://www.nanya.com/en/",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "2409": {
+      "file": "2409.png",
+      "source": "https://auo.com/template/images/common/auo-logo.svg",
+      "page": "https://auo.com/zh-TW",
+      "method": "official-site",
+      "retrieved": "2026-11-01",
+      "note": "原檔為 SVG，轉成 PNG（高 240px）"
+    },
+    "2486": {
+      "file": "2486.png",
+      "source": "https://www.i-chiun.com.tw/rwd1809/Store/OwnImage/logo.png",
+      "page": "https://www.i-chiun.com.tw/",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "2603": {
+      "file": "2603.png",
+      "source": "https://upload.wikimedia.org/wikipedia/zh/2/28/Evergreen_Marine_logo.svg",
+      "page": "https://zh.wikipedia.org/wiki/File:Evergreen_Marine_logo.svg",
+      "method": "wikipedia",
+      "note": "https://zh.wikipedia.org/wiki/%E9%95%B7%E6%A6%AE%E6%B5%B7%E9%81%8B 資訊框的 logo；原檔為 SVG，轉成 PNG（高 240px）",
+      "retrieved": "2026-11-01"
+    },
+    "2609": {
+      "file": "2609.png",
+      "source": "https://www.yangming.com/_next/static/media/logo.18azf_ms3vzwh.png",
+      "page": "https://www.yangming.com/en",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "2610": {
+      "file": "2610.png",
+      "source": "https://upload.wikimedia.org/wikipedia/zh/4/46/China_Airlines_logo.svg",
+      "page": "https://zh.wikipedia.org/wiki/File:China_Airlines_logo.svg",
+      "method": "wikipedia",
+      "note": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E8%88%AA%E7%A9%BA 資訊框的 logo；原檔為 SVG，轉成 PNG（高 240px）",
+      "retrieved": "2026-11-01"
+    },
+    "2615": {
+      "file": "2615.png",
+      "source": "https://tw.wanhai.com/images/whl_tw/logo.png",
+      "page": "https://tw.wanhai.com/views/Main.xhtml",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "2618": {
+      "file": "2618.png",
+      "source": "https://upload.wikimedia.org/wikipedia/zh/4/43/EVA_AIR_Logo.svg",
+      "page": "https://zh.wikipedia.org/wiki/File:EVA_AIR_Logo.svg",
+      "method": "wikipedia",
+      "note": "https://zh.wikipedia.org/wiki/%E9%95%B7%E6%A6%AE%E8%88%AA%E7%A9%BA 資訊框的 logo；原檔為 SVG，轉成 PNG（高 240px）",
+      "retrieved": "2026-11-01"
+    },
+    "2723": {
+      "file": "2723.png",
+      "source": "https://upload.wikimedia.org/wikipedia/zh/1/1d/85c_Daily_Cafe_logo.svg",
+      "page": "https://zh.wikipedia.org/wiki/File:85c_Daily_Cafe_logo.svg",
+      "method": "wikipedia",
+      "note": "https://zh.wikipedia.org/wiki/85%E5%BA%A6C 資訊框的 logo；原檔為 SVG，轉成 PNG（高 240px）",
+      "retrieved": "2026-11-01"
+    },
+    "2880": {
+      "file": "2880.png",
+      "source": "https://upload.wikimedia.org/wikipedia/zh/7/73/Hua_Nan_Financial_Holdings.svg",
+      "page": "https://zh.wikipedia.org/wiki/File:Hua_Nan_Financial_Holdings.svg",
+      "method": "wikipedia",
+      "note": "https://zh.wikipedia.org/wiki/%E8%8F%AF%E5%8D%97%E9%87%91%E8%9E%8D%E6%8E%A7%E8%82%A1 資訊框的 logo；原檔為 SVG，轉成 PNG（高 240px）",
+      "retrieved": "2026-11-01"
+    },
+    "2882": {
+      "file": "2882.png",
+      "source": "https://www.cathayholdings.com/holdings/-/media/aecbe706c11e499a8d7123f6bc3a15d4.svg?h=40&iar=0&w=198&sc_lang=zh-tw",
+      "page": "https://www.cathayholdings.com/holdings/",
+      "method": "official-site",
+      "retrieved": "2026-11-01",
+      "note": "原檔為 SVG，轉成 PNG（高 240px）"
+    },
+    "2886": {
+      "file": "2886.png",
+      "source": "https://upload.wikimedia.org/wikipedia/zh/f/fb/Mega_Holdings.svg",
+      "page": "https://zh.wikipedia.org/wiki/File:Mega_Holdings.svg",
+      "method": "wikipedia",
+      "note": "https://zh.wikipedia.org/wiki/%E5%85%86%E8%B1%90%E9%87%91%E8%9E%8D%E6%8E%A7%E8%82%A1 資訊框的 logo；原檔為 SVG，轉成 PNG（高 240px）",
+      "retrieved": "2026-11-01"
+    },
+    "2887": {
+      "file": "2887.png",
+      "source": "https://upload.wikimedia.org/wikipedia/zh/b/b2/Taishin.svg",
+      "page": "https://zh.wikipedia.org/wiki/File:Taishin.svg",
+      "method": "wikipedia",
+      "note": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E6%96%B0%E9%87%91%E8%9E%8D%E6%8E%A7%E8%82%A1 資訊框的 logo；原檔為 SVG，轉成 PNG（高 240px）",
+      "retrieved": "2026-11-01"
+    },
+    "2891": {
+      "file": "2891.png",
+      "source": "https://upload.wikimedia.org/wikipedia/zh/6/63/China_Trust.svg",
+      "page": "https://zh.wikipedia.org/wiki/File:China_Trust.svg",
+      "method": "wikipedia",
+      "note": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E4%BF%A1%E8%A8%97%E9%87%91%E8%9E%8D%E6%8E%A7%E8%82%A1 資訊框的 logo；原檔為 SVG，轉成 PNG（高 240px）",
+      "retrieved": "2026-11-01"
+    },
+    "2908": {
+      "file": "2908.png",
+      "source": "https://upload.wikimedia.org/wikipedia/zh/0/00/Test_Rite_International_logo.svg",
+      "page": "https://zh.wikipedia.org/wiki/File:Test_Rite_International_logo.svg",
+      "method": "wikipedia",
+      "note": "https://zh.wikipedia.org/wiki/%E7%89%B9%E5%8A%9B%E9%9B%86%E5%9C%98 資訊框的 logo；原檔為 SVG，轉成 PNG（高 240px）",
+      "retrieved": "2026-11-01"
+    },
+    "3044": {
+      "file": "3044.png",
+      "source": "https://www.tripod-tech.com/web/images/footer-logo-pc.png",
+      "page": "https://www.tripod-tech.com/",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "3231": {
+      "file": "3231.png",
+      "source": null,
+      "page": "https://www.wistron.com/ch",
+      "method": "screenshot",
+      "note": "官網頁首 logo 元素的截圖（原圖 curl 下載回 403：https://www.wistron.com/_next/static/media/logo.8b542402.svg）",
+      "retrieved": "2026-11-01"
+    },
+    "3260": {
+      "file": "3260.png",
+      "source": "https://www.adata.com/images/layout/icon/ADATA-logo.svg",
+      "page": "https://www.adata.com/tw/",
+      "method": "official-site",
+      "retrieved": "2026-11-01",
+      "note": "原檔為 SVG，轉成 PNG（高 240px）"
+    },
+    "3294": {
+      "file": "3294.png",
+      "source": "https://www.megaforce.com.tw/templates/default/images/logoB.png",
+      "page": "https://www.megaforce.com.tw/en-global/Home/Index",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "3481": {
+      "file": "3481.png",
+      "source": "https://www.innolux.com/global/images/logo.png",
+      "page": "https://www.innolux.com/tw/",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "3508": {
+      "file": "3508.png",
+      "source": "https://www.waystech.net/template/images/ways_logo.png",
+      "page": "https://www.waystech.net/zh-tw/home",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "3597": {
+      "file": "3597.png",
+      "source": "https://www.avertronics.com/images/theme-b67/logo-h.png",
+      "page": "https://www.avertronics.com/",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "3706": {
+      "file": "3706.png",
+      "source": "https://www.mitac.com/template/images/mic_logo.svg",
+      "page": "https://www.mitac.com/en-global",
+      "method": "official-site",
+      "retrieved": "2026-11-01",
+      "note": "原檔為 SVG，轉成 PNG（高 240px）"
+    },
+    "3711": {
+      "file": "3711.png",
+      "source": "https://cdn.prod.website-files.com/6a4c7cf038139cd8999ff317/6a4c7cf038139cd8999ff59c_ASEH-LOGOTYPE-Horizontal.png",
+      "page": "https://www.aseglobal.com/",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "4560": {
+      "file": "4560.png",
+      "source": "https://www.strongh.tw/template/shop/images/logo.png",
+      "page": "https://www.strongh.tw/",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "4737": {
+      "file": "4737.webp",
+      "source": "https://www.bionime.com/wp-content/uploads/2024/12/header-logo-large.webp",
+      "page": "https://www.bionime.com/",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "4766": {
+      "file": "4766.png",
+      "source": "https://www.nanpao.com.tw/images/logo.png?3",
+      "page": "https://www.nanpao.com.tw/",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "4915": {
+      "file": "4915.webp",
+      "source": "https://www.primax.com.tw/templates/common/images/footer-logo.webp",
+      "page": "https://www.primax.com.tw/en",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "5009": {
+      "file": "5009.png",
+      "source": null,
+      "page": "https://www.gmtc.com.tw/tw",
+      "method": "inline-svg",
+      "note": "官網頁首內嵌的 <svg>；原檔為 SVG，轉成 PNG（高 240px）",
+      "retrieved": "2026-11-01"
+    },
+    "5306": {
+      "file": "5306.png",
+      "source": "http://www.kmc-international.com/site/themes/default/cht/images/logo.png",
+      "page": "https://www.kmc-international.com",
+      "method": "css-background",
+      "note": "官網頁首 logo 連結的 CSS 背景圖",
+      "retrieved": "2026-11-01"
+    },
+    "5483": {
+      "file": "5483.png",
+      "source": "https://www.saswafer.com/wp-content/uploads/2019/03/SAS-logo-1.png",
+      "page": "https://www.saswafer.com/",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "5876": {
+      "file": "5876.png",
+      "source": "https://www.scsb.com.tw/content/images/logo_sb.svg",
+      "page": "https://www.scsb.com.tw/content/FrontPage",
+      "method": "official-site",
+      "retrieved": "2026-11-01",
+      "note": "原檔為 SVG，轉成 PNG（高 240px）"
+    },
+    "6116": {
+      "file": "6116.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/4/4f/HannStar.png",
+      "page": "https://zh.wikipedia.org/wiki/File:HannStar.png",
+      "method": "wikipedia",
+      "note": "https://zh.wikipedia.org/wiki/%E7%80%9A%E5%AE%87%E5%BD%A9%E6%99%B6 資訊框的 logo",
+      "retrieved": "2026-11-01"
+    },
+    "6472": {
+      "file": "6472.png",
+      "source": "https://bora-corp.com/wp-content/uploads/2025/05/bora-logo.svg",
+      "page": "https://bora-corp.com/",
+      "method": "official-site",
+      "retrieved": "2026-11-01",
+      "note": "原檔為 SVG，轉成 PNG（高 240px）"
+    },
+    "6488": {
+      "file": "6488.png",
+      "source": "https://www.sas-globalwafers.com/wp-content/uploads/2019/11/logo-1.png",
+      "page": "https://www.sas-globalwafers.com/",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "6505": {
+      "file": "6505.png",
+      "source": "https://www.fpcc.com.tw/assets/img/layout/Logo.svg",
+      "page": "https://www.fpcc.com.tw/",
+      "method": "official-site",
+      "retrieved": "2026-11-01",
+      "note": "原檔為 SVG，轉成 PNG（高 240px）"
+    },
+    "6670": {
+      "file": "6670.png",
+      "source": null,
+      "page": "https://www.fusheng-precision.com/",
+      "method": "inline-svg",
+      "note": "官網頁首內嵌的 <svg>；原檔為 SVG，轉成 PNG（高 240px）",
+      "retrieved": "2026-11-01"
+    },
+    "6887": {
+      "file": "6887.png",
+      "source": "https://lirp.cdn-website.com/b8b09497/dms3rep/multi/opt/20140321boretech-logo_bg-1920w.png",
+      "page": "https://www.bo-re-tech.group/",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "8069": {
+      "file": "8069.png",
+      "source": "https://www.eink.com/dist/assets/img/eink_logo_single.svg",
+      "page": "https://www.eink.com/",
+      "method": "official-site",
+      "retrieved": "2026-11-01",
+      "note": "原檔為 SVG，轉成 PNG（高 240px）"
+    },
+    "8431": {
+      "file": "8431.png",
+      "source": "https://superiortec.com/images/photos/logo_1.png",
+      "page": "https://superiortec.com/",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "8478": {
+      "file": "8478.png",
+      "source": "https://oceanalexander.com/wp-content/uploads/Ocean-Alexander-Logo_Color_Black_NEW.svg",
+      "page": "https://oceanalexander.com/",
+      "method": "official-site",
+      "retrieved": "2026-11-01",
+      "note": "原檔為 SVG，轉成 PNG（高 240px）"
+    },
+    "8938": {
+      "file": "8938.png",
+      "source": "https://www.adgroup.com.tw/Templates/C108096EZW/images/all/logo.png",
+      "page": "https://www.adgroup.com.tw",
+      "method": "css-background",
+      "note": "官網頁首 logo 連結的 CSS 背景圖",
+      "retrieved": "2026-11-01"
+    },
+    "9904": {
+      "file": "9904.png",
+      "source": "https://www.pouchen.com/images/logo.png",
+      "page": "https://www.pouchen.com/index.php/tw/",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "9905": {
+      "file": "9905.png",
+      "source": "https://www.greatchina.com.tw/wp-content/uploads/2024/08/Logo-2.png",
+      "page": "https://www.greatchina.com.tw/",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "9910": {
+      "file": "9910.png",
+      "source": "https://www.fengtay.com/assets/img/logo/feng-tay-logo.png?202205231014",
+      "page": "https://www.fengtay.com/",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    },
+    "9924": {
+      "file": "9924.png",
+      "source": "https://www.fuhsing.com.tw/files/images/logo_en.svg",
+      "page": "https://www.fuhsing.com.tw/en",
+      "method": "official-site",
+      "retrieved": "2026-11-01",
+      "note": "原檔為 SVG，轉成 PNG（高 240px）"
+    },
+    "9934": {
+      "file": "9934.png",
+      "source": "https://tw.globeunion.com/wp-content/uploads/2019/04/GlobeUnion_Faucet_Manufacturer_Logo_min.png",
+      "page": "https://tw.globeunion.com/",
+      "method": "official-site",
+      "retrieved": "2026-11-01"
+    }
+  }
+}

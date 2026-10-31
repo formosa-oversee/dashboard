@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { Box, Container, Heading, Text, Grid, GridItem, VStack, HStack, Badge, Card, CardBody, Stack, Divider, CardFooter, Button, Image, Input, InputGroup, InputLeftElement, Flex } from '@chakra-ui/react';
+import { useMemo, useState } from 'react';
+import { Box, Container, Heading, Text, Grid, GridItem, VStack, HStack, Badge, Card, CardBody, Stack, Divider, CardFooter, Button, Image, Input, InputGroup, InputLeftElement, Flex, Select } from '@chakra-ui/react';
 import { FaSearch, FaIndustry, FaBuilding, FaChevronRight, FaExclamationTriangle, FaGavel } from 'react-icons/fa';
 import Link from 'next/link';
 import Layout from '../../components/Layout';
@@ -68,10 +68,29 @@ const CompanyCard = ({ company }) => {
   );
 };
 
+// 排序：主鍵依選項（污染事件數或罰款紀錄數），同數時依序比另一項、罰款金額、EPA 違規數，最後依公司代號
+const SORTS = {
+  news: { label: '依污染事件', keys: ['newsCount', 'enforcementCount', 'penaltyTotalUSD', 'totalViolations'] },
+  enforcement: { label: '依罰款紀錄', keys: ['enforcementCount', 'penaltyTotalUSD', 'newsCount', 'totalViolations'] },
+};
+
+const sortCompanies = (list, sortKey) => {
+  const keys = SORTS[sortKey].keys;
+  return [...list].sort((a, b) => {
+    for (const k of keys) {
+      const d = (b[k] || 0) - (a[k] || 0);
+      if (d !== 0) return d;
+    }
+    return String(a.id).localeCompare(String(b.id));
+  });
+};
+
 export default function Companies({ companiesData: initialCompaniesData = [] }) {
   const [searchTerm, setSearchTerm] = useState('');
+  const [sortKey, setSortKey] = useState('news');
   const [companiesData] = useState(initialCompaniesData);
   const [filteredCompanies, setFilteredCompanies] = useState(initialCompaniesData);
+  const sortedCompanies = useMemo(() => sortCompanies(filteredCompanies, sortKey), [filteredCompanies, sortKey]);
 
   // Debug: Log data on mount
   if (typeof window !== 'undefined' && initialCompaniesData.length > 0) {
@@ -104,32 +123,43 @@ export default function Companies({ companiesData: initialCompaniesData = [] }) 
     <Layout>
       <Box bg="green.50" py={6}>
         <Container maxW="container.xl">
-          <Heading color="green.600">企業環境監測列表</Heading>
+          <Heading color="green.600">企業列表</Heading>
           <Text color="gray.600" mt={2}>
-            瀏覽和搜索企業的環境表現、違規記錄和ESG評級
+            台灣上市公司海外據點的污染事件、罰款紀錄與美國 EPA 違規紀錄
           </Text>
         </Container>
       </Box>
-      
+
       <Container maxW="container.xl" py={10}>
         <VStack spacing={8} align="stretch">
-          <Box mb={6}>
-            <InputGroup>
+          <Flex mb={6} gap={4} direction={{ base: 'column', md: 'row' }}>
+            <InputGroup flex="1">
               <InputLeftElement pointerEvents="none">
                 <FaSearch color="gray.300" />
               </InputLeftElement>
               <Input
-                placeholder="搜索企業名稱、行業或地區"
+                placeholder="搜尋企業名稱、行業或地區"
                 value={searchTerm}
                 onChange={handleSearch}
                 borderRadius="md"
                 bg="white"
               />
             </InputGroup>
-          </Box>
+            <Select
+              aria-label="排序"
+              value={sortKey}
+              onChange={(e) => setSortKey(e.target.value)}
+              bg="white"
+              w={{ base: '100%', md: '200px' }}
+            >
+              {Object.entries(SORTS).map(([key, s]) => (
+                <option key={key} value={key}>{s.label}</option>
+              ))}
+            </Select>
+          </Flex>
 
           <Grid templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(2, 1fr)", lg: "repeat(3, 1fr)" }} gap={6}>
-            {filteredCompanies.map(company => (
+            {sortedCompanies.map(company => (
               <GridItem key={company.id}>
                 <CompanyCard company={company} />
               </GridItem>
@@ -138,7 +168,7 @@ export default function Companies({ companiesData: initialCompaniesData = [] }) 
 
           {filteredCompanies.length === 0 && (
             <Box textAlign="center" py={10} bg="white" rounded="md" shadow="sm" p={6}>
-              <Text fontSize="lg">沒有找到符合的企業，請嘗試其他搜索詞</Text>
+              <Text fontSize="lg">沒有找到符合的企業，請嘗試其他搜尋詞</Text>
             </Box>
           )}
         </VStack>

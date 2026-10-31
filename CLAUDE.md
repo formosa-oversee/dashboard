@@ -49,8 +49,8 @@ npm run download-epa                          # 已內建該環境變數
 - 這個 repo 是公開的，push 到 main 會觸發 GitHub Pages 部署。
 - **MOPS `mops_company_info.csv` 的「英文全稱」欄有整段錯一列的問題**（詳見 `docs/violation-tracker-data-access.md` 附錄）。做任何名稱匹配請用「英文簡稱」，或兩支腳本內已修正的英文全稱（以英文簡稱字首或縮寫字母順序判斷錯位），不要直接用原始「英文全稱」。
 - **污染事件**（公司頁「污染事件」分頁）：規格見 `docs/pollution-news-spec.md`。人工整理 `data/news-events.json`（每個事件附來源與封存網址）→ `npm run news`（`scripts/build-news.py` 驗證收錄門檻、依持股決定掛在哪些公司頁 → `data/news.json` → build-company-info → fetch-data）。兩個檔都進 git，CI 不需要 MOPS。研究與查證紀錄放 `docs/pollution-news-research/`。地圖頁 `/map` 的事件圖層讀 `news.json`（`getMapEvents`，元件 `components/MapEventLayer.js`），每個地點要有 `coordinates`；事件類型、狀態、精度的中文字典在 `lib/news-labels.js`，公司頁共用。
-- **公司 logo**：只用 `data/company-logos.json` 列的檔案（`public/logos/<代號>.<副檔名>`），`fetch-gcs-data.js` 的 `attachLogos` 依它設定 `logoUrl`，沒列的留 null，前端顯示公司名稱。`facilities.csv` 的「LOGO網址」外連到圖片搜尋縮圖或第三方網站，有的失效或不是該公司，不再使用。2026-11-01 取得 89／98 家：
-  - 來源先用公司官網（MOPS 公司網址）：讀過 robots，禁止的不抓。官網 robots 禁止或只有白字 logo 的，改用維基百科條目資訊框的檔案。
+- **公司 logo**：只用 `data/company-logos.json` 列的檔案（`public/logos/<代號>.<副檔名>`），`fetch-gcs-data.js` 的 `attachLogos` 依它設定 `logoUrl`，沒列的留 null，前端顯示公司名稱。`facilities.csv` 的「LOGO網址」外連到圖片搜尋縮圖或第三方網站，有的失效或不是該公司，不再使用。2026-11-01 取得 92／98 家：
+  - 來源先用公司官網（MOPS 公司網址）：讀過 robots，禁止的不抓。robots 對 `*` 允許、只點名禁止 ClaudeBot 等 AI 爬蟲的網站（Cloudflare 預設版），使用者 2026-11-01 同意用自報身分的 UA `FormosaOversee research (non-commercial)` 抓（長興、永記、正瀚），`note` 寫明。官網 robots 禁止或只有白字 logo 的，改用維基百科條目資訊框的檔案。
   - 每筆記 `source`（圖檔網址）、`page`、`method`、`note`。
   - SVG 一律轉成 PNG（高 240px）：外部 SVG 可能夾帶腳本，直接開檔會在本站網域執行。
   - 重抓用 `scripts/fetch-company-logos.py`，沒有獨立網址或需要轉檔的會跳過。

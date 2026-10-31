@@ -130,6 +130,22 @@
       "retrieved": "2026-11-01",
       "note": "原檔為 SVG，轉成 PNG（高 240px）"
     },
+    "1717": {
+      "file": "1717.png",
+      "source": "https://www.eternal-group.com/images/footerLogo.svg",
+      "page": "https://www.eternal-group.com/Home",
+      "method": "official-site",
+      "note": "以自報身分的 UA「FormosaOversee research (non-commercial)」（robots 對 * 允許，只點名禁止 ClaudeBot 等 AI 爬蟲，Content-Signal 為 ai-train=no；使用者 2026-11-01 同意這類網站用自報身分的 UA 抓取）；原檔為 SVG，轉成 PNG（高 240px）；裁掉右側英文標語「Elements of Infinite Possibilities」",
+      "retrieved": "2026-11-01"
+    },
+    "1726": {
+      "file": "1726.png",
+      "source": "https://www.rainbowpaint.com.tw/images/layout/logo.svg",
+      "page": "https://www.rainbowpaint.com.tw/",
+      "method": "css-background",
+      "note": "官網頁首 logo 連結的 CSS 背景圖（品牌「虹牌油漆」），以自報身分的 UA「FormosaOversee research (non-commercial)」（robots 對 * 允許，只點名禁止 ClaudeBot 等 AI 爬蟲，Content-Signal 為 ai-train=no；使用者 2026-11-01 同意這類網站用自報身分的 UA 抓取）；原檔為 SVG，轉成 PNG（高 240px）",
+      "retrieved": "2026-11-01"
+    },
     "1736": {
       "file": "1736.png",
       "source": null,
@@ -591,6 +607,14 @@
       "method": "official-site",
       "retrieved": "2026-11-01",
       "note": "原檔為 SVG，轉成 PNG（高 240px）"
+    },
+    "6534": {
+      "file": "6534.png",
+      "source": "https://www.chbio.com/wp-content/uploads/2022/05/logo_chbio-2.svg",
+      "page": "https://www.chbio.com/",
+      "method": "official-site",
+      "note": "以自報身分的 UA「FormosaOversee research (non-commercial)」（robots 對 * 允許，只點名禁止 ClaudeBot 等 AI 爬蟲，Content-Signal 為 ai-train=no；使用者 2026-11-01 同意這類網站用自報身分的 UA 抓取）；原檔為 SVG，轉成 PNG（高 240px）",
+      "retrieved": "2026-11-01"
     },
     "6670": {
       "file": "6670.png",

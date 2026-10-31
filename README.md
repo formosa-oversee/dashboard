@@ -1,20 +1,28 @@
-# Formosa Oversee - 企業環境監測平台
+# Formosa Oversee - 台資企業海外永續資訊揭露平台
 
-Formosa Oversee 是一個企業環境監測平台，幫助投資者、消費者和公眾了解企業的環境表現和違規記錄。本專案是一個使用 Next.js 和 Chakra UI 構建的前端演示應用。
+Formosa Oversee 整理台灣上市公司海外據點的環境紀錄：污染事件、罰款紀錄，以及美國 EPA 的違規與執法資料，讓公眾可以查詢、比較。網站：https://formosaoversee.com 。本專案是用 Next.js 14 與 Chakra UI 建構的靜態網站。
 
-## 功能特色
+## 功能
 
-- **企業環境監測**: 追蹤企業環境表現，查看 EPA 違規數據和環境合規狀況
-- **ESG 分析**: 查看企業的環境、社會和治理表現數據
-- **違規記錄追蹤**: 詳細記錄企業環保違規事件，包括罰款金額、違規類型和處理狀態
-- **相關新聞聚合**: 收集國內外相關環保新聞
+- **企業列表**：可依污染事件或罰款紀錄排序，搜尋公司名稱、產業或地區
+- **公司頁**：美國 EPA 廠區與違規紀錄、污染事件、罰款紀錄
+- **污染地圖**：EPA 廠區與海外污染事件的位置
+- **專題報導**
+
+## 資料來源
+
+- 美國環保署 EPA ECHO：水污染、空污、有害廢棄物違規與聯邦執法案件
+- 污染事件：各國主管機關與法院的公開文件、公司自行揭露的文件與媒體報導，收錄規則見 [`docs/pollution-news-spec.md`](docs/pollution-news-spec.md)
+- 罰款紀錄：Violation Tracker（Good Jobs First），經同意非營利使用
+- 持股與公司基本資料：公開資訊觀測站（MOPS）
+
+資料在 build 時轉成 `data/epa-data.json`，前端不打 API。管線說明見 [`CLAUDE.md`](CLAUDE.md)。
 
 ## 技術棧
 
-- **前端框架**: Next.js
+- **前端框架**: Next.js 14（靜態匯出，部署在 GitHub Pages）
 - **UI 庫**: Chakra UI
 - **圖標**: React Icons
-- **資料獲取**: 模擬數據 (未來可與 EPA ECHO API 整合)
 
 ## 開始使用
 
@@ -22,8 +30,8 @@ Formosa Oversee 是一個企業環境監測平台，幫助投資者、消費者�
 
 1. 克隆此專案
    ```
-   git clone https://github.com/formosa-oversee/formosa-oversee.git
-   cd formosa-oversee
+   git clone https://github.com/formosa-oversee/dashboard.git
+   cd dashboard
    ```
 
 2. 安裝依賴
@@ -45,21 +53,6 @@ Formosa Oversee 是一個企業環境監測平台，幫助投資者、消費者�
 - `/lib`: 工具函數、API 接口和主題設置
 - `/styles`: 全局樣式
 - `/public`: 靜態文件
-
-## 資料來源
-
-目前平台使用模擬數據，未來可以與以下 API 整合：
-
-- [EPA ECHO API](https://echo.epa.gov/tools/web-services): 美國環境保護署的環境數據 API
-- [環保署開放資料平台](https://data.epa.gov.tw/): 台灣環保署的環境數據
-
-## 未來計畫
-
-- API 實際連接與數據獲取
-- 數據視覺化圖表和儀表板
-- 多樣本企業分析與比較
-- 進階搜索和過濾功能
-- 使用者帳號和收藏功能
 
 ## 貢獻
 

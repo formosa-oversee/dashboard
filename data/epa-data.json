@@ -161,7 +161,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.127Z"
+      "lastUpdated": "2026-10-31T05:49:44.003Z"
     },
     "inEpaData": true,
     "news": [],
@@ -368,7 +368,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [
@@ -104848,7 +104848,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [
@@ -163928,7 +163928,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [
@@ -166557,7 +166557,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [
@@ -166902,7 +166902,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [
@@ -167067,7 +167067,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [],
@@ -167279,7 +167279,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [],
@@ -167969,7 +167969,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [
@@ -169290,7 +169290,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [],
@@ -172300,10 +172300,116 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
-    "news": [],
+    "news": [
+      {
+        "id": "csrc-continental-carbon-india-ghaziabad-2017-ncr-fuel-ban-shutdown",
+        "title": "國際中橡印度 Ghaziabad 碳黑廠因最高法院首都圈燃油禁令停產，當地媒體報導北方邦污染控制委員會下令關廠",
+        "summary": "國際中橡持股 100% 的 Continental Carbon India（CCIL）在北方邦 Ghaziabad 經營碳黑廠。國際中橡 106 年度合併財報的期後事項記載：印度最高法院 2017 年 10 月下旬對德里首都圈（NCR）的油品發布禁令，涵蓋碳黑原料油（CBFS），但沒有清楚定義禁止的油品種類；CCIL 向中央與地方政府查證都沒有得到澄清，2018 年 3 月 7 日拜會環境部，環境部承諾向最高法院爭取豁免，取得豁免前禁令仍適用於 CCIL。當地新聞網站 CitySpidey 2018 年 11 月的報導寫，北方邦污染控制委員會（UPPCB）2017 年 12 月認定這座廠違反 1981 年《空氣（污染防治）法》，下令關廠。財報記載 CCIL 2018 年 3 月 28 日收到環境部與 UPPCB 通知，可以使用硫含量符合管制的碳黑原料油生產，「現得不受禁令拘束恢復生產」；CitySpidey 寫工廠 2018 年 4 月復工。",
+        "type": "enforcement",
+        "status": "concluded",
+        "dateStart": "2017-12",
+        "dateEnd": "2018-03-28",
+        "datePrecision": "month",
+        "locations": [
+          {
+            "country": "印度",
+            "plantSite": "Ghaziabad（北方邦）, 印度",
+            "coordinates": {
+              "lat": 28.6712,
+              "lng": 77.412,
+              "precision": "city",
+              "source": "https://www.openstreetmap.org/node/2521085873",
+              "note": "OSM 的 Ghaziabad 城市節點（node 2521085873）。OSM 沒有這座廠，地址來源只有公司官網的聯絡地址，找不到可核對的廠區位置，降為城鎮"
+            }
+          }
+        ],
+        "entities": [
+          {
+            "name": "Continental Carbon India Limited",
+            "country": "印度"
+          }
+        ],
+        "groupControl": [],
+        "related": {
+          "eventIds": [],
+          "echoFacilityIds": [],
+          "enforcementCaseIds": []
+        },
+        "sources": [
+          {
+            "kind": "company",
+            "outlet": "國際中橡（當時名為中國合成橡膠）",
+            "outletRegion": "taiwan",
+            "language": "zh-TW",
+            "title": "中國合成橡膠股份有限公司 106 年度年報：合併財務報告附註三五「重大之期後事項」",
+            "date": "2018-03-28",
+            "url": "https://media.taiwancement.com/web_csrc/report/stockholders/107%20106%E5%B9%B4%E5%A0%B1.pdf",
+            "archiveUrl": "https://web.archive.org/web/20261031054244/https://media.taiwancement.com/web_csrc/report/stockholders/107%20106%E5%B9%B4%E5%A0%B1.pdf",
+            "verified": "opened",
+            "note": "PDF 第 172 頁（印刷頁 -151-）合併財報附註三五；個體財報附註三十（PDF 第 245 頁，印刷頁 -224-）文字相同。日期採同年報關係企業合併財報聲明書的日期 2018-03-28。pdftotext 抽出的文字是亂碼，轉成圖片判讀。財報寫的停產原因是最高法院的首都圈燃油禁令，沒寫這座廠排放超標。"
+          },
+          {
+            "kind": "media",
+            "outlet": "CitySpidey（德里首都圈地方新聞網站）",
+            "outletRegion": "local",
+            "language": "en",
+            "title": "CPCB orders temporary closure of Continental Carbon",
+            "date": "2018-11-17",
+            "url": "https://www.cityspidey.com/news/7080/cpcb-orders-temporary-closure-of-continental-carbon/",
+            "archiveUrl": "https://web.archive.org/web/20201108131358/https://www.cityspidey.com/news/7080/cpcb-orders-temporary-closure-of-continental-carbon/",
+            "verified": "opened",
+            "note": "只用文末背景段：UPPCB 2017 年 12 月認定違反 1981 年《空氣（污染防治）法》下令關廠，2018 年 4 月復工。這篇的主文是 2018 年 11 月 CPCB 的停工命令，那件另列待補，不在這個事件裡。原站 2026-10-31 從台灣連線逾時（443），robots（Wayback 20250101 封存）允許 /news/，以 Wayback 2020-11-08 封存判讀。"
+          }
+        ],
+        "addedAt": "2026-10-31",
+        "attribution": [
+          {
+            "companyCode": "2104",
+            "entity": "Continental Carbon India Limited",
+            "kind": "listed",
+            "effectivePct": 100,
+            "controlSince": 2016,
+            "path": [
+              "國際中橡（2018 年以前名為中國合成橡膠）",
+              "CSRC (BVI) Ltd.（100%）",
+              "CSRC (Singapore) Pte. Ltd.（100%）",
+              "Continental Carbon India Limited（100%；現名 Continental Carbon India Pvt Ltd.）"
+            ],
+            "basis": "國際中橡（當時名為中國合成橡膠股份有限公司，2018 年以分割方式轉型為投資控股公司並更名，上市代號同為 2104）105 年度年報（https://media.taiwancement.com/web_csrc/report/stockholders/106%20105%E5%B9%B4%E5%A0%B1.pdf，Wayback 20261031054221）PDF 第 232 頁（印刷頁 -228-）關係企業組織圖，資料日期 2016-12-31：中國合成橡膠 → CSRC (BVI) Ltd. 100% → CSRC (Singapore) Pte. Ltd. 100% → Continental Carbon India Ltd. 100.00%；同年報 PDF 第 234 頁各關係企業董監資料（2017-04-30）：Continental Carbon India Ltd. 88,917,140 股、持股 100.00%。這份年報 2017 年刊印，早於事件，controlSince 取 2016（決策 38 第 1 款）。106 年度年報（https://media.taiwancement.com/web_csrc/report/stockholders/107%20106%E5%B9%B4%E5%A0%B1.pdf，Wayback 20261031054244）PDF 第 125 頁合併財報子公司表，2017-12-31、2016-12-31 都是 100.00%。最新一期相同：2026 年第二季合併財報（https://media.taiwancement.com/web_csrc/report/financial/115%202Q%20%E8%B2%A1%E5%A0%B1.pdf，Wayback 20261031054342）PDF 第 21 頁子公司表，2026-06-30、2025-12-31 CSRC (Singapore) 持有 Continental Carbon India Pvt Ltd. 100.00%（PDF 第 65 頁另列 408,390,634 股）。以上都取自公司官網（media.taiwancement.com，沒有 robots 檔）。",
+            "companyName": "國際中橡投資控股股份有限公司",
+            "companyShort": "國際中橡",
+            "shown": true,
+            "reason": "own"
+          }
+        ],
+        "companyCodes": [
+          "2104"
+        ],
+        "holdings": [
+          {
+            "companyCode": "2104",
+            "entity": "Continental Carbon India Limited",
+            "kind": "listed",
+            "effectivePct": 100,
+            "controlSince": 2016,
+            "path": [
+              "國際中橡（2018 年以前名為中國合成橡膠）",
+              "CSRC (BVI) Ltd.（100%）",
+              "CSRC (Singapore) Pte. Ltd.（100%）",
+              "Continental Carbon India Limited（100%；現名 Continental Carbon India Pvt Ltd.）"
+            ],
+            "basis": "國際中橡（當時名為中國合成橡膠股份有限公司，2018 年以分割方式轉型為投資控股公司並更名，上市代號同為 2104）105 年度年報（https://media.taiwancement.com/web_csrc/report/stockholders/106%20105%E5%B9%B4%E5%A0%B1.pdf，Wayback 20261031054221）PDF 第 232 頁（印刷頁 -228-）關係企業組織圖，資料日期 2016-12-31：中國合成橡膠 → CSRC (BVI) Ltd. 100% → CSRC (Singapore) Pte. Ltd. 100% → Continental Carbon India Ltd. 100.00%；同年報 PDF 第 234 頁各關係企業董監資料（2017-04-30）：Continental Carbon India Ltd. 88,917,140 股、持股 100.00%。這份年報 2017 年刊印，早於事件，controlSince 取 2016（決策 38 第 1 款）。106 年度年報（https://media.taiwancement.com/web_csrc/report/stockholders/107%20106%E5%B9%B4%E5%A0%B1.pdf，Wayback 20261031054244）PDF 第 125 頁合併財報子公司表，2017-12-31、2016-12-31 都是 100.00%。最新一期相同：2026 年第二季合併財報（https://media.taiwancement.com/web_csrc/report/financial/115%202Q%20%E8%B2%A1%E5%A0%B1.pdf，Wayback 20261031054342）PDF 第 21 頁子公司表，2026-06-30、2025-12-31 CSRC (Singapore) 持有 Continental Carbon India Pvt Ltd. 100.00%（PDF 第 65 頁另列 408,390,634 股）。以上都取自公司官網（media.taiwancement.com，沒有 robots 檔）。",
+            "companyName": "國際中橡投資控股股份有限公司",
+            "companyShort": "國際中橡",
+            "shown": true,
+            "reason": "own"
+          }
+        ]
+      }
+    ],
     "enforcementSummary": {
       "count": 15,
       "penaltyTotalUSD": 22763165,
@@ -172373,7 +172479,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [
@@ -173154,7 +173260,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [],
@@ -173536,7 +173642,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [
@@ -173982,7 +174088,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [],
@@ -174466,7 +174572,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [],
@@ -177032,7 +177138,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [
@@ -177485,7 +177591,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [],
@@ -177562,7 +177668,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [],
@@ -177775,7 +177881,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [],
@@ -178167,7 +178273,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [],
@@ -178503,7 +178609,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [],
@@ -178576,7 +178682,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [],
@@ -178653,7 +178759,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [],
@@ -178764,7 +178870,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [],
@@ -178880,7 +178986,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [],
@@ -178991,7 +179097,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [],
@@ -179116,7 +179222,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [],
@@ -179204,7 +179310,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [],
@@ -179546,7 +179652,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [],
@@ -179940,7 +180046,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [],
@@ -184928,7 +185034,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.128Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [
@@ -185145,7 +185251,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.129Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [],
@@ -185475,7 +185581,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.129Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [],
@@ -185822,7 +185928,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.129Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [],
@@ -186432,7 +186538,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.129Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [],
@@ -201511,7 +201617,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.129Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [],
@@ -201861,7 +201967,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.129Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [
@@ -202106,7 +202212,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.129Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [],
@@ -202286,7 +202392,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.129Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [
@@ -202568,7 +202674,7 @@
     ],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.129Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [
@@ -203540,7 +203646,7 @@
     "enforcement": [],
     "metadata": {
       "dataSource": "EPA ECHO - 台灣企業境外投資",
-      "lastUpdated": "2026-10-31T00:04:08.129Z"
+      "lastUpdated": "2026-10-31T05:49:44.004Z"
     },
     "inEpaData": true,
     "news": [],
@@ -203760,7 +203866,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -203897,7 +204003,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -204731,7 +204837,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）、污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 2,
@@ -204868,7 +204974,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -205703,7 +205809,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）、污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 2,
@@ -206034,7 +206140,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -206161,7 +206267,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -206286,7 +206392,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -207119,7 +207225,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -207258,7 +207364,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -207317,7 +207423,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -208723,7 +208829,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -209127,7 +209233,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -209531,7 +209637,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -210127,7 +210233,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）、污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 2,
@@ -210459,7 +210565,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -210582,7 +210688,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -210719,7 +210825,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -210880,7 +210986,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -210939,7 +211045,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -211062,7 +211168,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -211187,7 +211293,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -211246,7 +211352,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -211578,7 +211684,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 11,
@@ -211637,7 +211743,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -211885,7 +211991,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 8,
@@ -212022,7 +212128,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -212332,7 +212438,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 10,
@@ -212391,7 +212497,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -212612,7 +212718,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 7,
@@ -212672,7 +212778,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -212731,7 +212837,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -212819,7 +212925,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 2,
@@ -212879,7 +212985,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -212939,7 +213045,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -213060,7 +213166,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.228Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -213231,7 +213337,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.229Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -213479,7 +213585,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T00:04:08.229Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 8,
@@ -213614,7 +213720,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.229Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -213836,7 +213942,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.229Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -214156,7 +214262,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.229Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -214291,7 +214397,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.229Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -214414,7 +214520,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.229Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -214557,7 +214663,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.229Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -214619,7 +214725,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T00:04:08.229Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 1,
@@ -214867,7 +214973,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "Violation Tracker（Good Jobs First）",
-      "lastUpdated": "2026-10-31T00:04:08.229Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 8,
@@ -215217,7 +215323,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.229Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -215354,7 +215460,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.229Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -215568,7 +215674,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.229Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -215693,7 +215799,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.229Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -215816,7 +215922,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.229Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -215939,7 +216045,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.229Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -216157,7 +216263,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.229Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
@@ -216383,7 +216489,7 @@
     "inEpaData": false,
     "metadata": {
       "dataSource": "污染事件（官方文件與新聞報導）",
-      "lastUpdated": "2026-10-31T00:04:08.229Z"
+      "lastUpdated": "2026-10-31T05:49:44.069Z"
     },
     "enforcementSummary": {
       "count": 0,
